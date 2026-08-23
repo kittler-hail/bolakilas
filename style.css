@@ -1,0 +1,1127 @@
+/* =========================================================
+   BOLAKILAS — STYLE.CSS  (v6 — modern minimalis, palet indigo/magenta)
+   Redesign dari tema "koran klasik" (merah tua/krem) ke palet baru
+   yang diminta: indigo/ungu sebagai warna utama (interaktif, brand),
+   magenta sebagai aksen istimewa (live, sorotan), rust/peach/pale-
+   yellow sebagai aksen hangat (status/badge), abu netral untuk teks
+   sekunder, dan latar nyaris-putih sejuk (bukan krem lagi).
+
+   Prinsip desain: kartu putih bersih di atas latar #F5F8FF (bukan
+   garis tegas ala cetak lagi), border & shadow jauh lebih lembut,
+   radius sedikit lebih besar & konsisten, transisi/animasi lebih
+   halus (lihat MOTION di bagian bawah file), dan status fokus yang
+   jelas untuk aksesibilitas keyboard (lihat :focus-visible).
+
+   CATATAN SEMANTIK WARNA (tidak semua bisa dari 11 kode yang diberi):
+   - Menang/positif = INDIGO (bukan hijau) — palet yang diberi tidak
+     punya hijau, jadi konvensi "hijau=menang" diganti "indigo=menang,
+     rust=kalah, abu=seri" — tetap gampang dipindai karena SELALU
+     dipasangkan dengan label huruf (M/S/K) atau teks, bukan warna saja.
+   - Tim Away di meter probabilitas Big Match sengaja pakai ungu-muda
+     (--blue-light) supaya beda kasat mata dari Home (indigo penuh),
+     bukan karena "away = kurang penting".
+   - Kartu kuning tetap warna kuning asli (bukan dari palet) — itu
+     representasi visual kartu sungguhan, bukan bagian identitas brand.
+   ========================================================= */
+
+:root {
+  /* ---------- PALET UTAMA (11 kode dari user) ---------- */
+  --sky:   #FFDDCC;   /* peach — aksen hangat kecil / badge lembut */
+  --blue:  #3E37B1;   /* indigo utama — tombol, link, ikon aktif (nama var dipertahankan) */
+  --navy:  #211A3D;   /* tinta gelap (indigo-black) — teks & elemen gelap */
+  --paper: #FFFFFF;   /* putih — teks di atas tombol/chip indigo */
+
+  --white: #211A3D;       /* teks utama — tinta indigo-gelap, bukan hitam polos */
+  --muted: #5C5A66;       /* teks sekunder — abu netral digelapkan dari #8C8C8D supaya kontras cukup (AA) di atas putih */
+  --muted-dark: #8C8C8D;  /* teks tersier / label kecil — abu asli dari palet */
+  --cyan: #3E37B1;         /* alias lama, disamakan dengan indigo utama */
+  --blue-light: #6F54B3;  /* ungu muda — aksen sekunder, tim "away", chip lembut */
+  --blue-dark: #422981;   /* ungu tua — hover/pressed, border aktif */
+  --blue-deep: #57025A;   /* plum tua — aksen paling gelap, footer/overlay */
+  --accent: #9F05A2;      /* magenta — aksen istimewa: live dot, Big Match, sorotan */
+  --black: #211A3D;
+  --line: rgba(33,26,61,.14);
+  --line-bright: rgba(33,26,61,.30);
+  --shadow: rgba(33,26,61,.12);
+  --card-bg: #FFFFFF;
+  --page-bg: #F5F8FF;
+  --grid-line: rgba(33,26,61,.03);
+
+  /* ---------- elemen dengan nilai tetap ---------- */
+  --surface-1: rgba(62,55,177,.05);
+  --surface-2: rgba(62,55,177,.07);
+  --header-bg: #3E37B1; /* indigo solid — dipakai sebagai background-color fallback di .topbar, HARUS warna polos (bukan gradient), lihat pemakaiannya */
+  --ticker-bg: #FFFFFF;
+  --hero-bg: #FFFFFF;
+  --bigmatch-bg: #FFF4EE;
+  --bigmatch-overlay: linear-gradient(90deg, rgba(245,248,255,.95), rgba(245,248,255,.55), rgba(245,248,255,.95));
+  --stats-bg: #FFFFFF;
+  --footer-bg: #180E33;
+  --cbox-bg: #FFFFFF;
+  --hero-side-bg: #FFFFFF;
+  --search-bg: #FFFFFF;
+  --filter-bg: #FFFFFF;
+  --probability-bg: #F3F1FC;
+  --toast-bg: #211A3D;
+  --toast-color: #F5F8FF;
+  --meter-track: rgba(33,26,61,.08);
+  --meter-away: #6F54B3;
+  --scroll-bg: #FFFFFF;
+  --win: #3E37B1;
+  --draw-c: #8C8C8D;
+  --lose: #B64531;
+
+  /* ---------- aksen hangat tambahan (dari palet) ---------- */
+  --peach: #FFDDCC;
+  --pale-yellow: #F5EEB8;
+  --rust: #B64531;
+  --rust-dark: #7A2F1E; /* diturunkan dari --rust untuk teks di atas chip peach/pale-yellow, supaya tetap AA-kontras */
+
+  /* ---------- garis tepi solid (dulu efek neon) ---------- */
+  --neon-glow: rgba(33,26,61,.20);
+  --neon-glow-soft: rgba(33,26,61,.10);
+
+  /* ---------- durasi & easing gerak (lihat MOTION) ---------- */
+  --ease-out: cubic-bezier(.16,1,.3,1);
+  --dur-fast: .18s;
+  --dur-base: .28s;
+  --dur-slow: .5s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  color: var(--white);
+  /* Latar polos nyaris-putih sejuk — flat, tanpa tekstur/pola cetak,
+     sesuai arah minimalis yang diminta (kartu putih-lah yang jadi
+     lapisan visual, bukan tekstur di latar). */
+  background: var(--page-bg);
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; }
+
+/* =========================================================
+   AKSESIBILITAS — status fokus keyboard
+   Semua elemen interaktif dapat cincin fokus yang jelas & konsisten
+   (warna aksen magenta, kontras tinggi di atas latar apa pun) begitu
+   dinavigasi lewat Tab — TIDAK cuma :hover, supaya pengguna keyboard/
+   pembaca layar tetap tahu posisi fokusnya. :focus-visible dipakai
+   (bukan :focus polos) supaya klik mouse biasa tidak memicu cincin
+   ini, hanya navigasi keyboard.
+   ========================================================= */
+a:focus-visible, button:focus-visible, input:focus-visible,
+[tabindex]:focus-visible, .filter-btn:focus-visible, .nav a:focus-visible {
+  outline: 2.5px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.page {
+  width: min(1080px, calc(100% - 24px));
+  margin: auto;
+  padding: 18px 0 44px;
+}
+
+/* =========================================================
+   MOTION — animasi & transisi umum
+   Prinsip: halus & singkat (180-350ms), easing "ease-out" custom
+   (var(--ease-out)) yang terasa lebih modern daripada ease bawaan,
+   dan SELALU dimatikan otomatis kalau pengguna mengaktifkan
+   "Reduce Motion" di OS-nya (lihat @media prefers-reduced-motion di
+   :root, berlaku global untuk semua animasi/transisi di file ini).
+   ========================================================= */
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.reveal { opacity: 0; transform: translateY(16px); transition: opacity var(--dur-slow) var(--ease-out), transform var(--dur-slow) var(--ease-out); }
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* HALAMAN (page-router.js) — cuma .active yang tampil, sisanya
+   disembunyikan total (bukan cuma opacity) supaya tidak makan
+   ruang/scroll & tidak ikut ke-tab lewat keyboard. Transisi ganti
+   halaman dikasih fade-in singkat (animation, bukan transition — bisa
+   dipadukan dengan display:none/block yang memang tidak bisa
+   di-transition) supaya pindah tab terasa halus, bukan "meloncat". */
+.app-view { display: none; }
+.app-view.active { display: block; animation: fadeIn var(--dur-base) var(--ease-out); }
+
+/* Tombol/kartu interaktif: sentuhan/klik terasa "ditekan" — feedback
+   taktil kecil yang bikin situs terasa lebih responsif, bukan cuma
+   ganti warna hover. Dikecualikan elemen yang punya animasi hover
+   sendiri yang lebih spesifik (transform berbeda, mis. translateY),
+   supaya tidak saling menimpa. */
+button, .filter-btn, .vote-btn, .pm-chip, a.mc-live-btn {
+  transition: transform var(--dur-fast) var(--ease-out), background var(--dur-fast), border-color var(--dur-fast), color var(--dur-fast), box-shadow var(--dur-fast);
+}
+button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
+  transform: scale(.96);
+}
+
+/* =========================================================
+   TOPBAR
+   ========================================================= */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  flex-wrap: nowrap;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* Header dengan tekstur: pola titik halus + sorotan magenta radial +
+     sheen diagonal, semua di atas gradasi indigo→ungu-tua — beberapa
+     lapisan gradient/pola (bukan gambar/asset baru) supaya kepala
+     situs tidak terasa flat polos. */
+  background:
+    radial-gradient(circle, rgba(255,255,255,.5) 1px, transparent 1.4px) 0 0 / 16px 16px,
+    radial-gradient(ellipse 480px 220px at 88% -20%, rgba(159,5,162,.55), transparent 70%),
+    linear-gradient(160deg, rgba(255,255,255,.10), rgba(0,0,0,.08) 70%),
+    linear-gradient(115deg, var(--blue), var(--blue-dark) 85%);
+  border-bottom: none;
+  box-shadow: 0 2px 14px rgba(33,26,61,.18);
+  padding: 11px 16px;
+  margin-left: -12px;
+  margin-right: -12px;
+  width: calc(100% + 24px);
+}
+
+.brand { flex: none; }
+.brand img { width: 172px; height: auto; object-fit: contain; }
+.brand-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: .5px; color: var(--paper); }
+
+/* NAV — satu baris rapi di semua ukuran layar ≥650px (scroll horizontal
+   kalau sempit, bukan melipat jadi dua baris yang berantakan); di bawah
+   650px nav disembunyikan & digantikan dropdown hamburger (lihat RESPONSIVE). */
+/* Pill nav "kaca buram" (glassmorphic) mengambang di atas gradasi
+   topbar — beda total dari versi lama (kotak putih solid bersudut
+   tajam). Item aktif dapat pil putih yang menonjol dari kaca buram
+   di sekelilingnya, jadi status halaman aktif tetap jelas kebaca. */
+.nav {
+  display: flex; gap: 2px; padding: 4px;
+  border: 1px solid rgba(255,255,255,.18); border-radius: 999px;
+  background: rgba(255,255,255,.10);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  flex: 0 1 auto; min-width: 0;
+  overflow-x: auto; flex-wrap: nowrap;
+  scrollbar-width: none; -ms-overflow-style: none;
+}
+.nav::-webkit-scrollbar { display: none; }
+.nav a { flex: none; white-space: nowrap; padding: 10px 20px; border-radius: 999px; color: rgba(255,255,255,.78); font-size: 13.5px; font-weight: 700; transition: var(--dur-fast) var(--ease-out); }
+.nav a:hover { color: #fff; background: rgba(255,255,255,.14); }
+.nav a.active { color: var(--blue); background: #fff; box-shadow: 0 3px 10px rgba(24,14,46,.22); }
+
+.about-open-btn { flex: none; padding: 10px 18px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: 13px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.about-open-btn:hover { color: var(--paper); background: var(--blue); border-color: var(--blue); }
+
+/* Duduk langsung di atas topbar (bukan di dalam pill .nav kaca
+   buram), jadi butuh warna sendiri supaya tetap kebaca. */
+.about-open-btn--topbar { color: var(--paper); border-color: rgba(255,255,255,.35); background: rgba(255,255,255,.08); }
+.about-open-btn--topbar:hover { background: var(--paper); color: var(--blue); border-color: var(--paper); }
+
+.topbar-actions { display: flex; align-items: center; gap: 8px; flex: none; }
+
+/* HAMBURGER (tampil hanya di mobile, lihat RESPONSIVE) — duduk di topbar
+   merah juga, jadi kontrasnya beda dari tombol lain yang di atas kertas. */
+.nav-toggle {
+  display: none;
+  width: 42px; height: 42px; flex: none;
+  border-radius: 4px;
+  border: 1px solid rgba(245,248,255,.4);
+  background: rgba(245,248,255,.12);
+  cursor: pointer;
+  flex-direction: column; align-items: center; justify-content: center; gap: 5px;
+  transition: var(--dur-fast) var(--ease-out);
+}
+.nav-toggle:hover { background: rgba(245,248,255,.22); }
+.nav-toggle span { width: 19px; height: 2.5px; border-radius: 2px; background: var(--paper); transition: transform .25s ease, opacity .2s ease; }
+.nav-toggle.active span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+.nav-toggle.active span:nth-child(2) { opacity: 0; }
+.nav-toggle.active span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+/* =========================================================
+   STATS BAR
+   ========================================================= */
+.stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: 8px 0 14px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 999px;
+  background: var(--stats-bg);
+  box-shadow: 0 1px 2px rgba(33,26,61,.05), 0 1px 12px rgba(33,26,61,.04);
+  flex-wrap: wrap;
+}
+.stat-item { display: flex; flex-direction: column; align-items: center; padding: 0 20px; }
+.stat-num { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: var(--blue); }
+.stat-label { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-top: 2px; }
+.stat-divider { width: 1px; height: 28px; background: var(--line); }
+
+/* =========================================================
+   SECTION
+   ========================================================= */
+.section { margin-top: 40px; }
+.section-title { display: flex; justify-content: space-between; align-items: end; margin: 26px 2px 16px; flex-wrap: wrap; gap: 8px; }
+.section-title h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 21px; margin: 0;
+  letter-spacing: -.3px; color: var(--white);
+  display: flex; align-items: center; gap: 10px;
+}
+.section-title h2::before {
+  content: ""; width: 9px; height: 9px; border-radius: 3px; flex: none;
+  background: linear-gradient(135deg, var(--blue), var(--accent));
+}
+.section-title small { color: var(--muted-dark); font-size: 10.5px; }
+
+@keyframes blink { 50% { opacity: .25; } }
+.live-dot-small { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: blink 1.3s infinite; flex: none; }
+
+/* =========================================================
+   TICKER  (kini menampilkan headline berita, dipelankan)
+   ========================================================= */
+.ticker { margin: 14px 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--ticker-bg); }
+.ticker-track { display: flex; width: max-content; animation: scroll 110s linear infinite; }
+.ticker-track:hover { animation-play-state: paused; }
+.ticker-item { display: flex; align-items: center; gap: 9px; padding: 10px 22px; font-size: 11.5px; font-weight: 700; color: var(--white); white-space: nowrap; border-right: 1px solid var(--line); }
+.ticker-item .tk-tag { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); background: rgba(62,55,177,.10); padding: 2px 8px; border-radius: 3px; }
+.ticker-item .tk-time { color: var(--muted-dark); font-weight: 500; }
+@keyframes scroll { to { transform: translateX(-50%); } }
+
+/* =========================================================
+   BIG MATCH RADAR
+   ========================================================= */
+.radar-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.radar-card {
+  position: relative; overflow: hidden;
+  border: 1px solid var(--line); border-radius: 10px; padding: 15px;
+  background: var(--card-bg); transition: var(--dur-fast) var(--ease-out);
+  border-left: 3px solid var(--blue);
+}
+.radar-card:hover { transform: translateY(-3px); border-color: var(--blue); border-left-color: var(--blue); box-shadow: 0 8px 20px var(--shadow); }
+.radar-rank { position: absolute; top: 11px; right: 13px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: rgba(62,55,177,.18); }
+.radar-league { font-size: 9.5px; color: var(--blue); font-weight: 800; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 9px; }
+.radar-teams { font-size: 13px; font-weight: 800; margin-bottom: 11px; line-height: 1.5; }
+.radar-teams .vs-small { color: var(--muted); font-weight: 500; font-size: 10.5px; }
+.radar-meta { display: flex; justify-content: space-between; align-items: center; font-size: 10px; color: var(--muted); }
+.radar-rating { display: flex; align-items: center; gap: 6px; }
+.radar-rating-bar { width: 44px; height: 5px; border-radius: 4px; background: var(--meter-track); overflow: hidden; }
+.radar-rating-bar span { display: block; height: 100%; background: var(--blue); }
+.radar-rating b { color: var(--blue); font-family: 'Space Mono', monospace; }
+
+/* =========================================================
+   BIG MATCH
+   ========================================================= */
+.bigmatch {
+  position: relative; overflow: hidden;
+  border: none; border-radius: 24px; padding: 32px;
+  min-height: 380px; background-color: var(--bigmatch-bg); background-size: cover; background-position: center;
+  box-shadow: 0 20px 50px rgba(159,5,162,.14), 0 2px 8px rgba(33,26,61,.06);
+}
+/* Pita gradasi tipis di puncak kartu — satu-satunya sentuhan "border"
+   yang tersisa, dipakai sebagai aksen bukan bingkai penuh. */
+.bigmatch::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: linear-gradient(90deg, var(--blue), var(--accent)); z-index: 3;
+}
+.bigmatch-overlay { position: absolute; inset: 0; background: var(--bigmatch-overlay); z-index: 0; }
+
+.bm-tag { position: relative; z-index: 2; display: flex; align-items: center; gap: 8px; font-size: 10.5px; font-weight: 800; color: var(--blue); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 16px; }
+
+.bm-teams { display: flex; align-items: center; justify-content: center; gap: 28px; position: relative; z-index: 2; }
+.bm-team { display: flex; flex-direction: column; align-items: center; gap: 11px; flex: 1; }
+.bm-logo-wrap { width: 100px; height: 100px; display: grid; place-items: center; border-radius: 50%; background: var(--card-bg); border: 1px solid var(--line-bright); box-shadow: 0 8px 20px rgba(33,26,61,.08); }
+.bm-logo-wrap img { width: 74px; height: 74px; object-fit: contain; }
+.bm-team-name { font-weight: 800; font-size: 14px; text-align: center; }
+.bm-vs {
+  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: #fff;
+  min-width: 44px; height: 44px; padding: 0 6px; flex: none; border-radius: 999px;
+  background: linear-gradient(135deg, var(--blue), var(--accent));
+  display: grid; place-items: center; box-shadow: 0 6px 16px rgba(159,5,162,.3);
+  white-space: nowrap;
+}
+/* Begitu ada skor asli (mis. "2 - 1"), teksnya lebih lebar dari
+   lingkaran "VS" — badge otomatis melebar jadi pil (min-width + padding
+   di atas, border-radius 999px bukan 50% tetap) supaya angka SELALU
+   sejajar horizontal, tidak pernah kepotong/turun baris. */
+.bm-vs.bm-vs--score { font-family: 'Space Mono', monospace; font-size: 15px; width: auto; padding: 0 12px; }
+
+.bm-info { position: relative; z-index: 2; display: flex; justify-content: center; gap: 22px; margin-top: 20px; flex-wrap: wrap; font-size: 11px; color: var(--muted); }
+.bm-info b { color: var(--white); }
+
+.bm-predict { position: relative; z-index: 2; margin-top: 20px; }
+.prediction-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 11px; font-size: 10.5px; color: var(--muted); }
+.prediction-heading strong { color: var(--blue); font-family: 'Space Mono', monospace; font-size: 17px; }
+
+.probability { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 11px; }
+.probability-row { display: flex; justify-content: space-between; font-size: 9.5px; margin-bottom: 6px; color: var(--muted); }
+.meter { height: 8px; border-radius: 4px; background: var(--meter-track); overflow: hidden; display: flex; }
+.meter span { height: 100%; width: 0; transition: width .8s cubic-bezier(.4,0,.2,1); }
+.meter .home { background: var(--blue); }
+.meter .draw { background: var(--draw-c); }
+.meter .away { background: var(--meter-away); }
+.probability-labels { display: flex; justify-content: space-between; margin-top: 5px; font-size: 9px; color: var(--muted-dark); }
+.bm-analysis { color: var(--muted); font-size: 11px; line-height: 1.65; margin: 13px 0 0; position: relative; z-index: 2; }
+
+/* Proyeksi 2D live: bola momentum ilustratif, bukan posisi pemain/bola
+   asli — ESPN tidak menyediakan data tracking itu secara publik/gratis,
+   jadi posisi bola cuma mencerminkan possession/shots dari statistik
+   live yang tersedia (lihat bm-live-pitch.js). */
+.bm-pitch-block { position: relative; z-index: 2; margin-top: 18px; }
+.bm-pitch-toggle { margin-top: 0; }
+.bm-pitch-live-tag { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 3px; background: var(--blue); color: #fff; font-size: 8px; letter-spacing: .5px; vertical-align: middle; }
+.bm-pitch-block .collapse-panel { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 13px; }
+.bm-pitch { position: relative; width: 100%; aspect-ratio: 300 / 180; border-radius: 10px; overflow: hidden; background: linear-gradient(180deg, #2b5e35, #244f2c); }
+.bm-pitch-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.bm-pitch-outline { fill: none; stroke: rgba(255,255,255,.35); stroke-width: 1.4; }
+.bm-pitch-ball { position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.18), 0 2px 6px rgba(0,0,0,.35); display: grid; place-items: center; font-size: 10px; font-weight: 900; color: var(--blue); transition: left 1.1s cubic-bezier(.4,0,.2,1); animation: bm-ball-bob 1.6s ease-in-out infinite; }
+.bm-pitch-arrow.to-away { color: var(--blue-light); }
+.bm-pitch-arrow.to-home { color: var(--blue); }
+@keyframes bm-ball-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+.bm-pitch-possession { display: flex; align-items: center; gap: 9px; margin-top: 11px; font-size: 10px; font-weight: 800; color: var(--white); }
+.bm-pitch-possession-bar { flex: 1; height: 7px; border-radius: 4px; background: var(--meter-track); overflow: hidden; }
+.bm-pitch-possession-bar span { display: block; height: 100%; background: var(--blue); transition: width .9s cubic-bezier(.4,0,.2,1); }
+.bm-pitch-stats { margin-top: 8px; font-size: 10px; color: var(--muted); }
+.bm-pitch-note { margin-top: 8px; font-size: 9.5px; color: var(--muted-dark); line-height: 1.5; }
+
+.bm-extra { position: relative; z-index: 2; margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.bm-block { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 13px; }
+.bm-block-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); margin-bottom: 9px; }
+.bm-empty-note { font-size: 10.5px; color: var(--muted-dark); line-height: 1.6; }
+
+.h2h-list { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.h2h-list li { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); background: rgba(62,55,177,.06); border-radius: 4px; padding: 6px 9px; }
+.h2h-list b { color: var(--white); font-family: 'Space Mono', monospace; }
+.h2h-summary { display: flex; gap: 13px; font-size: 10px; color: var(--muted); }
+.h2h-summary b { color: var(--blue); }
+
+.form-team { margin-bottom: 11px; }
+.form-team:last-child { margin-bottom: 0; }
+.form-team-name { font-size: 11px; font-weight: 800; margin-bottom: 6px; }
+.form-badges { display: flex; gap: 4px; margin-bottom: 8px; }
+.form-badge { width: 19px; height: 19px; border-radius: 4px; display: grid; place-items: center; font-size: 9px; font-weight: 800; color: #fff; }
+/* Warna tetap (bukan var tema) supaya teks putih di dalamnya selalu kontras. */
+.form-badge.W { background: var(--win); }
+.form-badge.D { background: var(--draw-c); }
+.form-badge.L { background: var(--lose); }
+.form-bar-row { display: flex; align-items: center; gap: 8px; font-size: 9px; color: var(--muted); margin-bottom: 5px; }
+.form-bar-row span:first-child { width: 46px; flex-shrink: 0; }
+.form-bar-track { flex: 1; height: 6px; border-radius: 4px; background: var(--meter-track); overflow: hidden; }
+.form-bar-track span { display: block; height: 100%; background: var(--blue); }
+.form-bar-val { width: 30px; text-align: right; color: var(--white); font-weight: 700; }
+
+.vote-block { grid-column: 1 / -1; }
+.vote-buttons { display: flex; gap: 8px; margin-bottom: 12px; }
+.vote-btn { flex: 1; padding: 10px 6px; border-radius: 4px; border: 1px solid var(--line); background: rgba(62,55,177,.06); color: var(--white); font-size: 10.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); text-align: center; }
+.vote-btn:hover { border-color: var(--blue); }
+.vote-btn.selected { background: var(--blue); color: #fff; border-color: var(--blue-dark); }
+.vote-results { display: flex; flex-direction: column; gap: 7px; }
+.vote-row { display: flex; align-items: center; gap: 8px; font-size: 10px; color: var(--muted); }
+.vote-row span:first-child { width: 60px; flex-shrink: 0; }
+.vote-row .form-bar-track { flex: 1; }
+.vote-note { font-size: 9.5px; color: var(--muted-dark); margin-top: 8px; }
+
+/* =========================================================
+   LOGO FALLBACK
+   ========================================================= */
+.logo-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: var(--blue); text-align: center; }
+.bm-logo-wrap.logo-fallback { font-size: 22px; }
+.mc-badge.logo-fallback { font-size: 10px; font-weight: 800; }
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+.search-wrap { position: relative; margin: 0 0 11px; }
+.search-icon { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); font-size: 10px; font-weight: 800; letter-spacing: .3px; color: var(--muted-dark); text-transform: uppercase; pointer-events: none; }
+.search-input {
+  width: 100%; padding: 13px 18px 13px 64px;
+  border: 1px solid transparent; border-radius: 999px;
+  background: var(--surface-2); color: var(--white);
+  font-size: 13px; font-family: 'Plus Jakarta Sans', sans-serif;
+  outline: none; transition: var(--dur-fast) var(--ease-out);
+}
+.search-input::placeholder { color: var(--muted); }
+.search-input:focus { background: var(--card-bg); border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+
+/* =========================================================
+   FILTER
+   ========================================================= */
+.filters-wrap { position: relative; margin: 0 0 10px; }
+.filters-wrap.filters-status-wrap { margin-bottom: 12px; }
+.day-tabs-wrap { margin-bottom: 12px; }
+.filters-wrap::before, .filters-wrap::after {
+  content: ""; position: absolute; top: 0; bottom: 0; width: 24px; z-index: 2; pointer-events: none;
+}
+.filters-wrap::before { left: 0; background: linear-gradient(90deg, var(--page-fade, var(--card-bg)), transparent); }
+.filters-wrap::after { right: 0; background: linear-gradient(270deg, var(--page-fade, var(--card-bg)), transparent); }
+.filters {
+  display: flex; gap: 8px; flex-wrap: nowrap;
+  overflow-x: auto; scroll-snap-type: x proximity;
+  padding: 2px 2px 6px; margin: 0;
+  scrollbar-width: none; -ms-overflow-style: none;
+}
+.filters::-webkit-scrollbar { display: none; }
+.filter-btn { flex: none; scroll-snap-align: start; white-space: nowrap; padding: 9px 17px; border-radius: 999px; border: 1px solid transparent; background: var(--surface-2); color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.filter-btn:hover { color: var(--blue); background: rgba(62,55,177,.14); }
+.filter-btn.active { background: var(--blue); color: #fff; box-shadow: 0 4px 12px rgba(62,55,177,.3); }
+.filter-btn.status-btn { font-size: 10px; padding: 8px 14px; }
+.filter-btn.day-btn { font-weight: 800; }
+.filter-btn.day-btn .day-sub { display: block; font-size: 8.5px; font-weight: 600; opacity: .75; }
+
+/* =========================================================
+   MATCH GRID
+   ========================================================= */
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+
+.schedule-scroll {
+  max-height: 700px; overflow-y: auto; overflow-x: hidden;
+  padding: 4px 10px 4px 2px; margin-right: -6px;
+  scrollbar-width: thin; scrollbar-color: rgba(33,26,61,.30) transparent;
+}
+.schedule-scroll::-webkit-scrollbar { width: 7px; }
+.schedule-scroll::-webkit-scrollbar-track { background: transparent; }
+.schedule-scroll::-webkit-scrollbar-thumb { background: rgba(33,26,61,.28); border-radius: 99px; }
+.schedule-scroll::-webkit-scrollbar-thumb:hover { background: rgba(33,26,61,.45); }
+
+/* Kartu jadwal — bukan lagi kotak bergaris tegas: TANPA border, murni
+   dibedakan dari latar lewat shadow lembut ("floating card"), radius
+   lebih besar, & padding lebih lega. Badge status jadi pita bulat di
+   pojok kanan-atas (bukan baris penuh di puncak kartu), badge tim
+   sekarang bulat (avatar-style) bukan kotak. */
+.match-card {
+  position: relative; overflow: hidden;
+  border: none; border-radius: 16px; padding: 18px;
+  background: var(--card-bg); transition: var(--dur-base) var(--ease-out);
+  box-shadow: 0 1px 2px rgba(33,26,61,.06), 0 1px 12px rgba(33,26,61,.04);
+}
+.match-card:hover { transform: translateY(-3px); box-shadow: 0 16px 32px rgba(33,26,61,.12); }
+
+/* BIG MATCH highlight — dikasih warna magenta (--accent) supaya kartu
+   yang paling penting hari ini langsung menonjol dari kartu lain. */
+.match-card--big { background: linear-gradient(165deg, rgba(159,5,162,.06), rgba(159,5,162,.015)); box-shadow: 0 1px 2px rgba(159,5,162,.1), 0 4px 20px rgba(159,5,162,.10); }
+.match-card--big:hover { box-shadow: 0 16px 32px rgba(159,5,162,.18); }
+.mc-big-badge {
+  position: absolute; top: 14px; right: 14px; z-index: 2;
+  font-size: 8.5px; font-weight: 800; color: #fff; letter-spacing: .4px; text-transform: uppercase;
+  background: var(--accent); padding: 4px 10px; border-radius: 999px;
+}
+
+.mc-top { display: flex; justify-content: space-between; align-items: center; font-size: 10px; color: var(--muted); margin-bottom: 12px; font-weight: 700; letter-spacing: .1px; padding-right: 56px; }
+.mc-top .league { color: var(--blue); background: var(--surface-2); padding: 3px 9px; border-radius: 999px; font-size: 9.5px; font-weight: 800; }
+
+.mc-status { display: inline-flex; align-items: center; gap: 5px; margin-bottom: 12px; font-size: 9px; font-weight: 800; padding: 4px 10px; border-radius: 999px; letter-spacing: .3px; text-transform: uppercase; }
+.mc-status.soon { background: rgba(182,69,49,.14); color: var(--rust-dark); }
+.mc-status.upcoming { background: rgba(33,26,61,.06); color: var(--muted); }
+.mc-status.live { background: var(--accent); color: #fff; }
+.mc-status.finished { background: rgba(33,26,61,.06); color: var(--muted-dark); }
+.mc-status.postponed { background: rgba(182,69,49,.10); color: var(--lose); }
+.mc-live-dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; animation: blink 1.1s infinite; flex: none; }
+.mc-status.live .mc-live-dot { background: #fff; }
+
+.match-card--live { box-shadow: 0 1px 2px rgba(159,5,162,.12), 0 4px 24px rgba(159,5,162,.14); }
+.match-card--finished { opacity: .88; }
+
+.mc-vs--score { font-family: 'Space Mono', monospace; font-size: 17px; font-weight: 800; color: var(--white); }
+.mc-vs--live { color: var(--accent); }
+.mc-vs--final { color: var(--white); }
+
+.mc-events { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--surface-1); }
+.mc-event { display: flex; align-items: center; gap: 7px; font-size: 10px; color: var(--muted-dark); }
+.mc-event-dot { flex: none; width: 5px; height: 5px; border-radius: 50%; background: var(--blue); }
+.mc-event-dot.card-y { background: #C9A227; }
+.mc-event-dot.card-r { background: var(--lose); }
+.mc-event-text i { font-style: normal; color: var(--muted); }
+
+.mc-live-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  margin-top: 12px; padding: 11px; border-radius: 999px;
+  background: var(--accent);
+  color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .2px;
+}
+.mc-live-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 18px rgba(159,5,162,.35); }
+.live-ping { width: 6px; height: 6px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 0 rgba(255,255,255,.7); animation: livePing 1.4s infinite; flex: none; }
+@keyframes livePing { 0% { box-shadow: 0 0 0 0 rgba(255,255,255,.6); } 70% { box-shadow: 0 0 0 7px rgba(255,255,255,0); } 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); } }
+
+.mc-teams { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.mc-team { display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; text-align: center; }
+.mc-badge { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); color: var(--blue); font-size: 11px; font-weight: 800; border: 1px solid var(--line-bright); }
+.mc-badge-image img { width: 29px; height: 29px; object-fit: contain; }
+.mc-name { font-size: 11.5px; font-weight: 700; }
+.mc-vs { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); font-weight: 700; }
+.mc-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 10px; color: var(--muted); }
+.mc-pred { color: var(--blue); font-weight: 800; font-family: 'Space Mono', monospace; }
+
+.mc-detail-toggle { width: 100%; margin-top: 8px; padding: 7px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--muted); font-size: 9.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.mc-detail-toggle:hover { color: var(--blue); border-color: var(--blue); }
+.mc-detail { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+.mc-detail.open { max-height: 220px; margin-top: 9px; }
+.mc-detail-inner { padding-top: 9px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 9px; }
+
+/* Toggle detail gol/kartu di kartu jadwal — collapsed secara default
+   supaya tinggi kartu tidak mengikuti laga dengan gol terbanyak. */
+.mc-events-toggle { width: 100%; margin-top: 9px; padding: 7px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--muted); font-size: 9.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.mc-events-toggle:hover { color: var(--blue); border-color: var(--blue); }
+.mc-events-panel { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+.mc-events-panel.open { max-height: 420px; }
+
+/* Toggle generik untuk section panjang (Rekam Jejak, Klasemen, dst) */
+.section-toggle-btn { display: block; width: 100%; margin-top: 10px; padding: 10px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--blue); font-size: 11px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out); text-align: center; }
+.section-toggle-btn:hover { background: rgba(62,55,177,.08); border-color: var(--blue); }
+.standings-toggle-btn { margin: 0; border: none; border-radius: 0; border-top: 1px dashed var(--line); }
+
+.collapse-panel { max-height: 0; overflow: hidden; transition: max-height .35s ease; display: flex; flex-direction: column; gap: 8px; }
+.collapse-panel.open { max-height: 3000px; margin-top: 8px; }
+
+.standings-table tr.row-extra { display: none; }
+.standings-table.expanded tr.row-extra { display: table-row; }
+.mc-1x2-row { display: flex; gap: 5px; }
+.mc-1x2-item { flex: 1; text-align: center; background: rgba(62,55,177,.06); border-radius: 4px; padding: 6px 4px; }
+.mc-1x2-item .lbl { display: block; font-size: 8.5px; color: var(--muted-dark); text-transform: uppercase; margin-bottom: 2px; }
+.mc-1x2-item .val { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; color: var(--blue); }
+.mc-extra-row { display: flex; justify-content: space-between; font-size: 10px; color: var(--muted); }
+.mc-extra-row b { color: var(--white); }
+.mc-confidence { display: inline-block; font-size: 9px; font-weight: 800; padding: 3px 9px; border-radius: 4px; align-self: flex-start; }
+.mc-confidence.Tinggi { background: rgba(62,55,177,.14); color: var(--win); }
+.mc-confidence.Sedang { background: rgba(245,238,184,.65); color: var(--rust-dark); }
+.mc-confidence.Rendah { background: rgba(182,69,49,.14); color: var(--lose); }
+
+.match-empty { grid-column: 1 / -1; padding: 36px; text-align: center; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); }
+.match-empty-title { font-weight: 800; margin-bottom: 6px; }
+.match-empty-sub { font-size: 11px; color: var(--muted); }
+
+/* =========================================================
+   KLASEMEN LIGA
+   ========================================================= */
+.standings-wrap { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card-bg); }
+.standings-table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+.standings-table thead th { text-align: left; font-size: 9px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); font-weight: 800; padding: 10px 10px; border-bottom: 1px solid var(--line); background: rgba(62,55,177,.05); }
+.standings-table th.num, .standings-table td.num { text-align: center; width: 34px; }
+.standings-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.standings-table tr:last-child td { border-bottom: none; }
+.standings-table tr:hover td { background: rgba(62,55,177,.05); }
+.standings-team { display: flex; align-items: center; gap: 9px; font-weight: 700; }
+.standings-badge { width: 20px; height: 20px; border-radius: 4px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--blue); font-size: 8px; font-weight: 800; flex: none; }
+.standings-badge img { width: 14px; height: 14px; object-fit: contain; }
+.standings-pts { font-family: 'Space Mono', monospace; font-weight: 800; color: var(--blue); }
+.standings-rank { font-family: 'Space Mono', monospace; color: var(--muted); }
+.standings-rank.zone-top { color: var(--win); font-weight: 800; }
+.standings-rank.zone-bottom { color: var(--lose); font-weight: 800; }
+
+/* Header ikon (M / Menang-Seri-Kalah / SG / Poin) — arti lengkapnya
+   tetap ada lewat atribut title (muncul saat hover), supaya tampilan
+   ringkas tapi tidak kehilangan penjelasan. */
+.standings-table th.num .th-icon { width: 15px; height: 15px; display: block; margin: 0 auto; color: var(--muted-dark); }
+.standings-table th.num[title="Poin"] .th-icon { color: var(--blue); }
+.th-wdl-dots { display: flex; align-items: center; justify-content: center; gap: 3px; }
+.th-dot { width: 7px; height: 7px; border-radius: 50%; }
+.th-dot-w { background: var(--win); }
+.th-dot-d { background: var(--draw-c); }
+.th-dot-l { background: var(--lose); }
+.standings-empty { padding: 34px 20px; text-align: center; color: var(--muted); font-size: 11.5px; line-height: 1.7; }
+.standings-updated-note { font-size: 10px; color: var(--muted-dark); padding: 9px 12px; border-top: 1px dashed var(--line); }
+
+.topstats-row { display: flex; align-items: center; gap: 10px; padding: 10px 12px; font-size: 11.5px; border-bottom: 1px solid var(--line); }
+.topstats-row:last-child { border-bottom: none; }
+.topstats-rank { font-family: 'Space Mono', monospace; color: var(--muted); width: 18px; flex: none; text-align: center; }
+.topstats-photo { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; background: var(--surface-2); border: 1px solid var(--line-bright); flex: none; }
+.topstats-body { flex: 1; min-width: 0; }
+.topstats-name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.topstats-team { font-size: 10px; color: var(--muted-dark); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.topstats-value { font-family: 'Space Mono', monospace; font-weight: 800; color: var(--blue); flex: none; font-size: 13px; }
+
+/* =========================================================
+   REKAM JEJAK PREDIKSI
+   ========================================================= */
+.track-summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 14px; }
+.track-stat { border: 1px solid var(--line); border-radius: 10px; padding: 13px 8px; text-align: center; background: var(--card-bg); }
+.track-stat .tnum { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: var(--blue); display: block; }
+.track-stat .tlabel { font-size: 8.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; margin-top: 4px; display: block; }
+.track-list { display: flex; flex-direction: column; gap: 8px; }
+.track-item { display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--line); border-radius: 5px; padding: 10px 14px; background: var(--card-bg); font-size: 11.5px; }
+.track-item .tmatch { font-weight: 700; }
+.track-item .tscore { font-family: 'Space Mono', monospace; color: var(--muted); font-size: 10.5px; }
+.track-item .tmark { font-weight: 800; font-size: 13px; }
+.track-item .tmark.ok { color: var(--win); }
+.track-item .tmark.no { color: var(--lose); }
+.track-empty { padding: 28px; text-align: center; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); color: var(--muted); font-size: 11.5px; line-height: 1.7; }
+
+/* =========================================================
+   NEWS
+   ========================================================= */
+.news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.news-card {
+  display: block; border: none; border-radius: 18px; overflow: hidden;
+  background: var(--card-bg); transition: var(--dur-base) var(--ease-out);
+  text-decoration: none; color: inherit;
+  box-shadow: 0 1px 2px rgba(33,26,61,.06), 0 1px 12px rgba(33,26,61,.04);
+}
+.news-card:hover { transform: translateY(-4px); box-shadow: 0 20px 36px rgba(33,26,61,.14); }
+.news-thumb-wrap { width: 100%; aspect-ratio: 16 / 10; overflow: hidden; background: var(--surface-2); position: relative; }
+.news-thumb-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s var(--ease-out); }
+.news-card:hover .news-thumb-wrap img { transform: scale(1.07); }
+
+/* Varian lambang klub (berita transfer) — panel gradasi indigo→magenta
+   dengan lambang ditengah pakai contain (bukan cover) supaya utuh. */
+.news-thumb-wrap--logo {
+  display: grid; place-items: center; padding: 22px;
+  background: linear-gradient(150deg, var(--blue-dark), var(--blue) 55%, var(--accent) 130%);
+}
+.news-thumb-wrap--logo img { width: auto; height: 100%; max-width: 60%; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(0,0,0,.25)); transition: transform .5s var(--ease-out); }
+.news-card:hover .news-thumb-wrap--logo img { transform: scale(1.08); }
+
+/* Varian kosong (berita statis tanpa gambar/lambang) — ikon bola di
+   atas panel gradasi juga, supaya SEMUA kartu tetap punya sentuhan
+   visual, tidak ada yang polos teks doang. */
+.news-thumb-wrap--empty { display: grid; place-items: center; background: linear-gradient(150deg, var(--blue-light), var(--blue) 70%); font-size: 34px; }
+
+.news-body { padding: 16px 17px 18px; }
+.news-tag { display: inline-block; font-size: 9px; font-weight: 800; color: var(--blue); background: var(--surface-2); padding: 3px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 10px; }
+.news-card h3 { font-size: 13.5px; margin: 0 0 7px; line-height: 1.4; font-weight: 700; }
+.news-card p { font-size: 11px; color: var(--muted); line-height: 1.6; margin: 0 0 11px; }
+.news-foot { display: flex; justify-content: space-between; align-items: center; padding-top: 11px; border-top: 1px dashed var(--line); }
+.news-time { font-size: 9.5px; color: var(--muted-dark); }
+.news-read { font-size: 10px; font-weight: 800; color: var(--blue); }
+
+/* =========================================================
+   SOSIAL
+   ========================================================= */
+.social-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.social-card { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 10px; padding: 14px; background: var(--card-bg); transition: var(--dur-fast) var(--ease-out); }
+.social-card:hover { transform: translateY(-2px); border-color: var(--blue); box-shadow: 0 8px 20px var(--shadow); }
+.social-icon { width: 40px; height: 40px; border-radius: 5px; display: grid; place-items: center; background: rgba(62,55,177,.11); color: var(--blue); font-size: 17px; flex-shrink: 0; border: 1px solid rgba(62,55,177,.20); }
+.social-name { font-size: 12px; font-weight: 800; }
+.social-sub { font-size: 10px; color: var(--muted); }
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.footer { position: relative; overflow: hidden; margin-top: 36px; min-height: 160px; border-radius: 14px; border: 1px solid var(--line); background: var(--footer-bg); display: flex; align-items: center; justify-content: center; text-align: center; }
+.footer-image { position: absolute; inset: 0; background-image: linear-gradient(rgba(24,14,46,.72), rgba(24,14,46,.88)), url("images/footer.png"); background-size: cover; background-position: center; opacity: .85; }
+.footer-content { position: relative; z-index: 2; font-size: 11px; line-height: 1.8; color: #C9C3E8; }
+.footer strong { color: #F5F8FF; }
+
+/* =========================================================
+   SCROLL TO TOP
+   ========================================================= */
+.scroll-top-btn {
+  position: fixed; bottom: 22px; right: 22px; z-index: 200;
+  width: 40px; height: 40px; border-radius: 5px;
+  border: 1px solid var(--line);
+  background: var(--scroll-bg);
+  color: var(--blue); font-size: 17px; cursor: pointer;
+  opacity: 0; transform: translateY(12px);
+  transition: opacity .3s, transform .3s;
+  display: grid; place-items: center;
+}
+.scroll-top-btn.visible { opacity: 1; transform: translateY(0); }
+.scroll-top-btn:hover { background: rgba(62,55,177,.10); }
+
+/* =========================================================
+   TOAST
+   ========================================================= */
+.bk-toast {
+  position: fixed; bottom: 76px; left: 50%; transform: translateX(-50%) translateY(10px);
+  background: var(--toast-bg); border: 1px solid rgba(245,248,255,.25);
+  color: var(--toast-color); padding: 10px 20px; border-radius: 5px;
+  font-size: 12px; font-weight: 700;
+  opacity: 0; transition: opacity .3s, transform .3s; pointer-events: none; z-index: 300;
+  white-space: nowrap;
+}
+.bk-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 800px) {
+  .news-grid, .social-grid { grid-template-columns: 1fr; }
+  .stats-bar { flex-wrap: wrap; gap: 8px; }
+  .radar-grid { grid-template-columns: 1fr; }
+  .bm-extra { grid-template-columns: 1fr; }
+  .track-summary { grid-template-columns: repeat(2, 1fr); }
+  .standings-table { font-size: 10.5px; }
+}
+
+@media (max-width: 650px) {
+  .page { padding-top: 6px; }
+  .topbar { padding: 8px 14px; }
+  .brand img { width: 140px; }
+  .nav-toggle { display: flex; }
+  .about-open-btn--topbar { display: none; } /* teaser di halaman Beranda sudah jadi jalan masuknya di layar sempit */
+  .nav {
+    position: absolute; top: 100%; left: 10px; right: 10px; margin-top: 8px;
+    flex-direction: column; align-items: stretch; flex-wrap: nowrap;
+    max-width: none; overflow: hidden; overflow-y: auto;
+    max-height: 0; padding: 0 8px; opacity: 0; pointer-events: none;
+    background: var(--card-bg); border: 1px solid var(--line-bright); border-radius: 10px;
+    box-shadow: 0 10px 24px var(--shadow);
+    transition: max-height .3s ease, opacity .2s ease, padding .3s ease;
+  }
+  .nav.open { max-height: 70vh; padding: 8px; opacity: 1; pointer-events: auto; }
+  .nav a { padding: 14px 16px; border-radius: 4px; font-size: 15px; }
+  .grid { grid-template-columns: 1fr; }
+  .schedule-scroll { max-height: 540px; }
+  .bm-teams { gap: 12px; }
+  .bm-logo-wrap { width: 66px; height: 66px; border-radius: 10px; }
+  .bm-logo-wrap img { width: 48px; height: 48px; }
+  .bm-team-name { font-size: 11.5px; }
+  .bm-vs { font-size: 19px; }
+  .bm-info { gap: 11px; font-size: 10.5px; }
+  .bigmatch { padding: 22px 16px; }
+  .scroll-top-btn { bottom: 12px; right: 12px; }
+  .track-summary { grid-template-columns: repeat(2, 1fr); }
+  .standings-table th:nth-child(4), .standings-table td:nth-child(4),
+  .standings-table th:nth-child(5), .standings-table td:nth-child(5) { display: none; }
+}
+/* =========================================================
+   AKUN — tombol topbar, modal masuk/daftar
+   ========================================================= */
+.auth-slot { display: flex; align-items: center; }
+
+.account-login-btn {
+  padding: 8px 15px; border-radius: 4px; border: 1px solid var(--line);
+  background: var(--blue); color: #fff;
+  font-size: 11.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out);
+}
+.account-login-btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+
+.account-chip { display: flex; align-items: center; gap: 9px; padding: 5px 6px 5px 13px; border-radius: 4px; border: 1px solid var(--line); background: var(--filter-bg); }
+.account-chip-name { font-size: 11.5px; font-weight: 800; color: var(--white); max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.account-logout-btn { padding: 6px 12px; border-radius: 4px; border: 1px solid var(--line); background: var(--card-bg); color: var(--muted); font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.account-logout-btn:hover { color: var(--lose); border-color: var(--lose); }
+
+.auth-modal-backdrop {
+  position: fixed; inset: 0; z-index: 500;
+  background: rgba(24,14,46,.55);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none; transition: opacity .25s ease;
+}
+.auth-modal-backdrop.open { opacity: 1; pointer-events: auto; }
+
+.auth-modal {
+  position: relative; width: 100%; max-width: 380px;
+  background: var(--card-bg);
+  border: 1px solid var(--line); border-radius: 14px;
+  padding: 28px 24px 24px; box-shadow: 0 16px 40px var(--shadow);
+  transform: translateY(10px); transition: transform .25s ease;
+}
+.auth-modal-backdrop.open .auth-modal { transform: translateY(0); }
+
+.auth-modal-close {
+  position: absolute; top: 14px; right: 14px; width: 30px; height: 30px;
+  border-radius: 4px; border: 1px solid var(--line); background: var(--surface-1);
+  color: var(--muted); font-size: 13px; cursor: pointer; display: grid; place-items: center;
+}
+.auth-modal-close:hover { color: var(--white); border-color: var(--blue); }
+
+.auth-tabs { display: flex; gap: 6px; padding: 4px; border: 1px solid var(--line); border-radius: 4px; background: var(--filter-bg); margin-bottom: 18px; width: fit-content; }
+.auth-tab { padding: 7px 16px; border-radius: 3px; border: none; background: transparent; color: var(--muted); font-size: 11.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.auth-tab.active { background: var(--blue); color: #fff; }
+
+.auth-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 19px; margin: 0 0 4px; color: var(--blue); }
+.auth-modal-sub { font-size: 11.5px; color: var(--muted); margin: 0 0 16px; }
+
+.auth-msg { font-size: 11px; font-weight: 700; margin-bottom: 10px; min-height: 0; }
+.auth-msg:empty { display: none; }
+.auth-msg--err { color: var(--lose); }
+.auth-msg--ok { color: var(--win); }
+
+.auth-form { display: flex; flex-direction: column; gap: 13px; }
+.auth-label { display: flex; flex-direction: column; gap: 6px; font-size: 10.5px; font-weight: 800; color: var(--muted-dark); text-transform: uppercase; letter-spacing: .3px; }
+.auth-input {
+  padding: 11px 13px; border-radius: 4px; border: 1px solid var(--line);
+  background: var(--search-bg); color: var(--white); font-size: 13px;
+  font-family: 'Plus Jakarta Sans', sans-serif; outline: none; transition: var(--dur-fast) var(--ease-out);
+}
+.auth-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+.auth-submit {
+  margin-top: 4px; padding: 12px; border-radius: 4px; border: none;
+  background: var(--blue); color: #fff;
+  font-size: 12.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out);
+}
+.auth-submit:hover { filter: brightness(1.08); }
+.auth-submit:disabled { opacity: .6; cursor: default; }
+
+/* =========================================================
+   TEBAK SKOR (blok di dalam Big Match)
+   ========================================================= */
+.guess-form { display: flex; align-items: center; gap: 8px; margin-top: 2px; }
+.guess-input {
+  width: 46px; padding: 8px 6px; text-align: center; border-radius: 4px;
+  border: 1px solid var(--line); background: var(--search-bg); color: var(--white);
+  font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700; outline: none;
+}
+.guess-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+.guess-dash { color: var(--muted); font-weight: 800; }
+.guess-submit {
+  margin-left: auto; padding: 8px 14px; border-radius: 4px; border: none;
+  background: var(--blue); color: #fff;
+  font-size: 10.5px; font-weight: 800; cursor: pointer;
+}
+.guess-submit:hover { filter: brightness(1.08); }
+.guess-result { margin-top: 10px; font-size: 10.5px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.guess-login-btn { margin-top: 4px; }
+
+/* =========================================================
+   KALKULATOR MIX PARLAY
+   ========================================================= */
+.parlay-box { border: 1px solid var(--line); border-radius: 10px; padding: 16px; background: var(--card-bg); display: flex; flex-direction: column; gap: 16px; }
+.parlay-disclaimer { font-size: 10px; line-height: 1.6; color: var(--muted); padding: 10px 12px; border-radius: 4px; border: 1px dashed var(--line); background: var(--surface-2); }
+
+.rt-count-label { display: flex; flex-direction: column; gap: 6px; font-size: 10px; font-weight: 800; color: var(--muted-dark); text-transform: uppercase; letter-spacing: .3px; }
+.rt-count-input {
+  width: 80px; padding: 9px 10px; border-radius: 4px; border: 1px solid var(--line);
+  background: var(--search-bg); color: var(--white); font-family: 'Space Mono', monospace;
+  font-size: 13px; outline: none;
+}
+.rt-count-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+
+.parlay-matches { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; max-height: 480px; overflow-y: auto; padding-right: 2px; }
+.pm-card { border: 1px solid var(--line); border-radius: 5px; padding: 12px; background: var(--surface-2); display: flex; flex-direction: column; gap: 8px; }
+.pm-head { display: flex; justify-content: space-between; font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
+.pm-teams { font-size: 11.5px; font-weight: 700; }
+.pm-market-group { display: flex; flex-direction: column; gap: 5px; }
+.pm-market-label { font-size: 8.5px; font-weight: 800; color: var(--muted-dark); text-transform: uppercase; letter-spacing: .3px; }
+.pm-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pm-chip {
+  display: flex; align-items: center; gap: 5px; padding: 6px 9px; border-radius: 4px;
+  border: 1px solid var(--line); background: var(--filter-bg); color: var(--muted);
+  font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out);
+}
+.pm-chip b { font-family: 'Space Mono', monospace; font-weight: 700; }
+.pm-chip:hover { border-color: var(--blue); color: var(--blue); background: rgba(62,55,177,.10); }
+.pm-chip.active { background: var(--blue); color: #fff; border-color: var(--blue-dark); }
+
+.parlay-slip-box { border-top: 1px solid var(--line); padding-top: 14px; display: flex; flex-direction: column; gap: 10px; }
+.parlay-slip-title { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .3px; }
+.parlay-slip { display: flex; flex-direction: column; gap: 7px; }
+.ps-item { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 4px; border: 1px solid var(--line); background: var(--surface-2); }
+.ps-item-text { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.ps-item-match { font-size: 9.5px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ps-item-pick { font-size: 11px; font-weight: 700; }
+.ps-item-odds { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 800; color: var(--blue); }
+.ps-item-remove { flex: none; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; font-size: 13px; line-height: 1; transition: var(--dur-fast) var(--ease-out); }
+.ps-item-remove:hover { color: var(--lose); border-color: var(--lose); }
+
+.parlay-stake-row { display: flex; }
+.parlay-summary { display: flex; flex-direction: column; gap: 6px; }
+.ps-summary-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-radius: 4px; background: rgba(62,55,177,.08); font-size: 11px; font-weight: 700; }
+.ps-summary-row b { font-family: 'Space Mono', monospace; font-size: 13px; color: var(--blue); }
+.ps-summary-row:last-child b { color: var(--win); }
+
+@media (max-width: 650px) {
+  .account-chip-name { max-width: 80px; }
+  .auth-modal { padding: 24px 18px 20px; }
+}
+
+/* =========================================================
+   PROFIL TIM (MODAL) — dibuka saat klik logo/nama tim
+   ========================================================= */
+.mc-team, .bm-team, .standings-team, .radar-team-link { cursor: pointer; }
+.mc-team:hover .mc-name, .bm-team:hover .bm-team-name, .standings-team:hover, .radar-team-link:hover { color: var(--blue); text-decoration: underline; }
+
+/* =========================================================
+   TENTANG BOLAKILAS (MODAL) — chrome sama persis dengan team-modal
+   ========================================================= */
+.about-modal-backdrop {
+  position: fixed; inset: 0; z-index: 520;
+  background: rgba(24,14,46,.55);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none; transition: opacity .25s ease;
+}
+.about-modal-backdrop.open { opacity: 1; pointer-events: auto; }
+
+.about-modal {
+  position: relative; width: 100%; max-width: 480px; max-height: 86vh; overflow-y: auto;
+  background: var(--card-bg);
+  border: 1px solid var(--line); border-radius: 14px;
+  padding: 30px 26px 26px; box-shadow: 0 16px 40px var(--shadow);
+  transform: translateY(10px); transition: transform .25s ease;
+}
+.about-modal-backdrop.open .about-modal { transform: translateY(0); }
+
+.about-modal-close {
+  position: absolute; top: 14px; right: 14px; width: 30px; height: 30px;
+  border-radius: 4px; border: 1px solid var(--line); background: var(--surface-1);
+  color: var(--muted); font-size: 13px; cursor: pointer; display: grid; place-items: center;
+}
+.about-modal-close:hover { color: var(--white); border-color: var(--blue); }
+
+.about-modal-hero { text-align: center; margin-bottom: 16px; }
+.about-modal-badge { width: 52px; height: 52px; margin: 0 auto 10px; border-radius: 50%; display: grid; place-items: center; background: var(--probability-bg); border: 1px solid var(--line-bright); font-size: 24px; overflow: hidden; }
+.about-modal-badge img { width: 40px; height: 40px; object-fit: contain; }
+.about-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; margin: 0 0 4px; letter-spacing: .5px; color: var(--blue); }
+.about-modal-tagline { font-size: 11.5px; color: var(--muted); margin: 0; }
+
+.about-modal-lead { font-size: 12px; color: var(--muted); line-height: 1.7; margin: 0 0 18px; }
+
+.about-modal-features { display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px; }
+.about-feature { display: flex; align-items: flex-start; gap: 11px; border: 1px solid var(--line); border-radius: 10px; padding: 11px 13px; background: var(--surface-2); }
+.about-feature-icon { flex: none; font-size: 18px; line-height: 1; margin-top: 1px; }
+.about-feature b { display: block; font-size: 11.5px; margin-bottom: 2px; }
+.about-feature span { display: block; font-size: 10.5px; color: var(--muted); line-height: 1.5; }
+
+/* "Ikuti BOLAKILAS" (dulu halaman Sosial sendiri, sekarang digabung ke sini) */
+.about-modal-subheading { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); margin: 0 0 8px; }
+.about-modal .social-grid { grid-template-columns: 1fr; gap: 8px; margin-bottom: 18px; }
+.about-modal .social-card { padding: 10px 12px; }
+
+.about-modal-note { font-size: 10px; color: var(--muted-dark); line-height: 1.6; border-top: 1px dashed var(--line); padding-top: 14px; margin: 0; }
+
+.team-modal-backdrop {
+  position: fixed; inset: 0; z-index: 500;
+  background: rgba(24,14,46,.55);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none; transition: opacity .25s ease;
+}
+.team-modal-backdrop.open { opacity: 1; pointer-events: auto; }
+
+.team-modal {
+  position: relative; width: 100%; max-width: 460px; max-height: 86vh; overflow-y: auto;
+  background: var(--card-bg);
+  border: 1px solid var(--line); border-radius: 14px;
+  padding: 28px 24px 24px; box-shadow: 0 16px 40px var(--shadow);
+  transform: translateY(10px); transition: transform .25s ease;
+}
+.team-modal-backdrop.open .team-modal { transform: translateY(0); }
+
+.team-modal-close {
+  position: absolute; top: 14px; right: 14px; width: 30px; height: 30px;
+  border-radius: 4px; border: 1px solid var(--line); background: var(--surface-1);
+  color: var(--muted); font-size: 13px; cursor: pointer; display: grid; place-items: center;
+}
+.team-modal-close:hover { color: var(--white); border-color: var(--blue); }
+
+.team-modal-header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; padding-right: 30px; }
+.team-modal-badge { width: 56px; height: 56px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--blue); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 13px; flex: none; }
+.team-modal-badge img { width: 40px; height: 40px; object-fit: contain; }
+.team-modal-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 18px; margin: 0; line-height: 1.3; color: var(--blue); }
+
+.team-modal-section { margin-bottom: 16px; }
+.team-modal-section-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); margin-bottom: 8px; }
+.team-modal-empty { font-size: 11.5px; color: var(--muted); line-height: 1.6; border: 1px dashed var(--line); border-radius: 4px; padding: 12px; }
+.team-modal-note { font-size: 10px; color: var(--muted-dark); line-height: 1.6; border-top: 1px dashed var(--line); padding-top: 12px; margin-top: 4px; }
+
+.team-next-card { border: 1px solid var(--line); border-radius: 5px; padding: 12px; background: var(--surface-2); }
+.team-next-badge--live { display: inline-block; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); background: rgba(62,55,177,.14); padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; }
+.team-next-vs { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.team-next-team { display: flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 700; }
+.team-next-logo { width: 28px; height: 28px; border-radius: 4px; display: grid; place-items: center; background: var(--card-bg); border: 1px solid var(--line-bright); color: var(--blue); font-size: 8px; font-weight: 800; flex: none; }
+.team-next-logo img { width: 20px; height: 20px; object-fit: contain; }
+.team-next-score { font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700; color: var(--muted); }
+.team-next-meta { margin-top: 8px; font-size: 10px; color: var(--muted); }
+
+.team-standing-row { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 5px; padding: 10px 12px; background: var(--surface-2); font-size: 11px; flex-wrap: wrap; }
+.team-standing-league { font-weight: 700; }
+.team-standing-stats { color: var(--muted); }
+
+.team-history-list { display: flex; flex-direction: column; gap: 6px; }
+.team-history-item { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 4px; padding: 7px 10px; font-size: 10.5px; }
+.team-history-date { color: var(--muted-dark); width: 46px; flex: none; }
+.team-history-opp { flex: 1; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.team-history-score { font-family: 'Space Mono', monospace; color: var(--muted); }
+.team-history-mark { width: 18px; height: 18px; border-radius: 4px; display: grid; place-items: center; font-size: 9px; font-weight: 800; background: var(--surface-2); flex: none; }
+.team-history-mark.ok { color: var(--win); }
+.team-history-mark.no { color: var(--lose); }
+
+.team-squad-group { margin-bottom: 12px; }
+.team-squad-group:last-child { margin-bottom: 0; }
+.team-squad-group-title { font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); margin-bottom: 6px; }
+.team-squad-list { display: flex; flex-direction: column; gap: 4px; }
+.team-squad-player { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px; font-size: 10.5px; background: var(--surface-2); }
+.team-squad-number { font-family: 'Space Mono', monospace; font-weight: 700; color: var(--muted); width: 20px; flex: none; text-align: right; }
+.team-squad-name { flex: 1; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.team-squad-age { color: var(--muted-dark); flex: none; }
+
+.lineup-meta { font-size: 10px; color: var(--muted); margin-bottom: 10px; }
+.lineup-meta b { color: var(--white); }
+
+.lineup-rating { font-family: 'Space Mono', monospace; font-size: 9.5px; font-weight: 700; color: #fff; border-radius: 3px; padding: 1px 5px; flex: none; }
+.lineup-rating.rating-good { background: var(--win); }
+.lineup-rating.rating-mid { background: var(--draw-c); }
+.lineup-rating.rating-poor { background: var(--lose); }
+
+.team-injury-list { display: flex; flex-direction: column; gap: 6px; }
+.team-injury-item { display: flex; align-items: center; gap: 9px; border: 1px solid var(--line); border-radius: 4px; padding: 7px 10px; background: var(--surface-2); }
+.team-injury-photo { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: var(--card-bg); border: 1px solid var(--line-bright); flex: none; }
+.team-injury-body { flex: 1; min-width: 0; }
+.team-injury-name { font-size: 11px; font-weight: 700; }
+.team-injury-reason { font-size: 9.5px; color: var(--lose); }
+
+.coach-card { display: flex; align-items: center; gap: 10px; }
+.coach-photo { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: var(--surface-2); border: 1px solid var(--line-bright); flex: none; }
+.coach-name { font-weight: 700; font-size: 12px; }
+.coach-meta { font-size: 10px; color: var(--muted-dark); }
+.coach-trophies { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.coach-trophies-title { font-size: 9.5px; text-transform: uppercase; letter-spacing: .3px; color: var(--muted-dark); margin-bottom: 6px; }
+.coach-trophy-item { font-size: 10.5px; padding: 4px 0; }
+
+.bm-venue-meta { font-weight: 400; color: var(--muted-dark); font-size: 10px; }
+
+/* =========================================================
+   GRAFIK TREN PERFORMA TIM — di modal profil tim
+   ========================================================= */
+.team-trend { margin-bottom: 10px; }
+.team-trend-title { font-size: 9.5px; color: var(--muted-dark); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .3px; }
+.team-trend-svg { width: 100%; height: 62px; display: block; }
+.team-trend-baseline { stroke: var(--line); stroke-width: 1; }
+.team-trend-bar.trend-win rect { fill: var(--win); }
+.team-trend-bar.trend-draw rect { fill: var(--draw-c); }
+.team-trend-bar.trend-lose rect { fill: var(--lose); }
+
+/* =========================================================
+   BANDINGKAN TIM (H2H BEBAS)
+   ========================================================= */
+.compare-picker { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 10px; }
+.compare-picker-field { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.compare-picker-field label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); }
+.compare-input { padding: 10px 13px; }
+.compare-vs-label { flex: none; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: var(--blue); padding-bottom: 10px; }
+.compare-submit-btn { max-width: 240px; }
+
+.compare-teams-row { display: flex; align-items: stretch; gap: 12px; margin: 18px 0 14px; }
+.compare-team-card { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 16px 12px; background: var(--probability-bg); }
+.compare-team-card .compare-team-logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--blue); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 11px; }
+.compare-team-card .compare-team-logo img { width: 32px; height: 32px; object-fit: contain; }
+.compare-team-name { font-weight: 800; font-size: 12.5px; line-height: 1.3; }
+.compare-team-standing { font-size: 10px; color: var(--muted); }
+.compare-empty-note { font-size: 10px; color: var(--muted-dark); }
+.compare-team-form { justify-content: center; margin-bottom: 0; }
+.compare-vs-label--result { align-self: center; padding-bottom: 0; }
+
+.compare-h2h-block { margin-top: 0; }
+.compare-h2h-summary { display: flex; justify-content: space-between; gap: 8px; font-size: 10px; color: var(--muted); margin-bottom: 10px; flex-wrap: wrap; }
+.compare-h2h-summary b { color: var(--blue); font-family: 'Space Mono', monospace; font-size: 12px; }
+.compare-h2h-list { display: flex; flex-direction: column; gap: 6px; }
+.compare-h2h-row { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 4px; padding: 8px 11px; font-size: 10.5px; background: var(--surface-2); }
+.compare-h2h-date { color: var(--muted-dark); width: 46px; flex: none; }
+.compare-h2h-score { flex: 1; }
+.compare-h2h-score b { font-family: 'Space Mono', monospace; color: var(--blue); }
+
+@media (max-width: 650px) {
+  .team-modal { padding: 24px 18px 20px; }
+  .compare-picker { flex-direction: column; align-items: stretch; }
+  .compare-vs-label { padding-bottom: 0; text-align: center; }
+  .compare-teams-row { flex-direction: column; }
+  .compare-vs-label--result { padding: 4px 0; }
+}

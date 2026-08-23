@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOLAKILAS — Jadwal Bola</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Jadwal pertandingan sepak bola hari ini dari berbagai liga dunia, lengkap dengan prediksi skor, klasemen, dan Big Match unggulan.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://GANTI-DENGAN-DOMAIN-KAMU/">
+
+  <!-- OPEN GRAPH / SOCIAL SHARE -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BOLAKILAS">
+  <meta property="og:title" content="BOLAKILAS — Jadwal Bola">
+  <meta property="og:description" content="Jadwal pertandingan sepak bola hari ini, prediksi skor, dan klasemen liga-liga besar.">
+  <meta property="og:image" content="images/logo.png">
+  <meta name="twitter:card" content="summary">
+
+  <!-- FAVICON (letakkan file favicon.png di folder root, atau hapus baris ini kalau belum ada) -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+  <!-- ===================== TOPBAR ===================== -->
+  <header class="topbar">
+    <a href="#" class="brand">
+      <img src="images/logo.png" alt="BOLAKILAS" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'brand-fallback',textContent:'BOLAKILAS'}))">
+    </a>
+
+    <!-- 4 halaman ringkas (dulu 11 link scroll-anchor) — dikendalikan
+         page-router.js, tanpa reload. Grup "Prediksi" gabungan Radar +
+         Bandingkan + Big Match + Parlay + Rekam Jejak. Klub Unggulan
+         dihapus & Sosial digabung ke modal "Tentang" (tombol topbar). -->
+    <nav class="nav" id="site-nav">
+      <a href="#beranda" data-view="beranda">Beranda</a>
+      <a href="#prediksi" data-view="prediksi">Prediksi</a>
+      <a href="#berita" data-view="berita">Berita</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <button type="button" class="about-open-btn about-open-btn--topbar" title="Tentang BOLAKILAS">Tentang</button>
+      <div class="auth-slot" id="auth-slot"></div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== STATS BAR (global, tampil di semua halaman) ===================== -->
+  <div class="stats-bar" id="stats-bar"></div>
+
+  <!-- =====================================================================
+       HALAMAN: BERANDA — jadwal jadi prioritas utama & langsung terlihat
+       begitu situs dibuka, tidak lagi ketutupan Live Streaming di atasnya.
+       ===================================================================== -->
+  <div class="app-view active" id="view-beranda">
+
+  <!-- ===================== JADWAL (prioritas utama situs) ===================== -->
+  <section id="jadwal" class="section reveal">
+    <div class="section-title">
+      <div>
+        <h2>Jadwal Pertandingan</h2>
+        <small id="schedule-date">-</small>
+      </div>
+    </div>
+
+    <!-- DAY RANGE TABS (BARU: Riwayat / Hari Ini / Akan Datang) -->
+    <div class="filters-wrap day-tabs-wrap">
+      <div class="filters day-tabs" id="day-tabs"></div>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="search-wrap">
+      <span class="search-icon">Cari</span>
+      <input type="text" class="search-input" id="match-search" placeholder="Cari tim atau liga...">
+    </div>
+
+    <!-- FILTER STATUS -->
+    <div class="filters-wrap filters-status-wrap">
+      <div class="filters filters-status" id="filters-status"></div>
+    </div>
+
+    <!-- FILTER LIGA -->
+    <div class="filters-wrap">
+      <div class="filters" id="filters"></div>
+    </div>
+
+    <!-- MATCH GRID (scroll di tempatnya sendiri) -->
+    <div class="schedule-scroll">
+      <div class="grid" id="schedule-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== KLASEMEN LIGA ===================== -->
+  <section id="klasemen-section" class="section reveal">
+    <div class="section-title">
+      <div>
+        <h2>Klasemen Liga</h2>
+        <small id="standings-updated">-</small>
+      </div>
+    </div>
+
+    <div class="filters-wrap">
+      <div class="filters" id="standings-league-filters"></div>
+    </div>
+
+    <div class="standings-wrap" id="standings-wrap"></div>
+  </section>
+
+  <!-- ===================== TOP SKOR & ASSIST ===================== -->
+  <section id="topstats-section" class="section reveal">
+    <div class="section-title">
+      <div>
+        <h2>Top Skor &amp; Assist</h2>
+        <small>Diperbarui otomatis tiap jam</small>
+      </div>
+    </div>
+
+    <div class="filters-wrap">
+      <div class="filters" id="topstats-type-filters">
+        <button class="filter-btn active" data-type="topScorers">Top Skor</button>
+        <button class="filter-btn" data-type="topAssists">Top Assist</button>
+      </div>
+    </div>
+
+    <div class="filters-wrap">
+      <div class="filters" id="topstats-league-filters"></div>
+    </div>
+
+    <div class="standings-wrap" id="topstats-wrap"></div>
+  </section>
+
+  </div> <!-- /view-beranda -->
+
+  <!-- =====================================================================
+       HALAMAN: PREDIKSI & ANALISIS — Radar, Bandingkan Tim, Big Match
+       (Tebak Skor & Voting ada di dalamnya), Kalkulator Mix Parlay, Rekam
+       Jejak Prediksi — dikelompokkan jadi 1 halaman karena saling berkaitan.
+       ===================================================================== -->
+  <div class="app-view" id="view-prediksi">
+
+  <!-- ===================== BIG MATCH RADAR ===================== -->
+  <section id="radar-section" class="section reveal">
+    <div class="section-title">
+      <h2>Prediksi Paling Akurat</h2>
+      <small>3 pertandingan dengan confidence tertinggi hari ini</small>
+    </div>
+
+    <div class="radar-grid" id="radar-grid"></div>
+  </section>
+
+  <!-- ===================== BANDINGKAN TIM (H2H BEBAS) =====================
+       Bandingkan 2 tim mana pun (bukan cuma Big Match) — klasemen, form 5
+       laga terakhir, & seluruh riwayat pertemuan head-to-head, semuanya
+       ditarik dari data.js yang sama lewat window.BKTeamData (team-profile.js).
+       Diisi & dikendalikan oleh compare.js. -->
+  <section id="compare-section" class="section reveal">
+    <div class="section-title">
+      <h2>Bandingkan Tim</h2>
+      <small>Head-to-head &amp; statistik dua tim mana pun</small>
+    </div>
+
+    <div class="compare-picker">
+      <div class="compare-picker-field">
+        <label for="compare-team-a">Tim A</label>
+        <input type="text" list="compare-team-list" id="compare-team-a" class="search-input compare-input" placeholder="Cari tim..." autocomplete="off">
+      </div>
+      <div class="compare-vs-label">VS</div>
+      <div class="compare-picker-field">
+        <label for="compare-team-b">Tim B</label>
+        <input type="text" list="compare-team-list" id="compare-team-b" class="search-input compare-input" placeholder="Cari tim..." autocomplete="off">
+      </div>
+      <datalist id="compare-team-list"></datalist>
+    </div>
+    <button type="button" class="section-toggle-btn compare-submit-btn" id="compare-submit-btn">Bandingkan</button>
+
+    <div id="compare-result"></div>
+  </section>
+
+  <!-- ===================== BIG MATCH ===================== -->
+  <section id="bigmatch-section" class="section reveal">
+    <div class="section-title">
+      <h2>Big Match</h2>
+      <small>Pertandingan unggulan</small>
+    </div>
+
+    <div class="bigmatch" id="bigmatch">
+      <div class="bigmatch-overlay"></div>
+
+      <!-- TAG -->
+      <div class="bm-tag">
+        <span class="live-dot-small"></span>
+        <span id="bm-league">BIG MATCH</span>
+      </div>
+
+      <!-- TEAMS -->
+      <div class="bm-teams">
+        <div class="bm-team">
+          <div class="bm-logo-wrap">
+            <img id="bm-home-logo" src="" alt="">
+          </div>
+          <div class="bm-team-name" id="bm-home-name">Home</div>
+        </div>
+
+        <div class="bm-vs" id="bm-vs">VS</div>
+
+        <div class="bm-team">
+          <div class="bm-logo-wrap">
+            <img id="bm-away-logo" src="" alt="">
+          </div>
+          <div class="bm-team-name" id="bm-away-name">Away</div>
+        </div>
+      </div>
+
+      <!-- MATCH INFO -->
+      <div class="bm-info">
+        <span>Tanggal <b id="bm-date">-</b></span>
+        <span>Kick-off <b id="bm-time">-</b></span>
+        <span>Stadion <b id="bm-stadium">-</b><span id="bm-venue-meta" class="bm-venue-meta"></span></span>
+        <span>Status <b id="bm-status">-</b></span>
+      </div>
+
+      <!-- PROYEKSI LIVE 2D — momentum bola ilustratif berdasarkan statistik
+           live ESPN (possession & shots), diisi oleh bm-live-pitch.js.
+           Otomatis tersembunyi kalau laga belum/tidak sedang berlangsung. -->
+      <div class="bm-pitch-block" id="bm-pitch-block" style="display:none;">
+        <button type="button" class="section-toggle-btn bm-pitch-toggle" id="bm-pitch-toggle">Lihat Proyeksi Jalannya Pertandingan <span class="bm-pitch-live-tag">LIVE</span> &#9662;</button>
+        <div class="collapse-panel" id="bm-pitch-collapse">
+          <div class="bm-pitch">
+            <svg viewBox="0 0 300 180" class="bm-pitch-svg" preserveAspectRatio="none" aria-hidden="true">
+              <rect x="2" y="2" width="296" height="176" rx="6" class="bm-pitch-outline"></rect>
+              <line x1="150" y1="2" x2="150" y2="178" class="bm-pitch-outline"></line>
+              <circle cx="150" cy="90" r="24" class="bm-pitch-outline"></circle>
+              <rect x="2" y="52" width="30" height="76" class="bm-pitch-outline"></rect>
+              <rect x="268" y="52" width="30" height="76" class="bm-pitch-outline"></rect>
+            </svg>
+            <div class="bm-pitch-ball" id="bm-pitch-ball">
+              <span class="bm-pitch-arrow" id="bm-pitch-arrow"></span>
+            </div>
+          </div>
+          <div class="bm-pitch-possession">
+            <span id="bm-pitch-home-pct">50%</span>
+            <div class="bm-pitch-possession-bar"><span id="bm-pitch-possession-fill" style="width:50%"></span></div>
+            <span id="bm-pitch-away-pct">50%</span>
+          </div>
+          <div class="bm-pitch-stats" id="bm-pitch-stats"></div>
+          <div class="bm-pitch-note" id="bm-pitch-note">Menunggu statistik live...</div>
+        </div>
+      </div>
+
+      <!-- PREDICTION -->
+      <div class="bm-predict">
+        <div class="prediction-heading">
+          <span>Prediksi Skor</span>
+          <strong id="bm-prediction">-</strong>
+        </div>
+
+        <!-- PROBABILITY -->
+        <div class="probability">
+          <div class="probability-row">
+            <span>Home</span>
+            <span id="bm-home-probability">0%</span>
+          </div>
+
+          <div class="meter">
+            <span class="home" style="width:0%"></span>
+            <span class="draw" style="width:0%"></span>
+            <span class="away" style="width:0%"></span>
+          </div>
+
+          <div class="probability-labels">
+            <span>Home</span>
+            <span id="bm-draw-probability">0%</span>
+            <span>Away</span>
+          </div>
+        </div>
+
+        <!-- ANALYSIS -->
+        <p class="bm-analysis" id="bm-analysis"></p>
+
+        <!-- H2H / FORM / VOTING / TEBAK SKOR — diringkas di balik toggle
+             supaya kartu Big Match tidak terlalu panjang secara default. -->
+        <button class="section-toggle-btn" id="bm-extra-toggle" type="button">Lihat Detail Lengkap (H2H, Form, Susunan Pemain, Odds Pasar, Prediksi Pengunjung &amp; Tebak Skor) &#9662;</button>
+        <div class="collapse-panel" id="bm-extra-collapse">
+          <div class="bm-extra">
+            <div class="bm-block" id="bm-h2h-block">
+              <div class="bm-block-title">Head to Head</div>
+              <div id="bm-h2h-content"></div>
+            </div>
+
+            <div class="bm-block" id="bm-form-block">
+              <div class="bm-block-title">Form Tim</div>
+              <div id="bm-form-content"></div>
+            </div>
+
+            <!-- Susunan pemain (formasi/starting XI/cadangan), diisi bm-lineups.js
+                 dari bigmatch-live.json (API-Football, diperbarui tiap 5 menit) -->
+            <div class="bm-block" id="bm-lineup-home-block">
+              <div class="bm-block-title" id="bm-lineup-home-title">Susunan Pemain — Home</div>
+              <div id="bm-lineup-home-content"><div class="team-modal-empty">Memuat...</div></div>
+            </div>
+
+            <div class="bm-block" id="bm-lineup-away-block">
+              <div class="bm-block-title" id="bm-lineup-away-title">Susunan Pemain — Away</div>
+              <div id="bm-lineup-away-content"><div class="team-modal-empty">Memuat...</div></div>
+            </div>
+
+            <!-- Odds pasar (bookmaker asli, bukan persentase prediksi BOLAKILAS
+                 di atas) — diisi bm-odds-venue.js dari bigmatch-live.json -->
+            <div class="bm-block" id="bm-odds-block">
+              <div class="bm-block-title">Odds Pasar</div>
+              <div id="bm-odds-content"><div class="team-modal-empty">Memuat...</div></div>
+            </div>
+
+            <div class="bm-block vote-block" id="bm-vote-block">
+              <div class="bm-block-title">Prediksi Pengunjung</div>
+              <div class="vote-buttons" id="bm-vote-buttons"></div>
+              <div class="vote-results" id="bm-vote-results"></div>
+              <div class="vote-note">Perkiraan awal + suara pengunjung browser ini.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KALKULATOR MIX PARLAY ===================== -->
+  <section id="parlay-section" class="section reveal">
+    <div class="section-title">
+      <h2>Kalkulator Mix Parlay</h2>
+      <small>Gabungkan prediksi jadi satu paket odds simulasi</small>
+    </div>
+
+    <div class="parlay-box" id="parlay-box"></div>
+  </section>
+
+  <!-- ===================== REKAM JEJAK PREDIKSI ===================== -->
+  <section id="rekam-jejak" class="section reveal">
+    <div class="section-title">
+      <h2>Rekam Jejak Prediksi</h2>
+      <small>Akurasi prediksi BOLAKILAS</small>
+    </div>
+
+    <div class="track-summary" id="track-summary"></div>
+    <div class="track-list" id="track-list"></div>
+  </section>
+
+  </div> <!-- /view-prediksi -->
+
+  <!-- =====================================================================
+       HALAMAN: BERITA — ticker berjalan disatukan ke sini (bukan global)
+       supaya Beranda tetap fokus ke jadwal, tidak ramai teks berjalan.
+       ===================================================================== -->
+  <div class="app-view" id="view-berita">
+  <div class="ticker">
+    <div class="ticker-track" id="ticker-track"></div>
+  </div>
+
+  <section id="berita" class="section reveal">
+    <div class="section-title">
+      <h2>Berita Bola</h2>
+      <small>Update terbaru</small>
+    </div>
+
+    <div class="news-grid" id="news-grid"></div>
+  </section>
+  </div> <!-- /view-berita -->
+
+  <!-- ===================== FOOTER (global, tampil di semua halaman) ===================== -->
+  <footer class="footer">
+    <div class="footer-image"></div>
+
+    <div class="footer-content">
+      <strong>BOLAKILAS</strong>
+      <span>— Informasi jadwal dan sepak bola.</span>
+      <br>
+      <span>© 2026 BOLAKILAS</span>
+    </div>
+  </footer>
+
+</div>
+
+<!-- ===================== MODAL TENTANG BOLAKILAS ===================== -->
+<div class="about-modal-backdrop" id="about-modal-backdrop">
+  <div class="about-modal" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
+    <button class="about-modal-close" id="about-modal-close" title="Tutup" aria-label="Tutup">✕</button>
+
+    <div class="about-modal-hero">
+      <div class="about-modal-badge"><img src="favicon.png" alt="BOLAKILAS"></div>
+      <h3 class="about-modal-title" id="about-modal-title">BOLAKILAS</h3>
+      <p class="about-modal-tagline">Satu tempat buat semua kebutuhan harian pecinta bola.</p>
+    </div>
+
+    <p class="about-modal-lead">
+      BOLAKILAS ngerangkum jadwal, skor live, klasemen, sampai analisis pertandingan dari
+      ratusan liga di seluruh dunia — biar kamu nggak perlu buka sepuluh tab cuma buat
+      tahu "malam ini ada pertandingan apa aja".
+    </p>
+
+    <div class="about-modal-features">
+      <div class="about-feature">
+        <span class="about-feature-icon">📅</span>
+        <div><b>Jadwal &amp; Skor Live</b><span>Update real-time langsung dari ESPN, tanpa perlu refresh manual.</span></div>
+      </div>
+      <div class="about-feature">
+        <span class="about-feature-icon">🎯</span>
+        <div><b>Prediksi &amp; Analisis</b><span>Radar confidence, Big Match, Bandingkan Tim (H2H bebas), &amp; tren performa tiap tim.</span></div>
+      </div>
+      <div class="about-feature">
+        <span class="about-feature-icon">📊</span>
+        <div><b>Klasemen &amp; Profil Tim</b><span>Klasemen liga besar &amp; profil lengkap tiap tim — klik logo/nama tim di mana pun.</span></div>
+      </div>
+      <div class="about-feature">
+        <span class="about-feature-icon">🧮</span>
+        <div><b>Kalkulator Parlay</b><span>Simulasi mix parlay dari probabilitas internal — buat latihan analisis, bukan taruhan asli.</span></div>
+      </div>
+    </div>
+
+    <div class="about-modal-subheading">Ikuti BOLAKILAS</div>
+    <div class="social-grid">
+      <a href="#" class="social-card">
+        <div class="social-icon">f</div>
+        <div>
+          <div class="social-name">Facebook</div>
+          <div class="social-sub">BOLAKILAS</div>
+        </div>
+      </a>
+
+      <a href="#" class="social-card">
+        <div class="social-icon">◎</div>
+        <div>
+          <div class="social-name">Instagram</div>
+          <div class="social-sub">@BOLAKILAS</div>
+        </div>
+      </a>
+
+      <a href="#" class="social-card">
+        <div class="social-icon">▶</div>
+        <div>
+          <div class="social-name">YouTube</div>
+          <div class="social-sub">BOLAKILAS</div>
+        </div>
+      </a>
+    </div>
+
+    <p class="about-modal-note">
+      Semua prediksi &amp; probabilitas di situs ini dihitung dari statistik &amp; heuristik terbuka —
+      bukan odds resmi bandar, bukan informasi orang dalam. Murni buat hiburan &amp; latihan analisis bola.
+    </p>
+  </div>
+</div>
+
+<!-- ===================== MODAL AKUN (Masuk / Daftar) ===================== -->
+<div class="auth-modal-backdrop" id="auth-modal-backdrop">
+  <div class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title">
+    <button class="auth-modal-close" id="auth-modal-close" title="Tutup" aria-label="Tutup">✕</button>
+
+    <div class="auth-tabs">
+      <button class="auth-tab active" id="auth-tab-login" data-tab="login">Masuk</button>
+      <button class="auth-tab" id="auth-tab-register" data-tab="register">Daftar</button>
+    </div>
+
+    <h3 class="auth-modal-title" id="auth-modal-title">Masuk ke BOLAKILAS</h3>
+    <p class="auth-modal-sub" id="auth-modal-sub">Simpan tebakan skor & prediksimu.</p>
+
+    <div class="auth-msg" id="auth-msg"></div>
+
+    <!-- FORM MASUK -->
+    <form class="auth-form" id="auth-form-login">
+      <label class="auth-label">Email
+        <input type="email" class="auth-input" id="login-email" required autocomplete="email">
+      </label>
+      <label class="auth-label">Kata Sandi
+        <input type="password" class="auth-input" id="login-password" required autocomplete="current-password" minlength="6">
+      </label>
+      <button type="submit" class="auth-submit" id="login-submit">Masuk</button>
+    </form>
+
+    <!-- FORM DAFTAR -->
+    <form class="auth-form" id="auth-form-register" style="display:none;">
+      <label class="auth-label">Nama Panggilan
+        <input type="text" class="auth-input" id="register-username" required minlength="3" maxlength="24" autocomplete="nickname">
+      </label>
+      <label class="auth-label">Email
+        <input type="email" class="auth-input" id="register-email" required autocomplete="email">
+      </label>
+      <label class="auth-label">Kata Sandi
+        <input type="password" class="auth-input" id="register-password" required autocomplete="new-password" minlength="6">
+      </label>
+      <button type="submit" class="auth-submit" id="register-submit">Daftar</button>
+    </form>
+  </div>
+</div>
+
+<!-- ===================== MODAL PROFIL TIM ===================== -->
+<div class="team-modal-backdrop" id="team-modal-backdrop">
+  <div class="team-modal" role="dialog" aria-modal="true" aria-labelledby="team-modal-name">
+    <button class="team-modal-close" id="team-modal-close" title="Tutup" aria-label="Tutup">✕</button>
+
+    <div class="team-modal-header">
+      <div class="team-modal-badge mc-badge-image" id="team-modal-logo-wrap">
+        <img id="team-modal-logo" src="" alt="">
+      </div>
+      <h3 class="team-modal-name" id="team-modal-name">-</h3>
+    </div>
+
+    <div class="team-modal-section">
+      <div class="team-modal-section-title">Laga Berikutnya</div>
+      <div id="team-modal-next"></div>
+    </div>
+
+    <div class="team-modal-section">
+      <div class="team-modal-section-title">Posisi Klasemen</div>
+      <div id="team-modal-standing"></div>
+    </div>
+
+    <div class="team-modal-section" id="team-modal-coach-section" style="display:none;">
+      <div class="team-modal-section-title">Pelatih</div>
+      <div id="team-modal-coach"></div>
+    </div>
+
+    <div class="team-modal-section" id="team-modal-injuries-section" style="display:none;">
+      <div class="team-modal-section-title">Pemain Cedera</div>
+      <div id="team-modal-injuries"></div>
+    </div>
+
+    <div class="team-modal-section">
+      <div class="team-modal-section-title">Riwayat Pertandingan</div>
+      <div id="team-modal-history"></div>
+    </div>
+
+    <div class="team-modal-section">
+      <div class="team-modal-section-title">Skuad Pemain</div>
+      <div id="team-modal-squad"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== JAVASCRIPT ===================== -->
+<!-- DATA HARUS LEBIH DULU -->
+<script src="data.js"></script>
+
+<!-- Berita transfer (auto-update mingguan lewat fetch-transfers.js) — digabung
+     ke atas data.news oleh renderNews()/renderTicker() di script.js -->
+<script src="transfers.js"></script>
+
+<!-- Pelatih & prestasi tiap tim (auto-update mingguan lewat fetch-coaches.js) -->
+<script src="coaches.js"></script>
+
+<script src="script.js"></script>
+
+<!-- Skuad Pemain: data (auto-update mingguan lewat fetch-squads.js, semua tim liga yang
+     dicakup situs ini). Sengaja TIDAK dimuat di sini (filenya besar, ~500 tim) — team-profile.js
+     memuatnya lazy begitu modal Profil Tim pertama kali dibuka. -->
+
+<!-- Profil Tim: modal saat klik logo/nama tim mana pun, dari data.js yang sama -->
+<script src="team-profile.js"></script>
+
+<!-- Bandingkan Tim: H2H bebas 2 tim mana pun, pakai window.BKTeamData dari team-profile.js -->
+<script src="compare.js"></script>
+
+<!-- Proyeksi 2D live Big Match: bola momentum dari statistik live API-Football -->
+<script src="bm-live-pitch.js"></script>
+
+<!-- Susunan pemain Big Match (formasi/starting XI/cadangan), API-Football juga -->
+<script src="bm-lineups.js"></script>
+
+<!-- Odds pasar & detail venue Big Match, API-Football juga -->
+<script src="bm-odds-venue.js"></script>
+
+<!-- Router halaman (Beranda/Live/Prediksi/Klub/Berita/Sosial) tanpa reload -->
+<script src="page-router.js"></script>
+
+<!-- Modal "Tentang BOLAKILAS" -->
+<script src="about.js"></script>
+
+<!-- SDK Supabase (dipakai account.js untuk akun & database) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="account.js"></script>
+
+</body>
+</html>

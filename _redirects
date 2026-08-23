@@ -1,0 +1,8 @@
+# Format lama (bukan netlify.toml) — dipakai karena redirect di
+# netlify.toml ternyata TIDAK diproses untuk deploy manual (drag & drop),
+# cuma untuk deploy lewat build (git-connected). File ini ikut dibaca
+# apa pun cara deploy-nya.
+#
+# "/data.js" -> serve-data.js (baca dari Netlify Blobs). 200! = status
+# 200 + FORCE (menang lawan file statis data.js yang beneran ada).
+/data.js  /.netlify/functions/serve-data  200!

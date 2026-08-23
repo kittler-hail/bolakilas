@@ -1,0 +1,20 @@
+{
+  "name": "bolakilas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BOLAKILAS - jadwal, prediksi, dan klasemen sepak bola harian (situs statis).",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "fetch": "node fetch-schedule.js"
+  },
+  "main": "account.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "fixtureId": 1570348,
+  "home": "Getafe",
+  "away": "Racing Santander",
+  "statusCode": "HT",
+  "updatedAt": "24/08/2026 01:32 WIB",
+  "statistics": {
+    "home": {
+      "possession": 44,
+      "shotsTotal": 6,
+      "shotsOnTarget": 0,
+      "corners": 3,
+      "fouls": 10,
+      "offsides": 1,
+      "yellowCards": 1,
+      "redCards": null
+    },
+    "away": {
+      "possession": 56,
+      "shotsTotal": 2,
+      "shotsOnTarget": 1,
+      "corners": 1,
+      "fouls": 3,
+      "offsides": 0,
+      "yellowCards": 2,
+      "redCards": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "3-5-2",
+      "coach": "Jose Bordalas Jimenez",
+      "startXI": [
+        {
+          "number": 13,
+          "name": "David Soria",
+          "position": "Kiper",
+          "rating": "6.7"
+        },
+        {
+          "number": 2,
+          "name": "Djené",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 4,
+          "name": "Saba Sazonov",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 24,
+          "name": "Zaid Romero",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 16,
+          "name": "Francho Serrano",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 11,
+          "name": "Ramón Terrats",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 23,
+          "name": "Orel Mangala",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 21,
+          "name": "Andrés García",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 22,
+          "name": "Johan Mojica",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 19,
+          "name": "Enes Ünal",
+          "position": "Penyerang",
+          "rating": "6.5"
+        },
+        {
+          "number": 10,
+          "name": "Martín Satriano",
+          "position": "Penyerang",
+          "rating": "6.7"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 35,
+          "name": "Diego Ferrer",
+          "position": "Kiper"
+        },
+        {
+          "number": 1,
+          "name": "Jiří Letáček",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "Abdel Abqar",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Davinchi",
+          "position": "Bek"
+        },
+        {
+          "number": 26,
+          "name": "Jean Ives Valou",
+          "position": "Bek"
+        },
+        {
+          "number": 29,
+          "name": "Curro Burgos",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "Sebastián Boselli",
+          "position": "Bek"
+        },
+        {
+          "number": 30,
+          "name": "Oscar Lopez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 28,
+          "name": "Alberto Risco",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "Ebrahima Drammeh Jaiteh",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Borja Mayoral",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Jose Lopez",
+      "startXI": [
+        {
+          "number": 13,
+          "name": "Julen Agirrezabala",
+          "position": "Kiper",
+          "rating": "6.9"
+        },
+        {
+          "number": 2,
+          "name": "Alvaro Mantilla",
+          "position": "Bek",
+          "rating": "6.5"
+        },
+        {
+          "number": 5,
+          "name": "Pablo Ramón",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 4,
+          "name": "Manu Hernando",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 17,
+          "name": "Jorge Salinas",
+          "position": "Bek",
+          "rating": "6.3"
+        },
+        {
+          "number": 8,
+          "name": "Gustavo Puerta",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 36,
+          "name": "Sergio Martinez",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 11,
+          "name": "Andrés Martín",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 20,
+          "name": "Sergio Canales",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 10,
+          "name": "Iñigo Vicente",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 12,
+          "name": "Asier Villalibre",
+          "position": "Penyerang",
+          "rating": "6.3"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "Simon Eriksson",
+          "position": "Kiper"
+        },
+        {
+          "number": 16,
+          "name": "Facundo González",
+          "position": "Bek"
+        },
+        {
+          "number": 30,
+          "name": "Carlos Sánchez",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Íñigo Sáinz-Maza",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Maguette Gueye",
+          "position": "Gelandang"
+        },
+        {
+          "number": 33,
+          "name": "Jorge Castellanos",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "Iván Martín",
+          "position": "Gelandang"
+        },
+        {
+          "number": 34,
+          "name": "Diego Díaz",
+          "position": "Gelandang"
+        },
+        {
+          "number": 29,
+          "name": "Andrés Vallecillo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Juan Carlos Arana",
+          "position": "Penyerang"
+        },
+        {
+          "number": 21,
+          "name": "Yassir Zabiri",
+          "position": "Penyerang"
+        },
+        {
+          "number": 38,
+          "name": "Hugo Pérez",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
+  "venue": {
+    "name": "Coliseum",
+    "city": "Getafe",
+    "capacity": null,
+    "image": ""
+  },
+  "odds": {
+    "bookmaker": "William Hill",
+    "home": "2.20",
+    "draw": "3.00",
+    "away": "3.60"
+  }
+}

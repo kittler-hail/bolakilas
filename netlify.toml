@@ -1,0 +1,47 @@
+# =========================================================
+# BOLAKILAS — KONFIGURASI NETLIFY
+# Situs ini statis (tanpa build step) — publish langsung dari root.
+# Satu-satunya bagian "server" adalah scheduled function di bawah,
+# pengganti GitHub Actions buat auto-update jadwal & highlight
+# (lihat netlify/functions/scheduled-update.js untuk detail & env
+# var yang dibutuhkan).
+# =========================================================
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions."scheduled-update"]
+  # Jalan tiap jam, sama seperti jadwal GitHub Actions yang digantikan
+  # (.github/workflows/update-jadwal.yml). Format cron standar, UTC.
+  schedule = "0 * * * *"
+
+[functions."update-bigmatch-live"]
+  # Jalan tiap 5 menit — beda dari scheduled-update.js (tiap jam)
+  # karena cuma memproses SATU fixture (Big Match hari ini), jadi jauh
+  # lebih murah untuk dijalankan sering. Sama seperti
+  # .github/workflows/update-bigmatch-live.yml di sisi GitHub Actions.
+  schedule = "*/5 * * * *"
+
+# "/data.js" transparan diarahkan ke function yang baca dari Netlify
+# Blobs (serve-data.js) — bukan file statis data.js yang ikut di-deploy.
+# PENTING: node_modules/ (berisi @netlify/blobs) HARUS ikut di-drag saat
+# deploy manual — drag & drop tidak menjalankan `npm install` sendiri,
+# itu penyebab function-nya crash (502) di percobaan pertama. serve-
+# data.js juga sudah dikasih try/catch, jadi kalau Blobs tetap
+# bermasalah, tetap balas 200 dengan data kosong (bukan crash) —
+# jadwal tetap bisa hilang sementara kalau itu terjadi, tapi situsnya
+# tidak error total.
+[[redirects]]
+  from = "/data.js"
+  to = "/.netlify/functions/serve-data"
+  status = 200
+  force = true
+
+# Sama seperti di atas, tapi buat statistik live & susunan pemain Big
+# Match (lihat serve-bigmatch-live.js / update-bigmatch-live.js).
+[[redirects]]
+  from = "/bigmatch-live.json"
+  to = "/.netlify/functions/serve-bigmatch-live"
+  status = 200
+  force = true
