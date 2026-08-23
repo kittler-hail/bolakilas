@@ -1,0 +1,38 @@
+name: Update Statistik Live & Susunan Pemain Big Match
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-bigmatch-live:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Jalankan fetch-bigmatch-live.js
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node fetch-bigmatch-live.js
+
+      - name: Commit & push bigmatch-live.json kalau ada perubahan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bigmatch-live.json
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan statistik/susunan pemain."
+          else
+            git commit -m "Auto-update statistik live Big Match $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
