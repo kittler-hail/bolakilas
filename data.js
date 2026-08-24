@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-24T10:58:07.614Z.
+   API-Football v3) pada 2026-08-24T11:59:11.522Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -691,6 +691,66 @@ const siteData = {
             ]
         },
         {
+            "league": "Liga MX",
+            "date": "2026-08-24",
+            "time": "08:00",
+            "home": "U.N.A.M. - Pumas",
+            "away": "Necaxa",
+            "stadium": "Estadio Olimpico Universitario",
+            "round": "Apertura - 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2286.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : U.N.A.M. - Pumas or draw",
+            "goals": [
+                {
+                    "minute": "76",
+                    "player": "J. Carranza",
+                    "team": "away"
+                },
+                {
+                    "minute": "88",
+                    "player": "L. Herrera",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "P. Vite",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "R. Monreal",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "I. Luna",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "E. Rodriguez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Liga de Expansion MX",
             "date": "2026-08-24",
             "time": "08:00",
@@ -789,66 +849,6 @@ const siteData = {
                 {
                     "minute": "77",
                     "player": "A. Garcia",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Liga MX",
-            "date": "2026-08-24",
-            "time": "08:00",
-            "home": "U.N.A.M. - Pumas",
-            "away": "Necaxa",
-            "stadium": "Estadio Olimpico Universitario",
-            "round": "Apertura - 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2286.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : U.N.A.M. - Pumas or draw",
-            "goals": [
-                {
-                    "minute": "76",
-                    "player": "J. Carranza",
-                    "team": "away"
-                },
-                {
-                    "minute": "88",
-                    "player": "L. Herrera",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "37",
-                    "player": "P. Vite",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90",
-                    "player": "R. Monreal",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "I. Luna",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+5",
-                    "player": "E. Rodriguez",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2192,7 +2192,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "24/08/2026 17:58 WIB",
+    "standingsUpdated": "24/08/2026 18:59 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2295,6 +2295,30 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "Fermín",
+                "photo": "https://media.api-sports.io/football/players/340626.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 2
+            },
+            {
+                "rank": 4,
+                "name": "Raphinha",
+                "photo": "https://media.api-sports.io/football/players/1496.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
+                "name": "Álex Baena",
+                "photo": "https://media.api-sports.io/football/players/182219.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
+                "value": 1
+            },
+            {
+                "rank": 6,
                 "name": "Isaac",
                 "photo": "https://media.api-sports.io/football/players/185398.png",
                 "team": "Sevilla",
@@ -2302,7 +2326,15 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 7,
+                "name": "G. Simeone",
+                "photo": "https://media.api-sports.io/football/players/323935.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
                 "name": "Oso",
                 "photo": "https://media.api-sports.io/football/players/341453.png",
                 "team": "Sevilla",
@@ -2310,7 +2342,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 9,
                 "name": "C. Ejuke",
                 "photo": "https://media.api-sports.io/football/players/39121.png",
                 "team": "Sevilla",
@@ -2318,49 +2350,41 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
-                "name": "Álvaro García",
-                "photo": "https://media.api-sports.io/football/players/47543.png",
-                "team": "Rayo Vallecano",
-                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
-                "name": "Álex Calatrava",
-                "photo": "https://media.api-sports.io/football/players/286038.png",
-                "team": "Espanyol",
-                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
-                "value": 1
-            },
-            {
-                "rank": 8,
-                "name": "Sergio Camello",
-                "photo": "https://media.api-sports.io/football/players/52.png",
-                "team": "Rayo Vallecano",
-                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "T. Dolan",
-                "photo": "https://media.api-sports.io/football/players/273732.png",
-                "team": "Espanyol",
-                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
-                "value": 1
-            },
-            {
                 "rank": 10,
-                "name": "N. Tenaglia",
-                "photo": "https://media.api-sports.io/football/players/6233.png",
-                "team": "Alaves",
-                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
+                "name": "Lee Kang-In",
+                "photo": "https://media.api-sports.io/football/players/927.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
                 "value": 1
             }
         ],
         "Serie A": [
             {
                 "rank": 1,
+                "name": "K. De Bruyne",
+                "photo": "https://media.api-sports.io/football/players/629.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "value": 1
+            },
+            {
+                "rank": 2,
+                "name": "A. Vergara",
+                "photo": "https://media.api-sports.io/football/players/347395.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "value": 1
+            },
+            {
+                "rank": 3,
+                "name": "A. Rabiot",
+                "photo": "https://media.api-sports.io/football/players/272.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 1
+            },
+            {
+                "rank": 4,
                 "name": "F. Esposito",
                 "photo": "https://media.api-sports.io/football/players/345808.png",
                 "team": "Inter",
@@ -2368,7 +2392,31 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 2,
+                "rank": 5,
+                "name": "Tiago Gabriel",
+                "photo": "https://media.api-sports.io/football/players/455316.png",
+                "team": "Lecce",
+                "teamLogo": "https://media.api-sports.io/football/teams/867.png",
+                "value": 1
+            },
+            {
+                "rank": 6,
+                "name": "C. Adams",
+                "photo": "https://media.api-sports.io/football/players/19524.png",
+                "team": "Torino",
+                "teamLogo": "https://media.api-sports.io/football/teams/503.png",
+                "value": 1
+            },
+            {
+                "rank": 7,
+                "name": "N. Krstović",
+                "photo": "https://media.api-sports.io/football/players/66817.png",
+                "team": "Atalanta",
+                "teamLogo": "https://media.api-sports.io/football/teams/499.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
                 "name": "H. Çalhanoğlu",
                 "photo": "https://media.api-sports.io/football/players/1640.png",
                 "team": "Inter",
@@ -2376,43 +2424,19 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 3,
-                "name": "P. Zieliński",
-                "photo": "https://media.api-sports.io/football/players/329.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
+                "rank": 9,
+                "name": "Olaf Gorter",
+                "photo": "https://media.api-sports.io/football/players/387537.png",
+                "team": "Lecce",
+                "teamLogo": "https://media.api-sports.io/football/teams/867.png",
                 "value": 1
             },
             {
-                "rank": 4,
-                "name": "Gustavo Varela",
-                "photo": "https://media.api-sports.io/football/players/340547.png",
-                "team": "Monza",
-                "teamLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "value": 1
-            },
-            {
-                "rank": 5,
-                "name": "Y. Bisseck",
-                "photo": "https://media.api-sports.io/football/players/24953.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
-                "value": 1
-            },
-            {
-                "rank": 6,
-                "name": "H. Kamara",
-                "photo": "https://media.api-sports.io/football/players/22007.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
-                "name": "T. Douvikas",
-                "photo": "https://media.api-sports.io/football/players/26845.png",
-                "team": "Como",
-                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
+                "rank": 10,
+                "name": "A. Cissè",
+                "photo": "https://media.api-sports.io/football/players/359100.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 1
             }
         ],
