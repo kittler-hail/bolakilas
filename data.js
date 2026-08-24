@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-24T11:59:11.522Z.
+   API-Football v3) pada 2026-08-24T14:26:53.472Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2192,7 +2192,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "24/08/2026 18:59 WIB",
+    "standingsUpdated": "24/08/2026 21:26 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2625,6 +2625,30 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "A. Gordon",
+                "photo": "https://media.api-sports.io/football/players/138787.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 2
+            },
+            {
+                "rank": 4,
+                "name": "Raphinha",
+                "photo": "https://media.api-sports.io/football/players/1496.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 1
+            },
+            {
+                "rank": 5,
+                "name": "Álex Baena",
+                "photo": "https://media.api-sports.io/football/players/182219.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
+                "value": 1
+            },
+            {
+                "rank": 6,
                 "name": "Isaac",
                 "photo": "https://media.api-sports.io/football/players/185398.png",
                 "team": "Sevilla",
@@ -2632,7 +2656,15 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 7,
+                "name": "G. Simeone",
+                "photo": "https://media.api-sports.io/football/players/323935.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
                 "name": "Oso",
                 "photo": "https://media.api-sports.io/football/players/341453.png",
                 "team": "Sevilla",
@@ -2640,51 +2672,19 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
-                "name": "Rafel Bauzà",
-                "photo": "https://media.api-sports.io/football/players/438284.png",
-                "team": "Espanyol",
-                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
-                "value": 1
-            },
-            {
-                "rank": 6,
-                "name": "Jorge de Frutos",
-                "photo": "https://media.api-sports.io/football/players/128582.png",
-                "team": "Rayo Vallecano",
-                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
-                "name": "A. Güler",
-                "photo": "https://media.api-sports.io/football/players/291964.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 1
-            },
-            {
-                "rank": 8,
-                "name": "Alberto Moleiro",
-                "photo": "https://media.api-sports.io/football/players/182519.png",
-                "team": "Villarreal",
-                "teamLogo": "https://media.api-sports.io/football/teams/533.png",
-                "value": 1
-            },
-            {
                 "rank": 9,
-                "name": "C. Hernández",
-                "photo": "https://media.api-sports.io/football/players/47582.png",
-                "team": "Real Betis",
-                "teamLogo": "https://media.api-sports.io/football/teams/543.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
                 "name": "G. Mikautadze",
                 "photo": "https://media.api-sports.io/football/players/180496.png",
                 "team": "Villarreal",
                 "teamLogo": "https://media.api-sports.io/football/teams/533.png",
+                "value": 1
+            },
+            {
+                "rank": 10,
+                "name": "Rafel Bauzà",
+                "photo": "https://media.api-sports.io/football/players/438284.png",
+                "team": "Espanyol",
+                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
                 "value": 1
             }
         ],
@@ -2699,6 +2699,30 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "K. De Bruyne",
+                "photo": "https://media.api-sports.io/football/players/629.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "value": 1
+            },
+            {
+                "rank": 3,
+                "name": "A. Vergara",
+                "photo": "https://media.api-sports.io/football/players/347395.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "value": 1
+            },
+            {
+                "rank": 4,
+                "name": "A. Rabiot",
+                "photo": "https://media.api-sports.io/football/players/272.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 1
+            },
+            {
+                "rank": 5,
                 "name": "F. Esposito",
                 "photo": "https://media.api-sports.io/football/players/345808.png",
                 "team": "Inter",
@@ -2706,7 +2730,15 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 3,
+                "rank": 6,
+                "name": "Francisco Conceição",
+                "photo": "https://media.api-sports.io/football/players/161585.png",
+                "team": "Juventus",
+                "teamLogo": "https://media.api-sports.io/football/teams/496.png",
+                "value": 1
+            },
+            {
+                "rank": 7,
                 "name": "M. Mout",
                 "photo": "https://media.api-sports.io/football/players/613450.png",
                 "team": "Monza",
@@ -2714,11 +2746,27 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 8,
                 "name": "J. Ekkelenkamp",
                 "photo": "https://media.api-sports.io/football/players/541.png",
                 "team": "Udinese",
                 "teamLogo": "https://media.api-sports.io/football/teams/494.png",
+                "value": 1
+            },
+            {
+                "rank": 9,
+                "name": "S. Chukwueze",
+                "photo": "https://media.api-sports.io/football/players/1696.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 1
+            },
+            {
+                "rank": 10,
+                "name": "G. Gaetano",
+                "photo": "https://media.api-sports.io/football/players/325.png",
+                "team": "Atalanta",
+                "teamLogo": "https://media.api-sports.io/football/teams/499.png",
                 "value": 1
             }
         ],
@@ -3715,7 +3763,7 @@ const siteData = {
                 "player": "Juanpe",
                 "photo": "https://media.api-sports.io/football/players/182786.png",
                 "reason": "Muscle Injury",
-                "since": "2026-08-24"
+                "since": "2026-08-19"
             },
             {
                 "player": "D. Murillo",
