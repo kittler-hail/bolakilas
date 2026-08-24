@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-24T22:57:29.677Z.
+   API-Football v3) pada 2026-08-24T23:49:07.644Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -863,8 +863,8 @@ const siteData = {
             },
             {
                 "rank": 14,
-                "team": "Rayo Vallecano",
-                "logo": "https://media.api-sports.io/football/teams/728.png",
+                "team": "Racing Santander",
+                "logo": "https://media.api-sports.io/football/teams/4665.png",
                 "played": 2,
                 "win": 0,
                 "draw": 1,
@@ -874,8 +874,8 @@ const siteData = {
             },
             {
                 "rank": 15,
-                "team": "Racing Santander",
-                "logo": "https://media.api-sports.io/football/teams/4665.png",
+                "team": "Rayo Vallecano",
+                "logo": "https://media.api-sports.io/football/teams/728.png",
                 "played": 2,
                 "win": 0,
                 "draw": 1,
@@ -1762,7 +1762,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/08/2026 05:57 WIB",
+    "standingsUpdated": "25/08/2026 06:49 WIB",
     "topScorers": {
         "Premier League": [
             {
