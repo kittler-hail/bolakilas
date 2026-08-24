@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-24T14:26:53.472Z.
+   API-Football v3) pada 2026-08-24T16:20:11.860Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -691,66 +691,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga MX",
-            "date": "2026-08-24",
-            "time": "08:00",
-            "home": "U.N.A.M. - Pumas",
-            "away": "Necaxa",
-            "stadium": "Estadio Olimpico Universitario",
-            "round": "Apertura - 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2286.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : U.N.A.M. - Pumas or draw",
-            "goals": [
-                {
-                    "minute": "76",
-                    "player": "J. Carranza",
-                    "team": "away"
-                },
-                {
-                    "minute": "88",
-                    "player": "L. Herrera",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "37",
-                    "player": "P. Vite",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90",
-                    "player": "R. Monreal",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "I. Luna",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+5",
-                    "player": "E. Rodriguez",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-08-24",
             "time": "08:00",
@@ -849,6 +789,66 @@ const siteData = {
                 {
                     "minute": "77",
                     "player": "A. Garcia",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-08-24",
+            "time": "08:00",
+            "home": "U.N.A.M. - Pumas",
+            "away": "Necaxa",
+            "stadium": "Estadio Olimpico Universitario",
+            "round": "Apertura - 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2286.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : U.N.A.M. - Pumas or draw",
+            "goals": [
+                {
+                    "minute": "76",
+                    "player": "J. Carranza",
+                    "team": "away"
+                },
+                {
+                    "minute": "88",
+                    "player": "L. Herrera",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "P. Vite",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "R. Monreal",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "I. Luna",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "E. Rodriguez",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2192,7 +2192,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "24/08/2026 21:26 WIB",
+    "standingsUpdated": "24/08/2026 23:20 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4241,6 +4241,12 @@ const siteData = {
                 "player": "S. Gigot",
                 "photo": "https://media.api-sports.io/football/players/1775.png",
                 "reason": "Inactive",
+                "since": "2026-08-24"
+            },
+            {
+                "player": "Patric",
+                "photo": "https://media.api-sports.io/football/players/1841.png",
+                "reason": "Ankle Injury",
                 "since": "2026-08-24"
             },
             {
