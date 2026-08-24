@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-24T19:59:50.442Z.
+   API-Football v3) pada 2026-08-24T21:05:47.429Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -119,9 +119,9 @@ const siteData = {
             "away": "Amed",
             "stadium": "Yildiz Entegre Kocaeli Stadyumu",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "68'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
             "awayLogo": "https://media.api-sports.io/football/teams/3579.png",
@@ -137,6 +137,25 @@ const siteData = {
                     "minute": "16",
                     "player": "B. Kutlu",
                     "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "M. Maglica",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "86",
+                    "player": "L. Dellova",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "A. Lafont",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -148,9 +167,9 @@ const siteData = {
             "away": "Fiorentina",
             "stadium": "Stadio Olimpico",
             "round": "Pekan 1",
-            "statusCode": "2H",
-            "minuteDisplay": "54'",
-            "homeScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/497.png",
             "awayLogo": "https://media.api-sports.io/football/teams/502.png",
@@ -170,6 +189,16 @@ const siteData = {
                 {
                     "minute": "52",
                     "player": "D. Malen",
+                    "team": "home"
+                },
+                {
+                    "minute": "60",
+                    "player": "D. Malen",
+                    "team": "home"
+                },
+                {
+                    "minute": "86",
+                    "player": "N. Pisilli",
                     "team": "home"
                 }
             ],
@@ -191,6 +220,12 @@ const siteData = {
                     "player": "M. Kone",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "M. Pellegrino",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -202,10 +237,10 @@ const siteData = {
             "away": "Chelsea",
             "stadium": "Craven Cottage",
             "round": "Pekan 1",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/36.png",
             "awayLogo": "https://media.api-sports.io/football/teams/49.png",
             "prediction": "0 - 1",
@@ -230,6 +265,16 @@ const siteData = {
                     "minute": "41",
                     "player": "M. Rogers",
                     "team": "away"
+                },
+                {
+                    "minute": "49",
+                    "player": "C. Palmer",
+                    "team": "away"
+                },
+                {
+                    "minute": "54",
+                    "player": "G. Garcia",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -244,6 +289,24 @@ const siteData = {
                     "player": "R. Lavia",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "R. James",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "C. Bassey",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "T. Castagne",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -255,9 +318,9 @@ const siteData = {
             "away": "Casa Pia",
             "stadium": "Estádio Cidade de Barcelos",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "43'",
-            "homeScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "87'",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/762.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
@@ -273,6 +336,11 @@ const siteData = {
                     "minute": "20",
                     "player": "G. Pinto Martins",
                     "team": "home"
+                },
+                {
+                    "minute": "45",
+                    "player": "H. Hernandez",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -280,6 +348,12 @@ const siteData = {
                     "minute": "35",
                     "player": "S. Perez",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "M. Elimbi",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -292,9 +366,9 @@ const siteData = {
             "away": "Deportivo La Coruna",
             "stadium": "La Rosaleda",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "28'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "76'",
+            "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/535.png",
             "awayLogo": "https://media.api-sports.io/football/teams/544.png",
@@ -310,6 +384,11 @@ const siteData = {
                     "minute": "21",
                     "player": "P. Aubameyang",
                     "team": "away"
+                },
+                {
+                    "minute": "34",
+                    "player": "Chupe",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -317,6 +396,18 @@ const siteData = {
                     "minute": "25",
                     "player": "M. Soriano",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "G. Quagliata",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "D. Larrubia",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -738,6 +829,17 @@ const siteData = {
             },
             {
                 "rank": 12,
+                "team": "Osasuna",
+                "logo": "https://media.api-sports.io/football/teams/727.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
+            },
+            {
+                "rank": 13,
                 "team": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 1,
@@ -748,7 +850,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png",
                 "played": 2,
@@ -759,7 +861,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Racing Santander",
                 "logo": "https://media.api-sports.io/football/teams/4665.png",
                 "played": 2,
@@ -770,7 +872,18 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 15,
+                "rank": 16,
+                "team": "Levante",
+                "logo": "https://media.api-sports.io/football/teams/539.png",
+                "played": 2,
+                "win": 0,
+                "draw": 1,
+                "lose": 1,
+                "gd": -3,
+                "points": 1
+            },
+            {
+                "rank": 17,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
                 "played": 2,
@@ -781,18 +894,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 16,
-                "team": "Osasuna",
-                "logo": "https://media.api-sports.io/football/teams/727.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
-            },
-            {
-                "rank": 17,
+                "rank": 18,
                 "team": "Real Sociedad",
                 "logo": "https://media.api-sports.io/football/teams/548.png",
                 "played": 1,
@@ -803,7 +905,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 18,
+                "rank": 19,
                 "team": "Athletic Club",
                 "logo": "https://media.api-sports.io/football/teams/531.png",
                 "played": 1,
@@ -814,7 +916,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 19,
+                "rank": 20,
                 "team": "Malaga",
                 "logo": "https://media.api-sports.io/football/teams/535.png",
                 "played": 1,
@@ -822,17 +924,6 @@ const siteData = {
                 "draw": 0,
                 "lose": 1,
                 "gd": -2,
-                "points": 0
-            },
-            {
-                "rank": 20,
-                "team": "Levante",
-                "logo": "https://media.api-sports.io/football/teams/539.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -3,
                 "points": 0
             }
         ],
@@ -1659,7 +1750,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/08/2026 02:59 WIB",
+    "standingsUpdated": "25/08/2026 04:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3720,12 +3811,6 @@ const siteData = {
                 "player": "Patric",
                 "photo": "https://media.api-sports.io/football/players/1841.png",
                 "reason": "Ankle Injury",
-                "since": "2026-08-24"
-            },
-            {
-                "player": "A. Romagnoli",
-                "photo": "https://media.api-sports.io/football/players/1632.png",
-                "reason": "Knee Injury",
                 "since": "2026-08-24"
             }
         ],
@@ -16427,6 +16512,44 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "FC Iberia 1999",
+                "away": "Jagiellonia",
+                "stadium": "Mikheil Meskhi Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Jagiellonia"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "Ararat-Armenia",
+                "away": "Universitatea Craiova",
+                "stadium": "Vazgen Sargsyan Republican Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Universitatea Craiova"
+            },
+            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-27",
                 "time": "23:00",
@@ -16482,44 +16605,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "FC Iberia 1999",
-                "away": "Jagiellonia",
-                "stadium": "Mikheil Meskhi Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Jagiellonia"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "Ararat-Armenia",
-                "away": "Universitatea Craiova",
-                "stadium": "Vazgen Sargsyan Republican Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Universitatea Craiova"
             },
             {
                 "league": "UEFA Europa Conference League",
