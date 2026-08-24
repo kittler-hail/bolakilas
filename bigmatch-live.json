@@ -2,27 +2,27 @@
   "fixtureId": 1570348,
   "home": "Getafe",
   "away": "Racing Santander",
-  "statusCode": "HT",
-  "updatedAt": "24/08/2026 01:32 WIB",
+  "statusCode": "FT",
+  "updatedAt": "24/08/2026 10:33 WIB",
   "statistics": {
     "home": {
-      "possession": 44,
-      "shotsTotal": 6,
-      "shotsOnTarget": 0,
-      "corners": 3,
-      "fouls": 10,
-      "offsides": 1,
+      "possession": 43,
+      "shotsTotal": 12,
+      "shotsOnTarget": 1,
+      "corners": 8,
+      "fouls": 14,
+      "offsides": 3,
       "yellowCards": 1,
       "redCards": null
     },
     "away": {
-      "possession": 56,
-      "shotsTotal": 2,
-      "shotsOnTarget": 1,
-      "corners": 1,
-      "fouls": 3,
-      "offsides": 0,
-      "yellowCards": 2,
+      "possession": 57,
+      "shotsTotal": 6,
+      "shotsOnTarget": 3,
+      "corners": 6,
+      "fouls": 17,
+      "offsides": 2,
+      "yellowCards": 3,
       "redCards": null
     }
   },
@@ -35,67 +35,67 @@
           "number": 13,
           "name": "David Soria",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "8.2"
         },
         {
           "number": 2,
           "name": "Djené",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 4,
           "name": "Saba Sazonov",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 24,
           "name": "Zaid Romero",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.9"
         },
         {
           "number": 16,
           "name": "Francho Serrano",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 11,
           "name": "Ramón Terrats",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.2"
         },
         {
           "number": 23,
           "name": "Orel Mangala",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 21,
           "name": "Andrés García",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "7.6"
         },
         {
           "number": 22,
           "name": "Johan Mojica",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.3"
         },
         {
           "number": 19,
           "name": "Enes Ünal",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "7.2"
         },
         {
           "number": 10,
           "name": "Martín Satriano",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -132,7 +132,8 @@
         {
           "number": 15,
           "name": "Sebastián Boselli",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 30,
@@ -164,37 +165,37 @@
           "number": 13,
           "name": "Julen Agirrezabala",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 2,
           "name": "Alvaro Mantilla",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 5,
           "name": "Pablo Ramón",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 4,
           "name": "Manu Hernando",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.3"
         },
         {
           "number": 17,
           "name": "Jorge Salinas",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "7.2"
         },
         {
           "number": 8,
           "name": "Gustavo Puerta",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.3"
         },
         {
           "number": 36,
@@ -206,7 +207,7 @@
           "number": 11,
           "name": "Andrés Martín",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "5.7"
         },
         {
           "number": 20,
@@ -218,13 +219,13 @@
           "number": 10,
           "name": "Iñigo Vicente",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 12,
           "name": "Asier Villalibre",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
@@ -236,7 +237,8 @@
         {
           "number": 16,
           "name": "Facundo González",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 30,
@@ -251,7 +253,8 @@
         {
           "number": 14,
           "name": "Maguette Gueye",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 33,
@@ -261,7 +264,8 @@
         {
           "number": 23,
           "name": "Iván Martín",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.9"
         },
         {
           "number": 34,
@@ -276,12 +280,14 @@
         {
           "number": 9,
           "name": "Juan Carlos Arana",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         },
         {
           "number": 21,
           "name": "Yassir Zabiri",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.0"
         },
         {
           "number": 38,
