@@ -1,25 +1,32 @@
 /* =========================================================
-   BOLAKILAS — STYLE.CSS  (v6 — modern minimalis, palet indigo/magenta)
-   Redesign dari tema "koran klasik" (merah tua/krem) ke palet baru
-   yang diminta: indigo/ungu sebagai warna utama (interaktif, brand),
-   magenta sebagai aksen istimewa (live, sorotan), rust/peach/pale-
-   yellow sebagai aksen hangat (status/badge), abu netral untuk teks
-   sekunder, dan latar nyaris-putih sejuk (bukan krem lagi).
+   BOLAKILAS — STYLE.CSS  (v7 — tema gelap + neon, palet indigo/magenta)
+   Redesign dari versi v6 (terang/minimalis, kartu putih di atas latar
+   nyaris-putih) ke tema GELAP dengan aksen glow neon magenta — masih
+   palet 11 kode yang sama, cuma perannya dibalik: warna gelap (navy,
+   plum) sekarang jadi latar, warna terang (putih pucat, peach, pale
+   yellow) jadi teks/aksen di atasnya. Referensi gaya: kartu "kaca"
+   tembus pandang (glassmorphism) di atas latar gelap dengan sorotan
+   radial magenta, garis/border tipis yang menyala (glow), dan animasi
+   fade-up saat elemen masuk layar.
 
-   Prinsip desain: kartu putih bersih di atas latar #F5F8FF (bukan
-   garis tegas ala cetak lagi), border & shadow jauh lebih lembut,
-   radius sedikit lebih besar & konsisten, transisi/animasi lebih
-   halus (lihat MOTION di bagian bawah file), dan status fokus yang
-   jelas untuk aksesibilitas keyboard (lihat :focus-visible).
+   Prinsip desain: kartu ungu-tua tembus pandang (bukan putih solid
+   lagi) di atas latar gelap dengan beberapa sorotan radial magenta/
+   ungu, border tipis yang "menyala" alih-alih shadow gelap (shadow
+   gelap tidak kelihatan di atas latar gelap — makanya elevasi kartu
+   sekarang pakai glow warna, bukan bayangan hitam), radius & transisi
+   tetap sama seperti v6, status fokus keyboard tetap jelas (lihat
+   :focus-visible).
 
    CATATAN SEMANTIK WARNA (tidak semua bisa dari 11 kode yang diberi):
-   - Menang/positif = INDIGO (bukan hijau) — palet yang diberi tidak
-     punya hijau, jadi konvensi "hijau=menang" diganti "indigo=menang,
-     rust=kalah, abu=seri" — tetap gampang dipindai karena SELALU
-     dipasangkan dengan label huruf (M/S/K) atau teks, bukan warna saja.
-   - Tim Away di meter probabilitas Big Match sengaja pakai ungu-muda
-     (--blue-light) supaya beda kasat mata dari Home (indigo penuh),
-     bukan karena "away = kurang penting".
+   - Menang/positif = INDIGO yang dicerahkan (--win), Kalah = RUST yang
+     dicerahkan (--lose), Seri = abu terang (--draw-c) — dicerahkan dari
+     versi v6 supaya tetap kebaca sebagai TEKS di atas kartu gelap,
+     bukan cuma sebagai warna badge solid. Tetap SELALU dipasangkan
+     dengan label huruf (M/S/K) atau teks, bukan warna saja.
+   - Magenta (--accent) tetap direservasi untuk elemen istimewa: live
+     status, Big Match, glow border pada kartu yang sedang berlangsung
+     — supaya tetap terasa "spesial", bukan dipakai rata di semua
+     elemen (baru netral pakai varian ungu-muda/--blue-light).
    - Kartu kuning tetap warna kuning asli (bukan dari palet) — itu
      representasi visual kartu sungguhan, bukan bagian identitas brand.
    ========================================================= */
@@ -28,58 +35,58 @@
   /* ---------- PALET UTAMA (11 kode dari user) ---------- */
   --sky:   #FFDDCC;   /* peach — aksen hangat kecil / badge lembut */
   --blue:  #3E37B1;   /* indigo utama — tombol, link, ikon aktif (nama var dipertahankan) */
-  --navy:  #211A3D;   /* tinta gelap (indigo-black) — teks & elemen gelap */
+  --navy:  #211A3D;   /* tinta gelap (indigo-black) — dulu teks, sekarang elemen gelap solid (toast, dsb) */
   --paper: #FFFFFF;   /* putih — teks di atas tombol/chip indigo */
 
-  --white: #211A3D;       /* teks utama — tinta indigo-gelap, bukan hitam polos */
-  --muted: #5C5A66;       /* teks sekunder — abu netral digelapkan dari #8C8C8D supaya kontras cukup (AA) di atas putih */
-  --muted-dark: #8C8C8D;  /* teks tersier / label kecil — abu asli dari palet */
-  --cyan: #3E37B1;         /* alias lama, disamakan dengan indigo utama */
+  --white: #F5F8FF;        /* teks utama SEKARANG TERANG — tema gelap, kartu kaca ungu-tua di baliknya */
+  --muted: #C9C3E8;        /* teks sekunder — lavender terang, kontras cukup di atas kartu gelap */
+  --muted-dark: #9C96C0;   /* teks tersier / label kecil — lavender-abu redup, dinaikkan dari abu asli #8C8C8D supaya tetap AA-kontras di atas kartu gelap */
+  --cyan: #6F54B3;
   --blue-light: #6F54B3;  /* ungu muda — aksen sekunder, tim "away", chip lembut */
-  --blue-dark: #422981;   /* ungu tua — hover/pressed, border aktif */
-  --blue-deep: #57025A;   /* plum tua — aksen paling gelap, footer/overlay */
-  --accent: #9F05A2;      /* magenta — aksen istimewa: live dot, Big Match, sorotan */
-  --black: #211A3D;
-  --line: rgba(33,26,61,.14);
-  --line-bright: rgba(33,26,61,.30);
-  --shadow: rgba(33,26,61,.12);
-  --card-bg: #FFFFFF;
-  --page-bg: #F5F8FF;
-  --grid-line: rgba(33,26,61,.03);
+  --blue-dark: #422981;   /* ungu tua — dasar kartu kaca (glass), hover/pressed */
+  --blue-deep: #57025A;   /* plum tua — sorotan latar paling gelap */
+  --accent: #9F05A2;      /* magenta — aksen istimewa: live dot, Big Match, glow border */
+  --black: #0C0718;
+  --line: rgba(111,84,179,.35);       /* border kaca ungu-muda — dulu garis tinta gelap, sekarang garis "menyala" tipis */
+  --line-bright: rgba(111,84,179,.55);
+  --shadow: rgba(0,0,0,.45);          /* shadow gelap murni — dipakai terbatas, kebanyakan elevasi sekarang pakai glow warna (lihat rule masing-masing) */
+  --card-bg: rgba(66,41,129,.30);     /* kartu "kaca" ungu-tua tembus pandang, bukan putih solid lagi */
+  --page-bg: #140A28;                 /* latar dasar — ungu-hitam pekat */
+  --grid-line: rgba(255,255,255,.04);
 
   /* ---------- elemen dengan nilai tetap ---------- */
-  --surface-1: rgba(62,55,177,.05);
-  --surface-2: rgba(62,55,177,.07);
+  --surface-1: rgba(111,84,179,.10);
+  --surface-2: rgba(111,84,179,.16);
   --header-bg: #3E37B1; /* indigo solid — dipakai sebagai background-color fallback di .topbar, HARUS warna polos (bukan gradient), lihat pemakaiannya */
-  --ticker-bg: #FFFFFF;
-  --hero-bg: #FFFFFF;
-  --bigmatch-bg: #FFF4EE;
-  --bigmatch-overlay: linear-gradient(90deg, rgba(245,248,255,.95), rgba(245,248,255,.55), rgba(245,248,255,.95));
-  --stats-bg: #FFFFFF;
+  --ticker-bg: rgba(66,41,129,.30);
+  --hero-bg: rgba(66,41,129,.30);
+  --bigmatch-bg: #1B0F3D;
+  --bigmatch-overlay: linear-gradient(90deg, rgba(20,10,40,.95), rgba(20,10,40,.5), rgba(20,10,40,.95));
+  --stats-bg: rgba(66,41,129,.30);
   --footer-bg: #180E33;
-  --cbox-bg: #FFFFFF;
-  --hero-side-bg: #FFFFFF;
-  --search-bg: #FFFFFF;
-  --filter-bg: #FFFFFF;
-  --probability-bg: #F3F1FC;
+  --cbox-bg: #1E1240;
+  --hero-side-bg: rgba(66,41,129,.30);
+  --search-bg: #1E1240;
+  --filter-bg: #1E1240;
+  --probability-bg: rgba(111,84,179,.14);
   --toast-bg: #211A3D;
   --toast-color: #F5F8FF;
-  --meter-track: rgba(33,26,61,.08);
+  --meter-track: rgba(255,255,255,.10);
   --meter-away: #6F54B3;
-  --scroll-bg: #FFFFFF;
-  --win: #3E37B1;
-  --draw-c: #8C8C8D;
-  --lose: #B64531;
+  --scroll-bg: #1E1240;
+  --win: #7B74DB;  /* indigo dicerahkan dari --blue supaya tetap kebaca sebagai TEKS langsung di atas kartu gelap (bukan cuma sebagai bg badge) */
+  --draw-c: #ABABAC; /* abu dicerahkan dari #8C8C8D, alasan sama seperti --win */
+  --lose: #FF7A5C;  /* rust dicerahkan dari #B64531, alasan sama seperti --win */
 
   /* ---------- aksen hangat tambahan (dari palet) ---------- */
   --peach: #FFDDCC;
   --pale-yellow: #F5EEB8;
   --rust: #B64531;
-  --rust-dark: #7A2F1E; /* diturunkan dari --rust untuk teks di atas chip peach/pale-yellow, supaya tetap AA-kontras */
+  --rust-dark: #7A2F1E; /* TETAP gelap — dipakai sebagai teks di atas chip peach/pale-yellow yang tetap terang di kedua tema */
 
-  /* ---------- garis tepi solid (dulu efek neon) ---------- */
-  --neon-glow: rgba(33,26,61,.20);
-  --neon-glow-soft: rgba(33,26,61,.10);
+  /* ---------- glow neon (aksen "istimewa" — lihat catatan semantik di atas) ---------- */
+  --neon-glow: rgba(159,5,162,.45);
+  --neon-glow-soft: rgba(159,5,162,.22);
 
   /* ---------- durasi & easing gerak (lihat MOTION) ---------- */
   --ease-out: cubic-bezier(.16,1,.3,1);
@@ -104,11 +111,30 @@ body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', Arial, sans-serif;
   color: var(--white);
-  /* Latar polos nyaris-putih sejuk — flat, tanpa tekstur/pola cetak,
-     sesuai arah minimalis yang diminta (kartu putih-lah yang jadi
-     lapisan visual, bukan tekstur di latar). */
-  background: var(--page-bg);
+  /* Latar gelap berlapis: kisi titik halus (pattern, beda dari pola
+     header) + satu bola cahaya magenta yang perlahan mengambang
+     kemana-mana (background-position yang dianimasikan — bukan posisi
+     "at X Y" di dalam radial-gradient, supaya benar-benar bisa
+     digerakkan lewat CSS) + tiga sorotan radial magenta/ungu/plum yang
+     diam sebagai lapisan dasar — inilah lapisan "neon" utama situs,
+     dipasang sekali di body supaya konsisten di semua halaman tanpa
+     perlu gambar/asset tambahan. */
+  background:
+    radial-gradient(circle 240px, rgba(159,5,162,.32), transparent 70%) no-repeat,
+    radial-gradient(circle, rgba(255,255,255,.05) 1px, transparent 1.6px) 0 0 / 34px 34px,
+    radial-gradient(ellipse 900px 520px at 12% -8%, rgba(159,5,162,.24), transparent 60%),
+    radial-gradient(ellipse 720px 520px at 105% 18%, rgba(111,84,179,.20), transparent 55%),
+    radial-gradient(ellipse 820px 620px at 50% 115%, rgba(87,2,90,.28), transparent 60%),
+    var(--page-bg);
+  background-size: 100% 100%, 34px 34px, auto, auto, auto, auto;
+  background-attachment: fixed;
+  animation: bgOrbDrift 55s ease-in-out infinite;
   overflow-x: hidden;
+}
+@keyframes bgOrbDrift {
+  0%   { background-position: 8% 12%,  0 0, 0 0, 0 0, 0 0, 0 0; }
+  50%  { background-position: 88% 68%, 0 0, 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: 8% 12%,  0 0, 0 0, 0 0, 0 0, 0 0; }
 }
 
 a { text-decoration: none; color: inherit; }
@@ -146,6 +172,26 @@ a:focus-visible, button:focus-visible, input:focus-visible,
    ========================================================= */
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes neonPulse {
+  0%, 100% { box-shadow: 0 1px 2px rgba(159,5,162,.16), 0 4px 24px rgba(159,5,162,.18); }
+  50% { box-shadow: 0 1px 2px rgba(159,5,162,.28), 0 10px 34px rgba(159,5,162,.34); }
+}
+/* Glow berdenyut pelan (2-3s, amplitudo kecil) — dipakai di beberapa
+   elemen "istimewa" (VS badge, lambang tim di Big Match, aksen judul
+   section) supaya situs terasa "hidup", tapi cukup halus untuk tidak
+   mengganggu keterbacaan. Semua otomatis diam kalau reduce-motion. */
+@keyframes vsPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(159,5,162,.45); }
+  50% { box-shadow: 0 0 32px rgba(159,5,162,.72); }
+}
+@keyframes crestGlowPulse {
+  0%, 100% { box-shadow: 0 0 22px rgba(159,5,162,.25); }
+  50% { box-shadow: 0 0 34px rgba(159,5,162,.48); }
+}
+@keyframes accentSquarePulse {
+  0%, 100% { box-shadow: 0 0 8px var(--neon-glow-soft); transform: scale(1); }
+  50% { box-shadow: 0 0 15px var(--neon-glow); transform: scale(1.18); }
+}
 
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity var(--dur-slow) var(--ease-out), transform var(--dur-slow) var(--ease-out); }
 .reveal.in { opacity: 1; transform: translateY(0); }
@@ -171,6 +217,17 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   transform: scale(.96);
 }
 
+/* Garis tipis "menyala" di atas tiap .section — mirip pembatas neon,
+   sorotan magenta lembut yang memudar di kedua ujung. */
+.section { margin-top: 40px; position: relative; }
+.section::before {
+  content: ""; position: absolute; top: -20px; left: 4%; right: 4%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--neon-glow), transparent);
+  box-shadow: 0 0 10px var(--neon-glow-soft);
+  pointer-events: none;
+}
+.section:first-child::before { display: none; }
+
 /* =========================================================
    TOPBAR
    ========================================================= */
@@ -184,21 +241,34 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   position: sticky;
   top: 0;
   z-index: 100;
-  /* Header dengan tekstur: pola titik halus + sorotan magenta radial +
-     sheen diagonal, semua di atas gradasi indigo→ungu-tua — beberapa
-     lapisan gradient/pola (bukan gambar/asset baru) supaya kepala
-     situs tidak terasa flat polos. */
+  /* Header dengan tekstur: mesh garis diagonal silang (bukan lagi pola
+     titik — pola beda dari yang dipakai di latar body) + sorotan
+     magenta radial + satu pita cahaya yang bergerak pelan menyapu dari
+     kanan ke kiri (background-position dianimasikan), semua di atas
+     gradasi indigo→ungu-tua — beberapa lapisan gradient/pola (bukan
+     gambar/asset baru) supaya kepala situs tidak terasa flat polos. */
   background:
-    radial-gradient(circle, rgba(255,255,255,.5) 1px, transparent 1.4px) 0 0 / 16px 16px,
+    linear-gradient(100deg, transparent 35%, rgba(255,255,255,.22) 48%, transparent 62%),
+    repeating-linear-gradient(45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
+    repeating-linear-gradient(-45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
     radial-gradient(ellipse 480px 220px at 88% -20%, rgba(159,5,162,.55), transparent 70%),
-    linear-gradient(160deg, rgba(255,255,255,.10), rgba(0,0,0,.08) 70%),
     linear-gradient(115deg, var(--blue), var(--blue-dark) 85%);
+  background-size: 240% 100%, auto, auto, auto, auto;
+  animation: topbarShine 7s ease-in-out infinite;
   border-bottom: none;
-  box-shadow: 0 2px 14px rgba(33,26,61,.18);
+  /* Bayangan gelap murni (bukan lagi tinta rgba(33,26,61,..)) + garis
+     jahitan magenta tipis di tepi bawah — sentuhan glow pertama yang
+     kelihatan begitu halaman dibuka. */
+  box-shadow: 0 4px 20px rgba(0,0,0,.4), 0 1px 0 rgba(159,5,162,.45);
   padding: 11px 16px;
   margin-left: -12px;
   margin-right: -12px;
   width: calc(100% + 24px);
+}
+@keyframes topbarShine {
+  0%   { background-position: 200% 0, 0 0, 0 0, 0 0, 0 0; }
+  55%  { background-position: -60% 0, 0 0, 0 0, 0 0, 0 0; }
+  100% { background-position: -60% 0, 0 0, 0 0, 0 0, 0 0; }
 }
 
 .brand { flex: none; }
@@ -209,8 +279,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
    kalau sempit, bukan melipat jadi dua baris yang berantakan); di bawah
    650px nav disembunyikan & digantikan dropdown hamburger (lihat RESPONSIVE). */
 /* Pill nav "kaca buram" (glassmorphic) mengambang di atas gradasi
-   topbar — beda total dari versi lama (kotak putih solid bersudut
-   tajam). Item aktif dapat pil putih yang menonjol dari kaca buram
+   topbar — item aktif dapat pil putih yang menonjol dari kaca buram
    di sekelilingnya, jadi status halaman aktif tetap jelas kebaca. */
 .nav {
   display: flex; gap: 2px; padding: 4px;
@@ -224,7 +293,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .nav::-webkit-scrollbar { display: none; }
 .nav a { flex: none; white-space: nowrap; padding: 10px 20px; border-radius: 999px; color: rgba(255,255,255,.78); font-size: 13.5px; font-weight: 700; transition: var(--dur-fast) var(--ease-out); }
 .nav a:hover { color: #fff; background: rgba(255,255,255,.14); }
-.nav a.active { color: var(--blue); background: #fff; box-shadow: 0 3px 10px rgba(24,14,46,.22); }
+.nav a.active { color: var(--blue); background: #fff; box-shadow: 0 3px 10px rgba(12,7,24,.35); }
 
 .about-open-btn { flex: none; padding: 10px 18px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: 13px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
 .about-open-btn:hover { color: var(--paper); background: var(--blue); border-color: var(--blue); }
@@ -264,21 +333,21 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   gap: 0;
   margin: 8px 0 14px;
   padding: 12px 18px;
-  border: none;
+  border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--stats-bg);
-  box-shadow: 0 1px 2px rgba(33,26,61,.05), 0 1px 12px rgba(33,26,61,.04);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 8px 24px rgba(159,5,162,.10);
   flex-wrap: wrap;
 }
 .stat-item { display: flex; flex-direction: column; align-items: center; padding: 0 20px; }
-.stat-num { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: var(--blue); }
+.stat-num { font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700; color: var(--white); text-shadow: 0 0 10px var(--neon-glow-soft); }
 .stat-label { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-top: 2px; }
 .stat-divider { width: 1px; height: 28px; background: var(--line); }
 
 /* =========================================================
-   SECTION
+   SECTION TITLE
    ========================================================= */
-.section { margin-top: 40px; }
 .section-title { display: flex; justify-content: space-between; align-items: end; margin: 26px 2px 16px; flex-wrap: wrap; gap: 8px; }
 .section-title h2 {
   font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 21px; margin: 0;
@@ -287,21 +356,22 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 }
 .section-title h2::before {
   content: ""; width: 9px; height: 9px; border-radius: 3px; flex: none;
-  background: linear-gradient(135deg, var(--blue), var(--accent));
+  background: linear-gradient(135deg, var(--blue-light), var(--accent));
+  animation: accentSquarePulse 2.2s ease-in-out infinite;
 }
 .section-title small { color: var(--muted-dark); font-size: 10.5px; }
 
 @keyframes blink { 50% { opacity: .25; } }
-.live-dot-small { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: blink 1.3s infinite; flex: none; }
+.live-dot-small { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent); animation: blink 1.3s infinite; flex: none; }
 
 /* =========================================================
    TICKER  (kini menampilkan headline berita, dipelankan)
    ========================================================= */
-.ticker { margin: 14px 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--ticker-bg); }
+.ticker { margin: 14px 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--ticker-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 .ticker-track { display: flex; width: max-content; animation: scroll 110s linear infinite; }
 .ticker-track:hover { animation-play-state: paused; }
 .ticker-item { display: flex; align-items: center; gap: 9px; padding: 10px 22px; font-size: 11.5px; font-weight: 700; color: var(--white); white-space: nowrap; border-right: 1px solid var(--line); }
-.ticker-item .tk-tag { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); background: rgba(62,55,177,.10); padding: 2px 8px; border-radius: 3px; }
+.ticker-item .tk-tag { font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--white); background: rgba(111,84,179,.28); padding: 2px 8px; border-radius: 3px; }
 .ticker-item .tk-time { color: var(--muted-dark); font-weight: 500; }
 @keyframes scroll { to { transform: translateX(-50%); } }
 
@@ -312,49 +382,53 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .radar-card {
   position: relative; overflow: hidden;
   border: 1px solid var(--line); border-radius: 10px; padding: 15px;
-  background: var(--card-bg); transition: var(--dur-fast) var(--ease-out);
-  border-left: 3px solid var(--blue);
+  background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  transition: var(--dur-fast) var(--ease-out);
+  border-left: 3px solid var(--accent);
 }
-.radar-card:hover { transform: translateY(-3px); border-color: var(--blue); border-left-color: var(--blue); box-shadow: 0 8px 20px var(--shadow); }
-.radar-rank { position: absolute; top: 11px; right: 13px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: rgba(62,55,177,.18); }
-.radar-league { font-size: 9.5px; color: var(--blue); font-weight: 800; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 9px; }
+.radar-card:hover { transform: translateY(-3px); border-color: var(--line-bright); border-left-color: var(--accent); box-shadow: 0 8px 24px rgba(159,5,162,.20); }
+.radar-rank { position: absolute; top: 11px; right: 13px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: rgba(255,255,255,.10); }
+.radar-league { font-size: 9.5px; color: var(--muted); font-weight: 800; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 9px; }
 .radar-teams { font-size: 13px; font-weight: 800; margin-bottom: 11px; line-height: 1.5; }
 .radar-teams .vs-small { color: var(--muted); font-weight: 500; font-size: 10.5px; }
 .radar-meta { display: flex; justify-content: space-between; align-items: center; font-size: 10px; color: var(--muted); }
 .radar-rating { display: flex; align-items: center; gap: 6px; }
 .radar-rating-bar { width: 44px; height: 5px; border-radius: 4px; background: var(--meter-track); overflow: hidden; }
-.radar-rating-bar span { display: block; height: 100%; background: var(--blue); }
-.radar-rating b { color: var(--blue); font-family: 'Space Mono', monospace; }
+.radar-rating-bar span { display: block; height: 100%; background: var(--accent); }
+.radar-rating b { color: var(--white); font-family: 'Space Mono', monospace; }
 
 /* =========================================================
    BIG MATCH
    ========================================================= */
 .bigmatch {
   position: relative; overflow: hidden;
-  border: none; border-radius: 24px; padding: 32px;
+  border: 1px solid var(--line); border-radius: 24px; padding: 32px;
   min-height: 380px; background-color: var(--bigmatch-bg); background-size: cover; background-position: center;
-  box-shadow: 0 20px 50px rgba(159,5,162,.14), 0 2px 8px rgba(33,26,61,.06);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 20px 60px rgba(159,5,162,.22), 0 4px 20px rgba(0,0,0,.35);
 }
 /* Pita gradasi tipis di puncak kartu — satu-satunya sentuhan "border"
    yang tersisa, dipakai sebagai aksen bukan bingkai penuh. */
 .bigmatch::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(90deg, var(--blue), var(--accent)); z-index: 3;
+  background: linear-gradient(90deg, var(--blue-light), var(--accent)); z-index: 3;
+  box-shadow: 0 0 16px var(--neon-glow);
 }
 .bigmatch-overlay { position: absolute; inset: 0; background: var(--bigmatch-overlay); z-index: 0; }
 
-.bm-tag { position: relative; z-index: 2; display: flex; align-items: center; gap: 8px; font-size: 10.5px; font-weight: 800; color: var(--blue); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 16px; }
+.bm-tag { position: relative; z-index: 2; display: flex; align-items: center; gap: 8px; font-size: 10.5px; font-weight: 800; color: var(--white); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 16px; }
 
 .bm-teams { display: flex; align-items: center; justify-content: center; gap: 28px; position: relative; z-index: 2; }
 .bm-team { display: flex; flex-direction: column; align-items: center; gap: 11px; flex: 1; }
-.bm-logo-wrap { width: 100px; height: 100px; display: grid; place-items: center; border-radius: 50%; background: var(--card-bg); border: 1px solid var(--line-bright); box-shadow: 0 8px 20px rgba(33,26,61,.08); }
+.bm-logo-wrap { width: 100px; height: 100px; display: grid; place-items: center; border-radius: 50%; background: var(--card-bg); border: 1px solid var(--line-bright); animation: crestGlowPulse 3s ease-in-out infinite; }
 .bm-logo-wrap img { width: 74px; height: 74px; object-fit: contain; }
-.bm-team-name { font-weight: 800; font-size: 14px; text-align: center; }
+.bm-team-name { font-weight: 800; font-size: 14px; text-align: center; color: var(--white); }
 .bm-vs {
   font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: #fff;
   min-width: 44px; height: 44px; padding: 0 6px; flex: none; border-radius: 999px;
-  background: linear-gradient(135deg, var(--blue), var(--accent));
-  display: grid; place-items: center; box-shadow: 0 6px 16px rgba(159,5,162,.3);
+  background: linear-gradient(135deg, var(--blue-light), var(--accent));
+  display: grid; place-items: center;
+  animation: vsPulse 2.4s ease-in-out infinite;
   white-space: nowrap;
 }
 /* Begitu ada skor asli (mis. "2 - 1"), teksnya lebih lebar dari
@@ -368,50 +442,50 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .bm-predict { position: relative; z-index: 2; margin-top: 20px; }
 .prediction-heading { display: flex; justify-content: space-between; align-items: center; margin-bottom: 11px; font-size: 10.5px; color: var(--muted); }
-.prediction-heading strong { color: var(--blue); font-family: 'Space Mono', monospace; font-size: 17px; }
+.prediction-heading strong { color: var(--white); font-family: 'Space Mono', monospace; font-size: 17px; text-shadow: 0 0 10px var(--neon-glow-soft); }
 
 .probability { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 11px; }
 .probability-row { display: flex; justify-content: space-between; font-size: 9.5px; margin-bottom: 6px; color: var(--muted); }
 .meter { height: 8px; border-radius: 4px; background: var(--meter-track); overflow: hidden; display: flex; }
 .meter span { height: 100%; width: 0; transition: width .8s cubic-bezier(.4,0,.2,1); }
-.meter .home { background: var(--blue); }
+.meter .home { background: var(--accent); }
 .meter .draw { background: var(--draw-c); }
-.meter .away { background: var(--meter-away); }
+.meter .away { background: var(--blue-light); }
 .probability-labels { display: flex; justify-content: space-between; margin-top: 5px; font-size: 9px; color: var(--muted-dark); }
 .bm-analysis { color: var(--muted); font-size: 11px; line-height: 1.65; margin: 13px 0 0; position: relative; z-index: 2; }
 
 /* Proyeksi 2D live: bola momentum ilustratif, bukan posisi pemain/bola
-   asli — ESPN tidak menyediakan data tracking itu secara publik/gratis,
-   jadi posisi bola cuma mencerminkan possession/shots dari statistik
-   live yang tersedia (lihat bm-live-pitch.js). */
+   asli — API-Football tidak menyediakan data tracking pemain secara
+   publik, jadi posisi bola cuma mencerminkan possession/shots dari
+   statistik live yang tersedia (lihat bm-live-pitch.js). */
 .bm-pitch-block { position: relative; z-index: 2; margin-top: 18px; }
 .bm-pitch-toggle { margin-top: 0; }
-.bm-pitch-live-tag { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 3px; background: var(--blue); color: #fff; font-size: 8px; letter-spacing: .5px; vertical-align: middle; }
+.bm-pitch-live-tag { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 3px; background: var(--accent); color: #fff; font-size: 8px; letter-spacing: .5px; vertical-align: middle; }
 .bm-pitch-block .collapse-panel { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 13px; }
 .bm-pitch { position: relative; width: 100%; aspect-ratio: 300 / 180; border-radius: 10px; overflow: hidden; background: linear-gradient(180deg, #2b5e35, #244f2c); }
 .bm-pitch-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 .bm-pitch-outline { fill: none; stroke: rgba(255,255,255,.35); stroke-width: 1.4; }
 .bm-pitch-ball { position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.18), 0 2px 6px rgba(0,0,0,.35); display: grid; place-items: center; font-size: 10px; font-weight: 900; color: var(--blue); transition: left 1.1s cubic-bezier(.4,0,.2,1); animation: bm-ball-bob 1.6s ease-in-out infinite; }
 .bm-pitch-arrow.to-away { color: var(--blue-light); }
-.bm-pitch-arrow.to-home { color: var(--blue); }
+.bm-pitch-arrow.to-home { color: var(--accent); }
 @keyframes bm-ball-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 
 .bm-pitch-possession { display: flex; align-items: center; gap: 9px; margin-top: 11px; font-size: 10px; font-weight: 800; color: var(--white); }
 .bm-pitch-possession-bar { flex: 1; height: 7px; border-radius: 4px; background: var(--meter-track); overflow: hidden; }
-.bm-pitch-possession-bar span { display: block; height: 100%; background: var(--blue); transition: width .9s cubic-bezier(.4,0,.2,1); }
+.bm-pitch-possession-bar span { display: block; height: 100%; background: var(--accent); transition: width .9s cubic-bezier(.4,0,.2,1); }
 .bm-pitch-stats { margin-top: 8px; font-size: 10px; color: var(--muted); }
 .bm-pitch-note { margin-top: 8px; font-size: 9.5px; color: var(--muted-dark); line-height: 1.5; }
 
 .bm-extra { position: relative; z-index: 2; margin-top: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .bm-block { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 13px; }
-.bm-block-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); margin-bottom: 9px; }
+.bm-block-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--white); margin-bottom: 9px; }
 .bm-empty-note { font-size: 10.5px; color: var(--muted-dark); line-height: 1.6; }
 
 .h2h-list { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 6px; }
-.h2h-list li { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); background: rgba(62,55,177,.06); border-radius: 4px; padding: 6px 9px; }
+.h2h-list li { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--muted); background: rgba(111,84,179,.14); border-radius: 4px; padding: 6px 9px; }
 .h2h-list b { color: var(--white); font-family: 'Space Mono', monospace; }
 .h2h-summary { display: flex; gap: 13px; font-size: 10px; color: var(--muted); }
-.h2h-summary b { color: var(--blue); }
+.h2h-summary b { color: var(--white); }
 
 .form-team { margin-bottom: 11px; }
 .form-team:last-child { margin-bottom: 0; }
@@ -425,14 +499,14 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .form-bar-row { display: flex; align-items: center; gap: 8px; font-size: 9px; color: var(--muted); margin-bottom: 5px; }
 .form-bar-row span:first-child { width: 46px; flex-shrink: 0; }
 .form-bar-track { flex: 1; height: 6px; border-radius: 4px; background: var(--meter-track); overflow: hidden; }
-.form-bar-track span { display: block; height: 100%; background: var(--blue); }
+.form-bar-track span { display: block; height: 100%; background: var(--accent); }
 .form-bar-val { width: 30px; text-align: right; color: var(--white); font-weight: 700; }
 
 .vote-block { grid-column: 1 / -1; }
 .vote-buttons { display: flex; gap: 8px; margin-bottom: 12px; }
-.vote-btn { flex: 1; padding: 10px 6px; border-radius: 4px; border: 1px solid var(--line); background: rgba(62,55,177,.06); color: var(--white); font-size: 10.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); text-align: center; }
-.vote-btn:hover { border-color: var(--blue); }
-.vote-btn.selected { background: var(--blue); color: #fff; border-color: var(--blue-dark); }
+.vote-btn { flex: 1; padding: 10px 6px; border-radius: 4px; border: 1px solid var(--line); background: rgba(111,84,179,.14); color: var(--white); font-size: 10.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); text-align: center; }
+.vote-btn:hover { border-color: var(--accent); }
+.vote-btn.selected { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 0 14px rgba(159,5,162,.4); }
 .vote-results { display: flex; flex-direction: column; gap: 7px; }
 .vote-row { display: flex; align-items: center; gap: 8px; font-size: 10px; color: var(--muted); }
 .vote-row span:first-child { width: 60px; flex-shrink: 0; }
@@ -442,7 +516,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 /* =========================================================
    LOGO FALLBACK
    ========================================================= */
-.logo-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: var(--blue); text-align: center; }
+.logo-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: var(--white); text-align: center; }
 .bm-logo-wrap.logo-fallback { font-size: 22px; }
 .mc-badge.logo-fallback { font-size: 10px; font-weight: 800; }
 
@@ -453,13 +527,13 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .search-icon { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); font-size: 10px; font-weight: 800; letter-spacing: .3px; color: var(--muted-dark); text-transform: uppercase; pointer-events: none; }
 .search-input {
   width: 100%; padding: 13px 18px 13px 64px;
-  border: 1px solid transparent; border-radius: 999px;
-  background: var(--surface-2); color: var(--white);
+  border: 1px solid var(--line); border-radius: 999px;
+  background: var(--search-bg); color: var(--white);
   font-size: 13px; font-family: 'Plus Jakarta Sans', sans-serif;
   outline: none; transition: var(--dur-fast) var(--ease-out);
 }
 .search-input::placeholder { color: var(--muted); }
-.search-input:focus { background: var(--card-bg); border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+.search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(159,5,162,.22); }
 
 /* =========================================================
    FILTER
@@ -470,8 +544,8 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .filters-wrap::before, .filters-wrap::after {
   content: ""; position: absolute; top: 0; bottom: 0; width: 24px; z-index: 2; pointer-events: none;
 }
-.filters-wrap::before { left: 0; background: linear-gradient(90deg, var(--page-fade, var(--card-bg)), transparent); }
-.filters-wrap::after { right: 0; background: linear-gradient(270deg, var(--page-fade, var(--card-bg)), transparent); }
+.filters-wrap::before { left: 0; background: linear-gradient(90deg, var(--page-fade, var(--page-bg)), transparent); }
+.filters-wrap::after { right: 0; background: linear-gradient(270deg, var(--page-fade, var(--page-bg)), transparent); }
 .filters {
   display: flex; gap: 8px; flex-wrap: nowrap;
   overflow-x: auto; scroll-snap-type: x proximity;
@@ -479,9 +553,15 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   scrollbar-width: none; -ms-overflow-style: none;
 }
 .filters::-webkit-scrollbar { display: none; }
-.filter-btn { flex: none; scroll-snap-align: start; white-space: nowrap; padding: 9px 17px; border-radius: 999px; border: 1px solid transparent; background: var(--surface-2); color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
-.filter-btn:hover { color: var(--blue); background: rgba(62,55,177,.14); }
-.filter-btn.active { background: var(--blue); color: #fff; box-shadow: 0 4px 12px rgba(62,55,177,.3); }
+.filter-btn { flex: none; scroll-snap-align: start; white-space: nowrap; padding: 9px 17px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.filter-btn:hover { color: var(--white); background: rgba(111,84,179,.24); border-color: var(--line-bright); }
+.filter-btn.active {
+  background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.35) 48%, transparent 66%), var(--accent);
+  background-size: 250% 100%, 100% 100%;
+  background-position: 150% 0, 0 0;
+  color: #fff; border-color: var(--accent); box-shadow: 0 4px 16px rgba(159,5,162,.45);
+}
+.filter-btn.active:hover { background-position: -50% 0, 0 0; }
 .filter-btn.status-btn { font-size: 10px; padding: 8px 14px; }
 .filter-btn.day-btn { font-weight: 800; }
 .filter-btn.day-btn .day-sub { display: block; font-size: 8.5px; font-weight: 600; opacity: .75; }
@@ -494,83 +574,95 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .schedule-scroll {
   max-height: 700px; overflow-y: auto; overflow-x: hidden;
   padding: 4px 10px 4px 2px; margin-right: -6px;
-  scrollbar-width: thin; scrollbar-color: rgba(33,26,61,.30) transparent;
+  scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.25) transparent;
 }
 .schedule-scroll::-webkit-scrollbar { width: 7px; }
 .schedule-scroll::-webkit-scrollbar-track { background: transparent; }
-.schedule-scroll::-webkit-scrollbar-thumb { background: rgba(33,26,61,.28); border-radius: 99px; }
-.schedule-scroll::-webkit-scrollbar-thumb:hover { background: rgba(33,26,61,.45); }
+.schedule-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,.20); border-radius: 99px; }
+.schedule-scroll::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,.36); }
 
-/* Kartu jadwal — bukan lagi kotak bergaris tegas: TANPA border, murni
-   dibedakan dari latar lewat shadow lembut ("floating card"), radius
-   lebih besar, & padding lebih lega. Badge status jadi pita bulat di
-   pojok kanan-atas (bukan baris penuh di puncak kartu), badge tim
-   sekarang bulat (avatar-style) bukan kotak. */
+/* Kartu jadwal — kartu "kaca" ungu-tua tembus pandang dengan border
+   tipis yang menyala, dibedakan dari latar lewat glow bukan shadow
+   gelap (shadow gelap tidak kelihatan di atas latar gelap). Badge
+   status jadi pita bulat di pojok kanan-atas, badge tim bulat
+   (avatar-style). */
 .match-card {
   position: relative; overflow: hidden;
-  border: none; border-radius: 16px; padding: 18px;
-  background: var(--card-bg); transition: var(--dur-base) var(--ease-out);
-  box-shadow: 0 1px 2px rgba(33,26,61,.06), 0 1px 12px rgba(33,26,61,.04);
+  border: 1px solid var(--line); border-radius: 16px; padding: 18px;
+  background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  transition: var(--dur-base) var(--ease-out);
+  box-shadow: 0 4px 20px rgba(0,0,0,.3);
 }
-.match-card:hover { transform: translateY(-3px); box-shadow: 0 16px 32px rgba(33,26,61,.12); }
+.match-card:hover { transform: translateY(-3px); border-color: var(--line-bright); box-shadow: 0 16px 36px rgba(159,5,162,.18); }
 
 /* BIG MATCH highlight — dikasih warna magenta (--accent) supaya kartu
    yang paling penting hari ini langsung menonjol dari kartu lain. */
-.match-card--big { background: linear-gradient(165deg, rgba(159,5,162,.06), rgba(159,5,162,.015)); box-shadow: 0 1px 2px rgba(159,5,162,.1), 0 4px 20px rgba(159,5,162,.10); }
-.match-card--big:hover { box-shadow: 0 16px 32px rgba(159,5,162,.18); }
+.match-card--big { background: linear-gradient(165deg, rgba(159,5,162,.20), var(--card-bg) 60%); border-color: rgba(159,5,162,.4); box-shadow: 0 1px 2px rgba(159,5,162,.15), 0 6px 26px rgba(159,5,162,.18); }
+.match-card--big:hover { box-shadow: 0 16px 40px rgba(159,5,162,.30); }
 .mc-big-badge {
   position: absolute; top: 14px; right: 14px; z-index: 2;
   font-size: 8.5px; font-weight: 800; color: #fff; letter-spacing: .4px; text-transform: uppercase;
   background: var(--accent); padding: 4px 10px; border-radius: 999px;
+  box-shadow: 0 0 10px rgba(159,5,162,.5);
 }
 
 .mc-top { display: flex; justify-content: space-between; align-items: center; font-size: 10px; color: var(--muted); margin-bottom: 12px; font-weight: 700; letter-spacing: .1px; padding-right: 56px; }
-.mc-top .league { color: var(--blue); background: var(--surface-2); padding: 3px 9px; border-radius: 999px; font-size: 9.5px; font-weight: 800; }
+.mc-top .league { color: var(--white); background: var(--surface-2); padding: 3px 9px; border-radius: 999px; font-size: 9.5px; font-weight: 800; }
 
 .mc-status { display: inline-flex; align-items: center; gap: 5px; margin-bottom: 12px; font-size: 9px; font-weight: 800; padding: 4px 10px; border-radius: 999px; letter-spacing: .3px; text-transform: uppercase; }
-.mc-status.soon { background: rgba(182,69,49,.14); color: var(--rust-dark); }
-.mc-status.upcoming { background: rgba(33,26,61,.06); color: var(--muted); }
-.mc-status.live { background: var(--accent); color: #fff; }
-.mc-status.finished { background: rgba(33,26,61,.06); color: var(--muted-dark); }
-.mc-status.postponed { background: rgba(182,69,49,.10); color: var(--lose); }
+.mc-status.soon { background: rgba(255,122,92,.20); color: var(--lose); }
+.mc-status.upcoming { background: rgba(255,255,255,.08); color: var(--muted); }
+.mc-status.live { background: var(--accent); color: #fff; box-shadow: 0 0 12px rgba(159,5,162,.55); }
+.mc-status.finished { background: rgba(255,255,255,.08); color: var(--muted-dark); }
+.mc-status.postponed { background: rgba(255,122,92,.16); color: var(--lose); }
 .mc-live-dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; animation: blink 1.1s infinite; flex: none; }
 .mc-status.live .mc-live-dot { background: #fff; }
 
-.match-card--live { box-shadow: 0 1px 2px rgba(159,5,162,.12), 0 4px 24px rgba(159,5,162,.14); }
-.match-card--finished { opacity: .88; }
+/* Kartu yang sedang LIVE dapat glow yang berdenyut (pulse) — satu-
+   satunya animasi berdenyut terus-menerus di situs ini, dipakai
+   khusus supaya "sedang berlangsung" langsung terasa tanpa perlu
+   dibaca tulisannya. Otomatis mati kalau prefers-reduced-motion. */
+.match-card--live { border-color: rgba(159,5,162,.45); animation: neonPulse 2.6s ease-in-out infinite; }
+.match-card--finished { opacity: .82; }
 
 .mc-vs--score { font-family: 'Space Mono', monospace; font-size: 17px; font-weight: 800; color: var(--white); }
-.mc-vs--live { color: var(--accent); }
+.mc-vs--live { color: var(--accent); text-shadow: 0 0 10px rgba(159,5,162,.5); }
 .mc-vs--final { color: var(--white); }
 
 .mc-events { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--surface-1); }
 .mc-event { display: flex; align-items: center; gap: 7px; font-size: 10px; color: var(--muted-dark); }
-.mc-event-dot { flex: none; width: 5px; height: 5px; border-radius: 50%; background: var(--blue); }
-.mc-event-dot.card-y { background: #C9A227; }
+.mc-event-dot { flex: none; width: 5px; height: 5px; border-radius: 50%; background: var(--blue-light); }
+.mc-event-dot.card-y { background: #E0C240; }
 .mc-event-dot.card-r { background: var(--lose); }
 .mc-event-text i { font-style: normal; color: var(--muted); }
 
 .mc-live-btn {
   display: flex; align-items: center; justify-content: center; gap: 8px;
   margin-top: 12px; padding: 11px; border-radius: 999px;
-  background: var(--accent);
+  /* Pita cahaya tersembunyi di luar tombol (background-position 150%),
+     disapukan masuk saat hover — efek "shimmer" khas tombol premium,
+     cuma jalan saat disentuh supaya tidak berisik kalau selalu nyala. */
+  background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.4) 48%, transparent 66%), var(--accent);
+  background-size: 250% 100%, 100% 100%;
+  background-position: 150% 0, 0 0;
+  transition: background-position .6s ease, transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast);
   color: #fff; font-size: 11px; font-weight: 800; letter-spacing: .2px;
 }
-.mc-live-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 18px rgba(159,5,162,.35); }
+.mc-live-btn:hover { background-position: -50% 0, 0 0; transform: translateY(-1px); box-shadow: 0 8px 22px rgba(159,5,162,.45); }
 .live-ping { width: 6px; height: 6px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 0 rgba(255,255,255,.7); animation: livePing 1.4s infinite; flex: none; }
 @keyframes livePing { 0% { box-shadow: 0 0 0 0 rgba(255,255,255,.6); } 70% { box-shadow: 0 0 0 7px rgba(255,255,255,0); } 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); } }
 
 .mc-teams { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .mc-team { display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; text-align: center; }
-.mc-badge { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); color: var(--blue); font-size: 11px; font-weight: 800; border: 1px solid var(--line-bright); }
+.mc-badge { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); color: var(--white); font-size: 11px; font-weight: 800; border: 1px solid var(--line-bright); }
 .mc-badge-image img { width: 29px; height: 29px; object-fit: contain; }
 .mc-name { font-size: 11.5px; font-weight: 700; }
 .mc-vs { font-family: 'Space Mono', monospace; font-size: 11px; color: var(--muted); font-weight: 700; }
 .mc-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 10px; color: var(--muted); }
-.mc-pred { color: var(--blue); font-weight: 800; font-family: 'Space Mono', monospace; }
+.mc-pred { color: var(--white); font-weight: 800; font-family: 'Space Mono', monospace; }
 
 .mc-detail-toggle { width: 100%; margin-top: 8px; padding: 7px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--muted); font-size: 9.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
-.mc-detail-toggle:hover { color: var(--blue); border-color: var(--blue); }
+.mc-detail-toggle:hover { color: var(--white); border-color: var(--accent); }
 .mc-detail { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
 .mc-detail.open { max-height: 220px; margin-top: 9px; }
 .mc-detail-inner { padding-top: 9px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 9px; }
@@ -578,13 +670,13 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 /* Toggle detail gol/kartu di kartu jadwal — collapsed secara default
    supaya tinggi kartu tidak mengikuti laga dengan gol terbanyak. */
 .mc-events-toggle { width: 100%; margin-top: 9px; padding: 7px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--muted); font-size: 9.5px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
-.mc-events-toggle:hover { color: var(--blue); border-color: var(--blue); }
+.mc-events-toggle:hover { color: var(--white); border-color: var(--accent); }
 .mc-events-panel { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
 .mc-events-panel.open { max-height: 420px; }
 
 /* Toggle generik untuk section panjang (Rekam Jejak, Klasemen, dst) */
-.section-toggle-btn { display: block; width: 100%; margin-top: 10px; padding: 10px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--blue); font-size: 11px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out); text-align: center; }
-.section-toggle-btn:hover { background: rgba(62,55,177,.08); border-color: var(--blue); }
+.section-toggle-btn { display: block; width: 100%; margin-top: 10px; padding: 10px; border-radius: 4px; border: 1px dashed var(--line); background: transparent; color: var(--white); font-size: 11px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out); text-align: center; }
+.section-toggle-btn:hover { background: rgba(111,84,179,.18); border-color: var(--accent); }
 .standings-toggle-btn { margin: 0; border: none; border-radius: 0; border-top: 1px dashed var(--line); }
 
 .collapse-panel { max-height: 0; overflow: hidden; transition: max-height .35s ease; display: flex; flex-direction: column; gap: 8px; }
@@ -593,15 +685,15 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .standings-table tr.row-extra { display: none; }
 .standings-table.expanded tr.row-extra { display: table-row; }
 .mc-1x2-row { display: flex; gap: 5px; }
-.mc-1x2-item { flex: 1; text-align: center; background: rgba(62,55,177,.06); border-radius: 4px; padding: 6px 4px; }
+.mc-1x2-item { flex: 1; text-align: center; background: rgba(111,84,179,.14); border-radius: 4px; padding: 6px 4px; }
 .mc-1x2-item .lbl { display: block; font-size: 8.5px; color: var(--muted-dark); text-transform: uppercase; margin-bottom: 2px; }
-.mc-1x2-item .val { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; color: var(--blue); }
+.mc-1x2-item .val { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; color: var(--white); }
 .mc-extra-row { display: flex; justify-content: space-between; font-size: 10px; color: var(--muted); }
 .mc-extra-row b { color: var(--white); }
 .mc-confidence { display: inline-block; font-size: 9px; font-weight: 800; padding: 3px 9px; border-radius: 4px; align-self: flex-start; }
-.mc-confidence.Tinggi { background: rgba(62,55,177,.14); color: var(--win); }
+.mc-confidence.Tinggi { background: rgba(111,84,179,.24); color: var(--win); }
 .mc-confidence.Sedang { background: rgba(245,238,184,.65); color: var(--rust-dark); }
-.mc-confidence.Rendah { background: rgba(182,69,49,.14); color: var(--lose); }
+.mc-confidence.Rendah { background: rgba(255,122,92,.18); color: var(--lose); }
 
 .match-empty { grid-column: 1 / -1; padding: 36px; text-align: center; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); }
 .match-empty-title { font-weight: 800; margin-bottom: 6px; }
@@ -610,26 +702,26 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 /* =========================================================
    KLASEMEN LIGA
    ========================================================= */
-.standings-wrap { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card-bg); }
+.standings-wrap { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
 .standings-table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
-.standings-table thead th { text-align: left; font-size: 9px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); font-weight: 800; padding: 10px 10px; border-bottom: 1px solid var(--line); background: rgba(62,55,177,.05); }
+.standings-table thead th { text-align: left; font-size: 9px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); font-weight: 800; padding: 10px 10px; border-bottom: 1px solid var(--line); background: rgba(111,84,179,.16); }
 .standings-table th.num, .standings-table td.num { text-align: center; width: 34px; }
 .standings-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); }
 .standings-table tr:last-child td { border-bottom: none; }
-.standings-table tr:hover td { background: rgba(62,55,177,.05); }
+.standings-table tr:hover td { background: rgba(111,84,179,.12); }
 .standings-team { display: flex; align-items: center; gap: 9px; font-weight: 700; }
-.standings-badge { width: 20px; height: 20px; border-radius: 4px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--blue); font-size: 8px; font-weight: 800; flex: none; }
+.standings-badge { width: 20px; height: 20px; border-radius: 4px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-size: 8px; font-weight: 800; flex: none; }
 .standings-badge img { width: 14px; height: 14px; object-fit: contain; }
-.standings-pts { font-family: 'Space Mono', monospace; font-weight: 800; color: var(--blue); }
+.standings-pts { font-family: 'Space Mono', monospace; font-weight: 800; color: var(--white); }
 .standings-rank { font-family: 'Space Mono', monospace; color: var(--muted); }
-.standings-rank.zone-top { color: var(--win); font-weight: 800; }
-.standings-rank.zone-bottom { color: var(--lose); font-weight: 800; }
+.standings-rank.zone-top { color: var(--win); font-weight: 800; text-shadow: 0 0 8px rgba(123,116,219,.55); }
+.standings-rank.zone-bottom { color: var(--lose); font-weight: 800; text-shadow: 0 0 8px rgba(255,122,92,.55); }
 
 /* Header ikon (M / Menang-Seri-Kalah / SG / Poin) — arti lengkapnya
    tetap ada lewat atribut title (muncul saat hover), supaya tampilan
    ringkas tapi tidak kehilangan penjelasan. */
 .standings-table th.num .th-icon { width: 15px; height: 15px; display: block; margin: 0 auto; color: var(--muted-dark); }
-.standings-table th.num[title="Poin"] .th-icon { color: var(--blue); }
+.standings-table th.num[title="Poin"] .th-icon { color: var(--white); }
 .th-wdl-dots { display: flex; align-items: center; justify-content: center; gap: 3px; }
 .th-dot { width: 7px; height: 7px; border-radius: 50%; }
 .th-dot-w { background: var(--win); }
@@ -645,14 +737,14 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .topstats-body { flex: 1; min-width: 0; }
 .topstats-name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .topstats-team { font-size: 10px; color: var(--muted-dark); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.topstats-value { font-family: 'Space Mono', monospace; font-weight: 800; color: var(--blue); flex: none; font-size: 13px; }
+.topstats-value { font-family: 'Space Mono', monospace; font-weight: 800; color: var(--white); flex: none; font-size: 13px; }
 
 /* =========================================================
    REKAM JEJAK PREDIKSI
    ========================================================= */
 .track-summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 14px; }
-.track-stat { border: 1px solid var(--line); border-radius: 10px; padding: 13px 8px; text-align: center; background: var(--card-bg); }
-.track-stat .tnum { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: var(--blue); display: block; }
+.track-stat { border: 1px solid var(--line); border-radius: 10px; padding: 13px 8px; text-align: center; background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.track-stat .tnum { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: var(--white); display: block; }
 .track-stat .tlabel { font-size: 8.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; margin-top: 4px; display: block; }
 .track-list { display: flex; flex-direction: column; gap: 8px; }
 .track-item { display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--line); border-radius: 5px; padding: 10px 14px; background: var(--card-bg); font-size: 11.5px; }
@@ -668,45 +760,55 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
    ========================================================= */
 .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .news-card {
-  display: block; border: none; border-radius: 18px; overflow: hidden;
-  background: var(--card-bg); transition: var(--dur-base) var(--ease-out);
+  display: block; border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
+  background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  transition: var(--dur-base) var(--ease-out);
   text-decoration: none; color: inherit;
-  box-shadow: 0 1px 2px rgba(33,26,61,.06), 0 1px 12px rgba(33,26,61,.04);
+  box-shadow: 0 4px 20px rgba(0,0,0,.3);
 }
-.news-card:hover { transform: translateY(-4px); box-shadow: 0 20px 36px rgba(33,26,61,.14); }
+.news-card:hover { transform: translateY(-4px); border-color: var(--line-bright); box-shadow: 0 20px 40px rgba(159,5,162,.20); }
 .news-thumb-wrap { width: 100%; aspect-ratio: 16 / 10; overflow: hidden; background: var(--surface-2); position: relative; }
 .news-thumb-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s var(--ease-out); }
 .news-card:hover .news-thumb-wrap img { transform: scale(1.07); }
+/* Sapuan cahaya melintasi gambar berita saat kartunya di-hover — efek
+   ringan, cuma jalan saat disentuh (bukan animasi terus-menerus). */
+.news-thumb-wrap::after {
+  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.28) 48%, transparent 66%);
+  background-size: 250% 100%; background-position: 150% 0;
+  transition: background-position .7s ease;
+}
+.news-card:hover .news-thumb-wrap::after { background-position: -50% 0; }
 
 /* Varian lambang klub (berita transfer) — panel gradasi indigo→magenta
    dengan lambang ditengah pakai contain (bukan cover) supaya utuh. */
 .news-thumb-wrap--logo {
   display: grid; place-items: center; padding: 22px;
-  background: linear-gradient(150deg, var(--blue-dark), var(--blue) 55%, var(--accent) 130%);
+  background: linear-gradient(150deg, var(--blue-dark), var(--blue-light) 55%, var(--accent) 130%);
 }
-.news-thumb-wrap--logo img { width: auto; height: 100%; max-width: 60%; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(0,0,0,.25)); transition: transform .5s var(--ease-out); }
+.news-thumb-wrap--logo img { width: auto; height: 100%; max-width: 60%; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(0,0,0,.4)); transition: transform .5s var(--ease-out); }
 .news-card:hover .news-thumb-wrap--logo img { transform: scale(1.08); }
 
 /* Varian kosong (berita statis tanpa gambar/lambang) — ikon bola di
    atas panel gradasi juga, supaya SEMUA kartu tetap punya sentuhan
    visual, tidak ada yang polos teks doang. */
-.news-thumb-wrap--empty { display: grid; place-items: center; background: linear-gradient(150deg, var(--blue-light), var(--blue) 70%); font-size: 34px; }
+.news-thumb-wrap--empty { display: grid; place-items: center; background: linear-gradient(150deg, var(--blue-dark), var(--blue-light) 70%); font-size: 34px; }
 
 .news-body { padding: 16px 17px 18px; }
-.news-tag { display: inline-block; font-size: 9px; font-weight: 800; color: var(--blue); background: var(--surface-2); padding: 3px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 10px; }
-.news-card h3 { font-size: 13.5px; margin: 0 0 7px; line-height: 1.4; font-weight: 700; }
+.news-tag { display: inline-block; font-size: 9px; font-weight: 800; color: var(--white); background: var(--surface-2); padding: 3px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 10px; }
+.news-card h3 { font-size: 13.5px; margin: 0 0 7px; line-height: 1.4; font-weight: 700; color: var(--white); }
 .news-card p { font-size: 11px; color: var(--muted); line-height: 1.6; margin: 0 0 11px; }
 .news-foot { display: flex; justify-content: space-between; align-items: center; padding-top: 11px; border-top: 1px dashed var(--line); }
 .news-time { font-size: 9.5px; color: var(--muted-dark); }
-.news-read { font-size: 10px; font-weight: 800; color: var(--blue); }
+.news-read { font-size: 10px; font-weight: 800; color: var(--white); }
 
 /* =========================================================
    SOSIAL
    ========================================================= */
 .social-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .social-card { display: flex; align-items: center; gap: 12px; border: 1px solid var(--line); border-radius: 10px; padding: 14px; background: var(--card-bg); transition: var(--dur-fast) var(--ease-out); }
-.social-card:hover { transform: translateY(-2px); border-color: var(--blue); box-shadow: 0 8px 20px var(--shadow); }
-.social-icon { width: 40px; height: 40px; border-radius: 5px; display: grid; place-items: center; background: rgba(62,55,177,.11); color: var(--blue); font-size: 17px; flex-shrink: 0; border: 1px solid rgba(62,55,177,.20); }
+.social-card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 8px 22px rgba(159,5,162,.20); }
+.social-icon { width: 40px; height: 40px; border-radius: 5px; display: grid; place-items: center; background: rgba(111,84,179,.22); color: var(--white); font-size: 17px; flex-shrink: 0; border: 1px solid rgba(111,84,179,.4); }
 .social-name { font-size: 12px; font-weight: 800; }
 .social-sub { font-size: 10px; color: var(--muted); }
 
@@ -714,7 +816,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
    FOOTER
    ========================================================= */
 .footer { position: relative; overflow: hidden; margin-top: 36px; min-height: 160px; border-radius: 14px; border: 1px solid var(--line); background: var(--footer-bg); display: flex; align-items: center; justify-content: center; text-align: center; }
-.footer-image { position: absolute; inset: 0; background-image: linear-gradient(rgba(24,14,46,.72), rgba(24,14,46,.88)), url("images/footer.png"); background-size: cover; background-position: center; opacity: .85; }
+.footer-image { position: absolute; inset: 0; background-image: linear-gradient(rgba(20,10,40,.72), rgba(20,10,40,.90)), url("images/footer.png"); background-size: cover; background-position: center; opacity: .85; }
 .footer-content { position: relative; z-index: 2; font-size: 11px; line-height: 1.8; color: #C9C3E8; }
 .footer strong { color: #F5F8FF; }
 
@@ -726,24 +828,26 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   width: 40px; height: 40px; border-radius: 5px;
   border: 1px solid var(--line);
   background: var(--scroll-bg);
-  color: var(--blue); font-size: 17px; cursor: pointer;
+  color: var(--white); font-size: 17px; cursor: pointer;
   opacity: 0; transform: translateY(12px);
   transition: opacity .3s, transform .3s;
   display: grid; place-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,.35);
 }
 .scroll-top-btn.visible { opacity: 1; transform: translateY(0); }
-.scroll-top-btn:hover { background: rgba(62,55,177,.10); }
+.scroll-top-btn:hover { background: rgba(111,84,179,.30); box-shadow: 0 4px 16px rgba(159,5,162,.3); }
 
 /* =========================================================
    TOAST
    ========================================================= */
 .bk-toast {
   position: fixed; bottom: 76px; left: 50%; transform: translateX(-50%) translateY(10px);
-  background: var(--toast-bg); border: 1px solid rgba(245,248,255,.25);
+  background: var(--toast-bg); border: 1px solid rgba(159,5,162,.4);
   color: var(--toast-color); padding: 10px 20px; border-radius: 5px;
   font-size: 12px; font-weight: 700;
   opacity: 0; transition: opacity .3s, transform .3s; pointer-events: none; z-index: 300;
   white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(0,0,0,.4);
 }
 .bk-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
@@ -770,8 +874,8 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
     flex-direction: column; align-items: stretch; flex-wrap: nowrap;
     max-width: none; overflow: hidden; overflow-y: auto;
     max-height: 0; padding: 0 8px; opacity: 0; pointer-events: none;
-    background: var(--card-bg); border: 1px solid var(--line-bright); border-radius: 10px;
-    box-shadow: 0 10px 24px var(--shadow);
+    background: var(--cbox-bg); border: 1px solid var(--line-bright); border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.5);
     transition: max-height .3s ease, opacity .2s ease, padding .3s ease;
   }
   .nav.open { max-height: 70vh; padding: 8px; opacity: 1; pointer-events: auto; }
@@ -797,19 +901,23 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .account-login-btn {
   padding: 8px 15px; border-radius: 4px; border: 1px solid var(--line);
-  background: var(--blue); color: #fff;
-  font-size: 11.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out);
+  background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.4) 48%, transparent 66%), var(--accent);
+  background-size: 250% 100%, 100% 100%;
+  background-position: 150% 0, 0 0;
+  color: #fff;
+  font-size: 11.5px; font-weight: 800; cursor: pointer;
+  transition: background-position .6s ease, transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast), filter var(--dur-fast);
 }
-.account-login-btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.account-login-btn:hover { filter: brightness(1.1); background-position: -50% 0, 0 0; transform: translateY(-1px); box-shadow: 0 6px 18px rgba(159,5,162,.4); }
 
-.account-chip { display: flex; align-items: center; gap: 9px; padding: 5px 6px 5px 13px; border-radius: 4px; border: 1px solid var(--line); background: var(--filter-bg); }
-.account-chip-name { font-size: 11.5px; font-weight: 800; color: var(--white); max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.account-logout-btn { padding: 6px 12px; border-radius: 4px; border: 1px solid var(--line); background: var(--card-bg); color: var(--muted); font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.account-chip { display: flex; align-items: center; gap: 9px; padding: 5px 6px 5px 13px; border-radius: 4px; border: 1px solid var(--line); background: rgba(255,255,255,.08); }
+.account-chip-name { font-size: 11.5px; font-weight: 800; color: var(--paper); max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.account-logout-btn { padding: 6px 12px; border-radius: 4px; border: 1px solid var(--line); background: rgba(255,255,255,.08); color: var(--paper); font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
 .account-logout-btn:hover { color: var(--lose); border-color: var(--lose); }
 
 .auth-modal-backdrop {
   position: fixed; inset: 0; z-index: 500;
-  background: rgba(24,14,46,.55);
+  background: rgba(8,4,18,.72);
   display: flex; align-items: center; justify-content: center;
   padding: 20px;
   opacity: 0; pointer-events: none; transition: opacity .25s ease;
@@ -818,9 +926,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .auth-modal {
   position: relative; width: 100%; max-width: 380px;
-  background: var(--card-bg);
-  border: 1px solid var(--line); border-radius: 14px;
-  padding: 28px 24px 24px; box-shadow: 0 16px 40px var(--shadow);
+  background: var(--cbox-bg);
+  border: 1px solid var(--line-bright); border-radius: 14px;
+  padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5);
   transform: translateY(10px); transition: transform .25s ease;
 }
 .auth-modal-backdrop.open .auth-modal { transform: translateY(0); }
@@ -830,13 +938,13 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   border-radius: 4px; border: 1px solid var(--line); background: var(--surface-1);
   color: var(--muted); font-size: 13px; cursor: pointer; display: grid; place-items: center;
 }
-.auth-modal-close:hover { color: var(--white); border-color: var(--blue); }
+.auth-modal-close:hover { color: var(--white); border-color: var(--accent); }
 
 .auth-tabs { display: flex; gap: 6px; padding: 4px; border: 1px solid var(--line); border-radius: 4px; background: var(--filter-bg); margin-bottom: 18px; width: fit-content; }
 .auth-tab { padding: 7px 16px; border-radius: 3px; border: none; background: transparent; color: var(--muted); font-size: 11.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
-.auth-tab.active { background: var(--blue); color: #fff; }
+.auth-tab.active { background: var(--accent); color: #fff; }
 
-.auth-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 19px; margin: 0 0 4px; color: var(--blue); }
+.auth-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 19px; margin: 0 0 4px; color: var(--white); }
 .auth-modal-sub { font-size: 11.5px; color: var(--muted); margin: 0 0 16px; }
 
 .auth-msg { font-size: 11px; font-weight: 700; margin-bottom: 10px; min-height: 0; }
@@ -851,13 +959,17 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   background: var(--search-bg); color: var(--white); font-size: 13px;
   font-family: 'Plus Jakarta Sans', sans-serif; outline: none; transition: var(--dur-fast) var(--ease-out);
 }
-.auth-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+.auth-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(159,5,162,.25); }
 .auth-submit {
   margin-top: 4px; padding: 12px; border-radius: 4px; border: none;
-  background: var(--blue); color: #fff;
-  font-size: 12.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out);
+  background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.4) 48%, transparent 66%), var(--accent);
+  background-size: 250% 100%, 100% 100%;
+  background-position: 150% 0, 0 0;
+  color: #fff;
+  font-size: 12.5px; font-weight: 800; cursor: pointer;
+  transition: background-position .6s ease, filter var(--dur-fast), box-shadow var(--dur-fast);
 }
-.auth-submit:hover { filter: brightness(1.08); }
+.auth-submit:hover { filter: brightness(1.1); background-position: -50% 0, 0 0; box-shadow: 0 6px 18px rgba(159,5,162,.4); }
 .auth-submit:disabled { opacity: .6; cursor: default; }
 
 /* =========================================================
@@ -869,14 +981,14 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   border: 1px solid var(--line); background: var(--search-bg); color: var(--white);
   font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700; outline: none;
 }
-.guess-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+.guess-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(159,5,162,.25); }
 .guess-dash { color: var(--muted); font-weight: 800; }
 .guess-submit {
   margin-left: auto; padding: 8px 14px; border-radius: 4px; border: none;
-  background: var(--blue); color: #fff;
+  background: var(--accent); color: #fff;
   font-size: 10.5px; font-weight: 800; cursor: pointer;
 }
-.guess-submit:hover { filter: brightness(1.08); }
+.guess-submit:hover { filter: brightness(1.1); }
 .guess-result { margin-top: 10px; font-size: 10.5px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .guess-login-btn { margin-top: 4px; }
 
@@ -892,7 +1004,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   background: var(--search-bg); color: var(--white); font-family: 'Space Mono', monospace;
   font-size: 13px; outline: none;
 }
-.rt-count-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(62,55,177,.14); }
+.rt-count-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(159,5,162,.25); }
 
 .parlay-matches { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; max-height: 480px; overflow-y: auto; padding-right: 2px; }
 .pm-card { border: 1px solid var(--line); border-radius: 5px; padding: 12px; background: var(--surface-2); display: flex; flex-direction: column; gap: 8px; }
@@ -907,8 +1019,8 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out);
 }
 .pm-chip b { font-family: 'Space Mono', monospace; font-weight: 700; }
-.pm-chip:hover { border-color: var(--blue); color: var(--blue); background: rgba(62,55,177,.10); }
-.pm-chip.active { background: var(--blue); color: #fff; border-color: var(--blue-dark); }
+.pm-chip:hover { border-color: var(--accent); color: var(--white); background: rgba(111,84,179,.20); }
+.pm-chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
 .parlay-slip-box { border-top: 1px solid var(--line); padding-top: 14px; display: flex; flex-direction: column; gap: 10px; }
 .parlay-slip-title { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .3px; }
@@ -917,14 +1029,14 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .ps-item-text { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .ps-item-match { font-size: 9.5px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ps-item-pick { font-size: 11px; font-weight: 700; }
-.ps-item-odds { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 800; color: var(--blue); }
+.ps-item-odds { font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 800; color: var(--white); }
 .ps-item-remove { flex: none; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; font-size: 13px; line-height: 1; transition: var(--dur-fast) var(--ease-out); }
 .ps-item-remove:hover { color: var(--lose); border-color: var(--lose); }
 
 .parlay-stake-row { display: flex; }
 .parlay-summary { display: flex; flex-direction: column; gap: 6px; }
-.ps-summary-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-radius: 4px; background: rgba(62,55,177,.08); font-size: 11px; font-weight: 700; }
-.ps-summary-row b { font-family: 'Space Mono', monospace; font-size: 13px; color: var(--blue); }
+.ps-summary-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border-radius: 4px; background: rgba(111,84,179,.18); font-size: 11px; font-weight: 700; }
+.ps-summary-row b { font-family: 'Space Mono', monospace; font-size: 13px; color: var(--white); }
 .ps-summary-row:last-child b { color: var(--win); }
 
 @media (max-width: 650px) {
@@ -936,14 +1048,14 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
    PROFIL TIM (MODAL) — dibuka saat klik logo/nama tim
    ========================================================= */
 .mc-team, .bm-team, .standings-team, .radar-team-link { cursor: pointer; }
-.mc-team:hover .mc-name, .bm-team:hover .bm-team-name, .standings-team:hover, .radar-team-link:hover { color: var(--blue); text-decoration: underline; }
+.mc-team:hover .mc-name, .bm-team:hover .bm-team-name, .standings-team:hover, .radar-team-link:hover { color: var(--accent); text-decoration: underline; }
 
 /* =========================================================
    TENTANG BOLAKILAS (MODAL) — chrome sama persis dengan team-modal
    ========================================================= */
 .about-modal-backdrop {
   position: fixed; inset: 0; z-index: 520;
-  background: rgba(24,14,46,.55);
+  background: rgba(8,4,18,.72);
   display: flex; align-items: center; justify-content: center;
   padding: 20px;
   opacity: 0; pointer-events: none; transition: opacity .25s ease;
@@ -952,9 +1064,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .about-modal {
   position: relative; width: 100%; max-width: 480px; max-height: 86vh; overflow-y: auto;
-  background: var(--card-bg);
-  border: 1px solid var(--line); border-radius: 14px;
-  padding: 30px 26px 26px; box-shadow: 0 16px 40px var(--shadow);
+  background: var(--cbox-bg);
+  border: 1px solid var(--line-bright); border-radius: 14px;
+  padding: 30px 26px 26px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5);
   transform: translateY(10px); transition: transform .25s ease;
 }
 .about-modal-backdrop.open .about-modal { transform: translateY(0); }
@@ -964,12 +1076,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   border-radius: 4px; border: 1px solid var(--line); background: var(--surface-1);
   color: var(--muted); font-size: 13px; cursor: pointer; display: grid; place-items: center;
 }
-.about-modal-close:hover { color: var(--white); border-color: var(--blue); }
+.about-modal-close:hover { color: var(--white); border-color: var(--accent); }
 
 .about-modal-hero { text-align: center; margin-bottom: 16px; }
 .about-modal-badge { width: 52px; height: 52px; margin: 0 auto 10px; border-radius: 50%; display: grid; place-items: center; background: var(--probability-bg); border: 1px solid var(--line-bright); font-size: 24px; overflow: hidden; }
 .about-modal-badge img { width: 40px; height: 40px; object-fit: contain; }
-.about-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; margin: 0 0 4px; letter-spacing: .5px; color: var(--blue); }
+.about-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; margin: 0 0 4px; letter-spacing: .5px; color: var(--white); }
 .about-modal-tagline { font-size: 11.5px; color: var(--muted); margin: 0; }
 
 .about-modal-lead { font-size: 12px; color: var(--muted); line-height: 1.7; margin: 0 0 18px; }
@@ -977,7 +1089,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .about-modal-features { display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px; }
 .about-feature { display: flex; align-items: flex-start; gap: 11px; border: 1px solid var(--line); border-radius: 10px; padding: 11px 13px; background: var(--surface-2); }
 .about-feature-icon { flex: none; font-size: 18px; line-height: 1; margin-top: 1px; }
-.about-feature b { display: block; font-size: 11.5px; margin-bottom: 2px; }
+.about-feature b { display: block; font-size: 11.5px; margin-bottom: 2px; color: var(--white); }
 .about-feature span { display: block; font-size: 10.5px; color: var(--muted); line-height: 1.5; }
 
 /* "Ikuti BOLAKILAS" (dulu halaman Sosial sendiri, sekarang digabung ke sini) */
@@ -989,7 +1101,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .team-modal-backdrop {
   position: fixed; inset: 0; z-index: 500;
-  background: rgba(24,14,46,.55);
+  background: rgba(8,4,18,.72);
   display: flex; align-items: center; justify-content: center;
   padding: 20px;
   opacity: 0; pointer-events: none; transition: opacity .25s ease;
@@ -998,9 +1110,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .team-modal {
   position: relative; width: 100%; max-width: 460px; max-height: 86vh; overflow-y: auto;
-  background: var(--card-bg);
-  border: 1px solid var(--line); border-radius: 14px;
-  padding: 28px 24px 24px; box-shadow: 0 16px 40px var(--shadow);
+  background: var(--cbox-bg);
+  border: 1px solid var(--line-bright); border-radius: 14px;
+  padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5);
   transform: translateY(10px); transition: transform .25s ease;
 }
 .team-modal-backdrop.open .team-modal { transform: translateY(0); }
@@ -1010,12 +1122,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   border-radius: 4px; border: 1px solid var(--line); background: var(--surface-1);
   color: var(--muted); font-size: 13px; cursor: pointer; display: grid; place-items: center;
 }
-.team-modal-close:hover { color: var(--white); border-color: var(--blue); }
+.team-modal-close:hover { color: var(--white); border-color: var(--accent); }
 
 .team-modal-header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; padding-right: 30px; }
-.team-modal-badge { width: 56px; height: 56px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--blue); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 13px; flex: none; }
+.team-modal-badge { width: 56px; height: 56px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 13px; flex: none; }
 .team-modal-badge img { width: 40px; height: 40px; object-fit: contain; }
-.team-modal-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 18px; margin: 0; line-height: 1.3; color: var(--blue); }
+.team-modal-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 18px; margin: 0; line-height: 1.3; color: var(--white); }
 
 .team-modal-section { margin-bottom: 16px; }
 .team-modal-section-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); margin-bottom: 8px; }
@@ -1023,10 +1135,10 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .team-modal-note { font-size: 10px; color: var(--muted-dark); line-height: 1.6; border-top: 1px dashed var(--line); padding-top: 12px; margin-top: 4px; }
 
 .team-next-card { border: 1px solid var(--line); border-radius: 5px; padding: 12px; background: var(--surface-2); }
-.team-next-badge--live { display: inline-block; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); background: rgba(62,55,177,.14); padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; }
+.team-next-badge--live { display: inline-block; font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--accent); background: rgba(159,5,162,.20); padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; }
 .team-next-vs { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .team-next-team { display: flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 700; }
-.team-next-logo { width: 28px; height: 28px; border-radius: 4px; display: grid; place-items: center; background: var(--card-bg); border: 1px solid var(--line-bright); color: var(--blue); font-size: 8px; font-weight: 800; flex: none; }
+.team-next-logo { width: 28px; height: 28px; border-radius: 4px; display: grid; place-items: center; background: var(--cbox-bg); border: 1px solid var(--line-bright); color: var(--white); font-size: 8px; font-weight: 800; flex: none; }
 .team-next-logo img { width: 20px; height: 20px; object-fit: contain; }
 .team-next-score { font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700; color: var(--muted); }
 .team-next-meta { margin-top: 8px; font-size: 10px; color: var(--muted); }
@@ -1046,7 +1158,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .team-squad-group { margin-bottom: 12px; }
 .team-squad-group:last-child { margin-bottom: 0; }
-.team-squad-group-title { font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--blue); margin-bottom: 6px; }
+.team-squad-group-title { font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--white); margin-bottom: 6px; }
 .team-squad-list { display: flex; flex-direction: column; gap: 4px; }
 .team-squad-player { display: flex; align-items: center; gap: 8px; border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px; font-size: 10.5px; background: var(--surface-2); }
 .team-squad-number { font-family: 'Space Mono', monospace; font-weight: 700; color: var(--muted); width: 20px; flex: none; text-align: right; }
@@ -1058,12 +1170,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .lineup-rating { font-family: 'Space Mono', monospace; font-size: 9.5px; font-weight: 700; color: #fff; border-radius: 3px; padding: 1px 5px; flex: none; }
 .lineup-rating.rating-good { background: var(--win); }
-.lineup-rating.rating-mid { background: var(--draw-c); }
+.lineup-rating.rating-mid { background: var(--draw-c); color: #241933; }
 .lineup-rating.rating-poor { background: var(--lose); }
 
 .team-injury-list { display: flex; flex-direction: column; gap: 6px; }
 .team-injury-item { display: flex; align-items: center; gap: 9px; border: 1px solid var(--line); border-radius: 4px; padding: 7px 10px; background: var(--surface-2); }
-.team-injury-photo { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: var(--card-bg); border: 1px solid var(--line-bright); flex: none; }
+.team-injury-photo { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: var(--cbox-bg); border: 1px solid var(--line-bright); flex: none; }
 .team-injury-body { flex: 1; min-width: 0; }
 .team-injury-name { font-size: 11px; font-weight: 700; }
 .team-injury-reason { font-size: 9.5px; color: var(--lose); }
@@ -1096,12 +1208,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .compare-picker-field { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .compare-picker-field label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); }
 .compare-input { padding: 10px 13px; }
-.compare-vs-label { flex: none; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: var(--blue); padding-bottom: 10px; }
+.compare-vs-label { flex: none; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: var(--white); padding-bottom: 10px; }
 .compare-submit-btn { max-width: 240px; }
 
 .compare-teams-row { display: flex; align-items: stretch; gap: 12px; margin: 18px 0 14px; }
 .compare-team-card { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 16px 12px; background: var(--probability-bg); }
-.compare-team-card .compare-team-logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--blue); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 11px; }
+.compare-team-card .compare-team-logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 11px; }
 .compare-team-card .compare-team-logo img { width: 32px; height: 32px; object-fit: contain; }
 .compare-team-name { font-weight: 800; font-size: 12.5px; line-height: 1.3; }
 .compare-team-standing { font-size: 10px; color: var(--muted); }
@@ -1111,12 +1223,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .compare-h2h-block { margin-top: 0; }
 .compare-h2h-summary { display: flex; justify-content: space-between; gap: 8px; font-size: 10px; color: var(--muted); margin-bottom: 10px; flex-wrap: wrap; }
-.compare-h2h-summary b { color: var(--blue); font-family: 'Space Mono', monospace; font-size: 12px; }
+.compare-h2h-summary b { color: var(--white); font-family: 'Space Mono', monospace; font-size: 12px; }
 .compare-h2h-list { display: flex; flex-direction: column; gap: 6px; }
 .compare-h2h-row { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 4px; padding: 8px 11px; font-size: 10.5px; background: var(--surface-2); }
 .compare-h2h-date { color: var(--muted-dark); width: 46px; flex: none; }
 .compare-h2h-score { flex: 1; }
-.compare-h2h-score b { font-family: 'Space Mono', monospace; color: var(--blue); }
+.compare-h2h-score b { font-family: 'Space Mono', monospace; color: var(--white); }
 
 @media (max-width: 650px) {
   .team-modal { padding: 24px 18px 20px; }
