@@ -93,6 +93,46 @@
       slugifyTeamName(payload.away) === slugifyTeamName(bm.away);
   }
 
+  // Dimensi & bobot proyeksi momentum — dulu cuma possession (fallback
+  // shotsTotal), sekarang digabung beberapa sinyal supaya lebih
+  // bernuansa: bukan cuma "siapa lebih pegang bola", tapi "siapa lebih
+  // menekan sungguhan" (tembakan dalam kotak penalti = peluang lebih
+  // berbahaya daripada tembakan jarak jauh, akurasi umpan = dominasi
+  // babak build-up). Tetap 100% dari statistik live API-Football yang
+  // SAMA (bukan sumber data baru) — lihat mapTeamStatistics() di
+  // fetch-bigmatch-live.js. Availability tiap field beda-beda per liga,
+  // jadi dimensi yang null di salah satu tim di-skip & bobotnya dibagi
+  // ulang ke dimensi lain yang tersedia (graceful degradation) —
+  // possession & shotsTotal biasanya SELALU ada, sisanya bonus kalau ada.
+  const MOMENTUM_WEIGHTS = [
+    { key: "possession", weight: 0.30, isShare: false }, // sudah bentuk %, langsung dipakai
+    { key: "shotsTotal", weight: 0.20, isShare: true },
+    { key: "shotsOnTarget", weight: 0.20, isShare: true },
+    { key: "shotsInsidebox", weight: 0.15, isShare: true }, // sinyal KUALITAS peluang, bukan cuma kuantitas
+    { key: "passesAccurate", weight: 0.15, isShare: true }
+  ];
+
+  function computeMomentum(homeStats, awayStats) {
+    let weightedSum = 0;
+    let weightTotal = 0;
+    MOMENTUM_WEIGHTS.forEach(({ key, weight, isShare }) => {
+      const h = homeStats[key];
+      const a = awayStats[key];
+      if (typeof h !== "number" || typeof a !== "number") return;
+      let share;
+      if (isShare) {
+        const total = h + a;
+        if (total <= 0) return;
+        share = (h / total) * 100;
+      } else {
+        share = h;
+      }
+      weightedSum += share * weight;
+      weightTotal += weight;
+    });
+    return weightTotal > 0 ? weightedSum / weightTotal : null;
+  }
+
   function applyMomentum(payload) {
     const usable = payloadMatchesCurrentBigMatch(payload) ? payload : null;
     const homeStats = usable?.statistics?.home;
@@ -113,12 +153,7 @@
       return;
     }
 
-    let momentum = null;
-    if (typeof homeStats.possession === "number") {
-      momentum = homeStats.possession;
-    } else if (typeof homeStats.shotsTotal === "number" && typeof awayStats.shotsTotal === "number" && (homeStats.shotsTotal + awayStats.shotsTotal) > 0) {
-      momentum = Math.round(homeStats.shotsTotal / (homeStats.shotsTotal + awayStats.shotsTotal) * 100);
-    }
+    const momentum = computeMomentum(homeStats, awayStats);
 
     if (momentum === null) {
       setNote("Statistik live belum tersedia untuk laga ini (biasanya muncul begitu laga dimulai, jeda maksimal ~5 menit).");
@@ -151,6 +186,12 @@
       }
       if (typeof homeStats.shotsOnTarget === "number" && typeof awayStats.shotsOnTarget === "number") {
         parts.push(`Tepat Sasaran ${homeStats.shotsOnTarget}-${awayStats.shotsOnTarget}`);
+      }
+      if (typeof homeStats.shotsInsidebox === "number" && typeof awayStats.shotsInsidebox === "number") {
+        parts.push(`Dalam Kotak ${homeStats.shotsInsidebox}-${awayStats.shotsInsidebox}`);
+      }
+      if (typeof homeStats.passesPct === "number" && typeof awayStats.passesPct === "number") {
+        parts.push(`Akurasi Umpan ${homeStats.passesPct}%-${awayStats.passesPct}%`);
       }
       if (typeof homeStats.corners === "number" && typeof awayStats.corners === "number") {
         parts.push(`Corner ${homeStats.corners}-${awayStats.corners}`);

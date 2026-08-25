@@ -58,7 +58,20 @@ function mapTeamStatistics(block) {
     fouls: statValue(block?.statistics, "Fouls"),
     offsides: statValue(block?.statistics, "Offsides"),
     yellowCards: statValue(block?.statistics, "Yellow Cards"),
-    redCards: statValue(block?.statistics, "Red Cards")
+    redCards: statValue(block?.statistics, "Red Cards"),
+    // Ditambahkan supaya proyeksi momentum (bm-live-pitch.js) bisa pakai
+    // sinyal "kualitas tekanan" (bukan cuma possession/shots mentah) —
+    // tembakan dalam kotak penalti = peluang lebih berbahaya daripada
+    // tembakan jarak jauh, akurasi umpan = indikator penguasaan babak
+    // build-up. Field ini TIDAK selalu ada (tergantung liga/kompetisi di
+    // API-Football) — statValue() sudah return null kalau memang tidak
+    // tersedia, jadi tetap aman dipakai (lihat weightedShare() di
+    // bm-live-pitch.js yang skip dimensi manapun yang null).
+    shotsInsidebox: statValue(block?.statistics, "Shots insidebox"),
+    shotsOutsidebox: statValue(block?.statistics, "Shots outsidebox"),
+    passesTotal: statValue(block?.statistics, "Total passes"),
+    passesAccurate: statValue(block?.statistics, "Passes accurate"),
+    passesPct: statValue(block?.statistics, "Passes %")
   };
 }
 
