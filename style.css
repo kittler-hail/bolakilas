@@ -125,29 +125,30 @@ body {
   font-family: 'Plus Jakarta Sans', Arial, sans-serif;
   color: var(--white);
   /* Latar gelap berlapis: kisi titik halus (pattern, beda dari pola
-     header) + satu bola cahaya magenta yang perlahan mengambang
-     kemana-mana (background-position yang dianimasikan — bukan posisi
-     "at X Y" di dalam radial-gradient, supaya benar-benar bisa
-     digerakkan lewat CSS) + tiga sorotan radial magenta/ungu/plum yang
-     diam sebagai lapisan dasar — inilah lapisan "neon" utama situs,
+     header) + satu bola cahaya magenta + tiga sorotan radial magenta/
+     ungu/plum sebagai lapisan dasar — inilah lapisan "neon" utama situs,
      dipasang sekali di body supaya konsisten di semua halaman tanpa
-     perlu gambar/asset tambahan. */
+     perlu gambar/asset tambahan.
+
+     DULU bola cahaya di atas dianimasikan mengambang pelan lewat
+     background-position (lihat riwayat commit: @keyframes bgOrbDrift),
+     tapi dihapus — animasi background-position pada `body` (elemen
+     terbesar di halaman) memaksa REPAINT tiap frame, dan sejak redesign
+     liquid glass menambah backdrop-filter:blur() ke ~20 elemen (topbar,
+     kartu, tombol, dst), TIAP elemen blur itu juga harus menghitung
+     ulang blur-nya tiap frame mengikuti latar yang terus bergerak —
+     diukur langsung: ~56ms/frame (macet/patah-patah, "menggantung")
+     jadi ~16.6ms/frame (mulus) begitu animasi ini dihentikan. Bola
+     cahayanya tetap ada, cuma diam di tempat. */
   background:
-    radial-gradient(circle 240px, rgba(159,5,162,.32), transparent 70%) no-repeat,
+    radial-gradient(circle 240px at 8% 12%, rgba(159,5,162,.32), transparent 70%) no-repeat,
     radial-gradient(circle, rgba(255,255,255,.05) 1px, transparent 1.6px) 0 0 / 34px 34px,
     radial-gradient(ellipse 900px 520px at 12% -8%, rgba(159,5,162,.24), transparent 60%),
     radial-gradient(ellipse 720px 520px at 105% 18%, rgba(111,84,179,.20), transparent 55%),
     radial-gradient(ellipse 820px 620px at 50% 115%, rgba(87,2,90,.28), transparent 60%),
     var(--page-bg);
-  background-size: 100% 100%, 34px 34px, auto, auto, auto, auto;
   background-attachment: fixed;
-  animation: bgOrbDrift 55s ease-in-out infinite;
   overflow-x: hidden;
-}
-@keyframes bgOrbDrift {
-  0%   { background-position: 8% 12%,  0 0, 0 0, 0 0, 0 0, 0 0; }
-  50%  { background-position: 88% 68%, 0 0, 0 0, 0 0, 0 0, 0 0; }
-  100% { background-position: 8% 12%,  0 0, 0 0, 0 0, 0 0, 0 0; }
 }
 
 a { text-decoration: none; color: inherit; }
@@ -256,10 +257,17 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   z-index: 100;
   /* Header dengan tekstur: mesh garis diagonal silang (bukan lagi pola
      titik — pola beda dari yang dipakai di latar body) + sorotan
-     magenta radial + satu pita cahaya yang bergerak pelan menyapu dari
-     kanan ke kiri (background-position dianimasikan), semua di atas
+     magenta radial + satu pita cahaya diagonal statis, semua di atas
      gradasi indigo→ungu-tua — beberapa lapisan gradient/pola (bukan
-     gambar/asset baru) supaya kepala situs tidak terasa flat polos. */
+     gambar/asset baru) supaya kepala situs tidak terasa flat polos.
+     DULU pita cahaya ini dianimasikan lewat background-position
+     (topbarShine), tapi dihapus — animasi background-position pada
+     elemen position:sticky yang juga backdrop-filter:blur() memaksa
+     repaint terus-menerus tiap frame (bukan cuma composite ringan
+     seperti animasi transform), jadi berat & bikin scroll terasa
+     "menggantung"/patah-patah, terutama pas kembali ke atas halaman
+     (topbar+stats-bar+ticker yang sama-sama blur semua kelihatan
+     sekaligus). Lapisan cahayanya tetap ada, cuma diam. */
   background:
     var(--glass-sheen),
     linear-gradient(100deg, transparent 35%, rgba(255,255,255,.22) 48%, transparent 62%),
@@ -267,10 +275,8 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
     repeating-linear-gradient(-45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
     radial-gradient(ellipse 480px 220px at 88% -20%, rgba(159,5,162,.55), transparent 70%),
     linear-gradient(115deg, rgba(62,55,177,.62), rgba(66,41,129,.62) 85%);
-  background-size: auto, 240% 100%, auto, auto, auto, auto;
   backdrop-filter: blur(28px) saturate(160%);
   -webkit-backdrop-filter: blur(28px) saturate(160%);
-  animation: topbarShine 7s ease-in-out infinite;
   border-bottom: none;
   /* Bayangan gelap murni (bukan lagi tinta rgba(33,26,61,..)) + garis
      jahitan magenta tipis di tepi bawah + rim cahaya tipis di tepi atas
@@ -281,11 +287,6 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   margin-left: -12px;
   margin-right: -12px;
   width: calc(100% + 24px);
-}
-@keyframes topbarShine {
-  0%   { background-position: 200% 0, 0 0, 0 0, 0 0, 0 0; }
-  55%  { background-position: -60% 0, 0 0, 0 0, 0 0, 0 0; }
-  100% { background-position: -60% 0, 0 0, 0 0, 0 0, 0 0; }
 }
 
 .brand { flex: none; }
