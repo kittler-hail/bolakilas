@@ -289,13 +289,13 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
     0 0 34px rgba(159,5,162,.30),
     0 2px 0 rgba(159,5,162,.6),
     var(--glass-rim);
-  padding: 11px 16px;
+  padding: 16px;
   margin-left: -12px;
   margin-right: -12px;
   width: calc(100% + 24px);
 }
 
-.brand { flex: none; display: flex; flex-direction: column; gap: 3px; }
+.brand { flex: none; display: flex; flex-direction: column; justify-content: center; gap: 5px; }
 .brand img { width: 172px; height: auto; object-fit: contain; }
 .brand-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: .5px; color: var(--paper); }
 .brand-tagline {
