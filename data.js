@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-25T08:07:29.703Z.
+   API-Football v3) pada 2026-08-25T10:06:32.288Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1762,7 +1762,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/08/2026 15:07 WIB",
+    "standingsUpdated": "25/08/2026 17:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -16524,44 +16524,6 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "FC Iberia 1999",
-                "away": "Jagiellonia",
-                "stadium": "Mikheil Meskhi Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Jagiellonia"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "Ararat-Armenia",
-                "away": "Universitatea Craiova",
-                "stadium": "Vazgen Sargsyan Republican Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Universitatea Craiova"
-            },
-            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-27",
                 "time": "23:00",
@@ -16617,6 +16579,44 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "FC Iberia 1999",
+                "away": "Jagiellonia",
+                "stadium": "Mikheil Meskhi Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Jagiellonia"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "Ararat-Armenia",
+                "away": "Universitatea Craiova",
+                "stadium": "Vazgen Sargsyan Republican Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Universitatea Craiova"
             },
             {
                 "league": "UEFA Europa Conference League",
