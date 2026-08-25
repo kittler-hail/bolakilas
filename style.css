@@ -294,7 +294,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
     0 0 34px rgba(159,5,162,.30),
     0 2px 0 rgba(159,5,162,.6),
     var(--glass-rim);
-  padding: 16px;
+  padding: 11px 16px;
   /* Bleed penuh ke 3 sisi (kiri/kanan/atas) supaya menempel pas ke tepi
      layar begitu scroll di posisi paling atas — .page punya padding-top
      18px (buat spacing halaman biasa), yang tanpa ini bikin celah tipis
@@ -305,14 +305,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   width: calc(100% + 24px);
 }
 
-.brand { flex: none; display: flex; flex-direction: column; justify-content: center; gap: 5px; }
+.brand { flex: none; }
 .brand img { width: 172px; height: auto; object-fit: contain; }
 .brand-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: .5px; color: var(--paper); }
-.brand-tagline {
-  font-size: 10px; font-weight: 600; letter-spacing: .2px;
-  color: rgba(255,255,255,.72); text-shadow: 0 1px 4px rgba(0,0,0,.55);
-  max-width: 220px; line-height: 1.3;
-}
 
 /* NAV — satu baris rapi di semua ukuran layar ≥650px (scroll horizontal
    kalau sempit, bukan melipat jadi dua baris yang berantakan); di bawah
@@ -902,7 +897,6 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   .page { padding-top: 6px; }
   .topbar { padding: 8px 14px; }
   .brand img { width: 140px; }
-  .brand-tagline { display: none; } /* header sudah padat di layar sempit (hamburger, dst) — cukup logo */
   .nav-toggle { display: flex; }
   .about-open-btn--topbar { display: none; } /* teaser di halaman Beranda sudah jadi jalan masuknya di layar sempit */
   .nav {
