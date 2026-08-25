@@ -812,16 +812,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 }
 .news-card:hover .news-thumb-wrap::after { background-position: -50% 0; }
 
-/* Varian lambang klub (berita transfer) — panel gradasi indigo→magenta
-   dengan lambang ditengah pakai contain (bukan cover) supaya utuh. */
-.news-thumb-wrap--logo {
-  display: grid; place-items: center; padding: 22px;
-  background: linear-gradient(150deg, var(--blue-dark), var(--blue-light) 55%, var(--accent) 130%);
-}
-.news-thumb-wrap--logo img { width: auto; height: 100%; max-width: 60%; object-fit: contain; filter: drop-shadow(0 6px 14px rgba(0,0,0,.4)); transition: transform .5s var(--ease-out); }
-.news-card:hover .news-thumb-wrap--logo img { transform: scale(1.08); }
-
-/* Varian kosong (berita statis tanpa gambar/lambang) — ikon bola di
+/* Varian kosong (berita statis/transfer tanpa foto) — ikon bola di
    atas panel gradasi juga, supaya SEMUA kartu tetap punya sentuhan
    visual, tidak ada yang polos teks doang. */
 .news-thumb-wrap--empty { display: grid; place-items: center; background: linear-gradient(150deg, var(--blue-dark), var(--blue-light) 70%); font-size: 34px; }

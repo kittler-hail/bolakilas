@@ -1677,16 +1677,16 @@ function renderNews() {
     const hasLink = !!item.url;
     const tag = hasLink ? "a" : "div";
     const linkAttrs = hasLink ? `href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer"` : "";
-    // `image` = foto asli (cover penuh, mis. thumbnail berita).
-    // `logo` = lambang klub (mis. berita transfer) — panel gradasi +
-    // contain supaya lambangnya utuh, tidak terpotong/gepeng kalau
-    // dipaksa isi kotak foto 16:10 seperti foto biasa.
+    // `image` = foto asli (cover penuh, mis. thumbnail berita). Berita
+    // transfer (item.logo = lambang klub) SENGAJA tidak menampilkan
+    // lambang itu sebagai gambar kartu — satu lambang klub yang sama
+    // besar-besar di tiap kartu transfer terasa berulang/kurang seperti
+    // "berita" sungguhan — jadi disamakan dengan varian kosong (panel
+    // gradasi + ikon bola) supaya tetap ada sentuhan visual tanpa
+    // mengulang logo yang sama.
     const thumb = item.image ? `
       <div class="news-thumb-wrap">
         <img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)}" loading="lazy">
-      </div>` : item.logo ? `
-      <div class="news-thumb-wrap news-thumb-wrap--logo">
-        <img src="${escapeHTML(item.logo)}" alt="${escapeHTML(item.title)}" loading="lazy">
       </div>` : `
       <div class="news-thumb-wrap news-thumb-wrap--empty"><span>⚽</span></div>`;
 
