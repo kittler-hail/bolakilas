@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-25T10:06:32.288Z.
+   API-Football v3) pada 2026-08-25T11:59:46.020Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1762,7 +1762,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/08/2026 17:06 WIB",
+    "standingsUpdated": "25/08/2026 18:59 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -1857,6 +1857,14 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "P. Aubameyang",
+                "photo": "https://media.api-sports.io/football/players/1465.png",
+                "team": "Deportivo La Coruna",
+                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "value": 2
+            },
+            {
+                "rank": 3,
                 "name": "Roberto Fernández",
                 "photo": "https://media.api-sports.io/football/players/312990.png",
                 "team": "Espanyol",
@@ -1864,7 +1872,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "Fermín",
                 "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
@@ -1872,7 +1880,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "Raphinha",
                 "photo": "https://media.api-sports.io/football/players/1496.png",
                 "team": "Barcelona",
@@ -1880,7 +1888,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "Álex Baena",
                 "photo": "https://media.api-sports.io/football/players/182219.png",
                 "team": "Atletico Madrid",
@@ -1888,7 +1896,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "Isaac",
                 "photo": "https://media.api-sports.io/football/players/185398.png",
                 "team": "Sevilla",
@@ -1896,7 +1904,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "G. Simeone",
                 "photo": "https://media.api-sports.io/football/players/323935.png",
                 "team": "Atletico Madrid",
@@ -1904,7 +1912,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "Oso",
                 "photo": "https://media.api-sports.io/football/players/341453.png",
                 "team": "Sevilla",
@@ -1912,30 +1920,22 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "name": "C. Ejuke",
                 "photo": "https://media.api-sports.io/football/players/39121.png",
                 "team": "Sevilla",
                 "teamLogo": "https://media.api-sports.io/football/teams/536.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "Lee Kang-In",
-                "photo": "https://media.api-sports.io/football/players/927.png",
-                "team": "Atletico Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
                 "value": 1
             }
         ],
         "Serie A": [
             {
                 "rank": 1,
-                "name": "K. De Bruyne",
-                "photo": "https://media.api-sports.io/football/players/629.png",
-                "team": "Napoli",
-                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
-                "value": 1
+                "name": "D. Malen",
+                "photo": "https://media.api-sports.io/football/players/249.png",
+                "team": "AS Roma",
+                "teamLogo": "https://media.api-sports.io/football/teams/497.png",
+                "value": 3
             },
             {
                 "rank": 2,
@@ -1947,6 +1947,14 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "K. De Bruyne",
+                "photo": "https://media.api-sports.io/football/players/629.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "value": 1
+            },
+            {
+                "rank": 4,
                 "name": "A. Rabiot",
                 "photo": "https://media.api-sports.io/football/players/272.png",
                 "team": "AC Milan",
@@ -1954,7 +1962,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "F. Esposito",
                 "photo": "https://media.api-sports.io/football/players/345808.png",
                 "team": "Inter",
@@ -1962,7 +1970,15 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 6,
+                "name": "N. Pisilli",
+                "photo": "https://media.api-sports.io/football/players/356888.png",
+                "team": "AS Roma",
+                "teamLogo": "https://media.api-sports.io/football/teams/497.png",
+                "value": 1
+            },
+            {
+                "rank": 7,
                 "name": "Tiago Gabriel",
                 "photo": "https://media.api-sports.io/football/players/455316.png",
                 "team": "Lecce",
@@ -1970,7 +1986,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "name": "C. Adams",
                 "photo": "https://media.api-sports.io/football/players/19524.png",
                 "team": "Torino",
@@ -1978,7 +1994,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 9,
                 "name": "N. Krstović",
                 "photo": "https://media.api-sports.io/football/players/66817.png",
                 "team": "Atalanta",
@@ -1986,27 +2002,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
-                "name": "H. Çalhanoğlu",
-                "photo": "https://media.api-sports.io/football/players/1640.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "Olaf Gorter",
-                "photo": "https://media.api-sports.io/football/players/387537.png",
-                "team": "Lecce",
-                "teamLogo": "https://media.api-sports.io/football/teams/867.png",
-                "value": 1
-            },
-            {
                 "rank": 10,
-                "name": "A. Cissè",
-                "photo": "https://media.api-sports.io/football/players/359100.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "name": "D. Frattesi",
+                "photo": "https://media.api-sports.io/football/players/31173.png",
+                "team": "Lazio",
+                "teamLogo": "https://media.api-sports.io/football/teams/487.png",
                 "value": 1
             }
         ],
@@ -16524,6 +16524,44 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "FC Iberia 1999",
+                "away": "Jagiellonia",
+                "stadium": "Mikheil Meskhi Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Jagiellonia"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "Ararat-Armenia",
+                "away": "Universitatea Craiova",
+                "stadium": "Vazgen Sargsyan Republican Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Universitatea Craiova"
+            },
+            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-27",
                 "time": "23:00",
@@ -16579,44 +16617,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "FC Iberia 1999",
-                "away": "Jagiellonia",
-                "stadium": "Mikheil Meskhi Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Jagiellonia"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "Ararat-Armenia",
-                "away": "Universitatea Craiova",
-                "stadium": "Vazgen Sargsyan Republican Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Universitatea Craiova"
             },
             {
                 "league": "UEFA Europa Conference League",
