@@ -255,7 +255,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   position: sticky;
   top: 0;
   z-index: 100;
-  /* Header dengan foto nebula ungu (images/header.png) sebagai lapisan
+  /* Header dengan foto nebula ungu (images/header.jpg) sebagai lapisan
      paling belakang, ditutup tipis dengan mesh garis diagonal silang +
      sorotan magenta radial + tint indigo→ungu-tua (alpha diturunkan
      dari versi sebelumnya, .62 -> ~.40, supaya foto di baliknya masih
@@ -273,9 +273,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
     repeating-linear-gradient(-45deg, rgba(255,255,255,.05) 0 1px, transparent 1px 18px),
     radial-gradient(ellipse 480px 220px at 88% -20%, rgba(159,5,162,.4), transparent 70%),
     linear-gradient(100deg, rgba(62,55,177,.40), rgba(66,41,129,.44) 85%),
-    url('images/header.png') center 40% / cover no-repeat;
+    url('images/header.jpg') center 40% / cover no-repeat;
   /* TANPA backdrop-filter di sini (beda dari kartu kaca lain) — lapisan
-     paling belakang sekarang foto (header.png) yang solid/opaque, jadi
+     paling belakang sekarang foto (header.jpg) yang solid/opaque, jadi
      tidak ada celah tembus pandang buat di-blur; backdrop-filter cuma
      akan makan biaya render tanpa efek yang kelihatan. */
   /* Garis pinggir neon: border magenta tipis + tumpuk beberapa glow
