@@ -416,11 +416,12 @@
     return Array.from(names).sort((a, b) => a.localeCompare(b, "id"));
   }
 
-  // Diekspos supaya compare.js (fitur "Bandingkan Tim") bisa pakai ulang
-  // logika pencarian riwayat/klasemen/logo yang sama persis, tanpa
+  // Diekspos supaya compare.js (fitur "Bandingkan Tim") & club-search.js
+  // (fitur "Cari Klub") bisa pakai ulang logika pencarian riwayat/klasemen/
+  // logo yang sama persis, & buka modal Profil Tim yang sama, tanpa
   // duplikasi & tanpa saling kenal urutan muat (lihat pola window.BKAccount
   // di account.js).
-  window.BKTeamData = { teamPool, getHistory, getStanding, getNextMatch, getAllTeamNames, resolveTeamLogo, logoTag };
+  window.BKTeamData = { teamPool, getHistory, getStanding, getNextMatch, getAllTeamNames, resolveTeamLogo, logoTag, openTeamProfile };
 
   function initTeamProfile() {
     document.addEventListener("click", function (e) {

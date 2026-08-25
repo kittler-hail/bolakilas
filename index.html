@@ -104,6 +104,30 @@
     </div>
   </section>
 
+  <!-- ===================== CARI KLUB =====================
+       Cari klub mana pun dari SEMUA klub yang ada di data.js (bukan cuma
+       tim yang main hari ini) — pakai window.BKTeamData.getAllTeamNames()
+       yang sama dengan Bandingkan Tim (mencakup tim di jadwal, riwayat,
+       laga mendatang, & seluruh klasemen liga). Klik hasil buka modal
+       Profil Tim yang sama persis dengan klik logo/nama tim di mana pun
+       (team-profile.js) — lengkap: jadwal berikutnya, klasemen, pelatih,
+       cedera, riwayat, & skuad. Diisi & dikendalikan oleh club-search.js. -->
+  <section id="club-search-section" class="section reveal">
+    <div class="section-title">
+      <div>
+        <h2>Cari Klub</h2>
+        <small>Statistik lengkap semua klub, bukan cuma yang main hari ini</small>
+      </div>
+    </div>
+
+    <div class="search-wrap">
+      <span class="search-icon">Cari</span>
+      <input type="text" class="search-input" id="club-search-input" placeholder="Ketik nama klub..." autocomplete="off">
+    </div>
+
+    <div class="club-search-results" id="club-search-results"></div>
+  </section>
+
   <!-- ===================== KLASEMEN LIGA ===================== -->
   <section id="klasemen-section" class="section reveal">
     <div class="section-title">
@@ -571,6 +595,9 @@
 
 <!-- Bandingkan Tim: H2H bebas 2 tim mana pun, pakai window.BKTeamData dari team-profile.js -->
 <script src="compare.js"></script>
+
+<!-- Cari Klub: cari & lihat statistik lengkap SEMUA klub, pakai window.BKTeamData dari team-profile.js -->
+<script src="club-search.js"></script>
 
 <!-- Proyeksi 2D live Big Match: bola momentum dari statistik live API-Football -->
 <script src="bm-live-pitch.js"></script>

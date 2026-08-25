@@ -26,6 +26,7 @@
   // disembunyikan).
   const SECTION_TO_VIEW = {
     "jadwal": "beranda",
+    "club-search-section": "beranda",
     "klasemen-section": "beranda",
     "radar-section": "prediksi",
     "compare-section": "prediksi",

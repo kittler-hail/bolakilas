@@ -1237,3 +1237,21 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   .compare-teams-row { flex-direction: column; }
   .compare-vs-label--result { padding: 4px 0; }
 }
+
+/* =========================================================
+   CARI KLUB
+   ========================================================= */
+.club-search-results { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
+.club-search-item {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px;
+  background: var(--surface-2); cursor: pointer; text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif; color: var(--white);
+  transition: border-color .15s, background .15s;
+}
+.club-search-item:hover { border-color: var(--accent); background: var(--probability-bg); }
+.club-search-item .club-search-logo { width: 26px; height: 26px; border-radius: 6px; flex: none; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-size: 9px; font-weight: 800; }
+.club-search-item .club-search-logo img { width: 19px; height: 19px; object-fit: contain; }
+.club-search-name { flex: 1; min-width: 0; font-weight: 700; font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.club-search-meta { flex: none; font-size: 10px; color: var(--muted); }
+.club-search-more { text-align: center; padding: 6px 0 2px; }
