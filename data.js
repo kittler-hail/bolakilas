@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-25T11:59:46.020Z.
+   API-Football v3) pada 2026-08-25T14:29:02.152Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1762,7 +1762,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/08/2026 18:59 WIB",
+    "standingsUpdated": "25/08/2026 21:29 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2261,19 +2261,19 @@ const siteData = {
         "Serie A": [
             {
                 "rank": 1,
+                "name": "P. Dybala",
+                "photo": "https://media.api-sports.io/football/players/875.png",
+                "team": "AS Roma",
+                "teamLogo": "https://media.api-sports.io/football/teams/497.png",
+                "value": 3
+            },
+            {
+                "rank": 2,
                 "name": "A. Diouf",
                 "photo": "https://media.api-sports.io/football/players/270509.png",
                 "team": "Inter",
                 "teamLogo": "https://media.api-sports.io/football/teams/505.png",
                 "value": 2
-            },
-            {
-                "rank": 2,
-                "name": "K. De Bruyne",
-                "photo": "https://media.api-sports.io/football/players/629.png",
-                "team": "Napoli",
-                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
-                "value": 1
             },
             {
                 "rank": 3,
@@ -2285,6 +2285,14 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "name": "K. De Bruyne",
+                "photo": "https://media.api-sports.io/football/players/629.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "value": 1
+            },
+            {
+                "rank": 5,
                 "name": "A. Rabiot",
                 "photo": "https://media.api-sports.io/football/players/272.png",
                 "team": "AC Milan",
@@ -2292,7 +2300,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "F. Esposito",
                 "photo": "https://media.api-sports.io/football/players/345808.png",
                 "team": "Inter",
@@ -2300,7 +2308,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "Francisco Conceição",
                 "photo": "https://media.api-sports.io/football/players/161585.png",
                 "team": "Juventus",
@@ -2308,7 +2316,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "M. Mout",
                 "photo": "https://media.api-sports.io/football/players/613450.png",
                 "team": "Monza",
@@ -2316,27 +2324,19 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
-                "name": "J. Ekkelenkamp",
-                "photo": "https://media.api-sports.io/football/players/541.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
-                "value": 1
-            },
-            {
                 "rank": 9,
-                "name": "S. Chukwueze",
-                "photo": "https://media.api-sports.io/football/players/1696.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "name": "B. Dia",
+                "photo": "https://media.api-sports.io/football/players/22015.png",
+                "team": "Lazio",
+                "teamLogo": "https://media.api-sports.io/football/teams/487.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "G. Gaetano",
-                "photo": "https://media.api-sports.io/football/players/325.png",
-                "team": "Atalanta",
-                "teamLogo": "https://media.api-sports.io/football/teams/499.png",
+                "name": "J. Ekkelenkamp",
+                "photo": "https://media.api-sports.io/football/players/541.png",
+                "team": "Udinese",
+                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
                 "value": 1
             }
         ],
@@ -3205,7 +3205,7 @@ const siteData = {
                 "player": "L. Rioja",
                 "photo": "https://media.api-sports.io/football/players/46933.png",
                 "reason": "Muscle Injury",
-                "since": "2026-08-25"
+                "since": "2026-08-22"
             },
             {
                 "player": "J. De Haas",
