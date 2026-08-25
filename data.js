@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-25T21:00:21.489Z.
+   API-Football v3) pada 2026-08-25T21:57:31.871Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -19,125 +19,61 @@ const siteData = {
         "league": "UEFA Champions League",
         "date": "2026-08-26",
         "time": "02:00",
-        "home": "Lask Linz",
-        "away": "Celtic",
-        "stadium": "Raiffeisen Arena",
-        "prediction": "0 - 3",
-        "analysis": "Lask Linz bertemu Celtic dalam laga UEFA Champions League. Analisis API-Football: Winner : Celtic.",
-        "statusCode": "ET",
-        "minuteDisplay": "92'",
-        "homeScore": 4,
-        "awayScore": 1,
+        "home": "Bodo/Glimt",
+        "away": "NEC Nijmegen",
+        "stadium": "Aspmyra Stadion",
+        "prediction": "3 - 2",
+        "analysis": "Bodo/Glimt bertemu NEC Nijmegen dalam laga UEFA Champions League. Analisis API-Football: Winner : Bodo/Glimt.",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 3,
+        "awayScore": 0,
         "odds": {
-            "home": 34,
-            "draw": 50,
-            "away": 50
+            "home": 45,
+            "draw": 45,
+            "away": 10
         },
         "probability": {
-            "home": 34,
-            "draw": 50,
-            "away": 50
+            "home": 45,
+            "draw": 45,
+            "away": 10
         },
-        "apiFixtureId": 1610924,
-        "homeTeamId": 1026,
-        "awayTeamId": 247,
-        "homeLogo": "https://media.api-sports.io/football/teams/1026.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/247.png",
+        "apiFixtureId": 1622627,
+        "homeTeamId": 327,
+        "awayTeamId": 413,
+        "homeLogo": "https://media.api-sports.io/football/teams/327.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/413.png",
         "h2h": [
             {
-                "home": "Lask Linz",
-                "away": "Celtic",
-                "score": "4-1"
+                "home": "Bodo/Glimt",
+                "away": "NEC Nijmegen",
+                "score": "3-0"
             },
             {
-                "home": "Celtic",
-                "away": "Lask Linz",
-                "score": "3-0"
+                "home": "NEC Nijmegen",
+                "away": "Bodo/Glimt",
+                "score": "1-3"
             }
         ],
         "form": {
             "home": {
                 "results": [
-                    "L"
+                    "D",
+                    "W",
+                    "W",
+                    "W"
                 ]
             },
             "away": {
                 "results": [
-                    "W"
+                    "D",
+                    "W",
+                    "L"
                 ]
             }
         }
     },
     "matches": [
-        {
-            "league": "UEFA Champions League",
-            "date": "2026-08-26",
-            "time": "02:00",
-            "home": "Lask Linz",
-            "away": "Celtic",
-            "stadium": "Raiffeisen Arena",
-            "round": "Play-offs",
-            "statusCode": "ET",
-            "minuteDisplay": "92'",
-            "homeScore": 4,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/1026.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/247.png",
-            "prediction": "0 - 3",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Celtic",
-            "goals": [
-                {
-                    "minute": "21",
-                    "player": "C. McGregor",
-                    "team": "away"
-                },
-                {
-                    "minute": "32",
-                    "player": "M. Usor",
-                    "team": "home"
-                },
-                {
-                    "minute": "48",
-                    "player": "R. Ljubicic",
-                    "team": "home"
-                },
-                {
-                    "minute": "58",
-                    "player": "S. Adeniran",
-                    "team": "home"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "F. Flecker",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "57",
-                    "player": "D. Kuhbauer",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "74",
-                    "player": "M. Usor",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "J. Tornich",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "UEFA Champions League",
             "date": "2026-08-26",
@@ -192,6 +128,92 @@ const siteData = {
                 {
                     "minute": "83",
                     "player": "B. Pereira",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Champions League",
+            "date": "2026-08-26",
+            "time": "02:00",
+            "home": "Lask Linz",
+            "away": "Celtic",
+            "stadium": "Raiffeisen Arena",
+            "round": "Play-offs",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/1026.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/247.png",
+            "prediction": "0 - 3",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Celtic",
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "C. McGregor",
+                    "team": "away"
+                },
+                {
+                    "minute": "32",
+                    "player": "M. Usor",
+                    "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "R. Ljubicic",
+                    "team": "home"
+                },
+                {
+                    "minute": "58",
+                    "player": "S. Adeniran",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "F. Flecker",
+                    "team": "home"
+                },
+                {
+                    "minute": "109",
+                    "player": "S. Adeniran",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "57",
+                    "player": "D. Kuhbauer",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "M. Usor",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "M. O'Neill",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "J. Tornich",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "103",
+                    "player": "L. McCowan",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -572,6 +594,17 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Real Betis",
+                "logo": "https://media.api-sports.io/football/teams/543.png",
+                "played": 2,
+                "win": 2,
+                "draw": 0,
+                "lose": 0,
+                "gd": 2,
+                "points": 6
+            },
+            {
+                "rank": 3,
                 "team": "Alaves",
                 "logo": "https://media.api-sports.io/football/teams/542.png",
                 "played": 2,
@@ -582,7 +615,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Atletico Madrid",
                 "logo": "https://media.api-sports.io/football/teams/530.png",
                 "played": 2,
@@ -593,7 +626,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png",
                 "played": 1,
@@ -604,7 +637,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Espanyol",
                 "logo": "https://media.api-sports.io/football/teams/540.png",
                 "played": 2,
@@ -615,20 +648,9 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Real Madrid",
                 "logo": "https://media.api-sports.io/football/teams/541.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
-            },
-            {
-                "rank": 7,
-                "team": "Real Betis",
-                "logo": "https://media.api-sports.io/football/teams/543.png",
                 "played": 1,
                 "win": 1,
                 "draw": 0,
@@ -671,17 +693,6 @@ const siteData = {
             },
             {
                 "rank": 11,
-                "team": "Valencia",
-                "logo": "https://media.api-sports.io/football/teams/532.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
-            },
-            {
-                "rank": 12,
                 "team": "Osasuna",
                 "logo": "https://media.api-sports.io/football/teams/727.png",
                 "played": 1,
@@ -692,7 +703,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 13,
+                "rank": 12,
                 "team": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 1,
@@ -703,7 +714,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 14,
+                "rank": 13,
                 "team": "Racing Santander",
                 "logo": "https://media.api-sports.io/football/teams/4665.png",
                 "played": 2,
@@ -714,9 +725,20 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 15,
+                "rank": 14,
                 "team": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png",
+                "played": 2,
+                "win": 0,
+                "draw": 1,
+                "lose": 1,
+                "gd": -1,
+                "points": 1
+            },
+            {
+                "rank": 15,
+                "team": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png",
                 "played": 2,
                 "win": 0,
                 "draw": 1,
@@ -1603,7 +1625,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/08/2026 04:00 WIB",
+    "standingsUpdated": "26/08/2026 04:57 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -17176,25 +17198,6 @@ const siteData = {
                 "advice": "Combo Winner : Ferencvarosi TC and -3.5 goals"
             },
             {
-                "league": "LaLiga",
-                "date": "2026-08-28",
-                "time": "01:30",
-                "home": "Celta Vigo",
-                "away": "Osasuna",
-                "stadium": "",
-                "round": "Pekan 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/538.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/727.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Celta Vigo or draw"
-            },
-            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
                 "time": "01:30",
@@ -17252,6 +17255,25 @@ const siteData = {
                 "advice": "Combo Winner : Borac Banja Luka and +1.5 goals"
             },
             {
+                "league": "LaLiga",
+                "date": "2026-08-28",
+                "time": "01:30",
+                "home": "Celta Vigo",
+                "away": "Osasuna",
+                "stadium": "",
+                "round": "Pekan 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/538.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/727.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Celta Vigo or draw"
+            },
+            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
                 "time": "01:45",
@@ -17269,25 +17291,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : FC Midtjylland"
-            },
-            {
-                "league": "LaLiga",
-                "date": "2026-08-28",
-                "time": "02:00",
-                "home": "Barcelona",
-                "away": "Athletic Club",
-                "stadium": "Camp Nou",
-                "round": "Pekan 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/529.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/531.png",
-                "prediction": "4 - 1",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Combo Winner : Barcelona and +1.5 goals"
             },
             {
                 "league": "UEFA Europa Conference League",
@@ -17345,6 +17348,25 @@ const siteData = {
                     "away": 33
                 },
                 "advice": "Combo Winner : Larne and -3.5 goals"
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-08-28",
+                "time": "02:00",
+                "home": "Barcelona",
+                "away": "Athletic Club",
+                "stadium": "Camp Nou",
+                "round": "Pekan 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/529.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/531.png",
+                "prediction": "4 - 1",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Combo Winner : Barcelona and +1.5 goals"
             },
             {
                 "league": "Liga de Expansion MX",
