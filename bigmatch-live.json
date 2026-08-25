@@ -2,10 +2,285 @@
   "fixtureId": 1622627,
   "home": "Bodo/Glimt",
   "away": "NEC Nijmegen",
-  "statusCode": "NS",
-  "updatedAt": "26/08/2026 00:53 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "1H",
+  "updatedAt": "26/08/2026 02:46 WIB",
+  "statistics": {
+    "home": {
+      "possession": 75,
+      "shotsTotal": 9,
+      "shotsOnTarget": 4,
+      "corners": 3,
+      "fouls": 6,
+      "offsides": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "away": {
+      "possession": 25,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": 2,
+      "fouls": 6,
+      "offsides": 1,
+      "yellowCards": 1,
+      "redCards": 1
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "coach": "Kjetil Knutsen",
+      "startXI": [
+        {
+          "number": 12,
+          "name": "Nikita Haikin",
+          "position": "Kiper",
+          "rating": "6.7"
+        },
+        {
+          "number": 20,
+          "name": "Fredrik Sjøvold",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 2,
+          "name": "Villads Nielsen",
+          "position": "Bek",
+          "rating": "7.2"
+        },
+        {
+          "number": 4,
+          "name": "Odin Luras Bjørtuft",
+          "position": "Bek",
+          "rating": "7.5"
+        },
+        {
+          "number": 15,
+          "name": "Fredrik André Bjørkan",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 8,
+          "name": "Sondre Auklend",
+          "position": "Gelandang",
+          "rating": "7.0"
+        },
+        {
+          "number": 7,
+          "name": "Patrick Berg",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 19,
+          "name": "Sondre Fet",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 11,
+          "name": "Ole Didrik Blomberg",
+          "position": "Penyerang",
+          "rating": "7.0"
+        },
+        {
+          "number": 9,
+          "name": "Andreas Helmersen",
+          "position": "Penyerang",
+          "rating": "6.0"
+        },
+        {
+          "number": 10,
+          "name": "Jens Petter Hauge",
+          "position": "Penyerang",
+          "rating": "6.3"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "Julian Lund",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "Haitam Aleesami",
+          "position": "Bek"
+        },
+        {
+          "number": 25,
+          "name": "Isak Dybvik Määttä",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "Ulrik Saltnes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "Joel Mugisha Mvuka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 32,
+          "name": "Kasper Solhaug",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "Joshua Kitolano",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "Ola Brynhildsen",
+          "position": "Penyerang"
+        },
+        {
+          "number": 24,
+          "name": "Daniel Bassi",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "coach": "Dick Schreuder",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Gonzalo Crettaz",
+          "position": "Kiper",
+          "rating": "3.0"
+        },
+        {
+          "number": 2,
+          "name": "Brayann Pereira",
+          "position": "Bek",
+          "rating": "6.6"
+        },
+        {
+          "number": 21,
+          "name": "Tobias Storm",
+          "position": "Bek",
+          "rating": "6.6"
+        },
+        {
+          "number": 24,
+          "name": "Deveron Fonville",
+          "position": "Bek",
+          "rating": "7.2"
+        },
+        {
+          "number": 99,
+          "name": "Clement Bischoff",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 6,
+          "name": "Darko Nejašmić",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 20,
+          "name": "Noé Lebreton",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 10,
+          "name": "Dušan Tadić",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 9,
+          "name": "Tjaronn Chery",
+          "position": "Penyerang",
+          "rating": "6.5"
+        },
+        {
+          "number": 30,
+          "name": "Bryan Linssen",
+          "position": "Penyerang",
+          "rating": "6.3"
+        },
+        {
+          "number": 14,
+          "name": "Kaj Sierhuis",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 12,
+          "name": "Nikolas Polster",
+          "position": "Kiper",
+          "rating": "7.0"
+        },
+        {
+          "number": 38,
+          "name": "Joep Geneste",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "Thomas Ouwejan",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Bram Nuytinck",
+          "position": "Bek"
+        },
+        {
+          "number": 66,
+          "name": "Almugera Kabar",
+          "position": "Bek"
+        },
+        {
+          "number": 73,
+          "name": "Gabriel Brás",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "Isak Hansen Aarøen",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Willum Thor Willumsson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "Adam Tahaui",
+          "position": "Penyerang"
+        },
+        {
+          "number": 32,
+          "name": "Vito van Crooij",
+          "position": "Gelandang"
+        },
+        {
+          "number": 35,
+          "name": "Jamiro Monteiro",
+          "position": "Gelandang"
+        },
+        {
+          "number": 34,
+          "name": "Kevin Kers",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Aspmyra Stadion",
     "city": "",
@@ -14,8 +289,8 @@
   },
   "odds": {
     "bookmaker": "10Bet",
-    "home": "1.47",
-    "draw": "5.00",
-    "away": "5.30"
+    "home": "1.44",
+    "draw": "4.90",
+    "away": "5.75"
   }
 }
