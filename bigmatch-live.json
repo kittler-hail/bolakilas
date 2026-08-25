@@ -2,27 +2,27 @@
   "fixtureId": 1622627,
   "home": "Bodo/Glimt",
   "away": "NEC Nijmegen",
-  "statusCode": "1H",
-  "updatedAt": "26/08/2026 02:46 WIB",
+  "statusCode": "FT",
+  "updatedAt": "26/08/2026 03:59 WIB",
   "statistics": {
     "home": {
-      "possession": 75,
-      "shotsTotal": 9,
-      "shotsOnTarget": 4,
-      "corners": 3,
-      "fouls": 6,
-      "offsides": 0,
+      "possession": 79,
+      "shotsTotal": 21,
+      "shotsOnTarget": 9,
+      "corners": 4,
+      "fouls": 10,
+      "offsides": 1,
       "yellowCards": 0,
       "redCards": 0
     },
     "away": {
-      "possession": 25,
-      "shotsTotal": 0,
-      "shotsOnTarget": 0,
+      "possession": 21,
+      "shotsTotal": 3,
+      "shotsOnTarget": 2,
       "corners": 2,
-      "fouls": 6,
-      "offsides": 1,
-      "yellowCards": 1,
+      "fouls": 8,
+      "offsides": 3,
+      "yellowCards": 2,
       "redCards": 1
     }
   },
@@ -35,67 +35,67 @@
           "number": 12,
           "name": "Nikita Haikin",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 20,
           "name": "Fredrik Sjøvold",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.5"
         },
         {
           "number": 2,
           "name": "Villads Nielsen",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "8.3"
         },
         {
           "number": 4,
           "name": "Odin Luras Bjørtuft",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "8.6"
         },
         {
           "number": 15,
           "name": "Fredrik André Bjørkan",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "8.0"
         },
         {
           "number": 8,
           "name": "Sondre Auklend",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "8.3"
         },
         {
           "number": 7,
           "name": "Patrick Berg",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.2"
         },
         {
           "number": 19,
           "name": "Sondre Fet",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "7.2"
         },
         {
           "number": 11,
           "name": "Ole Didrik Blomberg",
           "position": "Penyerang",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 9,
           "name": "Andreas Helmersen",
           "position": "Penyerang",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 10,
           "name": "Jens Petter Hauge",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "8.3"
         }
       ],
       "substitutes": [
@@ -112,12 +112,14 @@
         {
           "number": 25,
           "name": "Isak Dybvik Määttä",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 14,
           "name": "Ulrik Saltnes",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 22,
@@ -127,17 +129,20 @@
         {
           "number": 32,
           "name": "Kasper Solhaug",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 16,
           "name": "Joshua Kitolano",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 17,
           "name": "Ola Brynhildsen",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         },
         {
           "number": 24,
@@ -160,31 +165,31 @@
           "number": 2,
           "name": "Brayann Pereira",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 21,
           "name": "Tobias Storm",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "5.9"
         },
         {
           "number": 24,
           "name": "Deveron Fonville",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "6.2"
         },
         {
           "number": 99,
           "name": "Clement Bischoff",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "Darko Nejašmić",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 20,
@@ -196,7 +201,7 @@
           "number": 10,
           "name": "Dušan Tadić",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 9,
@@ -208,7 +213,7 @@
           "number": 30,
           "name": "Bryan Linssen",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 14,
@@ -221,7 +226,7 @@
           "number": 12,
           "name": "Nikolas Polster",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "7.9"
         },
         {
           "number": 38,
@@ -236,12 +241,14 @@
         {
           "number": 17,
           "name": "Bram Nuytinck",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "7.0"
         },
         {
           "number": 66,
           "name": "Almugera Kabar",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.2"
         },
         {
           "number": 73,
@@ -251,12 +258,14 @@
         {
           "number": 8,
           "name": "Isak Hansen Aarøen",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 11,
           "name": "Willum Thor Willumsson",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 19,
