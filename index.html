@@ -567,8 +567,15 @@
     </div>
 
     <div class="team-modal-section">
-      <div class="team-modal-section-title">Skuad Pemain</div>
-      <div id="team-modal-squad"></div>
+      <div class="team-modal-section-title-row">
+        <div class="team-modal-section-title">Skuad Pemain</div>
+        <div class="squad-view-toggle" id="squad-view-toggle">
+          <button type="button" class="squad-view-btn active" data-view="pitch">Lapangan</button>
+          <button type="button" class="squad-view-btn" data-view="list">Daftar</button>
+        </div>
+      </div>
+      <div id="team-modal-squad-pitch"></div>
+      <div id="team-modal-squad" style="display:none;"></div>
     </div>
   </div>
 </div>

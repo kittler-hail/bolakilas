@@ -135,6 +135,89 @@
       </div>`).join("");
   }
 
+  // Visual lapangan: skuad (squads.js) cuma punya kategori posisi umum
+  // (Kiper/Bek/Gelandang/Penyerang) buat ~25-30 pemain per tim, TIDAK ada
+  // koordinat formasi persis kayak starting XI pertandingan sungguhan
+  // (yang juga cuma py posisi umum, lihat mapPlayer() di
+  // fetch-bigmatch-live.js — grid row:col dari API-Football sengaja
+  // tidak diambil). Jadi ini SENGAJA cuma ilustrasi: ambil ~11 pemain
+  // per tim (formasi 4-3-3, diurutkan nomor punggung) & sebar merata per
+  // baris posisi di atas gambar lapangan — BUKAN starting XI/prediksi
+  // laga resmi, makanya selalu dikasih catatan penjelas di bawah lapangan.
+  const PITCH_FORMATION = [
+    { key: "Attacker", count: 3 },
+    { key: "Midfielder", count: 3 },
+    { key: "Defender", count: 4 },
+    { key: "Goalkeeper", count: 1 }
+  ];
+
+  function pickStarters(squad) {
+    const byPosition = {};
+    squad.forEach(p => {
+      const key = POSITION_ORDER.includes(p.position) ? p.position : "Lainnya";
+      if (!byPosition[key]) byPosition[key] = [];
+      byPosition[key].push(p);
+    });
+    Object.values(byPosition).forEach(list => {
+      list.sort((a, b) => (a.number ?? 999) - (b.number ?? 999));
+    });
+    return PITCH_FORMATION
+      .map(row => ({ key: row.key, players: (byPosition[row.key] || []).slice(0, row.count) }))
+      .filter(row => row.players.length);
+  }
+
+  function pitchPlayerTag(p) {
+    const initials = escapeHTML(getInitials(p.name));
+    const numberBadge = `<span class="team-pitch-number">${p.number != null ? escapeHTML(String(p.number)) : "-"}</span>`;
+    const photo = p.photo
+      ? `<img src="${escapeHTML(p.photo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">`
+      : `<span class="team-pitch-initials">${initials}</span>`;
+    return `
+      <div class="team-pitch-player">
+        <div class="team-pitch-avatar">
+          <div class="team-pitch-photo">${photo}</div>
+          ${numberBadge}
+        </div>
+        <div class="team-pitch-name">${escapeHTML(p.name)}</div>
+      </div>`;
+  }
+
+  function renderSquadPitch(teamName) {
+    if (squadsLoadState === "loading") {
+      return `<div class="team-modal-empty">Memuat skuad pemain...</div>`;
+    }
+
+    const slug = typeof slugifyTeamName === "function" ? slugifyTeamName(teamName) : "";
+    const squad = (typeof teamSquads !== "undefined" && Array.isArray(teamSquads[slug])) ? teamSquads[slug] : null;
+
+    if (!squad || !squad.length) {
+      return `<div class="team-modal-empty">Skuad pemain belum tersedia untuk tim ini.</div>`;
+    }
+
+    const rows = pickStarters(squad);
+    if (!rows.length) {
+      return `<div class="team-modal-empty">Posisi pemain belum lengkap untuk menyusun ilustrasi lapangan.</div>`;
+    }
+
+    const rowsHTML = rows.map(row => `
+      <div class="team-pitch-row">
+        ${row.players.map(pitchPlayerTag).join("")}
+      </div>`).join("");
+
+    return `
+      <div class="team-pitch">
+        <svg viewBox="0 0 300 460" class="team-pitch-svg" preserveAspectRatio="none" aria-hidden="true">
+          <rect x="2" y="2" width="296" height="456" rx="6" class="team-pitch-outline"></rect>
+          <line x1="2" y1="230" x2="298" y2="230" class="team-pitch-outline"></line>
+          <circle cx="150" cy="230" r="40" class="team-pitch-outline"></circle>
+          <rect x="70" y="2" width="160" height="80" class="team-pitch-outline"></rect>
+          <rect x="70" y="378" width="160" height="80" class="team-pitch-outline"></rect>
+        </svg>
+        ${rowsHTML}
+      </div>
+      <div class="team-pitch-note">Ilustrasi susunan dari skuad terdaftar (11 pemain, formasi 4-3-3), bukan starting XI resmi pertandingan.</div>`;
+  }
+
   function resolveTeamLogo(teamName) {
     // Sumber paling andal adalah URL logo dari API-Football yang sudah
     // tersimpan di data.js (klasemen & data pertandingan) — file PNG lokal di
@@ -343,7 +426,8 @@
     const injuriesEl = document.getElementById("team-modal-injuries");
     const historyEl = document.getElementById("team-modal-history");
     const squadEl = document.getElementById("team-modal-squad");
-    if (!backdrop || !nameEl || !logoWrap || !nextEl || !standingEl || !historyEl || !squadEl) return;
+    const squadPitchEl = document.getElementById("team-modal-squad-pitch");
+    if (!backdrop || !nameEl || !logoWrap || !nextEl || !standingEl || !historyEl || !squadEl || !squadPitchEl) return;
 
     const src = resolveTeamLogo(teamName);
     const initials = escapeHTML(getInitials(teamName));
@@ -366,11 +450,15 @@
     }
     historyEl.innerHTML = renderFormTrend(teamName) + renderHistoryBlock(teamName);
     squadEl.innerHTML = renderSquadBlock(teamName);
+    squadPitchEl.innerHTML = renderSquadPitch(teamName);
     if (squadsLoadState === "idle") {
       ensureSquadsLoaded().then(() => {
         // Modal bisa saja sudah ditutup/ganti tim lain selagi squads.js
         // masih diunduh — cuma render ulang kalau masih tim yang sama.
-        if (currentModalTeam === teamName) squadEl.innerHTML = renderSquadBlock(teamName);
+        if (currentModalTeam === teamName) {
+          squadEl.innerHTML = renderSquadBlock(teamName);
+          squadPitchEl.innerHTML = renderSquadPitch(teamName);
+        }
       });
     }
 
@@ -437,6 +525,20 @@
 
     const closeBtn = document.getElementById("team-modal-close");
     if (closeBtn) closeBtn.addEventListener("click", closeTeamProfile);
+
+    const squadToggle = document.getElementById("squad-view-toggle");
+    if (squadToggle) {
+      squadToggle.addEventListener("click", function (e) {
+        const btn = e.target.closest(".squad-view-btn");
+        if (!btn) return;
+        const view = btn.dataset.view;
+        squadToggle.querySelectorAll(".squad-view-btn").forEach(b => b.classList.toggle("active", b === btn));
+        const pitchEl = document.getElementById("team-modal-squad-pitch");
+        const listEl = document.getElementById("team-modal-squad");
+        if (pitchEl) pitchEl.style.display = view === "pitch" ? "" : "none";
+        if (listEl) listEl.style.display = view === "list" ? "" : "none";
+      });
+    }
 
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") closeTeamProfile();
