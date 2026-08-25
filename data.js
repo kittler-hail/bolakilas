@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-25T05:48:40.896Z.
+   API-Football v3) pada 2026-08-25T08:07:29.703Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1762,7 +1762,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/08/2026 12:48 WIB",
+    "standingsUpdated": "25/08/2026 15:07 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -1775,6 +1775,22 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "C. Palmer",
+                "photo": "https://media.api-sports.io/football/players/152982.png",
+                "team": "Chelsea",
+                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "value": 1
+            },
+            {
+                "rank": 3,
+                "name": "João Pedro",
+                "photo": "https://media.api-sports.io/football/players/10329.png",
+                "team": "Chelsea",
+                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "value": 1
+            },
+            {
+                "rank": 4,
                 "name": "J. Clarke",
                 "photo": "https://media.api-sports.io/football/players/19136.png",
                 "team": "Ipswich",
@@ -1782,7 +1798,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 3,
+                "rank": 5,
                 "name": "J. Willock",
                 "photo": "https://media.api-sports.io/football/players/1463.png",
                 "team": "Newcastle",
@@ -1790,7 +1806,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 6,
                 "name": "N. Angulo",
                 "photo": "https://media.api-sports.io/football/players/311543.png",
                 "team": "Sunderland",
@@ -1798,7 +1814,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 7,
                 "name": "S. Ajayi",
                 "photo": "https://media.api-sports.io/football/players/2769.png",
                 "team": "Hull City",
@@ -1806,7 +1822,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "name": "N. Mendy",
                 "photo": "https://media.api-sports.io/football/players/358431.png",
                 "team": "Hull City",
@@ -1814,7 +1830,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 9,
                 "name": "Emersonn",
                 "photo": "https://media.api-sports.io/football/players/321648.png",
                 "team": "Ipswich",
@@ -1822,27 +1838,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "B. Saka",
                 "photo": "https://media.api-sports.io/football/players/1460.png",
                 "team": "Arsenal",
                 "teamLogo": "https://media.api-sports.io/football/teams/42.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "A. Elanga",
-                "photo": "https://media.api-sports.io/football/players/153430.png",
-                "team": "Newcastle",
-                "teamLogo": "https://media.api-sports.io/football/teams/34.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "M. Kayode",
-                "photo": "https://media.api-sports.io/football/players/342022.png",
-                "team": "Brentford",
-                "teamLogo": "https://media.api-sports.io/football/teams/55.png",
                 "value": 1
             }
         ],
@@ -2105,6 +2105,22 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "C. Palmer",
+                "photo": "https://media.api-sports.io/football/players/152982.png",
+                "team": "Chelsea",
+                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "value": 1
+            },
+            {
+                "rank": 3,
+                "name": "João Pedro",
+                "photo": "https://media.api-sports.io/football/players/10329.png",
+                "team": "Chelsea",
+                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "value": 1
+            },
+            {
+                "rank": 4,
                 "name": "W. Osula",
                 "photo": "https://media.api-sports.io/football/players/315237.png",
                 "team": "Newcastle",
@@ -2112,7 +2128,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 3,
+                "rank": 5,
                 "name": "J. Enciso",
                 "photo": "https://media.api-sports.io/football/players/70747.png",
                 "team": "Ipswich",
@@ -2120,7 +2136,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 6,
                 "name": "Evanilson",
                 "photo": "https://media.api-sports.io/football/players/152856.png",
                 "team": "Bournemouth",
@@ -2128,7 +2144,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 7,
                 "name": "M. Sangaré",
                 "photo": "https://media.api-sports.io/football/players/277306.png",
                 "team": "Brentford",
@@ -2136,7 +2152,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "name": "R. Gravenberch",
                 "photo": "https://media.api-sports.io/football/players/542.png",
                 "team": "Liverpool",
@@ -2144,7 +2160,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 9,
                 "name": "R. Calafiori",
                 "photo": "https://media.api-sports.io/football/players/157052.png",
                 "team": "Arsenal",
@@ -2152,27 +2168,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "D. Gómez",
                 "photo": "https://media.api-sports.io/football/players/278370.png",
                 "team": "Brighton",
                 "teamLogo": "https://media.api-sports.io/football/teams/51.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "Y. Wissa",
-                "photo": "https://media.api-sports.io/football/players/20649.png",
-                "team": "Newcastle",
-                "teamLogo": "https://media.api-sports.io/football/teams/34.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "B. White",
-                "photo": "https://media.api-sports.io/football/players/19959.png",
-                "team": "Arsenal",
-                "teamLogo": "https://media.api-sports.io/football/teams/42.png",
                 "value": 1
             }
         ],
@@ -2424,6 +2424,34 @@ const siteData = {
         ]
     },
     "injuries": {
+        "fulham": [
+            {
+                "player": "J. Andersen",
+                "photo": "https://media.api-sports.io/football/players/2729.png",
+                "reason": "Red Card",
+                "since": "2026-08-24"
+            },
+            {
+                "player": "T. Cairney",
+                "photo": "https://media.api-sports.io/football/players/19025.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-24"
+            }
+        ],
+        "chelsea": [
+            {
+                "player": "W. Fofana",
+                "photo": "https://media.api-sports.io/football/players/22094.png",
+                "reason": "Red Card",
+                "since": "2026-08-24"
+            },
+            {
+                "player": "J. Henderson",
+                "photo": "https://media.api-sports.io/football/players/292.png",
+                "reason": "Wrist Injury",
+                "since": "2026-08-24"
+            }
+        ],
         "newcastle": [
             {
                 "player": "Joelinton",
@@ -2840,34 +2868,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/427.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-21"
-            }
-        ],
-        "fulham": [
-            {
-                "player": "J. Andersen",
-                "photo": "https://media.api-sports.io/football/players/2729.png",
-                "reason": "Red Card",
-                "since": "2026-08-24"
-            },
-            {
-                "player": "T. Cairney",
-                "photo": "https://media.api-sports.io/football/players/19025.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-24"
-            }
-        ],
-        "chelsea": [
-            {
-                "player": "W. Fofana",
-                "photo": "https://media.api-sports.io/football/players/22094.png",
-                "reason": "Red Card",
-                "since": "2026-08-24"
-            },
-            {
-                "player": "J. Henderson",
-                "photo": "https://media.api-sports.io/football/players/292.png",
-                "reason": "Wrist Injury",
-                "since": "2026-08-24"
             }
         ],
         "malaga": [
