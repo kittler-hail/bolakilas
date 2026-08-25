@@ -126,9 +126,11 @@ body {
   color: var(--white);
   /* Latar gelap berlapis: kisi titik halus (pattern, beda dari pola
      header) + satu bola cahaya magenta + tiga sorotan radial magenta/
-     ungu/plum sebagai lapisan dasar — inilah lapisan "neon" utama situs,
-     dipasang sekali di body supaya konsisten di semua halaman tanpa
-     perlu gambar/asset tambahan.
+     ungu/plum, semua di atas foto garis neon ungu-biru (images/bg.jpg)
+     yang diredupkan lewat scrim gelap semi-transparan (bukan foto polos
+     100% — supaya teks & kartu di atasnya tetap kontras/kebaca) — inilah
+     lapisan "neon" utama situs, dipasang sekali di body supaya konsisten
+     di semua halaman.
 
      DULU bola cahaya di atas dianimasikan mengambang pelan lewat
      background-position (lihat riwayat commit: @keyframes bgOrbDrift),
@@ -139,13 +141,16 @@ body {
      ulang blur-nya tiap frame mengikuti latar yang terus bergerak —
      diukur langsung: ~56ms/frame (macet/patah-patah, "menggantung")
      jadi ~16.6ms/frame (mulus) begitu animasi ini dihentikan. Bola
-     cahayanya tetap ada, cuma diam di tempat. */
+     cahayanya tetap ada, cuma diam di tempat — foto baru ini juga
+     TIDAK dianimasikan, alasan yang sama. */
   background:
     radial-gradient(circle 240px at 8% 12%, rgba(159,5,162,.32), transparent 70%) no-repeat,
     radial-gradient(circle, rgba(255,255,255,.05) 1px, transparent 1.6px) 0 0 / 34px 34px,
     radial-gradient(ellipse 900px 520px at 12% -8%, rgba(159,5,162,.24), transparent 60%),
     radial-gradient(ellipse 720px 520px at 105% 18%, rgba(111,84,179,.20), transparent 55%),
     radial-gradient(ellipse 820px 620px at 50% 115%, rgba(87,2,90,.28), transparent 60%),
+    linear-gradient(rgba(20,10,40,.62), rgba(20,10,40,.62)),
+    url('images/bg.jpg') center / cover no-repeat,
     var(--page-bg);
   background-attachment: fixed;
   overflow-x: hidden;
