@@ -28,6 +28,7 @@
     "jadwal": "beranda",
     "club-search-section": "beranda",
     "klasemen-section": "beranda",
+    "topstats-section": "beranda",
     "radar-section": "prediksi",
     "compare-section": "prediksi",
     "bigmatch-section": "prediksi",

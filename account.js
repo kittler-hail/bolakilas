@@ -189,6 +189,10 @@ const SUPABASE_ANON_KEY = "GANTI_DENGAN_SUPABASE_ANON_KEY";
       renderVote(data.bigMatch);
       renderGuessBlock(data.bigMatch);
     }
+    // Sapaan hero di dashboard-widgets.js ("Selamat datang, {nama}") juga
+    // bergantung status login — session Supabase baru resolve async
+    // setelah render pertama, jadi perlu di-refresh begitu selesai.
+    if (window.BKDashboard) window.BKDashboard.renderDashboard();
   }
 
   /* =========================================================
@@ -572,8 +576,16 @@ const SUPABASE_ANON_KEY = "GANTI_DENGAN_SUPABASE_ANON_KEY";
     init();
   }
 
+  // Nama tampilan pengguna yang sedang masuk (null kalau belum login) —
+  // logika sama persis dengan renderAuthSlot(), dipakai ulang oleh
+  // dashboard-widgets.js untuk sapaan "Selamat datang, {nama}" di hero.
+  function getDisplayName() {
+    if (!currentSession) return null;
+    return (currentProfile && currentProfile.username) || currentSession.user.email.split("@")[0];
+  }
+
   // Diekspos supaya script.js bisa memanggil (lihat renderBigMatchVote /
   // renderBigMatchGuess di script.js) tanpa dua file ini saling kenal duluan.
-  window.BKAccount = { isReady, renderVote, renderGuessBlock };
+  window.BKAccount = { isReady, renderVote, renderGuessBlock, getDisplayName };
 
 })();

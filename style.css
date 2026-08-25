@@ -106,6 +106,41 @@
   --dur-fast: .18s;
   --dur-base: .28s;
   --dur-slow: .5s;
+
+  --font-display: 'Spartan MB', 'Plus Jakarta Sans', sans-serif; /* judul, angka besar, label sidebar — dipakai sesuai referensi desain */
+}
+
+/* =========================================================
+   FONT — Spartan MB (Matt Bailey, fontsquirrel.com/fonts/spartan-mb)
+   Lisensi SIL Open Font License 1.1 — bebas dipakai/di-embed di web,
+   file di-hosting sendiri (self-hosted) di /fonts, bukan lewat CDN
+   pihak ketiga (Font Squirrel tidak menyediakan hosting CDN publik
+   untuk font ini).
+   ========================================================= */
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('fonts/SpartanMB-Regular.otf') format('opentype');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('fonts/SpartanMB-Medium.otf') format('opentype');
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('fonts/SpartanMB-SemiBold.otf') format('opentype');
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('fonts/SpartanMB-Bold.otf') format('opentype');
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('fonts/SpartanMB-ExtraBold.otf') format('opentype');
+  font-weight: 800; font-style: normal; font-display: swap;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -122,7 +157,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+  font-family: var(--font-display), Arial, sans-serif;
   color: var(--white);
   /* Latar gelap berlapis: kisi titik halus (pattern, beda dari pola
      header) + satu bola cahaya magenta yang perlahan mengambang
@@ -169,10 +204,21 @@ a:focus-visible, button:focus-visible, input:focus-visible,
   border-radius: 4px;
 }
 
+/* Layout dashboard: sidebar kiri tetap (lihat SIDEBAR di bawah) + kolom
+   konten utama yang mengisi sisa lebar — dulu .page LANGSUNG jadi kolom
+   konten (max-width 1080px di-center), sekarang .page jadi wrapper flex
+   2-kolom, & max-width/centering itu pindah ke .main-area. */
 .page {
-  width: min(1080px, calc(100% - 24px));
-  margin: auto;
-  padding: 18px 0 44px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+}
+.main-area {
+  flex: 1; min-width: 0;
+  width: min(1120px, calc(100% - 24px));
+  margin: 0 auto;
+  padding: 14px 0 44px;
 }
 
 /* =========================================================
@@ -242,94 +288,104 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .section:first-child::before { display: none; }
 
 /* =========================================================
-   TOPBAR
+   SIDEBAR (dulu TOPBAR horizontal — tata letak dashboard: rel
+   vertikal kiri, tinggi penuh, sticky selagi konten discroll)
    ========================================================= */
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 14px;
-  flex-wrap: nowrap;
-  gap: 12px;
-  position: sticky;
-  top: 0;
+.sidebar {
+  flex: none;
+  width: 216px;
+  position: sticky; top: 0; align-self: flex-start;
+  height: 100vh;
   z-index: 100;
-  /* Header dengan tekstur: mesh garis diagonal silang (bukan lagi pola
-     titik — pola beda dari yang dipakai di latar body) + sorotan
-     magenta radial + satu pita cahaya yang bergerak pelan menyapu dari
-     kanan ke kiri (background-position dianimasikan), semua di atas
-     gradasi indigo→ungu-tua — beberapa lapisan gradient/pola (bukan
-     gambar/asset baru) supaya kepala situs tidak terasa flat polos. */
+  display: flex; flex-direction: column;
+  padding: 20px 14px;
+  /* Gradasi & tekstur yang sama persis dengan versi topbar lama (mesh
+     garis silang + sorotan magenta + sheen kaca), cuma orientasinya
+     dibikin vertikal (135deg) supaya wajar sebagai rel tinggi. */
   background:
     var(--glass-sheen),
-    linear-gradient(100deg, transparent 35%, rgba(255,255,255,.22) 48%, transparent 62%),
     repeating-linear-gradient(45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
     repeating-linear-gradient(-45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
-    radial-gradient(ellipse 480px 220px at 88% -20%, rgba(159,5,162,.55), transparent 70%),
-    linear-gradient(115deg, rgba(62,55,177,.62), rgba(66,41,129,.62) 85%);
-  background-size: auto, 240% 100%, auto, auto, auto, auto;
+    radial-gradient(ellipse 260px 420px at 50% -10%, rgba(159,5,162,.5), transparent 65%),
+    linear-gradient(195deg, rgba(62,55,177,.66), rgba(66,41,129,.66) 85%);
   backdrop-filter: blur(28px) saturate(160%);
   -webkit-backdrop-filter: blur(28px) saturate(160%);
-  animation: topbarShine 7s ease-in-out infinite;
-  border-bottom: none;
-  /* Bayangan gelap murni (bukan lagi tinta rgba(33,26,61,..)) + garis
-     jahitan magenta tipis di tepi bawah + rim cahaya tipis di tepi atas
-     (--glass-rim) — sentuhan glow & kaca pertama yang kelihatan begitu
-     halaman dibuka. */
-  box-shadow: 0 4px 20px rgba(0,0,0,.4), 0 1px 0 rgba(159,5,162,.45), var(--glass-rim);
-  padding: 11px 16px;
-  margin-left: -12px;
-  margin-right: -12px;
-  width: calc(100% + 24px);
-}
-@keyframes topbarShine {
-  0%   { background-position: 200% 0, 0 0, 0 0, 0 0, 0 0; }
-  55%  { background-position: -60% 0, 0 0, 0 0, 0 0, 0 0; }
-  100% { background-position: -60% 0, 0 0, 0 0, 0 0, 0 0; }
+  box-shadow: 4px 0 24px rgba(0,0,0,.35), 1px 0 0 rgba(159,5,162,.35), var(--glass-rim);
 }
 
-.brand { flex: none; }
-.brand img { width: 172px; height: auto; object-fit: contain; }
-.brand-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; letter-spacing: .5px; color: var(--paper); }
+.sidebar-brand { flex: none; display: flex; justify-content: center; padding: 4px 0 22px; }
+.sidebar-brand img { width: 128px; height: auto; object-fit: contain; }
+.brand-fallback { font-family: var(--font-display); font-weight: 800; font-size: 22px; letter-spacing: .5px; color: var(--paper); }
 
-/* NAV — satu baris rapi di semua ukuran layar ≥650px (scroll horizontal
-   kalau sempit, bukan melipat jadi dua baris yang berantakan); di bawah
-   650px nav disembunyikan & digantikan dropdown hamburger (lihat RESPONSIVE). */
-/* Pill nav "kaca buram" (glassmorphic) mengambang di atas gradasi
-   topbar — item aktif dapat pil putih yang menonjol dari kaca buram
-   di sekelilingnya, jadi status halaman aktif tetap jelas kebaca. */
-.nav {
-  display: flex; gap: 2px; padding: 4px;
-  border: 1px solid rgba(255,255,255,.18); border-radius: 999px;
-  background: rgba(255,255,255,.10);
-  backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
-  flex: 0 1 auto; min-width: 0;
-  overflow-x: auto; flex-wrap: nowrap;
-  scrollbar-width: none; -ms-overflow-style: none;
+.sidebar-links { flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 4px; scrollbar-width: none; -ms-overflow-style: none; }
+.sidebar-links::-webkit-scrollbar { display: none; }
+
+/* Item nav: ikon di atas, label kecil huruf kapital di bawah — pola
+   sidebar dashboard (bukan lagi baris pill horizontal ala navbar). */
+.sidebar-link {
+  position: relative;
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+  padding: 11px 6px;
+  border-radius: 12px;
+  border: none; background: transparent; cursor: pointer;
+  color: rgba(255,255,255,.68);
+  font-family: var(--font-display); font-size: 9.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .4px;
+  transition: var(--dur-fast) var(--ease-out);
+  width: 100%;
 }
-.nav::-webkit-scrollbar { display: none; }
-.nav a { flex: none; white-space: nowrap; padding: 10px 20px; border-radius: 999px; color: rgba(255,255,255,.78); font-size: 13.5px; font-weight: 700; transition: var(--dur-fast) var(--ease-out); }
-.nav a:hover { color: #fff; background: rgba(255,255,255,.14); }
-.nav a.active { color: var(--blue); background: #fff; box-shadow: 0 3px 10px rgba(12,7,24,.35); }
+.sidebar-icon { width: 21px; height: 21px; flex: none; }
+.sidebar-link:hover { color: #fff; background: rgba(255,255,255,.10); }
+.sidebar-link.active {
+  color: #fff;
+  background: var(--glass-sheen), rgba(255,255,255,.16);
+  box-shadow: var(--glass-rim), 0 4px 16px rgba(0,0,0,.25);
+}
+/* Aksen tab magenta yang menonjol di tepi kiri item aktif — sentuhan
+   khas dashboard referensi (highlight box + tab kecil di sisi item). */
+.sidebar-link.active::before {
+  content: ""; position: absolute; left: -14px; top: 50%; transform: translateY(-50%);
+  width: 4px; height: 22px; border-radius: 0 4px 4px 0;
+  background: var(--accent); box-shadow: 0 0 10px var(--accent);
+}
+
+.sidebar-bottom { flex: none; padding-top: 10px; margin-top: 10px; border-top: 1px solid rgba(255,255,255,.14); }
+.about-open-btn--sidebar { width: 100%; }
+
+/* =========================================================
+   TOP BAR (di dalam .main-area, di samping sidebar — bukan lagi
+   full-width; search + identitas akun)
+   ========================================================= */
+.topbar-inline {
+  display: flex; align-items: center; gap: 14px;
+  margin-bottom: 14px;
+}
+.topbar-search-wrap { flex: 1; min-width: 0; margin: 0; }
+.topbar-actions { display: flex; align-items: center; gap: 8px; flex: none; }
+
+.user-chip {
+  display: flex; align-items: center; gap: 9px;
+  padding: 5px 14px 5px 8px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--glass-sheen), var(--surface-2);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
+}
+.user-avatar-icon {
+  width: 28px; height: 28px; flex: none; padding: 5px; box-sizing: border-box;
+  border-radius: 50%; background: var(--accent); color: #fff;
+}
 
 .about-open-btn { flex: none; padding: 10px 18px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: 13px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
 .about-open-btn:hover { color: var(--paper); background: var(--blue); border-color: var(--blue); }
 
-/* Duduk langsung di atas topbar (bukan di dalam pill .nav kaca
-   buram), jadi butuh warna sendiri supaya tetap kebaca. */
-.about-open-btn--topbar { color: var(--paper); border-color: rgba(255,255,255,.35); background: rgba(255,255,255,.08); }
-.about-open-btn--topbar:hover { background: var(--paper); color: var(--blue); border-color: var(--paper); }
-
-.topbar-actions { display: flex; align-items: center; gap: 8px; flex: none; }
-
-/* HAMBURGER (tampil hanya di mobile, lihat RESPONSIVE) — duduk di topbar
-   merah juga, jadi kontrasnya beda dari tombol lain yang di atas kertas. */
+/* HAMBURGER — cuma tampil di mobile (lihat RESPONSIVE), duduk di
+   topbar-inline untuk buka/tutup sidebar sebagai panel geser. */
 .nav-toggle {
   display: none;
   width: 42px; height: 42px; flex: none;
   border-radius: 4px;
-  border: 1px solid rgba(245,248,255,.4);
-  background: rgba(245,248,255,.12);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
   cursor: pointer;
   flex-direction: column; align-items: center; justify-content: center; gap: 5px;
   transition: var(--dur-fast) var(--ease-out);
@@ -339,6 +395,110 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .nav-toggle.active span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
 .nav-toggle.active span:nth-child(2) { opacity: 0; }
 .nav-toggle.active span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+/* =========================================================
+   DASHBOARD SUMMARY — hero + panel prediksi + rail kanan, tata letak
+   meniru referensi dashboard yang diberikan user (isi diadaptasi ke
+   data bola: dial "Home Status" -> peluang menang Big Match, rail
+   "Members/Pets" -> Live Sekarang & Klub Puncak Klasemen, grafik
+   "Spending" -> Top Skor). Diisi oleh dashboard-widgets.js.
+   ========================================================= */
+.dash-grid { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 16px; margin-bottom: 26px; align-items: start; }
+.dash-main { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.dash-rail { display: flex; flex-direction: column; gap: 16px; }
+
+.hero-card {
+  position: relative; overflow: hidden;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  border: 1px solid var(--line); border-radius: 20px; padding: 26px 28px;
+  background: var(--glass-sheen), linear-gradient(120deg, rgba(159,5,162,.30), rgba(66,41,129,.34) 60%, rgba(111,84,179,.28));
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: 0 10px 34px rgba(0,0,0,.28), var(--glass-rim);
+}
+.hero-card-text { min-width: 0; }
+.hero-card-text h1 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 800; font-size: 28px; letter-spacing: -.3px; color: var(--white); }
+.hero-card-text p { margin: 0 0 14px; font-size: 12.5px; color: var(--muted); max-width: 46ch; line-height: 1.6; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px 18px; font-size: 11.5px; font-weight: 700; color: var(--white); }
+.hero-card-art { flex: none; width: 96px; height: 96px; opacity: .9; }
+.hero-ball-svg { width: 100%; height: 100%; fill: none; stroke: rgba(255,255,255,.85); stroke-width: 2.2; animation: heroBallSpin 16s linear infinite; }
+.hero-ball-svg circle:first-child { fill: rgba(255,255,255,.06); }
+.hero-ball-svg path:nth-child(2) { fill: rgba(255,255,255,.18); }
+@keyframes heroBallSpin { to { transform: rotate(360deg); } }
+
+.status-panel {
+  border: 1px solid var(--line); border-radius: 20px; padding: 22px 24px;
+  background: var(--glass-sheen), var(--card-bg);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
+}
+.status-panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+.status-panel-head h2 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 17px; color: var(--white); }
+.status-panel-head span { font-size: 10.5px; color: var(--muted-dark); }
+.status-panel-link { margin-top: 16px; }
+
+.dial-row { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+.dial-block { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.dial-label { font-size: 11.5px; font-weight: 800; color: var(--white); max-width: 120px; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dial-wrap { position: relative; width: 128px; height: 128px; }
+.dial-svg { width: 100%; height: 100%; }
+.dial-track { fill: none; stroke: var(--meter-track); stroke-width: 11; }
+.dial-arc { fill: none; stroke-width: 11; stroke-linecap: round; stroke-dasharray: 364.4; stroke-dashoffset: 364.4; transition: stroke-dashoffset .8s var(--ease-out); }
+.dial-arc--home { stroke: var(--blue-light); filter: drop-shadow(0 0 6px rgba(111,84,179,.6)); }
+.dial-arc--away { stroke: var(--accent); filter: drop-shadow(0 0 6px rgba(159,5,162,.6)); }
+.dial-center { position: absolute; inset: 0; display: grid; place-items: center; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 21px; color: var(--white); }
+.dial-caption { font-size: 9.5px; color: var(--muted-dark); text-transform: uppercase; letter-spacing: .4px; }
+
+.status-chip-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.status-chip {
+  flex: 1; min-width: 140px; display: flex; align-items: center; gap: 11px;
+  border: 1px solid var(--line); border-radius: 14px; padding: 13px 15px;
+  background: var(--glass-sheen), var(--surface-2);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
+}
+.status-chip-icon { flex: none; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; color: #fff; }
+.status-chip-icon svg { width: 18px; height: 18px; }
+.status-chip-num { font-family: 'Space Mono', monospace; font-weight: 700; font-size: 17px; color: var(--white); line-height: 1.15; }
+.status-chip-label { font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
+
+.rail-card {
+  border: 1px solid var(--line); border-radius: 16px; padding: 16px 17px;
+  background: var(--glass-sheen), var(--card-bg);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
+}
+.rail-card-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 13px; }
+.rail-card-head h3 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 13px; color: var(--white); }
+.rail-card-edit { font-size: 10.5px; color: var(--muted-dark); font-weight: 700; }
+a.rail-card-edit:hover { color: var(--accent); }
+
+.rail-avatar-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.rail-avatar-item { display: flex; flex-direction: column; align-items: center; gap: 5px; width: 54px; }
+.rail-avatar-badge { position: relative; width: 42px; height: 42px; border-radius: 50%; background: var(--surface-2); border: 1px solid var(--line-bright); display: grid; place-items: center; overflow: hidden; }
+.rail-avatar-badge img { width: 30px; height: 30px; object-fit: contain; }
+.rail-avatar-badge .live-dot-small { position: absolute; top: -1px; right: -1px; }
+.rail-avatar-name { font-size: 8.5px; font-weight: 700; color: var(--muted); text-align: center; max-width: 54px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rail-empty-note { font-size: 10.5px; color: var(--muted-dark); }
+
+.rail-chart { display: flex; align-items: flex-end; gap: 10px; height: 110px; padding-top: 6px; }
+.rail-chart-bar { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; height: 100%; }
+.rail-chart-bar-fill { width: 100%; max-width: 22px; border-radius: 5px 5px 2px 2px; background: linear-gradient(180deg, var(--accent), var(--blue-light)); box-shadow: var(--glass-rim); min-height: 4px; }
+.rail-chart-bar-label { font-size: 8px; color: var(--muted-dark); text-align: center; line-height: 1.3; }
+.rail-chart-bar-val { font-family: 'Space Mono', monospace; font-size: 9px; color: var(--white); font-weight: 700; }
+
+@media (max-width: 950px) {
+  .dash-grid { grid-template-columns: 1fr; }
+  .dash-rail { flex-direction: row; overflow-x: auto; }
+  .dash-rail .rail-card { flex: 1; min-width: 220px; }
+}
+@media (max-width: 650px) {
+  .hero-card { flex-direction: column; text-align: center; padding: 22px 20px; }
+  .hero-card-text p { max-width: none; }
+  .hero-meta { justify-content: center; }
+  .dial-row { gap: 24px; }
+  .dial-wrap { width: 108px; height: 108px; }
+  .dash-rail { flex-direction: column; }
+}
 
 /* =========================================================
    STATS BAR
@@ -367,7 +527,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
    ========================================================= */
 .section-title { display: flex; justify-content: space-between; align-items: end; margin: 26px 2px 16px; flex-wrap: wrap; gap: 8px; }
 .section-title h2 {
-  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 21px; margin: 0;
+  font-family: var(--font-display); font-weight: 800; font-size: 21px; margin: 0;
   letter-spacing: -.3px; color: var(--white);
   display: flex; align-items: center; gap: 10px;
 }
@@ -405,7 +565,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   box-shadow: var(--glass-rim);
 }
 .radar-card:hover { transform: translateY(-3px); border-color: var(--line-bright); border-left-color: var(--accent); box-shadow: 0 8px 24px rgba(159,5,162,.20), var(--glass-rim); }
-.radar-rank { position: absolute; top: 11px; right: 13px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: rgba(255,255,255,.10); }
+.radar-rank { position: absolute; top: 11px; right: 13px; font-family: var(--font-display); font-weight: 800; font-size: 20px; color: rgba(255,255,255,.10); }
 .radar-league { font-size: 9.5px; color: var(--muted); font-weight: 800; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 9px; }
 .radar-teams { font-size: 13px; font-weight: 800; margin-bottom: 11px; line-height: 1.5; }
 .radar-teams .vs-small { color: var(--muted); font-weight: 500; font-size: 10.5px; }
@@ -442,7 +602,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .bm-logo-wrap img { width: 74px; height: 74px; object-fit: contain; }
 .bm-team-name { font-weight: 800; font-size: 14px; text-align: center; color: var(--white); }
 .bm-vs {
-  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: #fff;
+  font-family: var(--font-display); font-weight: 800; font-size: 15px; color: #fff;
   min-width: 44px; height: 44px; padding: 0 6px; flex: none; border-radius: 999px;
   background: linear-gradient(135deg, var(--blue-light), var(--accent));
   display: grid; place-items: center;
@@ -534,7 +694,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 /* =========================================================
    LOGO FALLBACK
    ========================================================= */
-.logo-fallback { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: var(--white); text-align: center; }
+.logo-fallback { font-family: var(--font-display); font-weight: 800; color: var(--white); text-align: center; }
 .bm-logo-wrap.logo-fallback { font-size: 22px; }
 .mc-badge.logo-fallback { font-size: 10px; font-weight: 800; }
 
@@ -549,7 +709,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   background: var(--glass-sheen), var(--search-bg); color: var(--white);
   backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
   box-shadow: var(--glass-rim);
-  font-size: 13px; font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13px; font-family: var(--font-display);
   outline: none; transition: var(--dur-fast) var(--ease-out);
 }
 .search-input::placeholder { color: var(--muted); }
@@ -886,22 +1046,24 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 }
 
 @media (max-width: 650px) {
-  .page { padding-top: 6px; }
-  .topbar { padding: 8px 14px; }
-  .brand img { width: 140px; }
+  .main-area { padding-top: 6px; }
   .nav-toggle { display: flex; }
-  .about-open-btn--topbar { display: none; } /* teaser di halaman Beranda sudah jadi jalan masuknya di layar sempit */
-  .nav {
-    position: absolute; top: 100%; left: 10px; right: 10px; margin-top: 8px;
-    flex-direction: column; align-items: stretch; flex-wrap: nowrap;
-    max-width: none; overflow: hidden; overflow-y: auto;
-    max-height: 0; padding: 0 8px; opacity: 0; pointer-events: none;
-    background: var(--cbox-bg); border: 1px solid var(--line-bright); border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.5);
-    transition: max-height .3s ease, opacity .2s ease, padding .3s ease;
+  /* Sidebar jadi panel geser dari kiri (off-canvas) di layar sempit —
+     dulu .nav adalah dropdown yang jatuh dari atas topbar; sekarang
+     .sidebar (yang juga #site-nav & class .nav, lihat index.html) yang
+     digeser masuk/keluar, dikendalikan class .open yang sama persis
+     (initMobileNav() di script.js tidak diubah). */
+  .sidebar {
+    position: fixed; inset: 0 auto 0 0; height: 100vh;
+    width: 80vw; max-width: 300px;
+    transform: translateX(-100%); opacity: 0; pointer-events: none;
+    transition: transform .3s ease, opacity .2s ease;
+    z-index: 300;
+    box-shadow: 8px 0 40px rgba(0,0,0,.5);
   }
-  .nav.open { max-height: 70vh; padding: 8px; opacity: 1; pointer-events: auto; }
-  .nav a { padding: 14px 16px; border-radius: 4px; font-size: 15px; }
+  .sidebar.open { transform: translateX(0); opacity: 1; pointer-events: auto; }
+  .sidebar-link { flex-direction: row; justify-content: flex-start; gap: 12px; padding: 13px 12px; font-size: 12.5px; }
+  .sidebar-link.active::before { left: -14px; }
   .grid { grid-template-columns: 1fr; }
   .schedule-scroll { max-height: 540px; }
   .bm-teams { gap: 12px; }
@@ -967,7 +1129,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .auth-tab { padding: 7px 16px; border-radius: 3px; border: none; background: transparent; color: var(--muted); font-size: 11.5px; font-weight: 800; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
 .auth-tab.active { background: var(--accent); color: #fff; }
 
-.auth-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 19px; margin: 0 0 4px; color: var(--white); }
+.auth-modal-title { font-family: var(--font-display); font-weight: 800; font-size: 19px; margin: 0 0 4px; color: var(--white); }
 .auth-modal-sub { font-size: 11.5px; color: var(--muted); margin: 0 0 16px; }
 
 .auth-msg { font-size: 11px; font-weight: 700; margin-bottom: 10px; min-height: 0; }
@@ -980,7 +1142,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .auth-input {
   padding: 11px 13px; border-radius: 4px; border: 1px solid var(--line);
   background: var(--search-bg); color: var(--white); font-size: 13px;
-  font-family: 'Plus Jakarta Sans', sans-serif; outline: none; transition: var(--dur-fast) var(--ease-out);
+  font-family: var(--font-display); outline: none; transition: var(--dur-fast) var(--ease-out);
 }
 .auth-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(159,5,162,.25); }
 .auth-submit {
@@ -1104,7 +1266,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .about-modal-hero { text-align: center; margin-bottom: 16px; }
 .about-modal-badge { width: 52px; height: 52px; margin: 0 auto 10px; border-radius: 50%; display: grid; place-items: center; background: var(--probability-bg); border: 1px solid var(--line-bright); font-size: 24px; overflow: hidden; }
 .about-modal-badge img { width: 40px; height: 40px; object-fit: contain; }
-.about-modal-title { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 22px; margin: 0 0 4px; letter-spacing: .5px; color: var(--white); }
+.about-modal-title { font-family: var(--font-display); font-weight: 800; font-size: 22px; margin: 0 0 4px; letter-spacing: .5px; color: var(--white); }
 .about-modal-tagline { font-size: 11.5px; color: var(--muted); margin: 0; }
 
 .about-modal-lead { font-size: 12px; color: var(--muted); line-height: 1.7; margin: 0 0 18px; }
@@ -1149,9 +1311,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .team-modal-close:hover { color: var(--white); border-color: var(--accent); }
 
 .team-modal-header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; padding-right: 30px; }
-.team-modal-badge { width: 56px; height: 56px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 13px; flex: none; }
+.team-modal-badge { width: 56px; height: 56px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: var(--font-display); font-weight: 800; font-size: 13px; flex: none; }
 .team-modal-badge img { width: 40px; height: 40px; object-fit: contain; }
-.team-modal-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 18px; margin: 0; line-height: 1.3; color: var(--white); }
+.team-modal-name { font-family: var(--font-display); font-weight: 800; font-size: 18px; margin: 0; line-height: 1.3; color: var(--white); }
 
 .team-modal-section { margin-bottom: 16px; }
 .team-modal-section-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); margin-bottom: 8px; }
@@ -1204,7 +1366,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .team-pitch-avatar { position: relative; width: 34px; height: 34px; }
 .team-pitch-photo { width: 100%; height: 100%; border-radius: 50%; background: var(--surface-2); border: 2px solid rgba(255,255,255,.75); overflow: hidden; display: grid; place-items: center; box-shadow: 0 2px 6px rgba(0,0,0,.35); }
 .team-pitch-photo img { width: 100%; height: 100%; object-fit: cover; }
-.team-pitch-initials { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 10px; color: var(--white); }
+.team-pitch-initials { font-family: var(--font-display); font-weight: 800; font-size: 10px; color: var(--white); }
 .team-pitch-number { position: absolute; right: -4px; bottom: -4px; min-width: 15px; height: 15px; padding: 0 3px; border-radius: 999px; background: var(--accent); color: #fff; font-family: 'Space Mono', monospace; font-size: 8.5px; font-weight: 800; display: grid; place-items: center; border: 1.5px solid var(--surface-2); }
 .team-pitch-name { font-size: 8.5px; font-weight: 700; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.65); text-align: center; line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 58px; }
 .team-pitch-note { margin-top: 8px; font-size: 9.5px; color: var(--muted-dark); line-height: 1.5; }
@@ -1258,12 +1420,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .compare-picker-field { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .compare-picker-field label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); }
 .compare-input { padding: 10px 13px; }
-.compare-vs-label { flex: none; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 15px; color: var(--white); padding-bottom: 10px; }
+.compare-vs-label { flex: none; font-family: var(--font-display); font-weight: 800; font-size: 15px; color: var(--white); padding-bottom: 10px; }
 .compare-submit-btn { max-width: 240px; }
 
 .compare-teams-row { display: flex; align-items: stretch; gap: 12px; margin: 18px 0 14px; }
 .compare-team-card { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 16px 12px; background: var(--glass-sheen), var(--probability-bg); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); box-shadow: var(--glass-rim); }
-.compare-team-card .compare-team-logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 11px; }
+.compare-team-card .compare-team-logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: var(--font-display); font-weight: 800; font-size: 11px; }
 .compare-team-card .compare-team-logo img { width: 32px; height: 32px; object-fit: contain; }
 .compare-team-name { font-weight: 800; font-size: 12.5px; line-height: 1.3; }
 .compare-team-standing { font-size: 10px; color: var(--muted); }
@@ -1299,7 +1461,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
   box-shadow: var(--glass-rim);
   cursor: pointer; text-align: left;
-  font-family: 'Plus Jakarta Sans', sans-serif; color: var(--white);
+  font-family: var(--font-display); color: var(--white);
   transition: border-color .15s, background .15s;
 }
 .club-search-item:hover { border-color: var(--accent); background: var(--glass-sheen), var(--probability-bg); }
