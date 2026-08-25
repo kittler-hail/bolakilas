@@ -3,7 +3,7 @@
   "home": "Bodo/Glimt",
   "away": "NEC Nijmegen",
   "statusCode": "FT",
-  "updatedAt": "26/08/2026 03:59 WIB",
+  "updatedAt": "26/08/2026 04:58 WIB",
   "statistics": {
     "home": {
       "possession": 79,
@@ -13,7 +13,12 @@
       "fouls": 10,
       "offsides": 1,
       "yellowCards": 0,
-      "redCards": 0
+      "redCards": 0,
+      "shotsInsidebox": 14,
+      "shotsOutsidebox": 7,
+      "passesTotal": 765,
+      "passesAccurate": 694,
+      "passesPct": 91
     },
     "away": {
       "possession": 21,
@@ -23,7 +28,12 @@
       "fouls": 8,
       "offsides": 3,
       "yellowCards": 2,
-      "redCards": 1
+      "redCards": 1,
+      "shotsInsidebox": 1,
+      "shotsOutsidebox": 2,
+      "passesTotal": 189,
+      "passesAccurate": 116,
+      "passesPct": 61
     }
   },
   "lineups": {
@@ -35,37 +45,37 @@
           "number": 12,
           "name": "Nikita Haikin",
           "position": "Kiper",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 20,
           "name": "Fredrik Sjøvold",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "7.7"
         },
         {
           "number": 2,
           "name": "Villads Nielsen",
           "position": "Bek",
-          "rating": "8.3"
+          "rating": "8.6"
         },
         {
           "number": 4,
           "name": "Odin Luras Bjørtuft",
           "position": "Bek",
-          "rating": "8.6"
+          "rating": "8.9"
         },
         {
           "number": 15,
           "name": "Fredrik André Bjørkan",
           "position": "Bek",
-          "rating": "8.0"
+          "rating": "8.3"
         },
         {
           "number": 8,
           "name": "Sondre Auklend",
           "position": "Gelandang",
-          "rating": "8.3"
+          "rating": "8.7"
         },
         {
           "number": 7,
@@ -77,7 +87,7 @@
           "number": 19,
           "name": "Sondre Fet",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.3"
         },
         {
           "number": 11,
@@ -113,13 +123,13 @@
           "number": 25,
           "name": "Isak Dybvik Määttä",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 14,
           "name": "Ulrik Saltnes",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 22,
@@ -130,7 +140,7 @@
           "number": 32,
           "name": "Kasper Solhaug",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 16,
@@ -195,7 +205,7 @@
           "number": 20,
           "name": "Noé Lebreton",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 10,
@@ -259,7 +269,7 @@
           "number": 8,
           "name": "Isak Hansen Aarøen",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 11,
