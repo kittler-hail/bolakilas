@@ -3,9 +3,256 @@
   "home": "Sabah FA",
   "away": "Hapoel Beer Sheva",
   "statusCode": "NS",
-  "updatedAt": "25/08/2026 21:30 WIB",
+  "updatedAt": "25/08/2026 23:20 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Valdas Dambrauskas",
+      "startXI": [
+        {
+          "number": 92,
+          "name": "Stas Pokatilov",
+          "position": "Kiper"
+        },
+        {
+          "number": 80,
+          "name": "Akim Zedadka",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Steve Solvet",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Rahman Dashdamirov",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "Tymoteusz Puchacz",
+          "position": "Bek"
+        },
+        {
+          "number": 7,
+          "name": "Umarali Rakhmonaliev",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "Ivan Lepinjica",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Kaheem Parris",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "Veljko Simić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Christian Nwachukwu",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "Joy Lance Mickels",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "Amin Ramazanov",
+          "position": "Kiper"
+        },
+        {
+          "number": 94,
+          "name": "Ravan Mirzammadov",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "Aden McCarthy",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Tellur Mutallimov",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "Júnior Almeida",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Abdulakh Khaybulaev",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "Rauf Rustamli",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Aleksey Isayev",
+          "position": "Gelandang"
+        },
+        {
+          "number": 34,
+          "name": "Xander Severina",
+          "position": "Gelandang"
+        },
+        {
+          "number": 88,
+          "name": "Rodrigo Fernandes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "Younes Lachaab",
+          "position": "Penyerang"
+        },
+        {
+          "number": 99,
+          "name": "Patrick Orphe M'Bina",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "coach": "Ran Kozuch",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Ofir Marciano",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Guy Mizrahi",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Miguel Vítor",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "Itay Rotman",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Pedro Amador",
+          "position": "Bek"
+        },
+        {
+          "number": 28,
+          "name": "Niv Yehoshua",
+          "position": "Gelandang"
+        },
+        {
+          "number": 25,
+          "name": "Lucas Ventura",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Eliel Peretz",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "Javon East",
+          "position": "Penyerang"
+        },
+        {
+          "number": 66,
+          "name": "Igor Zlatanović",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Zahi Ahmed",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 34,
+          "name": "Marco Wolff",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "Matan Baltaxa",
+          "position": "Bek"
+        },
+        {
+          "number": 13,
+          "name": "Ofir Davidzada",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "Djibril Diop",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Roy Levy",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "Yoni Stoyanov",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Hamode Kanaan",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "Amir Chaim Ganah",
+          "position": "Penyerang"
+        },
+        {
+          "number": 14,
+          "name": "Yonas Malede",
+          "position": "Penyerang"
+        },
+        {
+          "number": 19,
+          "name": "Amit Ohana",
+          "position": "Penyerang"
+        },
+        {
+          "number": 45,
+          "name": "Mohamad Abu Rumi",
+          "position": "Penyerang"
+        },
+        {
+          "number": 70,
+          "name": "João Victor",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Tofiq Bahramov Stadium",
     "city": "Baku",
