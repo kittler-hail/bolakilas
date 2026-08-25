@@ -47,12 +47,24 @@
   --blue-deep: #57025A;   /* plum tua — sorotan latar paling gelap */
   --accent: #9F05A2;      /* magenta — aksen istimewa: live dot, Big Match, glow border */
   --black: #0C0718;
-  --line: rgba(111,84,179,.35);       /* border kaca ungu-muda — dulu garis tinta gelap, sekarang garis "menyala" tipis */
-  --line-bright: rgba(111,84,179,.55);
+  --line: rgba(214,201,255,.30);      /* tepi kaca — dulu ungu solid, sekarang dicerahkan ke arah putih supaya kebaca sebagai rim cahaya kaca (liquid glass), bukan garis tinta */
+  --line-bright: rgba(224,214,255,.55);
   --shadow: rgba(0,0,0,.45);          /* shadow gelap murni — dipakai terbatas, kebanyakan elevasi sekarang pakai glow warna (lihat rule masing-masing) */
-  --card-bg: rgba(66,41,129,.30);     /* kartu "kaca" ungu-tua tembus pandang, bukan putih solid lagi */
+  --card-bg: rgba(66,41,129,.24);     /* kartu "kaca" ungu-tua tembus pandang — dibuat lebih bening dari v7 (v8 liquid glass) supaya latar di baliknya lebih kelihatan */
   --page-bg: #140A28;                 /* latar dasar — ungu-hitam pekat */
   --grid-line: rgba(255,255,255,.04);
+
+  /* ---------- LIQUID GLASS (v8) ----------
+     Sorotan cahaya tipis di tepi ATAS tiap permukaan kaca (mensimulasikan
+     cahaya yang jatuh di tepi bubble kaca, ciri khas Apple OS 26 "Liquid
+     Glass") + lapisan gradasi sheen dari atas — dipasang lewat box-shadow
+     inset & background layer TAMBAHAN pada rule masing-masing komponen,
+     BUKAN lewat pseudo-element (supaya tidak perlu urus stacking/z-index
+     baru di puluhan komponen berbeda — background layer & inset shadow
+     otomatis selalu di BELAKANG/tepi konten, aman dari tumpang tindih). */
+  --glass-sheen: linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,0) 45%);
+  --glass-rim: inset 0 1px 0 rgba(255,255,255,.30);
+  --glass-shadow: 0 14px 40px rgba(8,3,20,.40);
 
   /* ---------- elemen dengan nilai tetap ---------- */
   --surface-1: rgba(111,84,179,.10);
@@ -60,20 +72,21 @@
   --header-bg: #3E37B1; /* indigo solid — dipakai sebagai background-color fallback di .topbar, HARUS warna polos (bukan gradient), lihat pemakaiannya */
   --ticker-bg: rgba(66,41,129,.30);
   --hero-bg: rgba(66,41,129,.30);
-  --bigmatch-bg: #1B0F3D;
+  --bigmatch-bg: rgba(27,15,61,.55); /* dulu solid #1B0F3D */
   --bigmatch-overlay: linear-gradient(90deg, rgba(20,10,40,.95), rgba(20,10,40,.5), rgba(20,10,40,.95));
   --stats-bg: rgba(66,41,129,.30);
   --footer-bg: #180E33;
-  --cbox-bg: #1E1240;
+  --cbox-bg: rgba(30,18,64,.55);       /* dulu solid #1E1240 — dibuat tembus pandang untuk liquid glass (v8) */
   --hero-side-bg: rgba(66,41,129,.30);
-  --search-bg: #1E1240;
-  --filter-bg: #1E1240;
+  --search-bg: rgba(30,18,64,.55);     /* dulu solid #1E1240 */
+  --filter-bg: rgba(30,18,64,.55);     /* dulu solid #1E1240 */
   --probability-bg: rgba(111,84,179,.14);
+  --glass-blur: blur(24px) saturate(160%);
   --toast-bg: #211A3D;
   --toast-color: #F5F8FF;
   --meter-track: rgba(255,255,255,.10);
   --meter-away: #6F54B3;
-  --scroll-bg: #1E1240;
+  --scroll-bg: rgba(30,18,64,.55); /* dulu solid #1E1240 */
   --win: #7B74DB;  /* indigo dicerahkan dari --blue supaya tetap kebaca sebagai TEKS langsung di atas kartu gelap (bukan cuma sebagai bg badge) */
   --draw-c: #ABABAC; /* abu dicerahkan dari #8C8C8D, alasan sama seperti --win */
   --lose: #FF7A5C;  /* rust dicerahkan dari #B64531, alasan sama seperti --win */
@@ -248,18 +261,22 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
      gradasi indigo→ungu-tua — beberapa lapisan gradient/pola (bukan
      gambar/asset baru) supaya kepala situs tidak terasa flat polos. */
   background:
+    var(--glass-sheen),
     linear-gradient(100deg, transparent 35%, rgba(255,255,255,.22) 48%, transparent 62%),
     repeating-linear-gradient(45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
     repeating-linear-gradient(-45deg, rgba(255,255,255,.06) 0 1px, transparent 1px 18px),
     radial-gradient(ellipse 480px 220px at 88% -20%, rgba(159,5,162,.55), transparent 70%),
-    linear-gradient(115deg, var(--blue), var(--blue-dark) 85%);
-  background-size: 240% 100%, auto, auto, auto, auto;
+    linear-gradient(115deg, rgba(62,55,177,.62), rgba(66,41,129,.62) 85%);
+  background-size: auto, 240% 100%, auto, auto, auto, auto;
+  backdrop-filter: blur(28px) saturate(160%);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
   animation: topbarShine 7s ease-in-out infinite;
   border-bottom: none;
   /* Bayangan gelap murni (bukan lagi tinta rgba(33,26,61,..)) + garis
-     jahitan magenta tipis di tepi bawah — sentuhan glow pertama yang
-     kelihatan begitu halaman dibuka. */
-  box-shadow: 0 4px 20px rgba(0,0,0,.4), 0 1px 0 rgba(159,5,162,.45);
+     jahitan magenta tipis di tepi bawah + rim cahaya tipis di tepi atas
+     (--glass-rim) — sentuhan glow & kaca pertama yang kelihatan begitu
+     halaman dibuka. */
+  box-shadow: 0 4px 20px rgba(0,0,0,.4), 0 1px 0 rgba(159,5,162,.45), var(--glass-rim);
   padding: 11px 16px;
   margin-left: -12px;
   margin-right: -12px;
@@ -285,7 +302,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   display: flex; gap: 2px; padding: 4px;
   border: 1px solid rgba(255,255,255,.18); border-radius: 999px;
   background: rgba(255,255,255,.10);
-  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
   flex: 0 1 auto; min-width: 0;
   overflow-x: auto; flex-wrap: nowrap;
   scrollbar-width: none; -ms-overflow-style: none;
@@ -335,9 +352,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   padding: 12px 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: var(--stats-bg);
-  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
-  box-shadow: 0 8px 24px rgba(159,5,162,.10);
+  background: var(--glass-sheen), var(--stats-bg);
+  backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
+  box-shadow: 0 8px 24px rgba(159,5,162,.10), var(--glass-rim);
   flex-wrap: wrap;
 }
 .stat-item { display: flex; flex-direction: column; align-items: center; padding: 0 20px; }
@@ -367,7 +384,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 /* =========================================================
    TICKER  (kini menampilkan headline berita, dipelankan)
    ========================================================= */
-.ticker { margin: 14px 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--ticker-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.ticker { margin: 14px 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--glass-sheen), var(--ticker-bg); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%); box-shadow: var(--glass-rim); }
 .ticker-track { display: flex; width: max-content; animation: scroll 110s linear infinite; }
 .ticker-track:hover { animation-play-state: paused; }
 .ticker-item { display: flex; align-items: center; gap: 9px; padding: 10px 22px; font-size: 11.5px; font-weight: 700; color: var(--white); white-space: nowrap; border-right: 1px solid var(--line); }
@@ -382,11 +399,12 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .radar-card {
   position: relative; overflow: hidden;
   border: 1px solid var(--line); border-radius: 10px; padding: 15px;
-  background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  background: var(--glass-sheen), var(--card-bg); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
   transition: var(--dur-fast) var(--ease-out);
   border-left: 3px solid var(--accent);
+  box-shadow: var(--glass-rim);
 }
-.radar-card:hover { transform: translateY(-3px); border-color: var(--line-bright); border-left-color: var(--accent); box-shadow: 0 8px 24px rgba(159,5,162,.20); }
+.radar-card:hover { transform: translateY(-3px); border-color: var(--line-bright); border-left-color: var(--accent); box-shadow: 0 8px 24px rgba(159,5,162,.20), var(--glass-rim); }
 .radar-rank { position: absolute; top: 11px; right: 13px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 20px; color: rgba(255,255,255,.10); }
 .radar-league { font-size: 9.5px; color: var(--muted); font-weight: 800; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 9px; }
 .radar-teams { font-size: 13px; font-weight: 800; margin-bottom: 11px; line-height: 1.5; }
@@ -403,9 +421,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .bigmatch {
   position: relative; overflow: hidden;
   border: 1px solid var(--line); border-radius: 24px; padding: 32px;
-  min-height: 380px; background-color: var(--bigmatch-bg); background-size: cover; background-position: center;
-  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-  box-shadow: 0 20px 60px rgba(159,5,162,.22), 0 4px 20px rgba(0,0,0,.35);
+  min-height: 380px; background-color: var(--bigmatch-bg); background-image: var(--glass-sheen); background-size: cover; background-position: center;
+  backdrop-filter: blur(28px) saturate(160%); -webkit-backdrop-filter: blur(28px) saturate(160%);
+  box-shadow: 0 20px 60px rgba(159,5,162,.22), 0 4px 20px rgba(0,0,0,.35), var(--glass-rim);
 }
 /* Pita gradasi tipis di puncak kartu — satu-satunya sentuhan "border"
    yang tersisa, dipakai sebagai aksen bukan bingkai penuh. */
@@ -462,7 +480,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .bm-pitch-toggle { margin-top: 0; }
 .bm-pitch-live-tag { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 3px; background: var(--accent); color: #fff; font-size: 8px; letter-spacing: .5px; vertical-align: middle; }
 .bm-pitch-block .collapse-panel { background: var(--probability-bg); border: 1px solid var(--line); border-radius: 10px; padding: 13px; }
-.bm-pitch { position: relative; width: 100%; aspect-ratio: 300 / 180; border-radius: 10px; overflow: hidden; background: linear-gradient(180deg, #2b5e35, #244f2c); }
+.bm-pitch { position: relative; width: 100%; aspect-ratio: 300 / 180; border-radius: 10px; overflow: hidden; background: linear-gradient(180deg, #2b5e35, #244f2c); box-shadow: var(--glass-rim), 0 10px 30px rgba(0,0,0,.3); }
 .bm-pitch-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 .bm-pitch-outline { fill: none; stroke: rgba(255,255,255,.35); stroke-width: 1.4; }
 .bm-pitch-ball { position: absolute; top: 50%; left: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.18), 0 2px 6px rgba(0,0,0,.35); display: grid; place-items: center; font-size: 10px; font-weight: 900; color: var(--blue); transition: left 1.1s cubic-bezier(.4,0,.2,1); animation: bm-ball-bob 1.6s ease-in-out infinite; }
@@ -528,7 +546,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .search-input {
   width: 100%; padding: 13px 18px 13px 64px;
   border: 1px solid var(--line); border-radius: 999px;
-  background: var(--search-bg); color: var(--white);
+  background: var(--glass-sheen), var(--search-bg); color: var(--white);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
   font-size: 13px; font-family: 'Plus Jakarta Sans', sans-serif;
   outline: none; transition: var(--dur-fast) var(--ease-out);
 }
@@ -553,13 +573,13 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   scrollbar-width: none; -ms-overflow-style: none;
 }
 .filters::-webkit-scrollbar { display: none; }
-.filter-btn { flex: none; scroll-snap-align: start; white-space: nowrap; padding: 9px 17px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
-.filter-btn:hover { color: var(--white); background: rgba(111,84,179,.24); border-color: var(--line-bright); }
+.filter-btn { flex: none; scroll-snap-align: start; white-space: nowrap; padding: 9px 17px; border-radius: 999px; border: 1px solid var(--line); background: var(--glass-sheen), var(--surface-2); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); box-shadow: var(--glass-rim); color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.filter-btn:hover { color: var(--white); background: var(--glass-sheen), rgba(111,84,179,.24); border-color: var(--line-bright); }
 .filter-btn.active {
   background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,.35) 48%, transparent 66%), var(--accent);
   background-size: 250% 100%, 100% 100%;
   background-position: 150% 0, 0 0;
-  color: #fff; border-color: var(--accent); box-shadow: 0 4px 16px rgba(159,5,162,.45);
+  color: #fff; border-color: var(--accent); box-shadow: 0 4px 16px rgba(159,5,162,.45), var(--glass-rim);
 }
 .filter-btn.active:hover { background-position: -50% 0, 0 0; }
 .filter-btn.status-btn { font-size: 10px; padding: 8px 14px; }
@@ -589,16 +609,16 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .match-card {
   position: relative; overflow: hidden;
   border: 1px solid var(--line); border-radius: 16px; padding: 18px;
-  background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  background: var(--glass-sheen), var(--card-bg); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
   transition: var(--dur-base) var(--ease-out);
-  box-shadow: 0 4px 20px rgba(0,0,0,.3);
+  box-shadow: 0 4px 20px rgba(0,0,0,.3), var(--glass-rim);
 }
-.match-card:hover { transform: translateY(-3px); border-color: var(--line-bright); box-shadow: 0 16px 36px rgba(159,5,162,.18); }
+.match-card:hover { transform: translateY(-3px); border-color: var(--line-bright); box-shadow: 0 16px 36px rgba(159,5,162,.18), var(--glass-rim); }
 
 /* BIG MATCH highlight — dikasih warna magenta (--accent) supaya kartu
    yang paling penting hari ini langsung menonjol dari kartu lain. */
-.match-card--big { background: linear-gradient(165deg, rgba(159,5,162,.20), var(--card-bg) 60%); border-color: rgba(159,5,162,.4); box-shadow: 0 1px 2px rgba(159,5,162,.15), 0 6px 26px rgba(159,5,162,.18); }
-.match-card--big:hover { box-shadow: 0 16px 40px rgba(159,5,162,.30); }
+.match-card--big { background: var(--glass-sheen), linear-gradient(165deg, rgba(159,5,162,.20), var(--card-bg) 60%); border-color: rgba(159,5,162,.4); box-shadow: 0 1px 2px rgba(159,5,162,.15), 0 6px 26px rgba(159,5,162,.18), var(--glass-rim); }
+.match-card--big:hover { box-shadow: 0 16px 40px rgba(159,5,162,.30), var(--glass-rim); }
 .mc-big-badge {
   position: absolute; top: 14px; right: 14px; z-index: 2;
   font-size: 8.5px; font-weight: 800; color: #fff; letter-spacing: .4px; text-transform: uppercase;
@@ -702,7 +722,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 /* =========================================================
    KLASEMEN LIGA
    ========================================================= */
-.standings-wrap { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.standings-wrap { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--glass-sheen), var(--card-bg); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%); box-shadow: var(--glass-rim); }
 .standings-table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
 .standings-table thead th { text-align: left; font-size: 9px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted-dark); font-weight: 800; padding: 10px 10px; border-bottom: 1px solid var(--line); background: rgba(111,84,179,.16); }
 .standings-table th.num, .standings-table td.num { text-align: center; width: 34px; }
@@ -743,7 +763,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
    REKAM JEJAK PREDIKSI
    ========================================================= */
 .track-summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 14px; }
-.track-stat { border: 1px solid var(--line); border-radius: 10px; padding: 13px 8px; text-align: center; background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.track-stat { border: 1px solid var(--line); border-radius: 10px; padding: 13px 8px; text-align: center; background: var(--card-bg); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%); }
 .track-stat .tnum { font-family: 'Space Mono', monospace; font-size: 18px; font-weight: 700; color: var(--white); display: block; }
 .track-stat .tlabel { font-size: 8.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; margin-top: 4px; display: block; }
 .track-list { display: flex; flex-direction: column; gap: 8px; }
@@ -761,7 +781,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .news-card {
   display: block; border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
-  background: var(--card-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  background: var(--card-bg); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
   transition: var(--dur-base) var(--ease-out);
   text-decoration: none; color: inherit;
   box-shadow: 0 4px 20px rgba(0,0,0,.3);
@@ -827,7 +847,9 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
   position: fixed; bottom: 22px; right: 22px; z-index: 200;
   width: 40px; height: 40px; border-radius: 5px;
   border: 1px solid var(--line);
-  background: var(--scroll-bg);
+  background: var(--glass-sheen), var(--scroll-bg);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
   color: var(--white); font-size: 17px; cursor: pointer;
   opacity: 0; transform: translateY(12px);
   transition: opacity .3s, transform .3s;
@@ -926,9 +948,10 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .auth-modal {
   position: relative; width: 100%; max-width: 380px;
-  background: var(--cbox-bg);
+  background: var(--glass-sheen), var(--cbox-bg);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
   border: 1px solid var(--line-bright); border-radius: 14px;
-  padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5);
+  padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5), var(--glass-rim);
   transform: translateY(10px); transition: transform .25s ease;
 }
 .auth-modal-backdrop.open .auth-modal { transform: translateY(0); }
@@ -1110,9 +1133,10 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 
 .team-modal {
   position: relative; width: 100%; max-width: 460px; max-height: 86vh; overflow-y: auto;
-  background: var(--cbox-bg);
+  background: var(--glass-sheen), var(--cbox-bg);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
   border: 1px solid var(--line-bright); border-radius: 14px;
-  padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5);
+  padding: 28px 24px 24px; box-shadow: 0 20px 60px rgba(159,5,162,.18), 0 8px 30px rgba(0,0,0,.5), var(--glass-rim);
   transform: translateY(10px); transition: transform .25s ease;
 }
 .team-modal-backdrop.open .team-modal { transform: translateY(0); }
@@ -1168,11 +1192,11 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .team-modal-section-title-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
 .team-modal-section-title-row .team-modal-section-title { margin-bottom: 0; }
 .squad-view-toggle { display: flex; gap: 6px; flex: none; }
-.squad-view-btn { padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
+.squad-view-btn { padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--glass-sheen), var(--surface-2); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); box-shadow: var(--glass-rim); color: var(--muted); font-size: 10px; font-weight: 700; cursor: pointer; transition: var(--dur-fast) var(--ease-out); }
 .squad-view-btn:hover { color: var(--white); border-color: var(--line-bright); }
-.squad-view-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.squad-view-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; box-shadow: var(--glass-rim); }
 
-.team-pitch { position: relative; width: 100%; aspect-ratio: 300 / 460; border-radius: 10px; overflow: hidden; background: linear-gradient(180deg, #2b5e35, #244f2c); padding: 14px 6px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; }
+.team-pitch { position: relative; width: 100%; aspect-ratio: 300 / 460; border-radius: 10px; overflow: hidden; background: linear-gradient(180deg, #2b5e35, #244f2c); box-shadow: var(--glass-rim), 0 10px 30px rgba(0,0,0,.3); padding: 14px 6px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; }
 .team-pitch-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 .team-pitch-outline { fill: none; stroke: rgba(255,255,255,.35); stroke-width: 1.4; }
 .team-pitch-row { position: relative; z-index: 2; display: flex; align-items: flex-start; justify-content: space-evenly; }
@@ -1238,7 +1262,7 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .compare-submit-btn { max-width: 240px; }
 
 .compare-teams-row { display: flex; align-items: stretch; gap: 12px; margin: 18px 0 14px; }
-.compare-team-card { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 16px 12px; background: var(--probability-bg); }
+.compare-team-card { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; border: 1px solid var(--line); border-radius: 10px; padding: 16px 12px; background: var(--glass-sheen), var(--probability-bg); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); box-shadow: var(--glass-rim); }
 .compare-team-card .compare-team-logo { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 11px; }
 .compare-team-card .compare-team-logo img { width: 32px; height: 32px; object-fit: contain; }
 .compare-team-name { font-weight: 800; font-size: 12.5px; line-height: 1.3; }
@@ -1271,11 +1295,14 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
 .club-search-item {
   display: flex; align-items: center; gap: 10px; width: 100%;
   border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px;
-  background: var(--surface-2); cursor: pointer; text-align: left;
+  background: var(--glass-sheen), var(--surface-2);
+  backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-rim);
+  cursor: pointer; text-align: left;
   font-family: 'Plus Jakarta Sans', sans-serif; color: var(--white);
   transition: border-color .15s, background .15s;
 }
-.club-search-item:hover { border-color: var(--accent); background: var(--probability-bg); }
+.club-search-item:hover { border-color: var(--accent); background: var(--glass-sheen), var(--probability-bg); }
 .club-search-item .club-search-logo { width: 26px; height: 26px; border-radius: 6px; flex: none; display: grid; place-items: center; background: var(--surface-2); border: 1px solid var(--line-bright); color: var(--white); font-size: 9px; font-weight: 800; }
 .club-search-item .club-search-logo img { width: 19px; height: 19px; object-fit: contain; }
 .club-search-name { flex: 1; min-width: 0; font-weight: 700; font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
