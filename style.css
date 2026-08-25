@@ -290,6 +290,11 @@ button:active, .filter-btn:active, .vote-btn:active, .pm-chip:active {
     0 2px 0 rgba(159,5,162,.6),
     var(--glass-rim);
   padding: 16px;
+  /* Bleed penuh ke 3 sisi (kiri/kanan/atas) supaya menempel pas ke tepi
+     layar begitu scroll di posisi paling atas — .page punya padding-top
+     18px (buat spacing halaman biasa), yang tanpa ini bikin celah tipis
+     kelihatan di atas header sebelum posisi sticky-nya "aktif". */
+  margin-top: -18px;
   margin-left: -12px;
   margin-right: -12px;
   width: calc(100% + 24px);
