@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-25T23:54:29.250Z.
+   API-Football v3) pada 2026-08-26T03:35:03.010Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -68,6 +68,7 @@ const siteData = {
                 "results": [
                     "D",
                     "W",
+                    "L",
                     "L"
                 ]
             }
@@ -276,7 +277,10 @@ const siteData = {
             "away": "Deportes Tolima",
             "stadium": "Estadio Banco Guayaquil",
             "round": "Round of 16",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1153.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1142.png",
             "prediction": "2 - 1",
@@ -285,7 +289,55 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Winner : Independiente del Valle"
+            "advice": "Winner : Independiente del Valle",
+            "goals": [
+                {
+                    "minute": "59",
+                    "player": "D. A. Romero Padilla",
+                    "team": "home"
+                },
+                {
+                    "minute": "70",
+                    "player": "C. Gonzalez",
+                    "team": "home"
+                },
+                {
+                    "minute": "84",
+                    "player": "J. Hernandez",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "M. Perello",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "58",
+                    "player": "A. Parra Osorio",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "H. E. Martinez Yepez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "J. Sornoza",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "S. Guzman",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Europa Conference League",
@@ -1625,7 +1677,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/08/2026 06:54 WIB",
+    "standingsUpdated": "26/08/2026 10:35 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -16683,6 +16735,63 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "Qarabag",
+                "away": "Twente",
+                "stadium": "Tofiq Bahramov Stadium",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/556.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/415.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Qarabag or draw"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "Maccabi Tel Aviv",
+                "away": "FC Lugano",
+                "stadium": "Adjarabet Arena",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/604.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/606.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Winner : FC Lugano"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "FK Jablonec",
+                "away": "Rangers",
+                "stadium": "Stadion Strelnice",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1122.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/257.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
+            },
+            {
                 "league": "UEFA Europa League",
                 "date": "2026-08-27",
                 "time": "23:00",
@@ -16719,63 +16828,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Universitatea Craiova"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "Qarabag",
-                "away": "Twente",
-                "stadium": "Tofiq Bahramov Stadium",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/556.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/415.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Qarabag or draw"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "Maccabi Tel Aviv",
-                "away": "FC Lugano",
-                "stadium": "Bloomfield Stadium",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/604.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/606.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Winner : FC Lugano"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "FK Jablonec",
-                "away": "Rangers",
-                "stadium": "Stadion Strelnice",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1122.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/257.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
             },
             {
                 "league": "UEFA Europa Conference League",
@@ -16817,6 +16869,139 @@ const siteData = {
             }
         ],
         "2026-08-28": [
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Brann",
+                "away": "PAOK",
+                "stadium": "Brann Stadion",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/319.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/619.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Brann or draw"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "FC Copenhagen",
+                "away": "Inter Turku",
+                "stadium": "Parken Stadium",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/400.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1164.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : FC Copenhagen or draw"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Inter Club d'Escaldes",
+                "away": "Drita",
+                "stadium": "Estadi de la FAF",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3342.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14281.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Drita"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Pafos",
+                "away": "Dinamo Tirana",
+                "stadium": "Alphamega Stadium",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3403.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3326.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Dinamo Tirana"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Raków Częstochowa",
+                "away": "HNK Hajduk Split",
+                "stadium": "Miejski Stadion Pilkarski Rakow",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3491.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/608.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Raków Częstochowa or draw and +1.5 goals"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Hradec Králové",
+                "away": "Panathinaikos",
+                "stadium": "FINEP Arena",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3723.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/617.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Panathinaikos"
+            },
+            {
+                "league": "UEFA Europa Conference League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Riga",
+                "away": "KI Klaksvik",
+                "stadium": "Skonto stadions",
+                "round": "Playoff round",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/10124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/701.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Riga and -3.5 goals"
+            },
             {
                 "league": "UEFA Europa League",
                 "date": "2026-08-28",
@@ -16915,135 +17100,59 @@ const siteData = {
             {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Brann",
-                "away": "PAOK",
-                "stadium": "Brann Stadion",
+                "time": "01:00",
+                "home": "Ajax",
+                "away": "FC Sion",
+                "stadium": "Johan Cruijff Arena",
                 "round": "Playoff round",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/319.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/619.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Brann or draw"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "FC Copenhagen",
-                "away": "Inter Turku",
-                "stadium": "Parken Stadium",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/400.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1164.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : FC Copenhagen or draw"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Inter Club d'Escaldes",
-                "away": "Drita",
-                "stadium": "Estadi Comunal",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3342.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14281.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Drita"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Pafos",
-                "away": "Dinamo Tirana",
-                "stadium": "Stelios Kyriakides Stadium",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3403.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3326.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Dinamo Tirana"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Raków Częstochowa",
-                "away": "HNK Hajduk Split",
-                "stadium": "Miejski Stadion Pilkarski Rakow",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3491.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/608.png",
+                "homeLogo": "https://media.api-sports.io/football/teams/194.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/630.png",
                 "prediction": "3 - 2",
                 "odds": {
                     "home": 45,
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Raków Częstochowa or draw and +1.5 goals"
+                "advice": "Combo Winner : Ajax and +1.5 goals"
             },
             {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Hradec Králové",
-                "away": "Panathinaikos",
-                "stadium": "FINEP Arena",
+                "time": "01:00",
+                "home": "FC ST. Gallen",
+                "away": "FC Nordsjaelland",
+                "stadium": "Kybunpark",
                 "round": "Playoff round",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3723.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/617.png",
-                "prediction": "2 - 3",
+                "homeLogo": "https://media.api-sports.io/football/teams/1011.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/398.png",
+                "prediction": "1 - 2",
                 "odds": {
                     "home": 10,
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Panathinaikos"
+                "advice": "Double chance : draw or FC Nordsjaelland"
             },
             {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Riga",
-                "away": "KI Klaksvik",
-                "stadium": "Skonto stadions",
+                "time": "01:00",
+                "home": "Hapoel Tel Aviv",
+                "away": "Atalanta",
+                "stadium": "DVTK Stadion",
                 "round": "Playoff round",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/10124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/701.png",
-                "prediction": "2 - 1",
+                "homeLogo": "https://media.api-sports.io/football/teams/4501.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/499.png",
+                "prediction": "1 - 0",
                 "odds": {
                     "home": 45,
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Winner : Riga and -3.5 goals"
+                "advice": "Combo Winner : Hapoel Tel Aviv and -3.5 goals"
             },
             {
                 "league": "UEFA Europa League",
@@ -17105,101 +17214,6 @@ const siteData = {
             {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
-                "time": "01:00",
-                "home": "Ajax",
-                "away": "FC Sion",
-                "stadium": "Johan Cruijff Arena",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/194.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/630.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Ajax and +1.5 goals"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
-                "time": "01:00",
-                "home": "FC ST. Gallen",
-                "away": "FC Nordsjaelland",
-                "stadium": "Kybunpark",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1011.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/398.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or FC Nordsjaelland"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
-                "time": "01:00",
-                "home": "Hapoel Tel Aviv",
-                "away": "Atalanta",
-                "stadium": "Bloomfield Stadium",
-                "round": "Playoff round",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4501.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/499.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Hapoel Tel Aviv and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "01:30",
-                "home": "Anderlecht",
-                "away": "Kairat Almaty",
-                "stadium": "Lotto Park",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/554.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/664.png",
-                "prediction": "3 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Anderlecht"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "01:30",
-                "home": "Ferencvarosi TC",
-                "away": "Trabzonspor",
-                "stadium": "Groupama Arena",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/651.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/998.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Ferencvarosi TC and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa Conference League",
-                "date": "2026-08-28",
                 "time": "01:30",
                 "home": "Brighton",
                 "away": "Tromso",
@@ -17253,6 +17267,44 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Combo Winner : Borac Banja Luka and +1.5 goals"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "01:30",
+                "home": "Anderlecht",
+                "away": "Kairat Almaty",
+                "stadium": "Lotto Park",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/554.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/664.png",
+                "prediction": "3 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Anderlecht"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "01:30",
+                "home": "Ferencvarosi TC",
+                "away": "Trabzonspor",
+                "stadium": "Groupama Arena",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/651.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/998.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Ferencvarosi TC and -3.5 goals"
             },
             {
                 "league": "LaLiga",
