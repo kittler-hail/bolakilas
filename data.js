@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-26T12:01:05.928Z.
+   API-Football v3) pada 2026-08-26T16:37:16.384Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1665,7 +1665,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/08/2026 19:01 WIB",
+    "standingsUpdated": "26/08/2026 23:37 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2398,25 +2398,25 @@ const siteData = {
                 "player": "C. Bradley",
                 "photo": "https://media.api-sports.io/football/players/180317.png",
                 "reason": "Knee Injury",
-                "since": "2026-08-23"
+                "since": "2026-08-29"
             },
             {
                 "player": "H. Ekitike",
                 "photo": "https://media.api-sports.io/football/players/174565.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-08-23"
+                "since": "2026-08-29"
             },
             {
                 "player": "J. Gomez",
                 "photo": "https://media.api-sports.io/football/players/284.png",
                 "reason": "Injury",
-                "since": "2026-08-23"
+                "since": "2026-08-29"
             },
             {
                 "player": "G. Leoni",
                 "photo": "https://media.api-sports.io/football/players/409047.png",
                 "reason": "Knee Injury",
-                "since": "2026-08-23"
+                "since": "2026-08-29"
             }
         ],
         "brighton": [
@@ -2513,12 +2513,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/266657.png",
                 "reason": "Transfer negotiations",
                 "since": "2026-08-23"
-            },
-            {
-                "player": "E. Anderson",
-                "photo": "https://media.api-sports.io/football/players/138908.png",
-                "reason": "Injury",
-                "since": "2026-08-28"
             }
         ],
         "bournemouth": [
@@ -2664,13 +2658,19 @@ const siteData = {
                 "player": "N. Savona",
                 "photo": "https://media.api-sports.io/football/players/181806.png",
                 "reason": "Knee Injury",
-                "since": "2026-08-22"
+                "since": "2026-08-29"
             },
             {
                 "player": "R. Yates",
                 "photo": "https://media.api-sports.io/football/players/19305.png",
                 "reason": "Injury",
-                "since": "2026-08-22"
+                "since": "2026-08-29"
+            },
+            {
+                "player": "M. Gibbs-White",
+                "photo": "https://media.api-sports.io/football/players/18746.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
             }
         ],
         "leeds": [
@@ -3040,7 +3040,7 @@ const siteData = {
                 "player": "Rodri",
                 "photo": "https://media.api-sports.io/football/players/44.png",
                 "reason": "Lacking Match Fitness",
-                "since": "2026-08-27"
+                "since": "2026-08-23"
             },
             {
                 "player": "F. de Jong",
@@ -3093,12 +3093,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/415064.png",
                 "reason": "Hamstring Injury",
                 "since": "2026-08-28"
-            },
-            {
-                "player": "Manu Hernando",
-                "photo": "https://media.api-sports.io/football/players/165713.png",
-                "reason": "Injury",
-                "since": "2026-08-28"
             }
         ],
         "atletico-madrid": [
@@ -3144,7 +3138,7 @@ const siteData = {
                 "player": "W. Kambwala",
                 "photo": "https://media.api-sports.io/football/players/288112.png",
                 "reason": "Transfer negotiations",
-                "since": "2026-08-28"
+                "since": "2026-08-23"
             }
         ],
         "espanyol": [
@@ -3223,6 +3217,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/211.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-22"
+            },
+            {
+                "player": "B. Iglesias",
+                "photo": "https://media.api-sports.io/football/players/47348.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-27"
             }
         ],
         "athletic-club": [
@@ -3236,13 +3236,13 @@ const siteData = {
                 "player": "A. Gorosabel",
                 "photo": "https://media.api-sports.io/football/players/47299.png",
                 "reason": "Muscle Injury",
-                "since": "2026-08-27"
+                "since": "2026-08-22"
             },
             {
                 "player": "B. Prados Diaz",
                 "photo": "https://media.api-sports.io/football/players/182617.png",
-                "reason": "Inactive",
-                "since": "2026-08-22"
+                "reason": "Thigh Injury",
+                "since": "2026-08-27"
             },
             {
                 "player": "N. Serrano",
@@ -3554,12 +3554,6 @@ const siteData = {
                 "player": "F. Tomori",
                 "photo": "https://media.api-sports.io/football/players/19209.png",
                 "reason": "Inactive",
-                "since": "2026-08-28"
-            },
-            {
-                "player": "M. Gila",
-                "photo": "https://media.api-sports.io/football/players/162952.png",
-                "reason": "Injury",
                 "since": "2026-08-28"
             }
         ],
@@ -16801,44 +16795,6 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "FC Iberia 1999",
-                "away": "Jagiellonia",
-                "stadium": "Mikheil Meskhi Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Jagiellonia"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-27",
-                "time": "23:00",
-                "home": "Ararat-Armenia",
-                "away": "Universitatea Craiova",
-                "stadium": "Vazgen Sargsyan Republican Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Universitatea Craiova"
-            },
-            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-27",
                 "time": "23:00",
@@ -16896,6 +16852,44 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
             },
             {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "FC Iberia 1999",
+                "away": "Jagiellonia",
+                "stadium": "Mikheil Meskhi Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3502.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/336.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Jagiellonia"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-27",
+                "time": "23:00",
+                "home": "Ararat-Armenia",
+                "away": "Universitatea Craiova",
+                "stadium": "Vazgen Sargsyan Republican Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/632.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Universitatea Craiova"
+            },
+            {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-27",
                 "time": "23:45",
@@ -16935,101 +16929,6 @@ const siteData = {
             }
         ],
         "2026-08-28": [
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Lillestrom",
-                "away": "Egnatia Rrogozhinë",
-                "stadium": "",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/321.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3327.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Egnatia Rrogozhinë and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Plzen",
-                "away": "FK Crvena Zvezda",
-                "stadium": "Doosan Arena",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/567.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/598.png",
-                "prediction": "0 - 3",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : FK Crvena Zvezda"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Red Bull Salzburg",
-                "away": "Mjallby AIF",
-                "stadium": "Red Bull Arena",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/571.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2240.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Red Bull Salzburg and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Omonia Nicosia",
-                "away": "St. Truiden",
-                "stadium": "GSP Stadium",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3402.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or St. Truiden and -3.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "00:00",
-                "home": "Kauno Žalgiris",
-                "away": "Beşiktaş",
-                "stadium": "",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3872.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-                "prediction": "0 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Beşiktaş"
-            },
             {
                 "league": "UEFA Europa Conference League",
                 "date": "2026-08-28",
@@ -17166,59 +17065,97 @@ const siteData = {
             {
                 "league": "UEFA Europa League",
                 "date": "2026-08-28",
-                "time": "01:00",
-                "home": "Aarhus",
-                "away": "Benfica",
-                "stadium": "New Vejlby Stadium",
+                "time": "00:00",
+                "home": "Lillestrom",
+                "away": "Egnatia Rrogozhinë",
+                "stadium": "",
                 "round": "Play-offs",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/406.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/211.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Benfica and +1.5 goals"
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-08-28",
-                "time": "01:00",
-                "home": "CSKA Sofia",
-                "away": "OFI",
-                "stadium": "National Stadium Vasil Levski",
-                "round": "Play-offs",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/853.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1124.png",
+                "homeLogo": "https://media.api-sports.io/football/teams/321.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3327.png",
                 "prediction": "1 - 2",
                 "odds": {
                     "home": 10,
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Winner : OFI"
+                "advice": "Combo Winner : Egnatia Rrogozhinë and -3.5 goals"
             },
             {
                 "league": "UEFA Europa League",
                 "date": "2026-08-28",
-                "time": "01:00",
-                "home": "FC Thun",
-                "away": "Lech Poznan",
-                "stadium": "Stockhorn Arena",
+                "time": "00:00",
+                "home": "Plzen",
+                "away": "FK Crvena Zvezda",
+                "stadium": "Doosan Arena",
                 "round": "Play-offs",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1012.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/347.png",
-                "prediction": "1 - 4",
+                "homeLogo": "https://media.api-sports.io/football/teams/567.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/598.png",
+                "prediction": "0 - 3",
                 "odds": {
                     "home": 34,
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Combo Winner : Lech Poznan and +1.5 goals"
+                "advice": "Winner : FK Crvena Zvezda"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Red Bull Salzburg",
+                "away": "Mjallby AIF",
+                "stadium": "Red Bull Arena",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/571.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2240.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Red Bull Salzburg and -3.5 goals"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Omonia Nicosia",
+                "away": "St. Truiden",
+                "stadium": "GSP Stadium",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3402.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+                "prediction": "0 - 1",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or St. Truiden and -3.5 goals"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "00:00",
+                "home": "Kauno Žalgiris",
+                "away": "Beşiktaş",
+                "stadium": "",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3872.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+                "prediction": "0 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Beşiktaş"
             },
             {
                 "league": "UEFA Europa Conference League",
@@ -17280,40 +17217,59 @@ const siteData = {
             {
                 "league": "UEFA Europa League",
                 "date": "2026-08-28",
-                "time": "01:30",
-                "home": "Anderlecht",
-                "away": "Kairat Almaty",
-                "stadium": "Lotto Park",
+                "time": "01:00",
+                "home": "Aarhus",
+                "away": "Benfica",
+                "stadium": "New Vejlby Stadium",
                 "round": "Play-offs",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/554.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/664.png",
-                "prediction": "3 - 0",
+                "homeLogo": "https://media.api-sports.io/football/teams/406.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/211.png",
+                "prediction": "1 - 3",
                 "odds": {
-                    "home": 45,
+                    "home": 10,
                     "draw": 45,
-                    "away": 10
+                    "away": 45
                 },
-                "advice": "Winner : Anderlecht"
+                "advice": "Combo Winner : Benfica and +1.5 goals"
             },
             {
                 "league": "UEFA Europa League",
                 "date": "2026-08-28",
-                "time": "01:30",
-                "home": "Ferencvarosi TC",
-                "away": "Trabzonspor",
-                "stadium": "Groupama Arena",
+                "time": "01:00",
+                "home": "CSKA Sofia",
+                "away": "OFI",
+                "stadium": "National Stadium Vasil Levski",
                 "round": "Play-offs",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/651.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/998.png",
-                "prediction": "1 - 0",
+                "homeLogo": "https://media.api-sports.io/football/teams/853.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1124.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 45,
+                    "home": 10,
                     "draw": 45,
-                    "away": 10
+                    "away": 45
                 },
-                "advice": "Combo Winner : Ferencvarosi TC and -3.5 goals"
+                "advice": "Winner : OFI"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "01:00",
+                "home": "FC Thun",
+                "away": "Lech Poznan",
+                "stadium": "Stockhorn Arena",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1012.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/347.png",
+                "prediction": "1 - 4",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : Lech Poznan and +1.5 goals"
             },
             {
                 "league": "UEFA Europa Conference League",
@@ -17371,6 +17327,44 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Combo Winner : Borac Banja Luka and +1.5 goals"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "01:30",
+                "home": "Anderlecht",
+                "away": "Kairat Almaty",
+                "stadium": "Lotto Park",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/554.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/664.png",
+                "prediction": "3 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Anderlecht"
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-08-28",
+                "time": "01:30",
+                "home": "Ferencvarosi TC",
+                "away": "Trabzonspor",
+                "stadium": "Groupama Arena",
+                "round": "Play-offs",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/651.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/998.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Ferencvarosi TC and -3.5 goals"
             },
             {
                 "league": "LaLiga",
