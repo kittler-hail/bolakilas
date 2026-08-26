@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-26T10:55:04.023Z.
+   API-Football v3) pada 2026-08-26T12:01:05.928Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1665,7 +1665,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/08/2026 17:55 WIB",
+    "standingsUpdated": "26/08/2026 19:01 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -1824,10 +1824,10 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "name": "C. Ejuke",
-                "photo": "https://media.api-sports.io/football/players/39121.png",
-                "team": "Sevilla",
-                "teamLogo": "https://media.api-sports.io/football/teams/536.png",
+                "name": "Pablo García",
+                "photo": "https://media.api-sports.io/football/players/443163.png",
+                "team": "Real Betis",
+                "teamLogo": "https://media.api-sports.io/football/teams/543.png",
                 "value": 1
             }
         ],
