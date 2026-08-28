@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-28T21:54:42.435Z.
+   API-Football v3) pada 2026-08-28T22:03:14.233Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -394,6 +394,66 @@ const siteData = {
             ]
         },
         {
+            "league": "Serie A",
+            "date": "2026-08-29",
+            "time": "01:45",
+            "home": "AC Milan",
+            "away": "Venezia",
+            "stadium": "San Siro/Giuseppe Meazza",
+            "round": "Pekan 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/517.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Winner : AC Milan",
+            "goals": [
+                {
+                    "minute": "69",
+                    "player": "G. Ramos",
+                    "team": "home"
+                },
+                {
+                    "minute": "89",
+                    "player": "R. Halhal",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "27",
+                    "player": "J. Schingtienne",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "K. Perez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "R. Haps",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "S. Pavlovic",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Ligue 1",
             "date": "2026-08-29",
             "time": "01:45",
@@ -505,66 +565,6 @@ const siteData = {
                     "minute": "29",
                     "player": "Y. Gomis",
                     "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-08-29",
-            "time": "01:45",
-            "home": "AC Milan",
-            "away": "Venezia",
-            "stadium": "San Siro/Giuseppe Meazza",
-            "round": "Pekan 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/517.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Winner : AC Milan",
-            "goals": [
-                {
-                    "minute": "69",
-                    "player": "G. Ramos",
-                    "team": "home"
-                },
-                {
-                    "minute": "89",
-                    "player": "R. Halhal",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "27",
-                    "player": "J. Schingtienne",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "48",
-                    "player": "K. Perez",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "54",
-                    "player": "R. Haps",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "71",
-                    "player": "S. Pavlovic",
-                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -1239,25 +1239,6 @@ const siteData = {
             "advice": "Winner : Newcastle"
         },
         {
-            "league": "Bundesliga",
-            "date": "2026-08-29",
-            "time": "23:30",
-            "home": "Borussia Dortmund",
-            "away": "Hamburger SV",
-            "stadium": "Signal Iduna Park",
-            "round": "Pekan 1",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/175.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Double chance : Borussia Dortmund or draw"
-        },
-        {
             "league": "Serie A",
             "date": "2026-08-29",
             "time": "23:30",
@@ -1313,6 +1294,25 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Udinese"
+        },
+        {
+            "league": "Bundesliga",
+            "date": "2026-08-29",
+            "time": "23:30",
+            "home": "Borussia Dortmund",
+            "away": "Hamburger SV",
+            "stadium": "Signal Iduna Park",
+            "round": "Pekan 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/175.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Double chance : Borussia Dortmund or draw"
         },
         {
             "league": "Eredivisie",
@@ -2652,7 +2652,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 04:54 WIB",
+    "standingsUpdated": "29/08/2026 05:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -21002,6 +21002,25 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Rizespor and -3.5 goals"
             },
             {
+                "league": "Serie A",
+                "date": "2026-08-30",
+                "time": "01:45",
+                "home": "Juventus",
+                "away": "Parma",
+                "stadium": "Allianz Stadium",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/523.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Combo Double chance : Juventus or draw and -2.5 goals"
+            },
+            {
                 "league": "Ligue 1",
                 "date": "2026-08-30",
                 "time": "01:45",
@@ -21114,25 +21133,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Lommel United"
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-08-30",
-                "time": "01:45",
-                "home": "Juventus",
-                "away": "Parma",
-                "stadium": "Allianz Stadium",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/523.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Combo Double chance : Juventus or draw and -2.5 goals"
             },
             {
                 "league": "Eredivisie",
@@ -21914,25 +21914,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Alanyaspor and -3.5 goals"
             },
             {
-                "league": "Jupiler Pro League",
-                "date": "2026-08-30",
-                "time": "23:30",
-                "home": "Union St. Gilloise",
-                "away": "Anderlecht",
-                "stadium": "Stade Joseph Marien",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/554.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Union St. Gilloise"
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-08-30",
                 "time": "23:30",
@@ -21950,6 +21931,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Combo Double chance : Napoli or draw and -3.5 goals"
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-08-30",
+                "time": "23:30",
+                "home": "Union St. Gilloise",
+                "away": "Anderlecht",
+                "stadium": "Stade Joseph Marien",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/554.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Union St. Gilloise"
             }
         ],
         "2026-08-31": [
@@ -22087,25 +22087,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Fenerbahçe and +2.5 goals"
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-08-31",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Marseille",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Marseille and +2.5 goals"
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-08-31",
                 "time": "01:45",
@@ -22142,6 +22123,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Inter"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-08-31",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Marseille",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Marseille and +2.5 goals"
             },
             {
                 "league": "LaLiga",
