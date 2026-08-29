@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T09:03:06.633Z.
+   API-Football v3) pada 2026-08-29T10:03:07.820Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -243,78 +243,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Super Lig",
-            "date": "2026-08-29",
-            "time": "01:30",
-            "home": "Gençlerbirliği S.K.",
-            "away": "Erzurumspor FK",
-            "stadium": "Eryaman Stadyumu",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
-            "prediction": "3 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Winner : Gençlerbirliği S.K.",
-            "goals": [
-                {
-                    "minute": "55",
-                    "player": "E. Tozlu",
-                    "team": "away"
-                },
-                {
-                    "minute": "66",
-                    "player": "A. Traore",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45+1",
-                    "player": "Mustafa Yumlu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "60",
-                    "player": "Pedro Pereira",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "68",
-                    "player": "Oğulcan Ülgün",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "82",
-                    "player": "Elisha Owusu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Ousmane Diabate",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+6",
-                    "player": "Nihad Mujakić",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Bundesliga",
             "date": "2026-08-29",
             "time": "01:30",
@@ -389,6 +317,78 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "Grischa Prömel",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-08-29",
+            "time": "01:30",
+            "home": "Gençlerbirliği S.K.",
+            "away": "Erzurumspor FK",
+            "stadium": "Eryaman Stadyumu",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
+            "prediction": "3 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Winner : Gençlerbirliği S.K.",
+            "goals": [
+                {
+                    "minute": "55",
+                    "player": "E. Tozlu",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "A. Traore",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "Mustafa Yumlu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Pedro Pereira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Oğulcan Ülgün",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "Elisha Owusu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Ousmane Diabate",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Nihad Mujakić",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1216,6 +1216,25 @@ const siteData = {
             "advice": "Winner : Hull City"
         },
         {
+            "league": "Jupiler Pro League",
+            "date": "2026-08-29",
+            "time": "21:00",
+            "home": "RAAL La Louvière",
+            "away": "KV Mechelen",
+            "stadium": "Easi Arena",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or KV Mechelen"
+        },
+        {
             "league": "Scottish Premiership",
             "date": "2026-08-29",
             "time": "21:00",
@@ -1271,25 +1290,6 @@ const siteData = {
                 "away": 10
             },
             "advice": "Double chance : Heart Of Midlothian or draw"
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-08-29",
-            "time": "21:00",
-            "home": "RAAL La Louvière",
-            "away": "KV Mechelen",
-            "stadium": "Easi Arena",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or KV Mechelen"
         },
         {
             "league": "Eredivisie",
@@ -1482,25 +1482,6 @@ const siteData = {
             "advice": "Double chance : draw or Udinese"
         },
         {
-            "league": "Premier League",
-            "date": "2026-08-29",
-            "time": "23:30",
-            "home": "Tottenham",
-            "away": "Newcastle",
-            "stadium": "Tottenham Hotspur Stadium",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/34.png",
-            "prediction": "1 - 3",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Newcastle"
-        },
-        {
             "league": "Bundesliga",
             "date": "2026-08-29",
             "time": "23:30",
@@ -1518,6 +1499,25 @@ const siteData = {
                 "away": 33
             },
             "advice": "Double chance : Borussia Dortmund or draw"
+        },
+        {
+            "league": "Premier League",
+            "date": "2026-08-29",
+            "time": "23:30",
+            "home": "Tottenham",
+            "away": "Newcastle",
+            "stadium": "Tottenham Hotspur Stadium",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/34.png",
+            "prediction": "1 - 3",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Newcastle"
         },
         {
             "league": "Eredivisie",
@@ -2857,7 +2857,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 16:03 WIB",
+    "standingsUpdated": "29/08/2026 17:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -22097,6 +22097,25 @@ const siteData = {
                 "advice": "Double chance : SC Freiburg or draw"
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-08-30",
+                "time": "21:00",
+                "home": "Antwerp",
+                "away": "St. Truiden",
+                "stadium": "Bosuilstadion",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-08-30",
                 "time": "21:00",
@@ -22133,25 +22152,6 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Dundee or draw"
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-08-30",
-                "time": "21:00",
-                "home": "Antwerp",
-                "away": "St. Truiden",
-                "stadium": "Bosuilstadion",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
             },
             {
                 "league": "Primeira Liga",
@@ -22230,25 +22230,6 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
-                "league": "Premier League",
-                "date": "2026-08-30",
-                "time": "22:30",
-                "home": "Manchester United",
-                "away": "Ipswich",
-                "stadium": "Old Trafford",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/33.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/57.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Winner : Ipswich"
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-08-30",
                 "time": "22:30",
@@ -22266,6 +22247,25 @@ const siteData = {
                     "away": 33
                 },
                 "advice": "Double chance : FC Augsburg or draw"
+            },
+            {
+                "league": "Premier League",
+                "date": "2026-08-30",
+                "time": "22:30",
+                "home": "Manchester United",
+                "away": "Ipswich",
+                "stadium": "Old Trafford",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/33.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/57.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Winner : Ipswich"
             },
             {
                 "league": "Super Lig",
