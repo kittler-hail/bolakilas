@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T02:03:14.709Z.
+   API-Football v3) pada 2026-08-29T03:03:22.341Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -768,14 +768,36 @@ const siteData = {
             "league": "Liga MX",
             "date": "2026-08-29",
             "time": "08:00",
-            "home": "Necaxa",
-            "away": "Cruz Azul",
-            "stadium": "Estadio Victoria",
+            "home": "Atlante FC",
+            "away": "Leon",
+            "stadium": "Estadio Banorte",
             "round": "Apertura - 6",
             "statusCode": "HT",
             "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Leon and -3.5 goals"
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-08-29",
+            "time": "08:00",
+            "home": "Necaxa",
+            "away": "Cruz Azul",
+            "stadium": "Estadio Victoria",
+            "round": "Apertura - 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2295.png",
             "prediction": "2 - 3",
@@ -790,6 +812,21 @@ const siteData = {
                     "minute": "23",
                     "player": "J. Marquez",
                     "team": "away"
+                },
+                {
+                    "minute": "46",
+                    "player": "N. Ibanez",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "W. Ditta",
+                    "team": "away"
+                },
+                {
+                    "minute": "83",
+                    "player": "E. Rodriguez",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -798,30 +835,73 @@ const siteData = {
                     "player": "D. Leyva",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "W. Ditta",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "A. Garcia",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "J. Ruiz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "E. Rodriguez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "P. Pedraza",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "J. P. Torres Patino",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
         {
-            "league": "Liga MX",
+            "league": "Liga de Expansion MX",
             "date": "2026-08-29",
             "time": "08:00",
-            "home": "Atlante FC",
-            "away": "Leon",
-            "stadium": "Estadio Banorte",
+            "home": "Dorados",
+            "away": "Monarcas",
+            "stadium": "Estadio Dorados",
             "round": "Apertura - 6",
             "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "minuteDisplay": "43'",
             "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
-            "prediction": "1 - 2",
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
+            "prediction": "2 - 2",
             "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
+                "home": 35,
+                "draw": 35,
+                "away": 30
             },
-            "advice": "Combo Double chance : draw or Leon and -3.5 goals"
+            "advice": "Double chance : Dorados or draw",
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "R. Lopez Aburto",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -831,8 +911,8 @@ const siteData = {
             "away": "Durango",
             "stadium": "",
             "round": "Apertura - 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
@@ -862,27 +942,26 @@ const siteData = {
                     "player": "W. Ortega",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "G. Moreno",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "69",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "red"
                 }
             ]
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-08-29",
-            "time": "08:00",
-            "home": "Dorados",
-            "away": "Monarcas",
-            "stadium": "Estadio Dorados",
-            "round": "Apertura - 6",
-            "statusCode": "POSTP",
-            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Dorados or draw"
         },
         {
             "league": "Liga MX",
@@ -2697,7 +2776,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 09:03 WIB",
+    "standingsUpdated": "29/08/2026 10:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3361,6 +3440,12 @@ const siteData = {
     "injuries": {
         "crystal-palace": [
             {
+                "player": "J. Mateta",
+                "photo": "https://media.api-sports.io/football/players/25927.png",
+                "reason": "Hamstring Injury",
+                "since": "2026-08-28"
+            },
+            {
                 "player": "C. Riad",
                 "photo": "https://media.api-sports.io/football/players/278898.png",
                 "reason": "Knee Injury",
@@ -3378,12 +3463,6 @@ const siteData = {
                 "player": "J. Doku",
                 "photo": "https://media.api-sports.io/football/players/1422.png",
                 "reason": "Calf Injury",
-                "since": "2026-08-28"
-            },
-            {
-                "player": "R. McAidoo",
-                "photo": "https://media.api-sports.io/football/players/442048.png",
-                "reason": "Shoulder Injury",
                 "since": "2026-08-28"
             },
             {
@@ -3454,7 +3533,7 @@ const siteData = {
                 "player": "M. Sarr",
                 "photo": "https://media.api-sports.io/football/players/276184.png",
                 "reason": "Transfer negotiations",
-                "since": "2026-08-30"
+                "since": "2026-08-24"
             },
             {
                 "player": "E. Fernandez",
@@ -5593,6 +5672,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/263482.png",
                 "reason": "Red Card",
                 "since": "2026-08-28"
+            },
+            {
+                "player": "J. Neves",
+                "photo": "https://media.api-sports.io/football/players/335051.png",
+                "reason": "Illness",
+                "since": "2026-08-28"
             }
         ],
         "rennes": [
@@ -5797,8 +5882,8 @@ const siteData = {
             {
                 "player": "R. Kluivert",
                 "photo": "https://media.api-sports.io/football/players/193293.png",
-                "reason": "Rest",
-                "since": "2026-08-22"
+                "reason": "Inactive",
+                "since": "2026-08-29"
             },
             {
                 "player": "A. Maitland-Niles",
@@ -5810,7 +5895,7 @@ const siteData = {
                 "player": "K. Merah",
                 "photo": "https://media.api-sports.io/football/players/519664.png",
                 "reason": "Ankle Injury",
-                "since": "2026-08-29"
+                "since": "2026-08-22"
             },
             {
                 "player": "M. Niakhate",
@@ -5822,6 +5907,18 @@ const siteData = {
                 "player": "J. Duranville",
                 "photo": "https://media.api-sports.io/football/players/368230.png",
                 "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "R. Himbert",
+                "photo": "https://media.api-sports.io/football/players/497617.png",
+                "reason": "Inactive",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "N. Kamara",
+                "photo": "https://media.api-sports.io/football/players/493026.png",
+                "reason": "Inactive",
                 "since": "2026-08-29"
             }
         ],
@@ -5956,13 +6053,13 @@ const siteData = {
                 "player": "T. Siwe",
                 "photo": "https://media.api-sports.io/football/players/402542.png",
                 "reason": "Thigh Injury",
-                "since": "2026-08-29"
+                "since": "2026-08-22"
             },
             {
                 "player": "Wei Xiangxin",
                 "photo": "https://media.api-sports.io/football/players/511151.png",
                 "reason": "Inactive",
-                "since": "2026-08-22"
+                "since": "2026-08-29"
             },
             {
                 "player": "C. Makosso",
@@ -5971,9 +6068,9 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
-                "player": "R. Faivre",
-                "photo": "https://media.api-sports.io/football/players/84082.png",
-                "reason": "Injury",
+                "player": "R. Mandengue",
+                "photo": "https://media.api-sports.io/football/players/535436.png",
+                "reason": "Inactive",
                 "since": "2026-08-29"
             }
         ],
