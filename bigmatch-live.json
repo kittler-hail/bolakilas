@@ -3,7 +3,7 @@
   "home": "Chelsea",
   "away": "Brighton",
   "statusCode": "NS",
-  "updatedAt": "30/08/2026 02:44 WIB",
+  "updatedAt": "30/08/2026 02:57 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,7 +14,7 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.80",
+    "home": "1.83",
     "draw": "3.80",
     "away": "3.90"
   }
