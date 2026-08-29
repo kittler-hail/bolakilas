@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T10:03:07.820Z.
+   API-Football v3) pada 2026-08-29T11:03:02.383Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1425,6 +1425,44 @@ const siteData = {
             "advice": "Winner : Charleroi"
         },
         {
+            "league": "Premier League",
+            "date": "2026-08-29",
+            "time": "23:30",
+            "home": "Tottenham",
+            "away": "Newcastle",
+            "stadium": "Tottenham Hotspur Stadium",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/34.png",
+            "prediction": "1 - 3",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Newcastle"
+        },
+        {
+            "league": "Bundesliga",
+            "date": "2026-08-29",
+            "time": "23:30",
+            "home": "Borussia Dortmund",
+            "away": "Hamburger SV",
+            "stadium": "Signal Iduna Park",
+            "round": "Pekan 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/175.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Double chance : Borussia Dortmund or draw"
+        },
+        {
             "league": "Serie A",
             "date": "2026-08-29",
             "time": "23:30",
@@ -1480,44 +1518,6 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Udinese"
-        },
-        {
-            "league": "Bundesliga",
-            "date": "2026-08-29",
-            "time": "23:30",
-            "home": "Borussia Dortmund",
-            "away": "Hamburger SV",
-            "stadium": "Signal Iduna Park",
-            "round": "Pekan 1",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/175.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Double chance : Borussia Dortmund or draw"
-        },
-        {
-            "league": "Premier League",
-            "date": "2026-08-29",
-            "time": "23:30",
-            "home": "Tottenham",
-            "away": "Newcastle",
-            "stadium": "Tottenham Hotspur Stadium",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/34.png",
-            "prediction": "1 - 3",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Newcastle"
         },
         {
             "league": "Eredivisie",
@@ -2857,7 +2857,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 17:03 WIB",
+    "standingsUpdated": "29/08/2026 18:02 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3897,12 +3897,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/363333.png",
                 "reason": "Lacking Match Fitness",
                 "since": "2026-08-23"
-            },
-            {
-                "player": "M. Di Gregorio",
-                "photo": "https://media.api-sports.io/football/players/30670.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-29"
             }
         ],
         "brentford": [
@@ -3985,7 +3979,7 @@ const siteData = {
             {
                 "player": "H. Hackney",
                 "photo": "https://media.api-sports.io/football/players/179685.png",
-                "reason": "Knock",
+                "reason": "Ankle Injury",
                 "since": "2026-08-29"
             }
         ],
@@ -4034,7 +4028,7 @@ const siteData = {
                 "player": "R. Yates",
                 "photo": "https://media.api-sports.io/football/players/19305.png",
                 "reason": "Injury",
-                "since": "2026-08-29"
+                "since": "2026-08-22"
             },
             {
                 "player": "I. Sangare",
@@ -5030,6 +5024,12 @@ const siteData = {
             }
         ],
         "juventus": [
+            {
+                "player": "M. Di Gregorio",
+                "photo": "https://media.api-sports.io/football/players/30670.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-23"
+            },
             {
                 "player": "J. Ekhator",
                 "photo": "https://media.api-sports.io/football/players/451504.png",
@@ -22002,25 +22002,6 @@ const siteData = {
                 "advice": "Winner : Feyenoord"
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-08-30",
-                "time": "20:00",
-                "home": "Paris FC",
-                "away": "Nice",
-                "stadium": "Stade Jean Bouin",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/114.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/84.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Paris FC or draw"
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-08-30",
                 "time": "20:00",
@@ -22076,6 +22057,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Fulham and +1.5 goals"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-08-30",
+                "time": "20:00",
+                "home": "Paris FC",
+                "away": "Nice",
+                "stadium": "Stade Jean Bouin",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/114.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/84.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Paris FC or draw"
             },
             {
                 "league": "Bundesliga",
@@ -22230,25 +22230,6 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-08-30",
-                "time": "22:30",
-                "home": "FC Augsburg",
-                "away": "FC Schalke 04",
-                "stadium": "WWK Arena",
-                "round": "Pekan 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/170.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/174.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Double chance : FC Augsburg or draw"
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-08-30",
                 "time": "22:30",
@@ -22266,6 +22247,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Ipswich"
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-08-30",
+                "time": "22:30",
+                "home": "FC Augsburg",
+                "away": "FC Schalke 04",
+                "stadium": "WWK Arena",
+                "round": "Pekan 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/170.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/174.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Double chance : FC Augsburg or draw"
             },
             {
                 "league": "Super Lig",
