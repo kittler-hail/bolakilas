@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-28T23:03:04.024Z.
+   API-Football v3) pada 2026-08-29T00:03:14.965Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1087,6 +1087,25 @@ const siteData = {
             "advice": "Double chance : Heart Of Midlothian or draw"
         },
         {
+            "league": "Eredivisie",
+            "date": "2026-08-29",
+            "time": "21:30",
+            "home": "Excelsior",
+            "away": "Sparta Rotterdam",
+            "stadium": "Stadion Woudestein",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/196.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Sparta Rotterdam"
+        },
+        {
             "league": "Primeira Liga",
             "date": "2026-08-29",
             "time": "21:30",
@@ -1123,25 +1142,6 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Santa Clara"
-        },
-        {
-            "league": "Eredivisie",
-            "date": "2026-08-29",
-            "time": "21:30",
-            "home": "Excelsior",
-            "away": "Sparta Rotterdam",
-            "stadium": "Stadion Woudestein",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/196.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Sparta Rotterdam"
         },
         {
             "league": "LaLiga",
@@ -2652,7 +2652,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 06:03 WIB",
+    "standingsUpdated": "29/08/2026 07:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -5016,6 +5016,12 @@ const siteData = {
                 "since": "2026-08-28"
             },
             {
+                "player": "C. Fuhrich",
+                "photo": "https://media.api-sports.io/football/players/24798.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-28"
+            },
+            {
                 "player": "L. Jaquez",
                 "photo": "https://media.api-sports.io/football/players/349344.png",
                 "reason": "Muscle Injury",
@@ -5044,12 +5050,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/13.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-28"
-            },
-            {
-                "player": "C. Fuhrich",
-                "photo": "https://media.api-sports.io/football/players/24798.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-28"
             }
         ],
         "sv-elversberg": [
@@ -5064,15 +5064,15 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/177362.png",
                 "reason": "Back Injury",
                 "since": "2026-08-29"
-            },
-            {
-                "player": "F. Schmahl",
-                "photo": "https://media.api-sports.io/football/players/203260.png",
-                "reason": "Knock",
-                "since": "2026-08-29"
             }
         ],
         "bayer-leverkusen": [
+            {
+                "player": "E. Ben Seghir",
+                "photo": "https://media.api-sports.io/football/players/343320.png",
+                "reason": "Thigh Injury",
+                "since": "2026-08-29"
+            },
             {
                 "player": "M. Culbreath",
                 "photo": "https://media.api-sports.io/football/players/444961.png",
@@ -5120,6 +5120,12 @@ const siteData = {
         ],
         "1899-hoffenheim": [
             {
+                "player": "F. Asllani",
+                "photo": "https://media.api-sports.io/football/players/202501.png",
+                "reason": "Injury",
+                "since": "2026-08-29"
+            },
+            {
                 "player": "T. Lemperle",
                 "photo": "https://media.api-sports.io/football/players/203040.png",
                 "reason": "Red Card",
@@ -5134,15 +5140,9 @@ const siteData = {
         ],
         "fsv-mainz-05": [
             {
-                "player": "Silas",
-                "photo": "https://media.api-sports.io/football/players/20617.png",
-                "reason": "Broken shinbone",
-                "since": "2026-08-29"
-            },
-            {
                 "player": "B. Hollerbach",
                 "photo": "https://media.api-sports.io/football/players/162946.png",
-                "reason": "Achilles Tendon Injury",
+                "reason": "Lacking Match Fitness",
                 "since": "2026-08-29"
             },
             {
@@ -5155,6 +5155,12 @@ const siteData = {
                 "player": "P. Nebel",
                 "photo": "https://media.api-sports.io/football/players/202736.png",
                 "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "Silas",
+                "photo": "https://media.api-sports.io/football/players/20617.png",
+                "reason": "Broken shinbone",
                 "since": "2026-08-29"
             }
         ],
@@ -5192,33 +5198,15 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
-                "player": "A. Ouedraogo",
-                "photo": "https://media.api-sports.io/football/players/380978.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "M. Esteve",
-                "photo": "https://media.api-sports.io/football/players/179400.png",
-                "reason": "Thigh Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "L. Klostermann",
-                "photo": "https://media.api-sports.io/football/players/1144.png",
-                "reason": "Groin Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Kone",
-                "photo": "https://media.api-sports.io/football/players/442929.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-08-29"
-            },
-            {
                 "player": "O. Nyland",
                 "photo": "https://media.api-sports.io/football/players/19172.png",
                 "reason": "Foot Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "A. Ouedraogo",
+                "photo": "https://media.api-sports.io/football/players/380978.png",
+                "reason": "Shoulder Injury",
                 "since": "2026-08-29"
             },
             {
@@ -5236,12 +5224,6 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
-                "player": "Y. Konoplya",
-                "photo": "https://media.api-sports.io/football/players/125418.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
                 "player": "F. C. Chiarodia",
                 "photo": "https://media.api-sports.io/football/players/322627.png",
                 "reason": "Muscle Injury",
@@ -5254,6 +5236,12 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
+                "player": "Y. Konoplya",
+                "photo": "https://media.api-sports.io/football/players/125418.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
                 "player": "Z. Uno",
                 "photo": "https://media.api-sports.io/football/players/351084.png",
                 "reason": "Muscle Injury",
@@ -5261,6 +5249,24 @@ const siteData = {
             }
         ],
         "union-berlin": [
+            {
+                "player": "O. Burke",
+                "photo": "https://media.api-sports.io/football/players/1124.png",
+                "reason": "Achilles Tendon Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "M. Friedrich",
+                "photo": "https://media.api-sports.io/football/players/24839.png",
+                "reason": "Inactive",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "A. Ilic",
+                "photo": "https://media.api-sports.io/football/players/45892.png",
+                "reason": "Illness",
+                "since": "2026-08-29"
+            },
             {
                 "player": "A. Markgraf",
                 "photo": "https://media.api-sports.io/football/players/413294.png",
@@ -5277,18 +5283,6 @@ const siteData = {
                 "player": "F. Ronnow",
                 "photo": "https://media.api-sports.io/football/players/1798.png",
                 "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "M. Friedrich",
-                "photo": "https://media.api-sports.io/football/players/24839.png",
-                "reason": "Inactive",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Ilic",
-                "photo": "https://media.api-sports.io/football/players/45892.png",
-                "reason": "Illness",
                 "since": "2026-08-29"
             }
         ],
@@ -5376,13 +5370,25 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/25383.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-30"
+            },
+            {
+                "player": "P. Osterhage",
+                "photo": "https://media.api-sports.io/football/players/163022.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "R. Yamamoto",
+                "photo": "https://media.api-sports.io/football/players/33805.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
             }
         ],
         "werder-bremen": [
             {
-                "player": "D. Stalmach",
-                "photo": "https://media.api-sports.io/football/players/323507.png",
-                "reason": "Shoulder Injury",
+                "player": "F. Agu",
+                "photo": "https://media.api-sports.io/football/players/26319.png",
+                "reason": "Calf Injury",
                 "since": "2026-08-30"
             },
             {
@@ -5396,13 +5402,25 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/973.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-30"
+            },
+            {
+                "player": "O. Wojcik",
+                "photo": "https://media.api-sports.io/football/players/270836.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
             }
         ],
         "fc-augsburg": [
             {
-                "player": "J. Gouweleeuw",
-                "photo": "https://media.api-sports.io/football/players/25290.png",
-                "reason": "Toe Injury",
+                "player": "T. Breithaupt",
+                "photo": "https://media.api-sports.io/football/players/202755.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "S. Mounie",
+                "photo": "https://media.api-sports.io/football/players/3395.png",
+                "reason": "Injury",
                 "since": "2026-08-30"
             }
         ],
