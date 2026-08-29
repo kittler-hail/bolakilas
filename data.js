@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T20:03:11.282Z.
+   API-Football v3) pada 2026-08-29T22:03:09.653Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -87,7 +87,7 @@ const siteData = {
             "time": "00:00",
             "home": "Real Sociedad",
             "away": "Espanyol",
-            "stadium": "Anoeta",
+            "stadium": "Reale Arena",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -105,60 +105,60 @@ const siteData = {
             "goals": [
                 {
                     "minute": "4",
-                    "player": "Ander Barrenetxea",
+                    "player": "A. Barrenetxea",
                     "team": "home"
                 },
                 {
                     "minute": "45",
-                    "player": "Roberto Fernández Jaén",
+                    "player": "R. Fernandez Jaen",
                     "team": "away"
                 },
                 {
                     "minute": "61",
-                    "player": "Orri Steinn Óskarsson",
+                    "player": "O. Oskarsson",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "17",
-                    "player": "Benat Turrientes",
+                    "player": "B. Turrientes",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "22",
-                    "player": "Urko Gonzalez",
+                    "player": "U. Gonzalez",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "75",
-                    "player": "Marcos Fernández",
+                    "player": "M. Fernandez Sanchez",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "82",
-                    "player": "Roger Hinojo",
+                    "player": "R. Hinojo",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "88",
-                    "player": "Rafel Bauzà",
+                    "player": "R. Bauza",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+3",
-                    "player": "Igor Zubeldia",
+                    "player": "I. Zubeldia",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+4",
-                    "player": "Pellegrino Matarazzo",
+                    "player": "P. Matarazzo",
                     "team": "home",
                     "type": "red"
                 }
@@ -188,12 +188,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "5",
-                    "player": "André Silva",
+                    "player": "Andre Silva",
                     "team": "away"
                 },
                 {
                     "minute": "20",
-                    "player": "Gabri Veiga",
+                    "player": "G. Veiga",
                     "team": "away"
                 },
                 {
@@ -227,63 +227,63 @@ const siteData = {
             "goals": [
                 {
                     "minute": "30",
-                    "player": "Emmanuel Sanchez",
+                    "player": "E. Sanchez",
                     "team": "home"
                 },
                 {
                     "minute": "45",
-                    "player": "louis derbez estrada",
+                    "player": "L. Derbez",
                     "team": "home"
                 },
                 {
                     "minute": "56",
-                    "player": "Christian Valdivia",
+                    "player": "C. Valdivia",
                     "team": "home"
                 },
                 {
                     "minute": "89",
-                    "player": "louis derbez estrada",
+                    "player": "L. Derbez",
                     "team": "home"
                 },
                 {
-                    "minute": "90+2",
-                    "player": "Sergio De Los Ríos",
+                    "minute": "90+1",
+                    "player": "S. De Los Rios",
                     "team": "home"
                 },
                 {
                     "minute": "90+5",
-                    "player": "",
+                    "player": "X. Camacho",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "8",
-                    "player": "José Suarez",
+                    "player": "J. Suarez",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "45+3",
-                    "player": "Dieter Villalpando",
+                    "player": "D. Villalpando",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "53",
-                    "player": "Marco Zavala",
+                    "player": "M. Zavala",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "57",
-                    "player": "",
+                    "player": "K. Gonzalez",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+4",
-                    "player": "fernando osorio",
+                    "player": "F. Sanguinetti",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -295,10 +295,10 @@ const siteData = {
             "time": "01:30",
             "home": "Galatasaray",
             "away": "Göztepe",
-            "stadium": "Rams Park",
+            "stadium": "Rams Park Stadyumu",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "70'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/645.png",
@@ -313,46 +313,53 @@ const siteData = {
             "goals": [
                 {
                     "minute": "16",
-                    "player": "Novatus Miroshi",
+                    "player": "N. Miroshi",
                     "team": "away"
                 },
                 {
                     "minute": "33",
-                    "player": "Davinson Sánchez",
+                    "player": "D. Sanchez",
                     "team": "home"
                 },
                 {
                     "minute": "55",
-                    "player": "Gabriel",
+                    "player": "Gabriel Sara",
                     "team": "home"
                 },
                 {
                     "minute": "63",
-                    "player": "Victor Osimhen",
+                    "player": "V. Osimhen",
                     "team": "home"
                 },
                 {
                     "minute": "65",
-                    "player": "Juan Santos",
+                    "player": "Juan",
                     "team": "away"
-                },
-                {
-                    "minute": "67",
-                    "player": "Victor Osimhen",
-                    "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "36",
-                    "player": "André Henrique",
+                    "player": "Andre Henrique",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "61",
-                    "player": "Malcom Bokele",
+                    "player": "M. Bokele",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "B. Yilmaz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "E. Elmali",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -365,9 +372,9 @@ const siteData = {
             "away": "Rizespor",
             "stadium": "Gaziantep Stadyumu",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "73'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/3573.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1007.png",
@@ -381,26 +388,37 @@ const siteData = {
             "goals": [
                 {
                     "minute": "12",
-                    "player": "Emrecan Bulut",
+                    "player": "E. Bulut",
                     "team": "away"
                 },
                 {
                     "minute": "35",
-                    "player": "Ali Sowe",
+                    "player": "A. Sowe",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Z. Ariss",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "60",
-                    "player": "Attila Mocsi",
+                    "player": "A. Mocsi",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "72",
-                    "player": "Enver Kulasin",
+                    "player": "E. Kulasin",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "D. Varesanovic",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -413,9 +431,9 @@ const siteData = {
             "away": "Parma",
             "stadium": "Allianz Stadium",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "56'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/496.png",
             "awayLogo": "https://media.api-sports.io/football/teams/523.png",
@@ -426,17 +444,47 @@ const siteData = {
                 "away": 33
             },
             "advice": "Combo Double chance : Juventus or draw and -2.5 goals",
+            "goals": [
+                {
+                    "minute": "62",
+                    "player": "N. Gonzalez",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "T. Koopmeiners",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "10",
-                    "player": "Jhon Lucumi",
+                    "player": "J. Lucumi",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "54",
-                    "player": "Manuel Locatelli",
+                    "player": "M. Locatelli",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "E. Delprato",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "M. Troilo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "A. Konate",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -447,12 +495,12 @@ const siteData = {
             "time": "01:45",
             "home": "Lyon",
             "away": "Le Havre",
-            "stadium": "Parc Olympique Lyonnais",
+            "stadium": "Groupama Stadium",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "62'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/80.png",
             "awayLogo": "https://media.api-sports.io/football/teams/111.png",
             "prediction": "2 - 0",
@@ -462,10 +510,28 @@ const siteData = {
                 "away": 33
             },
             "advice": "Combo Winner : Lyon and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "74",
+                    "player": "A. Samatta",
+                    "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "L. Openda",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "41",
-                    "player": "Ayumu Seko",
+                    "player": "A. Seko",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "F. Doucoure",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -477,10 +543,10 @@ const siteData = {
             "time": "01:45",
             "home": "Lorient",
             "away": "Estac Troyes",
-            "stadium": "Stade du Moustoir",
+            "stadium": "Stade Yves Allainmat-Le Moustoir",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "60'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/97.png",
@@ -495,17 +561,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "29",
-                    "player": "Renaud Ripart",
+                    "player": "R. Ripart",
                     "team": "away"
                 },
                 {
                     "minute": "38",
-                    "player": "Lucas Maronnier",
+                    "player": "L. Maronnier",
                     "team": "away"
                 },
                 {
                     "minute": "51",
-                    "player": "Jean-Victor Makengo",
+                    "player": "J. Makengo",
                     "team": "home"
                 }
             ]
@@ -516,12 +582,12 @@ const siteData = {
             "time": "01:45",
             "home": "Stade Brestois 29",
             "away": "Toulouse",
-            "stadium": "",
+            "stadium": "Stade Francis-Le Ble",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "59'",
-            "homeScore": 1,
-            "awayScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/106.png",
             "awayLogo": "https://media.api-sports.io/football/teams/96.png",
             "prediction": "2 - 1",
@@ -534,31 +600,53 @@ const siteData = {
             "goals": [
                 {
                     "minute": "9",
-                    "player": "Jacen Russell-Rowe",
+                    "player": "J. Russell-Rowe",
                     "team": "away"
                 },
                 {
                     "minute": "18",
-                    "player": "Kamory Doumbia",
+                    "player": "K. Doumbia",
+                    "team": "home"
+                },
+                {
+                    "minute": "62",
+                    "player": "C. Tape",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "L. Ajorque",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "31",
-                    "player": "Bradley Locko",
+                    "player": "B. Locko",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "44",
-                    "player": "Pathé Mboup",
+                    "player": "P. Mboup",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "45+3",
-                    "player": "Cristian Casseres",
+                    "player": "C. Casseres",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "N. Schmidt",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "R. Nicolaisen",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -570,12 +658,12 @@ const siteData = {
             "time": "01:45",
             "home": "Auxerre",
             "away": "Angers",
-            "stadium": "",
+            "stadium": "Stade de l'Abbé-Deschamps",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "59'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/108.png",
             "awayLogo": "https://media.api-sports.io/football/teams/77.png",
             "prediction": "2 - 3",
@@ -588,25 +676,53 @@ const siteData = {
             "goals": [
                 {
                     "minute": "5",
-                    "player": "Branco Van den Boomen",
+                    "player": "B. van den Boomen",
                     "team": "away"
                 },
                 {
                     "minute": "35",
-                    "player": "Remy Labeau Lascary",
+                    "player": "R. Labeau Lascary",
                     "team": "home"
+                },
+                {
+                    "minute": "70",
+                    "player": "H. Djibirin",
+                    "team": "away"
+                },
+                {
+                    "minute": "78",
+                    "player": "A. El Ouazzani",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "28",
-                    "player": "Branco Van den Boomen",
+                    "player": "B. van den Boomen",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "50",
-                    "player": "Elikya Legros",
+                    "player": "E. Legros",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "C. Akpa",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "P. Peter",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "S. Diomande",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -618,12 +734,12 @@ const siteData = {
             "time": "01:45",
             "home": "OH Leuven",
             "away": "Standard Liege",
-            "stadium": "Den Dreef",
+            "stadium": "The King Power AT Den Dreef Stadium",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "60'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/260.png",
             "awayLogo": "https://media.api-sports.io/football/teams/733.png",
             "prediction": "1 - 3",
@@ -636,15 +752,43 @@ const siteData = {
             "goals": [
                 {
                     "minute": "9",
-                    "player": "Casper Nielsen",
+                    "player": "C. Nielsen",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "W. George",
+                    "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "D. Eckert",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
-                    "minute": "51",
-                    "player": "Roggerio Nyakossi",
+                    "minute": "52",
+                    "player": "R. Nyakossi",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "C. Nielsen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "S. Schrijvers",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "M. Epolo",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -655,12 +799,12 @@ const siteData = {
             "time": "01:45",
             "home": "Cercle Brugge",
             "away": "Lommel United",
-            "stadium": "Jan Breydel Stadion",
+            "stadium": "Jan Breydel Stadium",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "61'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/741.png",
             "awayLogo": "https://media.api-sports.io/football/teams/259.png",
             "prediction": "1 - 2",
@@ -670,29 +814,42 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Lommel United",
+            "goals": [
+                {
+                    "minute": "61",
+                    "player": "T. Reyners",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "13",
-                    "player": "Timothy Eyoma",
+                    "player": "T. Eyoma",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "27",
-                    "player": "Dries Wouters",
+                    "player": "D. Wouters",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "32",
-                    "player": "Geoffrey Kondo",
+                    "player": "G. Kondo",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "34",
-                    "player": "Shawn Adewoye",
+                    "player": "S. Adewoye",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "K. Kouassi",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -703,12 +860,12 @@ const siteData = {
             "time": "02:00",
             "home": "PEC Zwolle",
             "away": "NEC Nijmegen",
-            "stadium": "",
+            "stadium": "Mac3Park Stadion",
             "round": "Pekan 4",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/193.png",
             "awayLogo": "https://media.api-sports.io/football/teams/413.png",
             "prediction": "1 - 2",
@@ -721,18 +878,49 @@ const siteData = {
             "goals": [
                 {
                     "minute": "5",
-                    "player": "Tjaronn Chery",
+                    "player": "T. Chery",
                     "team": "away"
                 },
                 {
                     "minute": "23",
-                    "player": "Tjaronn Chery",
+                    "player": "T. Chery",
                     "team": "away"
                 },
                 {
                     "minute": "45+1",
-                    "player": "Koen Kostons",
+                    "player": "K. Kostons",
                     "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "P. Schuurs",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "63",
+                    "player": "A. Kabar",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "D. Tadic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "T. Storm",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "O. Aertssen",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -742,12 +930,12 @@ const siteData = {
             "time": "02:30",
             "home": "Sevilla",
             "away": "Atletico Madrid",
-            "stadium": "",
+            "stadium": "Ramón Sánchez Pizjuán",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "34'",
-            "homeScore": 0,
-            "awayScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/536.png",
             "awayLogo": "https://media.api-sports.io/football/teams/530.png",
             "prediction": "2 - 3",
@@ -760,13 +948,49 @@ const siteData = {
             "goals": [
                 {
                     "minute": "4",
-                    "player": "Alejandro Baena Rodríguez",
+                    "player": "A. Baena",
                     "team": "away"
                 },
                 {
                     "minute": "26",
-                    "player": "Ademola Lookman",
+                    "player": "A. Lookman",
                     "team": "away"
+                },
+                {
+                    "minute": "33",
+                    "player": "A. Baena",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "M. Sierra",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+4",
+                    "player": "M. Llorente",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "I. Romero",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "G. Suazo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "M. Pubill",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -778,7 +1002,10 @@ const siteData = {
             "away": "Chicago Fire",
             "stadium": "Lumen Field",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1607.png",
             "prediction": "1 - 2",
@@ -787,7 +1014,32 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Chicago Fire"
+            "advice": "Double chance : draw or Chicago Fire",
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "D. Joveljic",
+                    "team": "home"
+                },
+                {
+                    "minute": "38",
+                    "player": "M. Haile-Selassie",
+                    "team": "away"
+                },
+                {
+                    "minute": "48",
+                    "player": "D. Joveljic",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "51",
+                    "player": "S. Brunell",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -797,7 +1049,10 @@ const siteData = {
             "away": "Venados FC",
             "stadium": "Estadio Tlahuicole",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
             "prediction": "2 - 3",
@@ -2059,6 +2314,17 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Juventus",
+                "logo": "https://media.api-sports.io/football/teams/496.png",
+                "played": 2,
+                "win": 2,
+                "draw": 0,
+                "lose": 0,
+                "gd": 3,
+                "points": 6
+            },
+            {
+                "rank": 3,
                 "team": "Udinese",
                 "logo": "https://media.api-sports.io/football/teams/494.png",
                 "played": 2,
@@ -2069,7 +2335,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "AS Roma",
                 "logo": "https://media.api-sports.io/football/teams/497.png",
                 "played": 1,
@@ -2080,7 +2346,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Inter",
                 "logo": "https://media.api-sports.io/football/teams/505.png",
                 "played": 1,
@@ -2091,7 +2357,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Napoli",
                 "logo": "https://media.api-sports.io/football/teams/492.png",
                 "played": 1,
@@ -2102,7 +2368,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Lecce",
                 "logo": "https://media.api-sports.io/football/teams/867.png",
                 "played": 1,
@@ -2113,7 +2379,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Atalanta",
                 "logo": "https://media.api-sports.io/football/teams/499.png",
                 "played": 1,
@@ -2124,20 +2390,9 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Cagliari",
                 "logo": "https://media.api-sports.io/football/teams/490.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
-            },
-            {
-                "rank": 9,
-                "team": "Juventus",
-                "logo": "https://media.api-sports.io/football/teams/496.png",
                 "played": 1,
                 "win": 1,
                 "draw": 0,
@@ -2191,17 +2446,6 @@ const siteData = {
             },
             {
                 "rank": 14,
-                "team": "Parma",
-                "logo": "https://media.api-sports.io/football/teams/523.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
-            },
-            {
-                "rank": 15,
                 "team": "Bologna",
                 "logo": "https://media.api-sports.io/football/teams/500.png",
                 "played": 1,
@@ -2212,7 +2456,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 16,
+                "rank": 15,
                 "team": "Genoa",
                 "logo": "https://media.api-sports.io/football/teams/495.png",
                 "played": 1,
@@ -2223,7 +2467,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 17,
+                "rank": 16,
                 "team": "Torino",
                 "logo": "https://media.api-sports.io/football/teams/503.png",
                 "played": 2,
@@ -2231,6 +2475,17 @@ const siteData = {
                 "draw": 0,
                 "lose": 2,
                 "gd": -2,
+                "points": 0
+            },
+            {
+                "rank": 17,
+                "team": "Parma",
+                "logo": "https://media.api-sports.io/football/teams/523.png",
+                "played": 2,
+                "win": 0,
+                "draw": 0,
+                "lose": 2,
+                "gd": -3,
                 "points": 0
             },
             {
@@ -2481,6 +2736,28 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Lyon",
+                "logo": "https://media.api-sports.io/football/teams/80.png",
+                "played": 2,
+                "win": 1,
+                "draw": 1,
+                "lose": 0,
+                "gd": 2,
+                "points": 4
+            },
+            {
+                "rank": 3,
+                "team": "Estac Troyes",
+                "logo": "https://media.api-sports.io/football/teams/110.png",
+                "played": 2,
+                "win": 1,
+                "draw": 1,
+                "lose": 0,
+                "gd": 1,
+                "points": 4
+            },
+            {
+                "rank": 4,
                 "team": "Marseille",
                 "logo": "https://media.api-sports.io/football/teams/81.png",
                 "played": 1,
@@ -2491,7 +2768,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 3,
+                "rank": 5,
                 "team": "Lens",
                 "logo": "https://media.api-sports.io/football/teams/116.png",
                 "played": 2,
@@ -2502,18 +2779,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 4,
-                "team": "Lyon",
-                "logo": "https://media.api-sports.io/football/teams/80.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 2,
-                "points": 3
-            },
-            {
-                "rank": 5,
+                "rank": 6,
                 "team": "Monaco",
                 "logo": "https://media.api-sports.io/football/teams/91.png",
                 "played": 1,
@@ -2524,7 +2790,18 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 6,
+                "rank": 7,
+                "team": "Angers",
+                "logo": "https://media.api-sports.io/football/teams/77.png",
+                "played": 2,
+                "win": 1,
+                "draw": 0,
+                "lose": 1,
+                "gd": 0,
+                "points": 3
+            },
+            {
+                "rank": 8,
                 "team": "Strasbourg",
                 "logo": "https://media.api-sports.io/football/teams/95.png",
                 "played": 2,
@@ -2535,7 +2812,18 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 7,
+                "rank": 9,
+                "team": "Stade Brestois 29",
+                "logo": "https://media.api-sports.io/football/teams/106.png",
+                "played": 2,
+                "win": 0,
+                "draw": 2,
+                "lose": 0,
+                "gd": 0,
+                "points": 2
+            },
+            {
+                "rank": 10,
                 "team": "Paris Saint Germain",
                 "logo": "https://media.api-sports.io/football/teams/85.png",
                 "played": 2,
@@ -2546,18 +2834,7 @@ const siteData = {
                 "points": 2
             },
             {
-                "rank": 8,
-                "team": "Stade Brestois 29",
-                "logo": "https://media.api-sports.io/football/teams/106.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
-            },
-            {
-                "rank": 9,
+                "rank": 11,
                 "team": "Le Mans",
                 "logo": "https://media.api-sports.io/football/teams/1298.png",
                 "played": 1,
@@ -2568,7 +2845,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 10,
+                "rank": 12,
                 "team": "Rennes",
                 "logo": "https://media.api-sports.io/football/teams/94.png",
                 "played": 1,
@@ -2579,18 +2856,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 11,
-                "team": "Lorient",
-                "logo": "https://media.api-sports.io/football/teams/97.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
-            },
-            {
-                "rank": 12,
+                "rank": 13,
                 "team": "Nice",
                 "logo": "https://media.api-sports.io/football/teams/84.png",
                 "played": 1,
@@ -2601,7 +2867,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Paris FC",
                 "logo": "https://media.api-sports.io/football/teams/114.png",
                 "played": 1,
@@ -2612,58 +2878,47 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 14,
-                "team": "Estac Troyes",
-                "logo": "https://media.api-sports.io/football/teams/110.png",
-                "played": 1,
+                "rank": 15,
+                "team": "Lorient",
+                "logo": "https://media.api-sports.io/football/teams/97.png",
+                "played": 2,
                 "win": 0,
                 "draw": 1,
-                "lose": 0,
-                "gd": 0,
+                "lose": 1,
+                "gd": -1,
                 "points": 1
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "team": "Le Havre",
                 "logo": "https://media.api-sports.io/football/teams/111.png",
-                "played": 1,
+                "played": 2,
                 "win": 0,
-                "draw": 0,
+                "draw": 1,
                 "lose": 1,
                 "gd": -1,
-                "points": 0
-            },
-            {
-                "rank": 16,
-                "team": "Toulouse",
-                "logo": "https://media.api-sports.io/football/teams/96.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -2,
-                "points": 0
+                "points": 1
             },
             {
                 "rank": 17,
-                "team": "Angers",
-                "logo": "https://media.api-sports.io/football/teams/77.png",
-                "played": 1,
+                "team": "Toulouse",
+                "logo": "https://media.api-sports.io/football/teams/96.png",
+                "played": 2,
                 "win": 0,
-                "draw": 0,
+                "draw": 1,
                 "lose": 1,
                 "gd": -2,
-                "points": 0
+                "points": 1
             },
             {
                 "rank": 18,
                 "team": "Auxerre",
                 "logo": "https://media.api-sports.io/football/teams/108.png",
-                "played": 1,
+                "played": 2,
                 "win": 0,
                 "draw": 0,
-                "lose": 1,
-                "gd": -3,
+                "lose": 2,
+                "gd": -5,
                 "points": 0
             }
         ],
@@ -2868,7 +3123,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 03:03 WIB",
+    "standingsUpdated": "30/08/2026 05:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4324,17 +4579,31 @@ const siteData = {
                 "since": "2026-08-28"
             }
         ],
+        "deportivo-la-coruna": [
+            {
+                "player": "N. Carrillo",
+                "photo": "https://media.api-sports.io/football/players/628615.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "Y. Hernandez",
+                "photo": "https://media.api-sports.io/football/players/295880.png",
+                "reason": "Groin Injury",
+                "since": "2026-08-17"
+            },
+            {
+                "player": "A. Traore",
+                "photo": "https://media.api-sports.io/football/players/18753.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
+            }
+        ],
         "elche": [
             {
                 "player": "A. Boayar",
                 "photo": "https://media.api-sports.io/football/players/439293.png",
                 "reason": "Muscle Injury",
-                "since": "2026-08-28"
-            },
-            {
-                "player": "Y. Santiago",
-                "photo": "https://media.api-sports.io/football/players/284415.png",
-                "reason": "Knee Injury",
                 "since": "2026-08-28"
             },
             {
@@ -4348,6 +4617,128 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/358600.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-17"
+            },
+            {
+                "player": "Y. Santiago",
+                "photo": "https://media.api-sports.io/football/players/284415.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-28"
+            }
+        ],
+        "espanyol": [
+            {
+                "player": "K. Garcia",
+                "photo": "https://media.api-sports.io/football/players/47396.png",
+                "reason": "Hamstring Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "J. Puado",
+                "photo": "https://media.api-sports.io/football/players/47349.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "L. Cabrera",
+                "photo": "https://media.api-sports.io/football/players/47249.png",
+                "reason": "Red Card",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "B. Zaragoza",
+                "photo": "https://media.api-sports.io/football/players/286639.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            }
+        ],
+        "levante": [
+            {
+                "player": "R. Brugue",
+                "photo": "https://media.api-sports.io/football/players/47225.png",
+                "reason": "Red Card",
+                "since": "2026-08-16"
+            },
+            {
+                "player": "A. Primo",
+                "photo": "https://media.api-sports.io/football/players/338295.png",
+                "reason": "Shoulder Injury",
+                "since": "2026-08-29"
+            }
+        ],
+        "real-sociedad": [
+            {
+                "player": "P. Marin",
+                "photo": "https://media.api-sports.io/football/players/290106.png",
+                "reason": "Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "A. Odriozola",
+                "photo": "https://media.api-sports.io/football/players/737.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "J. Pacheco",
+                "photo": "https://media.api-sports.io/football/players/182546.png",
+                "reason": "Coach's decision",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "J. Gorrotxategi",
+                "photo": "https://media.api-sports.io/football/players/287654.png",
+                "reason": "Groin Injury",
+                "since": "2026-08-26"
+            },
+            {
+                "player": "G. Guedes",
+                "photo": "https://media.api-sports.io/football/players/925.png",
+                "reason": "Injury",
+                "since": "2026-08-21"
+            }
+        ],
+        "real-betis": [
+            {
+                "player": "D. Conde",
+                "photo": "https://media.api-sports.io/football/players/122956.png",
+                "reason": "Shoulder Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "G. Lo Celso",
+                "photo": "https://media.api-sports.io/football/players/1578.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "J. Morante",
+                "photo": "https://media.api-sports.io/football/players/544644.png",
+                "reason": "Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "G. Petit",
+                "photo": "https://media.api-sports.io/football/players/414442.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "A. Ruibal",
+                "photo": "https://media.api-sports.io/football/players/47119.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "A. Ezzalzouli",
+                "photo": "https://media.api-sports.io/football/players/181421.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-25"
+            },
+            {
+                "player": "T. Parrott",
+                "photo": "https://media.api-sports.io/football/players/149551.png",
+                "reason": "Inactive",
+                "since": "2026-08-21"
             }
         ],
         "barcelona": [
@@ -4522,38 +4913,6 @@ const siteData = {
                 "since": "2026-08-30"
             }
         ],
-        "real-sociedad": [
-            {
-                "player": "J. Gorrotxategi",
-                "photo": "https://media.api-sports.io/football/players/287654.png",
-                "reason": "Groin Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "P. Marin",
-                "photo": "https://media.api-sports.io/football/players/290106.png",
-                "reason": "Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Odriozola",
-                "photo": "https://media.api-sports.io/football/players/737.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "J. Pacheco",
-                "photo": "https://media.api-sports.io/football/players/182546.png",
-                "reason": "Coach's decision",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "G. Guedes",
-                "photo": "https://media.api-sports.io/football/players/925.png",
-                "reason": "Injury",
-                "since": "2026-08-21"
-            }
-        ],
         "valencia": [
             {
                 "player": "S. Canos",
@@ -4616,50 +4975,6 @@ const siteData = {
                 "since": "2026-08-30"
             }
         ],
-        "real-betis": [
-            {
-                "player": "D. Conde",
-                "photo": "https://media.api-sports.io/football/players/122956.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Ezzalzouli",
-                "photo": "https://media.api-sports.io/football/players/181421.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-25"
-            },
-            {
-                "player": "G. Lo Celso",
-                "photo": "https://media.api-sports.io/football/players/1578.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "J. Morante",
-                "photo": "https://media.api-sports.io/football/players/544644.png",
-                "reason": "Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "G. Petit",
-                "photo": "https://media.api-sports.io/football/players/414442.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Ruibal",
-                "photo": "https://media.api-sports.io/football/players/47119.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "T. Parrott",
-                "photo": "https://media.api-sports.io/football/players/149551.png",
-                "reason": "Inactive",
-                "since": "2026-08-21"
-            }
-        ],
         "malaga": [
             {
                 "player": "F. Calero",
@@ -4696,40 +5011,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/182786.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-19"
-            }
-        ],
-        "deportivo-la-coruna": [
-            {
-                "player": "N. Carrillo",
-                "photo": "https://media.api-sports.io/football/players/628615.png",
-                "reason": "Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "A. Traore",
-                "photo": "https://media.api-sports.io/football/players/18753.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "Y. Hernandez",
-                "photo": "https://media.api-sports.io/football/players/295880.png",
-                "reason": "Groin Injury",
-                "since": "2026-08-17"
-            }
-        ],
-        "levante": [
-            {
-                "player": "A. Primo",
-                "photo": "https://media.api-sports.io/football/players/338295.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "R. Brugue",
-                "photo": "https://media.api-sports.io/football/players/47225.png",
-                "reason": "Red Card",
-                "since": "2026-08-16"
             }
         ],
         "atletico-madrid": [
@@ -4792,30 +5073,266 @@ const siteData = {
                 "since": "2026-08-30"
             }
         ],
-        "espanyol": [
+        "juventus": [
             {
-                "player": "L. Cabrera",
-                "photo": "https://media.api-sports.io/football/players/47249.png",
+                "player": "W. McKennie",
+                "photo": "https://media.api-sports.io/football/players/415.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "K. Thuram",
+                "photo": "https://media.api-sports.io/football/players/116.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "K. Yildiz",
+                "photo": "https://media.api-sports.io/football/players/339883.png",
+                "reason": "Foot Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "E. Zhegrova",
+                "photo": "https://media.api-sports.io/football/players/48392.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "M. Di Gregorio",
+                "photo": "https://media.api-sports.io/football/players/30670.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-23"
+            },
+            {
+                "player": "J. Ekhator",
+                "photo": "https://media.api-sports.io/football/players/451504.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-23"
+            },
+            {
+                "player": "F. Gatti",
+                "photo": "https://media.api-sports.io/football/players/268341.png",
+                "reason": "Injury",
+                "since": "2026-08-23"
+            }
+        ],
+        "parma": [
+            {
+                "player": "H. Nicolussi Caviglia",
+                "photo": "https://media.api-sports.io/football/players/881.png",
+                "reason": "Groin Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "S. Britschgi",
+                "photo": "https://media.api-sports.io/football/players/499380.png",
+                "reason": "Yellow Cards",
+                "since": "2026-08-22"
+            },
+            {
+                "player": "A. Joujou",
+                "photo": "https://media.api-sports.io/football/players/289304.png",
+                "reason": "Inactive",
+                "since": "2026-08-22"
+            }
+        ],
+        "fiorentina": [
+            {
+                "player": "M. Kean",
+                "photo": "https://media.api-sports.io/football/players/877.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "F. Parisi",
+                "photo": "https://media.api-sports.io/football/players/136087.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "R. Sottil",
+                "photo": "https://media.api-sports.io/football/players/31507.png",
+                "reason": "Back Injury",
+                "since": "2026-08-29"
+            }
+        ],
+        "frosinone": [
+            {
+                "player": "F. Ghedjemis",
+                "photo": "https://media.api-sports.io/football/players/334915.png",
+                "reason": "Calf Injury",
+                "since": "2026-08-29"
+            }
+        ],
+        "monza": [
+            {
+                "player": "P. Ciurria",
+                "photo": "https://media.api-sports.io/football/players/31532.png",
+                "reason": "Inactive",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "M. Pessina",
+                "photo": "https://media.api-sports.io/football/players/30436.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "I. Toure",
+                "photo": "https://media.api-sports.io/football/players/56293.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "E. Akinsanmiro",
+                "photo": "https://media.api-sports.io/football/players/408635.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-22"
+            },
+            {
+                "player": "L. Colombo",
+                "photo": "https://media.api-sports.io/football/players/394438.png",
+                "reason": "Injury",
+                "since": "2026-08-22"
+            },
+            {
+                "player": "D. Mota",
+                "photo": "https://media.api-sports.io/football/players/30603.png",
+                "reason": "Suspended",
+                "since": "2026-08-22"
+            },
+            {
+                "player": "D. Thiam",
+                "photo": "https://media.api-sports.io/football/players/31191.png",
+                "reason": "Yellow Cards",
+                "since": "2026-08-22"
+            }
+        ],
+        "udinese": [
+            {
+                "player": "G. Chakvetadze",
+                "photo": "https://media.api-sports.io/football/players/8481.png",
+                "reason": "Foot Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "C. Kabasele",
+                "photo": "https://media.api-sports.io/football/players/18797.png",
                 "reason": "Red Card",
                 "since": "2026-08-29"
             },
             {
-                "player": "K. Garcia",
-                "photo": "https://media.api-sports.io/football/players/47396.png",
-                "reason": "Hamstring Injury",
+                "player": "M. Palma",
+                "photo": "https://media.api-sports.io/football/players/422156.png",
+                "reason": "Muscle Injury",
                 "since": "2026-08-29"
             },
             {
-                "player": "J. Puado",
-                "photo": "https://media.api-sports.io/football/players/47349.png",
+                "player": "N. Zaniolo",
+                "photo": "https://media.api-sports.io/football/players/786.png",
+                "reason": "Thigh Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "A. Zanoli",
+                "photo": "https://media.api-sports.io/football/players/162907.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-29"
             },
             {
-                "player": "B. Zaragoza",
-                "photo": "https://media.api-sports.io/football/players/286639.png",
+                "player": "A. Buksa",
+                "photo": "https://media.api-sports.io/football/players/40594.png",
+                "reason": "Inactive",
+                "since": "2026-08-22"
+            }
+        ],
+        "sassuolo": [
+            {
+                "player": "D. Boloca",
+                "photo": "https://media.api-sports.io/football/players/291780.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "F. Cande",
+                "photo": "https://media.api-sports.io/football/players/41371.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-29"
+            },
+            {
+                "player": "I. Kone",
+                "photo": "https://media.api-sports.io/football/players/328046.png",
+                "reason": "Broken Leg",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "Y. Paz",
+                "photo": "https://media.api-sports.io/football/players/59513.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "E. Pieragnolo",
+                "photo": "https://media.api-sports.io/football/players/342055.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "S. Walukiewicz",
+                "photo": "https://media.api-sports.io/football/players/40582.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "D. Berardi",
+                "photo": "https://media.api-sports.io/football/players/30537.png",
+                "reason": "Ankle Injury",
+                "since": "2026-08-23"
+            },
+            {
+                "player": "A. Pinamonti",
+                "photo": "https://media.api-sports.io/football/players/31094.png",
+                "reason": "Injury",
+                "since": "2026-08-23"
+            }
+        ],
+        "torino": [
+            {
+                "player": "C. Biraghi",
+                "photo": "https://media.api-sports.io/football/players/30396.png",
+                "reason": "Illness",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "C. Casadei",
+                "photo": "https://media.api-sports.io/football/players/270507.png",
+                "reason": "Rest",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "F. Israel",
+                "photo": "https://media.api-sports.io/football/players/56266.png",
+                "reason": "Shoulder Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "P. Pellegri",
+                "photo": "https://media.api-sports.io/football/players/123.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "F. Anjorin",
+                "photo": "https://media.api-sports.io/football/players/138777.png",
+                "reason": "Hip Injury",
+                "since": "2026-08-23"
+            },
+            {
+                "player": "E. Comert",
+                "photo": "https://media.api-sports.io/football/players/48372.png",
+                "reason": "Red Card",
+                "since": "2026-08-23"
             }
         ],
         "ac-milan": [
@@ -4888,26 +5405,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/782.png",
                 "reason": "Thigh Injury",
                 "since": "2026-08-31"
-            }
-        ],
-        "fiorentina": [
-            {
-                "player": "F. Parisi",
-                "photo": "https://media.api-sports.io/football/players/136087.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "R. Sottil",
-                "photo": "https://media.api-sports.io/football/players/31507.png",
-                "reason": "Back Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "M. Kean",
-                "photo": "https://media.api-sports.io/football/players/877.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-29"
             }
         ],
         "bologna": [
@@ -4994,138 +5491,6 @@ const siteData = {
                 "since": "2026-08-31"
             }
         ],
-        "sassuolo": [
-            {
-                "player": "D. Berardi",
-                "photo": "https://media.api-sports.io/football/players/30537.png",
-                "reason": "Ankle Injury",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "D. Boloca",
-                "photo": "https://media.api-sports.io/football/players/291780.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "F. Cande",
-                "photo": "https://media.api-sports.io/football/players/41371.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "I. Kone",
-                "photo": "https://media.api-sports.io/football/players/328046.png",
-                "reason": "Broken Leg",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "Y. Paz",
-                "photo": "https://media.api-sports.io/football/players/59513.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "E. Pieragnolo",
-                "photo": "https://media.api-sports.io/football/players/342055.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Pinamonti",
-                "photo": "https://media.api-sports.io/football/players/31094.png",
-                "reason": "Injury",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "S. Walukiewicz",
-                "photo": "https://media.api-sports.io/football/players/40582.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            }
-        ],
-        "torino": [
-            {
-                "player": "F. Anjorin",
-                "photo": "https://media.api-sports.io/football/players/138777.png",
-                "reason": "Hip Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "E. Comert",
-                "photo": "https://media.api-sports.io/football/players/48372.png",
-                "reason": "Red Card",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "F. Israel",
-                "photo": "https://media.api-sports.io/football/players/56266.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "P. Pellegri",
-                "photo": "https://media.api-sports.io/football/players/123.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "C. Biraghi",
-                "photo": "https://media.api-sports.io/football/players/30396.png",
-                "reason": "Illness",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "C. Casadei",
-                "photo": "https://media.api-sports.io/football/players/270507.png",
-                "reason": "Rest",
-                "since": "2026-08-29"
-            }
-        ],
-        "juventus": [
-            {
-                "player": "M. Di Gregorio",
-                "photo": "https://media.api-sports.io/football/players/30670.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "J. Ekhator",
-                "photo": "https://media.api-sports.io/football/players/451504.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "F. Gatti",
-                "photo": "https://media.api-sports.io/football/players/268341.png",
-                "reason": "Injury",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "W. McKennie",
-                "photo": "https://media.api-sports.io/football/players/415.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "K. Thuram",
-                "photo": "https://media.api-sports.io/football/players/116.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "K. Yildiz",
-                "photo": "https://media.api-sports.io/football/players/339883.png",
-                "reason": "Foot Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "E. Zhegrova",
-                "photo": "https://media.api-sports.io/football/players/48392.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            }
-        ],
         "lecce": [
             {
                 "player": "L. Banda",
@@ -5192,26 +5557,6 @@ const siteData = {
                 "since": "2026-08-30"
             }
         ],
-        "parma": [
-            {
-                "player": "S. Britschgi",
-                "photo": "https://media.api-sports.io/football/players/499380.png",
-                "reason": "Yellow Cards",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "A. Joujou",
-                "photo": "https://media.api-sports.io/football/players/289304.png",
-                "reason": "Inactive",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "H. Nicolussi Caviglia",
-                "photo": "https://media.api-sports.io/football/players/881.png",
-                "reason": "Groin Injury",
-                "since": "2026-08-29"
-            }
-        ],
         "cagliari": [
             {
                 "player": "A. Albarracin",
@@ -5256,102 +5601,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/436238.png",
                 "reason": "Injury",
                 "since": "2026-08-22"
-            }
-        ],
-        "monza": [
-            {
-                "player": "E. Akinsanmiro",
-                "photo": "https://media.api-sports.io/football/players/408635.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "P. Ciurria",
-                "photo": "https://media.api-sports.io/football/players/31532.png",
-                "reason": "Inactive",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "L. Colombo",
-                "photo": "https://media.api-sports.io/football/players/394438.png",
-                "reason": "Injury",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "D. Mota",
-                "photo": "https://media.api-sports.io/football/players/30603.png",
-                "reason": "Suspended",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "M. Pessina",
-                "photo": "https://media.api-sports.io/football/players/30436.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "D. Thiam",
-                "photo": "https://media.api-sports.io/football/players/31191.png",
-                "reason": "Yellow Cards",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "I. Toure",
-                "photo": "https://media.api-sports.io/football/players/56293.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            }
-        ],
-        "udinese": [
-            {
-                "player": "A. Buksa",
-                "photo": "https://media.api-sports.io/football/players/40594.png",
-                "reason": "Inactive",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "G. Chakvetadze",
-                "photo": "https://media.api-sports.io/football/players/8481.png",
-                "reason": "Foot Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "C. Kabasele",
-                "photo": "https://media.api-sports.io/football/players/18797.png",
-                "reason": "Red Card",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "A. Zanoli",
-                "photo": "https://media.api-sports.io/football/players/162907.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "M. Palma",
-                "photo": "https://media.api-sports.io/football/players/422156.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "N. Zaniolo",
-                "photo": "https://media.api-sports.io/football/players/786.png",
-                "reason": "Thigh Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "I. Gueye",
-                "photo": "https://media.api-sports.io/football/players/434410.png",
-                "reason": "Injury",
-                "since": "2026-08-29"
-            }
-        ],
-        "frosinone": [
-            {
-                "player": "F. Ghedjemis",
-                "photo": "https://media.api-sports.io/football/players/334915.png",
-                "reason": "Calf Injury",
-                "since": "2026-08-29"
             }
         ],
         "borussia-dortmund": [
