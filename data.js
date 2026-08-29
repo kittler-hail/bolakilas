@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T03:03:22.341Z.
+   API-Football v3) pada 2026-08-29T04:03:05.508Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -92,7 +92,7 @@ const siteData = {
             "time": "00:00",
             "home": "Racing Santander",
             "away": "Elche",
-            "stadium": "Estadio El Sardinero",
+            "stadium": "El Sardinero",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -328,7 +328,7 @@ const siteData = {
             "time": "01:30",
             "home": "Gençlerbirliği S.K.",
             "away": "Erzurumspor FK",
-            "stadium": "Eryaman Stadium",
+            "stadium": "Eryaman Stadyumu",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -768,28 +768,6 @@ const siteData = {
             "league": "Liga MX",
             "date": "2026-08-29",
             "time": "08:00",
-            "home": "Atlante FC",
-            "away": "Leon",
-            "stadium": "Estadio Banorte",
-            "round": "Apertura - 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Leon and -3.5 goals"
-        },
-        {
-            "league": "Liga MX",
-            "date": "2026-08-29",
-            "time": "08:00",
             "home": "Necaxa",
             "away": "Cruz Azul",
             "stadium": "Estadio Victoria",
@@ -875,6 +853,60 @@ const siteData = {
             ]
         },
         {
+            "league": "Liga MX",
+            "date": "2026-08-29",
+            "time": "08:00",
+            "home": "Atlante FC",
+            "away": "Leon",
+            "stadium": "Estadio Banorte",
+            "round": "Apertura - 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Leon and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "81",
+                    "player": "A. Alvarado",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Martin Sarrafiore",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "71",
+                    "player": "S. Vegas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "L. Puente",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "E. Pizzuto",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Liga de Expansion MX",
             "date": "2026-08-29",
             "time": "08:00",
@@ -882,8 +914,8 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Dorados",
             "round": "Apertura - 6",
-            "statusCode": "1H",
-            "minuteDisplay": "43'",
+            "statusCode": "2H",
+            "minuteDisplay": "82'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
@@ -900,6 +932,26 @@ const siteData = {
                     "minute": "4",
                     "player": "R. Lopez Aburto",
                     "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "F. Pena",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "E. Gutierrez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "R. Castellanos",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -971,7 +1023,10 @@ const siteData = {
             "away": "U.N.A.M. - Pumas",
             "stadium": "Estadio Caliente",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2286.png",
             "prediction": "1 - 2",
@@ -980,7 +1035,21 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or U.N.A.M. - Pumas"
+            "advice": "Double chance : draw or U.N.A.M. - Pumas",
+            "cards": [
+                {
+                    "minute": "12",
+                    "player": "A. Carrasquilla",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "I. Tona",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Premier League",
@@ -2776,7 +2845,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 10:03 WIB",
+    "standingsUpdated": "29/08/2026 11:03 WIB",
     "topScorers": {
         "Premier League": [
             {
