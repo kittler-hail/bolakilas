@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T13:03:04.255Z.
+   API-Football v3) pada 2026-08-29T14:03:21.277Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -243,78 +243,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Super Lig",
-            "date": "2026-08-29",
-            "time": "01:30",
-            "home": "Gençlerbirliği S.K.",
-            "away": "Erzurumspor FK",
-            "stadium": "Eryaman Stadyumu",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
-            "prediction": "3 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Winner : Gençlerbirliği S.K.",
-            "goals": [
-                {
-                    "minute": "55",
-                    "player": "E. Tozlu",
-                    "team": "away"
-                },
-                {
-                    "minute": "66",
-                    "player": "A. Traore",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45+1",
-                    "player": "Mustafa Yumlu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "60",
-                    "player": "Pedro Pereira",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "68",
-                    "player": "Oğulcan Ülgün",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "82",
-                    "player": "Elisha Owusu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Ousmane Diabate",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+6",
-                    "player": "Nihad Mujakić",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Bundesliga",
             "date": "2026-08-29",
             "time": "01:30",
@@ -389,6 +317,78 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "Grischa Prömel",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-08-29",
+            "time": "01:30",
+            "home": "Gençlerbirliği S.K.",
+            "away": "Erzurumspor FK",
+            "stadium": "Eryaman Stadyumu",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
+            "prediction": "3 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Winner : Gençlerbirliği S.K.",
+            "goals": [
+                {
+                    "minute": "55",
+                    "player": "E. Tozlu",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "A. Traore",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "Mustafa Yumlu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Pedro Pereira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Oğulcan Ülgün",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "Elisha Owusu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Ousmane Diabate",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Nihad Mujakić",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1071,9 +1071,9 @@ const siteData = {
             "away": "Nottingham Forest",
             "stadium": "Anfield",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "72'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/40.png",
             "awayLogo": "https://media.api-sports.io/football/teams/65.png",
@@ -1099,6 +1099,11 @@ const siteData = {
                     "minute": "70",
                     "player": "Morgan Gibbs-White",
                     "team": "away"
+                },
+                {
+                    "minute": "82",
+                    "player": "Víctor Muñoz",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1131,6 +1136,12 @@ const siteData = {
                     "player": "Alisson Becker",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Ronald Araujo",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1142,7 +1153,10 @@ const siteData = {
             "away": "SC Paderborn 07",
             "stadium": "Mewa Arena",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "33'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/164.png",
             "awayLogo": "https://media.api-sports.io/football/teams/185.png",
             "prediction": "1 - 0",
@@ -1151,7 +1165,14 @@ const siteData = {
                 "draw": 50,
                 "away": 33
             },
-            "advice": "Double chance : FSV Mainz 05 or draw"
+            "advice": "Double chance : FSV Mainz 05 or draw",
+            "goals": [
+                {
+                    "minute": "2",
+                    "player": "Nadiem Amiri",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -1161,7 +1182,10 @@ const siteData = {
             "away": "Borussia Mönchengladbach",
             "stadium": "Red Bull Arena",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "33'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/173.png",
             "awayLogo": "https://media.api-sports.io/football/teams/163.png",
             "prediction": "1 - 0",
@@ -1170,7 +1194,14 @@ const siteData = {
                 "draw": 50,
                 "away": 33
             },
-            "advice": "Double chance : RB Leipzig or draw"
+            "advice": "Double chance : RB Leipzig or draw",
+            "goals": [
+                {
+                    "minute": "25",
+                    "player": "Ridle Baku",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -1180,7 +1211,10 @@ const siteData = {
             "away": "Eintracht Frankfurt",
             "stadium": "",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "33'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/182.png",
             "awayLogo": "https://media.api-sports.io/football/teams/169.png",
             "prediction": "1 - 0",
@@ -1189,7 +1223,44 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Union Berlin or draw"
+            "advice": "Double chance : Union Berlin or draw",
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "Emmanuel Latte Lath",
+                    "team": "home"
+                },
+                {
+                    "minute": "10",
+                    "player": "Younes Ebnoutalib",
+                    "team": "away"
+                },
+                {
+                    "minute": "11",
+                    "player": "Younes Ebnoutalib",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "11",
+                    "player": "Younes Ebnoutalib",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "13",
+                    "player": "Jeremiaha Maluze",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "23",
+                    "player": "Michel Aebischer",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -1199,7 +1270,10 @@ const siteData = {
             "away": "1899 Hoffenheim",
             "stadium": "RheinEnergieStadion",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "31'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/192.png",
             "awayLogo": "https://media.api-sports.io/football/teams/167.png",
             "prediction": "1 - 0",
@@ -1208,7 +1282,14 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : 1. FC Köln or draw"
+            "advice": "Double chance : 1. FC Köln or draw",
+            "goals": [
+                {
+                    "minute": "27",
+                    "player": "Adam Daghim",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -1218,7 +1299,10 @@ const siteData = {
             "away": "Bayer Leverkusen",
             "stadium": "Waldstadion Kaiserlinde",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "33'",
+            "homeScore": 2,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1660.png",
             "awayLogo": "https://media.api-sports.io/football/teams/168.png",
             "prediction": "0 - 1",
@@ -1227,7 +1311,27 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Bayer Leverkusen"
+            "advice": "Double chance : draw or Bayer Leverkusen",
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "Lukas Petkov",
+                    "team": "home"
+                },
+                {
+                    "minute": "9",
+                    "player": "Cole Campbell",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "29",
+                    "player": "Maximilian Rohr",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Premier League",
@@ -1237,7 +1341,10 @@ const siteData = {
             "away": "Everton",
             "stadium": "Vitality Stadium",
             "round": "Pekan 2",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/35.png",
             "awayLogo": "https://media.api-sports.io/football/teams/45.png",
             "prediction": "1 - 2",
@@ -1256,7 +1363,10 @@ const siteData = {
             "away": "Hull City",
             "stadium": "Coventry Building Society Arena",
             "round": "Pekan 2",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1346.png",
             "awayLogo": "https://media.api-sports.io/football/teams/64.png",
             "prediction": "0 - 3",
@@ -1275,7 +1385,10 @@ const siteData = {
             "away": "KV Mechelen",
             "stadium": "Easi Arena",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
             "awayLogo": "https://media.api-sports.io/football/teams/266.png",
             "prediction": "2 - 3",
@@ -1294,7 +1407,10 @@ const siteData = {
             "away": "Falkirk",
             "stadium": "Celtic Park",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/247.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1389.png",
             "prediction": "2 - 0",
@@ -1313,7 +1429,10 @@ const siteData = {
             "away": "Dundee Utd",
             "stadium": "Rugby Park",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/250.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1386.png",
             "prediction": "3 - 2",
@@ -1332,7 +1451,10 @@ const siteData = {
             "away": "ST Johnstone",
             "stadium": "Tynecastle Park",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/254.png",
             "awayLogo": "https://media.api-sports.io/football/teams/258.png",
             "prediction": "3 - 2",
@@ -2909,7 +3031,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 20:03 WIB",
+    "standingsUpdated": "29/08/2026 21:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3609,6 +3731,24 @@ const siteData = {
                 "team": "Lyon",
                 "teamLogo": "https://media.api-sports.io/football/teams/80.png",
                 "value": 1
+            }
+        ],
+        "Bundesliga": [
+            {
+                "rank": 1,
+                "name": "I. Saibari",
+                "photo": "https://media.api-sports.io/football/players/161897.png",
+                "team": "Bayern München",
+                "teamLogo": "https://media.api-sports.io/football/teams/157.png",
+                "value": 2
+            },
+            {
+                "rank": 2,
+                "name": "J. Kimmich",
+                "photo": "https://media.api-sports.io/football/players/502.png",
+                "team": "Bayern München",
+                "teamLogo": "https://media.api-sports.io/football/teams/157.png",
+                "value": 2
             }
         ]
     },
@@ -22436,25 +22576,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Valencia and -3.5 goals"
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-08-31",
-                "time": "01:00",
-                "home": "Cambuur",
-                "away": "Twente",
-                "stadium": "Kooi Stadion",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/415.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Twente"
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-08-31",
                 "time": "01:00",
@@ -22472,6 +22593,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Leones Negros UDG or draw"
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-08-31",
+                "time": "01:00",
+                "home": "Cambuur",
+                "away": "Twente",
+                "stadium": "Kooi Stadion",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/415.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Twente"
             },
             {
                 "league": "Super Lig",
