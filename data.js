@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T06:03:28.012Z.
+   API-Football v3) pada 2026-08-29T07:03:06.707Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -759,115 +759,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-08-29",
-            "time": "08:00",
-            "home": "Dorados",
-            "away": "Monarcas",
-            "stadium": "Estadio Dorados",
-            "round": "Apertura - 6",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Dorados or draw",
-            "goals": [
-                {
-                    "minute": "4",
-                    "player": "R. Lopez Aburto",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45+1",
-                    "player": "F. Pena",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "46",
-                    "player": "E. Gutierrez",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "67",
-                    "player": "R. Castellanos",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-08-29",
-            "time": "08:00",
-            "home": "Correcaminos Uat",
-            "away": "Durango",
-            "stadium": "",
-            "round": "Apertura - 6",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/15941.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Correcaminos Uat or draw",
-            "cards": [
-                {
-                    "minute": "7",
-                    "player": "S. Flores",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "38",
-                    "player": "T. Sandoval",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45+1",
-                    "player": "W. Ortega",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "52",
-                    "player": "G. Moreno",
-                    "team": "home",
-                    "type": "red"
-                },
-                {
-                    "minute": "69",
-                    "player": "W. Ortega",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "69",
-                    "player": "W. Ortega",
-                    "team": "home",
-                    "type": "red"
-                }
-            ]
-        },
-        {
             "league": "Liga MX",
             "date": "2026-08-29",
             "time": "08:00",
@@ -1006,6 +897,115 @@ const siteData = {
                     "player": "E. Pizzuto",
                     "team": "home",
                     "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-08-29",
+            "time": "08:00",
+            "home": "Dorados",
+            "away": "Monarcas",
+            "stadium": "Estadio Dorados",
+            "round": "Apertura - 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Dorados or draw",
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "R. Lopez Aburto",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "F. Pena",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "E. Gutierrez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "R. Castellanos",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-08-29",
+            "time": "08:00",
+            "home": "Correcaminos Uat",
+            "away": "Durango",
+            "stadium": "",
+            "round": "Apertura - 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/15941.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Correcaminos Uat or draw",
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "S. Flores",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "T. Sandoval",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "G. Moreno",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "69",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "red"
                 }
             ]
         },
@@ -1292,6 +1292,25 @@ const siteData = {
             "advice": "Double chance : Heart Of Midlothian or draw"
         },
         {
+            "league": "Eredivisie",
+            "date": "2026-08-29",
+            "time": "21:30",
+            "home": "Excelsior",
+            "away": "Sparta Rotterdam",
+            "stadium": "Stadion Woudestein",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/196.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Sparta Rotterdam"
+        },
+        {
             "league": "Primeira Liga",
             "date": "2026-08-29",
             "time": "21:30",
@@ -1328,25 +1347,6 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Santa Clara"
-        },
-        {
-            "league": "Eredivisie",
-            "date": "2026-08-29",
-            "time": "21:30",
-            "home": "Excelsior",
-            "away": "Sparta Rotterdam",
-            "stadium": "Stadion Woudestein",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/196.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Sparta Rotterdam"
         },
         {
             "league": "LaLiga",
@@ -1425,6 +1425,25 @@ const siteData = {
             "advice": "Winner : Charleroi"
         },
         {
+            "league": "Premier League",
+            "date": "2026-08-29",
+            "time": "23:30",
+            "home": "Tottenham",
+            "away": "Newcastle",
+            "stadium": "Tottenham Hotspur Stadium",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/34.png",
+            "prediction": "1 - 3",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Newcastle"
+        },
+        {
             "league": "Serie A",
             "date": "2026-08-29",
             "time": "23:30",
@@ -1499,25 +1518,6 @@ const siteData = {
                 "away": 33
             },
             "advice": "Double chance : Borussia Dortmund or draw"
-        },
-        {
-            "league": "Premier League",
-            "date": "2026-08-29",
-            "time": "23:30",
-            "home": "Tottenham",
-            "away": "Newcastle",
-            "stadium": "Tottenham Hotspur Stadium",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/34.png",
-            "prediction": "1 - 3",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Newcastle"
         },
         {
             "league": "Eredivisie",
@@ -2857,11 +2857,27 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 13:03 WIB",
+    "standingsUpdated": "29/08/2026 14:03 WIB",
     "topScorers": {
         "Premier League": [
             {
                 "rank": 1,
+                "name": "R. Cherki",
+                "photo": "https://media.api-sports.io/football/players/156477.png",
+                "team": "Manchester City",
+                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
+                "value": 2
+            },
+            {
+                "rank": 2,
+                "name": "E. Haaland",
+                "photo": "https://media.api-sports.io/football/players/1100.png",
+                "team": "Manchester City",
+                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
+                "value": 2
+            },
+            {
+                "rank": 3,
                 "name": "J. Hinshelwood",
                 "photo": "https://media.api-sports.io/football/players/305730.png",
                 "team": "Brighton",
@@ -2869,7 +2885,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 2,
+                "rank": 4,
+                "name": "J. Gvardiol",
+                "photo": "https://media.api-sports.io/football/players/129033.png",
+                "team": "Manchester City",
+                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
+                "value": 1
+            },
+            {
+                "rank": 5,
                 "name": "C. Palmer",
                 "photo": "https://media.api-sports.io/football/players/152982.png",
                 "team": "Chelsea",
@@ -2877,7 +2901,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 3,
+                "rank": 6,
                 "name": "João Pedro",
                 "photo": "https://media.api-sports.io/football/players/10329.png",
                 "team": "Chelsea",
@@ -2885,7 +2909,15 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 7,
+                "name": "M. Guéhi",
+                "photo": "https://media.api-sports.io/football/players/67971.png",
+                "team": "Manchester City",
+                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
                 "name": "J. Clarke",
                 "photo": "https://media.api-sports.io/football/players/19136.png",
                 "team": "Ipswich",
@@ -2893,7 +2925,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 9,
                 "name": "J. Willock",
                 "photo": "https://media.api-sports.io/football/players/1463.png",
                 "team": "Newcastle",
@@ -2901,43 +2933,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 10,
                 "name": "N. Angulo",
                 "photo": "https://media.api-sports.io/football/players/311543.png",
                 "team": "Sunderland",
                 "teamLogo": "https://media.api-sports.io/football/teams/746.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
-                "name": "S. Ajayi",
-                "photo": "https://media.api-sports.io/football/players/2769.png",
-                "team": "Hull City",
-                "teamLogo": "https://media.api-sports.io/football/teams/64.png",
-                "value": 1
-            },
-            {
-                "rank": 8,
-                "name": "N. Mendy",
-                "photo": "https://media.api-sports.io/football/players/358431.png",
-                "team": "Hull City",
-                "teamLogo": "https://media.api-sports.io/football/teams/64.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "Emersonn",
-                "photo": "https://media.api-sports.io/football/players/321648.png",
-                "team": "Ipswich",
-                "teamLogo": "https://media.api-sports.io/football/teams/57.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "B. Saka",
-                "photo": "https://media.api-sports.io/football/players/1460.png",
-                "team": "Arsenal",
-                "teamLogo": "https://media.api-sports.io/football/teams/42.png",
                 "value": 1
             }
         ],
@@ -21966,25 +21966,6 @@ const siteData = {
                 "advice": "Winner : Feyenoord"
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-08-30",
-                "time": "20:00",
-                "home": "Paris FC",
-                "away": "Nice",
-                "stadium": "Stade Jean Bouin",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/114.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/84.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Paris FC or draw"
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-08-30",
                 "time": "20:00",
@@ -22040,6 +22021,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Fulham and +1.5 goals"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-08-30",
+                "time": "20:00",
+                "home": "Paris FC",
+                "away": "Nice",
+                "stadium": "Stade Jean Bouin",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/114.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/84.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Paris FC or draw"
             },
             {
                 "league": "Bundesliga",
@@ -22194,25 +22194,6 @@ const siteData = {
                 "advice": "No predictions available"
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-08-30",
-                "time": "22:30",
-                "home": "FC Augsburg",
-                "away": "FC Schalke 04",
-                "stadium": "WWK Arena",
-                "round": "Pekan 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/170.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/174.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Double chance : FC Augsburg or draw"
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-08-30",
                 "time": "22:30",
@@ -22230,6 +22211,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Ipswich"
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-08-30",
+                "time": "22:30",
+                "home": "FC Augsburg",
+                "away": "FC Schalke 04",
+                "stadium": "WWK Arena",
+                "round": "Pekan 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/170.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/174.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Double chance : FC Augsburg or draw"
             },
             {
                 "league": "Super Lig",
@@ -22348,25 +22348,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Valencia and -3.5 goals"
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-08-31",
-                "time": "01:00",
-                "home": "Leones Negros UDG",
-                "away": "Piratas",
-                "stadium": "Estadio Jalisco",
-                "round": "Apertura - 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Leones Negros UDG or draw"
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-08-31",
                 "time": "01:00",
@@ -22384,6 +22365,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Twente"
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-08-31",
+                "time": "01:00",
+                "home": "Leones Negros UDG",
+                "away": "Piratas",
+                "stadium": "Estadio Jalisco",
+                "round": "Apertura - 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Leones Negros UDG or draw"
             },
             {
                 "league": "Super Lig",
