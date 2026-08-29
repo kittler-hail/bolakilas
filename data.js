@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T04:03:05.508Z.
+   API-Football v3) pada 2026-08-29T05:03:05.680Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -137,19 +137,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "43",
-                    "player": "F. Gonzalez",
+                    "player": "Facundo González",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "45",
-                    "player": "A. Mantilla",
+                    "player": "Alvaro Mantilla",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "63",
-                    "player": "F. Buonanotte",
+                    "player": "Facundo Buonanotte",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -206,38 +206,38 @@ const siteData = {
             "cards": [
                 {
                     "minute": "4",
-                    "player": "R. Guth",
+                    "player": "Rodrigo Guth",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "65",
-                    "player": "J. Ondrejka",
+                    "player": "Jacob Ondrejka",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "69",
-                    "player": "J. Hubner",
+                    "player": "Justin Hubner",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "88",
-                    "player": "E. Vaessen",
+                    "player": "Etienne Vaessen",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Travis Hernes",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+1",
-                    "player": "E. Michut",
+                    "player": "Édouard Michut",
                     "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+7",
-                    "player": "T. Hernes",
-                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -290,7 +290,7 @@ const siteData = {
                     "team": "home"
                 },
                 {
-                    "minute": "90+2",
+                    "minute": "90",
                     "player": "L. Diaz",
                     "team": "home"
                 }
@@ -298,25 +298,25 @@ const siteData = {
             "cards": [
                 {
                     "minute": "62",
-                    "player": "J. Chabot",
+                    "player": "Jeff Chabot",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "68",
-                    "player": "F. Jeltsch",
+                    "player": "Finn Jeltsch",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "81",
-                    "player": "Kim Min-Jae",
+                    "player": "Kim Min-jae",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+3",
-                    "player": "G. Promel",
+                    "player": "Grischa Prömel",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -358,38 +358,102 @@ const siteData = {
             "cards": [
                 {
                     "minute": "45+1",
-                    "player": "M. Yumlu",
+                    "player": "Mustafa Yumlu",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "60",
-                    "player": "P. Pereira",
+                    "player": "Pedro Pereira",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "68",
-                    "player": "O. Ulgun",
+                    "player": "Oğulcan Ülgün",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "82",
-                    "player": "E. Owusu",
+                    "player": "Elisha Owusu",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+4",
-                    "player": "O. Diabate",
+                    "player": "Ousmane Diabate",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+6",
-                    "player": "N. Mujakic",
+                    "player": "Nihad Mujakić",
                     "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Ligue 1",
+            "date": "2026-08-29",
+            "time": "01:45",
+            "home": "Lille",
+            "away": "Paris Saint Germain",
+            "stadium": "Decathlon Arena - Stade Pierre Mauroy",
+            "round": "Pekan 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/79.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Lille or draw",
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "H. Haraldsson",
+                    "team": "home"
+                },
+                {
+                    "minute": "84",
+                    "player": "D. Bakwa",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Vitinha",
+                    "team": "away"
+                },
+                {
+                    "minute": "90",
+                    "player": "Marquinhos",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "39",
+                    "player": "Fabián Ruiz",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Benjamin André",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Romain Perraud",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -430,89 +494,25 @@ const siteData = {
             "cards": [
                 {
                     "minute": "27",
-                    "player": "J. Schingtienne",
+                    "player": "Joel Schingtienne",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "48",
-                    "player": "K. Perez",
+                    "player": "Kike Pérez",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "54",
-                    "player": "R. Haps",
+                    "player": "Ridgeciano Haps",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "71",
-                    "player": "S. Pavlovic",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-08-29",
-            "time": "01:45",
-            "home": "Lille",
-            "away": "Paris Saint Germain",
-            "stadium": "Decathlon Arena - Stade Pierre Mauroy",
-            "round": "Pekan 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/79.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Lille or draw",
-            "goals": [
-                {
-                    "minute": "21",
-                    "player": "H. Haraldsson",
-                    "team": "home"
-                },
-                {
-                    "minute": "84",
-                    "player": "D. Bakwa",
-                    "team": "home"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "Vitinha",
-                    "team": "away"
-                },
-                {
-                    "minute": "90+5",
-                    "player": "Marquinhos",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "39",
-                    "player": "F. Ruiz",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "52",
-                    "player": "B. Andre",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "R. Perraud",
+                    "player": "Strahinja Pavlović",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -564,7 +564,7 @@ const siteData = {
             "cards": [
                 {
                     "minute": "29",
-                    "player": "Y. Gomis",
+                    "player": "Yoni Gomis",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -621,19 +621,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "33",
-                    "player": "R. Cherki",
+                    "player": "Rayan Cherki",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "55",
-                    "player": "E. Anderson",
+                    "player": "Elliot Anderson",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "68",
-                    "player": "A. Khalaili",
+                    "player": "Anan Khalaili",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -685,13 +685,13 @@ const siteData = {
             "cards": [
                 {
                     "minute": "51",
-                    "player": "L. Suarez",
+                    "player": "Luis Javier Suárez",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "60",
-                    "player": "T. Nikitscher",
+                    "player": "Tamás Nikitscher",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -727,38 +727,32 @@ const siteData = {
             ],
             "cards": [
                 {
-                    "minute": "45+2",
-                    "player": "Q. Sanchez Flores",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
                     "minute": "48",
-                    "player": "A. Rebbach",
+                    "player": "Abderrahman Rebbach",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "86",
-                    "player": "N. Pepe",
+                    "player": "Nicolas Pépé",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "89",
-                    "player": "M. Diaz",
+                    "player": "Mariano Díaz",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+2",
-                    "player": "A. Sivera",
+                    "player": "Antonio Sivera",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+2",
-                    "player": "R. Veiga",
+                    "player": "Renato Veiga",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -914,8 +908,8 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Dorados",
             "round": "Apertura - 6",
-            "statusCode": "2H",
-            "minuteDisplay": "82'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
@@ -1023,9 +1017,9 @@ const siteData = {
             "away": "U.N.A.M. - Pumas",
             "stadium": "Estadio Caliente",
             "round": "Apertura - 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "90+5'",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2286.png",
@@ -1036,6 +1030,18 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or U.N.A.M. - Pumas",
+            "goals": [
+                {
+                    "minute": "53",
+                    "player": "G. Mora",
+                    "team": "home"
+                },
+                {
+                    "minute": "81",
+                    "player": "G. Mora",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "12",
@@ -1048,6 +1054,12 @@ const siteData = {
                     "player": "I. Tona",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "P. Bennevendo",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -1432,6 +1444,25 @@ const siteData = {
             "advice": "Winner : Newcastle"
         },
         {
+            "league": "Bundesliga",
+            "date": "2026-08-29",
+            "time": "23:30",
+            "home": "Borussia Dortmund",
+            "away": "Hamburger SV",
+            "stadium": "Signal Iduna Park",
+            "round": "Pekan 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/175.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Double chance : Borussia Dortmund or draw"
+        },
+        {
             "league": "Serie A",
             "date": "2026-08-29",
             "time": "23:30",
@@ -1487,25 +1518,6 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Udinese"
-        },
-        {
-            "league": "Bundesliga",
-            "date": "2026-08-29",
-            "time": "23:30",
-            "home": "Borussia Dortmund",
-            "away": "Hamburger SV",
-            "stadium": "Signal Iduna Park",
-            "round": "Pekan 1",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/175.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Double chance : Borussia Dortmund or draw"
         },
         {
             "league": "Eredivisie",
@@ -2845,7 +2857,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 11:03 WIB",
+    "standingsUpdated": "29/08/2026 12:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -21327,25 +21339,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Rizespor and -3.5 goals"
             },
             {
-                "league": "Serie A",
-                "date": "2026-08-30",
-                "time": "01:45",
-                "home": "Juventus",
-                "away": "Parma",
-                "stadium": "Allianz Stadium",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/523.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Combo Double chance : Juventus or draw and -2.5 goals"
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-08-30",
                 "time": "01:45",
@@ -21420,6 +21413,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Combo Winner : Auxerre and +1.5 goals"
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-08-30",
+                "time": "01:45",
+                "home": "Juventus",
+                "away": "Parma",
+                "stadium": "Allianz Stadium",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/523.png",
+                "prediction": "1 - 0",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Combo Double chance : Juventus or draw and -2.5 goals"
             },
             {
                 "league": "Jupiler Pro League",
@@ -22412,6 +22424,25 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Fenerbahçe and +2.5 goals"
             },
             {
+                "league": "Ligue 1",
+                "date": "2026-08-31",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Marseille",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Marseille and +2.5 goals"
+            },
+            {
                 "league": "Serie A",
                 "date": "2026-08-31",
                 "time": "01:45",
@@ -22448,25 +22479,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Inter"
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-31",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Marseille",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Marseille and +2.5 goals"
             },
             {
                 "league": "LaLiga",
