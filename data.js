@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T17:03:09.310Z.
+   API-Football v3) pada 2026-08-29T18:03:00.076Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -89,7 +89,10 @@ const siteData = {
             "away": "Espanyol",
             "stadium": "Anoeta",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/548.png",
             "awayLogo": "https://media.api-sports.io/football/teams/540.png",
             "prediction": "1 - 2",
@@ -98,7 +101,33 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Espanyol"
+            "advice": "Double chance : draw or Espanyol",
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "Ander Barrenetxea",
+                    "team": "home"
+                },
+                {
+                    "minute": "45",
+                    "player": "Roberto Fernández Jaén",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "17",
+                    "player": "Benat Turrientes",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "22",
+                    "player": "Urko Gonzalez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Primeira Liga",
@@ -108,7 +137,10 @@ const siteData = {
             "away": "FC Porto",
             "stadium": "",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/238.png",
             "awayLogo": "https://media.api-sports.io/football/teams/212.png",
             "prediction": "1 - 2",
@@ -117,7 +149,24 @@ const siteData = {
                 "draw": 50,
                 "away": 50
             },
-            "advice": "Double chance : draw or FC Porto"
+            "advice": "Double chance : draw or FC Porto",
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "André Silva",
+                    "team": "away"
+                },
+                {
+                    "minute": "20",
+                    "player": "Gabri Veiga",
+                    "team": "away"
+                },
+                {
+                    "minute": "38",
+                    "player": "William Gomes",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -127,7 +176,10 @@ const siteData = {
             "away": "Tepatitlán",
             "stadium": "Estadio 10 de Diciembre",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/15928.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14279.png",
             "prediction": "2 - 1",
@@ -175,6 +227,25 @@ const siteData = {
                 "away": 45
             },
             "advice": "Combo Double chance : draw or Rizespor and -3.5 goals"
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-08-30",
+            "time": "01:45",
+            "home": "Juventus",
+            "away": "Parma",
+            "stadium": "Allianz Stadium",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/523.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Combo Double chance : Juventus or draw and -2.5 goals"
         },
         {
             "league": "Ligue 1",
@@ -251,25 +322,6 @@ const siteData = {
                 "away": 10
             },
             "advice": "Combo Winner : Auxerre and +1.5 goals"
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-08-30",
-            "time": "01:45",
-            "home": "Juventus",
-            "away": "Parma",
-            "stadium": "Allianz Stadium",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/523.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Combo Double chance : Juventus or draw and -2.5 goals"
         },
         {
             "league": "Jupiler Pro League",
@@ -1192,6 +1244,28 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Hull City",
+                "logo": "https://media.api-sports.io/football/teams/64.png",
+                "played": 2,
+                "win": 2,
+                "draw": 0,
+                "lose": 0,
+                "gd": 3,
+                "points": 6
+            },
+            {
+                "rank": 3,
+                "team": "Everton",
+                "logo": "https://media.api-sports.io/football/teams/45.png",
+                "played": 2,
+                "win": 1,
+                "draw": 1,
+                "lose": 0,
+                "gd": 2,
+                "points": 4
+            },
+            {
+                "rank": 4,
                 "team": "Brighton",
                 "logo": "https://media.api-sports.io/football/teams/51.png",
                 "played": 1,
@@ -1202,7 +1276,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 3,
+                "rank": 5,
                 "team": "Arsenal",
                 "logo": "https://media.api-sports.io/football/teams/42.png",
                 "played": 1,
@@ -1213,7 +1287,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 4,
+                "rank": 6,
                 "team": "Brentford",
                 "logo": "https://media.api-sports.io/football/teams/55.png",
                 "played": 1,
@@ -1221,28 +1295,6 @@ const siteData = {
                 "draw": 0,
                 "lose": 0,
                 "gd": 3,
-                "points": 3
-            },
-            {
-                "rank": 5,
-                "team": "Everton",
-                "logo": "https://media.api-sports.io/football/teams/45.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 2,
-                "points": 3
-            },
-            {
-                "rank": 6,
-                "team": "Hull City",
-                "logo": "https://media.api-sports.io/football/teams/64.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 2,
                 "points": 3
             },
             {
@@ -1302,6 +1354,17 @@ const siteData = {
             },
             {
                 "rank": 12,
+                "team": "Bournemouth",
+                "logo": "https://media.api-sports.io/football/teams/35.png",
+                "played": 2,
+                "win": 0,
+                "draw": 1,
+                "lose": 1,
+                "gd": -1,
+                "points": 1
+            },
+            {
+                "rank": 13,
                 "team": "Nottingham Forest",
                 "logo": "https://media.api-sports.io/football/teams/65.png",
                 "played": 2,
@@ -1312,7 +1375,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Fulham",
                 "logo": "https://media.api-sports.io/football/teams/36.png",
                 "played": 1,
@@ -1323,20 +1386,9 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Sunderland",
                 "logo": "https://media.api-sports.io/football/teams/746.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
-            },
-            {
-                "rank": 15,
-                "team": "Bournemouth",
-                "logo": "https://media.api-sports.io/football/teams/35.png",
                 "played": 1,
                 "win": 0,
                 "draw": 0,
@@ -1368,23 +1420,23 @@ const siteData = {
             },
             {
                 "rank": 18,
-                "team": "Coventry",
-                "logo": "https://media.api-sports.io/football/teams/1346.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -3,
-                "points": 0
-            },
-            {
-                "rank": 19,
                 "team": "Aston Villa",
                 "logo": "https://media.api-sports.io/football/teams/66.png",
                 "played": 1,
                 "win": 0,
                 "draw": 0,
                 "lose": 1,
+                "gd": -4,
+                "points": 0
+            },
+            {
+                "rank": 19,
+                "team": "Coventry",
+                "logo": "https://media.api-sports.io/football/teams/1346.png",
+                "played": 2,
+                "win": 0,
+                "draw": 0,
+                "lose": 2,
                 "gd": -4,
                 "points": 0
             },
@@ -2445,7 +2497,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 00:03 WIB",
+    "standingsUpdated": "30/08/2026 01:02 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -23053,25 +23105,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Fenerbahçe and +2.5 goals"
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-08-31",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Marseille",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Marseille and +2.5 goals"
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-08-31",
                 "time": "01:45",
@@ -23108,6 +23141,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Inter"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-08-31",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Marseille",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Marseille and +2.5 goals"
             },
             {
                 "league": "LaLiga",
