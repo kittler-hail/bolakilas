@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T12:03:35.920Z.
+   API-Football v3) pada 2026-08-29T13:03:04.255Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -243,6 +243,78 @@ const siteData = {
             ]
         },
         {
+            "league": "Super Lig",
+            "date": "2026-08-29",
+            "time": "01:30",
+            "home": "Gençlerbirliği S.K.",
+            "away": "Erzurumspor FK",
+            "stadium": "Eryaman Stadyumu",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
+            "prediction": "3 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Winner : Gençlerbirliği S.K.",
+            "goals": [
+                {
+                    "minute": "55",
+                    "player": "E. Tozlu",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "A. Traore",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "Mustafa Yumlu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Pedro Pereira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Oğulcan Ülgün",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "Elisha Owusu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Ousmane Diabate",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Nihad Mujakić",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Bundesliga",
             "date": "2026-08-29",
             "time": "01:30",
@@ -317,78 +389,6 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "Grischa Prömel",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-08-29",
-            "time": "01:30",
-            "home": "Gençlerbirliği S.K.",
-            "away": "Erzurumspor FK",
-            "stadium": "Eryaman Stadyumu",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
-            "prediction": "3 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Winner : Gençlerbirliği S.K.",
-            "goals": [
-                {
-                    "minute": "55",
-                    "player": "E. Tozlu",
-                    "team": "away"
-                },
-                {
-                    "minute": "66",
-                    "player": "A. Traore",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45+1",
-                    "player": "Mustafa Yumlu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "60",
-                    "player": "Pedro Pereira",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "68",
-                    "player": "Oğulcan Ülgün",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "82",
-                    "player": "Elisha Owusu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Ousmane Diabate",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+6",
-                    "player": "Nihad Mujakić",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -759,6 +759,115 @@ const siteData = {
             ]
         },
         {
+            "league": "Liga de Expansion MX",
+            "date": "2026-08-29",
+            "time": "08:00",
+            "home": "Dorados",
+            "away": "Monarcas",
+            "stadium": "Estadio Dorados",
+            "round": "Apertura - 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Dorados or draw",
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "R. Lopez Aburto",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "F. Pena",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "E. Gutierrez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "R. Castellanos",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-08-29",
+            "time": "08:00",
+            "home": "Correcaminos Uat",
+            "away": "Durango",
+            "stadium": "",
+            "round": "Apertura - 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/15941.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Correcaminos Uat or draw",
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "S. Flores",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "T. Sandoval",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "G. Moreno",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "69",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "red"
+                }
+            ]
+        },
+        {
             "league": "Liga MX",
             "date": "2026-08-29",
             "time": "08:00",
@@ -901,115 +1010,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-08-29",
-            "time": "08:00",
-            "home": "Dorados",
-            "away": "Monarcas",
-            "stadium": "Estadio Dorados",
-            "round": "Apertura - 6",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Dorados or draw",
-            "goals": [
-                {
-                    "minute": "4",
-                    "player": "R. Lopez Aburto",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45+1",
-                    "player": "F. Pena",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "46",
-                    "player": "E. Gutierrez",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "67",
-                    "player": "R. Castellanos",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-08-29",
-            "time": "08:00",
-            "home": "Correcaminos Uat",
-            "away": "Durango",
-            "stadium": "",
-            "round": "Apertura - 6",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/15941.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Correcaminos Uat or draw",
-            "cards": [
-                {
-                    "minute": "7",
-                    "player": "S. Flores",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "38",
-                    "player": "T. Sandoval",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45+1",
-                    "player": "W. Ortega",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "52",
-                    "player": "G. Moreno",
-                    "team": "home",
-                    "type": "red"
-                },
-                {
-                    "minute": "69",
-                    "player": "W. Ortega",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "69",
-                    "player": "W. Ortega",
-                    "team": "home",
-                    "type": "red"
-                }
-            ]
-        },
-        {
             "league": "Liga MX",
             "date": "2026-08-29",
             "time": "10:10",
@@ -1071,10 +1071,10 @@ const siteData = {
             "away": "Nottingham Forest",
             "stadium": "Anfield",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "32'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "72'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/40.png",
             "awayLogo": "https://media.api-sports.io/football/teams/65.png",
             "prediction": "2 - 1",
@@ -1089,6 +1089,48 @@ const siteData = {
                     "minute": "24",
                     "player": "Dan Ndoye",
                     "team": "away"
+                },
+                {
+                    "minute": "60",
+                    "player": "Alexander Isak",
+                    "team": "home"
+                },
+                {
+                    "minute": "70",
+                    "player": "Morgan Gibbs-White",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "44",
+                    "player": "Igor Jesus",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "Ola Aina",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Víctor Muñoz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Florian Wirtz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Alisson Becker",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1226,6 +1268,25 @@ const siteData = {
             "advice": "Winner : Hull City"
         },
         {
+            "league": "Jupiler Pro League",
+            "date": "2026-08-29",
+            "time": "21:00",
+            "home": "RAAL La Louvière",
+            "away": "KV Mechelen",
+            "stadium": "Easi Arena",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or KV Mechelen"
+        },
+        {
             "league": "Scottish Premiership",
             "date": "2026-08-29",
             "time": "21:00",
@@ -1281,25 +1342,6 @@ const siteData = {
                 "away": 10
             },
             "advice": "Double chance : Heart Of Midlothian or draw"
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-08-29",
-            "time": "21:00",
-            "home": "RAAL La Louvière",
-            "away": "KV Mechelen",
-            "stadium": "Easi Arena",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or KV Mechelen"
         },
         {
             "league": "Eredivisie",
@@ -2867,7 +2909,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 19:03 WIB",
+    "standingsUpdated": "29/08/2026 20:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3424,6 +3466,14 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "A. Rabiot",
+                "photo": "https://media.api-sports.io/football/players/272.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 1
+            },
+            {
+                "rank": 4,
                 "name": "K. De Bruyne",
                 "photo": "https://media.api-sports.io/football/players/629.png",
                 "team": "Napoli",
@@ -3431,19 +3481,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "A. Vergara",
                 "photo": "https://media.api-sports.io/football/players/347395.png",
                 "team": "Napoli",
                 "teamLogo": "https://media.api-sports.io/football/teams/492.png",
-                "value": 1
-            },
-            {
-                "rank": 5,
-                "name": "A. Rabiot",
-                "photo": "https://media.api-sports.io/football/players/272.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 1
             },
             {
@@ -3456,6 +3498,22 @@ const siteData = {
             },
             {
                 "rank": 7,
+                "name": "A. Saelemaekers",
+                "photo": "https://media.api-sports.io/football/players/1417.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
+                "name": "S. Chukwueze",
+                "photo": "https://media.api-sports.io/football/players/1696.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 1
+            },
+            {
+                "rank": 9,
                 "name": "Francisco Conceição",
                 "photo": "https://media.api-sports.io/football/players/161585.png",
                 "team": "Juventus",
@@ -3463,27 +3521,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "M. Mout",
                 "photo": "https://media.api-sports.io/football/players/613450.png",
                 "team": "Monza",
                 "teamLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "B. Dia",
-                "photo": "https://media.api-sports.io/football/players/22015.png",
-                "team": "Lazio",
-                "teamLogo": "https://media.api-sports.io/football/teams/487.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "J. Ekkelenkamp",
-                "photo": "https://media.api-sports.io/football/players/541.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
                 "value": 1
             }
         ],
@@ -22107,6 +22149,25 @@ const siteData = {
                 "advice": "Double chance : SC Freiburg or draw"
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-08-30",
+                "time": "21:00",
+                "home": "Antwerp",
+                "away": "St. Truiden",
+                "stadium": "Bosuilstadion",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-08-30",
                 "time": "21:00",
@@ -22143,25 +22204,6 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Dundee or draw"
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-08-30",
-                "time": "21:00",
-                "home": "Antwerp",
-                "away": "St. Truiden",
-                "stadium": "Bosuilstadion",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
             },
             {
                 "league": "Primeira Liga",
@@ -22394,25 +22436,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Valencia and -3.5 goals"
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-08-31",
-                "time": "01:00",
-                "home": "Leones Negros UDG",
-                "away": "Piratas",
-                "stadium": "Estadio Jalisco",
-                "round": "Apertura - 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Leones Negros UDG or draw"
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-08-31",
                 "time": "01:00",
@@ -22430,6 +22453,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Twente"
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-08-31",
+                "time": "01:00",
+                "home": "Leones Negros UDG",
+                "away": "Piratas",
+                "stadium": "Estadio Jalisco",
+                "round": "Apertura - 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Leones Negros UDG or draw"
             },
             {
                 "league": "Super Lig",
