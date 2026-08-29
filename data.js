@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T01:02:56.641Z.
+   API-Football v3) pada 2026-08-29T02:03:14.709Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -92,7 +92,7 @@ const siteData = {
             "time": "00:00",
             "home": "Racing Santander",
             "away": "Elche",
-            "stadium": "El Sardinero",
+            "stadium": "Estadio El Sardinero",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -328,7 +328,7 @@ const siteData = {
             "time": "01:30",
             "home": "Gençlerbirliği S.K.",
             "away": "Erzurumspor FK",
-            "stadium": "Eryaman Stadyumu",
+            "stadium": "Eryaman Stadium",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -703,7 +703,7 @@ const siteData = {
             "time": "02:30",
             "home": "Alaves",
             "away": "Villarreal",
-            "stadium": "Estadio de Mendizorroza",
+            "stadium": "Estadio Mendizorrotza",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -772,10 +772,10 @@ const siteData = {
             "away": "Cruz Azul",
             "stadium": "Estadio Victoria",
             "round": "Apertura - 6",
-            "statusCode": "1H",
-            "minuteDisplay": "1'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2295.png",
             "prediction": "2 - 3",
@@ -784,7 +784,22 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Cruz Azul"
+            "advice": "Double chance : draw or Cruz Azul",
+            "goals": [
+                {
+                    "minute": "23",
+                    "player": "J. Marquez",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "43",
+                    "player": "D. Leyva",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -794,7 +809,10 @@ const siteData = {
             "away": "Leon",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
             "prediction": "1 - 2",
@@ -813,8 +831,8 @@ const siteData = {
             "away": "Durango",
             "stadium": "",
             "round": "Apertura - 6",
-            "statusCode": "1H",
-            "minuteDisplay": "1'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
@@ -825,7 +843,27 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Correcaminos Uat or draw"
+            "advice": "Double chance : Correcaminos Uat or draw",
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "S. Flores",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "T. Sandoval",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -835,7 +873,7 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Dorados",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "POSTP",
             "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
             "prediction": "2 - 2",
@@ -2659,7 +2697,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/08/2026 08:02 WIB",
+    "standingsUpdated": "29/08/2026 09:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -22132,25 +22170,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Valencia and -3.5 goals"
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-08-31",
-                "time": "01:00",
-                "home": "Cambuur",
-                "away": "Twente",
-                "stadium": "Kooi Stadion",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/415.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Twente"
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-08-31",
                 "time": "01:00",
@@ -22168,6 +22187,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Leones Negros UDG or draw"
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-08-31",
+                "time": "01:00",
+                "home": "Cambuur",
+                "away": "Twente",
+                "stadium": "Kooi Stadion",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/415.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Twente"
             },
             {
                 "league": "Super Lig",
