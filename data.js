@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T05:03:12.133Z.
+   API-Football v3) pada 2026-08-30T06:03:35.922Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2173,8 +2173,8 @@ const siteData = {
             "away": "Tigres UANL",
             "stadium": "Estadio TSM Corona",
             "round": "Apertura - 6",
-            "statusCode": "2H",
-            "minuteDisplay": "85'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
@@ -2203,6 +2203,30 @@ const siteData = {
                     "minute": "61",
                     "player": "F. Gorriaran",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "J. Guemez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "F. Gorriaran",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "F. Gorriaran",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90",
+                    "player": "L. Gomez",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -3944,7 +3968,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 12:03 WIB",
+    "standingsUpdated": "30/08/2026 13:03 WIB",
     "topScorers": {
         "Premier League": [
             {
