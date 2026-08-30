@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T17:02:56.729Z.
+   API-Football v3) pada 2026-08-30T18:02:53.156Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Estadio Municipal de Riazor",
         "prediction": "1 - 2",
         "analysis": "Deportivo La Coruna bertemu Valencia dalam laga LaLiga. Analisis API-Football: Combo Double chance : draw or Valencia and -3.5 goals.",
-        "statusCode": "NS",
+        "statusCode": "1H",
+        "minuteDisplay": "30'",
+        "homeScore": 2,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -42,6 +45,11 @@ const siteData = {
         "awayLogo": "https://media.api-sports.io/football/teams/532.png",
         "h2h": [
             {
+                "home": "Deportivo La Coruna",
+                "away": "Valencia",
+                "score": "2-1"
+            },
+            {
                 "home": "Valencia",
                 "away": "Deportivo La Coruna",
                 "score": "2-1"
@@ -55,11 +63,6 @@ const siteData = {
                 "home": "Valencia",
                 "away": "Deportivo La Coruna",
                 "score": "3-0"
-            },
-            {
-                "home": "Deportivo La Coruna",
-                "away": "Valencia",
-                "score": "1-1"
             },
             {
                 "home": "Deportivo La Coruna",
@@ -89,12 +92,12 @@ const siteData = {
             "time": "00:00",
             "home": "Casa Pia",
             "away": "Moreirense",
-            "stadium": "",
+            "stadium": "Estádio Municipal de Rio Maior",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
             "awayLogo": "https://media.api-sports.io/football/teams/215.png",
             "prediction": "2 - 3",
@@ -103,7 +106,14 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Moreirense"
+            "advice": "Double chance : draw or Moreirense",
+            "goals": [
+                {
+                    "minute": "24",
+                    "player": "Kiko",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -113,7 +123,10 @@ const siteData = {
             "away": "Zulte Waregem",
             "stadium": "Het Kuipje",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/261.png",
             "awayLogo": "https://media.api-sports.io/football/teams/600.png",
             "prediction": "1 - 3",
@@ -122,7 +135,19 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Zulte Waregem"
+            "advice": "Double chance : draw or Zulte Waregem",
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "S. Saito",
+                    "team": "home"
+                },
+                {
+                    "minute": "25",
+                    "player": "T. Hedl",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "LaLiga",
@@ -132,7 +157,10 @@ const siteData = {
             "away": "Valencia",
             "stadium": "Estadio Municipal de Riazor",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "30'",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/544.png",
             "awayLogo": "https://media.api-sports.io/football/teams/532.png",
             "prediction": "1 - 2",
@@ -141,26 +169,24 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Combo Double chance : draw or Valencia and -3.5 goals"
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-08-31",
-            "time": "01:00",
-            "home": "Leones Negros UDG",
-            "away": "Piratas",
-            "stadium": "Estadio Jalisco",
-            "round": "Apertura - 6",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Leones Negros UDG or draw"
+            "advice": "Combo Double chance : draw or Valencia and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "C. Tarrega",
+                    "team": "away"
+                },
+                {
+                    "minute": "17",
+                    "player": "P. Aubameyang",
+                    "team": "home"
+                },
+                {
+                    "minute": "26",
+                    "player": "U. Sadiq",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -170,7 +196,10 @@ const siteData = {
             "away": "Twente",
             "stadium": "Kooi Stadion",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/420.png",
             "awayLogo": "https://media.api-sports.io/football/teams/415.png",
             "prediction": "1 - 3",
@@ -180,6 +209,28 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Twente"
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-08-31",
+            "time": "01:00",
+            "home": "Leones Negros UDG",
+            "away": "Piratas",
+            "stadium": "Estadio Jalisco",
+            "round": "Apertura - 6",
+            "statusCode": "1H",
+            "minuteDisplay": "1'",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Leones Negros UDG or draw"
         },
         {
             "league": "Super Lig",
@@ -277,25 +328,6 @@ const siteData = {
             "advice": "Combo Winner : Marseille and +2.5 goals"
         },
         {
-            "league": "Primeira Liga",
-            "date": "2026-08-31",
-            "time": "02:30",
-            "home": "Famalicao",
-            "away": "GIL Vicente",
-            "stadium": "Estadio Municipal de Famalicao",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/242.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/762.png",
-            "prediction": "0 - 1",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or GIL Vicente and -3.5 goals"
-        },
-        {
             "league": "LaLiga",
             "date": "2026-08-31",
             "time": "02:30",
@@ -313,6 +345,25 @@ const siteData = {
                 "away": 10
             },
             "advice": "Combo Double chance : Celta Vigo or draw and -3.5 goals"
+        },
+        {
+            "league": "Primeira Liga",
+            "date": "2026-08-31",
+            "time": "02:30",
+            "home": "Famalicao",
+            "away": "GIL Vicente",
+            "stadium": "Estadio Municipal de Famalicao",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/242.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/762.png",
+            "prediction": "0 - 1",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or GIL Vicente and -3.5 goals"
         },
         {
             "league": "MLS",
@@ -686,6 +737,17 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "team": "Real Madrid",
+                "logo": "https://media.api-sports.io/football/teams/541.png",
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "gd": 8,
+                "points": 9
+            },
+            {
+                "rank": 2,
                 "team": "Atletico Madrid",
                 "logo": "https://media.api-sports.io/football/teams/530.png",
                 "played": 3,
@@ -696,7 +758,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "team": "Alaves",
                 "logo": "https://media.api-sports.io/football/teams/542.png",
                 "played": 3,
@@ -707,7 +769,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png",
                 "played": 2,
@@ -715,17 +777,6 @@ const siteData = {
                 "draw": 0,
                 "lose": 0,
                 "gd": 7,
-                "points": 6
-            },
-            {
-                "rank": 4,
-                "team": "Real Madrid",
-                "logo": "https://media.api-sports.io/football/teams/541.png",
-                "played": 2,
-                "win": 2,
-                "draw": 0,
-                "lose": 0,
-                "gd": 4,
                 "points": 6
             },
             {
@@ -873,19 +924,19 @@ const siteData = {
             },
             {
                 "rank": 18,
-                "team": "Malaga",
-                "logo": "https://media.api-sports.io/football/teams/535.png",
-                "played": 2,
+                "team": "Elche",
+                "logo": "https://media.api-sports.io/football/teams/797.png",
+                "played": 3,
                 "win": 0,
                 "draw": 1,
-                "lose": 1,
-                "gd": -2,
+                "lose": 2,
+                "gd": -6,
                 "points": 1
             },
             {
                 "rank": 19,
-                "team": "Elche",
-                "logo": "https://media.api-sports.io/football/teams/797.png",
+                "team": "Malaga",
+                "logo": "https://media.api-sports.io/football/teams/535.png",
                 "played": 3,
                 "win": 0,
                 "draw": 1,
@@ -1728,7 +1779,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 00:02 WIB",
+    "standingsUpdated": "31/08/2026 01:02 WIB",
     "topScorers": {
         "Premier League": [
             {
