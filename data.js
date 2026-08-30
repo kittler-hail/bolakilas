@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T10:03:13.979Z.
+   API-Football v3) pada 2026-08-30T11:03:39.379Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -418,72 +418,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Serie A",
-            "date": "2026-08-30",
-            "time": "01:45",
-            "home": "Juventus",
-            "away": "Parma",
-            "stadium": "Allianz Stadium",
-            "round": "Pekan 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/523.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Combo Double chance : Juventus or draw and -2.5 goals",
-            "goals": [
-                {
-                    "minute": "62",
-                    "player": "N. Gonzalez",
-                    "team": "home"
-                },
-                {
-                    "minute": "88",
-                    "player": "T. Koopmeiners",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "10",
-                    "player": "Jhon Lucumí",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "54",
-                    "player": "Manuel Locatelli",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "55",
-                    "player": "Enrico Delprato",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "78",
-                    "player": "Mariano Troilo",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "Abdou-Salam Konate",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-08-30",
             "time": "01:45",
@@ -717,6 +651,72 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "Prosper Peter",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-08-30",
+            "time": "01:45",
+            "home": "Juventus",
+            "away": "Parma",
+            "stadium": "Allianz Stadium",
+            "round": "Pekan 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/523.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Combo Double chance : Juventus or draw and -2.5 goals",
+            "goals": [
+                {
+                    "minute": "62",
+                    "player": "N. Gonzalez",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "T. Koopmeiners",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "10",
+                    "player": "Jhon Lucumí",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Manuel Locatelli",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "Enrico Delprato",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Mariano Troilo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Abdou-Salam Konate",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2239,7 +2239,10 @@ const siteData = {
             "away": "PSV Eindhoven",
             "stadium": "Stadion Galgenwaard",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "45+2'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/207.png",
             "awayLogo": "https://media.api-sports.io/football/teams/197.png",
             "prediction": "2 - 3",
@@ -2248,7 +2251,38 @@ const siteData = {
                 "draw": 50,
                 "away": 50
             },
-            "advice": "Combo Winner : PSV Eindhoven and +1.5 goals"
+            "advice": "Combo Winner : PSV Eindhoven and +1.5 goals",
+            "goals": [
+                {
+                    "minute": "6",
+                    "player": "A. Stepanov",
+                    "team": "home"
+                },
+                {
+                    "minute": "11",
+                    "player": "R. van Bommel",
+                    "team": "away"
+                },
+                {
+                    "minute": "45",
+                    "player": "G. Til",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "15",
+                    "player": "G. Offerhaus",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "34",
+                    "player": "D. de Wit",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -2258,7 +2292,10 @@ const siteData = {
             "away": "Rangers",
             "stadium": "Pittodrie Stadium",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/252.png",
             "awayLogo": "https://media.api-sports.io/football/teams/257.png",
             "prediction": "1 - 1",
@@ -3968,7 +4005,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 17:03 WIB",
+    "standingsUpdated": "30/08/2026 18:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -5090,6 +5127,12 @@ const siteData = {
                 "since": "2026-08-24"
             },
             {
+                "player": "E. Martinez",
+                "photo": "https://media.api-sports.io/football/players/19599.png",
+                "reason": "Finger Injury",
+                "since": "2026-08-30"
+            },
+            {
                 "player": "E. Fernandez",
                 "photo": "https://media.api-sports.io/football/players/5996.png",
                 "reason": "Coach's decision",
@@ -5201,12 +5244,6 @@ const siteData = {
                 "player": "J. Manzambi",
                 "photo": "https://media.api-sports.io/football/players/406244.png",
                 "reason": "Knee Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "E. Martinez",
-                "photo": "https://media.api-sports.io/football/players/19599.png",
-                "reason": "Finger Injury",
                 "since": "2026-08-31"
             },
             {
@@ -7334,6 +7371,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/30807.png",
                 "reason": "Inactive",
                 "since": "2026-08-23"
+            },
+            {
+                "player": "B. Samba",
+                "photo": "https://media.api-sports.io/football/players/21628.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
             }
         ],
         "monaco": [
@@ -24682,6 +24725,25 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Fenerbahçe and +2.5 goals"
             },
             {
+                "league": "Ligue 1",
+                "date": "2026-08-31",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Marseille",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Marseille and +2.5 goals"
+            },
+            {
                 "league": "Serie A",
                 "date": "2026-08-31",
                 "time": "01:45",
@@ -24718,25 +24780,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Inter"
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-31",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Marseille",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Marseille and +2.5 goals"
             },
             {
                 "league": "LaLiga",
