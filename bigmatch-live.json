@@ -3,37 +3,37 @@
   "home": "Chelsea",
   "away": "Brighton",
   "statusCode": "1H",
-  "updatedAt": "30/08/2026 20:06 WIB",
+  "updatedAt": "30/08/2026 20:19 WIB",
   "statistics": {
     "home": {
-      "possession": 33,
-      "shotsTotal": 0,
-      "shotsOnTarget": 0,
-      "corners": null,
-      "fouls": 0,
+      "possession": 25,
+      "shotsTotal": 3,
+      "shotsOnTarget": 3,
+      "corners": 1,
+      "fouls": 1,
       "offsides": null,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 0,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 0,
-      "passesTotal": 2,
-      "passesAccurate": 0,
-      "passesPct": null
+      "passesTotal": 30,
+      "passesAccurate": 20,
+      "passesPct": 67
     },
     "away": {
-      "possession": 67,
-      "shotsTotal": 0,
+      "possession": 75,
+      "shotsTotal": 1,
       "shotsOnTarget": 0,
-      "corners": null,
-      "fouls": 0,
+      "corners": 2,
+      "fouls": 1,
       "offsides": null,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 0,
+      "shotsInsidebox": 1,
       "shotsOutsidebox": 0,
-      "passesTotal": 4,
-      "passesAccurate": 2,
-      "passesPct": 50
+      "passesTotal": 89,
+      "passesAccurate": 80,
+      "passesPct": 90
     }
   },
   "lineups": {
@@ -44,57 +44,68 @@
         {
           "number": 26,
           "name": "Emiliano Martínez",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.3"
         },
         {
           "number": 3,
           "name": "Wesley Fofana",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 5,
           "name": "Maxence Lacroix",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "Levi Colwill",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 27,
           "name": "Malo Gusto",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 10,
           "name": "Cole Palmer",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 45,
           "name": "Roméo Lavia",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "7.5"
         },
         {
           "number": 21,
           "name": "Jorrel Hato",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 7,
           "name": "Pedro Neto",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "7.9"
         },
         {
           "number": 17,
           "name": "Morgan Rogers",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "7.3"
         },
         {
           "number": 9,
           "name": "João Pedro",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.9"
         }
       ],
       "substitutes": [
@@ -152,57 +163,68 @@
         {
           "number": 1,
           "name": "Bart Verbruggen",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "5.3"
         },
         {
           "number": 24,
           "name": "Ferdi Kadıoğlu",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.0"
         },
         {
           "number": 44,
           "name": "Luka Vušković",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.0"
         },
         {
           "number": 5,
           "name": "Lewis Dunk",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.5"
         },
         {
           "number": 21,
           "name": "Olivier Boscagli",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.2"
         },
         {
           "number": 27,
           "name": "Mats Wieffer",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "7.0"
         },
         {
           "number": 13,
           "name": "Pascal Groß",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 25,
           "name": "Diego Gómez",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 35,
           "name": "Malick Yalcouyé",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 29,
           "name": "Maxim De Cuyper",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 19,
           "name": "Charalampos Kostoulas",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         }
       ],
       "substitutes": [
