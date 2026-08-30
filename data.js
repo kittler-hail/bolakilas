@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T08:03:07.080Z.
+   API-Football v3) pada 2026-08-30T09:03:09.451Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2327,6 +2327,25 @@ const siteData = {
             "advice": "Winner : Feyenoord"
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-08-30",
+            "time": "20:00",
+            "home": "Paris FC",
+            "away": "Nice",
+            "stadium": "Stade Jean Bouin",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/114.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/84.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Paris FC or draw"
+        },
+        {
             "league": "Premier League",
             "date": "2026-08-30",
             "time": "20:00",
@@ -2382,25 +2401,6 @@ const siteData = {
                 "away": 45
             },
             "advice": "Combo Double chance : draw or Fulham and +1.5 goals"
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-08-30",
-            "time": "20:00",
-            "home": "Paris FC",
-            "away": "Nice",
-            "stadium": "Stade Jean Bouin",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/114.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/84.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Paris FC or draw"
         },
         {
             "league": "Bundesliga",
@@ -2555,25 +2555,6 @@ const siteData = {
             "advice": "No predictions available"
         },
         {
-            "league": "Premier League",
-            "date": "2026-08-30",
-            "time": "22:30",
-            "home": "Manchester United",
-            "away": "Ipswich",
-            "stadium": "Old Trafford",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/33.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/57.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Winner : Ipswich"
-        },
-        {
             "league": "Bundesliga",
             "date": "2026-08-30",
             "time": "22:30",
@@ -2591,6 +2572,25 @@ const siteData = {
                 "away": 33
             },
             "advice": "Double chance : FC Augsburg or draw"
+        },
+        {
+            "league": "Premier League",
+            "date": "2026-08-30",
+            "time": "22:30",
+            "home": "Manchester United",
+            "away": "Ipswich",
+            "stadium": "Old Trafford",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/33.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/57.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Winner : Ipswich"
         },
         {
             "league": "Super Lig",
@@ -3968,7 +3968,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 15:03 WIB",
+    "standingsUpdated": "30/08/2026 16:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4647,6 +4647,14 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "S. Nanasi",
+                "photo": "https://media.api-sports.io/football/players/226803.png",
+                "team": "Strasbourg",
+                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
+                "value": 2
+            },
+            {
+                "rank": 4,
                 "name": "F. Thauvin",
                 "photo": "https://media.api-sports.io/football/players/1922.png",
                 "team": "Lens",
@@ -4654,23 +4662,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
-                "name": "Vitinha",
-                "photo": "https://media.api-sports.io/football/players/128384.png",
-                "team": "Paris Saint Germain",
-                "teamLogo": "https://media.api-sports.io/football/teams/85.png",
-                "value": 1
-            },
-            {
                 "rank": 5,
-                "name": "L. Mafouta",
-                "photo": "https://media.api-sports.io/football/players/85558.png",
-                "team": "Le Mans",
-                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
-                "value": 1
-            },
-            {
-                "rank": 6,
                 "name": "K. Doumbia",
                 "photo": "https://media.api-sports.io/football/players/326068.png",
                 "team": "Stade Brestois 29",
@@ -4678,35 +4670,43 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
-                "name": "M. Godts",
-                "photo": "https://media.api-sports.io/football/players/340153.png",
+                "rank": 6,
+                "name": "Vitinha",
+                "photo": "https://media.api-sports.io/football/players/128384.png",
                 "team": "Paris Saint Germain",
                 "teamLogo": "https://media.api-sports.io/football/teams/85.png",
                 "value": 1
             },
             {
+                "rank": 7,
+                "name": "A. El Ouazzani",
+                "photo": "https://media.api-sports.io/football/players/193188.png",
+                "team": "Angers",
+                "teamLogo": "https://media.api-sports.io/football/teams/77.png",
+                "value": 1
+            },
+            {
                 "rank": 8,
-                "name": "N. Bentaleb",
-                "photo": "https://media.api-sports.io/football/players/409.png",
-                "team": "Lille",
-                "teamLogo": "https://media.api-sports.io/football/teams/79.png",
+                "name": "L. Mafouta",
+                "photo": "https://media.api-sports.io/football/players/85558.png",
+                "team": "Le Mans",
+                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
                 "value": 1
             },
             {
                 "rank": 9,
-                "name": "C. Tolisso",
-                "photo": "https://media.api-sports.io/football/players/519.png",
+                "name": "P. Šulc",
+                "photo": "https://media.api-sports.io/football/players/66387.png",
                 "team": "Lyon",
                 "teamLogo": "https://media.api-sports.io/football/teams/80.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "P. Šulc",
-                "photo": "https://media.api-sports.io/football/players/66387.png",
-                "team": "Lyon",
-                "teamLogo": "https://media.api-sports.io/football/teams/80.png",
+                "name": "M. Godts",
+                "photo": "https://media.api-sports.io/football/players/340153.png",
+                "team": "Paris Saint Germain",
+                "teamLogo": "https://media.api-sports.io/football/teams/85.png",
                 "value": 1
             }
         ],
