@@ -3,36 +3,36 @@
   "home": "Deportivo La Coruna",
   "away": "Valencia",
   "statusCode": "2H",
-  "updatedAt": "31/08/2026 01:44 WIB",
+  "updatedAt": "31/08/2026 01:57 WIB",
   "statistics": {
     "home": {
-      "possession": 56,
-      "shotsTotal": 7,
-      "shotsOnTarget": 1,
-      "corners": 4,
-      "fouls": 5,
-      "offsides": 0,
+      "possession": 55,
+      "shotsTotal": 9,
+      "shotsOnTarget": 2,
+      "corners": 5,
+      "fouls": 6,
+      "offsides": 1,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 3,
+      "shotsInsidebox": 5,
       "shotsOutsidebox": 4,
-      "passesTotal": 313,
-      "passesAccurate": 281,
-      "passesPct": 90
+      "passesTotal": 399,
+      "passesAccurate": 351,
+      "passesPct": 88
     },
     "away": {
-      "possession": 44,
-      "shotsTotal": 4,
-      "shotsOnTarget": 1,
+      "possession": 45,
+      "shotsTotal": 6,
+      "shotsOnTarget": 2,
       "corners": 2,
       "fouls": 2,
       "offsides": 1,
       "yellowCards": null,
       "redCards": null,
       "shotsInsidebox": 4,
-      "shotsOutsidebox": 0,
-      "passesTotal": 245,
-      "passesAccurate": 206,
+      "shotsOutsidebox": 2,
+      "passesTotal": 330,
+      "passesAccurate": 277,
       "passesPct": 84
     }
   },
@@ -45,7 +45,7 @@
           "number": 13,
           "name": "Leo Román",
           "position": "Kiper",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 23,
@@ -57,55 +57,55 @@
           "number": 4,
           "name": "Lucas Noubi",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 22,
           "name": "Bright Ede",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 12,
           "name": "Giacomo Quagliata",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.9"
         },
         {
           "number": 19,
           "name": "Luismi Cruz",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 14,
           "name": "Riki Rodríguez",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 16,
           "name": "Lorenzo Amatucci",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 21,
           "name": "Mario Soriano",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.5"
         },
         {
           "number": 7,
           "name": "Pierre-Emerick Aubameyang",
           "position": "Penyerang",
-          "rating": "7.7"
+          "rating": "7.9"
         },
         {
           "number": 32,
           "name": "Bil Nsongo",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -179,13 +179,13 @@
           "number": 1,
           "name": "Stole Dimitrievski",
           "position": "Kiper",
-          "rating": "5.9"
+          "rating": "6.0"
         },
         {
           "number": 22,
           "name": "Arnau Martínez",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.0"
         },
         {
           "number": 5,
@@ -197,31 +197,31 @@
           "number": 18,
           "name": "Pepelu",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 4,
           "name": "Mouctar Diakhaby",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "5.9"
         },
         {
           "number": 21,
           "name": "Jesús Vázquez",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "5.9"
         },
         {
           "number": 23,
           "name": "Filip Ugrinić",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Luis Rioja",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 8,
@@ -233,13 +233,13 @@
           "number": 6,
           "name": "Umar Sadiq",
           "position": "Penyerang",
-          "rating": "7.9"
+          "rating": "7.6"
         },
         {
           "number": 39,
           "name": "Ryunosuke Sato",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
