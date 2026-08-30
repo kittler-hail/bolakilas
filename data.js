@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T22:03:21.755Z.
+   API-Football v3) pada 2026-08-30T23:02:55.838Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -74,7 +74,8 @@ const siteData = {
             "home": {
                 "results": [
                     "D",
-                    "D"
+                    "D",
+                    "W"
                 ]
             },
             "away": {
@@ -786,10 +787,10 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Lower.com Field",
             "round": "Pekan 22",
-            "statusCode": "2H",
-            "minuteDisplay": "63'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/1613.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1609.png",
             "prediction": "3 - 2",
@@ -814,6 +815,11 @@ const siteData = {
                     "minute": "41",
                     "player": "D. Turgeman",
                     "team": "away"
+                },
+                {
+                    "minute": "79",
+                    "player": "C. Gil",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -821,6 +827,12 @@ const siteData = {
                     "minute": "25",
                     "player": "T. Karumanchi",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "A. Yusuf",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1299,6 +1311,17 @@ const siteData = {
             },
             {
                 "rank": 12,
+                "team": "Athletic Club",
+                "logo": "https://media.api-sports.io/football/teams/531.png",
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "gd": -2,
+                "points": 3
+            },
+            {
+                "rank": 13,
                 "team": "Getafe",
                 "logo": "https://media.api-sports.io/football/teams/546.png",
                 "played": 2,
@@ -1309,7 +1332,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Real Sociedad",
                 "logo": "https://media.api-sports.io/football/teams/548.png",
                 "played": 3,
@@ -1320,7 +1343,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Villarreal",
                 "logo": "https://media.api-sports.io/football/teams/533.png",
                 "played": 3,
@@ -1331,20 +1354,9 @@ const siteData = {
                 "points": 2
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "team": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png",
-                "played": 2,
-                "win": 0,
-                "draw": 1,
-                "lose": 1,
-                "gd": -1,
-                "points": 1
-            },
-            {
-                "rank": 16,
-                "team": "Celta Vigo",
-                "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 2,
                 "win": 0,
                 "draw": 1,
@@ -1365,6 +1377,17 @@ const siteData = {
             },
             {
                 "rank": 18,
+                "team": "Celta Vigo",
+                "logo": "https://media.api-sports.io/football/teams/538.png",
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "gd": -3,
+                "points": 1
+            },
+            {
+                "rank": 19,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
                 "played": 3,
@@ -1375,7 +1398,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 19,
+                "rank": 20,
                 "team": "Malaga",
                 "logo": "https://media.api-sports.io/football/teams/535.png",
                 "played": 3,
@@ -1384,17 +1407,6 @@ const siteData = {
                 "lose": 2,
                 "gd": -6,
                 "points": 1
-            },
-            {
-                "rank": 20,
-                "team": "Athletic Club",
-                "logo": "https://media.api-sports.io/football/teams/531.png",
-                "played": 2,
-                "win": 0,
-                "draw": 0,
-                "lose": 2,
-                "gd": -4,
-                "points": 0
             }
         ],
         "Serie A": [
@@ -2220,7 +2232,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 05:03 WIB",
+    "standingsUpdated": "31/08/2026 06:02 WIB",
     "topScorers": {
         "Premier League": [
             {
