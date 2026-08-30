@@ -2,9 +2,40 @@
   "fixtureId": 1557379,
   "home": "Chelsea",
   "away": "Brighton",
-  "statusCode": "NS",
-  "updatedAt": "30/08/2026 19:53 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "30/08/2026 20:06 WIB",
+  "statistics": {
+    "home": {
+      "possession": 33,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 0,
+      "offsides": null,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 2,
+      "passesAccurate": 0,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 67,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 0,
+      "offsides": null,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 4,
+      "passesAccurate": 2,
+      "passesPct": 50
+    }
+  },
   "lineups": {
     "home": {
       "formation": "3-4-2-1",
