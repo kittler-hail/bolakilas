@@ -3,26 +3,26 @@
   "home": "Sunderland",
   "away": "Fulham",
   "statusCode": "2H",
-  "updatedAt": "30/08/2026 21:25 WIB",
+  "updatedAt": "30/08/2026 21:38 WIB",
   "statistics": {
     "home": {
-      "possession": 51,
-      "shotsTotal": 6,
-      "shotsOnTarget": 1,
+      "possession": 47,
+      "shotsTotal": 10,
+      "shotsOnTarget": 2,
       "corners": 3,
-      "fouls": 8,
+      "fouls": 10,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": null,
-      "shotsInsidebox": 3,
+      "shotsInsidebox": 7,
       "shotsOutsidebox": 3,
-      "passesTotal": 330,
-      "passesAccurate": 282,
-      "passesPct": 85
+      "passesTotal": 349,
+      "passesAccurate": 294,
+      "passesPct": 84
     },
     "away": {
-      "possession": 49,
-      "shotsTotal": 4,
+      "possession": 53,
+      "shotsTotal": 5,
       "shotsOnTarget": 0,
       "corners": 2,
       "fouls": 13,
@@ -30,10 +30,10 @@
       "yellowCards": 2,
       "redCards": null,
       "shotsInsidebox": 2,
-      "shotsOutsidebox": 2,
-      "passesTotal": 331,
-      "passesAccurate": 271,
-      "passesPct": 82
+      "shotsOutsidebox": 3,
+      "passesTotal": 408,
+      "passesAccurate": 341,
+      "passesPct": 84
     }
   },
   "lineups": {
@@ -51,37 +51,37 @@
           "number": 12,
           "name": "Thomas Meunier",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 20,
           "name": "Nordi Mukiele",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "7.7"
         },
         {
           "number": 5,
           "name": "Daniel Ballard",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 17,
           "name": "Reinildo Mandava",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.0"
         },
         {
           "number": 34,
           "name": "Granit Xhaka",
           "position": "Gelandang",
-          "rating": "7.3"
+          "rating": "7.9"
         },
         {
           "number": 27,
           "name": "Noah Sadiki",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 32,
@@ -93,7 +93,7 @@
           "number": 28,
           "name": "Enzo Le Fée",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 10,
@@ -132,7 +132,8 @@
         {
           "number": 19,
           "name": "Habib Diarra",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "7.0"
         },
         {
           "number": 11,
@@ -152,7 +153,8 @@
         {
           "number": 18,
           "name": "Wilson Isidor",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "7.3"
         }
       ]
     },
@@ -164,7 +166,7 @@
           "number": 1,
           "name": "Bernd Leno",
           "position": "Kiper",
-          "rating": "6.5"
+          "rating": "5.9"
         },
         {
           "number": 21,
@@ -176,7 +178,7 @@
           "number": 5,
           "name": "Joachim Andersen",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 3,
@@ -188,13 +190,13 @@
           "number": 33,
           "name": "Antonee Robinson",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.3"
         },
         {
           "number": 16,
           "name": "Sander Berge",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 17,
@@ -218,13 +220,13 @@
           "number": 8,
           "name": "César Palacios",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 7,
           "name": "Gonzalo García",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -236,7 +238,8 @@
         {
           "number": 30,
           "name": "Ryan Sessegnon",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 4,
@@ -251,7 +254,8 @@
         {
           "number": 19,
           "name": "Shea Charles",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 32,
