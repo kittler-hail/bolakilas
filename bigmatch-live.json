@@ -1,228 +1,228 @@
 {
-  "fixtureId": 1557379,
-  "home": "Chelsea",
-  "away": "Brighton",
-  "statusCode": "HT",
-  "updatedAt": "30/08/2026 20:59 WIB",
+  "fixtureId": 1557385,
+  "home": "Sunderland",
+  "away": "Fulham",
+  "statusCode": "2H",
+  "updatedAt": "30/08/2026 21:12 WIB",
   "statistics": {
     "home": {
-      "possession": 29,
-      "shotsTotal": 9,
-      "shotsOnTarget": 4,
-      "corners": 2,
-      "fouls": 3,
-      "offsides": null,
-      "yellowCards": null,
+      "possession": 56,
+      "shotsTotal": 5,
+      "shotsOnTarget": 1,
+      "corners": 3,
+      "fouls": 6,
+      "offsides": 0,
+      "yellowCards": 0,
       "redCards": null,
-      "shotsInsidebox": 8,
-      "shotsOutsidebox": 1,
-      "passesTotal": 125,
-      "passesAccurate": 91,
-      "passesPct": 73
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 3,
+      "passesTotal": 295,
+      "passesAccurate": 254,
+      "passesPct": 86
     },
     "away": {
-      "possession": 71,
-      "shotsTotal": 5,
-      "shotsOnTarget": 3,
-      "corners": 4,
-      "fouls": 6,
-      "offsides": null,
-      "yellowCards": null,
+      "possession": 44,
+      "shotsTotal": 2,
+      "shotsOnTarget": 0,
+      "corners": 1,
+      "fouls": 9,
+      "offsides": 1,
+      "yellowCards": 1,
       "redCards": null,
-      "shotsInsidebox": 5,
-      "shotsOutsidebox": 0,
-      "passesTotal": 300,
-      "passesAccurate": 266,
-      "passesPct": 89
+      "shotsInsidebox": 1,
+      "shotsOutsidebox": 1,
+      "passesTotal": 242,
+      "passesAccurate": 200,
+      "passesPct": 83
     }
   },
   "lineups": {
     "home": {
-      "formation": "3-4-2-1",
-      "coach": "Xabi Alonso",
+      "formation": "4-2-3-1",
+      "coach": "Regis Le Bris",
       "startXI": [
         {
-          "number": 26,
-          "name": "Emiliano Martínez",
+          "number": 22,
+          "name": "Robin Roefs",
           "position": "Kiper",
-          "rating": "7.9"
-        },
-        {
-          "number": 3,
-          "name": "Wesley Fofana",
-          "position": "Bek",
           "rating": "6.6"
         },
         {
-          "number": 5,
-          "name": "Maxence Lacroix",
-          "position": "Bek",
-          "rating": "6.2"
-        },
-        {
-          "number": 6,
-          "name": "Levi Colwill",
+          "number": 12,
+          "name": "Thomas Meunier",
           "position": "Bek",
           "rating": "6.3"
         },
         {
+          "number": 20,
+          "name": "Nordi Mukiele",
+          "position": "Bek",
+          "rating": "7.2"
+        },
+        {
+          "number": 5,
+          "name": "Daniel Ballard",
+          "position": "Bek",
+          "rating": "6.5"
+        },
+        {
+          "number": 17,
+          "name": "Reinildo Mandava",
+          "position": "Bek",
+          "rating": "7.3"
+        },
+        {
+          "number": 34,
+          "name": "Granit Xhaka",
+          "position": "Gelandang",
+          "rating": "7.3"
+        },
+        {
           "number": 27,
-          "name": "Malo Gusto",
+          "name": "Noah Sadiki",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 32,
+          "name": "Trai Hume",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 28,
+          "name": "Enzo Le Fée",
           "position": "Gelandang",
           "rating": "6.5"
         },
         {
           "number": 10,
-          "name": "Cole Palmer",
+          "name": "Nilson Angulo",
           "position": "Gelandang",
-          "rating": "6.5"
-        },
-        {
-          "number": 45,
-          "name": "Roméo Lavia",
-          "position": "Gelandang",
-          "rating": "7.3"
-        },
-        {
-          "number": 21,
-          "name": "Jorrel Hato",
-          "position": "Gelandang",
-          "rating": "7.2"
-        },
-        {
-          "number": 7,
-          "name": "Pedro Neto",
-          "position": "Penyerang",
-          "rating": "8.2"
-        },
-        {
-          "number": 17,
-          "name": "Morgan Rogers",
-          "position": "Penyerang",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         {
           "number": 9,
-          "name": "João Pedro",
+          "name": "Brian Brobbey",
           "position": "Penyerang",
-          "rating": "7.9"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
         {
-          "number": 39,
-          "name": "Mike Penders",
+          "number": 31,
+          "name": "Melker Ellborg",
           "position": "Kiper"
         },
         {
-          "number": 34,
-          "name": "Josh Acheampong",
-          "position": "Bek"
-        },
-        {
-          "number": 29,
-          "name": "Pep Chavarría",
-          "position": "Bek"
-        },
-        {
-          "number": 24,
-          "name": "Reece James",
-          "position": "Bek"
-        },
-        {
-          "number": 4,
-          "name": "Valentín Barco",
+          "number": 13,
+          "name": "Luke O'Nien",
           "position": "Gelandang"
         },
         {
-          "number": 25,
-          "name": "Moisés Caicedo",
-          "position": "Gelandang"
+          "number": 15,
+          "name": "Omar Alderete",
+          "position": "Bek"
         },
         {
-          "number": 41,
-          "name": "Estêvão",
+          "number": 7,
+          "name": "Chemsdine Talbi",
           "position": "Penyerang"
         },
         {
+          "number": 19,
+          "name": "Habib Diarra",
+          "position": "Gelandang"
+        },
+        {
           "number": 11,
-          "name": "Jamie Gittens",
+          "name": "Chris Rigg",
+          "position": "Gelandang"
+        },
+        {
+          "number": 29,
+          "name": "Jules Ahoka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Romaine Mundle",
           "position": "Penyerang"
         },
         {
           "number": 18,
-          "name": "Danny Welbeck",
+          "name": "Wilson Isidor",
           "position": "Penyerang"
         }
       ]
     },
     "away": {
       "formation": "4-2-3-1",
-      "coach": "Fabian Hurzeler",
+      "coach": "Alvaro Arbeloa",
       "startXI": [
         {
           "number": 1,
-          "name": "Bart Verbruggen",
+          "name": "Bernd Leno",
           "position": "Kiper",
-          "rating": "5.0"
-        },
-        {
-          "number": 24,
-          "name": "Ferdi Kadıoğlu",
-          "position": "Bek",
-          "rating": "5.9"
-        },
-        {
-          "number": 44,
-          "name": "Luka Vušković",
-          "position": "Bek",
-          "rating": "5.9"
-        },
-        {
-          "number": 5,
-          "name": "Lewis Dunk",
-          "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 21,
-          "name": "Olivier Boscagli",
+          "name": "Timothy Castagne",
+          "position": "Bek",
+          "rating": "6.7"
+        },
+        {
+          "number": 5,
+          "name": "Joachim Andersen",
           "position": "Bek",
           "rating": "6.3"
         },
         {
-          "number": 27,
-          "name": "Mats Wieffer",
+          "number": 3,
+          "name": "Calvin Bassey",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 33,
+          "name": "Antonee Robinson",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 16,
+          "name": "Sander Berge",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 17,
+          "name": "Alex Iwobi",
           "position": "Gelandang",
           "rating": "7.0"
         },
         {
-          "number": 13,
-          "name": "Pascal Groß",
+          "number": 14,
+          "name": "Oscar Bobb",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
-          "number": 25,
-          "name": "Diego Gómez",
+          "number": 24,
+          "name": "Joshua King",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
-          "number": 35,
-          "name": "Malick Yalcouyé",
+          "number": 8,
+          "name": "César Palacios",
           "position": "Gelandang",
-          "rating": "7.7"
+          "rating": "6.6"
         },
         {
-          "number": 29,
-          "name": "Maxim De Cuyper",
-          "position": "Gelandang",
-          "rating": "6.3"
-        },
-        {
-          "number": 19,
-          "name": "Charalampos Kostoulas",
+          "number": 7,
+          "name": "Gonzalo García",
           "position": "Penyerang",
           "rating": "6.5"
         }
@@ -230,62 +230,62 @@
       "substitutes": [
         {
           "number": 23,
-          "name": "Jason Steele",
+          "name": "Benjamin Lecomte",
           "position": "Kiper"
         },
         {
+          "number": 30,
+          "name": "Ryan Sessegnon",
+          "position": "Gelandang"
+        },
+        {
           "number": 4,
-          "name": "Pascal Struijk",
+          "name": "Jorge Cuenca",
           "position": "Bek"
         },
         {
           "number": 6,
-          "name": "Jaouen Hadjam",
-          "position": "Bek"
-        },
-        {
-          "number": 20,
-          "name": "Costinha",
-          "position": "Bek"
-        },
-        {
-          "number": 15,
-          "name": "Ibrahim Osman",
-          "position": "Penyerang"
-        },
-        {
-          "number": 22,
-          "name": "Amario Cozier-Duberry",
+          "name": "Harrison Reed",
           "position": "Gelandang"
         },
         {
-          "number": 33,
-          "name": "Matt O'Riley",
+          "number": 19,
+          "name": "Shea Charles",
           "position": "Gelandang"
         },
         {
-          "number": 12,
-          "name": "Promise David",
+          "number": 32,
+          "name": "Emile Smith Rowe",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Kevin",
           "position": "Penyerang"
         },
         {
-          "number": 49,
-          "name": "Nehemiah Oriola",
+          "number": 9,
+          "name": "Rodrigo Muniz",
+          "position": "Penyerang"
+        },
+        {
+          "number": 35,
+          "name": "Macauley Zepa",
           "position": "Penyerang"
         }
       ]
     }
   },
   "venue": {
-    "name": "Stamford Bridge",
-    "city": "London",
-    "capacity": 41841,
-    "image": "https://media.api-sports.io/football/venues/519.png"
+    "name": "Stadium of Light",
+    "city": "Sunderland",
+    "capacity": 49000,
+    "image": "https://media.api-sports.io/football/venues/589.png"
   },
   "odds": {
-    "bookmaker": "William Hill",
-    "home": "1.91",
-    "draw": "3.60",
-    "away": "3.75"
+    "bookmaker": "10Bet",
+    "home": "4.33",
+    "draw": "3.75",
+    "away": "1.73"
   }
 }
