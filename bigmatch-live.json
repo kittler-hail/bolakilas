@@ -2,11 +2,11 @@
   "fixtureId": 1570356,
   "home": "Deportivo La Coruna",
   "away": "Valencia",
-  "statusCode": "HT",
-  "updatedAt": "31/08/2026 01:31 WIB",
+  "statusCode": "2H",
+  "updatedAt": "31/08/2026 01:44 WIB",
   "statistics": {
     "home": {
-      "possession": 58,
+      "possession": 56,
       "shotsTotal": 7,
       "shotsOnTarget": 1,
       "corners": 4,
@@ -16,24 +16,24 @@
       "redCards": null,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
-      "passesTotal": 310,
-      "passesAccurate": 279,
+      "passesTotal": 313,
+      "passesAccurate": 281,
       "passesPct": 90
     },
     "away": {
-      "possession": 42,
-      "shotsTotal": 3,
+      "possession": 44,
+      "shotsTotal": 4,
       "shotsOnTarget": 1,
       "corners": 2,
       "fouls": 2,
       "offsides": 1,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 3,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 0,
-      "passesTotal": 226,
-      "passesAccurate": 188,
-      "passesPct": 83
+      "passesTotal": 245,
+      "passesAccurate": 206,
+      "passesPct": 84
     }
   },
   "lineups": {
@@ -51,13 +51,13 @@
           "number": 23,
           "name": "Ximo Navarro",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 4,
           "name": "Lucas Noubi",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 22,
@@ -75,7 +75,7 @@
           "number": 19,
           "name": "Luismi Cruz",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 14,
@@ -105,7 +105,7 @@
           "number": 32,
           "name": "Bil Nsongo",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -191,13 +191,13 @@
           "number": 5,
           "name": "César Tárrega",
           "position": "Bek",
-          "rating": "5.5"
+          "rating": "5.3"
         },
         {
           "number": 18,
           "name": "Pepelu",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 4,
@@ -215,19 +215,19 @@
           "number": 23,
           "name": "Filip Ugrinić",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 11,
           "name": "Luis Rioja",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 8,
           "name": "Javier Guerra",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 6,
