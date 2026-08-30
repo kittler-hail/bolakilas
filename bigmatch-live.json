@@ -2,9 +2,40 @@
   "fixtureId": 1570356,
   "home": "Deportivo La Coruna",
   "away": "Valencia",
-  "statusCode": "NS",
-  "updatedAt": "31/08/2026 00:26 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "31/08/2026 00:39 WIB",
+  "statistics": {
+    "home": {
+      "possession": 33,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 0,
+      "offsides": null,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 4,
+      "passesAccurate": 4,
+      "passesPct": 100
+    },
+    "away": {
+      "possession": 67,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 0,
+      "offsides": null,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 7,
+      "passesAccurate": 5,
+      "passesPct": 71
+    }
+  },
   "lineups": {
     "home": {
       "formation": "4-4-2",
