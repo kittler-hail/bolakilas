@@ -3,37 +3,37 @@
   "home": "Sunderland",
   "away": "Fulham",
   "statusCode": "2H",
-  "updatedAt": "30/08/2026 21:38 WIB",
+  "updatedAt": "30/08/2026 21:50 WIB",
   "statistics": {
     "home": {
-      "possession": 47,
-      "shotsTotal": 10,
-      "shotsOnTarget": 2,
+      "possession": 42,
+      "shotsTotal": 11,
+      "shotsOnTarget": 3,
       "corners": 3,
       "fouls": 10,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": null,
-      "shotsInsidebox": 7,
+      "shotsInsidebox": 8,
       "shotsOutsidebox": 3,
-      "passesTotal": 349,
-      "passesAccurate": 294,
-      "passesPct": 84
+      "passesTotal": 385,
+      "passesAccurate": 320,
+      "passesPct": 83
     },
     "away": {
-      "possession": 53,
-      "shotsTotal": 5,
+      "possession": 58,
+      "shotsTotal": 9,
       "shotsOnTarget": 0,
-      "corners": 2,
-      "fouls": 13,
+      "corners": 4,
+      "fouls": 15,
       "offsides": 1,
       "yellowCards": 2,
       "redCards": null,
-      "shotsInsidebox": 2,
-      "shotsOutsidebox": 3,
-      "passesTotal": 408,
-      "passesAccurate": 341,
-      "passesPct": 84
+      "shotsInsidebox": 5,
+      "shotsOutsidebox": 4,
+      "passesTotal": 540,
+      "passesAccurate": 457,
+      "passesPct": 85
     }
   },
   "lineups": {
@@ -57,43 +57,43 @@
           "number": 20,
           "name": "Nordi Mukiele",
           "position": "Bek",
-          "rating": "7.7"
+          "rating": "8.0"
         },
         {
           "number": 5,
           "name": "Daniel Ballard",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "7.0"
         },
         {
           "number": 17,
           "name": "Reinildo Mandava",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 34,
           "name": "Granit Xhaka",
           "position": "Gelandang",
-          "rating": "7.9"
+          "rating": "8.2"
         },
         {
           "number": 27,
           "name": "Noah Sadiki",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 32,
           "name": "Trai Hume",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.9"
         },
         {
           "number": 28,
           "name": "Enzo Le Fée",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 10,
@@ -138,7 +138,8 @@
         {
           "number": 11,
           "name": "Chris Rigg",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 29,
@@ -178,7 +179,7 @@
           "number": 5,
           "name": "Joachim Andersen",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 3,
@@ -190,7 +191,7 @@
           "number": 33,
           "name": "Antonee Robinson",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 16,
@@ -202,7 +203,7 @@
           "number": 17,
           "name": "Alex Iwobi",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 14,
@@ -214,7 +215,7 @@
           "number": 24,
           "name": "Joshua King",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "5.9"
         },
         {
           "number": 8,
@@ -226,7 +227,7 @@
           "number": 7,
           "name": "Gonzalo García",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -239,7 +240,7 @@
           "number": 30,
           "name": "Ryan Sessegnon",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.9"
         },
         {
           "number": 4,
@@ -260,12 +261,14 @@
         {
           "number": 32,
           "name": "Emile Smith Rowe",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Kevin",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         },
         {
           "number": 9,
