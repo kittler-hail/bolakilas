@@ -2,11 +2,11 @@
   "fixtureId": 1557379,
   "home": "Chelsea",
   "away": "Brighton",
-  "statusCode": "1H",
-  "updatedAt": "30/08/2026 20:45 WIB",
+  "statusCode": "HT",
+  "updatedAt": "30/08/2026 20:59 WIB",
   "statistics": {
     "home": {
-      "possession": 30,
+      "possession": 29,
       "shotsTotal": 9,
       "shotsOnTarget": 4,
       "corners": 2,
@@ -16,23 +16,23 @@
       "redCards": null,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 1,
-      "passesTotal": 120,
-      "passesAccurate": 90,
-      "passesPct": 75
+      "passesTotal": 125,
+      "passesAccurate": 91,
+      "passesPct": 73
     },
     "away": {
-      "possession": 70,
-      "shotsTotal": 4,
+      "possession": 71,
+      "shotsTotal": 5,
       "shotsOnTarget": 3,
-      "corners": 3,
-      "fouls": 5,
+      "corners": 4,
+      "fouls": 6,
       "offsides": null,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 4,
+      "shotsInsidebox": 5,
       "shotsOutsidebox": 0,
-      "passesTotal": 281,
-      "passesAccurate": 251,
+      "passesTotal": 300,
+      "passesAccurate": 266,
       "passesPct": 89
     }
   },
@@ -45,7 +45,7 @@
           "number": 26,
           "name": "Emiliano Martínez",
           "position": "Kiper",
-          "rating": "7.6"
+          "rating": "7.9"
         },
         {
           "number": 3,
@@ -87,13 +87,13 @@
           "number": 21,
           "name": "Jorrel Hato",
           "position": "Gelandang",
-          "rating": "7.3"
+          "rating": "7.2"
         },
         {
           "number": 7,
           "name": "Pedro Neto",
           "position": "Penyerang",
-          "rating": "8.3"
+          "rating": "8.2"
         },
         {
           "number": 17,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "João Pedro",
           "position": "Penyerang",
-          "rating": "7.6"
+          "rating": "7.9"
         }
       ],
       "substitutes": [
@@ -200,13 +200,13 @@
           "number": 13,
           "name": "Pascal Groß",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 25,
           "name": "Diego Gómez",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 35,
@@ -218,7 +218,7 @@
           "number": 29,
           "name": "Maxim De Cuyper",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 19,
