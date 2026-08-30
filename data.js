@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T13:03:01.830Z.
+   API-Football v3) pada 2026-08-30T14:03:02.857Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -19,13 +19,13 @@ const siteData = {
         "league": "Premier League",
         "date": "2026-08-30",
         "time": "20:00",
-        "home": "Chelsea",
-        "away": "Brighton",
-        "stadium": "Stamford Bridge",
+        "home": "Sunderland",
+        "away": "Fulham",
+        "stadium": "Stadium of Light",
         "prediction": "2 - 3",
-        "analysis": "Chelsea bertemu Brighton dalam laga Premier League. Analisis API-Football: Combo Double chance : draw or Brighton and +1.5 goals.",
-        "statusCode": "1H",
-        "minuteDisplay": "2'",
+        "analysis": "Sunderland bertemu Fulham dalam laga Premier League. Analisis API-Football: Combo Double chance : draw or Fulham and +1.5 goals.",
+        "statusCode": "2H",
+        "minuteDisplay": "46'",
         "homeScore": 0,
         "awayScore": 0,
         "odds": {
@@ -38,47 +38,47 @@ const siteData = {
             "draw": 45,
             "away": 45
         },
-        "apiFixtureId": 1557379,
-        "homeTeamId": 49,
-        "awayTeamId": 51,
-        "homeLogo": "https://media.api-sports.io/football/teams/49.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/51.png",
+        "apiFixtureId": 1557385,
+        "homeTeamId": 746,
+        "awayTeamId": 36,
+        "homeLogo": "https://media.api-sports.io/football/teams/746.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/36.png",
         "h2h": [
             {
-                "home": "Brighton",
-                "away": "Chelsea",
-                "score": "3-0"
-            },
-            {
-                "home": "Chelsea",
-                "away": "Brighton",
+                "home": "Sunderland",
+                "away": "Fulham",
                 "score": "1-3"
             },
             {
-                "home": "Brighton",
-                "away": "Chelsea",
-                "score": "3-0"
+                "home": "Fulham",
+                "away": "Sunderland",
+                "score": "1-0"
             },
             {
-                "home": "Brighton",
-                "away": "Chelsea",
+                "home": "Sunderland",
+                "away": "Fulham",
+                "score": "2-3"
+            },
+            {
+                "home": "Fulham",
+                "away": "Sunderland",
+                "score": "1-1"
+            },
+            {
+                "home": "Fulham",
+                "away": "Sunderland",
                 "score": "2-1"
-            },
-            {
-                "home": "Chelsea",
-                "away": "Brighton",
-                "score": "4-2"
             }
         ],
         "form": {
             "home": {
                 "results": [
-                    "W"
+                    "L"
                 ]
             },
             "away": {
                 "results": [
-                    "W"
+                    "L"
                 ]
             }
         }
@@ -421,6 +421,72 @@ const siteData = {
             ]
         },
         {
+            "league": "Serie A",
+            "date": "2026-08-30",
+            "time": "01:45",
+            "home": "Juventus",
+            "away": "Parma",
+            "stadium": "Allianz Stadium",
+            "round": "Pekan 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/523.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Combo Double chance : Juventus or draw and -2.5 goals",
+            "goals": [
+                {
+                    "minute": "62",
+                    "player": "N. Gonzalez",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "T. Koopmeiners",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "10",
+                    "player": "Jhon Lucumí",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Manuel Locatelli",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "Enrico Delprato",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Mariano Troilo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Abdou-Salam Konate",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Ligue 1",
             "date": "2026-08-30",
             "time": "01:45",
@@ -654,72 +720,6 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "Prosper Peter",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-08-30",
-            "time": "01:45",
-            "home": "Juventus",
-            "away": "Parma",
-            "stadium": "Allianz Stadium",
-            "round": "Pekan 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/523.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Combo Double chance : Juventus or draw and -2.5 goals",
-            "goals": [
-                {
-                    "minute": "62",
-                    "player": "N. Gonzalez",
-                    "team": "home"
-                },
-                {
-                    "minute": "88",
-                    "player": "T. Koopmeiners",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "10",
-                    "player": "Jhon Lucumí",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "54",
-                    "player": "Manuel Locatelli",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "55",
-                    "player": "Enrico Delprato",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "78",
-                    "player": "Mariano Troilo",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "Abdou-Salam Konate",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2424,9 +2424,9 @@ const siteData = {
             "away": "Club Brugge KV",
             "stadium": "Planet Group Arena",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "74'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/631.png",
             "awayLogo": "https://media.api-sports.io/football/teams/569.png",
@@ -2447,6 +2447,11 @@ const siteData = {
                     "minute": "40",
                     "player": "H. Vanaken",
                     "team": "away"
+                },
+                {
+                    "minute": "85",
+                    "player": "I. Cisse",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -2473,6 +2478,36 @@ const siteData = {
                     "player": "C. Forbs",
                     "team": "away",
                     "type": "red"
+                },
+                {
+                    "minute": "70",
+                    "player": "S. Van Der Heyden",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "B. Mechele",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "I. Cisse",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "J. Seys",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "I. Cisse",
+                    "team": "home",
+                    "type": "red"
                 }
             ]
         },
@@ -2484,10 +2519,10 @@ const siteData = {
             "away": "Heerenveen",
             "stadium": "Koning Willem II Stadion",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "30'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "71'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/195.png",
             "awayLogo": "https://media.api-sports.io/football/teams/210.png",
             "prediction": "1 - 3",
@@ -2496,7 +2531,19 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Combo Double chance : draw or Heerenveen and +1.5 goals"
+            "advice": "Combo Double chance : draw or Heerenveen and +1.5 goals",
+            "goals": [
+                {
+                    "minute": "61",
+                    "player": "U. van Aalst",
+                    "team": "home"
+                },
+                {
+                    "minute": "64",
+                    "player": "J. Trenskow",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -2506,10 +2553,10 @@ const siteData = {
             "away": "ADO Den Haag",
             "stadium": "De Kuip",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "31'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "72'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/209.png",
             "awayLogo": "https://media.api-sports.io/football/teams/198.png",
             "prediction": "3 - 1",
@@ -2524,6 +2571,60 @@ const siteData = {
                     "minute": "12",
                     "player": "N. Thomas",
                     "team": "away"
+                },
+                {
+                    "minute": "54",
+                    "player": "S. Sylla",
+                    "team": "away"
+                },
+                {
+                    "minute": "62",
+                    "player": "A. Ueda",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "57",
+                    "player": "P. Mulder",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "M. Jimenez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Premier League",
+            "date": "2026-08-30",
+            "time": "20:00",
+            "home": "Sunderland",
+            "away": "Fulham",
+            "stadium": "Stadium of Light",
+            "round": "Pekan 2",
+            "statusCode": "2H",
+            "minuteDisplay": "46'",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/746.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/36.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Fulham and +1.5 goals",
+            "cards": [
+                {
+                    "minute": "35",
+                    "player": "J. Andersen",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -2535,10 +2636,10 @@ const siteData = {
             "away": "Brighton",
             "stadium": "Stamford Bridge",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/49.png",
             "awayLogo": "https://media.api-sports.io/football/teams/51.png",
             "prediction": "2 - 3",
@@ -2547,7 +2648,29 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Combo Double chance : draw or Brighton and +1.5 goals"
+            "advice": "Combo Double chance : draw or Brighton and +1.5 goals",
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "R. Lavia",
+                    "team": "home"
+                },
+                {
+                    "minute": "14",
+                    "player": "P. Neto",
+                    "team": "home"
+                },
+                {
+                    "minute": "32",
+                    "player": "Joao Pedro",
+                    "team": "home"
+                },
+                {
+                    "minute": "35",
+                    "player": "M. Yalcouye",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Premier League",
@@ -2557,10 +2680,10 @@ const siteData = {
             "away": "Brentford",
             "stadium": "Elland Road",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/63.png",
             "awayLogo": "https://media.api-sports.io/football/teams/55.png",
             "prediction": "1 - 2",
@@ -2569,29 +2692,22 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Combo Winner : Brentford and +1.5 goals"
-        },
-        {
-            "league": "Premier League",
-            "date": "2026-08-30",
-            "time": "20:00",
-            "home": "Sunderland",
-            "away": "Fulham",
-            "stadium": "Stadium of Light",
-            "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/746.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/36.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Fulham and +1.5 goals"
+            "advice": "Combo Winner : Brentford and +1.5 goals",
+            "goals": [
+                {
+                    "minute": "41",
+                    "player": "K. Schade",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "J. Anthony",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Ligue 1",
@@ -2601,9 +2717,9 @@ const siteData = {
             "away": "Nice",
             "stadium": "Stade Jean Bouin",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/114.png",
             "awayLogo": "https://media.api-sports.io/football/teams/84.png",
@@ -2613,7 +2729,22 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Paris FC or draw"
+            "advice": "Double chance : Paris FC or draw",
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "L. Sinayoko",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "Y. Ndayishimiye",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -2623,7 +2754,10 @@ const siteData = {
             "away": "Werder Bremen",
             "stadium": "Europa-Park Stadion",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "33'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/160.png",
             "awayLogo": "https://media.api-sports.io/football/teams/162.png",
             "prediction": "1 - 0",
@@ -2632,26 +2766,14 @@ const siteData = {
                 "draw": 50,
                 "away": 33
             },
-            "advice": "Double chance : SC Freiburg or draw"
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-08-30",
-            "time": "21:00",
-            "home": "Antwerp",
-            "away": "St. Truiden",
-            "stadium": "Bosuilstadion",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/740.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
+            "advice": "Double chance : SC Freiburg or draw",
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "Y. Suzuki",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -2661,7 +2783,10 @@ const siteData = {
             "away": "Motherwell",
             "stadium": "The SMISA Stadium",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/251.png",
             "awayLogo": "https://media.api-sports.io/football/teams/256.png",
             "prediction": "2 - 1",
@@ -2670,7 +2795,14 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Double chance : ST Mirren or draw and -3.5 goals"
+            "advice": "Combo Double chance : ST Mirren or draw and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "2",
+                    "player": "T. Maswanhise",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -2680,7 +2812,10 @@ const siteData = {
             "away": "Hibernian",
             "stadium": "Dens Park",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/253.png",
             "awayLogo": "https://media.api-sports.io/football/teams/249.png",
             "prediction": "2 - 1",
@@ -2690,6 +2825,28 @@ const siteData = {
                 "away": 10
             },
             "advice": "Double chance : Dundee or draw"
+        },
+        {
+            "league": "Jupiler Pro League",
+            "date": "2026-08-30",
+            "time": "21:00",
+            "home": "Antwerp",
+            "away": "St. Truiden",
+            "stadium": "Bosuilstadion",
+            "round": "Pekan 4",
+            "statusCode": "1H",
+            "minuteDisplay": "1'",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/740.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+            "prediction": "3 - 2",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
         },
         {
             "league": "Primeira Liga",
@@ -4181,7 +4338,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 20:02 WIB",
+    "standingsUpdated": "30/08/2026 21:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4934,11 +5091,75 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "T. Gomis",
+                "photo": "https://media.api-sports.io/football/players/383665.png",
+                "team": "RB Leipzig",
+                "teamLogo": "https://media.api-sports.io/football/teams/173.png",
+                "value": 2
+            },
+            {
+                "rank": 3,
                 "name": "J. Kimmich",
                 "photo": "https://media.api-sports.io/football/players/502.png",
                 "team": "Bayern München",
                 "teamLogo": "https://media.api-sports.io/football/teams/157.png",
                 "value": 2
+            },
+            {
+                "rank": 4,
+                "name": "J. Juranović",
+                "photo": "https://media.api-sports.io/football/players/14330.png",
+                "team": "Union Berlin",
+                "teamLogo": "https://media.api-sports.io/football/teams/182.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
+                "name": "L. Querfeld",
+                "photo": "https://media.api-sports.io/football/players/288206.png",
+                "team": "Union Berlin",
+                "teamLogo": "https://media.api-sports.io/football/teams/182.png",
+                "value": 1
+            },
+            {
+                "rank": 6,
+                "name": "L. Petkov",
+                "photo": "https://media.api-sports.io/football/players/177452.png",
+                "team": "SV Elversberg",
+                "teamLogo": "https://media.api-sports.io/football/teams/1660.png",
+                "value": 1
+            },
+            {
+                "rank": 7,
+                "name": "L. Maina",
+                "photo": "https://media.api-sports.io/football/players/25380.png",
+                "team": "1. FC Köln",
+                "teamLogo": "https://media.api-sports.io/football/teams/192.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
+                "name": "C. Nkunku",
+                "photo": "https://media.api-sports.io/football/players/269.png",
+                "team": "RB Leipzig",
+                "teamLogo": "https://media.api-sports.io/football/teams/173.png",
+                "value": 1
+            },
+            {
+                "rank": 9,
+                "name": "Francis-Ikechukwu Onyeka",
+                "photo": "https://media.api-sports.io/football/players/392254.png",
+                "team": "SV Elversberg",
+                "teamLogo": "https://media.api-sports.io/football/teams/1660.png",
+                "value": 1
+            },
+            {
+                "rank": 10,
+                "name": "K. Karetsas",
+                "photo": "https://media.api-sports.io/football/players/404891.png",
+                "team": "Borussia Dortmund",
+                "teamLogo": "https://media.api-sports.io/football/teams/165.png",
+                "value": 1
             }
         ]
     },
@@ -24901,25 +25122,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Fenerbahçe and +2.5 goals"
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-08-31",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Marseille",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Marseille and +2.5 goals"
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-08-31",
                 "time": "01:45",
@@ -24956,6 +25158,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Winner : Inter"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-08-31",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Marseille",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Marseille and +2.5 goals"
             },
             {
                 "league": "LaLiga",
