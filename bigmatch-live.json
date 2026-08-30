@@ -3,37 +3,37 @@
   "home": "Sunderland",
   "away": "Fulham",
   "statusCode": "2H",
-  "updatedAt": "30/08/2026 21:12 WIB",
+  "updatedAt": "30/08/2026 21:25 WIB",
   "statistics": {
     "home": {
-      "possession": 56,
-      "shotsTotal": 5,
+      "possession": 51,
+      "shotsTotal": 6,
       "shotsOnTarget": 1,
       "corners": 3,
-      "fouls": 6,
-      "offsides": 0,
+      "fouls": 8,
+      "offsides": 1,
       "yellowCards": 0,
       "redCards": null,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 3,
-      "passesTotal": 295,
-      "passesAccurate": 254,
-      "passesPct": 86
+      "passesTotal": 330,
+      "passesAccurate": 282,
+      "passesPct": 85
     },
     "away": {
-      "possession": 44,
-      "shotsTotal": 2,
+      "possession": 49,
+      "shotsTotal": 4,
       "shotsOnTarget": 0,
-      "corners": 1,
-      "fouls": 9,
+      "corners": 2,
+      "fouls": 13,
       "offsides": 1,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": null,
-      "shotsInsidebox": 1,
-      "shotsOutsidebox": 1,
-      "passesTotal": 242,
-      "passesAccurate": 200,
-      "passesPct": 83
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 2,
+      "passesTotal": 331,
+      "passesAccurate": 271,
+      "passesPct": 82
     }
   },
   "lineups": {
@@ -57,13 +57,13 @@
           "number": 20,
           "name": "Nordi Mukiele",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.5"
         },
         {
           "number": 5,
           "name": "Daniel Ballard",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 17,
@@ -81,19 +81,19 @@
           "number": 27,
           "name": "Noah Sadiki",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 32,
           "name": "Trai Hume",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 28,
           "name": "Enzo Le Fée",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 10,
@@ -170,13 +170,13 @@
           "number": 21,
           "name": "Timothy Castagne",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 5,
           "name": "Joachim Andersen",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 3,
@@ -194,7 +194,7 @@
           "number": 16,
           "name": "Sander Berge",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 17,
@@ -212,7 +212,7 @@
           "number": 24,
           "name": "Joshua King",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 8,
@@ -224,7 +224,7 @@
           "number": 7,
           "name": "Gonzalo García",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
