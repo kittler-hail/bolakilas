@@ -3,37 +3,37 @@
   "home": "Deportivo La Coruna",
   "away": "Valencia",
   "statusCode": "2H",
-  "updatedAt": "31/08/2026 01:57 WIB",
+  "updatedAt": "31/08/2026 02:10 WIB",
   "statistics": {
     "home": {
-      "possession": 55,
-      "shotsTotal": 9,
-      "shotsOnTarget": 2,
+      "possession": 51,
+      "shotsTotal": 10,
+      "shotsOnTarget": 3,
       "corners": 5,
-      "fouls": 6,
+      "fouls": 9,
       "offsides": 1,
-      "yellowCards": null,
+      "yellowCards": 0,
       "redCards": null,
       "shotsInsidebox": 5,
-      "shotsOutsidebox": 4,
-      "passesTotal": 399,
-      "passesAccurate": 351,
-      "passesPct": 88
+      "shotsOutsidebox": 5,
+      "passesTotal": 419,
+      "passesAccurate": 365,
+      "passesPct": 87
     },
     "away": {
-      "possession": 45,
-      "shotsTotal": 6,
+      "possession": 49,
+      "shotsTotal": 7,
       "shotsOnTarget": 2,
       "corners": 2,
-      "fouls": 2,
-      "offsides": 1,
-      "yellowCards": null,
+      "fouls": 4,
+      "offsides": 3,
+      "yellowCards": 1,
       "redCards": null,
-      "shotsInsidebox": 4,
+      "shotsInsidebox": 5,
       "shotsOutsidebox": 2,
-      "passesTotal": 330,
-      "passesAccurate": 277,
-      "passesPct": 84
+      "passesTotal": 396,
+      "passesAccurate": 335,
+      "passesPct": 85
     }
   },
   "lineups": {
@@ -63,7 +63,7 @@
           "number": 22,
           "name": "Bright Ede",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.7"
         },
         {
           "number": 12,
@@ -75,7 +75,7 @@
           "number": 19,
           "name": "Luismi Cruz",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 14,
@@ -87,7 +87,7 @@
           "number": 16,
           "name": "Lorenzo Amatucci",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 21,
@@ -105,7 +105,7 @@
           "number": 32,
           "name": "Bil Nsongo",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.9"
         }
       ],
       "substitutes": [
@@ -142,7 +142,8 @@
         {
           "number": 34,
           "name": "Teun Gijselhart",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 8,
@@ -179,13 +180,13 @@
           "number": 1,
           "name": "Stole Dimitrievski",
           "position": "Kiper",
-          "rating": "6.0"
+          "rating": "6.2"
         },
         {
           "number": 22,
           "name": "Arnau Martínez",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.2"
         },
         {
           "number": 5,
@@ -209,13 +210,13 @@
           "number": 21,
           "name": "Jesús Vázquez",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.2"
         },
         {
           "number": 23,
           "name": "Filip Ugrinić",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 11,
@@ -271,7 +272,8 @@
         {
           "number": 15,
           "name": "Aliou Dieng",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 38,
@@ -286,17 +288,20 @@
         {
           "number": 7,
           "name": "Arnaut Danjuma",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         },
         {
           "number": 27,
           "name": "David Otorbi",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         },
         {
           "number": 9,
           "name": "Hugo Duro",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.7"
         },
         {
           "number": 19,
