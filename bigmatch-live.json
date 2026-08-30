@@ -2,38 +2,38 @@
   "fixtureId": 1570356,
   "home": "Deportivo La Coruna",
   "away": "Valencia",
-  "statusCode": "1H",
-  "updatedAt": "31/08/2026 01:18 WIB",
+  "statusCode": "HT",
+  "updatedAt": "31/08/2026 01:31 WIB",
   "statistics": {
     "home": {
-      "possession": 60,
+      "possession": 58,
       "shotsTotal": 7,
       "shotsOnTarget": 1,
       "corners": 4,
-      "fouls": 4,
+      "fouls": 5,
       "offsides": 0,
       "yellowCards": null,
       "redCards": null,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
-      "passesTotal": 281,
-      "passesAccurate": 253,
+      "passesTotal": 310,
+      "passesAccurate": 279,
       "passesPct": 90
     },
     "away": {
-      "possession": 40,
+      "possession": 42,
       "shotsTotal": 3,
       "shotsOnTarget": 1,
-      "corners": 1,
+      "corners": 2,
       "fouls": 2,
       "offsides": 1,
       "yellowCards": null,
       "redCards": null,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 0,
-      "passesTotal": 189,
-      "passesAccurate": 154,
-      "passesPct": 81
+      "passesTotal": 226,
+      "passesAccurate": 188,
+      "passesPct": 83
     }
   },
   "lineups": {
@@ -51,13 +51,13 @@
           "number": 23,
           "name": "Ximo Navarro",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 4,
           "name": "Lucas Noubi",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 22,
@@ -69,7 +69,7 @@
           "number": 12,
           "name": "Giacomo Quagliata",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 19,
@@ -87,7 +87,7 @@
           "number": 16,
           "name": "Lorenzo Amatucci",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 21,
@@ -203,7 +203,7 @@
           "number": 4,
           "name": "Mouctar Diakhaby",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 21,
@@ -215,13 +215,13 @@
           "number": 23,
           "name": "Filip Ugrinić",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Luis Rioja",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 8,
@@ -239,7 +239,7 @@
           "number": 39,
           "name": "Ryunosuke Sato",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
