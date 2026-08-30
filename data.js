@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T03:03:12.167Z.
+   API-Football v3) pada 2026-08-30T04:03:14.767Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1702,7 +1702,7 @@ const siteData = {
                     "team": "away"
                 },
                 {
-                    "minute": "72",
+                    "minute": "71",
                     "player": "M. Caldeira",
                     "team": "home"
                 },
@@ -1860,14 +1860,8 @@ const siteData = {
             ],
             "cards": [
                 {
-                    "minute": "12",
+                    "minute": "11",
                     "player": "A. Rios",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "24",
-                    "player": "",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -1941,8 +1935,8 @@ const siteData = {
             "away": "Real Salt Lake",
             "stadium": "Dick's Sporting Goods Park",
             "round": "Pekan 22",
-            "statusCode": "2H",
-            "minuteDisplay": "66'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
@@ -1975,7 +1969,7 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "54",
+                    "minute": "53",
                     "player": "A. Hezarkhani",
                     "team": "away",
                     "type": "yellow"
@@ -1984,6 +1978,30 @@ const siteData = {
                     "minute": "61",
                     "player": "M. Guilavogui",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "N. Caliskan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "C. Guske",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "J. J. Arias",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "M. Navarro",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -1996,10 +2014,10 @@ const siteData = {
             "away": "Austin",
             "stadium": "Providence Park",
             "round": "Pekan 22",
-            "statusCode": "1H",
-            "minuteDisplay": "23'",
+            "statusCode": "2H",
+            "minuteDisplay": "66'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1617.png",
             "awayLogo": "https://media.api-sports.io/football/teams/16489.png",
             "prediction": "2 - 1",
@@ -2008,7 +2026,28 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Portland Timbers or draw"
+            "advice": "Double chance : Portland Timbers or draw",
+            "goals": [
+                {
+                    "minute": "25",
+                    "player": "F. Torres",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "35",
+                    "player": "Guilherme Biro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "M. Desler",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2018,10 +2057,10 @@ const siteData = {
             "away": "Los Angeles Galaxy",
             "stadium": "Snapdragon Stadium",
             "round": "Pekan 22",
-            "statusCode": "1H",
-            "minuteDisplay": "23'",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "66'",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1605.png",
             "prediction": "2 - 1",
@@ -2036,12 +2075,58 @@ const siteData = {
                     "minute": "11",
                     "player": "E. Achouri",
                     "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "K. Sargeant",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "H. Lozano",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "21",
                     "player": "M. Reus",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "23",
+                    "player": "J. Tverskov",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "Gabriel Pirani",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "A. Godoy",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "J. Tverskov",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "J. Tverskov",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "65",
+                    "player": "J. Paintsil",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2053,9 +2138,12 @@ const siteData = {
             "time": "10:10",
             "home": "Santos Laguna",
             "away": "Tigres UANL",
-            "stadium": "Estadio Corona",
+            "stadium": "Estadio TSM Corona",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "45+1'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
             "prediction": "1 - 2",
@@ -2064,7 +2152,21 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Tigres UANL"
+            "advice": "Double chance : draw or Tigres UANL",
+            "cards": [
+                {
+                    "minute": "14",
+                    "player": "F. Pardo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "A. Lopez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -2368,7 +2470,7 @@ const siteData = {
                 "draw": 50,
                 "away": 33
             },
-            "advice": "Combo Winner : Real Madrid and +1.5 goals"
+            "advice": "Winner : Real Madrid"
         },
         {
             "league": "Ligue 1",
@@ -3803,7 +3905,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 10:03 WIB",
+    "standingsUpdated": "30/08/2026 11:03 WIB",
     "topScorers": {
         "Premier League": [
             {
