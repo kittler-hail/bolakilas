@@ -3,36 +3,36 @@
   "home": "Chelsea",
   "away": "Brighton",
   "statusCode": "1H",
-  "updatedAt": "30/08/2026 20:19 WIB",
+  "updatedAt": "30/08/2026 20:32 WIB",
   "statistics": {
     "home": {
-      "possession": 25,
-      "shotsTotal": 3,
+      "possession": 28,
+      "shotsTotal": 4,
       "shotsOnTarget": 3,
       "corners": 1,
-      "fouls": 1,
+      "fouls": 2,
       "offsides": null,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 3,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 0,
-      "passesTotal": 30,
-      "passesAccurate": 20,
-      "passesPct": 67
+      "passesTotal": 84,
+      "passesAccurate": 62,
+      "passesPct": 74
     },
     "away": {
-      "possession": 75,
-      "shotsTotal": 1,
-      "shotsOnTarget": 0,
-      "corners": 2,
-      "fouls": 1,
+      "possession": 72,
+      "shotsTotal": 2,
+      "shotsOnTarget": 1,
+      "corners": 3,
+      "fouls": 3,
       "offsides": null,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 1,
+      "shotsInsidebox": 2,
       "shotsOutsidebox": 0,
-      "passesTotal": 89,
-      "passesAccurate": 80,
+      "passesTotal": 221,
+      "passesAccurate": 200,
       "passesPct": 90
     }
   },
@@ -45,25 +45,25 @@
           "number": 26,
           "name": "Emiliano Martínez",
           "position": "Kiper",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 3,
           "name": "Wesley Fofana",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 5,
           "name": "Maxence Lacroix",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 6,
           "name": "Levi Colwill",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 27,
@@ -75,13 +75,13 @@
           "number": 10,
           "name": "Cole Palmer",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 45,
           "name": "Roméo Lavia",
           "position": "Gelandang",
-          "rating": "7.5"
+          "rating": "7.3"
         },
         {
           "number": 21,
@@ -93,7 +93,7 @@
           "number": 7,
           "name": "Pedro Neto",
           "position": "Penyerang",
-          "rating": "7.9"
+          "rating": "8.2"
         },
         {
           "number": 17,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "João Pedro",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -164,31 +164,31 @@
           "number": 1,
           "name": "Bart Verbruggen",
           "position": "Kiper",
-          "rating": "5.3"
+          "rating": "5.5"
         },
         {
           "number": 24,
           "name": "Ferdi Kadıoğlu",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.2"
         },
         {
           "number": 44,
           "name": "Luka Vušković",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.2"
         },
         {
           "number": 5,
           "name": "Lewis Dunk",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 21,
           "name": "Olivier Boscagli",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 27,
@@ -200,7 +200,7 @@
           "number": 13,
           "name": "Pascal Groß",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 25,
@@ -212,7 +212,7 @@
           "number": 35,
           "name": "Malick Yalcouyé",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 29,
@@ -224,7 +224,7 @@
           "number": 19,
           "name": "Charalampos Kostoulas",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
