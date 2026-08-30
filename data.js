@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-29T23:03:09.379Z.
+   API-Football v3) pada 2026-08-30T00:03:27.418Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1054,10 +1054,10 @@ const siteData = {
             "away": "Venados FC",
             "stadium": "Estadio Tlahuicole",
             "round": "Apertura - 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
             "prediction": "2 - 3",
@@ -1071,6 +1071,21 @@ const siteData = {
                 {
                     "minute": "38",
                     "player": "I. Govea",
+                    "team": "home"
+                },
+                {
+                    "minute": "69",
+                    "player": "D. Alvarez",
+                    "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "S. Lora",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "D. Alvarez",
                     "team": "home"
                 }
             ],
@@ -1104,6 +1119,36 @@ const siteData = {
                     "player": "E. Torres",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "B. Vazquez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "B. Vazquez",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "83",
+                    "player": "S. Montiel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "M. Torres",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1115,10 +1160,10 @@ const siteData = {
             "away": "Club Queretaro",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 6",
-            "statusCode": "1H",
-            "minuteDisplay": "1'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2283.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
             "prediction": "1 - 2",
@@ -1127,7 +1172,27 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Club Queretaro"
+            "advice": "Double chance : draw or Club Queretaro",
+            "goals": [
+                {
+                    "minute": "39",
+                    "player": "S. Homenchenko",
+                    "team": "away"
+                },
+                {
+                    "minute": "42",
+                    "player": "C. Garcia",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+2",
+                    "player": "E. Gimenez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1137,7 +1202,10 @@ const siteData = {
             "away": "Guadalajara Chivas",
             "stadium": "Estadio Miguel Hidalgo",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2292.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2278.png",
             "prediction": "1 - 2",
@@ -1146,7 +1214,28 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Guadalajara Chivas"
+            "advice": "Double chance : draw or Guadalajara Chivas",
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "R. Alvarado",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "25",
+                    "player": "O. Idrissi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "32",
+                    "player": "F. Venegas",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1156,7 +1245,10 @@ const siteData = {
             "away": "New York City FC",
             "stadium": "BMO Field",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "23'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1601.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1604.png",
             "prediction": "2 - 3",
@@ -1165,7 +1257,15 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or New York City FC"
+            "advice": "Double chance : draw or New York City FC",
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "B. Kuscevic",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1175,7 +1275,10 @@ const siteData = {
             "away": "Philadelphia Union",
             "stadium": "Sports Illustrated Stadium",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "23'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1602.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
             "prediction": "1 - 2",
@@ -1184,7 +1287,14 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Philadelphia Union"
+            "advice": "Double chance : draw or Philadelphia Union",
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "M. Iloski",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1194,7 +1304,10 @@ const siteData = {
             "away": "Charlotte",
             "stadium": "Mercedes-Benz Stadium",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "23'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1608.png",
             "awayLogo": "https://media.api-sports.io/football/teams/18310.png",
             "prediction": "2 - 3",
@@ -1203,7 +1316,14 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or Charlotte"
+            "advice": "Double chance : draw or Charlotte",
+            "goals": [
+                {
+                    "minute": "22",
+                    "player": "I. Toklomati",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1213,7 +1333,10 @@ const siteData = {
             "away": "Los Angeles FC",
             "stadium": "Audi Field",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "23'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1615.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1616.png",
             "prediction": "1 - 2",
@@ -1232,7 +1355,10 @@ const siteData = {
             "away": "CF Montreal",
             "stadium": "Nu Stadium",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "23'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/9568.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1614.png",
             "prediction": "1 - 2",
@@ -1241,7 +1367,22 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Double chance : Inter Miami or draw and +1.5 goals"
+            "advice": "Combo Double chance : Inter Miami or draw and +1.5 goals",
+            "goals": [
+                {
+                    "minute": "20",
+                    "player": "Casemiro",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "11",
+                    "player": "I. Fray",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1624,6 +1765,25 @@ const siteData = {
             "advice": "Double chance : SC Freiburg or draw"
         },
         {
+            "league": "Jupiler Pro League",
+            "date": "2026-08-30",
+            "time": "21:00",
+            "home": "Antwerp",
+            "away": "St. Truiden",
+            "stadium": "Bosuilstadion",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/740.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+            "prediction": "3 - 2",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
+        },
+        {
             "league": "Scottish Premiership",
             "date": "2026-08-30",
             "time": "21:00",
@@ -1660,25 +1820,6 @@ const siteData = {
                 "away": 10
             },
             "advice": "Double chance : Dundee or draw"
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-08-30",
-            "time": "21:00",
-            "home": "Antwerp",
-            "away": "St. Truiden",
-            "stadium": "Bosuilstadion",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/740.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Antwerp or draw and +3.5 goals"
         },
         {
             "league": "Primeira Liga",
@@ -3170,7 +3311,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/08/2026 06:03 WIB",
+    "standingsUpdated": "30/08/2026 07:03 WIB",
     "topScorers": {
         "Premier League": [
             {
