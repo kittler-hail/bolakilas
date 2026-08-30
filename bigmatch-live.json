@@ -3,9 +3,226 @@
   "home": "Chelsea",
   "away": "Brighton",
   "statusCode": "NS",
-  "updatedAt": "30/08/2026 19:27 WIB",
+  "updatedAt": "30/08/2026 19:40 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "coach": "Xabi Alonso",
+      "startXI": [
+        {
+          "number": 26,
+          "name": "Emiliano Martínez",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "Wesley Fofana",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Maxence Lacroix",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Levi Colwill",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "Malo Gusto",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Cole Palmer",
+          "position": "Gelandang"
+        },
+        {
+          "number": 45,
+          "name": "Roméo Lavia",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "Jorrel Hato",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Pedro Neto",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "Morgan Rogers",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "João Pedro",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 39,
+          "name": "Mike Penders",
+          "position": "Kiper"
+        },
+        {
+          "number": 34,
+          "name": "Josh Acheampong",
+          "position": "Bek"
+        },
+        {
+          "number": 29,
+          "name": "Pep Chavarría",
+          "position": "Bek"
+        },
+        {
+          "number": 24,
+          "name": "Reece James",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Valentín Barco",
+          "position": "Gelandang"
+        },
+        {
+          "number": 25,
+          "name": "Moisés Caicedo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 41,
+          "name": "Estêvão",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "Jamie Gittens",
+          "position": "Penyerang"
+        },
+        {
+          "number": 18,
+          "name": "Danny Welbeck",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Fabian Hurzeler",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Bart Verbruggen",
+          "position": "Kiper"
+        },
+        {
+          "number": 24,
+          "name": "Ferdi Kadıoğlu",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "Luka Vušković",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Lewis Dunk",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "Olivier Boscagli",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "Mats Wieffer",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "Pascal Groß",
+          "position": "Gelandang"
+        },
+        {
+          "number": 25,
+          "name": "Diego Gómez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 35,
+          "name": "Malick Yalcouyé",
+          "position": "Gelandang"
+        },
+        {
+          "number": 29,
+          "name": "Maxim De Cuyper",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "Charalampos Kostoulas",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 23,
+          "name": "Jason Steele",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "Pascal Struijk",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Jaouen Hadjam",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "Costinha",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "Ibrahim Osman",
+          "position": "Penyerang"
+        },
+        {
+          "number": 22,
+          "name": "Amario Cozier-Duberry",
+          "position": "Gelandang"
+        },
+        {
+          "number": 33,
+          "name": "Matt O'Riley",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "Promise David",
+          "position": "Penyerang"
+        },
+        {
+          "number": 49,
+          "name": "Nehemiah Oriola",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Stamford Bridge",
     "city": "London",
