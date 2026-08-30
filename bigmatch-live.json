@@ -3,7 +3,7 @@
   "home": "Chelsea",
   "away": "Brighton",
   "statusCode": "FT",
-  "updatedAt": "30/08/2026 22:29 WIB",
+  "updatedAt": "30/08/2026 22:42 WIB",
   "statistics": {
     "home": {
       "possession": 26,
@@ -16,23 +16,23 @@
       "redCards": null,
       "shotsInsidebox": 15,
       "shotsOutsidebox": 2,
-      "passesTotal": 214,
-      "passesAccurate": 146,
-      "passesPct": 68
+      "passesTotal": 218,
+      "passesAccurate": 147,
+      "passesPct": 67
     },
     "away": {
       "possession": 74,
-      "shotsTotal": 14,
-      "shotsOnTarget": 5,
+      "shotsTotal": 15,
+      "shotsOnTarget": 6,
       "corners": 7,
       "fouls": 12,
       "offsides": null,
       "yellowCards": 3,
       "redCards": null,
-      "shotsInsidebox": 12,
+      "shotsInsidebox": 13,
       "shotsOutsidebox": 2,
-      "passesTotal": 620,
-      "passesAccurate": 544,
+      "passesTotal": 628,
+      "passesAccurate": 550,
       "passesPct": 88
     }
   },
@@ -45,7 +45,7 @@
           "number": 26,
           "name": "Emiliano Martínez",
           "position": "Kiper",
-          "rating": "8.5"
+          "rating": "7.9"
         },
         {
           "number": 3,
@@ -57,7 +57,7 @@
           "number": 5,
           "name": "Maxence Lacroix",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 6,
@@ -75,7 +75,7 @@
           "number": 27,
           "name": "Malo Gusto",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 45,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "João Pedro",
           "position": "Penyerang",
-          "rating": "7.7"
+          "rating": "7.6"
         }
       ],
       "substitutes": [
@@ -113,7 +113,7 @@
           "number": 34,
           "name": "Josh Acheampong",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 24,
@@ -125,13 +125,13 @@
           "number": 25,
           "name": "Moisés Caicedo",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 29,
           "name": "Pep Chavarría",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 39,
@@ -142,7 +142,7 @@
           "number": 4,
           "name": "Valentín Barco",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 41,
@@ -181,7 +181,7 @@
           "number": 44,
           "name": "Luka Vušković",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 5,
@@ -199,7 +199,7 @@
           "number": 13,
           "name": "Pascal Groß",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "7.2"
         },
         {
           "number": 21,
@@ -211,7 +211,7 @@
           "number": 25,
           "name": "Diego Gómez",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 35,
@@ -223,7 +223,7 @@
           "number": 29,
           "name": "Maxim De Cuyper",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 19,
@@ -252,7 +252,7 @@
           "number": 20,
           "name": "Costinha",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 15,
@@ -274,7 +274,7 @@
           "number": 12,
           "name": "Promise David",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 49,
