@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — BERITA TRANSFER
    File ini di-generate OTOMATIS oleh fetch-transfers.js (sumber data:
-   API-Football v3) pada 2026-08-24T05:58:00.493Z.
+   API-Football v3) pada 2026-08-31T04:02:35.366Z.
    Jangan diedit manual — akan tertimpa tiap run mingguan.
 
    Berisi transfer 45 hari terakhir (dari tim-tim di liga
@@ -13,243 +13,243 @@
 
 const transferNews = [
   {
-    "key": "297583|2026-08-18|Strasbourg|Sturm Graz",
+    "key": "34598|2026-08-29|Nacional|FC Seoul",
     "tag": "Transfer",
-    "title": "J. Mitchell pindah dari Sturm Graz ke Strasbourg",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "18/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/95.png"
-  },
-  {
-    "key": "379046|2026-08-18|Motherwell|Gillingham",
-    "tag": "Transfer",
-    "title": "S. Palmer-Houlden pindah dari Gillingham ke Motherwell",
+    "title": "Song Min-Kyu pindah dari FC Seoul ke Nacional",
     "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "18/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/256.png"
+    "time": "29/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/225.png"
   },
   {
-    "key": "297583|2026-08-17|Strasbourg|Sturm Graz",
+    "key": "564150|2026-08-29|PSM Makassar|Persis Solo",
     "tag": "Transfer",
-    "title": "J. Mitchell pindah dari Sturm Graz ke Strasbourg",
+    "title": "K. Tanaka pindah dari Persis Solo ke PSM Makassar",
+    "desc": "Transfer resmi tercatat di API-Football (-).",
+    "time": "29/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/2441.png"
+  },
+  {
+    "key": "1291|2026-08-28|Plzen|VfL Wolfsburg",
+    "tag": "Transfer",
+    "title": "D. Vavro pindah dari VfL Wolfsburg ke Plzen",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "17/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/95.png"
+    "time": "28/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/567.png"
   },
   {
-    "key": "419517|2026-08-17|Konyaspor|Gyori ETO FC",
+    "key": "443803|2026-08-28|PAOK|FK Partizan",
     "tag": "Transfer",
-    "title": "T. Rajmund pindah dari Gyori ETO FC ke Konyaspor",
+    "title": "O. Ugresić pindah dari FK Partizan ke PAOK",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "17/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/607.png"
-  },
-  {
-    "key": "313353|2026-08-17|Brighton|Union St. Gilloise",
-    "tag": "Transfer",
-    "title": "P. David pindah dari Union St. Gilloise ke Brighton",
-    "desc": "Transfer resmi tercatat di API-Football (Loan).",
-    "time": "17/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/51.png"
-  },
-  {
-    "key": "419242|2026-08-17|Brann|Haugesund",
-    "tag": "Transfer",
-    "title": "L. Remmem pindah dari Haugesund ke Brann",
-    "desc": "Transfer resmi tercatat di API-Football (Return from loan).",
-    "time": "17/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/319.png"
-  },
-  {
-    "key": "33291|2026-08-16|Rodrigues Gerson|Vardar Skopje",
-    "tag": "Transfer",
-    "title": "G. Rodrigues pindah dari Vardar Skopje ke Rodrigues Gerson",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "16/08/2026",
-    "logo": ""
-  },
-  {
-    "key": "125239|2026-08-16|AEK Athens FC|Levante",
-    "tag": "Transfer",
-    "title": "K. Arriaga pindah dari Levante ke AEK Athens FC",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/575.png"
-  },
-  {
-    "key": "281660|2026-08-16|Mjallby AIF|Molde",
-    "tag": "Transfer",
-    "title": "M. Enggård pindah dari Molde ke Mjallby AIF",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/2240.png"
-  },
-  {
-    "key": "292924|2026-08-16|Pyramids FC|Gyori ETO FC",
-    "tag": "Transfer",
-    "title": "A. Benbouali pindah dari Gyori ETO FC ke Pyramids FC",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/1036.png"
-  },
-  {
-    "key": "394784|2026-08-16|Jagiellonia|Brondby",
-    "tag": "Transfer",
-    "title": "O. Sow pindah dari Brondby ke Jagiellonia",
-    "desc": "Transfer resmi tercatat di API-Football (Loan).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/336.png"
-  },
-  {
-    "key": "202614|2026-08-16|Anderlecht|Hertha BSC",
-    "tag": "Transfer",
-    "title": "M. Winkler pindah dari Hertha BSC ke Anderlecht",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/554.png"
-  },
-  {
-    "key": "162410|2026-08-16|Borussia Dortmund|PAOK",
-    "tag": "Transfer",
-    "title": "G. Konstantelias pindah dari PAOK ke Borussia Dortmund",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/165.png"
-  },
-  {
-    "key": "14379|2026-08-16|PAOK|Samsunspor",
-    "tag": "Transfer",
-    "title": "C. Ndiaye pindah dari Samsunspor ke PAOK",
-    "desc": "Transfer resmi tercatat di API-Football (Loan).",
-    "time": "16/08/2026",
+    "time": "28/08/2026",
     "logo": "https://media.api-sports.io/football/teams/619.png"
   },
   {
-    "key": "405904|2026-08-16|St. Truiden|Al-Hilal Saudi FC",
+    "key": "203395|2026-08-28|CF Montreal|Colorado Rapids",
     "tag": "Transfer",
-    "title": "Ahmad Abu Rasen pindah dari Al-Hilal Saudi FC ke St. Truiden",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/735.png"
+    "title": "D. Sealy pindah dari Colorado Rapids ke CF Montreal",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "28/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/1614.png"
   },
   {
-    "key": "437112|2026-08-16|Brann|Moss",
+    "key": "126743|2026-08-28|Racing Club|Boca Juniors",
     "tag": "Transfer",
-    "title": "J. Lægreid pindah dari Moss ke Brann",
-    "desc": "Transfer resmi tercatat di API-Football (Return from loan).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/319.png"
-  },
-  {
-    "key": "363053|2026-08-16|FK Partizan|Saint Etienne",
-    "tag": "Transfer",
-    "title": "I. Miladinović pindah dari Saint Etienne ke FK Partizan",
+    "title": "J. Barinaga pindah dari Boca Juniors ke Racing Club",
     "desc": "Transfer resmi tercatat di API-Football (Loan).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/573.png"
+    "time": "28/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/436.png"
   },
   {
-    "key": "45788|2026-08-16|FK Partizan|Rubin",
+    "key": "45804|2026-08-27|Ferencvarosi TC|Sparta Praha",
     "tag": "Transfer",
-    "title": "N. Čumić pindah dari Rubin ke FK Partizan",
+    "title": "V. Birmančević pindah dari Sparta Praha ke Ferencvarosi TC",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "16/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/573.png"
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/651.png"
   },
   {
-    "key": "125239|2026-08-15|AEK Athens FC|Levante",
+    "key": "349987|2026-08-27|FK Jablonec|Sparta Praha",
     "tag": "Transfer",
-    "title": "K. Arriaga pindah dari Levante ke AEK Athens FC",
+    "title": "G. Kuol pindah dari Sparta Praha ke FK Jablonec",
+    "desc": "Transfer resmi tercatat di API-Football (Loan).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/1122.png"
+  },
+  {
+    "key": "8471|2026-08-27|Omonia Nicosia|Charlton",
+    "tag": "Transfer",
+    "title": "T. Kaminski pindah dari Charlton ke Omonia Nicosia",
+    "desc": "Transfer resmi tercatat di API-Football (Loan).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/3402.png"
+  },
+  {
+    "key": "287565|2026-08-27|Plzen|FC Midtjylland",
+    "tag": "Transfer",
+    "title": "A. Gabriel pindah dari FC Midtjylland ke Plzen",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "15/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/575.png"
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/567.png"
   },
   {
-    "key": "202614|2026-08-15|Anderlecht|Hertha BSC",
+    "key": "1291|2026-08-27|Plzen|VfL Wolfsburg",
     "tag": "Transfer",
-    "title": "M. Winkler pindah dari Hertha BSC ke Anderlecht",
+    "title": "D. Vavro pindah dari VfL Wolfsburg ke Plzen",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "15/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/554.png"
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/567.png"
   },
   {
-    "key": "162410|2026-08-15|Borussia Dortmund|PAOK",
+    "key": "443803|2026-08-27|PAOK|FK Partizan",
     "tag": "Transfer",
-    "title": "G. Konstantelias pindah dari PAOK ke Borussia Dortmund",
+    "title": "O. Ugresić pindah dari FK Partizan ke PAOK",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "15/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/165.png"
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/619.png"
   },
   {
-    "key": "613186|2026-08-15|Mjallby AIF|FC Nordsjaelland",
+    "key": "72376|2026-08-27|Nyiregyhaza|Hradec Králové",
     "tag": "Transfer",
-    "title": "Villum Dalsgaard pindah dari FC Nordsjaelland ke Mjallby AIF",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "15/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/2240.png"
+    "title": "M. Regža pindah dari Hradec Králové ke Nyiregyhaza",
+    "desc": "Transfer resmi tercatat di API-Football (Loan).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/2403.png"
   },
   {
-    "key": "610317|2026-08-15|Atletico Central|FC Santa Coloma",
+    "key": "646055|2026-08-27|Van|Alashkert",
     "tag": "Transfer",
-    "title": "H. Esteban pindah dari FC Santa Coloma ke Atletico Central",
+    "title": "S. Khalil pindah dari Alashkert ke Van",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "15/08/2026",
-    "logo": ""
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/6286.png"
   },
   {
-    "key": "669796|2026-08-14|Teteks|Vardar Skopje",
+    "key": "266927|2026-08-27|Bolton|Gent",
     "tag": "Transfer",
-    "title": "Nikola Ristevski pindah dari Vardar Skopje ke Teteks",
+    "title": "A. Ito pindah dari Gent ke Bolton",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/68.png"
+  },
+  {
+    "key": "386|2026-08-27|Bodrum FK|Neftchi Baku",
+    "tag": "Transfer",
+    "title": "V. Aboubakar pindah dari Neftchi Baku ke Bodrum FK",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/3583.png"
+  },
+  {
+    "key": "355657|2026-08-27|Paks|Fehérvár FC",
+    "tag": "Transfer",
+    "title": "M. Simuț pindah dari Fehérvár FC ke Paks",
     "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/4347.png"
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/2390.png"
   },
   {
-    "key": "25350|2026-08-14|Levski Sofia|AEK Athens FC",
+    "key": "558466|2026-08-27|Partizani|Dinamo Tirana",
     "tag": "Transfer",
-    "title": "M. Grujić pindah dari AEK Athens FC ke Levski Sofia",
+    "title": "D. Fadairo pindah dari Dinamo Tirana ke Partizani",
+    "desc": "Transfer resmi tercatat di API-Football (Return from loan).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/708.png"
+  },
+  {
+    "key": "61211|2026-08-27|Frosinone|Lechia Gdansk",
+    "tag": "Transfer",
+    "title": "T. Bobček pindah dari Lechia Gdansk ke Frosinone",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/512.png"
+  },
+  {
+    "key": "56851|2026-08-27|Monza|Napoli",
+    "tag": "Transfer",
+    "title": "M. Folorunsho pindah dari Napoli ke Monza",
+    "desc": "Transfer resmi tercatat di API-Football (Loan).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/1579.png"
+  },
+  {
+    "key": "203395|2026-08-27|CF Montreal|Colorado Rapids",
+    "tag": "Transfer",
+    "title": "D. Sealy pindah dari Colorado Rapids ke CF Montreal",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "27/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/1614.png"
+  },
+  {
+    "key": "57354|2026-08-26|Qarabag|Gornik Zabrze",
+    "tag": "Transfer",
+    "title": "T. Ismaheel pindah dari Gornik Zabrze ke Qarabag",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/556.png"
+  },
+  {
+    "key": "45804|2026-08-26|Ferencvarosi TC|Sparta Praha",
+    "tag": "Transfer",
+    "title": "V. Birmančević pindah dari Sparta Praha ke Ferencvarosi TC",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/651.png"
+  },
+  {
+    "key": "443628|2026-08-26|Linfield|Preston",
+    "tag": "Transfer",
+    "title": "K. Nelson pindah dari Preston ke Linfield",
+    "desc": "Transfer resmi tercatat di API-Football (Loan).",
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/583.png"
+  },
+  {
+    "key": "646055|2026-08-26|Van|Alashkert",
+    "tag": "Transfer",
+    "title": "S. Khalil pindah dari Alashkert ke Van",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/646.png"
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/6286.png"
   },
   {
-    "key": "45211|2026-08-14|Rangers|AEK Athens FC",
+    "key": "266927|2026-08-26|Bolton|Gent",
     "tag": "Transfer",
-    "title": "J. Penrice pindah dari AEK Athens FC ke Rangers",
+    "title": "A. Ito pindah dari Gent ke Bolton",
+    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/68.png"
+  },
+  {
+    "key": "19167|2026-08-26|Penybont|Milton Keynes Dons",
+    "tag": "Transfer",
+    "title": "J. Leko pindah dari Milton Keynes Dons ke Penybont",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/2191.png"
+  },
+  {
+    "key": "355657|2026-08-26|Paks|Fehérvár FC",
+    "tag": "Transfer",
+    "title": "M. Simuț pindah dari Fehérvár FC ke Paks",
+    "desc": "Transfer resmi tercatat di API-Football (-).",
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/2390.png"
+  },
+  {
+    "key": "286639|2026-08-26|Espanyol|Bayern München",
+    "tag": "Transfer",
+    "title": "Bryan Zaragoza pindah dari Bayern München ke Espanyol",
     "desc": "Transfer resmi tercatat di API-Football (Loan).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/257.png"
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/540.png"
   },
   {
-    "key": "193870|2026-08-14|Gornik Zabrze|Sassuolo",
+    "key": "61211|2026-08-26|Frosinone|Lechia Gdansk",
     "tag": "Transfer",
-    "title": "J. Antiste pindah dari Sassuolo ke Gornik Zabrze",
-    "desc": "Transfer resmi tercatat di API-Football (Loan).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/340.png"
-  },
-  {
-    "key": "613186|2026-08-14|Mjallby AIF|FC Nordsjaelland",
-    "tag": "Transfer",
-    "title": "Villum Dalsgaard pindah dari FC Nordsjaelland ke Mjallby AIF",
+    "title": "T. Bobček pindah dari Lechia Gdansk ke Frosinone",
     "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/2240.png"
-  },
-  {
-    "key": "338735|2026-08-14|Crystal Palace|Union St. Gilloise",
-    "tag": "Transfer",
-    "title": "A. Khalaili pindah dari Union St. Gilloise ke Crystal Palace",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/52.png"
-  },
-  {
-    "key": "179843|2026-08-14|Hull City|Red Bull Salzburg",
-    "tag": "Transfer",
-    "title": "L. Gourna-Douath pindah dari Red Bull Salzburg ke Hull City",
-    "desc": "Transfer resmi tercatat di API-Football (Transfer).",
-    "time": "14/08/2026",
-    "logo": "https://media.api-sports.io/football/teams/64.png"
+    "time": "26/08/2026",
+    "logo": "https://media.api-sports.io/football/teams/512.png"
   }
 ];
