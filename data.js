@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T02:03:07.692Z.
+   API-Football v3) pada 2026-08-31T03:03:17.060Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -503,6 +503,66 @@ const siteData = {
             ]
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-08-31",
+            "time": "01:45",
+            "home": "Monaco",
+            "away": "Marseille",
+            "stadium": "Stade Louis II",
+            "round": "Pekan 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Winner : Marseille and +2.5 goals",
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "P. Brunner",
+                    "team": "home"
+                },
+                {
+                    "minute": "53",
+                    "player": "P. Brunner",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "42",
+                    "player": "D. Zakaria",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "L. Camara",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Nazinho",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "L. Hradecky",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Serie A",
             "date": "2026-08-31",
             "time": "01:45",
@@ -601,66 +661,6 @@ const siteData = {
                 {
                     "minute": "88",
                     "player": "Kevin",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-08-31",
-            "time": "01:45",
-            "home": "Monaco",
-            "away": "Marseille",
-            "stadium": "Stade Louis II",
-            "round": "Pekan 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Winner : Marseille and +2.5 goals",
-            "goals": [
-                {
-                    "minute": "13",
-                    "player": "P. Brunner",
-                    "team": "home"
-                },
-                {
-                    "minute": "53",
-                    "player": "P. Brunner",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "42",
-                    "player": "D. Zakaria",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "43",
-                    "player": "L. Camara",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "88",
-                    "player": "Nazinho",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+2",
-                    "player": "L. Hradecky",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -918,7 +918,7 @@ const siteData = {
             "time": "07:00",
             "home": "Toluca",
             "away": "FC Juarez",
-            "stadium": "",
+            "stadium": "Estadio Nemesio Diez",
             "round": "Apertura - 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -978,7 +978,10 @@ const siteData = {
             "away": "Atletico San Luis",
             "stadium": "Estadio BBVA",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2314.png",
             "prediction": "2 - 1",
@@ -987,7 +990,27 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Winner : Monterrey and +2.5 goals"
+            "advice": "Combo Winner : Monterrey and +2.5 goals",
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "D. Rodriguez",
+                    "team": "away"
+                },
+                {
+                    "minute": "36",
+                    "player": "R. Llorente",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+3",
+                    "player": "E. Aguila",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -2327,7 +2350,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 09:03 WIB",
+    "standingsUpdated": "31/08/2026 10:03 WIB",
     "topScorers": {
         "Premier League": [
             {
