@@ -3,36 +3,36 @@
   "home": "Aston Villa",
   "away": "Arsenal",
   "statusCode": "2H",
-  "updatedAt": "01/09/2026 03:14 WIB",
+  "updatedAt": "01/09/2026 03:27 WIB",
   "statistics": {
     "home": {
       "possession": 35,
-      "shotsTotal": 4,
+      "shotsTotal": 5,
       "shotsOnTarget": 0,
       "corners": 1,
-      "fouls": 9,
+      "fouls": 12,
       "offsides": 0,
       "yellowCards": 0,
       "redCards": null,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 2,
-      "passesTotal": 166,
-      "passesAccurate": 129,
-      "passesPct": 78
+      "passesTotal": 199,
+      "passesAccurate": 154,
+      "passesPct": 77
     },
     "away": {
       "possession": 65,
-      "shotsTotal": 4,
-      "shotsOnTarget": 0,
+      "shotsTotal": 6,
+      "shotsOnTarget": 1,
       "corners": 3,
       "fouls": 4,
       "offsides": 4,
       "yellowCards": 1,
       "redCards": null,
-      "shotsInsidebox": 3,
-      "shotsOutsidebox": 1,
-      "passesTotal": 309,
-      "passesAccurate": 275,
+      "shotsInsidebox": 4,
+      "shotsOutsidebox": 2,
+      "passesTotal": 367,
+      "passesAccurate": 326,
       "passesPct": 89
     }
   },
@@ -45,49 +45,49 @@
           "number": 1,
           "name": "Zion Suzuki",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 2,
           "name": "Matty Cash",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "7.0"
         },
         {
           "number": 3,
           "name": "Victor Lindelöf",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 14,
           "name": "Pau Torres",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 22,
           "name": "Ian Maatsen",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "5.9"
         },
         {
           "number": 8,
           "name": "Boubacar Kamara",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 53,
           "name": "George Hemmings",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 7,
           "name": "John McGinn",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 6,
@@ -105,7 +105,7 @@
           "number": 11,
           "name": "Nicolas Jackson",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "7.2"
         }
       ],
       "substitutes": [
@@ -176,37 +176,37 @@
           "number": 3,
           "name": "Cristhian Mosquera",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 6,
           "name": "Gabriel Magalhães",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 33,
           "name": "Riccardo Calafiori",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "7.3"
         },
         {
           "number": 49,
           "name": "Myles Lewis-Skelly",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 41,
           "name": "Declan Rice",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 7,
           "name": "Bukayo Saka",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.3"
         },
         {
           "number": 8,
@@ -224,7 +224,7 @@
           "number": 29,
           "name": "Kai Havertz",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
