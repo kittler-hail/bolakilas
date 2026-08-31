@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T12:03:43.733Z.
+   API-Football v3) pada 2026-08-31T13:03:08.269Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 19:03 WIB",
+    "standingsUpdated": "31/08/2026 20:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2883,6 +2883,14 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "name": "Vinícius Júnior",
+                "photo": "https://media.api-sports.io/football/players/762.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
                 "name": "Mikel Oyarzabal",
                 "photo": "https://media.api-sports.io/football/players/47323.png",
                 "team": "Real Sociedad",
@@ -2890,7 +2898,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "A. Gordon",
                 "photo": "https://media.api-sports.io/football/players/138787.png",
                 "team": "Barcelona",
@@ -2898,7 +2906,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "Álex Baena",
                 "photo": "https://media.api-sports.io/football/players/182219.png",
                 "team": "Atletico Madrid",
@@ -2906,7 +2914,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "Raphinha",
                 "photo": "https://media.api-sports.io/football/players/1496.png",
                 "team": "Barcelona",
@@ -2914,7 +2922,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "Isaac",
                 "photo": "https://media.api-sports.io/football/players/185398.png",
                 "team": "Sevilla",
@@ -2922,19 +2930,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 9,
-                "name": "Lee Kang-In",
-                "photo": "https://media.api-sports.io/football/players/927.png",
-                "team": "Atletico Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
-                "value": 1
-            },
-            {
                 "rank": 10,
-                "name": "E. Bardeli",
-                "photo": "https://media.api-sports.io/football/players/161893.png",
-                "team": "Levante",
-                "teamLogo": "https://media.api-sports.io/football/teams/539.png",
+                "name": "A. Güler",
+                "photo": "https://media.api-sports.io/football/players/291964.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
                 "value": 1
             }
         ],
@@ -2965,30 +2965,6 @@ const siteData = {
             },
             {
                 "rank": 4,
-                "name": "A. Rabiot",
-                "photo": "https://media.api-sports.io/football/players/272.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
-                "value": 1
-            },
-            {
-                "rank": 5,
-                "name": "G. Bracaglia",
-                "photo": "https://media.api-sports.io/football/players/379504.png",
-                "team": "Frosinone",
-                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
-                "value": 1
-            },
-            {
-                "rank": 6,
-                "name": "J. Ekkelenkamp",
-                "photo": "https://media.api-sports.io/football/players/541.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
                 "name": "K. De Bruyne",
                 "photo": "https://media.api-sports.io/football/players/629.png",
                 "team": "Napoli",
@@ -2996,15 +2972,31 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
-                "name": "A. Vergara",
-                "photo": "https://media.api-sports.io/football/players/347395.png",
-                "team": "Napoli",
-                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "rank": 5,
+                "name": "A. Rabiot",
+                "photo": "https://media.api-sports.io/football/players/272.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 1
             },
             {
-                "rank": 9,
+                "rank": 6,
+                "name": "M. Baturina",
+                "photo": "https://media.api-sports.io/football/players/295026.png",
+                "team": "Como",
+                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
+                "value": 1
+            },
+            {
+                "rank": 7,
+                "name": "G. Bracaglia",
+                "photo": "https://media.api-sports.io/football/players/379504.png",
+                "team": "Frosinone",
+                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
                 "name": "F. Esposito",
                 "photo": "https://media.api-sports.io/football/players/345808.png",
                 "team": "Inter",
@@ -3012,11 +3004,19 @@ const siteData = {
                 "value": 1
             },
             {
+                "rank": 9,
+                "name": "J. Ekkelenkamp",
+                "photo": "https://media.api-sports.io/football/players/541.png",
+                "team": "Udinese",
+                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
+                "value": 1
+            },
+            {
                 "rank": 10,
-                "name": "A. Saelemaekers",
-                "photo": "https://media.api-sports.io/football/players/1417.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "name": "A. Vergara",
+                "photo": "https://media.api-sports.io/football/players/347395.png",
+                "team": "Napoli",
+                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
                 "value": 1
             }
         ],
@@ -3830,15 +3830,21 @@ const siteData = {
                 "since": "2026-08-31"
             },
             {
-                "player": "Kiko Femenia",
-                "photo": "https://media.api-sports.io/football/players/18794.png",
-                "reason": "Red Card",
-                "since": "2026-08-23"
+                "player": "A. Abqar",
+                "photo": "https://media.api-sports.io/football/players/46813.png",
+                "reason": "Injury",
+                "since": "2026-08-31"
             },
             {
                 "player": "M. Martin",
                 "photo": "https://media.api-sports.io/football/players/343205.png",
-                "reason": "Thigh Injury",
+                "reason": "Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "Kiko Femenia",
+                "photo": "https://media.api-sports.io/football/players/18794.png",
+                "reason": "Red Card",
                 "since": "2026-08-23"
             }
         ],
