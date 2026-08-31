@@ -2,26 +2,26 @@
   "fixtureId": 1557377,
   "home": "Aston Villa",
   "away": "Arsenal",
-  "statusCode": "HT",
-  "updatedAt": "01/09/2026 03:01 WIB",
+  "statusCode": "2H",
+  "updatedAt": "01/09/2026 03:14 WIB",
   "statistics": {
     "home": {
-      "possession": 32,
-      "shotsTotal": 3,
+      "possession": 35,
+      "shotsTotal": 4,
       "shotsOnTarget": 0,
       "corners": 1,
-      "fouls": 7,
+      "fouls": 9,
       "offsides": 0,
       "yellowCards": 0,
       "redCards": null,
-      "shotsInsidebox": 1,
+      "shotsInsidebox": 2,
       "shotsOutsidebox": 2,
-      "passesTotal": 114,
-      "passesAccurate": 82,
-      "passesPct": 72
+      "passesTotal": 166,
+      "passesAccurate": 129,
+      "passesPct": 78
     },
     "away": {
-      "possession": 68,
+      "possession": 65,
       "shotsTotal": 4,
       "shotsOnTarget": 0,
       "corners": 3,
@@ -31,9 +31,9 @@
       "redCards": null,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 1,
-      "passesTotal": 241,
-      "passesAccurate": 212,
-      "passesPct": 88
+      "passesTotal": 309,
+      "passesAccurate": 275,
+      "passesPct": 89
     }
   },
   "lineups": {
@@ -51,25 +51,25 @@
           "number": 2,
           "name": "Matty Cash",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.5"
         },
         {
           "number": 3,
           "name": "Victor Lindelöf",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 14,
           "name": "Pau Torres",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 22,
           "name": "Ian Maatsen",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 8,
@@ -93,19 +93,19 @@
           "number": 6,
           "name": "Ross Barkley",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.0"
         },
         {
           "number": 10,
           "name": "Emiliano Buendía",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 11,
           "name": "Nicolas Jackson",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.9"
         }
       ],
       "substitutes": [
@@ -164,7 +164,7 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 4,
@@ -206,7 +206,7 @@
           "number": 7,
           "name": "Bukayo Saka",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 8,
@@ -224,7 +224,7 @@
           "number": 29,
           "name": "Kai Havertz",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
@@ -261,7 +261,8 @@
         {
           "number": 10,
           "name": "Eberechi Eze",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 14,
