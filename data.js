@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T17:03:06.273Z.
+   API-Football v3) pada 2026-08-31T18:03:25.393Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -89,7 +89,10 @@ const siteData = {
             "away": "Getafe",
             "stadium": "Estadio El Sadar",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "31'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/727.png",
             "awayLogo": "https://media.api-sports.io/football/teams/546.png",
             "prediction": "2 - 1",
@@ -98,7 +101,15 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Double chance : Osasuna or draw and -3.5 goals"
+            "advice": "Combo Double chance : Osasuna or draw and -3.5 goals",
+            "cards": [
+                {
+                    "minute": "17",
+                    "player": "J. Herrando",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Super Lig",
@@ -1552,7 +1563,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 00:03 WIB",
+    "standingsUpdated": "01/09/2026 01:03 WIB",
     "topScorers": {
         "Premier League": [
             {
