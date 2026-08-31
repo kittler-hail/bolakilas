@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T10:03:26.586Z.
+   API-Football v3) pada 2026-08-31T11:03:16.384Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1406,8 +1406,8 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "team": "Racing Santander",
-                "logo": "https://media.api-sports.io/football/teams/4665.png",
+                "team": "Levante",
+                "logo": "https://media.api-sports.io/football/teams/539.png",
                 "played": 3,
                 "win": 1,
                 "draw": 1,
@@ -1417,8 +1417,8 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "team": "Levante",
-                "logo": "https://media.api-sports.io/football/teams/539.png",
+                "team": "Racing Santander",
+                "logo": "https://media.api-sports.io/football/teams/4665.png",
                 "played": 3,
                 "win": 1,
                 "draw": 1,
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 17:03 WIB",
+    "standingsUpdated": "31/08/2026 18:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3755,7 +3755,7 @@ const siteData = {
                 "player": "O. Watkins",
                 "photo": "https://media.api-sports.io/football/players/19366.png",
                 "reason": "Inactive",
-                "since": "2026-08-31"
+                "since": "2026-08-23"
             },
             {
                 "player": "Joao Gomes",
