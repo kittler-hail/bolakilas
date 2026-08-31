@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-30T23:02:55.838Z.
+   API-Football v3) pada 2026-08-31T00:03:53.437Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -265,6 +265,69 @@ const siteData = {
             ]
         },
         {
+            "league": "Eredivisie",
+            "date": "2026-08-31",
+            "time": "01:00",
+            "home": "Cambuur",
+            "away": "Twente",
+            "stadium": "Kooi Stadion",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 4,
+            "homeLogo": "https://media.api-sports.io/football/teams/420.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/415.png",
+            "prediction": "1 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Twente",
+            "goals": [
+                {
+                    "minute": "22",
+                    "player": "R. Nijstad",
+                    "team": "away"
+                },
+                {
+                    "minute": "26",
+                    "player": "W. Weghorst",
+                    "team": "away"
+                },
+                {
+                    "minute": "47",
+                    "player": "M. Pjaca",
+                    "team": "away"
+                },
+                {
+                    "minute": "82",
+                    "player": "Y. Taha",
+                    "team": "away"
+                },
+                {
+                    "minute": "88",
+                    "player": "I. Hamache",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "39",
+                    "player": "N. Souren",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "40",
+                    "player": "S. Orjasaeter",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Liga de Expansion MX",
             "date": "2026-08-31",
             "time": "01:00",
@@ -327,69 +390,6 @@ const siteData = {
                     "player": "U. Torres",
                     "team": "home",
                     "type": "red"
-                }
-            ]
-        },
-        {
-            "league": "Eredivisie",
-            "date": "2026-08-31",
-            "time": "01:00",
-            "home": "Cambuur",
-            "away": "Twente",
-            "stadium": "Kooi Stadion",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 4,
-            "homeLogo": "https://media.api-sports.io/football/teams/420.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/415.png",
-            "prediction": "1 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Twente",
-            "goals": [
-                {
-                    "minute": "22",
-                    "player": "R. Nijstad",
-                    "team": "away"
-                },
-                {
-                    "minute": "26",
-                    "player": "W. Weghorst",
-                    "team": "away"
-                },
-                {
-                    "minute": "47",
-                    "player": "M. Pjaca",
-                    "team": "away"
-                },
-                {
-                    "minute": "82",
-                    "player": "Y. Taha",
-                    "team": "away"
-                },
-                {
-                    "minute": "88",
-                    "player": "I. Hamache",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "39",
-                    "player": "N. Souren",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "40",
-                    "player": "S. Orjasaeter",
-                    "team": "away",
-                    "type": "yellow"
                 }
             ]
         },
@@ -843,9 +843,12 @@ const siteData = {
             "time": "06:00",
             "home": "St. Louis City",
             "away": "FC Dallas",
-            "stadium": "CITYPARK",
+            "stadium": "Energizer Park",
             "round": "Pekan 22",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/20787.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1597.png",
             "prediction": "2 - 1",
@@ -854,7 +857,32 @@ const siteData = {
                 "draw": 35,
                 "away": 30
             },
-            "advice": "Double chance : St. Louis City or draw"
+            "advice": "Double chance : St. Louis City or draw",
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "S. Becher",
+                    "team": "home"
+                },
+                {
+                    "minute": "18",
+                    "player": "S. Moore",
+                    "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "D. Edelman",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "13",
+                    "player": "Ramiro",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -864,7 +892,10 @@ const siteData = {
             "away": "FC Juarez",
             "stadium": "",
             "round": "Apertura - 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
             "prediction": "2 - 1",
@@ -2232,7 +2263,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 06:02 WIB",
+    "standingsUpdated": "31/08/2026 07:03 WIB",
     "topScorers": {
         "Premier League": [
             {
