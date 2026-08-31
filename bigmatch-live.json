@@ -2,37 +2,37 @@
   "fixtureId": 1557377,
   "home": "Aston Villa",
   "away": "Arsenal",
-  "statusCode": "2H",
-  "updatedAt": "01/09/2026 03:53 WIB",
+  "statusCode": "FT",
+  "updatedAt": "01/09/2026 04:06 WIB",
   "statistics": {
     "home": {
       "possession": 39,
       "shotsTotal": 7,
       "shotsOnTarget": 0,
       "corners": 2,
-      "fouls": 14,
+      "fouls": 16,
       "offsides": 0,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": null,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
-      "passesTotal": 321,
-      "passesAccurate": 264,
-      "passesPct": 82
+      "passesTotal": 337,
+      "passesAccurate": 272,
+      "passesPct": 81
     },
     "away": {
       "possession": 61,
       "shotsTotal": 7,
       "shotsOnTarget": 2,
       "corners": 4,
-      "fouls": 5,
-      "offsides": 7,
+      "fouls": 6,
+      "offsides": 8,
       "yellowCards": 1,
       "redCards": null,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 2,
-      "passesTotal": 501,
-      "passesAccurate": 442,
+      "passesTotal": 527,
+      "passesAccurate": 463,
       "passesPct": 88
     }
   },
@@ -57,7 +57,7 @@
           "number": 3,
           "name": "Victor Lindelöf",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 14,
@@ -75,7 +75,7 @@
           "number": 8,
           "name": "Boubacar Kamara",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 53,
@@ -87,7 +87,7 @@
           "number": 7,
           "name": "John McGinn",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.0"
         },
         {
           "number": 6,
@@ -99,7 +99,7 @@
           "number": 10,
           "name": "Emiliano Buendía",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 11,
@@ -145,13 +145,13 @@
           "number": 17,
           "name": "Alejandro Garnacho",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 18,
           "name": "Tammy Abraham",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 74,
@@ -186,7 +186,7 @@
           "number": 6,
           "name": "Gabriel Magalhães",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 33,
@@ -228,7 +228,7 @@
           "number": 29,
           "name": "Kai Havertz",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "6.0"
         }
       ],
       "substitutes": [
@@ -246,31 +246,31 @@
           "number": 15,
           "name": "Ezri Konsa",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 36,
           "name": "Martín Zubimendi",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 39,
           "name": "Bruno Guimarães",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 23,
           "name": "Mikel Merino",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 10,
           "name": "Eberechi Eze",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 14,
