@@ -3,37 +3,37 @@
   "home": "Aston Villa",
   "away": "Arsenal",
   "statusCode": "1H",
-  "updatedAt": "01/09/2026 02:08 WIB",
+  "updatedAt": "01/09/2026 02:21 WIB",
   "statistics": {
     "home": {
-      "possession": 50,
-      "shotsTotal": 0,
+      "possession": 41,
+      "shotsTotal": 2,
       "shotsOnTarget": 0,
-      "corners": null,
-      "fouls": 0,
-      "offsides": null,
+      "corners": 1,
+      "fouls": 2,
+      "offsides": 0,
       "yellowCards": null,
       "redCards": null,
       "shotsInsidebox": 0,
-      "shotsOutsidebox": 0,
-      "passesTotal": 27,
-      "passesAccurate": 18,
-      "passesPct": 67
+      "shotsOutsidebox": 2,
+      "passesTotal": 67,
+      "passesAccurate": 49,
+      "passesPct": 73
     },
     "away": {
-      "possession": 50,
-      "shotsTotal": 0,
+      "possession": 59,
+      "shotsTotal": 4,
       "shotsOnTarget": 0,
-      "corners": null,
+      "corners": 2,
       "fouls": 1,
-      "offsides": null,
+      "offsides": 2,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 0,
-      "shotsOutsidebox": 0,
-      "passesTotal": 27,
-      "passesAccurate": 20,
-      "passesPct": 74
+      "shotsInsidebox": 3,
+      "shotsOutsidebox": 1,
+      "passesTotal": 97,
+      "passesAccurate": 83,
+      "passesPct": 86
     }
   },
   "lineups": {
@@ -44,57 +44,68 @@
         {
           "number": 1,
           "name": "Zion Suzuki",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.3"
         },
         {
           "number": 2,
           "name": "Matty Cash",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 3,
           "name": "Victor Lindelöf",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 14,
           "name": "Pau Torres",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 22,
           "name": "Ian Maatsen",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 8,
           "name": "Boubacar Kamara",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 53,
           "name": "George Hemmings",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 7,
           "name": "John McGinn",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 6,
           "name": "Ross Barkley",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 10,
           "name": "Emiliano Buendía",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Nicolas Jackson",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -152,57 +163,68 @@
         {
           "number": 1,
           "name": "David Raya",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.3"
         },
         {
           "number": 4,
           "name": "Ben White",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 3,
           "name": "Cristhian Mosquera",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "Gabriel Magalhães",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 33,
           "name": "Riccardo Calafiori",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 49,
           "name": "Myles Lewis-Skelly",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.6"
         },
         {
           "number": 41,
           "name": "Declan Rice",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 7,
           "name": "Bukayo Saka",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.6"
         },
         {
           "number": 8,
           "name": "Martin Ødegaard",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 17,
           "name": "Christos Tzolis",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 29,
           "name": "Kai Havertz",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         }
       ],
       "substitutes": [
