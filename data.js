@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T04:03:30.467Z.
+   API-Football v3) pada 2026-08-31T05:03:12.119Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -21,7 +21,7 @@ const siteData = {
         "time": "00:30",
         "home": "Deportivo La Coruna",
         "away": "Valencia",
-        "stadium": "Estadio Municipal de Riazor",
+        "stadium": "Estadio Riazor",
         "prediction": "1 - 2",
         "analysis": "Deportivo La Coruna bertemu Valencia dalam laga LaLiga. Analisis API-Football: Combo Double chance : draw or Valencia and -3.5 goals.",
         "statusCode": "FT",
@@ -118,8 +118,14 @@ const siteData = {
             ],
             "cards": [
                 {
+                    "minute": "-5",
+                    "player": "Aranha",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
                     "minute": "61",
-                    "player": "P. Rosas",
+                    "player": "Pedro Rosas",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -131,13 +137,7 @@ const siteData = {
                 },
                 {
                     "minute": "71",
-                    "player": "Rodri",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "75",
-                    "player": "Aranha",
+                    "player": "Rodrigo Alonso",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -201,7 +201,7 @@ const siteData = {
             "time": "00:30",
             "home": "Deportivo La Coruna",
             "away": "Valencia",
-            "stadium": "Estadio Municipal de Riazor",
+            "stadium": "Estadio Riazor",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -241,25 +241,25 @@ const siteData = {
             "cards": [
                 {
                     "minute": "64",
-                    "player": "M. Diakhaby",
+                    "player": "Mouctar Diakhaby",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+3",
-                    "player": "A. Altimira",
+                    "player": "Adrià Altimira",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+3",
-                    "player": "A. Altimira",
+                    "player": "Adrià Altimira",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+3",
-                    "player": "A. Altimira",
+                    "player": "Adrià Altimira",
                     "team": "home",
                     "type": "red"
                 }
@@ -382,13 +382,13 @@ const siteData = {
             "cards": [
                 {
                     "minute": "39",
-                    "player": "N. Souren",
+                    "player": "Nicky Souren",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "40",
-                    "player": "S. Orjasaeter",
+                    "player": "Sondre Ørjasæter",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -430,25 +430,25 @@ const siteData = {
             "cards": [
                 {
                     "minute": "3",
-                    "player": "J. Opoku",
+                    "player": "Jerome Opoku",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "13",
-                    "player": "O. Kemen",
+                    "player": "Olivier Kemen",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "55",
-                    "player": "C. Winck",
+                    "player": "Cláudio Winck",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90",
-                    "player": "H. Gureler",
+                    "player": "Hamza Güreler",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -489,14 +489,8 @@ const siteData = {
             ],
             "cards": [
                 {
-                    "minute": "25",
-                    "player": "T. Fink",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
                     "minute": "70",
-                    "player": "R. Lukaku",
+                    "player": "Romelu Lukaku",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -533,25 +527,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "14",
-                    "player": "L. Ostigard",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "35",
-                    "player": "D. De Rossi",
+                    "player": "Leo Østigård",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+5",
-                    "player": "M. Zaccagni",
+                    "player": "Mattia Zaccagni",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+5",
-                    "player": "Amorim",
+                    "player": "Alexsandro Amorim",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -588,19 +576,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "14",
-                    "player": "M. Akanji",
+                    "player": "Manuel Akanji",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "56",
-                    "player": "A. Deiola",
+                    "player": "Alessandro Deiola",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "88",
-                    "player": "Kevin",
+                    "player": "Kevin Carlos Omoruyi",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -642,13 +630,13 @@ const siteData = {
             "cards": [
                 {
                     "minute": "42",
-                    "player": "D. Zakaria",
+                    "player": "Denis Zakaria",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "43",
-                    "player": "L. Camara",
+                    "player": "Lamine Camara",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -660,7 +648,7 @@ const siteData = {
                 },
                 {
                     "minute": "90+2",
-                    "player": "L. Hradecky",
+                    "player": "Lukáš Hrádecký",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -702,19 +690,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "48",
-                    "player": "Y. Berchiche",
+                    "player": "Yuri Berchiche",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "61",
-                    "player": "R. Navarro",
+                    "player": "Robert Navarro",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "71",
-                    "player": "B. Gerenabarrena",
+                    "player": "Beñat Gerenabarrena",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -978,8 +966,8 @@ const siteData = {
             "away": "Atletico San Luis",
             "stadium": "Estadio BBVA",
             "round": "Apertura - 6",
-            "statusCode": "2H",
-            "minuteDisplay": "90+1'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
@@ -2372,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 11:03 WIB",
+    "standingsUpdated": "31/08/2026 12:03 WIB",
     "topScorers": {
         "Premier League": [
             {
