@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T14:03:31.139Z.
+   API-Football v3) pada 2026-08-31T15:03:27.449Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 21:03 WIB",
+    "standingsUpdated": "31/08/2026 22:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3326,6 +3326,12 @@ const siteData = {
                 "since": "2026-08-30"
             },
             {
+                "player": "M. Orozco",
+                "photo": "https://media.api-sports.io/football/players/538275.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            },
+            {
                 "player": "S. Tzimas",
                 "photo": "https://media.api-sports.io/football/players/343311.png",
                 "reason": "Knee Injury",
@@ -3784,16 +3790,16 @@ const siteData = {
                 "since": "2026-08-31"
             },
             {
-                "player": "Bruno Guimaraes",
-                "photo": "https://media.api-sports.io/football/players/10135.png",
-                "reason": "Thigh Injury",
-                "since": "2026-08-31"
-            },
-            {
                 "player": "Gabriel Jesus",
                 "photo": "https://media.api-sports.io/football/players/643.png",
                 "reason": "Transfer negotiations",
                 "since": "2026-08-31"
+            },
+            {
+                "player": "Bruno Guimaraes",
+                "photo": "https://media.api-sports.io/football/players/10135.png",
+                "reason": "Thigh Injury",
+                "since": "2026-08-21"
             }
         ],
         "alaves": [
