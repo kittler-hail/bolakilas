@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T01:03:06.453Z.
+   API-Football v3) pada 2026-08-31T02:03:07.692Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -21,7 +21,7 @@ const siteData = {
         "time": "00:30",
         "home": "Deportivo La Coruna",
         "away": "Valencia",
-        "stadium": "Estadio Riazor",
+        "stadium": "Estadio Municipal de Riazor",
         "prediction": "1 - 2",
         "analysis": "Deportivo La Coruna bertemu Valencia dalam laga LaLiga. Analisis API-Football: Combo Double chance : draw or Valencia and -3.5 goals.",
         "statusCode": "FT",
@@ -81,6 +81,7 @@ const siteData = {
             "away": {
                 "results": [
                     "D",
+                    "L",
                     "L"
                 ]
             }
@@ -200,7 +201,7 @@ const siteData = {
             "time": "00:30",
             "home": "Deportivo La Coruna",
             "away": "Valencia",
-            "stadium": "Estadio Riazor",
+            "stadium": "Estadio Municipal de Riazor",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -725,7 +726,7 @@ const siteData = {
             "time": "02:30",
             "home": "Famalicao",
             "away": "GIL Vicente",
-            "stadium": "Estádio Municipal de Famalicão",
+            "stadium": "Estadio Municipal de Famalicao",
             "round": "Pekan 4",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -845,10 +846,10 @@ const siteData = {
             "away": "FC Dallas",
             "stadium": "Energizer Park",
             "round": "Pekan 22",
-            "statusCode": "2H",
-            "minuteDisplay": "90'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
-            "awayScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/20787.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1597.png",
             "prediction": "2 - 1",
@@ -883,6 +884,11 @@ const siteData = {
                     "minute": "81",
                     "player": "S. Ibeagha",
                     "team": "away"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "L. Farrington",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -897,6 +903,12 @@ const siteData = {
                     "player": "P. Musa",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "L. MacNaughton",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -908,9 +920,9 @@ const siteData = {
             "away": "FC Juarez",
             "stadium": "",
             "round": "Apertura - 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
@@ -931,6 +943,16 @@ const siteData = {
                     "minute": "34",
                     "player": "J. Murillo",
                     "team": "away"
+                },
+                {
+                    "minute": "73",
+                    "player": "O. Virgen",
+                    "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "F. Vinas",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -938,6 +960,12 @@ const siteData = {
                     "minute": "35",
                     "player": "Helinho",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "F. J. Nevarez Pulgarin",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -2299,7 +2327,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 08:03 WIB",
+    "standingsUpdated": "31/08/2026 09:03 WIB",
     "topScorers": {
         "Premier League": [
             {
