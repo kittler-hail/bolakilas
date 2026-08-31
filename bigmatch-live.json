@@ -3,14 +3,14 @@
   "home": "Aston Villa",
   "away": "Arsenal",
   "statusCode": "FT",
-  "updatedAt": "01/09/2026 04:32 WIB",
+  "updatedAt": "01/09/2026 04:45 WIB",
   "statistics": {
     "home": {
       "possession": 39,
       "shotsTotal": 7,
       "shotsOnTarget": 0,
       "corners": 2,
-      "fouls": 16,
+      "fouls": 17,
       "offsides": 0,
       "yellowCards": 3,
       "redCards": null,
@@ -31,7 +31,7 @@
       "redCards": null,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 2,
-      "passesTotal": 527,
+      "passesTotal": 528,
       "passesAccurate": 463,
       "passesPct": 88
     }
@@ -123,7 +123,7 @@
           "number": 29,
           "name": "Aaron Wan-Bissaka",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 13,
@@ -174,19 +174,19 @@
           "number": 4,
           "name": "Ben White",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 3,
           "name": "Cristhian Mosquera",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 6,
           "name": "Gabriel Magalhães",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 33,
@@ -198,19 +198,19 @@
           "number": 49,
           "name": "Myles Lewis-Skelly",
           "position": "Gelandang",
-          "rating": "7.3"
+          "rating": "7.2"
         },
         {
           "number": 41,
           "name": "Declan Rice",
           "position": "Gelandang",
-          "rating": "7.3"
+          "rating": "7.2"
         },
         {
           "number": 7,
           "name": "Bukayo Saka",
           "position": "Gelandang",
-          "rating": "7.6"
+          "rating": "7.9"
         },
         {
           "number": 8,
@@ -246,7 +246,7 @@
           "number": 15,
           "name": "Ezri Konsa",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 36,
@@ -258,19 +258,19 @@
           "number": 39,
           "name": "Bruno Guimarães",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 23,
           "name": "Mikel Merino",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 10,
           "name": "Eberechi Eze",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 14,
