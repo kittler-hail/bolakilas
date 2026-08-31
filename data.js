@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T21:03:20.292Z.
+   API-Football v3) pada 2026-08-31T22:03:02.870Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -466,8 +466,8 @@ const siteData = {
             "away": "Estoril",
             "stadium": "Estádio da Luz",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/211.png",
@@ -513,8 +513,8 @@ const siteData = {
             "away": "Vitória SC",
             "stadium": "Estádio Municipal de Braga",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/217.png",
@@ -553,7 +553,7 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "68",
+                    "minute": "67",
                     "player": "Vitor Carvalho",
                     "team": "home",
                     "type": "yellow"
@@ -574,9 +574,9 @@ const siteData = {
             "away": "Rayo Vallecano",
             "stadium": "Camp Nou",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "69'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/529.png",
             "awayLogo": "https://media.api-sports.io/football/teams/728.png",
@@ -612,6 +612,24 @@ const siteData = {
                     "minute": "59",
                     "player": "S. Camello",
                     "team": "away"
+                },
+                {
+                    "minute": "71",
+                    "player": "Raphinha",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Lamine Yamal",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "90",
+                    "player": "A. Pedrosa",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         }
@@ -1158,6 +1176,17 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "team": "Atalanta",
+                "logo": "https://media.api-sports.io/football/teams/499.png",
+                "played": 2,
+                "win": 2,
+                "draw": 0,
+                "lose": 0,
+                "gd": 2,
+                "points": 6
+            },
+            {
+                "rank": 6,
                 "team": "Lazio",
                 "logo": "https://media.api-sports.io/football/teams/487.png",
                 "played": 2,
@@ -1168,7 +1197,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Udinese",
                 "logo": "https://media.api-sports.io/football/teams/494.png",
                 "played": 2,
@@ -1179,7 +1208,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Como",
                 "logo": "https://media.api-sports.io/football/teams/895.png",
                 "played": 2,
@@ -1188,17 +1217,6 @@ const siteData = {
                 "lose": 0,
                 "gd": 1,
                 "points": 4
-            },
-            {
-                "rank": 8,
-                "team": "Atalanta",
-                "logo": "https://media.api-sports.io/football/teams/499.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
             },
             {
                 "rank": 9,
@@ -1257,17 +1275,6 @@ const siteData = {
             },
             {
                 "rank": 14,
-                "team": "Bologna",
-                "logo": "https://media.api-sports.io/football/teams/500.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
-            },
-            {
-                "rank": 15,
                 "team": "Torino",
                 "logo": "https://media.api-sports.io/football/teams/503.png",
                 "played": 2,
@@ -1278,9 +1285,20 @@ const siteData = {
                 "points": 0
             },
             {
+                "rank": 15,
+                "team": "Bologna",
+                "logo": "https://media.api-sports.io/football/teams/500.png",
+                "played": 2,
+                "win": 0,
+                "draw": 0,
+                "lose": 2,
+                "gd": -2,
+                "points": 0
+            },
+            {
                 "rank": 16,
-                "team": "Parma",
-                "logo": "https://media.api-sports.io/football/teams/523.png",
+                "team": "Genoa",
+                "logo": "https://media.api-sports.io/football/teams/495.png",
                 "played": 2,
                 "win": 0,
                 "draw": 0,
@@ -1290,8 +1308,8 @@ const siteData = {
             },
             {
                 "rank": 17,
-                "team": "Genoa",
-                "logo": "https://media.api-sports.io/football/teams/495.png",
+                "team": "Parma",
+                "logo": "https://media.api-sports.io/football/teams/523.png",
                 "played": 2,
                 "win": 0,
                 "draw": 0,
@@ -1934,7 +1952,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 04:03 WIB",
+    "standingsUpdated": "01/09/2026 05:03 WIB",
     "topScorers": {
         "Premier League": [
             {
