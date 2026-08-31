@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T18:03:25.393Z.
+   API-Football v3) pada 2026-08-31T19:03:26.934Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Villa Park",
         "prediction": "0 - 4",
         "analysis": "Aston Villa bertemu Arsenal dalam laga Premier League. Analisis API-Football: Winner : Arsenal.",
-        "statusCode": "NS",
+        "statusCode": "1H",
+        "minuteDisplay": "3'",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -89,9 +92,9 @@ const siteData = {
             "away": "Getafe",
             "stadium": "Estadio El Sadar",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "31'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "68'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/727.png",
             "awayLogo": "https://media.api-sports.io/football/teams/546.png",
@@ -102,10 +105,47 @@ const siteData = {
                 "away": 10
             },
             "advice": "Combo Double chance : Osasuna or draw and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "45+2",
+                    "player": "A. Budimir",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "17",
                     "player": "J. Herrando",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Djene",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "J. Mojica",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "E. Unal",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "O. Mangala",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "I. Munoz",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -117,9 +157,12 @@ const siteData = {
             "time": "01:30",
             "home": "Beşiktaş",
             "away": "Çorum FK",
-            "stadium": "Besiktas Park",
+            "stadium": "Tüpraş Stadyumu",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "34'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/549.png",
             "awayLogo": "https://media.api-sports.io/football/teams/6343.png",
             "prediction": "2 - 1",
@@ -128,7 +171,34 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Double chance : Beşiktaş or draw and -3.5 goals"
+            "advice": "Combo Double chance : Beşiktaş or draw and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "9",
+                    "player": "V. Cerny",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "15",
+                    "player": "Y. Ramadani",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "15",
+                    "player": "O. Kokcu",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "G. Sazdagi",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Super Lig",
@@ -136,9 +206,12 @@ const siteData = {
             "time": "01:30",
             "home": "Amed",
             "away": "Trabzonspor",
-            "stadium": "Diyarbakir Stadium",
+            "stadium": "Şilbe Spor Kompleksi",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "34'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
             "awayLogo": "https://media.api-sports.io/football/teams/998.png",
             "prediction": "2 - 1",
@@ -147,7 +220,14 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Amed or draw"
+            "advice": "Double chance : Amed or draw",
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "M. Salah",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -157,7 +237,10 @@ const siteData = {
             "away": "Bologna",
             "stadium": "New Balance Arena",
             "round": "Pekan 2",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "18'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/499.png",
             "awayLogo": "https://media.api-sports.io/football/teams/500.png",
             "prediction": "2 - 1",
@@ -176,7 +259,10 @@ const siteData = {
             "away": "Arsenal",
             "stadium": "Villa Park",
             "round": "Pekan 2",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/66.png",
             "awayLogo": "https://media.api-sports.io/football/teams/42.png",
             "prediction": "0 - 4",
@@ -1563,7 +1649,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 01:03 WIB",
+    "standingsUpdated": "01/09/2026 02:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2975,6 +3061,12 @@ const siteData = {
         ],
         "arsenal": [
             {
+                "player": "Gabriel Jesus",
+                "photo": "https://media.api-sports.io/football/players/643.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-31"
+            },
+            {
                 "player": "G. Martinelli",
                 "photo": "https://media.api-sports.io/football/players/127769.png",
                 "reason": "Transfer negotiations",
@@ -2990,12 +3082,6 @@ const siteData = {
                 "player": "J. Timber",
                 "photo": "https://media.api-sports.io/football/players/38746.png",
                 "reason": "Ankle Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "Gabriel Jesus",
-                "photo": "https://media.api-sports.io/football/players/643.png",
-                "reason": "Transfer negotiations",
                 "since": "2026-08-31"
             },
             {
