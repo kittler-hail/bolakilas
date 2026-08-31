@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T11:03:16.384Z.
+   API-Football v3) pada 2026-08-31T12:03:43.733Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 18:03 WIB",
+    "standingsUpdated": "31/08/2026 19:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2447,6 +2447,14 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "Kylian Mbappé",
+                "photo": "https://media.api-sports.io/football/players/278.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "value": 4
+            },
+            {
+                "rank": 2,
                 "name": "Álex Baena",
                 "photo": "https://media.api-sports.io/football/players/182219.png",
                 "team": "Atletico Madrid",
@@ -2454,7 +2462,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "name": "M. Zabiri",
                 "photo": "https://media.api-sports.io/football/players/457101.png",
                 "team": "Racing Santander",
@@ -2462,7 +2470,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "Roberto Fernández",
                 "photo": "https://media.api-sports.io/football/players/312990.png",
                 "team": "Espanyol",
@@ -2470,7 +2478,15 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 4,
+                "rank": 5,
+                "name": "P. Aubameyang",
+                "photo": "https://media.api-sports.io/football/players/1465.png",
+                "team": "Deportivo La Coruna",
+                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "value": 3
+            },
+            {
+                "rank": 6,
                 "name": "Fermín",
                 "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
@@ -2478,15 +2494,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 5,
-                "name": "Kylian Mbappé",
-                "photo": "https://media.api-sports.io/football/players/278.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 3
-            },
-            {
-                "rank": 6,
+                "rank": 7,
                 "name": "Raphinha",
                 "photo": "https://media.api-sports.io/football/players/1496.png",
                 "team": "Barcelona",
@@ -2494,7 +2502,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "M. Díaz",
                 "photo": "https://media.api-sports.io/football/players/760.png",
                 "team": "Alaves",
@@ -2502,27 +2510,19 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
-                "name": "Rodrigo Riquelme",
-                "photo": "https://media.api-sports.io/football/players/136117.png",
-                "team": "Real Betis",
-                "teamLogo": "https://media.api-sports.io/football/teams/543.png",
-                "value": 2
-            },
-            {
                 "rank": 9,
-                "name": "Brugui",
-                "photo": "https://media.api-sports.io/football/players/47225.png",
-                "team": "Levante",
-                "teamLogo": "https://media.api-sports.io/football/teams/539.png",
+                "name": "J. Bellingham",
+                "photo": "https://media.api-sports.io/football/players/129718.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
                 "value": 2
             },
             {
                 "rank": 10,
-                "name": "P. Aubameyang",
-                "photo": "https://media.api-sports.io/football/players/1465.png",
-                "team": "Deportivo La Coruna",
-                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "name": "Rodrigo Riquelme",
+                "photo": "https://media.api-sports.io/football/players/136117.png",
+                "team": "Real Betis",
+                "teamLogo": "https://media.api-sports.io/football/teams/543.png",
                 "value": 2
             }
         ],
@@ -2545,6 +2545,22 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "H. Çalhanoğlu",
+                "photo": "https://media.api-sports.io/football/players/1640.png",
+                "team": "Inter",
+                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
+                "value": 2
+            },
+            {
+                "rank": 4,
+                "name": "D. Frattesi",
+                "photo": "https://media.api-sports.io/football/players/31173.png",
+                "team": "Lazio",
+                "teamLogo": "https://media.api-sports.io/football/teams/487.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
                 "name": "Gustavo Varela",
                 "photo": "https://media.api-sports.io/football/players/340547.png",
                 "team": "Monza",
@@ -2552,7 +2568,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 6,
                 "name": "A. Raimondo",
                 "photo": "https://media.api-sports.io/football/players/314254.png",
                 "team": "Frosinone",
@@ -2560,28 +2576,12 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
-                "name": "A. Rabiot",
-                "photo": "https://media.api-sports.io/football/players/272.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
-                "value": 1
-            },
-            {
-                "rank": 6,
-                "name": "G. Bracaglia",
-                "photo": "https://media.api-sports.io/football/players/379504.png",
-                "team": "Frosinone",
-                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
-                "value": 1
-            },
-            {
                 "rank": 7,
-                "name": "J. Ekkelenkamp",
-                "photo": "https://media.api-sports.io/football/players/541.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
-                "value": 1
+                "name": "T. Douvikas",
+                "photo": "https://media.api-sports.io/football/players/26845.png",
+                "team": "Como",
+                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
+                "value": 2
             },
             {
                 "rank": 8,
@@ -2593,18 +2593,18 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "name": "A. Vergara",
-                "photo": "https://media.api-sports.io/football/players/347395.png",
-                "team": "Napoli",
-                "teamLogo": "https://media.api-sports.io/football/teams/492.png",
+                "name": "A. Rabiot",
+                "photo": "https://media.api-sports.io/football/players/272.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "F. Esposito",
-                "photo": "https://media.api-sports.io/football/players/345808.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
+                "name": "M. Baturina",
+                "photo": "https://media.api-sports.io/football/players/295026.png",
+                "team": "Como",
+                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
                 "value": 1
             }
         ],
