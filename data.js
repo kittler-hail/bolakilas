@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T13:03:08.269Z.
+   API-Football v3) pada 2026-08-31T14:03:31.139Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 20:03 WIB",
+    "standingsUpdated": "31/08/2026 21:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3121,14 +3121,6 @@ const siteData = {
             },
             {
                 "rank": 3,
-                "name": "J. Kimmich",
-                "photo": "https://media.api-sports.io/football/players/502.png",
-                "team": "Bayern München",
-                "teamLogo": "https://media.api-sports.io/football/teams/157.png",
-                "value": 2
-            },
-            {
-                "rank": 4,
                 "name": "J. Juranović",
                 "photo": "https://media.api-sports.io/football/players/14330.png",
                 "team": "Union Berlin",
@@ -3136,7 +3128,23 @@ const siteData = {
                 "value": 2
             },
             {
+                "rank": 4,
+                "name": "J. Kimmich",
+                "photo": "https://media.api-sports.io/football/players/502.png",
+                "team": "Bayern München",
+                "teamLogo": "https://media.api-sports.io/football/teams/157.png",
+                "value": 2
+            },
+            {
                 "rank": 5,
+                "name": "I. Matanović",
+                "photo": "https://media.api-sports.io/football/players/202696.png",
+                "team": "SC Freiburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/160.png",
+                "value": 1
+            },
+            {
+                "rank": 6,
                 "name": "L. Querfeld",
                 "photo": "https://media.api-sports.io/football/players/288206.png",
                 "team": "Union Berlin",
@@ -3144,7 +3152,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "L. Petkov",
                 "photo": "https://media.api-sports.io/football/players/177452.png",
                 "team": "SV Elversberg",
@@ -3152,35 +3160,27 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
-                "name": "L. Maina",
-                "photo": "https://media.api-sports.io/football/players/25380.png",
-                "team": "1. FC Köln",
-                "teamLogo": "https://media.api-sports.io/football/teams/192.png",
-                "value": 1
-            },
-            {
                 "rank": 8,
-                "name": "C. Nkunku",
-                "photo": "https://media.api-sports.io/football/players/269.png",
-                "team": "RB Leipzig",
-                "teamLogo": "https://media.api-sports.io/football/teams/173.png",
+                "name": "A. Kade",
+                "photo": "https://media.api-sports.io/football/players/279993.png",
+                "team": "FC Augsburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/170.png",
                 "value": 1
             },
             {
                 "rank": 9,
-                "name": "Francis-Ikechukwu Onyeka",
-                "photo": "https://media.api-sports.io/football/players/392254.png",
-                "team": "SV Elversberg",
-                "teamLogo": "https://media.api-sports.io/football/teams/1660.png",
+                "name": "Seol Young-Woo",
+                "photo": "https://media.api-sports.io/football/players/197985.png",
+                "team": "FC Augsburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/170.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "K. Karetsas",
-                "photo": "https://media.api-sports.io/football/players/404891.png",
-                "team": "Borussia Dortmund",
-                "teamLogo": "https://media.api-sports.io/football/teams/165.png",
+                "name": "L. Maina",
+                "photo": "https://media.api-sports.io/football/players/25380.png",
+                "team": "1. FC Köln",
+                "teamLogo": "https://media.api-sports.io/football/teams/192.png",
                 "value": 1
             }
         ]
