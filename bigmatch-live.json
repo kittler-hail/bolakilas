@@ -2,9 +2,40 @@
   "fixtureId": 1557377,
   "home": "Aston Villa",
   "away": "Arsenal",
-  "statusCode": "NS",
-  "updatedAt": "01/09/2026 01:55 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "01/09/2026 02:08 WIB",
+  "statistics": {
+    "home": {
+      "possession": 50,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 0,
+      "offsides": null,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 27,
+      "passesAccurate": 18,
+      "passesPct": 67
+    },
+    "away": {
+      "possession": 50,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 1,
+      "offsides": null,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 27,
+      "passesAccurate": 20,
+      "passesPct": 74
+    }
+  },
   "lineups": {
     "home": {
       "formation": "4-2-3-1",
