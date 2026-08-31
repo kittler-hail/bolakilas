@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T09:03:10.982Z.
+   API-Football v3) pada 2026-08-31T10:03:26.586Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -266,69 +266,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-08-31",
-            "time": "01:00",
-            "home": "Cambuur",
-            "away": "Twente",
-            "stadium": "Kooi Stadion",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 4,
-            "homeLogo": "https://media.api-sports.io/football/teams/420.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/415.png",
-            "prediction": "1 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Twente",
-            "goals": [
-                {
-                    "minute": "22",
-                    "player": "R. Nijstad",
-                    "team": "away"
-                },
-                {
-                    "minute": "26",
-                    "player": "W. Weghorst",
-                    "team": "away"
-                },
-                {
-                    "minute": "47",
-                    "player": "M. Pjaca",
-                    "team": "away"
-                },
-                {
-                    "minute": "82",
-                    "player": "Y. Taha",
-                    "team": "away"
-                },
-                {
-                    "minute": "88",
-                    "player": "I. Hamache",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "39",
-                    "player": "Nicky Souren",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "40",
-                    "player": "Sondre Ørjasæter",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-08-31",
             "time": "01:00",
@@ -391,6 +328,69 @@ const siteData = {
                     "player": "U. Torres",
                     "team": "home",
                     "type": "red"
+                }
+            ]
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-08-31",
+            "time": "01:00",
+            "home": "Cambuur",
+            "away": "Twente",
+            "stadium": "Kooi Stadion",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 4,
+            "homeLogo": "https://media.api-sports.io/football/teams/420.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/415.png",
+            "prediction": "1 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Twente",
+            "goals": [
+                {
+                    "minute": "22",
+                    "player": "R. Nijstad",
+                    "team": "away"
+                },
+                {
+                    "minute": "26",
+                    "player": "W. Weghorst",
+                    "team": "away"
+                },
+                {
+                    "minute": "47",
+                    "player": "M. Pjaca",
+                    "team": "away"
+                },
+                {
+                    "minute": "82",
+                    "player": "Y. Taha",
+                    "team": "away"
+                },
+                {
+                    "minute": "88",
+                    "player": "I. Hamache",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "39",
+                    "player": "Nicky Souren",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "40",
+                    "player": "Sondre Ørjasæter",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 16:03 WIB",
+    "standingsUpdated": "31/08/2026 17:03 WIB",
     "topScorers": {
         "Premier League": [
             {
