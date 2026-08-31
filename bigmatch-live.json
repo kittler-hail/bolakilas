@@ -3,9 +3,226 @@
   "home": "Aston Villa",
   "away": "Arsenal",
   "statusCode": "NS",
-  "updatedAt": "01/09/2026 01:29 WIB",
+  "updatedAt": "01/09/2026 01:42 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Unai Emery",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Zion Suzuki",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Matty Cash",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Victor Lindelöf",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "Pau Torres",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "Ian Maatsen",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "Boubacar Kamara",
+          "position": "Gelandang"
+        },
+        {
+          "number": 53,
+          "name": "George Hemmings",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "John McGinn",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "Ross Barkley",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Emiliano Buendía",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Nicolas Jackson",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 40,
+          "name": "Marco Bizot",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "Tyrone Mings",
+          "position": "Bek"
+        },
+        {
+          "number": 29,
+          "name": "Aaron Wan-Bissaka",
+          "position": "Bek"
+        },
+        {
+          "number": 13,
+          "name": "Matteo Ruggeri",
+          "position": "Bek"
+        },
+        {
+          "number": 26,
+          "name": "Lamare Bogarde",
+          "position": "Gelandang"
+        },
+        {
+          "number": 47,
+          "name": "Alysson",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "Alejandro Garnacho",
+          "position": "Penyerang"
+        },
+        {
+          "number": 18,
+          "name": "Tammy Abraham",
+          "position": "Penyerang"
+        },
+        {
+          "number": 74,
+          "name": "Luka Lynch",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Mikel Arteta",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "David Raya",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "Ben White",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Cristhian Mosquera",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Gabriel Magalhães",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "Riccardo Calafiori",
+          "position": "Bek"
+        },
+        {
+          "number": 49,
+          "name": "Myles Lewis-Skelly",
+          "position": "Gelandang"
+        },
+        {
+          "number": 41,
+          "name": "Declan Rice",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Bukayo Saka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Martin Ødegaard",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "Christos Tzolis",
+          "position": "Gelandang"
+        },
+        {
+          "number": 29,
+          "name": "Kai Havertz",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 13,
+          "name": "Kepa Arrizabalaga",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "Piero Hincapié",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "Ezri Konsa",
+          "position": "Bek"
+        },
+        {
+          "number": 36,
+          "name": "Martín Zubimendi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 39,
+          "name": "Bruno Guimarães",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "Mikel Merino",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Eberechi Eze",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Viktor Gyökeres",
+          "position": "Penyerang"
+        },
+        {
+          "number": 20,
+          "name": "Noni Madueke",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Villa Park",
     "city": "Birmingham",
