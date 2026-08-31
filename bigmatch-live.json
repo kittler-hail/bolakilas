@@ -3,7 +3,7 @@
   "home": "Aston Villa",
   "away": "Arsenal",
   "statusCode": "NS",
-  "updatedAt": "01/09/2026 01:42 WIB",
+  "updatedAt": "01/09/2026 01:55 WIB",
   "statistics": null,
   "lineups": {
     "home": {
@@ -232,7 +232,7 @@
   "odds": {
     "bookmaker": "William Hill",
     "home": "5.80",
-    "draw": "4.00",
+    "draw": "4.20",
     "away": "1.53"
   }
 }
