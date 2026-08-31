@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T07:03:08.930Z.
+   API-Football v3) pada 2026-08-31T08:03:30.391Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2360,7 +2360,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "31/08/2026 14:03 WIB",
+    "standingsUpdated": "31/08/2026 15:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2611,6 +2611,22 @@ const siteData = {
         "Ligue 1": [
             {
                 "rank": 1,
+                "name": "L. Mafouta",
+                "photo": "https://media.api-sports.io/football/players/85558.png",
+                "team": "Le Mans",
+                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
+                "value": 3
+            },
+            {
+                "rank": 2,
+                "name": "E. Lepaul",
+                "photo": "https://media.api-sports.io/football/players/163004.png",
+                "team": "Rennes",
+                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
+                "value": 3
+            },
+            {
+                "rank": 3,
                 "name": "F. Thauvin",
                 "photo": "https://media.api-sports.io/football/players/1922.png",
                 "team": "Lens",
@@ -2618,7 +2634,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 2,
+                "rank": 4,
                 "name": "K. Doumbia",
                 "photo": "https://media.api-sports.io/football/players/326068.png",
                 "team": "Stade Brestois 29",
@@ -2626,7 +2642,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 5,
                 "name": "Ferran Torres",
                 "photo": "https://media.api-sports.io/football/players/931.png",
                 "team": "Paris Saint Germain",
@@ -2634,7 +2650,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 6,
+                "name": "Paris Josua  Brunner",
+                "photo": "https://media.api-sports.io/football/players/386276.png",
+                "team": "Monaco",
+                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
+                "value": 2
+            },
+            {
+                "rank": 7,
                 "name": "Gessime Yassine",
                 "photo": "https://media.api-sports.io/football/players/369544.png",
                 "team": "Strasbourg",
@@ -2642,7 +2666,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 8,
                 "name": "A. Gouiri",
                 "photo": "https://media.api-sports.io/football/players/85041.png",
                 "team": "Marseille",
@@ -2650,7 +2674,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
+                "rank": 9,
                 "name": "O. Giroud",
                 "photo": "https://media.api-sports.io/football/players/2295.png",
                 "team": "Lille",
@@ -2658,41 +2682,25 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 10,
                 "name": "Vitinha",
                 "photo": "https://media.api-sports.io/football/players/128384.png",
                 "team": "Paris Saint Germain",
                 "teamLogo": "https://media.api-sports.io/football/teams/85.png",
-                "value": 1
-            },
-            {
-                "rank": 8,
-                "name": "A. El Ouazzani",
-                "photo": "https://media.api-sports.io/football/players/193188.png",
-                "team": "Angers",
-                "teamLogo": "https://media.api-sports.io/football/teams/77.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "L. Mafouta",
-                "photo": "https://media.api-sports.io/football/players/85558.png",
-                "team": "Le Mans",
-                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "Djibirin Harouna",
-                "photo": "https://media.api-sports.io/football/players/579375.png",
-                "team": "Angers",
-                "teamLogo": "https://media.api-sports.io/football/teams/77.png",
                 "value": 1
             }
         ],
         "Bundesliga": [
             {
                 "rank": 1,
+                "name": "Y. Suzuki",
+                "photo": "https://media.api-sports.io/football/players/199143.png",
+                "team": "SC Freiburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/160.png",
+                "value": 3
+            },
+            {
+                "rank": 2,
                 "name": "Y. Ebnoutalib",
                 "photo": "https://media.api-sports.io/football/players/409190.png",
                 "team": "Eintracht Frankfurt",
@@ -2700,7 +2708,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "name": "T. Dallinga",
                 "photo": "https://media.api-sports.io/football/players/93016.png",
                 "team": "1. FC Köln",
@@ -2708,7 +2716,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
+                "name": "I. Matanović",
+                "photo": "https://media.api-sports.io/football/players/202696.png",
+                "team": "SC Freiburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/160.png",
+                "value": 1
+            },
+            {
+                "rank": 5,
                 "name": "L. Querfeld",
                 "photo": "https://media.api-sports.io/football/players/288206.png",
                 "team": "Union Berlin",
@@ -2716,7 +2732,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 4,
+                "rank": 6,
                 "name": "L. Petkov",
                 "photo": "https://media.api-sports.io/football/players/177452.png",
                 "team": "SV Elversberg",
@@ -2724,7 +2740,23 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 5,
+                "rank": 7,
+                "name": "A. Kade",
+                "photo": "https://media.api-sports.io/football/players/279993.png",
+                "team": "FC Augsburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/170.png",
+                "value": 1
+            },
+            {
+                "rank": 8,
+                "name": "Rodrigo Ribeiro",
+                "photo": "https://media.api-sports.io/football/players/341641.png",
+                "team": "FC Augsburg",
+                "teamLogo": "https://media.api-sports.io/football/teams/170.png",
+                "value": 1
+            },
+            {
+                "rank": 9,
                 "name": "T. Skarke",
                 "photo": "https://media.api-sports.io/football/players/24910.png",
                 "team": "Union Berlin",
@@ -2732,43 +2764,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 10,
                 "name": "Christian Kofane",
                 "photo": "https://media.api-sports.io/football/players/505295.png",
                 "team": "Bayer Leverkusen",
                 "teamLogo": "https://media.api-sports.io/football/teams/168.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
-                "name": "E. Latte Lath",
-                "photo": "https://media.api-sports.io/football/players/32137.png",
-                "team": "Union Berlin",
-                "teamLogo": "https://media.api-sports.io/football/teams/182.png",
-                "value": 1
-            },
-            {
-                "rank": 8,
-                "name": "S. El Mala",
-                "photo": "https://media.api-sports.io/football/players/432310.png",
-                "team": "1. FC Köln",
-                "teamLogo": "https://media.api-sports.io/football/teams/192.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "William Cole Campbell",
-                "photo": "https://media.api-sports.io/football/players/328617.png",
-                "team": "SV Elversberg",
-                "teamLogo": "https://media.api-sports.io/football/teams/1660.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "R. Baku",
-                "photo": "https://media.api-sports.io/football/players/25917.png",
-                "team": "RB Leipzig",
-                "teamLogo": "https://media.api-sports.io/football/teams/173.png",
                 "value": 1
             }
         ]
@@ -2785,6 +2785,14 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "João Pedro",
+                "photo": "https://media.api-sports.io/football/players/10329.png",
+                "team": "Chelsea",
+                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "value": 2
+            },
+            {
+                "rank": 3,
                 "name": "Evanilson",
                 "photo": "https://media.api-sports.io/football/players/152856.png",
                 "team": "Bournemouth",
@@ -2792,7 +2800,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
+                "name": "J. Enciso",
+                "photo": "https://media.api-sports.io/football/players/70747.png",
+                "team": "Ipswich",
+                "teamLogo": "https://media.api-sports.io/football/teams/57.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
                 "name": "P. Foden",
                 "photo": "https://media.api-sports.io/football/players/631.png",
                 "team": "Manchester City",
@@ -2800,27 +2816,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
-                "name": "C. Gakpo",
-                "photo": "https://media.api-sports.io/football/players/247.png",
-                "team": "Liverpool",
-                "teamLogo": "https://media.api-sports.io/football/teams/40.png",
-                "value": 1
-            },
-            {
-                "rank": 5,
-                "name": "J. Gvardiol",
-                "photo": "https://media.api-sports.io/football/players/129033.png",
-                "team": "Manchester City",
-                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
-                "value": 1
-            },
-            {
                 "rank": 6,
-                "name": "Y. Wissa",
-                "photo": "https://media.api-sports.io/football/players/20649.png",
-                "team": "Newcastle",
-                "teamLogo": "https://media.api-sports.io/football/teams/34.png",
+                "name": "Bruno Fernandes",
+                "photo": "https://media.api-sports.io/football/players/1485.png",
+                "team": "Manchester United",
+                "teamLogo": "https://media.api-sports.io/football/teams/33.png",
                 "value": 1
             },
             {
@@ -2833,26 +2833,26 @@ const siteData = {
             },
             {
                 "rank": 8,
-                "name": "João Pedro",
-                "photo": "https://media.api-sports.io/football/players/10329.png",
-                "team": "Chelsea",
-                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "name": "C. Gakpo",
+                "photo": "https://media.api-sports.io/football/players/247.png",
+                "team": "Liverpool",
+                "teamLogo": "https://media.api-sports.io/football/teams/40.png",
                 "value": 1
             },
             {
                 "rank": 9,
-                "name": "M. Gibbs-White",
-                "photo": "https://media.api-sports.io/football/players/18746.png",
-                "team": "Nottingham Forest",
-                "teamLogo": "https://media.api-sports.io/football/teams/65.png",
+                "name": "J. Gvardiol",
+                "photo": "https://media.api-sports.io/football/players/129033.png",
+                "team": "Manchester City",
+                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "R. Gravenberch",
-                "photo": "https://media.api-sports.io/football/players/542.png",
-                "team": "Liverpool",
-                "teamLogo": "https://media.api-sports.io/football/teams/40.png",
+                "name": "Y. Wissa",
+                "photo": "https://media.api-sports.io/football/players/20649.png",
+                "team": "Newcastle",
+                "teamLogo": "https://media.api-sports.io/football/teams/34.png",
                 "value": 1
             }
         ],
@@ -4962,6 +4962,86 @@ const siteData = {
                 "since": "2026-08-30"
             }
         ],
+        "fc-augsburg": [
+            {
+                "player": "T. Breithaupt",
+                "photo": "https://media.api-sports.io/football/players/202755.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "S. Mounie",
+                "photo": "https://media.api-sports.io/football/players/3395.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            }
+        ],
+        "fc-schalke-04": [
+            {
+                "player": "E. Hojlund",
+                "photo": "https://media.api-sports.io/football/players/339875.png",
+                "reason": "Heel Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "T. Kalas",
+                "photo": "https://media.api-sports.io/football/players/19262.png",
+                "reason": "Lacking Match Fitness",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "K. Karaman",
+                "photo": "https://media.api-sports.io/football/players/25466.png",
+                "reason": "Hip Injury",
+                "since": "2026-08-30"
+            }
+        ],
+        "sc-freiburg": [
+            {
+                "player": "F. Muslija",
+                "photo": "https://media.api-sports.io/football/players/25383.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "P. Osterhage",
+                "photo": "https://media.api-sports.io/football/players/163022.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "R. Yamamoto",
+                "photo": "https://media.api-sports.io/football/players/33805.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            }
+        ],
+        "werder-bremen": [
+            {
+                "player": "F. Agu",
+                "photo": "https://media.api-sports.io/football/players/26319.png",
+                "reason": "Calf Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "K. Topp",
+                "photo": "https://media.api-sports.io/football/players/334334.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "M. Weiser",
+                "photo": "https://media.api-sports.io/football/players/973.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "O. Wojcik",
+                "photo": "https://media.api-sports.io/football/players/270836.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
+            }
+        ],
         "borussia-dortmund": [
             {
                 "player": "R. Bensebaini",
@@ -5342,86 +5422,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/13.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-28"
-            }
-        ],
-        "sc-freiburg": [
-            {
-                "player": "F. Muslija",
-                "photo": "https://media.api-sports.io/football/players/25383.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "P. Osterhage",
-                "photo": "https://media.api-sports.io/football/players/163022.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "R. Yamamoto",
-                "photo": "https://media.api-sports.io/football/players/33805.png",
-                "reason": "Injury",
-                "since": "2026-08-30"
-            }
-        ],
-        "werder-bremen": [
-            {
-                "player": "F. Agu",
-                "photo": "https://media.api-sports.io/football/players/26319.png",
-                "reason": "Calf Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "K. Topp",
-                "photo": "https://media.api-sports.io/football/players/334334.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "M. Weiser",
-                "photo": "https://media.api-sports.io/football/players/973.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "O. Wojcik",
-                "photo": "https://media.api-sports.io/football/players/270836.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-30"
-            }
-        ],
-        "fc-augsburg": [
-            {
-                "player": "T. Breithaupt",
-                "photo": "https://media.api-sports.io/football/players/202755.png",
-                "reason": "Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "S. Mounie",
-                "photo": "https://media.api-sports.io/football/players/3395.png",
-                "reason": "Injury",
-                "since": "2026-08-30"
-            }
-        ],
-        "fc-schalke-04": [
-            {
-                "player": "E. Hojlund",
-                "photo": "https://media.api-sports.io/football/players/339875.png",
-                "reason": "Heel Injury",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "T. Kalas",
-                "photo": "https://media.api-sports.io/football/players/19262.png",
-                "reason": "Lacking Match Fitness",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "K. Karaman",
-                "photo": "https://media.api-sports.io/football/players/25466.png",
-                "reason": "Hip Injury",
-                "since": "2026-08-30"
             }
         ],
         "monaco": [
