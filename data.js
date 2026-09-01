@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-01T07:05:12.883Z.
+   API-Football v3) pada 2026-09-01T08:05:48.143Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1958,7 +1958,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 14:05 WIB",
+    "standingsUpdated": "01/09/2026 15:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2415,6 +2415,14 @@ const siteData = {
             },
             {
                 "rank": 6,
+                "name": "R. Calafiori",
+                "photo": "https://media.api-sports.io/football/players/157052.png",
+                "team": "Arsenal",
+                "teamLogo": "https://media.api-sports.io/football/teams/42.png",
+                "value": 2
+            },
+            {
+                "rank": 7,
                 "name": "Bruno Fernandes",
                 "photo": "https://media.api-sports.io/football/players/1485.png",
                 "team": "Manchester United",
@@ -2422,7 +2430,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "C. Palmer",
                 "photo": "https://media.api-sports.io/football/players/152982.png",
                 "team": "Chelsea",
@@ -2430,7 +2438,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "C. Gakpo",
                 "photo": "https://media.api-sports.io/football/players/247.png",
                 "team": "Liverpool",
@@ -2438,19 +2446,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "name": "J. Gvardiol",
                 "photo": "https://media.api-sports.io/football/players/129033.png",
                 "team": "Manchester City",
                 "teamLogo": "https://media.api-sports.io/football/teams/50.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "Y. Wissa",
-                "photo": "https://media.api-sports.io/football/players/20649.png",
-                "team": "Newcastle",
-                "teamLogo": "https://media.api-sports.io/football/teams/34.png",
                 "value": 1
             }
         ],
