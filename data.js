@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-01T06:06:38.592Z.
+   API-Football v3) pada 2026-09-01T07:05:12.883Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1958,7 +1958,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 13:06 WIB",
+    "standingsUpdated": "01/09/2026 14:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2003,6 +2003,14 @@ const siteData = {
             },
             {
                 "rank": 6,
+                "name": "B. Saka",
+                "photo": "https://media.api-sports.io/football/players/1460.png",
+                "team": "Arsenal",
+                "teamLogo": "https://media.api-sports.io/football/teams/42.png",
+                "value": 2
+            },
+            {
+                "rank": 7,
                 "name": "E. Haaland",
                 "photo": "https://media.api-sports.io/football/players/1100.png",
                 "team": "Manchester City",
@@ -2010,7 +2018,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "J. Hinshelwood",
                 "photo": "https://media.api-sports.io/football/players/305730.png",
                 "team": "Brighton",
@@ -2018,7 +2026,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "C. Gakpo",
                 "photo": "https://media.api-sports.io/football/players/247.png",
                 "team": "Liverpool",
@@ -2026,19 +2034,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "name": "J. Gvardiol",
                 "photo": "https://media.api-sports.io/football/players/129033.png",
                 "team": "Manchester City",
                 "teamLogo": "https://media.api-sports.io/football/teams/50.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "Y. Wissa",
-                "photo": "https://media.api-sports.io/football/players/20649.png",
-                "team": "Newcastle",
-                "teamLogo": "https://media.api-sports.io/football/teams/34.png",
                 "value": 1
             }
         ],
@@ -2784,11 +2784,75 @@ const siteData = {
         ]
     },
     "injuries": {
+        "arsenal": [
+            {
+                "player": "Bruno Guimaraes",
+                "photo": "https://media.api-sports.io/football/players/10135.png",
+                "reason": "Thigh Injury",
+                "since": "2026-08-21"
+            },
+            {
+                "player": "W. Saliba",
+                "photo": "https://media.api-sports.io/football/players/22090.png",
+                "reason": "Back Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "J. Timber",
+                "photo": "https://media.api-sports.io/football/players/38746.png",
+                "reason": "Ankle Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "Gabriel Jesus",
+                "photo": "https://media.api-sports.io/football/players/643.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "G. Martinelli",
+                "photo": "https://media.api-sports.io/football/players/127769.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-31"
+            }
+        ],
+        "coventry": [
+            {
+                "player": "L. Woolfenden",
+                "photo": "https://media.api-sports.io/football/players/17714.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "H. Wright",
+                "photo": "https://media.api-sports.io/football/players/427.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            },
+            {
+                "player": "K. Kesler-Hayden",
+                "photo": "https://media.api-sports.io/football/players/298128.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            }
+        ],
         "aston-villa": [
+            {
+                "player": "L. Bailey",
+                "photo": "https://media.api-sports.io/football/players/983.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-31"
+            },
             {
                 "player": "Joao Gomes",
                 "photo": "https://media.api-sports.io/football/players/195103.png",
                 "reason": "Red Card",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "B. Madjo",
+                "photo": "https://media.api-sports.io/football/players/514519.png",
+                "reason": "Ankle Injury",
                 "since": "2026-08-31"
             },
             {
@@ -2807,19 +2871,7 @@ const siteData = {
                 "player": "T. Abraham",
                 "photo": "https://media.api-sports.io/football/players/19194.png",
                 "reason": "Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "L. Bailey",
-                "photo": "https://media.api-sports.io/football/players/983.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "B. Madjo",
-                "photo": "https://media.api-sports.io/football/players/514519.png",
-                "reason": "Ankle Injury",
-                "since": "2026-08-31"
+                "since": "2026-08-23"
             },
             {
                 "player": "E. Martinez",
@@ -2832,38 +2884,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/19366.png",
                 "reason": "Inactive",
                 "since": "2026-08-23"
-            }
-        ],
-        "arsenal": [
-            {
-                "player": "Gabriel Jesus",
-                "photo": "https://media.api-sports.io/football/players/643.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "G. Martinelli",
-                "photo": "https://media.api-sports.io/football/players/127769.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "W. Saliba",
-                "photo": "https://media.api-sports.io/football/players/22090.png",
-                "reason": "Back Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "J. Timber",
-                "photo": "https://media.api-sports.io/football/players/38746.png",
-                "reason": "Ankle Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "Bruno Guimaraes",
-                "photo": "https://media.api-sports.io/football/players/10135.png",
-                "reason": "Thigh Injury",
-                "since": "2026-08-21"
             }
         ],
         "manchester-united": [
@@ -3224,26 +3244,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/284500.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-22"
-            }
-        ],
-        "coventry": [
-            {
-                "player": "K. Kesler-Hayden",
-                "photo": "https://media.api-sports.io/football/players/298128.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "L. Woolfenden",
-                "photo": "https://media.api-sports.io/football/players/17714.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "H. Wright",
-                "photo": "https://media.api-sports.io/football/players/427.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
             }
         ],
         "hull-city": [
