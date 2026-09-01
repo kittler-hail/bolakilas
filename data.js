@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-08-31T22:03:02.870Z.
+   API-Football v3) pada 2026-09-01T00:07:57.783Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -78,6 +78,7 @@ const siteData = {
             },
             "away": {
                 "results": [
+                    "W",
                     "W"
                 ]
             }
@@ -320,6 +321,12 @@ const siteData = {
                     "minute": "44",
                     "player": "C. Nwaiwu",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "B. Hasi",
+                    "team": "home",
                     "type": "yellow"
                 },
                 {
@@ -699,6 +706,17 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png",
+                "played": 2,
+                "win": 2,
+                "draw": 0,
+                "lose": 0,
+                "gd": 4,
+                "points": 6
+            },
+            {
+                "rank": 3,
                 "team": "Hull City",
                 "logo": "https://media.api-sports.io/football/teams/64.png",
                 "played": 2,
@@ -709,7 +727,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Chelsea",
                 "logo": "https://media.api-sports.io/football/teams/49.png",
                 "played": 2,
@@ -720,7 +738,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Brentford",
                 "logo": "https://media.api-sports.io/football/teams/55.png",
                 "played": 2,
@@ -731,7 +749,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Newcastle",
                 "logo": "https://media.api-sports.io/football/teams/34.png",
                 "played": 2,
@@ -742,7 +760,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Everton",
                 "logo": "https://media.api-sports.io/football/teams/45.png",
                 "played": 2,
@@ -753,7 +771,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Leeds",
                 "logo": "https://media.api-sports.io/football/teams/63.png",
                 "played": 2,
@@ -764,24 +782,13 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Brighton",
                 "logo": "https://media.api-sports.io/football/teams/51.png",
                 "played": 2,
                 "win": 1,
                 "draw": 0,
                 "lose": 1,
-                "gd": 3,
-                "points": 3
-            },
-            {
-                "rank": 9,
-                "team": "Arsenal",
-                "logo": "https://media.api-sports.io/football/teams/42.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
                 "gd": 3,
                 "points": 3
             },
@@ -864,17 +871,6 @@ const siteData = {
             },
             {
                 "rank": 17,
-                "team": "Aston Villa",
-                "logo": "https://media.api-sports.io/football/teams/66.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -4,
-                "points": 0
-            },
-            {
-                "rank": 18,
                 "team": "Coventry",
                 "logo": "https://media.api-sports.io/football/teams/1346.png",
                 "played": 2,
@@ -885,9 +881,20 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 19,
+                "rank": 18,
                 "team": "Crystal Palace",
                 "logo": "https://media.api-sports.io/football/teams/52.png",
+                "played": 2,
+                "win": 0,
+                "draw": 0,
+                "lose": 2,
+                "gd": -5,
+                "points": 0
+            },
+            {
+                "rank": 19,
+                "team": "Aston Villa",
+                "logo": "https://media.api-sports.io/football/teams/66.png",
                 "played": 2,
                 "win": 0,
                 "draw": 0,
@@ -910,6 +917,17 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "team": "Barcelona",
+                "logo": "https://media.api-sports.io/football/teams/529.png",
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "gd": 10,
+                "points": 9
+            },
+            {
+                "rank": 2,
                 "team": "Real Madrid",
                 "logo": "https://media.api-sports.io/football/teams/541.png",
                 "played": 3,
@@ -920,7 +938,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "team": "Atletico Madrid",
                 "logo": "https://media.api-sports.io/football/teams/530.png",
                 "played": 3,
@@ -931,7 +949,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Alaves",
                 "logo": "https://media.api-sports.io/football/teams/542.png",
                 "played": 3,
@@ -942,7 +960,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Osasuna",
                 "logo": "https://media.api-sports.io/football/teams/727.png",
                 "played": 3,
@@ -951,17 +969,6 @@ const siteData = {
                 "lose": 0,
                 "gd": 2,
                 "points": 7
-            },
-            {
-                "rank": 5,
-                "team": "Barcelona",
-                "logo": "https://media.api-sports.io/football/teams/529.png",
-                "played": 2,
-                "win": 2,
-                "draw": 0,
-                "lose": 0,
-                "gd": 7,
-                "points": 6
             },
             {
                 "rank": 6,
@@ -1075,17 +1082,6 @@ const siteData = {
             },
             {
                 "rank": 16,
-                "team": "Rayo Vallecano",
-                "logo": "https://media.api-sports.io/football/teams/728.png",
-                "played": 2,
-                "win": 0,
-                "draw": 1,
-                "lose": 1,
-                "gd": -1,
-                "points": 1
-            },
-            {
-                "rank": 17,
                 "team": "Valencia",
                 "logo": "https://media.api-sports.io/football/teams/532.png",
                 "played": 3,
@@ -1096,7 +1092,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 18,
+                "rank": 17,
                 "team": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 3,
@@ -1104,6 +1100,17 @@ const siteData = {
                 "draw": 1,
                 "lose": 2,
                 "gd": -3,
+                "points": 1
+            },
+            {
+                "rank": 18,
+                "team": "Rayo Vallecano",
+                "logo": "https://media.api-sports.io/football/teams/728.png",
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "gd": -4,
                 "points": 1
             },
             {
@@ -1952,7 +1959,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 05:03 WIB",
+    "standingsUpdated": "01/09/2026 07:07 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2778,6 +2785,88 @@ const siteData = {
         ]
     },
     "injuries": {
+        "aston-villa": [
+            {
+                "player": "Joao Gomes",
+                "photo": "https://media.api-sports.io/football/players/195103.png",
+                "reason": "Red Card",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "J. Manzambi",
+                "photo": "https://media.api-sports.io/football/players/406244.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "A. Onana",
+                "photo": "https://media.api-sports.io/football/players/162714.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "T. Abraham",
+                "photo": "https://media.api-sports.io/football/players/19194.png",
+                "reason": "Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "L. Bailey",
+                "photo": "https://media.api-sports.io/football/players/983.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "B. Madjo",
+                "photo": "https://media.api-sports.io/football/players/514519.png",
+                "reason": "Ankle Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "E. Martinez",
+                "photo": "https://media.api-sports.io/football/players/19599.png",
+                "reason": "Finger Injury",
+                "since": "2026-08-23"
+            },
+            {
+                "player": "O. Watkins",
+                "photo": "https://media.api-sports.io/football/players/19366.png",
+                "reason": "Inactive",
+                "since": "2026-08-23"
+            }
+        ],
+        "arsenal": [
+            {
+                "player": "Gabriel Jesus",
+                "photo": "https://media.api-sports.io/football/players/643.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "G. Martinelli",
+                "photo": "https://media.api-sports.io/football/players/127769.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "W. Saliba",
+                "photo": "https://media.api-sports.io/football/players/22090.png",
+                "reason": "Back Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "J. Timber",
+                "photo": "https://media.api-sports.io/football/players/38746.png",
+                "reason": "Ankle Injury",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "Bruno Guimaraes",
+                "photo": "https://media.api-sports.io/football/players/10135.png",
+                "reason": "Thigh Injury",
+                "since": "2026-08-21"
+            }
+        ],
         "manchester-united": [
             {
                 "player": "C. Baleba",
@@ -3310,88 +3399,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/266657.png",
                 "reason": "Transfer negotiations",
                 "since": "2026-08-23"
-            }
-        ],
-        "aston-villa": [
-            {
-                "player": "T. Abraham",
-                "photo": "https://media.api-sports.io/football/players/19194.png",
-                "reason": "Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "L. Bailey",
-                "photo": "https://media.api-sports.io/football/players/983.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "B. Madjo",
-                "photo": "https://media.api-sports.io/football/players/514519.png",
-                "reason": "Ankle Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "J. Manzambi",
-                "photo": "https://media.api-sports.io/football/players/406244.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "E. Martinez",
-                "photo": "https://media.api-sports.io/football/players/19599.png",
-                "reason": "Finger Injury",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "A. Onana",
-                "photo": "https://media.api-sports.io/football/players/162714.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "O. Watkins",
-                "photo": "https://media.api-sports.io/football/players/19366.png",
-                "reason": "Inactive",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "Joao Gomes",
-                "photo": "https://media.api-sports.io/football/players/195103.png",
-                "reason": "Red Card",
-                "since": "2026-08-31"
-            }
-        ],
-        "arsenal": [
-            {
-                "player": "Gabriel Jesus",
-                "photo": "https://media.api-sports.io/football/players/643.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "G. Martinelli",
-                "photo": "https://media.api-sports.io/football/players/127769.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "W. Saliba",
-                "photo": "https://media.api-sports.io/football/players/22090.png",
-                "reason": "Back Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "J. Timber",
-                "photo": "https://media.api-sports.io/football/players/38746.png",
-                "reason": "Ankle Injury",
-                "since": "2026-08-31"
-            },
-            {
-                "player": "Bruno Guimaraes",
-                "photo": "https://media.api-sports.io/football/players/10135.png",
-                "reason": "Thigh Injury",
-                "since": "2026-08-21"
             }
         ],
         "alaves": [
@@ -5297,19 +5304,19 @@ const siteData = {
                 "player": "A. Donnum",
                 "photo": "https://media.api-sports.io/football/players/39115.png",
                 "reason": "Inactive",
-                "since": "2026-08-29"
+                "since": "2026-09-03"
             },
             {
                 "player": "A. Francis",
                 "photo": "https://media.api-sports.io/football/players/118345.png",
                 "reason": "Inactive",
-                "since": "2026-08-29"
+                "since": "2026-09-03"
             },
             {
                 "player": "A. Vossah",
                 "photo": "https://media.api-sports.io/football/players/514464.png",
-                "reason": "Yellow Cards",
-                "since": "2026-08-22"
+                "reason": "Injury",
+                "since": "2026-09-03"
             }
         ],
         "lorient": [
@@ -5497,19 +5504,19 @@ const siteData = {
                 "player": "M. Fernandez-Pardo",
                 "photo": "https://media.api-sports.io/football/players/340077.png",
                 "reason": "Transfer negotiations",
-                "since": "2026-08-28"
+                "since": "2026-09-03"
             },
             {
                 "player": "H. Igamane",
                 "photo": "https://media.api-sports.io/football/players/306979.png",
                 "reason": "Knee Injury",
-                "since": "2026-08-28"
+                "since": "2026-09-03"
             },
             {
                 "player": "T. Nianzou",
                 "photo": "https://media.api-sports.io/football/players/133110.png",
                 "reason": "Injury",
-                "since": "2026-08-28"
+                "since": "2026-09-03"
             },
             {
                 "player": "B. Andre",
