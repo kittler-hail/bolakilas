@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-01T03:05:17.669Z.
+   API-Football v3) pada 2026-09-01T04:04:51.926Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -177,7 +177,7 @@ const siteData = {
             "time": "01:30",
             "home": "Beşiktaş",
             "away": "Çorum FK",
-            "stadium": "Besiktas Park",
+            "stadium": "Tüpraş Stadyumu",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -279,7 +279,7 @@ const siteData = {
             "time": "01:30",
             "home": "Amed",
             "away": "Trabzonspor",
-            "stadium": "Diyarbakir Stadium",
+            "stadium": "Şilbe Spor Kompleksi",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -1960,7 +1960,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 10:05 WIB",
+    "standingsUpdated": "01/09/2026 11:04 WIB",
     "topScorers": {
         "Premier League": [
             {
