@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-01T11:05:06.367Z.
+   API-Football v3) pada 2026-09-01T12:06:46.831Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1958,7 +1958,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/09/2026 18:05 WIB",
+    "standingsUpdated": "01/09/2026 19:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2045,6 +2045,14 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "Raphinha",
+                "photo": "https://media.api-sports.io/football/players/1496.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 5
+            },
+            {
+                "rank": 2,
                 "name": "Kylian Mbappé",
                 "photo": "https://media.api-sports.io/football/players/278.png",
                 "team": "Real Madrid",
@@ -2052,7 +2060,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "name": "Álex Baena",
                 "photo": "https://media.api-sports.io/football/players/182219.png",
                 "team": "Atletico Madrid",
@@ -2060,7 +2068,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "M. Zabiri",
                 "photo": "https://media.api-sports.io/football/players/457101.png",
                 "team": "Racing Santander",
@@ -2068,19 +2076,11 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 4,
-                "name": "Roberto Fernández",
-                "photo": "https://media.api-sports.io/football/players/312990.png",
-                "team": "Espanyol",
-                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
-                "value": 3
-            },
-            {
                 "rank": 5,
-                "name": "P. Aubameyang",
-                "photo": "https://media.api-sports.io/football/players/1465.png",
-                "team": "Deportivo La Coruna",
-                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "name": "Sergio Camello",
+                "photo": "https://media.api-sports.io/football/players/52.png",
+                "team": "Rayo Vallecano",
+                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
                 "value": 3
             },
             {
@@ -2093,14 +2093,22 @@ const siteData = {
             },
             {
                 "rank": 7,
-                "name": "Raphinha",
-                "photo": "https://media.api-sports.io/football/players/1496.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "name": "Roberto Fernández",
+                "photo": "https://media.api-sports.io/football/players/312990.png",
+                "team": "Espanyol",
+                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
                 "value": 3
             },
             {
                 "rank": 8,
+                "name": "P. Aubameyang",
+                "photo": "https://media.api-sports.io/football/players/1465.png",
+                "team": "Deportivo La Coruna",
+                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "value": 3
+            },
+            {
+                "rank": 9,
                 "name": "M. Díaz",
                 "photo": "https://media.api-sports.io/football/players/760.png",
                 "team": "Alaves",
@@ -2108,19 +2116,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "name": "J. Bellingham",
                 "photo": "https://media.api-sports.io/football/players/129718.png",
                 "team": "Real Madrid",
                 "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "Rodrigo Riquelme",
-                "photo": "https://media.api-sports.io/football/players/136117.png",
-                "team": "Real Betis",
-                "teamLogo": "https://media.api-sports.io/football/teams/543.png",
                 "value": 2
             }
         ],
@@ -2131,7 +2131,7 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/249.png",
                 "team": "AS Roma",
                 "teamLogo": "https://media.api-sports.io/football/teams/497.png",
-                "value": 3
+                "value": 5
             },
             {
                 "rank": 2,
@@ -2457,6 +2457,14 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "A. Gordon",
+                "photo": "https://media.api-sports.io/football/players/138787.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 3
+            },
+            {
+                "rank": 2,
                 "name": "Javier Hernandez",
                 "photo": "https://media.api-sports.io/football/players/388495.png",
                 "team": "Espanyol",
@@ -2464,7 +2472,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "name": "M. Díaz",
                 "photo": "https://media.api-sports.io/football/players/760.png",
                 "team": "Alaves",
@@ -2472,7 +2480,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "J. Bellingham",
                 "photo": "https://media.api-sports.io/football/players/129718.png",
                 "team": "Real Madrid",
@@ -2480,7 +2488,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "Vinícius Júnior",
                 "photo": "https://media.api-sports.io/football/players/762.png",
                 "team": "Real Madrid",
@@ -2488,7 +2496,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "Mikel Oyarzabal",
                 "photo": "https://media.api-sports.io/football/players/47323.png",
                 "team": "Real Sociedad",
@@ -2496,20 +2504,12 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
-                "name": "A. Gordon",
-                "photo": "https://media.api-sports.io/football/players/138787.png",
+                "rank": 7,
+                "name": "X. Espart",
+                "photo": "https://media.api-sports.io/football/players/568001.png",
                 "team": "Barcelona",
                 "teamLogo": "https://media.api-sports.io/football/teams/529.png",
                 "value": 2
-            },
-            {
-                "rank": 7,
-                "name": "Álex Baena",
-                "photo": "https://media.api-sports.io/football/players/182219.png",
-                "team": "Atletico Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
-                "value": 1
             },
             {
                 "rank": 8,
@@ -2521,18 +2521,18 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "name": "Isaac",
-                "photo": "https://media.api-sports.io/football/players/185398.png",
-                "team": "Sevilla",
-                "teamLogo": "https://media.api-sports.io/football/teams/536.png",
+                "name": "Álex Baena",
+                "photo": "https://media.api-sports.io/football/players/182219.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "A. Güler",
-                "photo": "https://media.api-sports.io/football/players/291964.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "name": "K. Adeyemi",
+                "photo": "https://media.api-sports.io/football/players/7334.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
                 "value": 1
             }
         ],
