@@ -2,37 +2,37 @@
   "fixtureId": 1558607,
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
-  "statusCode": "1H",
-  "updatedAt": "03/09/2026 02:14 WIB",
+  "statusCode": "HT",
+  "updatedAt": "03/09/2026 02:29 WIB",
   "statistics": {
     "home": {
-      "possession": 45,
+      "possession": 48,
       "shotsTotal": 1,
       "shotsOnTarget": 0,
       "corners": 3,
-      "fouls": 5,
-      "offsides": null,
+      "fouls": 6,
+      "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 0,
-      "passesTotal": 218,
-      "passesAccurate": 184,
+      "passesTotal": 273,
+      "passesAccurate": 233,
       "passesPct": null
     },
     "away": {
-      "possession": 55,
+      "possession": 52,
       "shotsTotal": 5,
       "shotsOnTarget": 1,
       "corners": 0,
-      "fouls": 6,
-      "offsides": null,
+      "fouls": 7,
+      "offsides": 1,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 2,
-      "passesTotal": 281,
-      "passesAccurate": 245,
+      "passesTotal": 296,
+      "passesAccurate": 256,
       "passesPct": null
     }
   },
@@ -51,7 +51,7 @@
           "number": 60,
           "name": "R. Vanwesemael",
           "position": "Penyerang",
-          "rating": "5.8"
+          "rating": "5.6"
         },
         {
           "number": 22,
@@ -75,19 +75,19 @@
           "number": 8,
           "name": "A. Sissako",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 18,
           "name": "N. Ishiwatari",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 7,
           "name": "A. Muja",
           "position": "Penyerang",
-          "rating": "6.1"
+          "rating": "6.2"
         },
         {
           "number": 71,
@@ -173,7 +173,7 @@
           "number": 12,
           "name": "H. Koffi",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 5,
@@ -185,13 +185,13 @@
           "number": 29,
           "name": "M. Sylla",
           "position": "Gelandang",
-          "rating": "7.5"
+          "rating": "7.0"
         },
         {
           "number": 80,
           "name": "O. Kričfaluši",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 27,
@@ -227,7 +227,7 @@
           "number": 9,
           "name": "M. Biondic",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.8"
         },
         {
           "number": 23,
