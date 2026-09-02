@@ -3,7 +3,7 @@
   "home": "Aston Villa",
   "away": "Arsenal",
   "statusCode": "FT",
-  "updatedAt": "02/09/2026 12:04 WIB",
+  "updatedAt": "02/09/2026 12:26 WIB",
   "statistics": {
     "home": {
       "possession": 39,
@@ -16,8 +16,8 @@
       "redCards": null,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
-      "passesTotal": 337,
-      "passesAccurate": 272,
+      "passesTotal": 339,
+      "passesAccurate": 273,
       "passesPct": 81
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": null,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 2,
-      "passesTotal": 528,
-      "passesAccurate": 463,
+      "passesTotal": 530,
+      "passesAccurate": 465,
       "passesPct": 88
     }
   },
@@ -75,7 +75,7 @@
           "number": 8,
           "name": "Boubacar Kamara",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 53,
@@ -186,7 +186,7 @@
           "number": 6,
           "name": "Gabriel Magalhães",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.3"
         },
         {
           "number": 33,
@@ -228,7 +228,7 @@
           "number": 29,
           "name": "Kai Havertz",
           "position": "Penyerang",
-          "rating": "6.0"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
@@ -252,13 +252,13 @@
           "number": 36,
           "name": "Martín Zubimendi",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 39,
           "name": "Bruno Guimarães",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 23,
