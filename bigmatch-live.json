@@ -3,9 +3,226 @@
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
   "statusCode": "NS",
-  "updatedAt": "03/09/2026 00:58 WIB",
+  "updatedAt": "03/09/2026 01:23 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "F. De Meyer",
+      "startXI": [
+        {
+          "number": 16,
+          "name": "L. Kokubo",
+          "position": "Kiper"
+        },
+        {
+          "number": 60,
+          "name": "R. Vanwesemael",
+          "position": "Penyerang"
+        },
+        {
+          "number": 22,
+          "name": "W. Janssens",
+          "position": "Penyerang"
+        },
+        {
+          "number": 26,
+          "name": "V. Musliu",
+          "position": "Bek"
+        },
+        {
+          "number": 23,
+          "name": "J. Pupe",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "A. Sissako",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "N. Ishiwatari",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "A. Muja",
+          "position": "Penyerang"
+        },
+        {
+          "number": 71,
+          "name": "R. Araki",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "I. Sebaoui",
+          "position": "Penyerang"
+        },
+        {
+          "number": 77,
+          "name": "O. Diouf",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 14,
+          "name": "R. Merlen",
+          "position": "Gelandang"
+        },
+        {
+          "number": 38,
+          "name": "K. Matsuzawa",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "M. Lendfers",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "T. Hata",
+          "position": "Gelandang"
+        },
+        {
+          "number": 33,
+          "name": "A. Diriken",
+          "position": "Bek"
+        },
+        {
+          "number": 31,
+          "name": "I. Benachour",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "S. Baždar",
+          "position": "Penyerang"
+        },
+        {
+          "number": 99,
+          "name": "S. Shinkawa",
+          "position": "Penyerang"
+        },
+        {
+          "number": 5,
+          "name": "S. Taniguchi",
+          "position": "Bek"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "coach": "D. Hubert",
+      "startXI": [
+        {
+          "number": 12,
+          "name": "H. Koffi",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "K. Mac Allister",
+          "position": "Bek"
+        },
+        {
+          "number": 29,
+          "name": "M. Sylla",
+          "position": "Gelandang"
+        },
+        {
+          "number": 80,
+          "name": "O. Kričfaluši",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "L. Patris",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "A. Zorgane",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "K. Van de Perre",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Guilherme Henriques da Silva Carvalho",
+          "position": "Penyerang"
+        },
+        {
+          "number": 38,
+          "name": "R. Mofokeng",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "M. Biondic",
+          "position": "Penyerang"
+        },
+        {
+          "number": 23,
+          "name": "B. Zeneli",
+          "position": "Gelandang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 17,
+          "name": "R. Schoofs",
+          "position": "Gelandang"
+        },
+        {
+          "number": 1,
+          "name": "V. Chambaere",
+          "position": "Kiper"
+        },
+        {
+          "number": 21,
+          "name": "D. De Roeve",
+          "position": "Bek"
+        },
+        {
+          "number": 30,
+          "name": "R. Florucz",
+          "position": "Penyerang"
+        },
+        {
+          "number": 39,
+          "name": "youssef hamoutahar",
+          "position": "Penyerang"
+        },
+        {
+          "number": 55,
+          "name": "N. Havenaar",
+          "position": "Bek"
+        },
+        {
+          "number": 32,
+          "name": "Sekou Keita",
+          "position": ""
+        },
+        {
+          "number": 28,
+          "name": "D. Olaru",
+          "position": "Penyerang"
+        },
+        {
+          "number": 14,
+          "name": "I. Pavlić",
+          "position": "Gelandang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Daio Wasabi Stayen",
     "city": "Sint-Truiden",
