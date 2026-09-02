@@ -2,37 +2,37 @@
   "fixtureId": 1558607,
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
-  "statusCode": "2H",
-  "updatedAt": "03/09/2026 03:14 WIB",
+  "statusCode": "FT",
+  "updatedAt": "03/09/2026 03:32 WIB",
   "statistics": {
     "home": {
-      "possession": 45,
-      "shotsTotal": 5,
+      "possession": 46,
+      "shotsTotal": 6,
       "shotsOnTarget": 2,
       "corners": 3,
-      "fouls": 13,
+      "fouls": 14,
       "offsides": 1,
       "yellowCards": 3,
       "redCards": 0,
       "shotsInsidebox": 3,
-      "shotsOutsidebox": 2,
-      "passesTotal": 473,
-      "passesAccurate": 393,
+      "shotsOutsidebox": 3,
+      "passesTotal": 534,
+      "passesAccurate": 443,
       "passesPct": null
     },
     "away": {
-      "possession": 55,
-      "shotsTotal": 10,
-      "shotsOnTarget": 5,
+      "possession": 54,
+      "shotsTotal": 12,
+      "shotsOnTarget": 6,
       "corners": 1,
-      "fouls": 8,
+      "fouls": 10,
       "offsides": 1,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 7,
-      "shotsOutsidebox": 3,
-      "passesTotal": 481,
-      "passesAccurate": 410,
+      "shotsInsidebox": 8,
+      "shotsOutsidebox": 4,
+      "passesTotal": 535,
+      "passesAccurate": 452,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 16,
           "name": "L. Kokubo",
           "position": "Kiper",
-          "rating": "5.9"
+          "rating": "5.6"
         },
         {
           "number": 60,
@@ -57,7 +57,7 @@
           "number": 22,
           "name": "W. Janssens",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 26,
@@ -69,13 +69,13 @@
           "number": 23,
           "name": "J. Pupe",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 8,
           "name": "A. Sissako",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.4"
         },
         {
           "number": 18,
@@ -99,7 +99,7 @@
           "number": 10,
           "name": "I. Sebaoui",
           "position": "Penyerang",
-          "rating": "5.1"
+          "rating": "5.4"
         },
         {
           "number": 77,
@@ -149,7 +149,7 @@
           "number": 9,
           "name": "S. Baždar",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 99,
@@ -185,13 +185,13 @@
           "number": 29,
           "name": "M. Sylla",
           "position": "Gelandang",
-          "rating": "7.6"
+          "rating": "7.7"
         },
         {
           "number": 80,
           "name": "O. Kričfaluši",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.9"
         },
         {
           "number": 27,
@@ -241,7 +241,7 @@
           "number": 17,
           "name": "R. Schoofs",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 1,
@@ -253,13 +253,13 @@
           "number": 21,
           "name": "D. De Roeve",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.1"
         },
         {
           "number": 30,
           "name": "R. Florucz",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 39,
@@ -281,7 +281,7 @@
           "number": 28,
           "name": "D. Olaru",
           "position": "Penyerang",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 14,
