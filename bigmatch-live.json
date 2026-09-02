@@ -3,7 +3,7 @@
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
   "statusCode": "NS",
-  "updatedAt": "03/09/2026 00:17 WIB",
+  "updatedAt": "03/09/2026 00:31 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,8 +14,8 @@
   },
   "odds": {
     "bookmaker": "10Bet",
-    "home": "3.60",
-    "draw": "3.55",
+    "home": "3.55",
+    "draw": "3.60",
     "away": "1.95"
   }
 }
