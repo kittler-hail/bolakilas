@@ -3,7 +3,7 @@
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
   "statusCode": "FT",
-  "updatedAt": "03/09/2026 03:32 WIB",
+  "updatedAt": "03/09/2026 03:47 WIB",
   "statistics": {
     "home": {
       "possession": 46,
@@ -17,7 +17,7 @@
       "shotsInsidebox": 3,
       "shotsOutsidebox": 3,
       "passesTotal": 534,
-      "passesAccurate": 443,
+      "passesAccurate": 442,
       "passesPct": null
     },
     "away": {
