@@ -2,22 +2,22 @@
   "fixtureId": 1558607,
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
-  "statusCode": "HT",
-  "updatedAt": "03/09/2026 02:29 WIB",
+  "statusCode": "2H",
+  "updatedAt": "03/09/2026 02:41 WIB",
   "statistics": {
     "home": {
       "possession": 48,
       "shotsTotal": 1,
       "shotsOnTarget": 0,
       "corners": 3,
-      "fouls": 6,
+      "fouls": 9,
       "offsides": 0,
-      "yellowCards": 0,
+      "yellowCards": 2,
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 0,
-      "passesTotal": 273,
-      "passesAccurate": 233,
+      "passesTotal": 299,
+      "passesAccurate": 253,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 2,
-      "passesTotal": 296,
-      "passesAccurate": 256,
+      "passesTotal": 333,
+      "passesAccurate": 287,
       "passesPct": null
     }
   },
@@ -51,7 +51,7 @@
           "number": 60,
           "name": "R. Vanwesemael",
           "position": "Penyerang",
-          "rating": "5.6"
+          "rating": "5.9"
         },
         {
           "number": 22,
@@ -75,7 +75,7 @@
           "number": 8,
           "name": "A. Sissako",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.5"
         },
         {
           "number": 18,
@@ -173,31 +173,31 @@
           "number": 12,
           "name": "H. Koffi",
           "position": "Kiper",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 5,
           "name": "K. Mac Allister",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 29,
           "name": "M. Sylla",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "7.6"
         },
         {
           "number": 80,
           "name": "O. Kričfaluši",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 27,
           "name": "L. Patris",
           "position": "Bek",
-          "rating": "7.7"
+          "rating": "7.8"
         },
         {
           "number": 8,
@@ -215,7 +215,7 @@
           "number": 11,
           "name": "Guilherme Henriques da Silva Carvalho",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 38,
@@ -227,7 +227,7 @@
           "number": 9,
           "name": "M. Biondic",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 23,
