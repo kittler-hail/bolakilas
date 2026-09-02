@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-02T17:05:04.103Z.
+   API-Football v3) pada 2026-09-02T18:06:05.707Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1518,7 +1518,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 00:05 WIB",
+    "standingsUpdated": "03/09/2026 01:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27379,25 +27379,6 @@ const siteData = {
                 "advice": "Winner : Nashville SC"
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Toluca",
-                "stadium": "",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Toluca"
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -27419,21 +27400,21 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "FC Juarez",
-                "away": "CF Pachuca",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Toluca",
                 "stadium": "",
                 "round": "Apertura - 7",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
                 "prediction": "1 - 2",
                 "odds": {
                     "home": 10,
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or CF Pachuca"
+                "advice": "Double chance : draw or Toluca"
             },
             {
                 "league": "Liga de Expansion MX",
@@ -27453,6 +27434,25 @@ const siteData = {
                     "away": 30
                 },
                 "advice": "Double chance : CA La Paz or draw"
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "FC Juarez",
+                "away": "CF Pachuca",
+                "stadium": "",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or CF Pachuca"
             },
             {
                 "league": "Liga 1 (Indonesia)",
