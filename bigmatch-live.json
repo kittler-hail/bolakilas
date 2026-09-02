@@ -3,36 +3,36 @@
   "home": "St. Truiden",
   "away": "Union St. Gilloise",
   "statusCode": "2H",
-  "updatedAt": "03/09/2026 02:41 WIB",
+  "updatedAt": "03/09/2026 02:54 WIB",
   "statistics": {
     "home": {
-      "possession": 48,
+      "possession": 41,
       "shotsTotal": 1,
       "shotsOnTarget": 0,
       "corners": 3,
-      "fouls": 9,
+      "fouls": 11,
       "offsides": 0,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 0,
-      "passesTotal": 299,
-      "passesAccurate": 253,
+      "passesTotal": 355,
+      "passesAccurate": 295,
       "passesPct": null
     },
     "away": {
-      "possession": 52,
-      "shotsTotal": 5,
-      "shotsOnTarget": 1,
+      "possession": 59,
+      "shotsTotal": 8,
+      "shotsOnTarget": 3,
       "corners": 0,
-      "fouls": 7,
+      "fouls": 8,
       "offsides": 1,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 3,
-      "shotsOutsidebox": 2,
-      "passesTotal": 333,
-      "passesAccurate": 287,
+      "shotsInsidebox": 5,
+      "shotsOutsidebox": 3,
+      "passesTotal": 371,
+      "passesAccurate": 316,
       "passesPct": null
     }
   },
@@ -45,61 +45,61 @@
           "number": 16,
           "name": "L. Kokubo",
           "position": "Kiper",
-          "rating": "6.0"
+          "rating": "5.7"
         },
         {
           "number": 60,
           "name": "R. Vanwesemael",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "5.1"
         },
         {
           "number": 22,
           "name": "W. Janssens",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.2"
         },
         {
           "number": 26,
           "name": "V. Musliu",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.5"
         },
         {
           "number": 23,
           "name": "J. Pupe",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "5.5"
         },
         {
           "number": 8,
           "name": "A. Sissako",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.1"
         },
         {
           "number": 18,
           "name": "N. Ishiwatari",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.0"
         },
         {
           "number": 7,
           "name": "A. Muja",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "5.7"
         },
         {
           "number": 71,
           "name": "R. Araki",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "5.6"
         },
         {
           "number": 10,
           "name": "I. Sebaoui",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "5.9"
         },
         {
           "number": 77,
@@ -113,7 +113,7 @@
           "number": 14,
           "name": "R. Merlen",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 38,
@@ -149,7 +149,7 @@
           "number": 9,
           "name": "S. Baždar",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 99,
@@ -173,31 +173,31 @@
           "number": 12,
           "name": "H. Koffi",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "6.5"
         },
         {
           "number": 5,
           "name": "K. Mac Allister",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.8"
         },
         {
           "number": 29,
           "name": "M. Sylla",
           "position": "Gelandang",
-          "rating": "7.6"
+          "rating": "7.3"
         },
         {
           "number": 80,
           "name": "O. Kričfaluši",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.4"
         },
         {
           "number": 27,
           "name": "L. Patris",
           "position": "Bek",
-          "rating": "7.8"
+          "rating": "8.2"
         },
         {
           "number": 8,
@@ -209,31 +209,31 @@
           "number": 6,
           "name": "K. Van de Perre",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.8"
         },
         {
           "number": 11,
           "name": "Guilherme Henriques da Silva Carvalho",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.4"
         },
         {
           "number": 38,
           "name": "R. Mofokeng",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.2"
         },
         {
           "number": 9,
           "name": "M. Biondic",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.4"
         },
         {
           "number": 23,
           "name": "B. Zeneli",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.7"
         }
       ],
       "substitutes": [
