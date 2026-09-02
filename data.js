@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-02T19:05:00.209Z.
+   API-Football v3) pada 2026-09-02T20:05:18.089Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Daio Wasabi Stayen",
         "prediction": "2 - 3",
         "analysis": "St. Truiden bertemu Union St. Gilloise dalam laga Jupiler Pro League. Analisis API-Football: Combo Winner : Union St. Gilloise and +1.5 goals.",
-        "statusCode": "1H",
-        "minuteDisplay": "34'",
+        "statusCode": "2H",
+        "minuteDisplay": "77'",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 3,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -47,6 +47,11 @@ const siteData = {
             {
                 "home": "St. Truiden",
                 "away": "Union St. Gilloise",
+                "score": "0-3"
+            },
+            {
+                "home": "St. Truiden",
+                "away": "Union St. Gilloise",
                 "score": "2-1"
             },
             {
@@ -63,11 +68,6 @@ const siteData = {
                 "home": "Union St. Gilloise",
                 "away": "St. Truiden",
                 "score": "2-0"
-            },
-            {
-                "home": "Union St. Gilloise",
-                "away": "St. Truiden",
-                "score": "2-1"
             }
         ],
         "form": {
@@ -96,10 +96,10 @@ const siteData = {
             "away": "Union St. Gilloise",
             "stadium": "Daio Wasabi Stayen",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "34'",
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
             "homeScore": 0,
-            "awayScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/735.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
             "prediction": "2 - 3",
@@ -114,12 +114,46 @@ const siteData = {
                     "minute": "23",
                     "player": "Louis Patris",
                     "team": "away"
+                },
+                {
+                    "minute": "55",
+                    "player": "Kevin Mac Allister",
+                    "team": "away"
+                },
+                {
+                    "minute": "63",
+                    "player": "Relebohile Mofokeng",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "21",
                     "player": "Kevin Mac Allister",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "Abdoulaye Sissako",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "49",
+                    "player": "Robert-Jan Vanwesemael",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Nelson Ishiwatari",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Kamiel Van De Perre",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -133,9 +167,9 @@ const siteData = {
             "away": "Aberdeen",
             "stadium": "Celtic Park",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "19'",
-            "homeScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "60'",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/247.png",
             "awayLogo": "https://media.api-sports.io/football/teams/252.png",
@@ -151,6 +185,30 @@ const siteData = {
                     "minute": "14",
                     "player": "Camilo Duran",
                     "team": "home"
+                },
+                {
+                    "minute": "34",
+                    "player": "Benjamin Nygren",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Yang Hyun-Jun",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "Cameron Carter-Vickers",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Lewis Mayo",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -162,8 +220,8 @@ const siteData = {
             "away": "ST Mirren",
             "stadium": "Rugby Park",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "21'",
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/250.png",
@@ -181,6 +239,20 @@ const siteData = {
                     "player": "Fraser Taylor",
                     "team": "away"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "Greg Kiltie",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Nikolas Agrafiotis",
+                    "team": "away",
+                    "type": "yellow"
+                }
             ]
         },
         {
@@ -191,8 +263,8 @@ const siteData = {
             "away": "ST Johnstone",
             "stadium": "Dens Park",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "20'",
+            "statusCode": "2H",
+            "minuteDisplay": "63'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/253.png",
@@ -203,7 +275,14 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Dundee or draw"
+            "advice": "Double chance : Dundee or draw",
+            "goals": [
+                {
+                    "minute": "27",
+                    "player": "",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -213,8 +292,8 @@ const siteData = {
             "away": "Dundee Utd",
             "stadium": "Fir Park",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "20'",
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/256.png",
@@ -226,12 +305,25 @@ const siteData = {
                 "away": 10
             },
             "advice": "Double chance : Motherwell or draw",
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "Sebastian Palmer-Houlden",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "14",
                     "player": "Emmanuel Agyei",
                     "team": "away",
                     "type": "red"
+                },
+                {
+                    "minute": "35",
+                    "player": "Sebastian Palmer-Houlden",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -243,10 +335,10 @@ const siteData = {
             "away": "Rangers",
             "stadium": "Falkirk Stadium",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "47'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1389.png",
             "awayLogo": "https://media.api-sports.io/football/teams/257.png",
             "prediction": "1 - 2",
@@ -255,7 +347,19 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Combo Double chance : draw or Rangers and -3.5 goals"
+            "advice": "Combo Double chance : draw or Rangers and -3.5 goals",
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "Lawrence Shankland",
+                    "team": "away"
+                },
+                {
+                    "minute": "44",
+                    "player": "Kosta Nedeljkovic",
+                    "team": "away"
+                }
+            ]
         }
     ],
     "news": [
@@ -1576,7 +1680,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 02:04 WIB",
+    "standingsUpdated": "03/09/2026 03:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27396,25 +27500,6 @@ const siteData = {
                 "advice": "Double chance : Lommel United or draw"
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-05",
-                "time": "02:00",
-                "home": "Real Betis",
-                "away": "Real Madrid",
-                "stadium": "Estadio de La Cartuja",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/543.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/541.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Winner : Real Madrid"
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-09-05",
                 "time": "02:00",
@@ -27432,6 +27517,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Liverpool and +1.5 goals"
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-05",
+                "time": "02:00",
+                "home": "Real Betis",
+                "away": "Real Madrid",
+                "stadium": "Estadio de La Cartuja",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/543.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/541.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Winner : Real Madrid"
             },
             {
                 "league": "Ligue 1",
@@ -28080,6 +28184,25 @@ const siteData = {
                 "advice": "Combo Winner : KV Mechelen and +2.5 goals"
             },
             {
+                "league": "Premier League",
+                "date": "2026-09-05",
+                "time": "23:30",
+                "home": "Hull City",
+                "away": "Aston Villa",
+                "stadium": "MKM Stadium",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/64.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/66.png",
+                "prediction": "2 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Hull City"
+            },
+            {
                 "league": "LaLiga",
                 "date": "2026-09-05",
                 "time": "23:30",
@@ -28116,25 +28239,6 @@ const siteData = {
                     "away": 50
                 },
                 "advice": "Combo Winner : Bayern München and +1.5 goals"
-            },
-            {
-                "league": "Premier League",
-                "date": "2026-09-05",
-                "time": "23:30",
-                "home": "Hull City",
-                "away": "Aston Villa",
-                "stadium": "MKM Stadium",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/64.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/66.png",
-                "prediction": "2 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Hull City"
             },
             {
                 "league": "Eredivisie",
