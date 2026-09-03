@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T09:05:17.880Z.
+   API-Football v3) pada 2026-09-03T10:05:30.653Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -21,7 +21,7 @@ const siteData = {
         "time": "01:30",
         "home": "St. Truiden",
         "away": "Union St. Gilloise",
-        "stadium": "Daio Wasabi Stayen",
+        "stadium": "Stayen",
         "prediction": "2 - 3",
         "analysis": "St. Truiden bertemu Union St. Gilloise dalam laga Jupiler Pro League. Analisis API-Football: Combo Winner : Union St. Gilloise and +1.5 goals.",
         "statusCode": "FT",
@@ -96,7 +96,7 @@ const siteData = {
             "time": "01:30",
             "home": "St. Truiden",
             "away": "Union St. Gilloise",
-            "stadium": "Daio Wasabi Stayen",
+            "stadium": "Stayen",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -114,17 +114,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "23",
-                    "player": "Louis Patris",
+                    "player": "L. Patris",
                     "team": "away"
                 },
                 {
                     "minute": "55",
-                    "player": "Kevin Mac Allister",
+                    "player": "K. Mac Allister",
                     "team": "away"
                 },
                 {
                     "minute": "63",
-                    "player": "Relebohile Mofokeng",
+                    "player": "R. Mofokeng",
                     "team": "away"
                 }
             ],
@@ -155,7 +155,7 @@ const siteData = {
                 },
                 {
                     "minute": "61",
-                    "player": "Kamiel Van De Perre",
+                    "player": "Kamiel Van de Perre",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -293,12 +293,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "87",
-                    "player": "Charlie Reilly",
+                    "player": "C. Reilly",
                     "team": "home"
                 },
                 {
                     "minute": "90",
-                    "player": "Josh Fowler",
+                    "player": "J. Fowler",
                     "team": "away"
                 }
             ],
@@ -394,17 +394,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "8",
-                    "player": "Lawrence Shankland",
+                    "player": "L. Shankland",
                     "team": "away"
                 },
                 {
                     "minute": "44",
-                    "player": "Kosta Nedeljkovic",
+                    "player": "K. Nedeljkovic",
                     "team": "away"
                 },
                 {
                     "minute": "79",
-                    "player": "Lawrence Shankland",
+                    "player": "L. Shankland",
                     "team": "away"
                 }
             ],
@@ -1748,7 +1748,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 16:05 WIB",
+    "standingsUpdated": "03/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28211,25 +28211,6 @@ const siteData = {
                 "advice": "Combo Winner : Atletico Madrid and +1.5 goals"
             },
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-05",
-                "time": "21:30",
-                "home": "Estrela",
-                "away": "Famalicao",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15130.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/242.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Estrela or draw"
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-09-05",
                 "time": "21:30",
@@ -28247,6 +28228,25 @@ const siteData = {
                     "away": 30
                 },
                 "advice": "Double chance : NEC Nijmegen or draw"
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-05",
+                "time": "21:30",
+                "home": "Estrela",
+                "away": "Famalicao",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/15130.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/242.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Estrela or draw"
             },
             {
                 "league": "Ligue 1",
