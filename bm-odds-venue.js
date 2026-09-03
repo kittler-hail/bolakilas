@@ -56,18 +56,53 @@
   function renderOdds(payload) {
     const usable = payloadMatchesCurrentBigMatch(payload) ? payload : null;
     const odds = usable?.odds;
+    const liveOdds = usable?.liveOdds;
     const bm = typeof data !== "undefined" ? data.bigMatch : null;
-    if (!odds) {
+    if (!odds && !liveOdds) {
       return `<div class="team-modal-empty">Odds pasar belum/tidak tersedia untuk laga ini.</div>`;
     }
     const home = escapeHTML(bm?.home || "Home");
     const away = escapeHTML(bm?.away || "Away");
+
+    // Odds LIVE (bergerak selagi laga berjalan) ditampilkan terpisah di
+    // ATAS odds pra-laga kalau ada — beda sumber/waktu, jangan dicampur
+    // supaya pengunjung tidak salah kira odds pra-laga masih berlaku.
+    const liveBlock = liveOdds ? `
+      <div class="mc-1x2-row mc-1x2-row--live">
+        <div class="mc-1x2-item"><span class="lbl">${home}</span>${escapeHTML(liveOdds.home)}</div>
+        <div class="mc-1x2-item"><span class="lbl">Seri</span>${escapeHTML(liveOdds.draw)}</div>
+        <div class="mc-1x2-item"><span class="lbl">${away}</span>${escapeHTML(liveOdds.away)}</div>
+      </div>` : "";
+    const liveLabel = liveOdds ? `<div class="mc-odds-live-label"><span class="live-dot-small"></span>Odds Live</div>` : "";
+
+    if (!odds) {
+      return `
+        ${liveLabel}${liveBlock}
+        <div class="team-modal-note">
+          Odds live, murni informasi pasar, BUKAN ajakan/rekomendasi bertaruh — BOLAKILAS
+          tidak mengoperasikan atau mengendorse layanan judi apa pun. Judi daring ilegal di Indonesia.
+        </div>`;
+    }
+
+    const extraMarkets = [];
+    if (odds.overUnder) {
+      extraMarkets.push(`
+        <div class="mc-extra-row"><span>Over/Under ${escapeHTML(odds.overUnder.line)}</span><b>Over ${escapeHTML(odds.overUnder.over)} &middot; Under ${escapeHTML(odds.overUnder.under)}</b></div>`);
+    }
+    if (odds.btts) {
+      extraMarkets.push(`
+        <div class="mc-extra-row"><span>BTTS (kedua tim cetak gol)</span><b>Ya ${escapeHTML(odds.btts.yes)} &middot; Tidak ${escapeHTML(odds.btts.no)}</b></div>`);
+    }
+
     return `
+      ${liveLabel}${liveBlock}
+      ${liveOdds ? `<div class="mc-odds-pre-label">Odds Pra-Laga</div>` : ""}
       <div class="mc-1x2-row">
         <div class="mc-1x2-item"><span class="lbl">${home}</span>${escapeHTML(odds.home)}</div>
         <div class="mc-1x2-item"><span class="lbl">Seri</span>${escapeHTML(odds.draw)}</div>
         <div class="mc-1x2-item"><span class="lbl">${away}</span>${escapeHTML(odds.away)}</div>
       </div>
+      ${extraMarkets.join("")}
       <div class="team-modal-note">
         Sumber: ${escapeHTML(odds.bookmaker)}, lewat API-Football. Murni informasi pasar,
         BUKAN ajakan/rekomendasi bertaruh — BOLAKILAS tidak mengoperasikan atau

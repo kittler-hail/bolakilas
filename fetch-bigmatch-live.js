@@ -174,22 +174,92 @@ async function fetchVenue(venueId) {
 // banyak bookmaker, disengaja supaya jelas sumbernya lewat field
 // `bookmaker`) — MURNI informasi, front-end WAJIB menampilkan
 // disclaimer ini bukan ajakan bertaruh (lihat bm-odds.js).
+//
+// Selain 1X2 ("Match Winner"), bookmaker yang sama juga menyediakan
+// pasar Over/Under & Both Teams Score dalam respons yang SAMA (tidak
+// butuh request tambahan) — dulu dibuang, sekarang ikut diambil kalau
+// tersedia (field opsional, halaman tetap tampil normal tanpanya).
+function findMarket(bookmaker, name) {
+  return bookmaker.bets?.find(b => b.name === name) || null;
+}
+
+// Market "Goals Over/Under" API-Football punya banyak baris per line
+// gol (mis. "Over 1.5"/"Under 1.5", "Over 2.5"/"Under 2.5", dst) —
+// diambil line 2.5 spesifik (paling umum dipakai sebagai referensi
+// "banyak gol atau tidak"), sama seperti deriveOU() di script.js yang
+// juga berpatokan ke 2.5.
+function extractOverUnder(bookmaker) {
+  const market = findMarket(bookmaker, "Goals Over/Under");
+  if (!market) return null;
+  const over = market.values?.find(v => v.value === "Over 2.5")?.odd || null;
+  const under = market.values?.find(v => v.value === "Under 2.5")?.odd || null;
+  if (!over || !under) return null;
+  return { line: "2.5", over, under };
+}
+
+function extractBTTS(bookmaker) {
+  const market = findMarket(bookmaker, "Both Teams Score");
+  if (!market) return null;
+  const yes = market.values?.find(v => v.value === "Yes")?.odd || null;
+  const no = market.values?.find(v => v.value === "No")?.odd || null;
+  if (!yes || !no) return null;
+  return { yes, no };
+}
+
 async function fetchOdds(fixtureId) {
   try {
     const json = await apiGet(`/odds?fixture=${fixtureId}`);
     const entry = json.response?.[0];
     const bookmaker = entry?.bookmakers?.[0];
     if (!bookmaker) return null;
-    const market = bookmaker.bets?.find(b => b.name === "Match Winner");
+    const market = findMarket(bookmaker, "Match Winner");
     if (!market) return null;
     const find = label => market.values?.find(v => v.value === label)?.odd || null;
     const home = find("Home");
     const draw = find("Draw");
     const away = find("Away");
     if (!home || !draw || !away) return null;
-    return { bookmaker: bookmaker.name || "Bookmaker", home, draw, away };
+    return {
+      bookmaker: bookmaker.name || "Bookmaker",
+      home, draw, away,
+      overUnder: extractOverUnder(bookmaker),
+      btts: extractBTTS(bookmaker)
+    };
   } catch (err) {
     console.warn(`  gagal ambil odds fixture ${fixtureId}: ${err.message}`);
+    return null;
+  }
+}
+
+// Odds SELAGI LAGA BERLANGSUNG (beda dari fetchOdds() di atas yang
+// pasar pra-laga) — angkanya bergerak mengikuti jalannya pertandingan
+// (skor, kartu, dst). Struktur respons /odds/live BEDA dari /odds
+// biasa (bukan per-bookmaker, satu feed live langsung berisi daftar
+// market) — ekstraksi di bawah ini SENGAJA ditulis toleran (banyak
+// optional chaining, coba beberapa nama field yang masuk akal) karena
+// tidak ada API key lokal buat verifikasi bentuk persis responsnya;
+// kalau strukturnya meleset, fungsi ini cuma balikin null (aman,
+// front-end tetap tampil normal tanpa odds live) — TIDAK melempar error
+// yang bisa menghentikan seluruh run fetch-bigmatch-live.js.
+function findLiveMarket(markets) {
+  return markets?.find(b => b.name === "Match Winner" || b.id === 1) || null;
+}
+
+async function fetchLiveOdds(fixtureId) {
+  try {
+    const json = await apiGet(`/odds/live?fixture=${fixtureId}`);
+    const entry = json.response?.[0];
+    const markets = Array.isArray(entry?.odds) ? entry.odds : (Array.isArray(entry?.odds?.[0]?.bets) ? entry.odds[0].bets : null);
+    const market = findLiveMarket(markets);
+    if (!market) return null;
+    const find = label => market.values?.find(v => v.value === label)?.odd || null;
+    const home = find("Home");
+    const draw = find("Draw");
+    const away = find("Away");
+    if (!home || !draw || !away) return null;
+    return { home, draw, away };
+  } catch (err) {
+    console.warn(`  gagal ambil odds live fixture ${fixtureId}: ${err.message}`);
     return null;
   }
 }
@@ -307,6 +377,11 @@ async function runFetchBigMatchLive({ loadData, loadExistingLive, saveOutput }) 
     if (freshOdds) odds = freshOdds;
   }
 
+  // Odds live cuma berarti SELAGI laga berjalan — di luar itu dikosongkan
+  // (bukan dipertahankan seperti odds pra-laga) supaya front-end tidak
+  // pernah menampilkan angka in-play yang sudah basi setelah laga selesai.
+  const liveOdds = LIVE_ISH.has(statusCode) ? await fetchLiveOdds(bm.apiFixtureId) : null;
+
   const payload = {
     fixtureId: bm.apiFixtureId,
     home: bm.home,
@@ -316,11 +391,12 @@ async function runFetchBigMatchLive({ loadData, loadExistingLive, saveOutput }) 
     statistics,
     lineups,
     venue,
-    odds
+    odds,
+    liveOdds
   };
 
   await saveOutput(JSON.stringify(payload, null, 2));
-  console.log(`Selesai. bigmatch-live.json diperbarui — statistik: ${statistics ? "ada" : "belum ada"}, susunan pemain: ${lineups ? "ada" : "belum ada"}, venue: ${venue ? "ada" : "belum ada"}, odds: ${odds ? "ada" : "belum ada"}.`);
+  console.log(`Selesai. bigmatch-live.json diperbarui — statistik: ${statistics ? "ada" : "belum ada"}, susunan pemain: ${lineups ? "ada" : "belum ada"}, venue: ${venue ? "ada" : "belum ada"}, odds: ${odds ? "ada" : "belum ada"}, odds live: ${liveOdds ? "ada" : "belum ada"}.`);
 }
 
 // ---- Jalan sebagai CLI (node fetch-bigmatch-live.js) — baca/tulis file lokal ----

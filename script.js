@@ -818,6 +818,42 @@ function renderSchedule(filter = "Semua") {
    MATCH CARD
    ========================================================= */
 
+// Bar perbandingan home-vs-away dari `match.comparison` — persentase
+// asli hasil hitungan API-Football (/predictions.comparison), GRATIS
+// karena datanya sudah ikut di respons yang sama dengan prediksi skor
+// (lihat comparisonFromPrediction() di fetch-schedule.js), bukan
+// turunan/tebakan situs ini. `homeName`/`awayName` yang masuk ke sini
+// sudah di-escape oleh pemanggilnya.
+const COMPARISON_LABELS = {
+  form: "Performa", att: "Serangan", def: "Pertahanan",
+  poisson: "Model Statistik", h2h: "Head-to-Head", goals: "Produktivitas Gol"
+};
+const COMPARISON_ORDER = ["form", "att", "def", "poisson", "h2h", "goals"];
+
+function buildComparisonHTML(comparison, homeName, awayName) {
+  if (!comparison) return "";
+  const rows = COMPARISON_ORDER
+    .filter(key => comparison[key])
+    .map(key => {
+      const { home, away } = comparison[key];
+      return `
+        <div class="mc-compare-row">
+          <div class="mc-compare-label"><span>${COMPARISON_LABELS[key]}</span></div>
+          <div class="mc-compare-bar">
+            <span class="h" style="width:${home}%"></span>
+            <span class="a" style="width:${away}%"></span>
+          </div>
+          <div class="mc-compare-pct"><span>${homeName} ${home}%</span><span>${away}% ${awayName}</span></div>
+        </div>`;
+    });
+  if (!rows.length) return "";
+  return `
+    <div class="mc-compare">
+      <div class="mc-compare-title">Perbandingan Tim</div>
+      ${rows.join("")}
+    </div>`;
+}
+
 function createMatchCard(match, index, bigMatchHome, bigMatchAway, dateStr) {
   const homeName  = escapeHTML(match.home);
   const awayName  = escapeHTML(match.away);
@@ -887,7 +923,10 @@ function createMatchCard(match, index, bigMatchHome, bigMatchAway, dateStr) {
       ${isBig ? '<div class="mc-big-badge">Big Match</div>' : ""}
       <span class="mc-status ${status.code}">${isLive ? '<span class="mc-live-dot"></span>' : ""}${escapeHTML(status.label)}</span>
       <div class="mc-top">
-        <span class="league"${round ? ` title="${round}"` : ""}>${league}</span>
+        <span class="mc-top-left">
+          <span class="league">${league}</span>
+          ${round ? `<span class="mc-round">${round}</span>` : ""}
+        </span>
         <span>${time} WIB</span>
       </div>
       <div class="mc-teams">
@@ -923,6 +962,7 @@ function createMatchCard(match, index, bigMatchHome, bigMatchAway, dateStr) {
           </div>
           <div class="mc-extra-row"><span>Over/Under ${ou.line}</span><b>Over ${ou.over}% &middot; Under ${ou.under}%</b></div>
           <div class="mc-extra-row"><span>BTTS (kedua tim cetak gol)</span><b>Ya ${btts.yes}% &middot; Tidak ${btts.no}%</b></div>
+          ${buildComparisonHTML(match.comparison, homeName, awayName)}
           <span class="mc-confidence ${confidence}">Confidence: ${confidence}</span>
         </div>
       </div>
@@ -1484,6 +1524,19 @@ function renderBigMatchForm(bm) {
 
   const barLabels = { attack: "Attack", defense: "Defense", home: "Home" };
 
+  // Statistik musim ini (clean sheet/gagal cetak gol/total gol/streak
+  // menang) — dari /teams/statistics, sama dengan sumber `results` &
+  // bar attack/defense di atas, cuma field yang beda (lihat
+  // fetchTeamForm() di fetch-schedule.js).
+  const seasonStatChips = f => {
+    const chips = [];
+    if (typeof f.cleanSheets === "number") chips.push(`<span><b>${f.cleanSheets}</b> clean sheet</span>`);
+    if (typeof f.failedToScore === "number") chips.push(`<span><b>${f.failedToScore}</b> gagal cetak gol</span>`);
+    if (typeof f.goalsFor === "number" && typeof f.goalsAgainst === "number") chips.push(`<span>Gol <b>${f.goalsFor}-${f.goalsAgainst}</b></span>`);
+    if (typeof f.winStreak === "number" && f.winStreak > 0) chips.push(`<span>Streak menang <b>${f.winStreak}</b></span>`);
+    return chips.length ? `<div class="form-stats">${chips.join("")}</div>` : "";
+  };
+
   const renderTeam = (name, f) => {
     if (!f || !Array.isArray(f.results) || !f.results.length) return "";
     const badges = f.results.map(r => `<span class="form-badge ${escapeHTML(r)}">${escapeHTML(r)}</span>`).join("");
@@ -1495,7 +1548,7 @@ function renderBigMatchForm(bm) {
           <div class="form-bar-track"><span style="width:${f[k]}%"></span></div>
           <span class="form-bar-val">${f[k]}%</span>
         </div>`).join("");
-    return `<div class="form-team"><div class="form-team-name">${escapeHTML(name)}</div><div class="form-badges">${badges}</div>${bars}</div>`;
+    return `<div class="form-team"><div class="form-team-name">${escapeHTML(name)}</div><div class="form-badges">${badges}</div>${bars}${seasonStatChips(f)}</div>`;
   };
 
   el.innerHTML = renderTeam(bm.home, homeForm) + renderTeam(bm.away, awayForm);

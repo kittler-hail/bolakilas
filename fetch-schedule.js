@@ -260,6 +260,29 @@ async function fetchPrediction(fixtureId) {
   }
 }
 
+// `comparison` di respons /predictions = persentase kekuatan tim
+// (home vs away) di 6 dimensi, dihitung API-Football sendiri dari
+// data historis — GRATIS (field yang sama sudah ikut di respons yang
+// sama, tidak butuh request tambahan). Dulu dibuang semua, sekarang
+// disimpan biar bisa ditampilkan sebagai bar perbandingan di detail
+// tiap kartu jadwal.
+function comparisonFromPrediction(pred) {
+  const c = pred?.comparison;
+  if (!c) return null;
+  const pick = (obj) => {
+    const h = parseInt(obj?.home, 10);
+    const a = parseInt(obj?.away, 10);
+    return (isNaN(h) || isNaN(a)) ? null : { home: h, away: a };
+  };
+  const out = {};
+  const map = { form: "form", att: "att", def: "def", poisson_distribution: "poisson", h2h: "h2h", goals: "goals" };
+  Object.entries(map).forEach(([apiKey, outKey]) => {
+    const pair = pick(c[apiKey]);
+    if (pair) out[outKey] = pair;
+  });
+  return Object.keys(out).length ? out : null;
+}
+
 // Ekspektasi gol tiap tim = rata-rata (kekuatan serang tim, kelemahan
 // bertahan lawan) dari 5 laga terakhir masing-masing — pendekatan
 // expected-goals sederhana, bukan lagi angka acak. Kalau expected goals
@@ -268,7 +291,7 @@ async function fetchPrediction(fixtureId) {
 // supaya tidak selalu menebak seri.
 function scorelineFromPrediction(pred, home, away, dateStr) {
   if (!pred) {
-    return { prediction: heuristicPrediction(home, away, dateStr), odds: null, advice: "" };
+    return { prediction: heuristicPrediction(home, away, dateStr), odds: null, advice: "", comparison: null };
   }
 
   const percent = pred.predictions?.percent || {};
@@ -292,7 +315,8 @@ function scorelineFromPrediction(pred, home, away, dateStr) {
   return {
     prediction: `${h} - ${a}`,
     odds: { home: homePct, draw: drawPct, away: awayPct },
-    advice: pred.predictions?.advice || ""
+    advice: pred.predictions?.advice || "",
+    comparison: comparisonFromPrediction(pred)
   };
 }
 
@@ -303,6 +327,7 @@ async function fillPredictions(matches) {
     m.prediction = built.prediction;
     if (built.odds) m.odds = built.odds;
     if (built.advice) m.advice = built.advice;
+    if (built.comparison) m.comparison = built.comparison;
   });
 }
 
@@ -739,13 +764,32 @@ async function fetchH2H(homeTeamId, awayTeamId) {
 
 // field `form` API-Football = string W/D/L seluruh laga musim ini
 // (mis. "WWDLW..."), diambil 5 karakter terakhir buat form 5 laga
-// terakhir (selaras dengan makna lama "last five games").
+// terakhir (selaras dengan makna lama "last five games"). Respons
+// /teams/statistics sebenarnya jauh lebih kaya dari sekadar `form`
+// (clean sheet, gagal cetak gol, total gol musim ini, streak menang
+// terpanjang, dst) — dulu semua dibuang, sekarang beberapa yang paling
+// relevan buat ringkasan Big Match ikut diambil (GRATIS, respons yang
+// sama, bukan request tambahan).
 async function fetchTeamForm(leagueId, season, teamId) {
   try {
     const json = await apiGet(`/teams/statistics?league=${leagueId}&season=${season}&team=${teamId}`);
-    const formStr = json.response?.form || "";
+    const stats = json.response || {};
+    const formStr = stats.form || "";
     const last5 = formStr.slice(-5).split("").filter(c => c === "W" || c === "D" || c === "L");
-    return last5.length ? { results: last5 } : null;
+    if (!last5.length) return null;
+
+    const out = { results: last5 };
+    const cleanSheet = numOrNull(stats.clean_sheet?.total);
+    const failedToScore = numOrNull(stats.failed_to_score?.total);
+    const goalsFor = numOrNull(stats.goals?.for?.total?.total);
+    const goalsAgainst = numOrNull(stats.goals?.against?.total?.total);
+    const winStreak = numOrNull(stats.biggest?.streak?.wins);
+    if (cleanSheet != null) out.cleanSheets = cleanSheet;
+    if (failedToScore != null) out.failedToScore = failedToScore;
+    if (goalsFor != null) out.goalsFor = goalsFor;
+    if (goalsAgainst != null) out.goalsAgainst = goalsAgainst;
+    if (winStreak != null) out.winStreak = winStreak;
+    return out;
   } catch (err) {
     console.warn(`  gagal ambil form tim ${teamId}: ${err.message}`);
     return null;
@@ -759,7 +803,20 @@ async function fetchBigMatchExtras(bigMatchSrc) {
     fetchTeamForm(bigMatchSrc.apiLeagueId, bigMatchSrc.apiSeason, bigMatchSrc.homeTeamId),
     fetchTeamForm(bigMatchSrc.apiLeagueId, bigMatchSrc.apiSeason, bigMatchSrc.awayTeamId)
   ]);
-  const form = (homeForm || awayForm) ? { home: homeForm || {}, away: awayForm || {} } : null;
+  let form = (homeForm || awayForm) ? { home: homeForm || {}, away: awayForm || {} } : null;
+
+  // Bar "Attack"/"Defense" di renderBigMatchForm() (script.js) sudah
+  // lama nunggu field ini tapi tidak pernah diisi — sekarang diisi dari
+  // comparison.att/def yang sudah nempel di bigMatchSrc lewat
+  // fillPredictions() (dipanggil sebelum pickBigMatch di runFetchSchedule),
+  // JADI GRATIS, tidak butuh request tambahan.
+  const cmp = bigMatchSrc.comparison;
+  if (cmp?.att || cmp?.def) {
+    form = form || { home: {}, away: {} };
+    if (cmp.att) { form.home.attack = cmp.att.home; form.away.attack = cmp.att.away; }
+    if (cmp.def) { form.home.defense = cmp.def.home; form.away.defense = cmp.def.away; }
+  }
+
   return { h2h: h2h.length ? h2h : null, form };
 }
 
