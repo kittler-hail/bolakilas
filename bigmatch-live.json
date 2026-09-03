@@ -3,36 +3,36 @@
   "home": "Real Sociedad",
   "away": "Celta Vigo",
   "statusCode": "1H",
-  "updatedAt": "04/09/2026 02:15 WIB",
+  "updatedAt": "04/09/2026 02:29 WIB",
   "statistics": {
     "home": {
-      "possession": 66,
-      "shotsTotal": 1,
-      "shotsOnTarget": 0,
-      "corners": 3,
-      "fouls": 1,
+      "possession": 57,
+      "shotsTotal": 5,
+      "shotsOnTarget": 3,
+      "corners": 5,
+      "fouls": 4,
       "offsides": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 1,
-      "shotsOutsidebox": 0,
-      "passesTotal": 83,
-      "passesAccurate": 71,
+      "shotsInsidebox": 4,
+      "shotsOutsidebox": 1,
+      "passesTotal": 144,
+      "passesAccurate": 122,
       "passesPct": null
     },
     "away": {
-      "possession": 34,
+      "possession": 43,
       "shotsTotal": 1,
       "shotsOnTarget": 0,
       "corners": 0,
-      "fouls": 1,
+      "fouls": 3,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 0,
       "shotsOutsidebox": 1,
-      "passesTotal": 44,
-      "passesAccurate": 35,
+      "passesTotal": 110,
+      "passesAccurate": 89,
       "passesPct": null
     }
   },
@@ -45,13 +45,13 @@
           "number": 1,
           "name": "Álex Remiro",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 2,
           "name": "J. Aramburu",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 5,
@@ -63,13 +63,13 @@
           "number": 6,
           "name": "Jon Martín",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 17,
           "name": "Sergio Gómez",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 14,
@@ -81,31 +81,31 @@
           "number": 8,
           "name": "Beñat Turrientes",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 21,
           "name": "Y. Herrera",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 7,
           "name": "Barrenetxea",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.5"
         },
         {
           "number": 9,
           "name": "O. Óskarsson",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 10,
           "name": "Mikel Oyarzabal",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -191,61 +191,61 @@
           "number": 13,
           "name": "I. Radu",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "7.7"
         },
         {
           "number": 15,
           "name": "Álvaro Núñez",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 18,
           "name": "Yoel Lago",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.8"
         },
         {
           "number": 3,
           "name": "Marcos Alonso",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 17,
           "name": "Javi Rueda",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.0"
         },
         {
           "number": 8,
           "name": "Miguel Román",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "I. Moriba",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 5,
           "name": "Sergio Carreira",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.5"
         },
         {
           "number": 28,
           "name": "Andrés Antañón",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.4"
         },
         {
           "number": 9,
           "name": "Ferran Jutglà",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.9"
         },
         {
           "number": 19,
