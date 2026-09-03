@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T19:05:13.542Z.
+   API-Football v3) pada 2026-09-03T20:05:08.984Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,8 +24,8 @@ const siteData = {
         "stadium": "Anoeta",
         "prediction": "2 - 1",
         "analysis": "Real Sociedad bertemu Celta Vigo dalam laga LaLiga. Analisis API-Football: Double chance : Real Sociedad or draw.",
-        "statusCode": "1H",
-        "minuteDisplay": "3'",
+        "statusCode": "HT",
+        "minuteDisplay": "HT",
         "homeScore": 0,
         "awayScore": 0,
         "odds": {
@@ -96,9 +96,9 @@ const siteData = {
             "away": "Kortrijk",
             "stadium": "Lotto Park",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "34'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/554.png",
             "awayLogo": "https://media.api-sports.io/football/teams/734.png",
@@ -108,7 +108,28 @@ const siteData = {
                 "draw": 50,
                 "away": 33
             },
-            "advice": "Double chance : Anderlecht or draw"
+            "advice": "Double chance : Anderlecht or draw",
+            "goals": [
+                {
+                    "minute": "43",
+                    "player": "Danylo Sikan",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "56",
+                    "player": "Marco Kana",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Enric Llansana",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -118,9 +139,9 @@ const siteData = {
             "away": "OH Leuven",
             "stadium": "Planet Group Arena",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "28'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "70'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/631.png",
             "awayLogo": "https://media.api-sports.io/football/teams/260.png",
@@ -130,7 +151,28 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Winner : Gent"
+            "advice": "Winner : Gent",
+            "goals": [
+                {
+                    "minute": "46",
+                    "player": "Tiago Araújo",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "58",
+                    "player": "Wouter George",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Siebe Van Der Heyden",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Ligue 1",
@@ -140,8 +182,8 @@ const siteData = {
             "away": "Lille",
             "stadium": "Stadium de Toulouse",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "20'",
+            "statusCode": "2H",
+            "minuteDisplay": "61'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/96.png",
@@ -152,7 +194,15 @@ const siteData = {
                 "draw": 50,
                 "away": 50
             },
-            "advice": "Winner : Lille"
+            "advice": "Winner : Lille",
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Santiago Hidalgo",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -162,10 +212,10 @@ const siteData = {
             "away": "Heart Of Midlothian",
             "stadium": "Easter Road",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "17'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "58'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/249.png",
             "awayLogo": "https://media.api-sports.io/football/teams/254.png",
             "prediction": "1 - 2",
@@ -180,6 +230,24 @@ const siteData = {
                     "minute": "13",
                     "player": "James wilson",
                     "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "Laurent mendy",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "A. Major",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45",
+                    "player": "Jack Iredale",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -191,8 +259,8 @@ const siteData = {
             "away": "Celta Vigo",
             "stadium": "Anoeta",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/548.png",
@@ -203,7 +271,15 @@ const siteData = {
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Double chance : Real Sociedad or draw"
+            "advice": "Double chance : Real Sociedad or draw",
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "Yangel Herrera",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1581,7 +1657,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/09/2026 02:05 WIB",
+    "standingsUpdated": "04/09/2026 03:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27869,25 +27945,6 @@ const siteData = {
                 "advice": "Winner : Nashville SC"
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Durango",
-                "away": "Tlaxcala",
-                "stadium": "Estadio Francisco Zarco",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Durango or draw"
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -27909,21 +27966,21 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Mineros de Zacatecas",
-                "stadium": "Estadio Guaycura",
+                "time": "08:00",
+                "home": "Durango",
+                "away": "Tlaxcala",
+                "stadium": "Estadio Francisco Zarco",
                 "round": "Apertura - 7",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
-                "prediction": "2 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
-                "advice": "Double chance : CA La Paz or draw"
+                "advice": "Double chance : Durango or draw"
             },
             {
                 "league": "Liga MX",
@@ -27943,6 +28000,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or CF Pachuca"
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Mineros de Zacatecas",
+                "stadium": "Estadio Guaycura",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : CA La Paz or draw"
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28477,25 +28553,6 @@ const siteData = {
                 "advice": "Winner : Hull City"
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-05",
-                "time": "23:30",
-                "home": "Rayo Vallecano",
-                "away": "Racing Santander",
-                "stadium": "Campo de Futbol de Vallecas",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/728.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Rayo Vallecano or draw"
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-09-05",
                 "time": "23:30",
@@ -28513,6 +28570,25 @@ const siteData = {
                     "away": 50
                 },
                 "advice": "Combo Winner : Bayern München and +1.5 goals"
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-05",
+                "time": "23:30",
+                "home": "Rayo Vallecano",
+                "away": "Racing Santander",
+                "stadium": "Campo de Futbol de Vallecas",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/728.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Rayo Vallecano or draw"
             },
             {
                 "league": "Eredivisie",
@@ -28612,25 +28688,6 @@ const siteData = {
                 "advice": "Combo Double chance : Ajax or draw and +1.5 goals"
             },
             {
-                "league": "Serie A",
-                "date": "2026-09-06",
-                "time": "01:45",
-                "home": "AS Roma",
-                "away": "Atalanta",
-                "stadium": "Stadio Olimpico",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/499.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Winner : AS Roma"
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-06",
                 "time": "01:45",
@@ -28667,6 +28724,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Stade Brestois 29"
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-06",
+                "time": "01:45",
+                "home": "AS Roma",
+                "away": "Atalanta",
+                "stadium": "Stadio Olimpico",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/499.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Winner : AS Roma"
             },
             {
                 "league": "Jupiler Pro League",
@@ -29011,6 +29087,44 @@ const siteData = {
                 "advice": "Double chance : Austin or draw"
             },
             {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Club America",
+                "away": "Club Tijuana",
+                "stadium": "Estadio Banorte",
+                "round": "Apertura - 7",
+                "statusCode": "POSTP",
+                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Club America"
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Tigres UANL",
+                "away": "Necaxa",
+                "stadium": "Estadio Universitario",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Tigres UANL"
+            },
+            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-06",
                 "time": "08:00",
@@ -29085,44 +29199,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Correcaminos Uat"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Club America",
-                "away": "Club Tijuana",
-                "stadium": "Estadio Banorte",
-                "round": "Apertura - 7",
-                "statusCode": "POSTP",
-                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Club America"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Tigres UANL",
-                "away": "Necaxa",
-                "stadium": "Estadio Universitario",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Tigres UANL"
             },
             {
                 "league": "MLS",
@@ -29372,6 +29448,25 @@ const siteData = {
                 "advice": "Double chance : draw or Manchester United"
             },
             {
+                "league": "Ligue 1",
+                "date": "2026-09-06",
+                "time": "20:00",
+                "home": "Estac Troyes",
+                "away": "Strasbourg",
+                "stadium": "",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Estac Troyes or draw"
+            },
+            {
                 "league": "Serie A",
                 "date": "2026-09-06",
                 "time": "20:00",
@@ -29408,25 +29503,6 @@ const siteData = {
                     "away": 30
                 },
                 "advice": "Double chance : Parma or draw"
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-09-06",
-                "time": "20:00",
-                "home": "Estac Troyes",
-                "away": "Strasbourg",
-                "stadium": "",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Estac Troyes or draw"
             },
             {
                 "league": "Bundesliga",
