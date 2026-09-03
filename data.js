@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T13:05:03.724Z.
+   API-Football v3) pada 2026-09-03T14:05:35.550Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -293,12 +293,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "87",
-                    "player": "C. Reilly",
+                    "player": "Charlie Reilly",
                     "team": "home"
                 },
                 {
                     "minute": "90",
-                    "player": "J. Fowler",
+                    "player": "Josh Fowler",
                     "team": "away"
                 }
             ],
@@ -1748,7 +1748,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 20:05 WIB",
+    "standingsUpdated": "03/09/2026 21:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27717,25 +27717,6 @@ const siteData = {
                 "advice": "Winner : Nashville SC"
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Durango",
-                "away": "Tlaxcala",
-                "stadium": "Estadio Francisco Zarco",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Durango or draw"
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -27757,21 +27738,21 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Mineros de Zacatecas",
-                "stadium": "Estadio Guaycura",
+                "time": "08:00",
+                "home": "Durango",
+                "away": "Tlaxcala",
+                "stadium": "Estadio Francisco Zarco",
                 "round": "Apertura - 7",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
-                "prediction": "2 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
-                "advice": "Double chance : CA La Paz or draw"
+                "advice": "Double chance : Durango or draw"
             },
             {
                 "league": "Liga MX",
@@ -27791,6 +27772,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or CF Pachuca"
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Mineros de Zacatecas",
+                "stadium": "Estadio Guaycura",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : CA La Paz or draw"
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28097,6 +28097,44 @@ const siteData = {
                 "advice": "Double chance : Nottingham Forest or draw"
             },
             {
+                "league": "Super Lig",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Erzurumspor FK",
+                "away": "Konyaspor",
+                "stadium": "",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1009.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Konyaspor and +1.5 goals"
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Charleroi",
+                "away": "Union St. Gilloise",
+                "stadium": "Stade du Pays de Charleroi",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Union St. Gilloise"
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-05",
                 "time": "21:00",
@@ -28154,44 +28192,6 @@ const siteData = {
                 "advice": "Combo Double chance : draw or Falkirk and -3.5 goals"
             },
             {
-                "league": "Super Lig",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Erzurumspor FK",
-                "away": "Konyaspor",
-                "stadium": "",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1009.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Konyaspor and +1.5 goals"
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Charleroi",
-                "away": "Union St. Gilloise",
-                "stadium": "Stade du Pays de Charleroi",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Union St. Gilloise"
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-05",
                 "time": "21:15",
@@ -28211,25 +28211,6 @@ const siteData = {
                 "advice": "Combo Winner : Atletico Madrid and +1.5 goals"
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-05",
-                "time": "21:30",
-                "home": "NEC Nijmegen",
-                "away": "Feyenoord",
-                "stadium": "Goffertstadion",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/413.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/209.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : NEC Nijmegen or draw"
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-05",
                 "time": "21:30",
@@ -28247,6 +28228,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Estrela or draw"
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-05",
+                "time": "21:30",
+                "home": "NEC Nijmegen",
+                "away": "Feyenoord",
+                "stadium": "Goffertstadion",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/413.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/209.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : NEC Nijmegen or draw"
             },
             {
                 "league": "Ligue 1",
