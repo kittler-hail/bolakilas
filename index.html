@@ -77,9 +77,13 @@
       </div>
     </div>
 
-    <!-- DAY RANGE TABS (BARU: Riwayat / Hari Ini / Akan Datang) -->
-    <div class="filters-wrap day-tabs-wrap">
-      <div class="filters day-tabs" id="day-tabs"></div>
+    <!-- SORTIR TANGGAL & BULAN: tombol tanggal ringkas untuk hari-hari dekat hari ini,
+         + dropdown terpisah (dikelompokkan per bulan) buat lompat ke tanggal/bulan lain -->
+    <div class="day-select-wrap">
+      <div class="day-pills-wrap">
+        <div class="day-pills" id="day-pills"></div>
+      </div>
+      <select class="day-select" id="day-select" aria-label="Pilih tanggal jadwal lain"></select>
     </div>
 
     <!-- SEARCH -->

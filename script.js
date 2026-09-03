@@ -495,35 +495,103 @@ function dayLabelFor(dateKey) {
   return "Mendatang";
 }
 
+function formatMonthLabel(dateKey) {
+  const date = new Date(dateKey + "T00:00:00");
+  if (isNaN(date.getTime())) return "";
+  return date.toLocaleDateString("id-ID", { month: "long", year: "numeric" });
+}
+
+// Jendela tombol tanggal cepat: ambil sampai NEARBY_WINDOW hari dari daftar
+// key yang TERSEDIA (bukan hitung kalender mentah — key sudah pasti cuma
+// tanggal yang punya data), dipusatkan di sekitar hari ini kalau bisa.
+const NEARBY_WINDOW = 7;
+
+function getNearbyDateKeys(keys) {
+  if (keys.length <= NEARBY_WINDOW) return keys;
+  let idx = data.date ? keys.indexOf(data.date) : -1;
+  if (idx === -1) idx = keys.length - 1;
+  let start = idx - Math.floor((NEARBY_WINDOW - 1) / 2);
+  let end = start + NEARBY_WINDOW;
+  if (start < 0) { end -= start; start = 0; }
+  if (end > keys.length) { start -= (end - keys.length); end = keys.length; }
+  return keys.slice(Math.max(0, start), end);
+}
+
 function renderDayTabs() {
-  const container = getElement("day-tabs");
-  if (!container) return;
+  const pillsWrap = getElement("day-pills");
+  const select = getElement("day-select");
+  if (!select) return;
 
   const keys = getAvailableDateKeys();
   activeDateKey = data.date || keys[0] || "";
 
   if (keys.length <= 1) {
-    container.innerHTML = `<div class="mc-empty-note" style="padding:6px 2px;font-size:10.5px;color:var(--muted-dark);">Riwayat & jadwal beberapa hari ke depan akan tampil di sini begitu data.js diisi otomatis (lihat catatan AUTO-UPDATE di script.js).</div>`;
+    select.innerHTML = `<option value="${escapeHTML(activeDateKey)}">${escapeHTML(formatDate(activeDateKey))}</option>`;
+    select.disabled = true;
+    if (pillsWrap) pillsWrap.innerHTML = "";
     return;
   }
 
-  container.innerHTML = keys.map(k => `
-    <button class="filter-btn day-btn ${k === activeDateKey ? "active" : ""}" data-date="${escapeHTML(k)}">
-      ${escapeHTML(dayLabelFor(k) === "Hari Ini" ? "Hari Ini" : formatDateShort(k))}
-      <span class="day-sub">${escapeHTML(dayLabelFor(k))}</span>
-    </button>
-  `).join("");
-
-  container.querySelectorAll(".day-btn").forEach(btn => {
-    btn.addEventListener("click", function () {
-      activeDateKey = this.dataset.date;
-      container.querySelectorAll(".day-btn").forEach(b => b.classList.toggle("active", b === this));
-      const dateEl = getElement("schedule-date");
-      if (dateEl) dateEl.textContent = formatDate(activeDateKey);
-      const activeLeagueBtn = document.querySelector("#filters .filter-btn.active");
-      renderSchedule(activeLeagueBtn ? activeLeagueBtn.dataset.league : "Semua");
-    });
+  // Dropdown: daftar LENGKAP semua tanggal yang ada data-nya, dikelompokkan
+  // per bulan — cara pasti buat lompat ke tanggal/bulan yang tidak muncul
+  // di deretan tombol cepat di bawah (mis. riwayat lebih dari seminggu lalu).
+  select.disabled = false;
+  let currentMonth = null;
+  let html = "";
+  keys.forEach(k => {
+    const month = formatMonthLabel(k);
+    if (month !== currentMonth) {
+      if (currentMonth !== null) html += `</optgroup>`;
+      html += `<optgroup label="${escapeHTML(month)}">`;
+      currentMonth = month;
+    }
+    const label = `${dayLabelFor(k)} · ${formatDateShort(k)}`;
+    html += `<option value="${escapeHTML(k)}" ${k === activeDateKey ? "selected" : ""}>${escapeHTML(label)}</option>`;
   });
+  html += `</optgroup>`;
+  select.innerHTML = html;
+
+  // Tombol tanggal cepat: cuma hari-hari DEKAT hari ini, biar ringkas &
+  // gampang diketuk langsung tanpa buka dropdown buat kasus paling umum.
+  const renderPills = () => {
+    if (!pillsWrap) return;
+    const nearbyKeys = getNearbyDateKeys(keys);
+    pillsWrap.innerHTML = nearbyKeys.map(k => {
+      const isToday = k === data.date;
+      const date = new Date(k + "T00:00:00");
+      const weekday = isNaN(date.getTime()) ? "" : date.toLocaleDateString("id-ID", { weekday: "short" });
+      const day = isNaN(date.getTime()) ? "" : date.getDate();
+      return `
+        <button type="button" class="day-pill ${k === activeDateKey ? "active" : ""}" data-date="${escapeHTML(k)}" aria-label="${escapeHTML(formatDate(k))}">
+          <span class="day-pill-top">${isToday ? "Hari Ini" : escapeHTML(weekday)}</span>
+          <span class="day-pill-num">${day}</span>
+        </button>`;
+    }).join("");
+    pillsWrap.querySelectorAll(".day-pill").forEach(btn => {
+      btn.addEventListener("click", function () {
+        if (this.dataset.date === activeDateKey) return;
+        select.value = this.dataset.date;
+        select.onchange();
+      });
+    });
+  };
+  renderPills();
+
+  select.onchange = function () {
+    activeDateKey = this.value;
+    const dateEl = getElement("schedule-date");
+    if (dateEl) dateEl.textContent = formatDate(activeDateKey);
+    if (pillsWrap) {
+      // Jendela tombol cepat tetap sekitar HARI INI (bukan ikut geser ke
+      // tanggal aktif) — kalau tanggal yang dipilih lewat dropdown ada di
+      // luar jendela, wajar tidak ada tombol yang aktif di sini.
+      pillsWrap.querySelectorAll(".day-pill").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.date === activeDateKey);
+      });
+    }
+    const activeLeagueBtn = document.querySelector("#filters .filter-btn.active");
+    renderSchedule(activeLeagueBtn ? activeLeagueBtn.dataset.league : "Semua");
+  };
 }
 
 /* =========================================================
