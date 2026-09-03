@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T20:05:08.984Z.
+   API-Football v3) pada 2026-09-03T22:05:27.567Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,8 +24,8 @@ const siteData = {
         "stadium": "Anoeta",
         "prediction": "2 - 1",
         "analysis": "Real Sociedad bertemu Celta Vigo dalam laga LaLiga. Analisis API-Football: Double chance : Real Sociedad or draw.",
-        "statusCode": "HT",
-        "minuteDisplay": "HT",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
         "homeScore": 0,
         "awayScore": 0,
         "odds": {
@@ -76,14 +76,28 @@ const siteData = {
                     "L",
                     "L",
                     "W"
-                ]
+                ],
+                "cleanSheets": 0,
+                "failedToScore": 1,
+                "goalsFor": 3,
+                "goalsAgainst": 6,
+                "winStreak": 0,
+                "attack": 75,
+                "defense": 40
             },
             "away": {
                 "results": [
                     "D",
                     "L",
                     "L"
-                ]
+                ],
+                "cleanSheets": 1,
+                "failedToScore": 2,
+                "goalsFor": 1,
+                "goalsAgainst": 4,
+                "winStreak": 0,
+                "attack": 25,
+                "defense": 60
             }
         }
     },
@@ -96,8 +110,8 @@ const siteData = {
             "away": "Kortrijk",
             "stadium": "Lotto Park",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "77'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/554.png",
@@ -109,6 +123,32 @@ const siteData = {
                 "away": 33
             },
             "advice": "Double chance : Anderlecht or draw",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 64,
+                    "away": 36
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 62,
+                    "away": 38
+                },
+                "goals": {
+                    "home": 67,
+                    "away": 33
+                }
+            },
             "goals": [
                 {
                     "minute": "43",
@@ -128,6 +168,18 @@ const siteData = {
                     "player": "Enric Llansana",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Gilles Ruyssen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Rudy Kohon",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -139,8 +191,8 @@ const siteData = {
             "away": "OH Leuven",
             "stadium": "Planet Group Arena",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "70'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/631.png",
@@ -152,6 +204,32 @@ const siteData = {
                 "away": 10
             },
             "advice": "Winner : Gent",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 75,
+                    "away": 25
+                },
+                "def": {
+                    "home": 80,
+                    "away": 20
+                },
+                "poisson": {
+                    "home": 91,
+                    "away": 9
+                },
+                "h2h": {
+                    "home": 29,
+                    "away": 71
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
             "goals": [
                 {
                     "minute": "46",
@@ -171,35 +249,11 @@ const siteData = {
                     "player": "Siebe Van Der Heyden",
                     "team": "home",
                     "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-09-04",
-            "time": "01:45",
-            "home": "Toulouse",
-            "away": "Lille",
-            "stadium": "Stadium de Toulouse",
-            "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "61'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/96.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/79.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Lille",
-            "cards": [
+                },
                 {
-                    "minute": "20",
-                    "player": "Santiago Hidalgo",
-                    "team": "home",
+                    "minute": "76",
+                    "player": "Oscar Gil Regaño",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -212,10 +266,10 @@ const siteData = {
             "away": "Heart Of Midlothian",
             "stadium": "Easter Road",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "58'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/249.png",
             "awayLogo": "https://media.api-sports.io/football/teams/254.png",
             "prediction": "1 - 2",
@@ -225,6 +279,32 @@ const siteData = {
                 "away": 45
             },
             "advice": "Double chance : draw or Heart Of Midlothian",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 42,
+                    "away": 58
+                },
+                "def": {
+                    "home": 43,
+                    "away": 57
+                },
+                "poisson": {
+                    "home": 50,
+                    "away": 50
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 46,
+                    "away": 54
+                }
+            },
             "goals": [
                 {
                     "minute": "13",
@@ -240,12 +320,86 @@ const siteData = {
                     "minute": "51",
                     "player": "A. Major",
                     "team": "home"
+                },
+                {
+                    "minute": "66",
+                    "player": "Josh Mcpake",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "45",
                     "player": "Jack Iredale",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Grant Hanley",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Ligue 1",
+            "date": "2026-09-04",
+            "time": "01:45",
+            "home": "Toulouse",
+            "away": "Lille",
+            "stadium": "Stadium de Toulouse",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/96.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/79.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Lille",
+            "comparison": {
+                "form": {
+                    "home": 20,
+                    "away": 80
+                },
+                "att": {
+                    "home": 33,
+                    "away": 67
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 35,
+                    "away": 65
+                }
+            },
+            "goals": [
+                {
+                    "minute": "73",
+                    "player": "Ayase Ueda",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Santiago Hidalgo",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -259,8 +413,8 @@ const siteData = {
             "away": "Celta Vigo",
             "stadium": "Anoeta",
             "round": "Pekan 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/548.png",
@@ -272,10 +426,60 @@ const siteData = {
                 "away": 10
             },
             "advice": "Double chance : Real Sociedad or draw",
+            "comparison": {
+                "form": {
+                    "home": 75,
+                    "away": 25
+                },
+                "att": {
+                    "home": 75,
+                    "away": 25
+                },
+                "def": {
+                    "home": 40,
+                    "away": 60
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
             "cards": [
                 {
                     "minute": "22",
                     "player": "Yangel Herrera",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Yoel Lago",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "Marcos Alonso",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Couhaib Driouech",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Luka Sučić",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -298,7 +502,33 @@ const siteData = {
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Combo Winner : Dorados and +1.5 goals"
+            "advice": "Combo Winner : Dorados and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 38,
+                    "away": 63
+                },
+                "att": {
+                    "home": 33,
+                    "away": 67
+                },
+                "def": {
+                    "home": 35,
+                    "away": 65
+                },
+                "poisson": {
+                    "home": 22,
+                    "away": 78
+                },
+                "h2h": {
+                    "home": 62,
+                    "away": 38
+                },
+                "goals": {
+                    "home": 75,
+                    "away": 25
+                }
+            }
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -317,7 +547,33 @@ const siteData = {
                 "draw": 33,
                 "away": 33
             },
-            "advice": "No predictions available"
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            }
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -336,7 +592,33 @@ const siteData = {
                 "draw": 33,
                 "away": 33
             },
-            "advice": "No predictions available"
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 43,
+                    "away": 57
+                }
+            }
         }
     ],
     "news": [
@@ -725,6 +1007,17 @@ const siteData = {
             },
             {
                 "rank": 11,
+                "team": "Real Sociedad",
+                "logo": "https://media.api-sports.io/football/teams/548.png",
+                "played": 4,
+                "win": 1,
+                "draw": 1,
+                "lose": 2,
+                "gd": -3,
+                "points": 4
+            },
+            {
+                "rank": 12,
                 "team": "Espanyol",
                 "logo": "https://media.api-sports.io/football/teams/540.png",
                 "played": 3,
@@ -735,7 +1028,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Athletic Club",
                 "logo": "https://media.api-sports.io/football/teams/531.png",
                 "played": 3,
@@ -743,17 +1036,6 @@ const siteData = {
                 "draw": 0,
                 "lose": 2,
                 "gd": -2,
-                "points": 3
-            },
-            {
-                "rank": 13,
-                "team": "Real Sociedad",
-                "logo": "https://media.api-sports.io/football/teams/548.png",
-                "played": 3,
-                "win": 1,
-                "draw": 0,
-                "lose": 2,
-                "gd": -3,
                 "points": 3
             },
             {
@@ -780,19 +1062,19 @@ const siteData = {
             },
             {
                 "rank": 16,
-                "team": "Valencia",
-                "logo": "https://media.api-sports.io/football/teams/532.png",
-                "played": 3,
+                "team": "Celta Vigo",
+                "logo": "https://media.api-sports.io/football/teams/538.png",
+                "played": 4,
                 "win": 0,
-                "draw": 1,
+                "draw": 2,
                 "lose": 2,
                 "gd": -3,
-                "points": 1
+                "points": 2
             },
             {
                 "rank": 17,
-                "team": "Celta Vigo",
-                "logo": "https://media.api-sports.io/football/teams/538.png",
+                "team": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png",
                 "played": 3,
                 "win": 0,
                 "draw": 1,
@@ -1259,6 +1541,17 @@ const siteData = {
         "Ligue 1": [
             {
                 "rank": 1,
+                "team": "Lille",
+                "logo": "https://media.api-sports.io/football/teams/79.png",
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "gd": 3,
+                "points": 7
+            },
+            {
+                "rank": 2,
                 "team": "Monaco",
                 "logo": "https://media.api-sports.io/football/teams/91.png",
                 "played": 2,
@@ -1269,7 +1562,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "team": "Paris FC",
                 "logo": "https://media.api-sports.io/football/teams/114.png",
                 "played": 2,
@@ -1277,17 +1570,6 @@ const siteData = {
                 "draw": 1,
                 "lose": 0,
                 "gd": 3,
-                "points": 4
-            },
-            {
-                "rank": 3,
-                "team": "Lille",
-                "logo": "https://media.api-sports.io/football/teams/79.png",
-                "played": 2,
-                "win": 1,
-                "draw": 1,
-                "lose": 0,
-                "gd": 2,
                 "points": 4
             },
             {
@@ -1426,11 +1708,11 @@ const siteData = {
                 "rank": 16,
                 "team": "Toulouse",
                 "logo": "https://media.api-sports.io/football/teams/96.png",
-                "played": 2,
+                "played": 3,
                 "win": 0,
                 "draw": 1,
-                "lose": 1,
-                "gd": -2,
+                "lose": 2,
+                "gd": -3,
                 "points": 1
             },
             {
@@ -1657,7 +1939,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/09/2026 03:05 WIB",
+    "standingsUpdated": "04/09/2026 05:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4558,7 +4840,7 @@ const siteData = {
             },
             {
                 "player": "J. Lerma",
-                "photo": "https://media.api-sports.io/football/players/568733.png",
+                "photo": "https://media.api-sports.io/football/players/465666.png",
                 "reason": "Muscle Injury",
                 "since": "2026-09-05"
             }
@@ -27736,25 +28018,6 @@ const siteData = {
     "upcoming": {
         "2026-09-05": [
             {
-                "league": "Ligue 1",
-                "date": "2026-09-05",
-                "time": "00:00",
-                "home": "Lyon",
-                "away": "Auxerre",
-                "stadium": "Parc Olympique Lyonnais",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/80.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/108.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Lyon or draw and +1.5 goals"
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-05",
                 "time": "00:00",
@@ -27771,7 +28034,78 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Galatasaray"
+                "advice": "Double chance : draw or Galatasaray",
+                "comparison": {
+                    "form": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "att": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 17,
+                        "away": 83
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-05",
+                "time": "00:00",
+                "home": "Lyon",
+                "away": "Auxerre",
+                "stadium": "Parc Olympique Lyonnais",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/80.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/108.png",
+                "prediction": "3 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Lyon or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 89,
+                        "away": 11
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 56,
+                        "away": 44
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -27790,7 +28124,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or PEC Zwolle"
+                "advice": "Double chance : draw or PEC Zwolle",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 51,
+                        "away": 49
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 25,
+                        "away": 75
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -27809,7 +28169,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : 1. FC Köln and +2.5 goals"
+                "advice": "Combo Winner : 1. FC Köln and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 79,
+                        "away": 21
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -27828,7 +28214,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Winner : Como"
+                "advice": "Winner : Como",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "goals": {
+                        "home": 36,
+                        "away": 64
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -27847,7 +28259,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Lommel United or draw"
+                "advice": "Double chance : Lommel United or draw",
+                "comparison": {
+                    "form": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -27866,7 +28304,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Double chance : draw or Liverpool and +1.5 goals"
+                "advice": "Combo Double chance : draw or Liverpool and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 14,
+                        "away": 86
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -27885,7 +28349,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Winner : Real Madrid"
+                "advice": "Winner : Real Madrid",
+                "comparison": {
+                    "form": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "att": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "def": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 31,
+                        "away": 69
+                    }
+                }
             },
             {
                 "league": "Ligue 1",
@@ -27904,7 +28394,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Monaco"
+                "advice": "Double chance : draw or Monaco",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 53,
+                        "away": 47
+                    }
+                }
             },
             {
                 "league": "Primeira Liga",
@@ -27923,7 +28439,33 @@ const siteData = {
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Winner : FC Porto"
+                "advice": "Winner : FC Porto",
+                "comparison": {
+                    "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 75,
+                        "away": 25
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -27942,26 +28484,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Winner : Nashville SC"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Toluca",
-                "stadium": "",
-                "round": "Apertura - 7",
-                "statusCode": "POSTP",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Toluca"
+                "advice": "Winner : Nashville SC",
+                "comparison": {
+                    "form": {
+                        "home": 19,
+                        "away": 81
+                    },
+                    "att": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "poisson": {
+                        "home": 32,
+                        "away": 68
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 53,
+                        "away": 47
+                    }
+                }
             },
             {
                 "league": "Liga de Expansion MX",
@@ -27980,26 +28529,78 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Durango or draw"
+                "advice": "Double chance : Durango or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "def": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "poisson": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 83,
+                        "away": 17
+                    }
+                }
             },
             {
                 "league": "Liga MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "FC Juarez",
-                "away": "CF Pachuca",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Toluca",
                 "stadium": "",
                 "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "statusCode": "POSTP",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
                 "prediction": "1 - 2",
                 "odds": {
                     "home": 10,
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or CF Pachuca"
+                "advice": "Double chance : draw or Toluca",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 14,
+                        "away": 86
+                    }
+                }
             },
             {
                 "league": "Liga de Expansion MX",
@@ -28018,7 +28619,78 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : CA La Paz or draw"
+                "advice": "Double chance : CA La Paz or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "poisson": {
+                        "home": 63,
+                        "away": 37
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 21,
+                        "away": 79
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "FC Juarez",
+                "away": "CF Pachuca",
+                "stadium": "",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or CF Pachuca",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 10,
+                        "away": 90
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28037,7 +28709,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Persebaya Surabaya"
+                "advice": "Double chance : draw or Persebaya Surabaya",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28056,7 +28754,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Double chance : draw or Persita"
+                "advice": "Double chance : draw or Persita",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28075,7 +28799,33 @@ const siteData = {
                     "draw": 33,
                     "away": 33
                 },
-                "advice": "No predictions available"
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28094,7 +28844,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Newcastle or draw"
+                "advice": "Double chance : Newcastle or draw",
+                "comparison": {
+                    "form": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 41,
+                        "away": 59
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28113,7 +28889,33 @@ const siteData = {
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Double chance : Pusamania Borneo or draw"
+                "advice": "Double chance : Pusamania Borneo or draw",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 63,
+                        "away": 38
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -28132,7 +28934,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Winner : Torino"
+                "advice": "Winner : Torino",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -28151,7 +28979,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Combo Winner : RB Leipzig and +1.5 goals"
+                "advice": "Combo Winner : RB Leipzig and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 31,
+                        "away": 69
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -28170,7 +29024,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : SV Elversberg and +1.5 goals"
+                "advice": "Combo Winner : SV Elversberg and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 100,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -28189,7 +29069,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Borussia Dortmund"
+                "advice": "Double chance : draw or Borussia Dortmund",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -28208,7 +29114,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Combo Double chance : Bayer Leverkusen or draw and +2.5 goals"
+                "advice": "Combo Double chance : Bayer Leverkusen or draw and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 71,
+                        "away": 29
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -28227,7 +29159,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Winner : SC Freiburg"
+                "advice": "Winner : SC Freiburg",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 44,
+                        "away": 56
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28246,7 +29204,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Fulham or draw"
+                "advice": "Double chance : Fulham or draw",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 23,
+                        "away": 77
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28265,7 +29249,33 @@ const siteData = {
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Winner : Manchester City"
+                "advice": "Winner : Manchester City",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28284,7 +29294,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Winner : Brighton"
+                "advice": "Winner : Brighton",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "def": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28303,7 +29339,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Winner : Brentford"
+                "advice": "Winner : Brentford",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28322,7 +29384,33 @@ const siteData = {
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Double chance : Nottingham Forest or draw"
+                "advice": "Double chance : Nottingham Forest or draw",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 71,
+                        "away": 29
+                    }
+                }
             },
             {
                 "league": "Super Lig",
@@ -28341,7 +29429,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : Konyaspor and +1.5 goals"
+                "advice": "Combo Winner : Konyaspor and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 20,
+                        "away": 80
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -28360,7 +29474,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Union St. Gilloise"
+                "advice": "Double chance : draw or Union St. Gilloise",
+                "comparison": {
+                    "form": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 29,
+                        "away": 71
+                    }
+                }
             },
             {
                 "league": "Scottish Premiership",
@@ -28379,7 +29519,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Aberdeen or draw and +1.5 goals"
+                "advice": "Combo Double chance : Aberdeen or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 56,
+                        "away": 44
+                    }
+                }
             },
             {
                 "league": "Scottish Premiership",
@@ -28398,7 +29564,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Motherwell"
+                "advice": "Double chance : draw or Motherwell",
+                "comparison": {
+                    "form": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 46,
+                        "away": 54
+                    }
+                }
             },
             {
                 "league": "Scottish Premiership",
@@ -28417,7 +29609,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Double chance : draw or Falkirk and -3.5 goals"
+                "advice": "Combo Double chance : draw or Falkirk and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "att": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 35,
+                        "away": 65
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -28436,7 +29654,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Combo Winner : Atletico Madrid and +1.5 goals"
+                "advice": "Combo Winner : Atletico Madrid and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "att": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -28455,7 +29699,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : NEC Nijmegen or draw"
+                "advice": "Double chance : NEC Nijmegen or draw",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 19,
+                        "away": 81
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 53,
+                        "away": 47
+                    }
+                }
             },
             {
                 "league": "Primeira Liga",
@@ -28474,7 +29744,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Estrela or draw"
+                "advice": "Double chance : Estrela or draw",
+                "comparison": {
+                    "form": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "att": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 63
+                    }
+                }
             },
             {
                 "league": "Ligue 1",
@@ -28493,7 +29789,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Winner : Lens"
+                "advice": "Winner : Lens",
+                "comparison": {
+                    "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 86,
+                        "away": 14
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 75,
+                        "away": 25
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -28512,7 +29834,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Inter or draw"
+                "advice": "Double chance : Inter or draw",
+                "comparison": {
+                    "form": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -28531,7 +29879,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Winner : KV Mechelen and +2.5 goals"
+                "advice": "Combo Winner : KV Mechelen and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "poisson": {
+                        "home": 74,
+                        "away": 26
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -28550,26 +29924,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Winner : Hull City"
-            },
-            {
-                "league": "Bundesliga",
-                "date": "2026-09-05",
-                "time": "23:30",
-                "home": "FC Schalke 04",
-                "away": "Bayern München",
-                "stadium": "Veltins Arena",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/174.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/157.png",
-                "prediction": "1 - 4",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : Bayern München and +1.5 goals"
+                "advice": "Winner : Hull City",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -28588,7 +29969,78 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Rayo Vallecano or draw"
+                "advice": "Double chance : Rayo Vallecano or draw",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 91,
+                        "away": 9
+                    },
+                    "goals": {
+                        "home": 69,
+                        "away": 31
+                    }
+                }
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-09-05",
+                "time": "23:30",
+                "home": "FC Schalke 04",
+                "away": "Bayern München",
+                "stadium": "Veltins Arena",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/174.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/157.png",
+                "prediction": "1 - 4",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : Bayern München and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -28607,7 +30059,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : GO Ahead Eagles and +2.5 goals"
+                "advice": "Combo Winner : GO Ahead Eagles and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 32,
+                        "away": 68
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 53,
+                        "away": 47
+                    }
+                }
             }
         ],
         "2026-09-06": [
@@ -28628,7 +30106,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Fenerbahçe or draw"
+                "advice": "Double chance : Fenerbahçe or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
+                    }
+                }
             },
             {
                 "league": "Primeira Liga",
@@ -28647,7 +30151,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : Benfica and +1.5 goals"
+                "advice": "Combo Winner : Benfica and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 6,
+                        "away": 94
+                    }
+                }
             },
             {
                 "league": "Primeira Liga",
@@ -28666,7 +30196,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or SC Braga"
+                "advice": "Double chance : draw or SC Braga",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "poisson": {
+                        "home": 51,
+                        "away": 49
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -28685,45 +30241,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Combo Double chance : Ajax or draw and +1.5 goals"
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-09-06",
-                "time": "01:45",
-                "home": "Nice",
-                "away": "Le Mans",
-                "stadium": "Allianz Riviera",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/84.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1298.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Winner : Le Mans"
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-09-06",
-                "time": "01:45",
-                "home": "Le Havre",
-                "away": "Stade Brestois 29",
-                "stadium": "",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/111.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/106.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Stade Brestois 29"
+                "advice": "Combo Double chance : Ajax or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "def": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "poisson": {
+                        "home": 26,
+                        "away": 74
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 59,
+                        "away": 41
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -28742,7 +30286,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Winner : AS Roma"
+                "advice": "Winner : AS Roma",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 27,
+                        "away": 73
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -28761,7 +30331,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Standard Liege or draw"
+                "advice": "Double chance : Standard Liege or draw",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 73,
+                        "away": 27
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -28780,7 +30376,123 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : St. Truiden or draw"
+                "advice": "Double chance : St. Truiden or draw",
+                "comparison": {
+                    "form": {
+                        "home": 83,
+                        "away": 17
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-06",
+                "time": "01:45",
+                "home": "Nice",
+                "away": "Le Mans",
+                "stadium": "Allianz Riviera",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/84.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1298.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Winner : Le Mans",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 40,
+                        "away": 60
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-06",
+                "time": "01:45",
+                "home": "Le Havre",
+                "away": "Stade Brestois 29",
+                "stadium": "",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/111.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/106.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Stade Brestois 29",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 14,
+                        "away": 86
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -28799,7 +30511,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Deportivo La Coruna"
+                "advice": "Double chance : draw or Deportivo La Coruna",
+                "comparison": {
+                    "form": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -28818,7 +30556,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : Excelsior and +1.5 goals"
+                "advice": "Combo Winner : Excelsior and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 14,
+                        "away": 86
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
+                    }
+                }
             },
             {
                 "league": "Scottish Premiership",
@@ -28837,7 +30601,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Winner : Celtic and +1.5 goals"
+                "advice": "Combo Winner : Celtic and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 21,
+                        "away": 79
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
             },
             {
                 "league": "Primeira Liga",
@@ -28856,7 +30646,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Winner : Sporting CP and +1.5 goals"
+                "advice": "Combo Winner : Sporting CP and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 81,
+                        "away": 19
+                    }
+                }
             },
             {
                 "league": "Liga MX",
@@ -28875,7 +30691,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Monterrey"
+                "advice": "Double chance : draw or Monterrey",
+                "comparison": {
+                    "form": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 49,
+                        "away": 51
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 25,
+                        "away": 75
+                    }
+                }
             },
             {
                 "league": "Liga MX",
@@ -28894,7 +30736,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Guadalajara Chivas"
+                "advice": "Double chance : draw or Guadalajara Chivas",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -28913,7 +30781,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or San Diego"
+                "advice": "Double chance : draw or San Diego",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -28932,7 +30826,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Philadelphia Union or draw and +1.5 goals"
+                "advice": "Combo Double chance : Philadelphia Union or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "att": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "def": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 56,
+                        "away": 44
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -28951,7 +30871,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Chicago Fire"
+                "advice": "Double chance : draw or Chicago Fire",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "poisson": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 35,
+                        "away": 65
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -28970,7 +30916,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Columbus Crew or draw"
+                "advice": "Double chance : Columbus Crew or draw",
+                "comparison": {
+                    "form": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 19,
+                        "away": 81
+                    },
+                    "poisson": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -28989,7 +30961,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : FC Cincinnati or draw"
+                "advice": "Double chance : FC Cincinnati or draw",
+                "comparison": {
+                    "form": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29008,7 +31006,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Inter Miami or draw and +1.5 goals"
+                "advice": "Combo Double chance : Inter Miami or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "att": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "poisson": {
+                        "home": 68,
+                        "away": 32
+                    },
+                    "h2h": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "goals": {
+                        "home": 61,
+                        "away": 39
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29027,7 +31051,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Charlotte or draw"
+                "advice": "Double chance : Charlotte or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "def": {
+                        "home": 22,
+                        "away": 78
+                    },
+                    "poisson": {
+                        "home": 63,
+                        "away": 37
+                    },
+                    "h2h": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29046,7 +31096,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Seattle Sounders or draw"
+                "advice": "Double chance : Seattle Sounders or draw",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "goals": {
+                        "home": 56,
+                        "away": 44
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29065,7 +31141,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Winner : FC Dallas"
+                "advice": "Winner : FC Dallas",
+                "comparison": {
+                    "form": {
+                        "home": 89,
+                        "away": 11
+                    },
+                    "att": {
+                        "home": 82,
+                        "away": 18
+                    },
+                    "def": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "poisson": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "h2h": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "goals": {
+                        "home": 55,
+                        "away": 45
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29084,45 +31186,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Austin or draw"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Club America",
-                "away": "Club Tijuana",
-                "stadium": "Estadio Banorte",
-                "round": "Apertura - 7",
-                "statusCode": "POSTP",
-                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Club America"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Tigres UANL",
-                "away": "Necaxa",
-                "stadium": "Estadio Universitario",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Tigres UANL"
+                "advice": "Double chance : Austin or draw",
+                "comparison": {
+                    "form": {
+                        "home": 88,
+                        "away": 13
+                    },
+                    "att": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "def": {
+                        "home": 68,
+                        "away": 32
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
+                    }
+                }
             },
             {
                 "league": "Liga de Expansion MX",
@@ -29141,7 +31231,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Monarcas or draw"
+                "advice": "Double chance : Monarcas or draw",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "poisson": {
+                        "home": 66,
+                        "away": 34
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
+                    }
+                }
             },
             {
                 "league": "Liga de Expansion MX",
@@ -29160,7 +31276,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Cancún or draw"
+                "advice": "Double chance : Cancún or draw",
+                "comparison": {
+                    "form": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "poisson": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Liga de Expansion MX",
@@ -29179,7 +31321,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : CDS Tampico Madero or draw"
+                "advice": "Double chance : CDS Tampico Madero or draw",
+                "comparison": {
+                    "form": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 92,
+                        "away": 8
+                    },
+                    "h2h": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
             },
             {
                 "league": "Liga de Expansion MX",
@@ -29198,7 +31366,123 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Correcaminos Uat"
+                "advice": "Double chance : draw or Correcaminos Uat",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Club America",
+                "away": "Club Tijuana",
+                "stadium": "Estadio Banorte",
+                "round": "Apertura - 7",
+                "statusCode": "POSTP",
+                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Club America",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Tigres UANL",
+                "away": "Necaxa",
+                "stadium": "Estadio Universitario",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Tigres UANL",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "poisson": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 59,
+                        "away": 41
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29217,7 +31501,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Los Angeles Galaxy or draw"
+                "advice": "Double chance : Los Angeles Galaxy or draw",
+                "comparison": {
+                    "form": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "goals": {
+                        "home": 54,
+                        "away": 46
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29236,7 +31546,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Los Angeles FC"
+                "advice": "Double chance : draw or Los Angeles FC",
+                "comparison": {
+                    "form": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "att": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 37,
+                        "away": 63
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29255,7 +31591,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Vancouver Whitecaps or draw"
+                "advice": "Double chance : Vancouver Whitecaps or draw",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "def": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "poisson": {
+                        "home": 82,
+                        "away": 18
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 70,
+                        "away": 30
+                    }
+                }
             },
             {
                 "league": "MLS",
@@ -29274,7 +31636,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Minnesota United FC"
+                "advice": "Double chance : draw or Minnesota United FC",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
+                    }
+                }
             },
             {
                 "league": "Liga MX",
@@ -29293,7 +31681,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Atlas or draw"
+                "advice": "Double chance : Atlas or draw",
+                "comparison": {
+                    "form": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -29312,7 +31726,33 @@ const siteData = {
                     "draw": 33,
                     "away": 33
                 },
-                "advice": "No predictions available"
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -29331,7 +31771,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Twente"
+                "advice": "Double chance : draw or Twente",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "def": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "poisson": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "h2h": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "goals": {
+                        "home": 36,
+                        "away": 64
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -29350,7 +31816,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Gent"
+                "advice": "Double chance : draw or Gent",
+                "comparison": {
+                    "form": {
+                        "home": 18,
+                        "away": 82
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 22,
+                        "away": 78
+                    },
+                    "poisson": {
+                        "home": 24,
+                        "away": 76
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 44,
+                        "away": 56
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -29369,7 +31861,33 @@ const siteData = {
                     "draw": 33,
                     "away": 33
                 },
-                "advice": "No predictions available"
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -29388,7 +31906,33 @@ const siteData = {
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Double chance : Persib Bandung or draw"
+                "advice": "Double chance : Persib Bandung or draw",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 86,
+                        "away": 14
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -29407,7 +31951,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Winner : AZ Alkmaar"
+                "advice": "Winner : AZ Alkmaar",
+                "comparison": {
+                    "form": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "att": {
+                        "home": 28,
+                        "away": 72
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 10,
+                        "away": 90
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 31,
+                        "away": 69
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -29426,7 +31996,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Telstar or draw"
+                "advice": "Double chance : Telstar or draw",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -29445,26 +32041,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Manchester United"
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-09-06",
-                "time": "20:00",
-                "home": "Estac Troyes",
-                "away": "Strasbourg",
-                "stadium": "",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Estac Troyes or draw"
+                "advice": "Double chance : draw or Manchester United",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 36,
+                        "away": 64
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -29483,7 +32086,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Winner : Frosinone and -3.5 goals"
+                "advice": "Combo Winner : Frosinone and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 53,
+                        "away": 47
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -29502,7 +32131,78 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Double chance : Parma or draw"
+                "advice": "Double chance : Parma or draw",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-06",
+                "time": "20:00",
+                "home": "Estac Troyes",
+                "away": "Strasbourg",
+                "stadium": "",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Estac Troyes or draw",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 83,
+                        "away": 17
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 55,
+                        "away": 45
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -29521,7 +32221,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Double chance : draw or FSV Mainz 05 and -3.5 goals"
+                "advice": "Combo Double chance : draw or FSV Mainz 05 and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
+                    }
+                }
             },
             {
                 "league": "Super Lig",
@@ -29540,7 +32266,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Kasımpaşa or draw and -3.5 goals"
+                "advice": "Combo Double chance : Kasımpaşa or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
             },
             {
                 "league": "Super Lig",
@@ -29559,7 +32311,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Çorum FK or draw"
+                "advice": "Double chance : Çorum FK or draw",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -29578,7 +32356,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Zulte Waregem"
+                "advice": "Double chance : draw or Zulte Waregem",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 11,
+                        "away": 89
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 12,
+                        "away": 88
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 55,
+                        "away": 45
+                    }
+                }
             },
             {
                 "league": "Scottish Premiership",
@@ -29597,7 +32401,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Heart Of Midlothian or draw"
+                "advice": "Double chance : Heart Of Midlothian or draw",
+                "comparison": {
+                    "form": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 82,
+                        "away": 18
+                    }
+                }
             },
             {
                 "league": "Scottish Premiership",
@@ -29616,7 +32446,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Double chance : draw or Hibernian and +1.5 goals"
+                "advice": "Combo Double chance : draw or Hibernian and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 29,
+                        "away": 71
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -29635,7 +32491,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Winner : Barcelona"
+                "advice": "Winner : Barcelona",
+                "comparison": {
+                    "form": {
+                        "home": 10,
+                        "away": 90
+                    },
+                    "att": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 19,
+                        "away": 81
+                    }
+                }
             },
             {
                 "league": "Primeira Liga",
@@ -29654,7 +32536,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Santa Clara or draw and -3.5 goals"
+                "advice": "Combo Double chance : Santa Clara or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "att": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "def": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "poisson": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
             },
             {
                 "league": "Eredivisie",
@@ -29673,7 +32581,33 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Combo Winner : Fortuna Sittard and +1.5 goals"
+                "advice": "Combo Winner : Fortuna Sittard and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "poisson": {
+                        "home": 22,
+                        "away": 78
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
             },
             {
                 "league": "Ligue 1",
@@ -29692,7 +32626,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Double chance : draw or Rennes and +1.5 goals"
+                "advice": "Combo Double chance : draw or Rennes and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 23,
+                        "away": 77
+                    }
+                }
             },
             {
                 "league": "Premier League",
@@ -29711,7 +32671,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Arsenal or draw"
+                "advice": "Double chance : Arsenal or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
+                    }
+                }
             },
             {
                 "league": "Bundesliga",
@@ -29730,7 +32716,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Combo Double chance : Eintracht Frankfurt or draw and +1.5 goals"
+                "advice": "Combo Double chance : Eintracht Frankfurt or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
+                    }
+                }
             },
             {
                 "league": "Serie A",
@@ -29749,7 +32761,33 @@ const siteData = {
                     "draw": 35,
                     "away": 30
                 },
-                "advice": "Combo Double chance : Bologna or draw and -3.5 goals"
+                "advice": "Combo Double chance : Bologna or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 62,
+                        "away": 38
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -29768,7 +32806,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Levante"
+                "advice": "Double chance : draw or Levante",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 17,
+                        "away": 83
+                    },
+                    "def": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
+                    }
+                }
             },
             {
                 "league": "LaLiga",
@@ -29787,7 +32851,33 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Alaves or draw and -3.5 goals"
+                "advice": "Combo Double chance : Alaves or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 44,
+                        "away": 56
+                    }
+                }
             },
             {
                 "league": "Jupiler Pro League",
@@ -29806,7 +32896,33 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Combo Double chance : draw or Genk and +1.5 goals"
+                "advice": "Combo Double chance : draw or Genk and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "att": {
+                        "home": 14,
+                        "away": 86
+                    },
+                    "def": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 66,
+                        "away": 34
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
+                    }
+                }
             }
         ]
     },
