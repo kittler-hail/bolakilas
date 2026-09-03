@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T02:09:11.987Z.
+   API-Football v3) pada 2026-09-03T05:23:35.519Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1748,7 +1748,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 09:09 WIB",
+    "standingsUpdated": "03/09/2026 12:23 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27749,7 +27749,7 @@ const siteData = {
                 "away": "Toluca",
                 "stadium": "",
                 "round": "Apertura - 7",
-                "statusCode": "NS",
+                "statusCode": "POSTP",
                 "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
                 "prediction": "1 - 2",
@@ -28151,7 +28151,7 @@ const siteData = {
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/252.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/250.png",
-                "prediction": "3 - 1",
+                "prediction": "2 - 1",
                 "odds": {
                     "home": 45,
                     "draw": 45,
