@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T17:05:06.678Z.
+   API-Football v3) pada 2026-09-03T18:05:52.099Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1556,7 +1556,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/09/2026 00:05 WIB",
+    "standingsUpdated": "04/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27832,25 +27832,6 @@ const siteData = {
                 "advice": "Winner : Nashville SC"
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Durango",
-                "away": "Tlaxcala",
-                "stadium": "Estadio Francisco Zarco",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Durango or draw"
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -27872,21 +27853,21 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Mineros de Zacatecas",
-                "stadium": "Estadio Guaycura",
+                "time": "08:00",
+                "home": "Durango",
+                "away": "Tlaxcala",
+                "stadium": "Estadio Francisco Zarco",
                 "round": "Apertura - 7",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
-                "prediction": "2 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
-                "advice": "Double chance : CA La Paz or draw"
+                "advice": "Double chance : Durango or draw"
             },
             {
                 "league": "Liga MX",
@@ -27906,6 +27887,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or CF Pachuca"
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Mineros de Zacatecas",
+                "stadium": "Estadio Guaycura",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : CA La Paz or draw"
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28212,6 +28212,25 @@ const siteData = {
                 "advice": "Double chance : Nottingham Forest or draw"
             },
             {
+                "league": "Super Lig",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Erzurumspor FK",
+                "away": "Konyaspor",
+                "stadium": "",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1009.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Konyaspor and +1.5 goals"
+            },
+            {
                 "league": "Jupiler Pro League",
                 "date": "2026-09-05",
                 "time": "21:00",
@@ -28286,25 +28305,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Falkirk and -3.5 goals"
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Erzurumspor FK",
-                "away": "Konyaspor",
-                "stadium": "",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1009.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Konyaspor and +1.5 goals"
             },
             {
                 "league": "LaLiga",
@@ -28974,6 +28974,44 @@ const siteData = {
                 "advice": "Double chance : Austin or draw"
             },
             {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Club America",
+                "away": "Club Tijuana",
+                "stadium": "Estadio Banorte",
+                "round": "Apertura - 7",
+                "statusCode": "POSTP",
+                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Club America"
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Tigres UANL",
+                "away": "Necaxa",
+                "stadium": "Estadio Universitario",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Tigres UANL"
+            },
+            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-06",
                 "time": "08:00",
@@ -29048,44 +29086,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Correcaminos Uat"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Club America",
-                "away": "Club Tijuana",
-                "stadium": "Estadio Banorte",
-                "round": "Apertura - 7",
-                "statusCode": "POSTP",
-                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Club America"
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Tigres UANL",
-                "away": "Necaxa",
-                "stadium": "Estadio Universitario",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Tigres UANL"
             },
             {
                 "league": "MLS",
@@ -29411,6 +29411,44 @@ const siteData = {
                 "advice": "Combo Double chance : draw or FSV Mainz 05 and -3.5 goals"
             },
             {
+                "league": "Super Lig",
+                "date": "2026-09-06",
+                "time": "21:00",
+                "home": "Kasımpaşa",
+                "away": "Amed",
+                "stadium": "",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1004.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3579.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Kasımpaşa or draw and -3.5 goals"
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-06",
+                "time": "21:00",
+                "home": "Çorum FK",
+                "away": "Eyüpspor",
+                "stadium": "Corum Stadyumu",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3588.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Çorum FK or draw"
+            },
+            {
                 "league": "Jupiler Pro League",
                 "date": "2026-09-06",
                 "time": "21:00",
@@ -29466,44 +29504,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Hibernian and +1.5 goals"
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-06",
-                "time": "21:00",
-                "home": "Kasımpaşa",
-                "away": "Amed",
-                "stadium": "",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1004.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3579.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Kasımpaşa or draw and -3.5 goals"
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-06",
-                "time": "21:00",
-                "home": "Çorum FK",
-                "away": "Eyüpspor",
-                "stadium": "Corum Stadyumu",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3588.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Çorum FK or draw"
             },
             {
                 "league": "LaLiga",
