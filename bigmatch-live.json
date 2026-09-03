@@ -3,36 +3,36 @@
   "home": "Real Sociedad",
   "away": "Celta Vigo",
   "statusCode": "1H",
-  "updatedAt": "04/09/2026 02:29 WIB",
+  "updatedAt": "04/09/2026 02:42 WIB",
   "statistics": {
     "home": {
-      "possession": 57,
-      "shotsTotal": 5,
-      "shotsOnTarget": 3,
-      "corners": 5,
-      "fouls": 4,
-      "offsides": 0,
+      "possession": 58,
+      "shotsTotal": 6,
+      "shotsOnTarget": 4,
+      "corners": 6,
+      "fouls": 6,
+      "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 4,
-      "shotsOutsidebox": 1,
-      "passesTotal": 144,
-      "passesAccurate": 122,
+      "shotsOutsidebox": 2,
+      "passesTotal": 249,
+      "passesAccurate": 218,
       "passesPct": null
     },
     "away": {
-      "possession": 43,
+      "possession": 42,
       "shotsTotal": 1,
       "shotsOnTarget": 0,
       "corners": 0,
-      "fouls": 3,
+      "fouls": 4,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 0,
       "shotsOutsidebox": 1,
-      "passesTotal": 110,
-      "passesAccurate": 89,
+      "passesTotal": 181,
+      "passesAccurate": 152,
       "passesPct": null
     }
   },
@@ -51,13 +51,13 @@
           "number": 2,
           "name": "J. Aramburu",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.2"
         },
         {
           "number": 5,
           "name": "Zubeldia",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "7.0"
         },
         {
           "number": 6,
@@ -81,13 +81,13 @@
           "number": 8,
           "name": "Beñat Turrientes",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.2"
         },
         {
           "number": 21,
           "name": "Y. Herrera",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 7,
@@ -105,7 +105,7 @@
           "number": 10,
           "name": "Mikel Oyarzabal",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -191,37 +191,37 @@
           "number": 13,
           "name": "I. Radu",
           "position": "Kiper",
-          "rating": "7.7"
+          "rating": "8.1"
         },
         {
           "number": 15,
           "name": "Álvaro Núñez",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.8"
         },
         {
           "number": 18,
           "name": "Yoel Lago",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.1"
         },
         {
           "number": 3,
           "name": "Marcos Alonso",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 17,
           "name": "Javi Rueda",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.9"
         },
         {
           "number": 8,
           "name": "Miguel Román",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 6,
@@ -233,7 +233,7 @@
           "number": 5,
           "name": "Sergio Carreira",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 28,
@@ -245,13 +245,13 @@
           "number": 9,
           "name": "Ferran Jutglà",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.3"
         },
         {
           "number": 19,
           "name": "W. Swedberg",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
