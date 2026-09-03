@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T22:05:27.567Z.
+   API-Football v3) pada 2026-09-03T23:04:58.648Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -47,6 +47,11 @@ const siteData = {
             {
                 "home": "Real Sociedad",
                 "away": "Celta Vigo",
+                "score": "0-0"
+            },
+            {
+                "home": "Real Sociedad",
+                "away": "Celta Vigo",
                 "score": "3-1"
             },
             {
@@ -63,11 +68,6 @@ const siteData = {
                 "home": "Celta Vigo",
                 "away": "Real Sociedad",
                 "score": "2-0"
-            },
-            {
-                "home": "Celta Vigo",
-                "away": "Real Sociedad",
-                "score": "1-2"
             }
         ],
         "form": {
@@ -75,13 +75,14 @@ const siteData = {
                 "results": [
                     "L",
                     "L",
-                    "W"
+                    "W",
+                    "D"
                 ],
-                "cleanSheets": 0,
-                "failedToScore": 1,
+                "cleanSheets": 1,
+                "failedToScore": 2,
                 "goalsFor": 3,
                 "goalsAgainst": 6,
-                "winStreak": 0,
+                "winStreak": 1,
                 "attack": 75,
                 "defense": 40
             },
@@ -259,6 +260,69 @@ const siteData = {
             ]
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-09-04",
+            "time": "01:45",
+            "home": "Toulouse",
+            "away": "Lille",
+            "stadium": "Stadium de Toulouse",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/96.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/79.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Lille",
+            "comparison": {
+                "form": {
+                    "home": 20,
+                    "away": 80
+                },
+                "att": {
+                    "home": 33,
+                    "away": 67
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 35,
+                    "away": 65
+                }
+            },
+            "goals": [
+                {
+                    "minute": "73",
+                    "player": "Ayase Ueda",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Santiago Hidalgo",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Scottish Premiership",
             "date": "2026-09-04",
             "time": "01:45",
@@ -337,69 +401,6 @@ const siteData = {
                 {
                     "minute": "85",
                     "player": "Grant Hanley",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-09-04",
-            "time": "01:45",
-            "home": "Toulouse",
-            "away": "Lille",
-            "stadium": "Stadium de Toulouse",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/96.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/79.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Lille",
-            "comparison": {
-                "form": {
-                    "home": 20,
-                    "away": 80
-                },
-                "att": {
-                    "home": 33,
-                    "away": 67
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 35,
-                    "away": 65
-                }
-            },
-            "goals": [
-                {
-                    "minute": "73",
-                    "player": "Ayase Ueda",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "20",
-                    "player": "Santiago Hidalgo",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1939,7 +1940,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/09/2026 05:05 WIB",
+    "standingsUpdated": "04/09/2026 06:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28018,51 +28019,6 @@ const siteData = {
     "upcoming": {
         "2026-09-05": [
             {
-                "league": "Super Lig",
-                "date": "2026-09-05",
-                "time": "00:00",
-                "home": "Başakşehir",
-                "away": "Galatasaray",
-                "stadium": "Basaksehir Fatih Terim Stadium",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/564.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/645.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Galatasaray",
-                "comparison": {
-                    "form": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "att": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 17,
-                        "away": 83
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-05",
                 "time": "00:00",
@@ -28104,6 +28060,51 @@ const siteData = {
                     "goals": {
                         "home": 56,
                         "away": 44
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-05",
+                "time": "00:00",
+                "home": "Başakşehir",
+                "away": "Galatasaray",
+                "stadium": "Basaksehir Fatih Terim Stadium",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/564.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/645.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Galatasaray",
+                "comparison": {
+                    "form": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "att": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 17,
+                        "away": 83
                     }
                 }
             },
@@ -29953,51 +29954,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-05",
-                "time": "23:30",
-                "home": "Rayo Vallecano",
-                "away": "Racing Santander",
-                "stadium": "Campo de Futbol de Vallecas",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/728.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Rayo Vallecano or draw",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 91,
-                        "away": 9
-                    },
-                    "goals": {
-                        "home": 69,
-                        "away": 31
-                    }
-                }
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-09-05",
                 "time": "23:30",
@@ -30039,6 +29995,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-05",
+                "time": "23:30",
+                "home": "Rayo Vallecano",
+                "away": "Racing Santander",
+                "stadium": "Campo de Futbol de Vallecas",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/728.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Rayo Vallecano or draw",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 91,
+                        "away": 9
+                    },
+                    "goals": {
+                        "home": 69,
+                        "away": 31
                     }
                 }
             },
@@ -30089,51 +30090,6 @@ const siteData = {
             }
         ],
         "2026-09-06": [
-            {
-                "league": "Super Lig",
-                "date": "2026-09-06",
-                "time": "00:00",
-                "home": "Fenerbahçe",
-                "away": "Beşiktaş",
-                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Fenerbahçe or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 45,
-                        "away": 55
-                    }
-                }
-            },
             {
                 "league": "Primeira Liga",
                 "date": "2026-09-06",
@@ -30221,6 +30177,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-06",
+                "time": "00:00",
+                "home": "Fenerbahçe",
+                "away": "Beşiktaş",
+                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Fenerbahçe or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
                     }
                 }
             },
@@ -30315,96 +30316,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-06",
-                "time": "01:45",
-                "home": "Standard Liege",
-                "away": "Antwerp",
-                "stadium": "Maurice Dufrasnestadion",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/733.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/740.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Standard Liege or draw",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "def": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 73,
-                        "away": 27
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-06",
-                "time": "01:45",
-                "home": "St. Truiden",
-                "away": "RAAL La Louvière",
-                "stadium": "Daio Wasabi Stayen",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : St. Truiden or draw",
-                "comparison": {
-                    "form": {
-                        "home": 83,
-                        "away": 17
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 67,
-                        "away": 33
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-06",
                 "time": "01:45",
@@ -30491,6 +30402,96 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-06",
+                "time": "01:45",
+                "home": "Standard Liege",
+                "away": "Antwerp",
+                "stadium": "Maurice Dufrasnestadion",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/733.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/740.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Standard Liege or draw",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 73,
+                        "away": 27
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-06",
+                "time": "01:45",
+                "home": "St. Truiden",
+                "away": "RAAL La Louvière",
+                "stadium": "Daio Wasabi Stayen",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : St. Truiden or draw",
+                "comparison": {
+                    "form": {
+                        "home": 83,
+                        "away": 17
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
                     }
                 }
             },
