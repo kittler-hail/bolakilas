@@ -468,10 +468,12 @@ function initSearch() {
 }
 
 /* =========================================================
-   TAB RENTANG HARI (Riwayat / Hari Ini / Akan Datang) — BARU
+   SORTIR TANGGAL & BULAN (nav harian ‹Hari Ini› + panel kalender)
    ========================================================= */
 
 let activeDateKey = "";
+let calendarCursor = null;  // { year, month(0-based) } — bulan yang lagi ditampilkan di panel kalender
+let calendarOpen = false;
 
 function getAvailableDateKeys() {
   const historyDates = Object.keys(data.history || {}).sort();
@@ -489,109 +491,174 @@ function getMatchesForDateKey(dateKey) {
   return [];
 }
 
-function dayLabelFor(dateKey) {
+function pad2(n) { return String(n).padStart(2, "0"); }
+function ymdKey(year, month, day) { return `${year}-${pad2(month + 1)}-${pad2(day)}`; }
+function dateKeyToYM(dateKey) {
+  const d = new Date(dateKey + "T00:00:00");
+  return { year: d.getFullYear(), month: d.getMonth() };
+}
+function monthLabelFor(year, month) {
+  return new Date(year, month, 1).toLocaleDateString("id-ID", { month: "long", year: "numeric" });
+}
+function compareYM(a, b) { return (a.year - b.year) || (a.month - b.month); }
+
+function navLabelFor(dateKey) {
   if (dateKey === data.date) return "Hari Ini";
-  if (data.date && dateKey < data.date) return "Riwayat";
-  return "Mendatang";
-}
-
-function formatMonthLabel(dateKey) {
   const date = new Date(dateKey + "T00:00:00");
-  if (isNaN(date.getTime())) return "";
-  return date.toLocaleDateString("id-ID", { month: "long", year: "numeric" });
+  if (isNaN(date.getTime())) return dateKey;
+  return date.toLocaleDateString("id-ID", { weekday: "short", day: "numeric", month: "short" });
 }
 
-// Jendela tombol tanggal cepat: ambil sampai NEARBY_WINDOW hari dari daftar
-// key yang TERSEDIA (bukan hitung kalender mentah — key sudah pasti cuma
-// tanggal yang punya data), dipusatkan di sekitar hari ini kalau bisa.
-const NEARBY_WINDOW = 7;
+// Update tampilan nav harian (label tengah, angka di tombol kalender, dan
+// aktif/nonaktifnya panah ‹ › berdasarkan posisi activeDateKey di daftar
+// tanggal yang tersedia) — dipanggil tiap activeDateKey berubah.
+function renderDayNavState() {
+  const keys = getAvailableDateKeys();
+  const idx = keys.indexOf(activeDateKey);
+  const prevBtn = getElement("day-prev-btn");
+  const nextBtn = getElement("day-next-btn");
+  const label = getElement("day-nav-label");
+  const calBtnNum = getElement("day-cal-btn-num");
+  if (prevBtn) prevBtn.disabled = idx <= 0;
+  if (nextBtn) nextBtn.disabled = idx === -1 || idx >= keys.length - 1;
+  if (label) {
+    label.textContent = navLabelFor(activeDateKey);
+    label.disabled = activeDateKey === data.date;
+  }
+  if (calBtnNum) {
+    const date = new Date(activeDateKey + "T00:00:00");
+    calBtnNum.textContent = isNaN(date.getTime()) ? "-" : date.getDate();
+  }
+}
 
-function getNearbyDateKeys(keys) {
-  if (keys.length <= NEARBY_WINDOW) return keys;
-  let idx = data.date ? keys.indexOf(data.date) : -1;
-  if (idx === -1) idx = keys.length - 1;
-  let start = idx - Math.floor((NEARBY_WINDOW - 1) / 2);
-  let end = start + NEARBY_WINDOW;
-  if (start < 0) { end -= start; start = 0; }
-  if (end > keys.length) { start -= (end - keys.length); end = keys.length; }
-  return keys.slice(Math.max(0, start), end);
+// Render grid 7 kolom (Senin s.d Minggu) buat bulan calendarCursor — tanggal
+// dari bulan sebelum/sesudahnya dipakai buat ngisi baris pertama/terakhir
+// (ditandai .is-outside), dan tanggal yang tidak ada data jadwalnya dibuat
+// disabled (tidak bisa diklik) daripada nampilin halaman kosong.
+function renderCalendarGrid() {
+  const panelMonth = getElement("day-cal-month");
+  const panelGrid = getElement("day-cal-grid");
+  const prevMonthBtn = getElement("day-cal-prev-month");
+  const nextMonthBtn = getElement("day-cal-next-month");
+  if (!panelMonth || !panelGrid || !calendarCursor) return;
+
+  const keys = getAvailableDateKeys();
+  const availableSet = new Set(keys);
+  const { year, month } = calendarCursor;
+  panelMonth.textContent = monthLabelFor(year, month);
+
+  const startOffset = (new Date(year, month, 1).getDay() + 6) % 7; // Senin = kolom 0
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const daysInPrevMonth = new Date(year, month, 0).getDate();
+  const totalCells = Math.ceil((startOffset + daysInMonth) / 7) * 7;
+
+  let html = "";
+  for (let i = 0; i < totalCells; i++) {
+    const dayNum = i - startOffset + 1;
+    let cellYear = year, cellMonth = month, cellDay = dayNum, outside = false;
+    if (dayNum < 1) { cellMonth = month - 1; cellDay = daysInPrevMonth + dayNum; outside = true; }
+    else if (dayNum > daysInMonth) { cellMonth = month + 1; cellDay = dayNum - daysInMonth; outside = true; }
+    if (cellMonth < 0) { cellMonth = 11; cellYear -= 1; }
+    else if (cellMonth > 11) { cellMonth = 0; cellYear += 1; }
+    const key = ymdKey(cellYear, cellMonth, cellDay);
+    const cls = ["day-cal-cell"];
+    if (outside) cls.push("is-outside");
+    if (key === activeDateKey) cls.push("is-active");
+    if (key === data.date) cls.push("is-today");
+    const enabled = availableSet.has(key);
+    html += `<button type="button" class="${cls.join(" ")}" data-date="${escapeHTML(key)}" ${enabled ? "" : "disabled"}>${cellDay}</button>`;
+  }
+  panelGrid.innerHTML = html;
+  panelGrid.querySelectorAll(".day-cal-cell:not(:disabled)").forEach(btn => {
+    btn.onclick = () => setActiveDate(btn.dataset.date, { closePanel: true });
+  });
+
+  const earliestYM = keys.length ? dateKeyToYM(keys[0]) : calendarCursor;
+  const latestYM = keys.length ? dateKeyToYM(keys[keys.length - 1]) : calendarCursor;
+  if (prevMonthBtn) prevMonthBtn.disabled = compareYM(calendarCursor, earliestYM) <= 0;
+  if (nextMonthBtn) nextMonthBtn.disabled = compareYM(calendarCursor, latestYM) >= 0;
+}
+
+function openCalendarPanel() {
+  const panel = getElement("day-cal-panel");
+  const calBtn = getElement("day-cal-btn");
+  if (!panel || !calBtn) return;
+  calendarCursor = dateKeyToYM(activeDateKey || data.date);
+  calendarOpen = true;
+  panel.hidden = false;
+  calBtn.setAttribute("aria-expanded", "true");
+  renderCalendarGrid();
+}
+
+function closeCalendarPanel() {
+  const panel = getElement("day-cal-panel");
+  const calBtn = getElement("day-cal-btn");
+  calendarOpen = false;
+  if (panel) panel.hidden = true;
+  if (calBtn) calBtn.setAttribute("aria-expanded", "false");
+}
+
+function setActiveDate(newKey, { closePanel = false } = {}) {
+  if (!newKey || newKey === activeDateKey) { if (closePanel) closeCalendarPanel(); return; }
+  activeDateKey = newKey;
+  renderDayNavState();
+  renderDate();
+  if (closePanel) closeCalendarPanel();
+  const activeLeagueBtn = document.querySelector("#filters .filter-btn.active");
+  renderSchedule(activeLeagueBtn ? activeLeagueBtn.dataset.league : "Semua");
 }
 
 function renderDayTabs() {
-  const pillsWrap = getElement("day-pills");
-  const select = getElement("day-select");
-  if (!select) return;
-
   const keys = getAvailableDateKeys();
-  activeDateKey = data.date || keys[0] || "";
+  if (!activeDateKey || !keys.includes(activeDateKey)) activeDateKey = data.date || keys[0] || "";
 
-  if (keys.length <= 1) {
-    select.innerHTML = `<option value="${escapeHTML(activeDateKey)}">${escapeHTML(formatDate(activeDateKey))}</option>`;
-    select.disabled = true;
-    if (pillsWrap) pillsWrap.innerHTML = "";
-    return;
-  }
+  const prevBtn = getElement("day-prev-btn");
+  const nextBtn = getElement("day-next-btn");
+  const label = getElement("day-nav-label");
+  const calBtn = getElement("day-cal-btn");
+  const closeBtn = getElement("day-cal-close");
+  const prevMonthBtn = getElement("day-cal-prev-month");
+  const nextMonthBtn = getElement("day-cal-next-month");
+  if (!label || !calBtn) return;
 
-  // Dropdown: daftar LENGKAP semua tanggal yang ada data-nya, dikelompokkan
-  // per bulan — cara pasti buat lompat ke tanggal/bulan yang tidak muncul
-  // di deretan tombol cepat di bawah (mis. riwayat lebih dari seminggu lalu).
-  select.disabled = false;
-  let currentMonth = null;
-  let html = "";
-  keys.forEach(k => {
-    const month = formatMonthLabel(k);
-    if (month !== currentMonth) {
-      if (currentMonth !== null) html += `</optgroup>`;
-      html += `<optgroup label="${escapeHTML(month)}">`;
-      currentMonth = month;
-    }
-    const label = `${dayLabelFor(k)} · ${formatDateShort(k)}`;
-    html += `<option value="${escapeHTML(k)}" ${k === activeDateKey ? "selected" : ""}>${escapeHTML(label)}</option>`;
+  renderDayNavState();
+
+  if (prevBtn) prevBtn.onclick = () => {
+    const ks = getAvailableDateKeys();
+    const idx = ks.indexOf(activeDateKey);
+    if (idx > 0) setActiveDate(ks[idx - 1]);
+  };
+  if (nextBtn) nextBtn.onclick = () => {
+    const ks = getAvailableDateKeys();
+    const idx = ks.indexOf(activeDateKey);
+    if (idx !== -1 && idx < ks.length - 1) setActiveDate(ks[idx + 1]);
+  };
+  label.onclick = () => { if (data.date) setActiveDate(data.date); };
+  calBtn.onclick = () => { calendarOpen ? closeCalendarPanel() : openCalendarPanel(); };
+  if (closeBtn) closeBtn.onclick = () => closeCalendarPanel();
+  if (prevMonthBtn) prevMonthBtn.onclick = () => {
+    if (!calendarCursor) return;
+    calendarCursor = { year: calendarCursor.month === 0 ? calendarCursor.year - 1 : calendarCursor.year, month: (calendarCursor.month + 11) % 12 };
+    renderCalendarGrid();
+  };
+  if (nextMonthBtn) nextMonthBtn.onclick = () => {
+    if (!calendarCursor) return;
+    calendarCursor = { year: calendarCursor.month === 11 ? calendarCursor.year + 1 : calendarCursor.year, month: (calendarCursor.month + 1) % 12 };
+    renderCalendarGrid();
+  };
+
+  // Tutup panel kalau klik di luar panel/tombolnya, atau tekan Escape —
+  // listener global ini cukup dipasang sekali (renderDayTabs cuma jalan
+  // sekali saat init), makanya bukan bagian dari renderCalendarGrid.
+  document.addEventListener("click", (e) => {
+    if (!calendarOpen) return;
+    const panel = getElement("day-cal-panel");
+    if (panel && (panel.contains(e.target) || calBtn.contains(e.target))) return;
+    closeCalendarPanel();
   });
-  html += `</optgroup>`;
-  select.innerHTML = html;
-
-  // Tombol tanggal cepat: cuma hari-hari DEKAT hari ini, biar ringkas &
-  // gampang diketuk langsung tanpa buka dropdown buat kasus paling umum.
-  const renderPills = () => {
-    if (!pillsWrap) return;
-    const nearbyKeys = getNearbyDateKeys(keys);
-    pillsWrap.innerHTML = nearbyKeys.map(k => {
-      const isToday = k === data.date;
-      const date = new Date(k + "T00:00:00");
-      const weekday = isNaN(date.getTime()) ? "" : date.toLocaleDateString("id-ID", { weekday: "short" });
-      const day = isNaN(date.getTime()) ? "" : date.getDate();
-      return `
-        <button type="button" class="day-pill ${k === activeDateKey ? "active" : ""}" data-date="${escapeHTML(k)}" aria-label="${escapeHTML(formatDate(k))}">
-          <span class="day-pill-top">${isToday ? "Hari Ini" : escapeHTML(weekday)}</span>
-          <span class="day-pill-num">${day}</span>
-        </button>`;
-    }).join("");
-    pillsWrap.querySelectorAll(".day-pill").forEach(btn => {
-      btn.addEventListener("click", function () {
-        if (this.dataset.date === activeDateKey) return;
-        select.value = this.dataset.date;
-        select.onchange();
-      });
-    });
-  };
-  renderPills();
-
-  select.onchange = function () {
-    activeDateKey = this.value;
-    const dateEl = getElement("schedule-date");
-    if (dateEl) dateEl.textContent = formatDate(activeDateKey);
-    if (pillsWrap) {
-      // Jendela tombol cepat tetap sekitar HARI INI (bukan ikut geser ke
-      // tanggal aktif) — kalau tanggal yang dipilih lewat dropdown ada di
-      // luar jendela, wajar tidak ada tombol yang aktif di sini.
-      pillsWrap.querySelectorAll(".day-pill").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.date === activeDateKey);
-      });
-    }
-    const activeLeagueBtn = document.querySelector("#filters .filter-btn.active");
-    renderSchedule(activeLeagueBtn ? activeLeagueBtn.dataset.league : "Semua");
-  };
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && calendarOpen) closeCalendarPanel();
+  });
 }
 
 /* =========================================================
@@ -1738,29 +1805,34 @@ function getAllNews() {
 function renderNews() {
   const container = getElement("news-grid");
   if (!container) return;
-  const news = getAllNews();
+  // Cuma berita yang punya foto asli (`image`) yang layak tampil di
+  // grid ini — dulu berita tanpa foto (termasuk SEMUA berita Transfer,
+  // yang sengaja tidak pakai logo klub sebagai gambar kartu) diisi
+  // placeholder ikon bola generic; sekarang dibuang saja daripada
+  // nampilin kartu berisi placeholder yang sama berulang-ulang. Filter
+  // ini SENGAJA cuma di sini (bukan di getAllNews()) — ticker berjalan
+  // di renderTicker() tetap ikutkan semua berita karena cuma teks,
+  // tidak butuh gambar.
+  const news = getAllNews().filter(item => !!item.image);
   if (!news.length) { container.innerHTML = ""; return; }
 
-  container.innerHTML = news.map(item => {
+  container.innerHTML = news.map((item, i) => {
     const hasLink = !!item.url;
     const tag = hasLink ? "a" : "div";
     const linkAttrs = hasLink ? `href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer"` : "";
-    // `image` = foto asli (cover penuh, mis. thumbnail berita). Berita
-    // transfer (item.logo = lambang klub) SENGAJA tidak menampilkan
-    // lambang itu sebagai gambar kartu — satu lambang klub yang sama
-    // besar-besar di tiap kartu transfer terasa berulang/kurang seperti
-    // "berita" sungguhan — jadi disamakan dengan varian kosong (panel
-    // gradasi + ikon bola) supaya tetap ada sentuhan visual tanpa
-    // mengulang logo yang sama.
-    const thumb = item.image ? `
-      <div class="news-thumb-wrap">
-        <img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)}" loading="lazy">
-      </div>` : `
-      <div class="news-thumb-wrap news-thumb-wrap--empty"><span>⚽</span></div>`;
+    // Ukuran kartu bervariasi mengikuti urutan dari sumber (bola.net
+    // menaruh berita paling baru/menonjol di urutan teratas listing-nya)
+    // — dipakai sebagai proxy viralitas karena situs sumber tidak
+    // menyediakan angka pembaca/share asli. Berita ke-1 jadi kartu
+    // "Sorotan" full-width, ke-2 & ke-3 kartu medium, sisanya standar.
+    const sizeClass = i === 0 ? " news-card--featured" : i <= 2 ? " news-card--medium" : "";
 
     return `
-    <${tag} class="news-card reveal" ${linkAttrs}>
-      ${thumb}
+    <${tag} class="news-card${sizeClass} reveal" ${linkAttrs}>
+      <div class="news-thumb-wrap">
+        <img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)}" loading="lazy">
+        ${i === 0 ? '<span class="news-badge-hot">Sorotan</span>' : ""}
+      </div>
       <div class="news-body">
         <span class="news-tag">${escapeHTML(item.tag)}</span>
         <h3>${escapeHTML(item.title)}</h3>

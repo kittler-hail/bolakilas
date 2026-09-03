@@ -77,13 +77,33 @@
       </div>
     </div>
 
-    <!-- SORTIR TANGGAL & BULAN: tombol tanggal ringkas untuk hari-hari dekat hari ini,
-         + dropdown terpisah (dikelompokkan per bulan) buat lompat ke tanggal/bulan lain -->
-    <div class="day-select-wrap">
-      <div class="day-pills-wrap">
-        <div class="day-pills" id="day-pills"></div>
+    <!-- SORTIR TANGGAL & BULAN: nav ringkas (‹ Hari Ini ›) buat geser sehari-sehari,
+         + tombol kalender yang buka panel grid bulan buat lompat ke tanggal manapun -->
+    <div class="day-nav-wrap">
+      <div class="day-nav">
+        <button type="button" class="day-nav-arrow" id="day-prev-btn" aria-label="Tanggal sebelumnya">‹</button>
+        <button type="button" class="day-nav-label" id="day-nav-label">-</button>
+        <button type="button" class="day-nav-arrow" id="day-next-btn" aria-label="Tanggal berikutnya">›</button>
       </div>
-      <select class="day-select" id="day-select" aria-label="Pilih tanggal jadwal lain"></select>
+      <button type="button" class="day-cal-btn" id="day-cal-btn" aria-label="Buka kalender" aria-expanded="false" aria-controls="day-cal-panel">
+        <span class="day-cal-btn-bar"></span>
+        <span class="day-cal-btn-num" id="day-cal-btn-num">-</span>
+      </button>
+
+      <div class="day-cal-panel" id="day-cal-panel" hidden>
+        <div class="day-cal-head">
+          <strong class="day-cal-month" id="day-cal-month">-</strong>
+          <div class="day-cal-head-actions">
+            <button type="button" class="day-cal-nav" id="day-cal-prev-month" aria-label="Bulan sebelumnya">‹</button>
+            <button type="button" class="day-cal-nav" id="day-cal-next-month" aria-label="Bulan berikutnya">›</button>
+            <button type="button" class="day-cal-close" id="day-cal-close" aria-label="Tutup kalender">×</button>
+          </div>
+        </div>
+        <div class="day-cal-weekdays">
+          <span>Sen</span><span>Sel</span><span>Rab</span><span>Kam</span><span>Jum</span><span>Sab</span><span>Min</span>
+        </div>
+        <div class="day-cal-grid" id="day-cal-grid"></div>
+      </div>
     </div>
 
     <!-- SEARCH -->
