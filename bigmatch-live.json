@@ -3,7 +3,7 @@
   "home": "Real Sociedad",
   "away": "Celta Vigo",
   "statusCode": "FT",
-  "updatedAt": "04/09/2026 05:59 WIB",
+  "updatedAt": "04/09/2026 06:16 WIB",
   "statistics": {
     "home": {
       "possession": 51,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 6,
       "shotsOutsidebox": 10,
-      "passesTotal": 527,
-      "passesAccurate": 452,
+      "passesTotal": 526,
+      "passesAccurate": 453,
       "passesPct": null
     },
     "away": {
