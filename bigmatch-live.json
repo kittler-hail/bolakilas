@@ -3,9 +3,256 @@
   "home": "Real Sociedad",
   "away": "Celta Vigo",
   "statusCode": "NS",
-  "updatedAt": "04/09/2026 01:23 WIB",
+  "updatedAt": "04/09/2026 01:43 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "coach": "P. Matarazzo",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Álex Remiro",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "J. Aramburu",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Zubeldia",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Jon Martín",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Sergio Gómez",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "T. Kubo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Beñat Turrientes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "Y. Herrera",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Barrenetxea",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "O. Óskarsson",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "Mikel Oyarzabal",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 19,
+          "name": "M. Sarr",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Carlos Soler",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "J. Ochieng",
+          "position": "Penyerang"
+        },
+        {
+          "number": 24,
+          "name": "L. Sučić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "A. Zakharyan",
+          "position": "Gelandang"
+        },
+        {
+          "number": 34,
+          "name": "Luken Beitia",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "Héctor Fort",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Jon Gorrotxategi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Gonçalo Guedes",
+          "position": "Penyerang"
+        },
+        {
+          "number": 29,
+          "name": "Alex Garcia",
+          "position": "Penyerang"
+        },
+        {
+          "number": 13,
+          "name": "Unai Marrero",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "Aihen Muñoz",
+          "position": "Bek"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "coach": "Claudio Giráldez",
+      "startXI": [
+        {
+          "number": 13,
+          "name": "I. Radu",
+          "position": "Kiper"
+        },
+        {
+          "number": 15,
+          "name": "Álvaro Núñez",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Yoel Lago",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Marcos Alonso",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Javi Rueda",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Miguel Román",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "I. Moriba",
+          "position": "Gelandang"
+        },
+        {
+          "number": 5,
+          "name": "Sergio Carreira",
+          "position": "Gelandang"
+        },
+        {
+          "number": 28,
+          "name": "Andrés Antañón",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Ferran Jutglà",
+          "position": "Penyerang"
+        },
+        {
+          "number": 19,
+          "name": "W. Swedberg",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 2,
+          "name": "C. Starfelt",
+          "position": "Bek"
+        },
+        {
+          "number": 1,
+          "name": "A. Bayındır",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "A. Faye",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "Javi Rodríguez",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "Javi Galán",
+          "position": "Bek"
+        },
+        {
+          "number": 16,
+          "name": "Hugo González",
+          "position": "Gelandang"
+        },
+        {
+          "number": 30,
+          "name": "H. Burcio",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "Hugo Álvarez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "C. Driouech",
+          "position": "Penyerang"
+        },
+        {
+          "number": 39,
+          "name": "J. El Abdellaoui",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "Iago Aspas",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "Pablo Durán",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Anoeta",
     "city": "San Sebastian",
@@ -14,8 +261,8 @@
   },
   "odds": {
     "bookmaker": "10Bet",
-    "home": "1.84",
-    "draw": "3.60",
-    "away": "4.00"
+    "home": "1.72",
+    "draw": "3.65",
+    "away": "4.65"
   }
 }
