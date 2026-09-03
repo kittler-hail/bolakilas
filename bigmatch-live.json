@@ -2,37 +2,37 @@
   "fixtureId": 1570392,
   "home": "Real Sociedad",
   "away": "Celta Vigo",
-  "statusCode": "1H",
-  "updatedAt": "04/09/2026 02:42 WIB",
+  "statusCode": "HT",
+  "updatedAt": "04/09/2026 02:55 WIB",
   "statistics": {
     "home": {
-      "possession": 58,
-      "shotsTotal": 6,
-      "shotsOnTarget": 4,
+      "possession": 62,
+      "shotsTotal": 8,
+      "shotsOnTarget": 5,
       "corners": 6,
-      "fouls": 6,
+      "fouls": 7,
       "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 4,
-      "shotsOutsidebox": 2,
-      "passesTotal": 249,
-      "passesAccurate": 218,
+      "shotsInsidebox": 5,
+      "shotsOutsidebox": 3,
+      "passesTotal": 313,
+      "passesAccurate": 276,
       "passesPct": null
     },
     "away": {
-      "possession": 42,
-      "shotsTotal": 1,
+      "possession": 38,
+      "shotsTotal": 3,
       "shotsOnTarget": 0,
       "corners": 0,
-      "fouls": 4,
+      "fouls": 8,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 0,
-      "shotsOutsidebox": 1,
-      "passesTotal": 181,
-      "passesAccurate": 152,
+      "shotsOutsidebox": 3,
+      "passesTotal": 200,
+      "passesAccurate": 167,
       "passesPct": null
     }
   },
@@ -51,7 +51,7 @@
           "number": 2,
           "name": "J. Aramburu",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.1"
         },
         {
           "number": 5,
@@ -75,7 +75,7 @@
           "number": 14,
           "name": "T. Kubo",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 8,
@@ -93,7 +93,7 @@
           "number": 7,
           "name": "Barrenetxea",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 9,
@@ -105,7 +105,7 @@
           "number": 10,
           "name": "Mikel Oyarzabal",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.8"
         }
       ],
       "substitutes": [
@@ -191,7 +191,7 @@
           "number": 13,
           "name": "I. Radu",
           "position": "Kiper",
-          "rating": "8.1"
+          "rating": "8.6"
         },
         {
           "number": 15,
@@ -203,19 +203,19 @@
           "number": 18,
           "name": "Yoel Lago",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.6"
         },
         {
           "number": 3,
           "name": "Marcos Alonso",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 17,
           "name": "Javi Rueda",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.5"
         },
         {
           "number": 8,
