@@ -3,36 +3,36 @@
   "home": "Real Sociedad",
   "away": "Celta Vigo",
   "statusCode": "2H",
-  "updatedAt": "04/09/2026 03:32 WIB",
+  "updatedAt": "04/09/2026 03:46 WIB",
   "statistics": {
     "home": {
-      "possession": 53,
-      "shotsTotal": 9,
+      "possession": 51,
+      "shotsTotal": 10,
       "shotsOnTarget": 5,
       "corners": 7,
-      "fouls": 14,
+      "fouls": 15,
       "offsides": 2,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": 0,
       "shotsInsidebox": 5,
-      "shotsOutsidebox": 4,
-      "passesTotal": 403,
-      "passesAccurate": 350,
+      "shotsOutsidebox": 5,
+      "passesTotal": 471,
+      "passesAccurate": 406,
       "passesPct": null
     },
     "away": {
-      "possession": 47,
-      "shotsTotal": 4,
-      "shotsOnTarget": 0,
-      "corners": 1,
-      "fouls": 10,
+      "possession": 49,
+      "shotsTotal": 6,
+      "shotsOnTarget": 2,
+      "corners": 3,
+      "fouls": 11,
       "offsides": 1,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": 0,
-      "shotsInsidebox": 1,
-      "shotsOutsidebox": 3,
-      "passesTotal": 369,
-      "passesAccurate": 319,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 4,
+      "passesTotal": 468,
+      "passesAccurate": 406,
       "passesPct": null
     }
   },
@@ -69,7 +69,7 @@
           "number": 17,
           "name": "Sergio Gómez",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 14,
@@ -99,13 +99,13 @@
           "number": 9,
           "name": "O. Óskarsson",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.1"
         },
         {
           "number": 10,
           "name": "Mikel Oyarzabal",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
@@ -131,7 +131,7 @@
           "number": 24,
           "name": "L. Sučić",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 23,
@@ -155,19 +155,19 @@
           "number": 4,
           "name": "Jon Gorrotxategi",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 11,
           "name": "Gonçalo Guedes",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 29,
           "name": "Alex Garcia",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 13,
@@ -197,19 +197,19 @@
           "number": 15,
           "name": "Álvaro Núñez",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 18,
           "name": "Yoel Lago",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.6"
         },
         {
           "number": 3,
           "name": "Marcos Alonso",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 17,
@@ -221,19 +221,19 @@
           "number": 8,
           "name": "Miguel Román",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 6,
           "name": "I. Moriba",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 5,
           "name": "Sergio Carreira",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 28,
@@ -245,7 +245,7 @@
           "number": 9,
           "name": "Ferran Jutglà",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 19,
@@ -307,7 +307,7 @@
           "number": 24,
           "name": "C. Driouech",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 39,
@@ -319,13 +319,13 @@
           "number": 10,
           "name": "Iago Aspas",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.9"
         },
         {
           "number": 11,
           "name": "Pablo Durán",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.0"
         }
       ]
     }
