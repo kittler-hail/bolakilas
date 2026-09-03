@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T15:04:54.546Z.
+   API-Football v3) pada 2026-09-03T16:06:21.533Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1748,7 +1748,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 22:04 WIB",
+    "standingsUpdated": "03/09/2026 23:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27416,25 +27416,6 @@ const siteData = {
                 "advice": "Winner : Gent"
             },
             {
-                "league": "Scottish Premiership",
-                "date": "2026-09-04",
-                "time": "01:45",
-                "home": "Hibernian",
-                "away": "Heart Of Midlothian",
-                "stadium": "Easter Road",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/249.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/254.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Heart Of Midlothian"
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-04",
                 "time": "01:45",
@@ -27452,6 +27433,25 @@ const siteData = {
                     "away": 50
                 },
                 "advice": "Winner : Lille"
+            },
+            {
+                "league": "Scottish Premiership",
+                "date": "2026-09-04",
+                "time": "01:45",
+                "home": "Hibernian",
+                "away": "Heart Of Midlothian",
+                "stadium": "Easter Road",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/249.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/254.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Heart Of Midlothian"
             },
             {
                 "league": "LaLiga",
@@ -27532,25 +27532,6 @@ const siteData = {
         ],
         "2026-09-05": [
             {
-                "league": "Super Lig",
-                "date": "2026-09-05",
-                "time": "00:00",
-                "home": "Başakşehir",
-                "away": "Galatasaray",
-                "stadium": "Basaksehir Fatih Terim Stadium",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/564.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/645.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Galatasaray"
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-05",
                 "time": "00:00",
@@ -27568,6 +27549,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Combo Double chance : Lyon or draw and +1.5 goals"
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-05",
+                "time": "00:00",
+                "home": "Başakşehir",
+                "away": "Galatasaray",
+                "stadium": "Basaksehir Fatih Terim Stadium",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/564.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/645.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Galatasaray"
             },
             {
                 "league": "Eredivisie",
@@ -27741,25 +27741,6 @@ const siteData = {
                 "advice": "Winner : Nashville SC"
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Toluca",
-                "stadium": "",
-                "round": "Apertura - 7",
-                "statusCode": "POSTP",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Toluca"
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -27781,21 +27762,21 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "FC Juarez",
-                "away": "CF Pachuca",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Toluca",
                 "stadium": "",
                 "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "statusCode": "POSTP",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
                 "prediction": "1 - 2",
                 "odds": {
                     "home": 10,
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or CF Pachuca"
+                "advice": "Double chance : draw or Toluca"
             },
             {
                 "league": "Liga de Expansion MX",
@@ -27815,6 +27796,25 @@ const siteData = {
                     "away": 30
                 },
                 "advice": "Double chance : CA La Paz or draw"
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "FC Juarez",
+                "away": "CF Pachuca",
+                "stadium": "",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or CF Pachuca"
             },
             {
                 "league": "Liga 1 (Indonesia)",
@@ -28235,25 +28235,6 @@ const siteData = {
                 "advice": "Combo Winner : Atletico Madrid and +1.5 goals"
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-05",
-                "time": "21:30",
-                "home": "NEC Nijmegen",
-                "away": "Feyenoord",
-                "stadium": "Goffertstadion",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/413.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/209.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : NEC Nijmegen or draw"
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-05",
                 "time": "21:30",
@@ -28271,6 +28252,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Estrela or draw"
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-05",
+                "time": "21:30",
+                "home": "NEC Nijmegen",
+                "away": "Feyenoord",
+                "stadium": "Goffertstadion",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/413.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/209.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : NEC Nijmegen or draw"
             },
             {
                 "league": "Ligue 1",
