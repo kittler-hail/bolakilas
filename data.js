@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T11:05:09.812Z.
+   API-Football v3) pada 2026-09-03T12:06:47.399Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1748,7 +1748,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 18:05 WIB",
+    "standingsUpdated": "03/09/2026 19:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28116,6 +28116,25 @@ const siteData = {
                 "advice": "Combo Winner : Konyaspor and +1.5 goals"
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Charleroi",
+                "away": "Union St. Gilloise",
+                "stadium": "Stade du Pays de Charleroi",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Union St. Gilloise"
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-05",
                 "time": "21:00",
@@ -28171,25 +28190,6 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Combo Double chance : draw or Falkirk and -3.5 goals"
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Charleroi",
-                "away": "Union St. Gilloise",
-                "stadium": "Stade du Pays de Charleroi",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Union St. Gilloise"
             },
             {
                 "league": "LaLiga",
@@ -28325,25 +28325,6 @@ const siteData = {
                 "advice": "Winner : Hull City"
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-09-05",
-                "time": "23:30",
-                "home": "FC Schalke 04",
-                "away": "Bayern München",
-                "stadium": "Veltins Arena",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/174.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/157.png",
-                "prediction": "1 - 4",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : Bayern München and +1.5 goals"
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-05",
                 "time": "23:30",
@@ -28361,6 +28342,25 @@ const siteData = {
                     "away": 10
                 },
                 "advice": "Double chance : Rayo Vallecano or draw"
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-09-05",
+                "time": "23:30",
+                "home": "FC Schalke 04",
+                "away": "Bayern München",
+                "stadium": "Veltins Arena",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/174.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/157.png",
+                "prediction": "1 - 4",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : Bayern München and +1.5 goals"
             },
             {
                 "league": "Eredivisie",
