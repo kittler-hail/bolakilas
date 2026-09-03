@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-03T14:05:35.550Z.
+   API-Football v3) pada 2026-09-03T15:04:54.546Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1748,7 +1748,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/09/2026 21:05 WIB",
+    "standingsUpdated": "03/09/2026 22:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2624,6 +2624,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/298128.png",
                 "reason": "Muscle Injury",
                 "since": "2026-09-05"
+            },
+            {
+                "player": "S. Mfuni",
+                "photo": "https://media.api-sports.io/football/players/382358.png",
+                "reason": "Loan agreement",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "F. Onyeka",
+                "photo": "https://media.api-sports.io/football/players/15799.png",
+                "reason": "Inactive",
+                "since": "2026-09-05"
             }
         ],
         "aston-villa": [
@@ -2752,39 +2764,13 @@ const siteData = {
                 "since": "2026-09-04"
             }
         ],
-        "manchester-city": [
+        "chelsea": [
             {
                 "player": "E. Fernandez",
                 "photo": "https://media.api-sports.io/football/players/5996.png",
                 "reason": "Coach's decision",
-                "since": "2026-09-05"
+                "since": "2026-08-30"
             },
-            {
-                "player": "J. Doku",
-                "photo": "https://media.api-sports.io/football/players/1422.png",
-                "reason": "Calf Injury",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "M. Nunes",
-                "photo": "https://media.api-sports.io/football/players/41621.png",
-                "reason": "Injury",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "Savinho",
-                "photo": "https://media.api-sports.io/football/players/266657.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-23"
-            },
-            {
-                "player": "Allan Elias",
-                "photo": "https://media.api-sports.io/football/players/425714.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-09-05"
-            }
-        ],
-        "chelsea": [
             {
                 "player": "J. Henderson",
                 "photo": "https://media.api-sports.io/football/players/292.png",
@@ -2872,9 +2858,15 @@ const siteData = {
                 "since": "2026-08-23"
             },
             {
-                "player": "F. Azeez",
-                "photo": "https://media.api-sports.io/football/players/282637.png",
-                "reason": "Abdominal strain",
+                "player": "G. Rutter",
+                "photo": "https://media.api-sports.io/football/players/90590.png",
+                "reason": "Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "M. Wieffer",
+                "photo": "https://media.api-sports.io/football/players/92993.png",
+                "reason": "Knee Injury",
                 "since": "2026-09-05"
             }
         ],
@@ -2894,7 +2886,7 @@ const siteData = {
             {
                 "player": "J. Rodon",
                 "photo": "https://media.api-sports.io/football/players/19321.png",
-                "reason": "Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-09-05"
             },
             {
@@ -2927,6 +2919,12 @@ const siteData = {
                 "player": "J. Dasilva",
                 "photo": "https://media.api-sports.io/football/players/19362.png",
                 "reason": "Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "M. Jensen",
+                "photo": "https://media.api-sports.io/football/players/47438.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-05"
             }
         ],
@@ -3005,6 +3003,12 @@ const siteData = {
                 "player": "X. Simons",
                 "photo": "https://media.api-sports.io/football/players/162016.png",
                 "reason": "Knee Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "Savinho",
+                "photo": "https://media.api-sports.io/football/players/266657.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-05"
             },
             {
@@ -3202,12 +3206,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/409047.png",
                 "reason": "Knee Injury",
                 "since": "2026-09-04"
-            },
-            {
-                "player": "B. Barcola",
-                "photo": "https://media.api-sports.io/football/players/161904.png",
-                "reason": "Inactive",
-                "since": "2026-09-04"
             }
         ],
         "nottingham-forest": [
@@ -3246,8 +3244,8 @@ const siteData = {
             {
                 "player": "I. Sarr",
                 "photo": "https://media.api-sports.io/football/players/2218.png",
-                "reason": "Injury",
-                "since": "2026-08-28"
+                "reason": "Groin Injury",
+                "since": "2026-09-05"
             },
             {
                 "player": "H. Ahanor",
@@ -3259,6 +3257,26 @@ const siteData = {
                 "player": "B. Chilwell",
                 "photo": "https://media.api-sports.io/football/players/2933.png",
                 "reason": "Hamstring Injury",
+                "since": "2026-09-05"
+            }
+        ],
+        "manchester-city": [
+            {
+                "player": "J. Doku",
+                "photo": "https://media.api-sports.io/football/players/1422.png",
+                "reason": "Calf Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "M. Nunes",
+                "photo": "https://media.api-sports.io/football/players/41621.png",
+                "reason": "Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "Allan Elias",
+                "photo": "https://media.api-sports.io/football/players/425714.png",
+                "reason": "Transfer negotiations",
                 "since": "2026-09-05"
             }
         ],
@@ -5288,8 +5306,8 @@ const siteData = {
                 "since": "2026-08-22"
             },
             {
-                "player": "N. Sigur",
-                "photo": "https://media.api-sports.io/football/players/416901.png",
+                "player": "Y. Gboho",
+                "photo": "https://media.api-sports.io/football/players/84128.png",
                 "reason": "Transfer negotiations",
                 "since": "2026-09-03"
             }
@@ -5370,6 +5388,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/25916.png",
                 "reason": "Ankle Injury",
                 "since": "2026-08-22"
+            },
+            {
+                "player": "K. Nakamura",
+                "photo": "https://media.api-sports.io/football/players/33321.png",
+                "reason": "Inactive",
+                "since": "2026-09-04"
             }
         ],
         "le-havre": [
@@ -5482,12 +5506,6 @@ const siteData = {
                 "since": "2026-09-03"
             },
             {
-                "player": "T. Nianzou",
-                "photo": "https://media.api-sports.io/football/players/133110.png",
-                "reason": "Injury",
-                "since": "2026-09-03"
-            },
-            {
                 "player": "B. Andre",
                 "photo": "https://media.api-sports.io/football/players/2204.png",
                 "reason": "Yellow Cards",
@@ -5495,6 +5513,12 @@ const siteData = {
             }
         ],
         "paris-saint-germain": [
+            {
+                "player": "B. Barcola",
+                "photo": "https://media.api-sports.io/football/players/161904.png",
+                "reason": "Inactive",
+                "since": "2026-08-28"
+            },
             {
                 "player": "O. Dembele",
                 "photo": "https://media.api-sports.io/football/players/153.png",
@@ -27392,25 +27416,6 @@ const siteData = {
                 "advice": "Winner : Gent"
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-04",
-                "time": "01:45",
-                "home": "Toulouse",
-                "away": "Lille",
-                "stadium": "Stadium de Toulouse",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/96.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/79.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Lille"
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-04",
                 "time": "01:45",
@@ -27428,6 +27433,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Heart Of Midlothian"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-04",
+                "time": "01:45",
+                "home": "Toulouse",
+                "away": "Lille",
+                "stadium": "Stadium de Toulouse",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/96.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/79.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Lille"
             },
             {
                 "league": "LaLiga",
@@ -27508,25 +27532,6 @@ const siteData = {
         ],
         "2026-09-05": [
             {
-                "league": "Ligue 1",
-                "date": "2026-09-05",
-                "time": "00:00",
-                "home": "Lyon",
-                "away": "Auxerre",
-                "stadium": "Parc Olympique Lyonnais",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/80.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/108.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Lyon or draw and +1.5 goals"
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-05",
                 "time": "00:00",
@@ -27544,6 +27549,25 @@ const siteData = {
                     "away": 45
                 },
                 "advice": "Double chance : draw or Galatasaray"
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-05",
+                "time": "00:00",
+                "home": "Lyon",
+                "away": "Auxerre",
+                "stadium": "Parc Olympique Lyonnais",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/80.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/108.png",
+                "prediction": "3 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Lyon or draw and +1.5 goals"
             },
             {
                 "league": "Eredivisie",
@@ -28211,25 +28235,6 @@ const siteData = {
                 "advice": "Combo Winner : Atletico Madrid and +1.5 goals"
             },
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-05",
-                "time": "21:30",
-                "home": "Estrela",
-                "away": "Famalicao",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15130.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/242.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Estrela or draw"
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-09-05",
                 "time": "21:30",
@@ -28247,6 +28252,25 @@ const siteData = {
                     "away": 30
                 },
                 "advice": "Double chance : NEC Nijmegen or draw"
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-05",
+                "time": "21:30",
+                "home": "Estrela",
+                "away": "Famalicao",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/15130.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/242.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Estrela or draw"
             },
             {
                 "league": "Ligue 1",
