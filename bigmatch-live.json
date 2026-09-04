@@ -2,37 +2,37 @@
   "fixtureId": 1557393,
   "home": "Ipswich",
   "away": "Liverpool",
-  "statusCode": "HT",
-  "updatedAt": "05/09/2026 03:01 WIB",
+  "statusCode": "2H",
+  "updatedAt": "05/09/2026 03:20 WIB",
   "statistics": {
     "home": {
-      "possession": 41,
-      "shotsTotal": 8,
-      "shotsOnTarget": 2,
+      "possession": 38,
+      "shotsTotal": 10,
+      "shotsOnTarget": 3,
       "corners": 3,
-      "fouls": 2,
-      "offsides": 2,
+      "fouls": 4,
+      "offsides": 3,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 4,
-      "shotsOutsidebox": 4,
-      "passesTotal": 181,
-      "passesAccurate": 151,
+      "shotsOutsidebox": 6,
+      "passesTotal": 228,
+      "passesAccurate": 184,
       "passesPct": null
     },
     "away": {
-      "possession": 59,
-      "shotsTotal": 7,
-      "shotsOnTarget": 6,
-      "corners": 2,
-      "fouls": 10,
+      "possession": 62,
+      "shotsTotal": 9,
+      "shotsOnTarget": 7,
+      "corners": 3,
+      "fouls": 12,
       "offsides": 2,
-      "yellowCards": 1,
+      "yellowCards": 3,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 5,
-      "passesTotal": 262,
-      "passesAccurate": 235,
+      "passesTotal": 387,
+      "passesAccurate": 345,
       "passesPct": null
     }
   },
@@ -45,13 +45,13 @@
           "number": 37,
           "name": "K. Scherpen",
           "position": "Kiper",
-          "rating": "6.4"
+          "rating": "6.8"
         },
         {
           "number": 26,
           "name": "D. O&apos;Shea",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "5.6"
         },
         {
           "number": 6,
@@ -75,25 +75,25 @@
           "number": 23,
           "name": "S. Lukić",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.0"
         },
         {
           "number": 25,
           "name": "E. Palacios",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 7,
           "name": "A. Fatawu",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 10,
           "name": "J. Enciso",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.5"
         },
         {
           "number": 38,
@@ -173,25 +173,25 @@
           "number": 1,
           "name": "Alisson Becker",
           "position": "Kiper",
-          "rating": "7.4"
+          "rating": "7.1"
         },
         {
           "number": 33,
           "name": "R. Araújo",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.4"
         },
         {
           "number": 5,
           "name": "J. Jacquet",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "6.8"
         },
         {
           "number": 4,
           "name": "V. van Dijk",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.3"
         },
         {
           "number": 6,
@@ -203,7 +203,7 @@
           "number": 10,
           "name": "A. Mac Allister",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.5"
         },
         {
           "number": 8,
@@ -221,19 +221,19 @@
           "number": 7,
           "name": "F. Wirtz",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.8"
         },
         {
           "number": 23,
           "name": "Víctor Muñoz",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 9,
           "name": "A. Isak",
           "position": "Penyerang",
-          "rating": "9.1"
+          "rating": "9.0"
         }
       ],
       "substitutes": [
