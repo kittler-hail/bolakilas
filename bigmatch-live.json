@@ -2,26 +2,26 @@
   "fixtureId": 1557393,
   "home": "Ipswich",
   "away": "Liverpool",
-  "statusCode": "2H",
-  "updatedAt": "05/09/2026 03:49 WIB",
+  "statusCode": "FT",
+  "updatedAt": "05/09/2026 04:04 WIB",
   "statistics": {
     "home": {
-      "possession": 43,
-      "shotsTotal": 12,
-      "shotsOnTarget": 4,
+      "possession": 45,
+      "shotsTotal": 14,
+      "shotsOnTarget": 5,
       "corners": 4,
       "fouls": 6,
       "offsides": 5,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 4,
-      "shotsOutsidebox": 8,
-      "passesTotal": 384,
-      "passesAccurate": 316,
+      "shotsOutsidebox": 10,
+      "passesTotal": 427,
+      "passesAccurate": 356,
       "passesPct": null
     },
     "away": {
-      "possession": 57,
+      "possession": 55,
       "shotsTotal": 10,
       "shotsOnTarget": 7,
       "corners": 3,
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 5,
-      "passesTotal": 504,
-      "passesAccurate": 445,
+      "passesTotal": 523,
+      "passesAccurate": 462,
       "passesPct": null
     }
   },
@@ -69,13 +69,13 @@
           "number": 3,
           "name": "L. Davis",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 23,
           "name": "S. Lukić",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 25,
@@ -113,7 +113,7 @@
           "number": 20,
           "name": "K. McAteer",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "5.8"
         },
         {
           "number": 32,
@@ -131,7 +131,7 @@
           "number": 42,
           "name": "A. Ouattara",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.7"
         },
         {
           "number": 4,
@@ -155,7 +155,7 @@
           "number": 47,
           "name": "J. Clarke",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "6.3"
         },
         {
           "number": 9,
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "Alisson Becker",
           "position": "Kiper",
-          "rating": "7.8"
+          "rating": "8.2"
         },
         {
           "number": 33,
@@ -271,13 +271,13 @@
           "number": 38,
           "name": "R. Gravenberch",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.0"
         },
         {
           "number": 42,
           "name": "T. Nyoni",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 29,
