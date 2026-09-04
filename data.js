@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-04T03:05:32.852Z.
+   API-Football v3) pada 2026-09-04T04:05:19.653Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2020,7 +2020,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/09/2026 10:05 WIB",
+    "standingsUpdated": "04/09/2026 11:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28720,51 +28720,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Durango",
-                "away": "Tlaxcala",
-                "stadium": "Estadio Francisco Zarco",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Durango or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "def": {
-                        "home": 61,
-                        "away": 39
-                    },
-                    "poisson": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 83,
-                        "away": 17
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -28812,45 +28767,45 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Mineros de Zacatecas",
-                "stadium": "Estadio Guaycura",
+                "time": "08:00",
+                "home": "Durango",
+                "away": "Tlaxcala",
+                "stadium": "Estadio Francisco Zarco",
                 "round": "Apertura - 7",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
-                "prediction": "2 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
-                "advice": "Double chance : CA La Paz or draw",
+                "advice": "Double chance : Durango or draw",
                 "comparison": {
                     "form": {
                         "home": 50,
                         "away": 50
                     },
                     "att": {
-                        "home": 42,
-                        "away": 58
+                        "home": 20,
+                        "away": 80
                     },
                     "def": {
-                        "home": 73,
-                        "away": 27
+                        "home": 61,
+                        "away": 39
                     },
                     "poisson": {
-                        "home": 63,
-                        "away": 37
+                        "home": 20,
+                        "away": 80
                     },
                     "h2h": {
-                        "home": 7,
-                        "away": 93
+                        "home": 100,
+                        "away": 0
                     },
                     "goals": {
-                        "home": 21,
-                        "away": 79
+                        "home": 83,
+                        "away": 17
                     }
                 }
             },
@@ -28896,6 +28851,51 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Mineros de Zacatecas",
+                "stadium": "Estadio Guaycura",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : CA La Paz or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "poisson": {
+                        "home": 63,
+                        "away": 37
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 21,
+                        "away": 79
                     }
                 }
             },
@@ -29665,6 +29665,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Charleroi",
+                "away": "Union St. Gilloise",
+                "stadium": "Stade du Pays de Charleroi",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Union St. Gilloise",
+                "comparison": {
+                    "form": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 29,
+                        "away": 71
+                    }
+                }
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-05",
                 "time": "21:00",
@@ -29696,8 +29741,8 @@ const siteData = {
                         "away": 33
                     },
                     "poisson": {
-                        "home": 57,
-                        "away": 43
+                        "home": 58,
+                        "away": 42
                     },
                     "h2h": {
                         "home": 80,
@@ -29796,51 +29841,6 @@ const siteData = {
                     "goals": {
                         "home": 35,
                         "away": 65
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Charleroi",
-                "away": "Union St. Gilloise",
-                "stadium": "Stade du Pays de Charleroi",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Union St. Gilloise",
-                "comparison": {
-                    "form": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "att": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 29,
-                        "away": 71
                     }
                 }
             },
@@ -30160,51 +30160,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-09-05",
-                "time": "23:30",
-                "home": "FC Schalke 04",
-                "away": "Bayern München",
-                "stadium": "Veltins Arena",
-                "round": "Pekan 2",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/174.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/157.png",
-                "prediction": "1 - 4",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : Bayern München and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-05",
                 "time": "23:30",
@@ -30246,6 +30201,51 @@ const siteData = {
                     "goals": {
                         "home": 69,
                         "away": 31
+                    }
+                }
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-09-05",
+                "time": "23:30",
+                "home": "FC Schalke 04",
+                "away": "Bayern München",
+                "stadium": "Veltins Arena",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/174.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/157.png",
+                "prediction": "1 - 4",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : Bayern München and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
@@ -30296,6 +30296,51 @@ const siteData = {
             }
         ],
         "2026-09-06": [
+            {
+                "league": "Super Lig",
+                "date": "2026-09-06",
+                "time": "00:00",
+                "home": "Fenerbahçe",
+                "away": "Beşiktaş",
+                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Fenerbahçe or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
+                    }
+                }
+            },
             {
                 "league": "Primeira Liga",
                 "date": "2026-09-06",
@@ -30383,51 +30428,6 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
-                    }
-                }
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-06",
-                "time": "00:00",
-                "home": "Fenerbahçe",
-                "away": "Beşiktaş",
-                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Fenerbahçe or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 45,
-                        "away": 55
                     }
                 }
             },
@@ -30702,51 +30702,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-06",
-                "time": "02:00",
-                "home": "Willem II",
-                "away": "Excelsior",
-                "stadium": "Koning Willem II Stadion",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/195.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/196.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Excelsior and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 14,
-                        "away": 86
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 23,
-                        "away": 77
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-06",
                 "time": "02:00",
@@ -30788,6 +30743,51 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-06",
+                "time": "02:00",
+                "home": "Willem II",
+                "away": "Excelsior",
+                "stadium": "Koning Willem II Stadion",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/195.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/196.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Excelsior and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 14,
+                        "away": 86
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
                     }
                 }
             },
@@ -31422,6 +31422,96 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Tigres UANL",
+                "away": "Necaxa",
+                "stadium": "Estadio Universitario",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Tigres UANL",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "poisson": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 59,
+                        "away": 41
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Club America",
+                "away": "Club Tijuana",
+                "stadium": "Estadio Banorte",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Club America",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-06",
                 "time": "08:00",
@@ -31453,8 +31543,8 @@ const siteData = {
                         "away": 55
                     },
                     "poisson": {
-                        "home": 66,
-                        "away": 34
+                        "home": 67,
+                        "away": 33
                     },
                     "h2h": {
                         "home": 85,
@@ -31498,8 +31588,8 @@ const siteData = {
                         "away": 53
                     },
                     "poisson": {
-                        "home": 70,
-                        "away": 30
+                        "home": 71,
+                        "away": 29
                     },
                     "h2h": {
                         "home": 0,
@@ -31588,8 +31678,8 @@ const siteData = {
                         "away": 40
                     },
                     "poisson": {
-                        "home": 30,
-                        "away": 70
+                        "home": 31,
+                        "away": 69
                     },
                     "h2h": {
                         "home": 0,
@@ -31598,96 +31688,6 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Tigres UANL",
-                "away": "Necaxa",
-                "stadium": "Estadio Universitario",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Tigres UANL",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "def": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "poisson": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "h2h": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "goals": {
-                        "home": 59,
-                        "away": 41
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Club America",
-                "away": "Club Tijuana",
-                "stadium": "Estadio Banorte",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Club America",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 61,
-                        "away": 39
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
                     }
                 }
             },
@@ -32547,6 +32547,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-06",
+                "time": "21:00",
+                "home": "Kortrijk",
+                "away": "Zulte Waregem",
+                "stadium": "Guldensporen Stadion",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/734.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/600.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Zulte Waregem",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 11,
+                        "away": 89
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 12,
+                        "away": 88
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 55,
+                        "away": 45
+                    }
+                }
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-06",
                 "time": "21:00",
@@ -32633,51 +32678,6 @@ const siteData = {
                     "goals": {
                         "home": 29,
                         "away": 71
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-06",
-                "time": "21:00",
-                "home": "Kortrijk",
-                "away": "Zulte Waregem",
-                "stadium": "Guldensporen Stadion",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/734.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/600.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Zulte Waregem",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 11,
-                        "away": 89
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 12,
-                        "away": 88
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 55,
-                        "away": 45
                     }
                 }
             },
