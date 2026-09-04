@@ -3,10 +3,10 @@
   "home": "Ipswich",
   "away": "Liverpool",
   "statusCode": "HT",
-  "updatedAt": "05/09/2026 02:48 WIB",
+  "updatedAt": "05/09/2026 03:01 WIB",
   "statistics": {
     "home": {
-      "possession": 44,
+      "possession": 41,
       "shotsTotal": 8,
       "shotsOnTarget": 2,
       "corners": 3,
@@ -16,12 +16,12 @@
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 4,
-      "passesTotal": 177,
-      "passesAccurate": 149,
+      "passesTotal": 181,
+      "passesAccurate": 151,
       "passesPct": null
     },
     "away": {
-      "possession": 56,
+      "possession": 59,
       "shotsTotal": 7,
       "shotsOnTarget": 6,
       "corners": 2,
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 2,
       "shotsOutsidebox": 5,
-      "passesTotal": 233,
-      "passesAccurate": 211,
+      "passesTotal": 262,
+      "passesAccurate": 235,
       "passesPct": null
     }
   },
@@ -63,7 +63,7 @@
           "number": 24,
           "name": "J. Greaves",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 3,
@@ -87,7 +87,7 @@
           "number": 7,
           "name": "A. Fatawu",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 10,
@@ -185,7 +185,7 @@
           "number": 5,
           "name": "J. Jacquet",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.1"
         },
         {
           "number": 4,
@@ -197,13 +197,13 @@
           "number": 6,
           "name": "M. Kerkez",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.6"
         },
         {
           "number": 10,
           "name": "A. Mac Allister",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 8,
@@ -227,7 +227,7 @@
           "number": 23,
           "name": "Víctor Muñoz",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 9,
@@ -301,18 +301,14 @@
     "image": ""
   },
   "odds": {
-    "bookmaker": "10Bet",
-    "home": "5.75",
-    "draw": "4.70",
-    "away": "1.46",
-    "overUnder": {
-      "line": "2.5",
-      "over": "1.40",
-      "under": "2.90"
-    },
+    "bookmaker": "William Hill",
+    "home": "5.50",
+    "draw": "4.60",
+    "away": "1.50",
+    "overUnder": null,
     "btts": {
-      "yes": "1.50",
-      "no": "2.50"
+      "yes": "1.53",
+      "no": "2.45"
     }
   },
   "liveOdds": null
