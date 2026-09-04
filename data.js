@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-04T11:05:10.360Z.
+   API-Football v3) pada 2026-09-04T12:06:34.153Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1880,205 +1880,205 @@ const siteData = {
         "Liga 1 (Indonesia)": [
             {
                 "rank": 1,
-                "team": "Persib Bandung",
-                "logo": "https://media.api-sports.io/football/teams/2445.png",
-                "played": 34,
-                "win": 24,
-                "draw": 7,
-                "lose": 3,
-                "gd": 37,
-                "points": 79
+                "team": "Arema FC",
+                "logo": "https://media.api-sports.io/football/teams/2438.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 4,
+                "points": 3
             },
             {
                 "rank": 2,
-                "team": "Pusamania Borneo",
-                "logo": "https://media.api-sports.io/football/teams/2442.png",
-                "played": 34,
-                "win": 25,
-                "draw": 4,
-                "lose": 5,
-                "gd": 43,
-                "points": 79
+                "team": "Persib Bandung",
+                "logo": "https://media.api-sports.io/football/teams/2445.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 3,
                 "team": "Persija",
                 "logo": "https://media.api-sports.io/football/teams/10134.png",
-                "played": 34,
-                "win": 22,
-                "draw": 5,
-                "lose": 7,
-                "gd": 36,
-                "points": 71
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 4,
-                "team": "Persebaya Surabaya",
-                "logo": "https://media.api-sports.io/football/teams/2446.png",
-                "played": 34,
-                "win": 16,
-                "draw": 10,
-                "lose": 8,
-                "gd": 26,
-                "points": 58
+                "team": "Persik Kediri",
+                "logo": "https://media.api-sports.io/football/teams/4241.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 5,
-                "team": "Bhayangkara FC",
-                "logo": "https://media.api-sports.io/football/teams/2443.png",
-                "played": 34,
-                "win": 16,
-                "draw": 5,
-                "lose": 13,
-                "gd": 8,
-                "points": 53
+                "team": "PSM Makassar",
+                "logo": "https://media.api-sports.io/football/teams/2441.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 6,
-                "team": "Java United",
-                "logo": "",
-                "played": 34,
-                "win": 15,
-                "draw": 8,
-                "lose": 11,
-                "gd": 15,
-                "points": 53
+                "team": "Persebaya Surabaya",
+                "logo": "https://media.api-sports.io/football/teams/2446.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 7,
-                "team": "Dewa United",
-                "logo": "https://media.api-sports.io/football/teams/17902.png",
-                "played": 34,
-                "win": 16,
-                "draw": 5,
-                "lose": 13,
-                "gd": 7,
-                "points": 53
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 8,
                 "team": "Bali United",
                 "logo": "https://media.api-sports.io/football/teams/2448.png",
-                "played": 34,
-                "win": 14,
-                "draw": 9,
-                "lose": 11,
-                "gd": 9,
-                "points": 51
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 9,
-                "team": "Arema FC",
-                "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 34,
-                "win": 13,
-                "draw": 9,
-                "lose": 12,
-                "gd": 6,
-                "points": 48
+                "team": "Persijap",
+                "logo": "https://media.api-sports.io/football/teams/11132.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 10,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 34,
-                "win": 13,
-                "draw": 6,
-                "lose": 15,
-                "gd": 1,
-                "points": 45
+                "team": "PSIM Yogyakarta",
+                "logo": "https://media.api-sports.io/football/teams/4235.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 11,
-                "team": "PSIM Yogyakarta",
-                "logo": "https://media.api-sports.io/football/teams/4235.png",
-                "played": 34,
-                "win": 11,
-                "draw": 12,
-                "lose": 11,
-                "gd": -1,
-                "points": 45
+                "team": "Dewa United",
+                "logo": "https://media.api-sports.io/football/teams/17902.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 12,
-                "team": "Persik Kediri",
-                "logo": "https://media.api-sports.io/football/teams/4241.png",
-                "played": 34,
-                "win": 11,
-                "draw": 6,
-                "lose": 17,
-                "gd": -19,
-                "points": 39
+                "team": "PSS Sleman",
+                "logo": "https://media.api-sports.io/football/teams/3882.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 13,
-                "team": "Persijap",
-                "logo": "https://media.api-sports.io/football/teams/11132.png",
-                "played": 34,
-                "win": 9,
-                "draw": 9,
-                "lose": 16,
-                "gd": -14,
-                "points": 36
+                "team": "Pusamania Borneo",
+                "logo": "https://media.api-sports.io/football/teams/2442.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 14,
-                "team": "Persepam Madura Utd",
-                "logo": "https://media.api-sports.io/football/teams/2444.png",
-                "played": 34,
-                "win": 9,
-                "draw": 8,
-                "lose": 17,
-                "gd": -17,
-                "points": 35
+                "team": "Bhayangkara FC",
+                "logo": "https://media.api-sports.io/football/teams/2443.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 15,
-                "team": "PSM Makassar",
-                "logo": "https://media.api-sports.io/football/teams/2441.png",
-                "played": 34,
-                "win": 8,
-                "draw": 10,
-                "lose": 16,
-                "gd": -10,
-                "points": 34
+                "team": "Persepam Madura Utd",
+                "logo": "https://media.api-sports.io/football/teams/2444.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 16,
-                "team": "Persis Solo",
-                "logo": "https://media.api-sports.io/football/teams/4243.png",
-                "played": 34,
-                "win": 8,
-                "draw": 10,
-                "lose": 16,
-                "gd": -20,
-                "points": 34
+                "team": "Malut United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 17,
-                "team": "Semen Padang",
-                "logo": "https://media.api-sports.io/football/teams/2456.png",
-                "played": 34,
-                "win": 5,
-                "draw": 5,
-                "lose": 24,
-                "gd": -43,
-                "points": 20
+                "team": "Garudayaksa",
+                "logo": "https://media.api-sports.io/football/teams/26645.png",
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 18,
-                "team": "PSBS Biak Numfor",
-                "logo": "https://media.api-sports.io/football/teams/4232.png",
-                "played": 34,
-                "win": 4,
-                "draw": 6,
-                "lose": 24,
-                "gd": -64,
-                "points": 18
+                "team": "Adhyaksa",
+                "logo": "https://media.api-sports.io/football/teams/24993.png",
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -4,
+                "points": 0
             }
         ]
     },
-    "standingsUpdated": "04/09/2026 18:05 WIB",
+    "standingsUpdated": "04/09/2026 19:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28784,51 +28784,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-05",
-                "time": "08:00",
-                "home": "Durango",
-                "away": "Tlaxcala",
-                "stadium": "Estadio Francisco Zarco",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Durango or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "def": {
-                        "home": 61,
-                        "away": 39
-                    },
-                    "poisson": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 83,
-                        "away": 17
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-05",
                 "time": "08:00",
@@ -28876,45 +28831,45 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-05",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Mineros de Zacatecas",
-                "stadium": "Estadio Guaycura",
+                "time": "08:00",
+                "home": "Durango",
+                "away": "Tlaxcala",
+                "stadium": "Estadio Francisco Zarco",
                 "round": "Apertura - 7",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
-                "prediction": "2 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
-                "advice": "Double chance : CA La Paz or draw",
+                "advice": "Double chance : Durango or draw",
                 "comparison": {
                     "form": {
                         "home": 50,
                         "away": 50
                     },
                     "att": {
-                        "home": 42,
-                        "away": 58
+                        "home": 20,
+                        "away": 80
                     },
                     "def": {
-                        "home": 73,
-                        "away": 27
+                        "home": 61,
+                        "away": 39
                     },
                     "poisson": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "h2h": {
-                        "home": 7,
-                        "away": 93
-                    },
-                    "goals": {
                         "home": 21,
                         "away": 79
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 83,
+                        "away": 17
                     }
                 }
             },
@@ -28960,6 +28915,51 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-05",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Mineros de Zacatecas",
+                "stadium": "Estadio Guaycura",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : CA La Paz or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "poisson": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 21,
+                        "away": 79
                     }
                 }
             },
@@ -29684,96 +29684,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Erzurumspor FK",
-                "away": "Konyaspor",
-                "stadium": "",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1009.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Konyaspor and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "def": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 20,
-                        "away": 80
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-05",
-                "time": "21:00",
-                "home": "Charleroi",
-                "away": "Union St. Gilloise",
-                "stadium": "Stade du Pays de Charleroi",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Union St. Gilloise",
-                "comparison": {
-                    "form": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "att": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 29,
-                        "away": 71
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-05",
                 "time": "21:00",
@@ -29905,6 +29815,96 @@ const siteData = {
                     "goals": {
                         "home": 35,
                         "away": 65
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Erzurumspor FK",
+                "away": "Konyaspor",
+                "stadium": "",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1009.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Konyaspor and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 20,
+                        "away": 80
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-05",
+                "time": "21:00",
+                "home": "Charleroi",
+                "away": "Union St. Gilloise",
+                "stadium": "Stade du Pays de Charleroi",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/736.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Union St. Gilloise",
+                "comparison": {
+                    "form": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 29,
+                        "away": 71
                     }
                 }
             },
@@ -31486,6 +31486,96 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Tigres UANL",
+                "away": "Necaxa",
+                "stadium": "Estadio Universitario",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Tigres UANL",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "poisson": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 59,
+                        "away": 41
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-06",
+                "time": "08:00",
+                "home": "Club America",
+                "away": "Club Tijuana",
+                "stadium": "Estadio Banorte",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Club America",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-06",
                 "time": "08:00",
@@ -31662,96 +31752,6 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Tigres UANL",
-                "away": "Necaxa",
-                "stadium": "Estadio Universitario",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Tigres UANL",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "def": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "poisson": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "h2h": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "goals": {
-                        "home": 59,
-                        "away": 41
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-06",
-                "time": "08:00",
-                "home": "Club America",
-                "away": "Club Tijuana",
-                "stadium": "Estadio Banorte",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Club America",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 61,
-                        "away": 39
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
                     }
                 }
             },
@@ -32521,6 +32521,96 @@ const siteData = {
                 }
             },
             {
+                "league": "Scottish Premiership",
+                "date": "2026-09-06",
+                "time": "21:00",
+                "home": "Heart Of Midlothian",
+                "away": "Dundee",
+                "stadium": "Tynecastle Park",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/254.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/253.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Heart Of Midlothian or draw",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 76,
+                        "away": 24
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 82,
+                        "away": 18
+                    }
+                }
+            },
+            {
+                "league": "Scottish Premiership",
+                "date": "2026-09-06",
+                "time": "21:00",
+                "home": "ST Johnstone",
+                "away": "Hibernian",
+                "stadium": "McDiarmid Park",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/258.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/249.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Hibernian and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 29,
+                        "away": 71
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-06",
                 "time": "21:00",
@@ -32652,96 +32742,6 @@ const siteData = {
                     "goals": {
                         "home": 55,
                         "away": 45
-                    }
-                }
-            },
-            {
-                "league": "Scottish Premiership",
-                "date": "2026-09-06",
-                "time": "21:00",
-                "home": "Heart Of Midlothian",
-                "away": "Dundee",
-                "stadium": "Tynecastle Park",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/254.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/253.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Heart Of Midlothian or draw",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 76,
-                        "away": 24
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 82,
-                        "away": 18
-                    }
-                }
-            },
-            {
-                "league": "Scottish Premiership",
-                "date": "2026-09-06",
-                "time": "21:00",
-                "home": "ST Johnstone",
-                "away": "Hibernian",
-                "stadium": "McDiarmid Park",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/258.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/249.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Hibernian and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 29,
-                        "away": 71
                     }
                 }
             },
