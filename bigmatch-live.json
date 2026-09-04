@@ -3,36 +3,36 @@
   "home": "Ipswich",
   "away": "Liverpool",
   "statusCode": "2H",
-  "updatedAt": "05/09/2026 03:36 WIB",
+  "updatedAt": "05/09/2026 03:49 WIB",
   "statistics": {
     "home": {
-      "possession": 37,
-      "shotsTotal": 11,
+      "possession": 43,
+      "shotsTotal": 12,
       "shotsOnTarget": 4,
-      "corners": 3,
-      "fouls": 5,
+      "corners": 4,
+      "fouls": 6,
       "offsides": 5,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 4,
-      "shotsOutsidebox": 7,
-      "passesTotal": 276,
-      "passesAccurate": 223,
+      "shotsOutsidebox": 8,
+      "passesTotal": 384,
+      "passesAccurate": 316,
       "passesPct": null
     },
     "away": {
-      "possession": 63,
+      "possession": 57,
       "shotsTotal": 10,
       "shotsOnTarget": 7,
       "corners": 3,
       "fouls": 13,
-      "offsides": 3,
+      "offsides": 4,
       "yellowCards": 3,
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 5,
-      "passesTotal": 472,
-      "passesAccurate": 419,
+      "passesTotal": 504,
+      "passesAccurate": 445,
       "passesPct": null
     }
   },
@@ -51,13 +51,13 @@
           "number": 26,
           "name": "D. O&apos;Shea",
           "position": "Bek",
-          "rating": "5.6"
+          "rating": "5.7"
         },
         {
           "number": 6,
           "name": "I. Diop",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.8"
         },
         {
           "number": 24,
@@ -75,7 +75,7 @@
           "number": 23,
           "name": "S. Lukić",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.3"
         },
         {
           "number": 25,
@@ -93,7 +93,7 @@
           "number": 10,
           "name": "J. Enciso",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.4"
         },
         {
           "number": 38,
@@ -113,7 +113,7 @@
           "number": 20,
           "name": "K. McAteer",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 32,
@@ -131,7 +131,7 @@
           "number": 42,
           "name": "A. Ouattara",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 4,
@@ -179,7 +179,7 @@
           "number": 33,
           "name": "R. Araújo",
           "position": "Bek",
-          "rating": "7.7"
+          "rating": "7.4"
         },
         {
           "number": 5,
@@ -203,7 +203,7 @@
           "number": 10,
           "name": "A. Mac Allister",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 8,
@@ -221,7 +221,7 @@
           "number": 7,
           "name": "F. Wirtz",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 23,
@@ -271,13 +271,13 @@
           "number": 38,
           "name": "R. Gravenberch",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 42,
           "name": "T. Nyoni",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 29,
