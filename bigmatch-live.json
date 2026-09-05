@@ -3,7 +3,7 @@
   "home": "Ipswich",
   "away": "Liverpool",
   "statusCode": "FT",
-  "updatedAt": "05/09/2026 07:03 WIB",
+  "updatedAt": "05/09/2026 07:31 WIB",
   "statistics": {
     "home": {
       "possession": 45,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 10,
-      "passesTotal": 424,
-      "passesAccurate": 355,
+      "passesTotal": 423,
+      "passesAccurate": 354,
       "passesPct": null
     },
     "away": {
@@ -31,7 +31,7 @@
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 5,
-      "passesTotal": 519,
+      "passesTotal": 518,
       "passesAccurate": 460,
       "passesPct": null
     }
