@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-05T08:05:19.551Z.
+   API-Football v3) pada 2026-09-05T09:04:41.379Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1515,7 +1515,10 @@ const siteData = {
             "away": "Persebaya Surabaya",
             "stadium": "Sumpah Pemuda",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "34'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2443.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2446.png",
             "prediction": "0 - 1",
@@ -1550,7 +1553,14 @@ const siteData = {
                     "home": 42,
                     "away": 58
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "Y. Mabella",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -1560,7 +1570,10 @@ const siteData = {
             "away": "Persita",
             "stadium": "Mandala Krida Stadium",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "34'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/4235.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4244.png",
             "prediction": "0 - 1",
@@ -1605,7 +1618,10 @@ const siteData = {
             "away": "Dewa United",
             "stadium": "Brawijaya Stadium",
             "round": "Pekan 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "35'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/4241.png",
             "awayLogo": "https://media.api-sports.io/football/teams/17902.png",
             "prediction": "0 - 0",
@@ -1640,7 +1656,14 @@ const siteData = {
                     "home": 47,
                     "away": 53
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "15",
+                    "player": "R. Struick",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Premier League",
@@ -2498,51 +2521,6 @@ const siteData = {
             }
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-09-05",
-            "time": "21:30",
-            "home": "NEC Nijmegen",
-            "away": "Feyenoord",
-            "stadium": "Stadion de Goffert",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/209.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : NEC Nijmegen or draw",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 44,
-                    "away": 56
-                },
-                "def": {
-                    "home": 60,
-                    "away": 40
-                },
-                "poisson": {
-                    "home": 19,
-                    "away": 81
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 53,
-                    "away": 47
-                }
-            }
-        },
-        {
             "league": "Primeira Liga",
             "date": "2026-09-05",
             "time": "21:30",
@@ -2584,6 +2562,51 @@ const siteData = {
                 "goals": {
                     "home": 38,
                     "away": 63
+                }
+            }
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-05",
+            "time": "21:30",
+            "home": "NEC Nijmegen",
+            "away": "Feyenoord",
+            "stadium": "Stadion de Goffert",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/209.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : NEC Nijmegen or draw",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 44,
+                    "away": 56
+                },
+                "def": {
+                    "home": 60,
+                    "away": 40
+                },
+                "poisson": {
+                    "home": 19,
+                    "away": 81
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 53,
+                    "away": 47
                 }
             }
         },
@@ -4221,7 +4244,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "05/09/2026 15:05 WIB",
+    "standingsUpdated": "05/09/2026 16:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4892,6 +4915,14 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "P. Šulc",
+                "photo": "https://media.api-sports.io/football/players/66387.png",
+                "team": "Lyon",
+                "teamLogo": "https://media.api-sports.io/football/teams/80.png",
+                "value": 2
+            },
+            {
+                "rank": 3,
                 "name": "Fabián Ruiz",
                 "photo": "https://media.api-sports.io/football/players/328.png",
                 "team": "Paris Saint Germain",
@@ -4899,7 +4930,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
+                "name": "A. Golovin",
+                "photo": "https://media.api-sports.io/football/players/109.png",
+                "team": "Monaco",
+                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
                 "name": "S. Nanasi",
                 "photo": "https://media.api-sports.io/football/players/226803.png",
                 "team": "Strasbourg",
@@ -4907,7 +4946,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 6,
                 "name": "A. Thomasson",
                 "photo": "https://media.api-sports.io/football/players/22261.png",
                 "team": "Rennes",
@@ -4915,7 +4954,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 7,
                 "name": "L. Mafouta",
                 "photo": "https://media.api-sports.io/football/players/85558.png",
                 "team": "Le Mans",
@@ -4923,7 +4962,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "name": "F. Thauvin",
                 "photo": "https://media.api-sports.io/football/players/1922.png",
                 "team": "Lens",
@@ -4931,7 +4970,7 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 7,
+                "rank": 9,
                 "name": "K. Doumbia",
                 "photo": "https://media.api-sports.io/football/players/326068.png",
                 "team": "Stade Brestois 29",
@@ -4939,27 +4978,11 @@ const siteData = {
                 "value": 1
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "Vitinha",
                 "photo": "https://media.api-sports.io/football/players/128384.png",
                 "team": "Paris Saint Germain",
                 "teamLogo": "https://media.api-sports.io/football/teams/85.png",
-                "value": 1
-            },
-            {
-                "rank": 9,
-                "name": "A. El Ouazzani",
-                "photo": "https://media.api-sports.io/football/players/193188.png",
-                "team": "Angers",
-                "teamLogo": "https://media.api-sports.io/football/teams/77.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "E. Dier",
-                "photo": "https://media.api-sports.io/football/players/175.png",
-                "team": "Monaco",
-                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
                 "value": 1
             }
         ],
@@ -30974,8 +30997,8 @@ const siteData = {
                         "away": 55
                     },
                     "poisson": {
-                        "home": 67,
-                        "away": 33
+                        "home": 66,
+                        "away": 34
                     },
                     "h2h": {
                         "home": 85,
@@ -31109,8 +31132,8 @@ const siteData = {
                         "away": 40
                     },
                     "poisson": {
-                        "home": 31,
-                        "away": 69
+                        "home": 30,
+                        "away": 70
                     },
                     "h2h": {
                         "home": 0,
