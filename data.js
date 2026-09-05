@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-05T03:05:27.931Z.
+   API-Football v3) pada 2026-09-05T04:05:08.726Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -77,11 +77,12 @@ const siteData = {
             "away": {
                 "results": [
                     "D",
-                    "D"
+                    "D",
+                    "W"
                 ],
-                "cleanSheets": 0,
+                "cleanSheets": 1,
                 "failedToScore": 0,
-                "goalsFor": 4,
+                "goalsFor": 6,
                 "goalsAgainst": 4,
                 "winStreak": 0,
                 "attack": 50,
@@ -1166,8 +1167,8 @@ const siteData = {
             "away": "Tlaxcala",
             "stadium": "Estadio Francisco Zarco",
             "round": "Apertura - 7",
-            "statusCode": "2H",
-            "minuteDisplay": "90+7'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
@@ -1213,7 +1214,7 @@ const siteData = {
                 },
                 {
                     "minute": "90+5",
-                    "player": "",
+                    "player": "E. Cantu",
                     "team": "home"
                 }
             ],
@@ -1265,6 +1266,18 @@ const siteData = {
                     "player": "C. Gonzalez",
                     "team": "away",
                     "type": "red"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "J. Munoz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+9",
+                    "player": "L. Lorona",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1276,8 +1289,8 @@ const siteData = {
             "away": "CF Pachuca",
             "stadium": "",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
@@ -1314,7 +1327,27 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Denzell Garcia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "27",
+                    "player": "Jesus Murillo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Eder Lopez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1324,9 +1357,9 @@ const siteData = {
             "away": "Mineros de Zacatecas",
             "stadium": "Estadio Guaycura",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
@@ -1362,7 +1395,28 @@ const siteData = {
                     "home": 21,
                     "away": 79
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "18",
+                    "player": "U. Jaimes",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "36",
+                    "player": "O. Mazatan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "A. Villalobos",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -4078,7 +4132,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "05/09/2026 10:05 WIB",
+    "standingsUpdated": "05/09/2026 11:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -29591,51 +29645,6 @@ const siteData = {
     "upcoming": {
         "2026-09-06": [
             {
-                "league": "Super Lig",
-                "date": "2026-09-06",
-                "time": "00:00",
-                "home": "Fenerbahçe",
-                "away": "Beşiktaş",
-                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Fenerbahçe or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 45,
-                        "away": 55
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-06",
                 "time": "00:00",
@@ -29722,6 +29731,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-06",
+                "time": "00:00",
+                "home": "Fenerbahçe",
+                "away": "Beşiktaş",
+                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Fenerbahçe or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
                     }
                 }
             },
@@ -30041,51 +30095,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Scottish Premiership",
-                "date": "2026-09-06",
-                "time": "02:00",
-                "home": "ST Mirren",
-                "away": "Celtic",
-                "stadium": "The SMISA Stadium",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/251.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/247.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Celtic and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "att": {
-                        "home": 39,
-                        "away": 61
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 22,
-                        "away": 78
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-09-06",
                 "time": "02:00",
@@ -30127,6 +30136,51 @@ const siteData = {
                     "goals": {
                         "home": 60,
                         "away": 40
+                    }
+                }
+            },
+            {
+                "league": "Scottish Premiership",
+                "date": "2026-09-06",
+                "time": "02:00",
+                "home": "ST Mirren",
+                "away": "Celtic",
+                "stadium": "The SMISA Stadium",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/251.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/247.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Celtic and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 22,
+                        "away": 78
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             },
@@ -32428,6 +32482,51 @@ const siteData = {
         ],
         "2026-09-07": [
             {
+                "league": "Primeira Liga",
+                "date": "2026-09-07",
+                "time": "00:00",
+                "home": "Vitória SC",
+                "away": "Casa Pia",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 69,
+                        "away": 31
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-07",
                 "time": "00:00",
@@ -32514,51 +32613,6 @@ const siteData = {
                     "goals": {
                         "home": 20,
                         "away": 80
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-07",
-                "time": "00:00",
-                "home": "Vitória SC",
-                "away": "Casa Pia",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "def": {
-                        "home": 69,
-                        "away": 31
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
                     }
                 }
             },
