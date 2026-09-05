@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-05T05:04:46.392Z.
+   API-Football v3) pada 2026-09-05T06:06:05.415Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1296,8 +1296,8 @@ const siteData = {
             "away": "CF Pachuca",
             "stadium": "",
             "round": "Apertura - 7",
-            "statusCode": "2H",
-            "minuteDisplay": "90+11'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
@@ -2498,51 +2498,6 @@ const siteData = {
             }
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-09-05",
-            "time": "21:30",
-            "home": "NEC Nijmegen",
-            "away": "Feyenoord",
-            "stadium": "Stadion de Goffert",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/209.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : NEC Nijmegen or draw",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 44,
-                    "away": 56
-                },
-                "def": {
-                    "home": 60,
-                    "away": 40
-                },
-                "poisson": {
-                    "home": 19,
-                    "away": 81
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 53,
-                    "away": 47
-                }
-            }
-        },
-        {
             "league": "Primeira Liga",
             "date": "2026-09-05",
             "time": "21:30",
@@ -2584,6 +2539,51 @@ const siteData = {
                 "goals": {
                     "home": 38,
                     "away": 63
+                }
+            }
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-05",
+            "time": "21:30",
+            "home": "NEC Nijmegen",
+            "away": "Feyenoord",
+            "stadium": "Stadion de Goffert",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/209.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : NEC Nijmegen or draw",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 44,
+                    "away": 56
+                },
+                "def": {
+                    "home": 60,
+                    "away": 40
+                },
+                "poisson": {
+                    "home": 19,
+                    "away": 81
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 53,
+                    "away": 47
                 }
             }
         },
@@ -4221,7 +4221,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "05/09/2026 12:04 WIB",
+    "standingsUpdated": "05/09/2026 13:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -29728,51 +29728,6 @@ const siteData = {
     "upcoming": {
         "2026-09-06": [
             {
-                "league": "Super Lig",
-                "date": "2026-09-06",
-                "time": "00:00",
-                "home": "Fenerbahçe",
-                "away": "Beşiktaş",
-                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Fenerbahçe or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 45,
-                        "away": 55
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-06",
                 "time": "00:00",
@@ -29863,6 +29818,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Super Lig",
+                "date": "2026-09-06",
+                "time": "00:00",
+                "home": "Fenerbahçe",
+                "away": "Beşiktaş",
+                "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Fenerbahçe or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
+                    }
+                }
+            },
+            {
                 "league": "Eredivisie",
                 "date": "2026-09-06",
                 "time": "01:00",
@@ -29904,6 +29904,51 @@ const siteData = {
                     "goals": {
                         "home": 59,
                         "away": 41
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-06",
+                "time": "01:45",
+                "home": "AS Roma",
+                "away": "Atalanta",
+                "stadium": "Stadio Olimpico",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/499.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Winner : AS Roma",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 27,
+                        "away": 73
                     }
                 }
             },
@@ -29994,51 +30039,6 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
-                    }
-                }
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-09-06",
-                "time": "01:45",
-                "home": "AS Roma",
-                "away": "Atalanta",
-                "stadium": "Stadio Olimpico",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/499.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Winner : AS Roma",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 73,
-                        "away": 27
-                    },
-                    "def": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 7,
-                        "away": 93
-                    },
-                    "goals": {
-                        "home": 27,
-                        "away": 73
                     }
                 }
             },
@@ -30178,51 +30178,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-06",
-                "time": "02:00",
-                "home": "Willem II",
-                "away": "Excelsior",
-                "stadium": "Koning Willem II Stadion",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/195.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/196.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Excelsior and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 14,
-                        "away": 86
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 23,
-                        "away": 77
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-06",
                 "time": "02:00",
@@ -30264,6 +30219,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-06",
+                "time": "02:00",
+                "home": "Willem II",
+                "away": "Excelsior",
+                "stadium": "Koning Willem II Stadion",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/195.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/196.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Excelsior and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 14,
+                        "away": 86
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
                     }
                 }
             },
@@ -31708,51 +31708,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-06",
-                "time": "20:00",
-                "home": "Estac Troyes",
-                "away": "Strasbourg",
-                "stadium": "",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Estac Troyes or draw",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 83,
-                        "away": 17
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "goals": {
-                        "home": 55,
-                        "away": 45
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-09-06",
                 "time": "20:00",
@@ -31839,6 +31794,51 @@ const siteData = {
                     "goals": {
                         "home": 57,
                         "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-06",
+                "time": "20:00",
+                "home": "Estac Troyes",
+                "away": "Strasbourg",
+                "stadium": "",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Estac Troyes or draw",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 83,
+                        "away": 17
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "goals": {
+                        "home": 55,
+                        "away": 45
                     }
                 }
             },
@@ -32565,6 +32565,51 @@ const siteData = {
         ],
         "2026-09-07": [
             {
+                "league": "Primeira Liga",
+                "date": "2026-09-07",
+                "time": "00:00",
+                "home": "Vitória SC",
+                "away": "Casa Pia",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 69,
+                        "away": 31
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-07",
                 "time": "00:00",
@@ -32651,51 +32696,6 @@ const siteData = {
                     "goals": {
                         "home": 20,
                         "away": 80
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-07",
-                "time": "00:00",
-                "home": "Vitória SC",
-                "away": "Casa Pia",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "def": {
-                        "home": 69,
-                        "away": 31
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
                     }
                 }
             },
@@ -32790,51 +32790,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-07",
-                "time": "01:45",
-                "home": "Marseille",
-                "away": "Paris FC",
-                "stadium": "",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/81.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/114.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Marseille or draw",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "def": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 64,
-                        "away": 36
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-09-07",
                 "time": "01:45",
@@ -32876,6 +32831,51 @@ const siteData = {
                     "goals": {
                         "home": 60,
                         "away": 40
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-07",
+                "time": "01:45",
+                "home": "Marseille",
+                "away": "Paris FC",
+                "stadium": "",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/81.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/114.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Marseille or draw",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
                     }
                 }
             },
