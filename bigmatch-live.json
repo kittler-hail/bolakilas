@@ -2,37 +2,37 @@
   "fixtureId": 1557390,
   "home": "Everton",
   "away": "Manchester United",
-  "statusCode": "1H",
-  "updatedAt": "06/09/2026 20:44 WIB",
+  "statusCode": "HT",
+  "updatedAt": "06/09/2026 20:57 WIB",
   "statistics": {
     "home": {
-      "possession": 57,
-      "shotsTotal": 2,
-      "shotsOnTarget": 0,
+      "possession": 47,
+      "shotsTotal": 5,
+      "shotsOnTarget": 1,
       "corners": 0,
       "fouls": 5,
       "offsides": 2,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 1,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 1,
-      "passesTotal": 200,
-      "passesAccurate": 177,
+      "passesTotal": 243,
+      "passesAccurate": 215,
       "passesPct": null
     },
     "away": {
-      "possession": 43,
-      "shotsTotal": 6,
+      "possession": 53,
+      "shotsTotal": 7,
       "shotsOnTarget": 1,
       "corners": 2,
       "fouls": 5,
       "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
-      "passesTotal": 217,
-      "passesAccurate": 195,
+      "passesTotal": 279,
+      "passesAccurate": 246,
       "passesPct": null
     }
   },
@@ -45,37 +45,37 @@
           "number": 1,
           "name": "J. Pickford",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 34,
           "name": "M. Röhl",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 6,
           "name": "J. Tarkowski",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.3"
         },
         {
           "number": 4,
           "name": "J. Branthwaite",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "7.1"
         },
         {
           "number": 16,
           "name": "V. Mykolenko",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 45,
           "name": "H. Armstrong",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.9"
         },
         {
           "number": 37,
@@ -87,13 +87,13 @@
           "number": 22,
           "name": "B. Johnson",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 8,
           "name": "K. Dewsbury-Hall",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 19,
@@ -173,13 +173,13 @@
           "number": 1,
           "name": "S. Lammens",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "7.1"
         },
         {
           "number": 2,
           "name": "Diogo Dalot",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.9"
         },
         {
           "number": 5,
@@ -203,19 +203,19 @@
           "number": 18,
           "name": "Y. Tielemans",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 37,
           "name": "K. Mainoo",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 19,
           "name": "B. Mbeumo",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.6"
         },
         {
           "number": 8,
@@ -233,7 +233,7 @@
           "number": 10,
           "name": "Matheus Cunha",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
