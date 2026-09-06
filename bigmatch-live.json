@@ -3,7 +3,7 @@
   "home": "Everton",
   "away": "Manchester United",
   "statusCode": "NS",
-  "updatedAt": "06/09/2026 17:32 WIB",
+  "updatedAt": "06/09/2026 17:46 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,9 +14,9 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "3.30",
+    "home": "3.50",
     "draw": "3.50",
-    "away": "2.10",
+    "away": "2.00",
     "overUnder": null,
     "btts": {
       "yes": "1.57",
