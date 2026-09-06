@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T17:04:07.175Z.
+   API-Football v3) pada 2026-09-06T18:05:13.414Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -107,8 +107,8 @@ const siteData = {
             "away": "Casa Pia",
             "stadium": "",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "1'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/224.png",
@@ -155,9 +155,9 @@ const siteData = {
             "away": "Gençlerbirliği S.K.",
             "stadium": "Papara Park",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/998.png",
             "awayLogo": "https://media.api-sports.io/football/teams/997.png",
@@ -194,11 +194,40 @@ const siteData = {
                     "away": 53
                 }
             },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "Paul Onuachu",
+                    "team": "home"
+                },
+                {
+                    "minute": "14",
+                    "player": "Mohamed Salah",
+                    "team": "home"
+                },
+                {
+                    "minute": "22",
+                    "player": "Paul Onuachu",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "3",
-                    "player": "",
+                    "player": "Ousmane Diabate",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "19",
+                    "player": "Fabio Henrique Tavares",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "35",
+                    "player": "Ernest Muci",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -211,9 +240,9 @@ const siteData = {
             "away": "Samsunspor",
             "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
             "awayLogo": "https://media.api-sports.io/football/teams/3603.png",
@@ -249,7 +278,22 @@ const siteData = {
                     "home": 20,
                     "away": 80
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "26",
+                    "player": "Florian Aye",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "28",
+                    "player": "Massadio Haïdara",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -259,7 +303,10 @@ const siteData = {
             "away": "OH Leuven",
             "stadium": "Freethiel Stadion",
             "round": "Pekan 5",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/738.png",
             "awayLogo": "https://media.api-sports.io/football/teams/260.png",
             "prediction": "1 - 2",
@@ -294,7 +341,15 @@ const siteData = {
                     "home": 42,
                     "away": 58
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "31",
+                    "player": "Bruno Godeau",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -890,12 +945,12 @@ const siteData = {
                 "rank": 1,
                 "team": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png",
-                "played": 3,
-                "win": 3,
+                "played": 4,
+                "win": 4,
                 "draw": 0,
                 "lose": 0,
-                "gd": 10,
-                "points": 9
+                "gd": 15,
+                "points": 12
             },
             {
                 "rank": 2,
@@ -1075,17 +1130,6 @@ const siteData = {
             },
             {
                 "rank": 18,
-                "team": "Valencia",
-                "logo": "https://media.api-sports.io/football/teams/532.png",
-                "played": 3,
-                "win": 0,
-                "draw": 1,
-                "lose": 2,
-                "gd": -3,
-                "points": 1
-            },
-            {
-                "rank": 19,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
                 "played": 3,
@@ -1096,7 +1140,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 20,
+                "rank": 19,
                 "team": "Malaga",
                 "logo": "https://media.api-sports.io/football/teams/535.png",
                 "played": 3,
@@ -1104,6 +1148,17 @@ const siteData = {
                 "draw": 1,
                 "lose": 2,
                 "gd": -6,
+                "points": 1
+            },
+            {
+                "rank": 20,
+                "team": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png",
+                "played": 4,
+                "win": 0,
+                "draw": 1,
+                "lose": 3,
+                "gd": -8,
                 "points": 1
             }
         ],
@@ -1930,7 +1985,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 00:04 WIB",
+    "standingsUpdated": "07/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33004,51 +33059,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Fluminense",
-                "away": "Platense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Platense",
-                "comparison": {
-                    "form": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "att": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -33082,6 +33092,51 @@ const siteData = {
                     "poisson": {
                         "home": 100,
                         "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Fluminense",
+                "away": "Platense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Platense",
+                "comparison": {
+                    "form": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
                     },
                     "h2h": {
                         "home": 0,
