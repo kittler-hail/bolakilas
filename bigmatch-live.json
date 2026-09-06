@@ -3,36 +3,36 @@
   "home": "Espanyol",
   "away": "Sevilla",
   "statusCode": "1H",
-  "updatedAt": "07/09/2026 02:07 WIB",
+  "updatedAt": "07/09/2026 02:23 WIB",
   "statistics": {
     "home": {
-      "possession": 31,
-      "shotsTotal": 1,
+      "possession": 44,
+      "shotsTotal": 2,
       "shotsOnTarget": 1,
       "corners": null,
-      "fouls": 1,
-      "offsides": null,
-      "yellowCards": 0,
+      "fouls": 3,
+      "offsides": 2,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": null,
+      "shotsInsidebox": 1,
       "shotsOutsidebox": 1,
-      "passesTotal": 5,
-      "passesAccurate": 3,
+      "passesTotal": 71,
+      "passesAccurate": 55,
       "passesPct": null
     },
     "away": {
-      "possession": 69,
+      "possession": 56,
       "shotsTotal": 0,
       "shotsOnTarget": 0,
       "corners": null,
-      "fouls": 1,
-      "offsides": null,
+      "fouls": 4,
+      "offsides": 0,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": null,
+      "shotsInsidebox": 0,
       "shotsOutsidebox": 0,
-      "passesTotal": 10,
-      "passesAccurate": 7,
+      "passesTotal": 90,
+      "passesAccurate": 70,
       "passesPct": null
     }
   },
@@ -45,67 +45,67 @@
           "number": 13,
           "name": "M. Dmitrović",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 23,
           "name": "O. El Hilali",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 14,
           "name": "Unai Núñez",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 6,
           "name": "L. Cabrera",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 21,
           "name": "Roger Hinojo",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 22,
           "name": "Álex Calatrava",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 20,
           "name": "Gabriel Moscardo",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 8,
           "name": "Edu Expósito",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 24,
           "name": "T. Dolan",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 28,
           "name": "Javier Hernandez",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 9,
           "name": "Roberto Fernández",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
@@ -191,67 +191,67 @@
           "number": 1,
           "name": "O. Vlachodimos",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "7.0"
         },
         {
           "number": 2,
           "name": "Juan Iglesias",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 12,
           "name": "A. Sangante",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 4,
           "name": "Kike Salas",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 17,
           "name": "G. Suazo",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 8,
           "name": "G. Kochorashvili",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "L. Agoumé",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 18,
           "name": "Jon Guridi",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 30,
           "name": "Miguel Ángel",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 9,
           "name": "R. Ure",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 21,
           "name": "C. Ejuke",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
