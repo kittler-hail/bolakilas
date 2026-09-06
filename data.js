@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T19:04:24.047Z.
+   API-Football v3) pada 2026-09-06T20:05:07.110Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,8 +24,8 @@ const siteData = {
         "stadium": "RCDE Stadium",
         "prediction": "2 - 3",
         "analysis": "Espanyol bertemu Sevilla dalam laga LaLiga. Analisis API-Football: Double chance : draw or Sevilla.",
-        "statusCode": "1H",
-        "minuteDisplay": "3'",
+        "statusCode": "HT",
+        "minuteDisplay": "HT",
         "homeScore": 0,
         "awayScore": 0,
         "odds": {
@@ -45,6 +45,11 @@ const siteData = {
         "awayLogo": "https://media.api-sports.io/football/teams/536.png",
         "h2h": [
             {
+                "home": "Espanyol",
+                "away": "Sevilla",
+                "score": "0-0"
+            },
+            {
                 "home": "Sevilla",
                 "away": "Espanyol",
                 "score": "2-1"
@@ -63,11 +68,6 @@ const siteData = {
                 "home": "Espanyol",
                 "away": "Sevilla",
                 "score": "0-2"
-            },
-            {
-                "home": "Sevilla",
-                "away": "Espanyol",
-                "score": "3-2"
             }
         ],
         "form": {
@@ -354,8 +354,8 @@ const siteData = {
             "away": "OH Leuven",
             "stadium": "Freethiel Stadion",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "90+3'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/738.png",
@@ -438,54 +438,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Serie A",
-            "date": "2026-09-07",
-            "time": "01:45",
-            "home": "Juventus",
-            "away": "AC Milan",
-            "stadium": "Allianz Stadium",
-            "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "19'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/489.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Juventus or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 43,
-                    "away": 57
-                },
-                "def": {
-                    "home": 100,
-                    "away": 0
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 60,
-                    "away": 40
-                }
-            }
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-09-07",
             "time": "01:45",
@@ -493,9 +445,9 @@ const siteData = {
             "away": "Paris FC",
             "stadium": "",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "20'",
-            "homeScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "61'",
+            "homeScore": 2,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/81.png",
             "awayLogo": "https://media.api-sports.io/football/teams/114.png",
@@ -542,8 +494,66 @@ const siteData = {
                     "minute": "8",
                     "player": "Amine Gouiri",
                     "team": "home"
+                },
+                {
+                    "minute": "19",
+                    "player": "Lassine Sinayoko",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "Amine Gouiri",
+                    "team": "home"
                 }
             ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-09-07",
+            "time": "01:45",
+            "home": "Juventus",
+            "away": "AC Milan",
+            "stadium": "Allianz Stadium",
+            "round": "Pekan 3",
+            "statusCode": "2H",
+            "minuteDisplay": "60'",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/489.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Juventus or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 43,
+                    "away": 57
+                },
+                "def": {
+                    "home": 100,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 60,
+                    "away": 40
+                }
+            }
         },
         {
             "league": "LaLiga",
@@ -553,8 +563,8 @@ const siteData = {
             "away": "Sevilla",
             "stadium": "RCDE Stadium",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/540.png",
@@ -598,6 +608,24 @@ const siteData = {
                     "player": "Giorgi Kochorashvili",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "14",
+                    "player": "Álex Calatrava Torrado",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "27",
+                    "player": "Robbie Ure",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "40",
+                    "player": "Miguel Sierra",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -609,7 +637,10 @@ const siteData = {
             "away": "Academico Viseu",
             "stadium": "",
             "round": "Pekan 5",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "35'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/762.png",
             "awayLogo": "https://media.api-sports.io/football/teams/238.png",
             "prediction": "2 - 1",
@@ -644,7 +675,14 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "João Guilherme",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1069,6 +1107,17 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Alaves",
+                "logo": "https://media.api-sports.io/football/teams/542.png",
+                "played": 4,
+                "win": 3,
+                "draw": 1,
+                "lose": 0,
+                "gd": 7,
+                "points": 10
+            },
+            {
+                "rank": 3,
                 "team": "Real Madrid",
                 "logo": "https://media.api-sports.io/football/teams/541.png",
                 "played": 4,
@@ -1079,7 +1128,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Real Betis",
                 "logo": "https://media.api-sports.io/football/teams/543.png",
                 "played": 4,
@@ -1090,7 +1139,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Deportivo La Coruna",
                 "logo": "https://media.api-sports.io/football/teams/544.png",
                 "played": 4,
@@ -1101,29 +1150,7 @@ const siteData = {
                 "points": 8
             },
             {
-                "rank": 5,
-                "team": "Alaves",
-                "logo": "https://media.api-sports.io/football/teams/542.png",
-                "played": 3,
-                "win": 2,
-                "draw": 1,
-                "lose": 0,
-                "gd": 4,
-                "points": 7
-            },
-            {
                 "rank": 6,
-                "team": "Osasuna",
-                "logo": "https://media.api-sports.io/football/teams/727.png",
-                "played": 3,
-                "win": 2,
-                "draw": 1,
-                "lose": 0,
-                "gd": 2,
-                "points": 7
-            },
-            {
-                "rank": 7,
                 "team": "Atletico Madrid",
                 "logo": "https://media.api-sports.io/football/teams/530.png",
                 "played": 4,
@@ -1131,6 +1158,17 @@ const siteData = {
                 "draw": 1,
                 "lose": 1,
                 "gd": 1,
+                "points": 7
+            },
+            {
+                "rank": 7,
+                "team": "Osasuna",
+                "logo": "https://media.api-sports.io/football/teams/727.png",
+                "played": 4,
+                "win": 2,
+                "draw": 1,
+                "lose": 1,
+                "gd": -1,
                 "points": 7
             },
             {
@@ -1159,12 +1197,12 @@ const siteData = {
                 "rank": 10,
                 "team": "Levante",
                 "logo": "https://media.api-sports.io/football/teams/539.png",
-                "played": 3,
+                "played": 4,
                 "win": 1,
-                "draw": 1,
+                "draw": 2,
                 "lose": 1,
                 "gd": 0,
-                "points": 4
+                "points": 5
             },
             {
                 "rank": 11,
@@ -1245,19 +1283,19 @@ const siteData = {
             },
             {
                 "rank": 18,
-                "team": "Elche",
-                "logo": "https://media.api-sports.io/football/teams/797.png",
-                "played": 3,
+                "team": "Malaga",
+                "logo": "https://media.api-sports.io/football/teams/535.png",
+                "played": 4,
                 "win": 0,
-                "draw": 1,
+                "draw": 2,
                 "lose": 2,
                 "gd": -6,
-                "points": 1
+                "points": 2
             },
             {
                 "rank": 19,
-                "team": "Malaga",
-                "logo": "https://media.api-sports.io/football/teams/535.png",
+                "team": "Elche",
+                "logo": "https://media.api-sports.io/football/teams/797.png",
                 "played": 3,
                 "win": 0,
                 "draw": 1,
@@ -2100,7 +2138,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 02:04 WIB",
+    "standingsUpdated": "07/09/2026 03:05 WIB",
     "topScorers": {
         "Premier League": [
             {
