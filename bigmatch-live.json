@@ -3,36 +3,36 @@
   "home": "Espanyol",
   "away": "Sevilla",
   "statusCode": "1H",
-  "updatedAt": "07/09/2026 02:23 WIB",
+  "updatedAt": "07/09/2026 02:37 WIB",
   "statistics": {
     "home": {
-      "possession": 44,
-      "shotsTotal": 2,
+      "possession": 51,
+      "shotsTotal": 4,
       "shotsOnTarget": 1,
-      "corners": null,
-      "fouls": 3,
+      "corners": 0,
+      "fouls": 5,
       "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 1,
-      "shotsOutsidebox": 1,
-      "passesTotal": 71,
-      "passesAccurate": 55,
+      "shotsOutsidebox": 3,
+      "passesTotal": 135,
+      "passesAccurate": 109,
       "passesPct": null
     },
     "away": {
-      "possession": 56,
+      "possession": 49,
       "shotsTotal": 0,
       "shotsOnTarget": 0,
-      "corners": null,
-      "fouls": 4,
-      "offsides": 0,
-      "yellowCards": 1,
+      "corners": 1,
+      "fouls": 7,
+      "offsides": 2,
+      "yellowCards": 2,
       "redCards": 0,
       "shotsInsidebox": 0,
       "shotsOutsidebox": 0,
-      "passesTotal": 90,
-      "passesAccurate": 70,
+      "passesTotal": 130,
+      "passesAccurate": 101,
       "passesPct": null
     }
   },
@@ -45,25 +45,25 @@
           "number": 13,
           "name": "M. Dmitrović",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 23,
           "name": "O. El Hilali",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 14,
           "name": "Unai Núñez",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.2"
         },
         {
           "number": 6,
           "name": "L. Cabrera",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 21,
@@ -81,31 +81,31 @@
           "number": 20,
           "name": "Gabriel Moscardo",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 8,
           "name": "Edu Expósito",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 24,
           "name": "T. Dolan",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "7.0"
         },
         {
           "number": 28,
           "name": "Javier Hernandez",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.6"
         },
         {
           "number": 9,
           "name": "Roberto Fernández",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.9"
         }
       ],
       "substitutes": [
@@ -191,13 +191,13 @@
           "number": 1,
           "name": "O. Vlachodimos",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 2,
           "name": "Juan Iglesias",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 12,
@@ -209,31 +209,31 @@
           "number": 4,
           "name": "Kike Salas",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 17,
           "name": "G. Suazo",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 8,
           "name": "G. Kochorashvili",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 6,
           "name": "L. Agoumé",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 18,
           "name": "Jon Guridi",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.4"
         },
         {
           "number": 30,
@@ -245,13 +245,13 @@
           "number": 9,
           "name": "R. Ure",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.3"
         },
         {
           "number": 21,
           "name": "C. Ejuke",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
