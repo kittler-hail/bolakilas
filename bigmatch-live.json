@@ -3,9 +3,226 @@
   "home": "Everton",
   "away": "Manchester United",
   "statusCode": "NS",
-  "updatedAt": "06/09/2026 19:21 WIB",
+  "updatedAt": "06/09/2026 19:41 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "D. Moyes",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "J. Pickford",
+          "position": "Kiper"
+        },
+        {
+          "number": 34,
+          "name": "M. Röhl",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "J. Tarkowski",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "J. Branthwaite",
+          "position": "Bek"
+        },
+        {
+          "number": 16,
+          "name": "V. Mykolenko",
+          "position": "Bek"
+        },
+        {
+          "number": 45,
+          "name": "H. Armstrong",
+          "position": "Gelandang"
+        },
+        {
+          "number": 37,
+          "name": "J. Garner",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "B. Johnson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "K. Dewsbury-Hall",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "Tyrique George",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "T. Barry",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 58,
+          "name": "B. Graham",
+          "position": "Penyerang"
+        },
+        {
+          "number": 30,
+          "name": "H. Hackney",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "C. Alcaraz",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "T. Dibling",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "J. Grealish",
+          "position": "Gelandang"
+        },
+        {
+          "number": 15,
+          "name": "J. O&apos;Brien",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "M. Keane",
+          "position": "Bek"
+        },
+        {
+          "number": 2,
+          "name": "A. Maitland-Niles",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "M. Travers",
+          "position": "Kiper"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "M. Carrick",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "S. Lammens",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Diogo Dalot",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "H. Maguire",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Lisandro Martínez",
+          "position": "Bek"
+        },
+        {
+          "number": 23,
+          "name": "L. Shaw",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Y. Tielemans",
+          "position": "Gelandang"
+        },
+        {
+          "number": 37,
+          "name": "K. Mainoo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "B. Mbeumo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Bruno Fernandes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "M. Rashford",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Matheus Cunha",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 11,
+          "name": "J. Zirkzee",
+          "position": "Penyerang"
+        },
+        {
+          "number": 30,
+          "name": "B. Šeško",
+          "position": "Penyerang"
+        },
+        {
+          "number": 7,
+          "name": "M. Mount",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "P. Dorgu",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Andrey Santos",
+          "position": "Gelandang"
+        },
+        {
+          "number": 15,
+          "name": "L. Yoro",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "N. Mazraoui",
+          "position": "Bek"
+        },
+        {
+          "number": 26,
+          "name": "A. Heaven",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "K. Darlow",
+          "position": "Kiper"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Hill Dickinson Stadium",
     "city": "Liverpool",
