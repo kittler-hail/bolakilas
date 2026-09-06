@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T12:06:03.640Z.
+   API-Football v3) pada 2026-09-06T13:04:30.247Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Hill Dickinson Stadium",
         "prediction": "2 - 3",
         "analysis": "Everton bertemu Manchester United dalam laga Premier League. Analisis API-Football: Double chance : draw or Manchester United.",
-        "statusCode": "NS",
+        "statusCode": "1H",
+        "minuteDisplay": "4'",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -69,28 +72,10 @@ const siteData = {
         ],
         "form": {
             "home": {
-                "results": [
-                    "W",
-                    "D"
-                ],
-                "cleanSheets": 1,
-                "failedToScore": 0,
-                "goalsFor": 3,
-                "goalsAgainst": 1,
-                "winStreak": 1,
                 "attack": 38,
                 "defense": 80
             },
             "away": {
-                "results": [
-                    "L",
-                    "W"
-                ],
-                "cleanSheets": 0,
-                "failedToScore": 1,
-                "goalsFor": 5,
-                "goalsAgainst": 4,
-                "winStreak": 0,
                 "attack": 63,
                 "defense": 20
             }
@@ -3500,8 +3485,8 @@ const siteData = {
             "away": "Twente",
             "stadium": "Hitachi Capital Mobility Stadion",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "90+2'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/202.png",
@@ -3584,8 +3569,8 @@ const siteData = {
             "away": "Gent",
             "stadium": "Jan Breydel Stadion",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
+            "statusCode": "2H",
+            "minuteDisplay": "76'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/741.png",
@@ -3629,6 +3614,14 @@ const siteData = {
                     "player": "Emmanuel Kakou",
                     "team": "home"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "70",
+                    "player": "Lazare Amani",
+                    "team": "home",
+                    "type": "yellow"
+                }
             ]
         },
         {
@@ -3639,8 +3632,8 @@ const siteData = {
             "away": "Persijap",
             "stadium": "Gelora Ratu Pamelingan Stadium",
             "round": "Pekan 1",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
+            "statusCode": "2H",
+            "minuteDisplay": "47'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2444.png",
@@ -3677,7 +3670,21 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "Juan Douglas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "41",
+                    "player": "S. Ofori",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -3687,10 +3694,10 @@ const siteData = {
             "away": "PSM Makassar",
             "stadium": "Gelora Bandung Lautan Api Stadium",
             "round": "Pekan 1",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
+            "statusCode": "2H",
+            "minuteDisplay": "47'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2445.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2441.png",
             "prediction": "1 - 0",
@@ -3735,7 +3742,10 @@ const siteData = {
             "away": "AZ Alkmaar",
             "stadium": "Abe Lenstra Stadion",
             "round": "Pekan 5",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "34'",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/210.png",
             "awayLogo": "https://media.api-sports.io/football/teams/201.png",
             "prediction": "1 - 2",
@@ -3780,7 +3790,10 @@ const siteData = {
             "away": "Cambuur",
             "stadium": "Sportpark Schoonenberg",
             "round": "Pekan 5",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "34'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/427.png",
             "awayLogo": "https://media.api-sports.io/football/teams/420.png",
             "prediction": "3 - 2",
@@ -3818,6 +3831,54 @@ const siteData = {
             }
         },
         {
+            "league": "Premier League",
+            "date": "2026-09-06",
+            "time": "20:00",
+            "home": "Everton",
+            "away": "Manchester United",
+            "stadium": "Hill Dickinson Stadium",
+            "round": "Pekan 3",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/45.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/33.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Manchester United",
+            "comparison": {
+                "form": {
+                    "home": 57,
+                    "away": 43
+                },
+                "att": {
+                    "home": 38,
+                    "away": 63
+                },
+                "def": {
+                    "home": 80,
+                    "away": 20
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 36,
+                    "away": 64
+                }
+            }
+        },
+        {
             "league": "Serie A",
             "date": "2026-09-06",
             "time": "20:00",
@@ -3825,7 +3886,10 @@ const siteData = {
             "away": "Venezia",
             "stadium": "Stadio Benito Stirpe",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "1'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/512.png",
             "awayLogo": "https://media.api-sports.io/football/teams/517.png",
             "prediction": "2 - 0",
@@ -3870,7 +3934,10 @@ const siteData = {
             "away": "Monza",
             "stadium": "Stadio Ennio Tardini",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/523.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1579.png",
             "prediction": "2 - 2",
@@ -3915,7 +3982,10 @@ const siteData = {
             "away": "Strasbourg",
             "stadium": "",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/110.png",
             "awayLogo": "https://media.api-sports.io/football/teams/95.png",
             "prediction": "2 - 1",
@@ -3949,51 +4019,6 @@ const siteData = {
                 "goals": {
                     "home": 55,
                     "away": 45
-                }
-            }
-        },
-        {
-            "league": "Premier League",
-            "date": "2026-09-06",
-            "time": "20:00",
-            "home": "Everton",
-            "away": "Manchester United",
-            "stadium": "Hill Dickinson Stadium",
-            "round": "Pekan 3",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/45.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/33.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Manchester United",
-            "comparison": {
-                "form": {
-                    "home": 57,
-                    "away": 43
-                },
-                "att": {
-                    "home": 38,
-                    "away": 63
-                },
-                "def": {
-                    "home": 80,
-                    "away": 20
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 36,
-                    "away": 64
                 }
             }
         },
@@ -4448,51 +4473,6 @@ const siteData = {
             }
         },
         {
-            "league": "Bundesliga",
-            "date": "2026-09-06",
-            "time": "22:30",
-            "home": "Eintracht Frankfurt",
-            "away": "FC Augsburg",
-            "stadium": "Deutsche Bank Park",
-            "round": "Pekan 2",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/169.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/170.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Combo Double chance : Eintracht Frankfurt or draw and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 25,
-                    "away": 75
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 0,
-                    "away": 100
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 75,
-                    "away": 25
-                },
-                "goals": {
-                    "home": 64,
-                    "away": 36
-                }
-            }
-        },
-        {
             "league": "Premier League",
             "date": "2026-09-06",
             "time": "22:30",
@@ -4534,6 +4514,51 @@ const siteData = {
                 "goals": {
                     "home": 67,
                     "away": 33
+                }
+            }
+        },
+        {
+            "league": "Bundesliga",
+            "date": "2026-09-06",
+            "time": "22:30",
+            "home": "Eintracht Frankfurt",
+            "away": "FC Augsburg",
+            "stadium": "Deutsche Bank Park",
+            "round": "Pekan 2",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/169.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/170.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Double chance : Eintracht Frankfurt or draw and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 25,
+                    "away": 75
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 0,
+                    "away": 100
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 75,
+                    "away": 25
+                },
+                "goals": {
+                    "home": 64,
+                    "away": 36
                 }
             }
         },
