@@ -3,36 +3,36 @@
   "home": "Espanyol",
   "away": "Sevilla",
   "statusCode": "2H",
-  "updatedAt": "07/09/2026 03:23 WIB",
+  "updatedAt": "07/09/2026 03:39 WIB",
   "statistics": {
     "home": {
-      "possession": 46,
+      "possession": 51,
       "shotsTotal": 7,
-      "shotsOnTarget": 2,
+      "shotsOnTarget": 1,
       "corners": 0,
-      "fouls": 10,
-      "offsides": 3,
+      "fouls": 13,
+      "offsides": 4,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 3,
-      "shotsOutsidebox": 4,
-      "passesTotal": 213,
-      "passesAccurate": 169,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 5,
+      "passesTotal": 284,
+      "passesAccurate": 230,
       "passesPct": null
     },
     "away": {
-      "possession": 54,
-      "shotsTotal": 1,
-      "shotsOnTarget": 0,
-      "corners": 2,
+      "possession": 49,
+      "shotsTotal": 3,
+      "shotsOnTarget": 2,
+      "corners": 3,
       "fouls": 12,
       "offsides": 2,
       "yellowCards": 3,
       "redCards": 1,
-      "shotsInsidebox": 0,
-      "shotsOutsidebox": 1,
-      "passesTotal": 247,
-      "passesAccurate": 201,
+      "shotsInsidebox": 1,
+      "shotsOutsidebox": 2,
+      "passesTotal": 276,
+      "passesAccurate": 216,
       "passesPct": null
     }
   },
@@ -45,19 +45,19 @@
           "number": 13,
           "name": "M. Dmitrović",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 23,
           "name": "O. El Hilali",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 14,
           "name": "Unai Núñez",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 6,
@@ -69,7 +69,7 @@
           "number": 21,
           "name": "Roger Hinojo",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.3"
         },
         {
           "number": 22,
@@ -93,7 +93,7 @@
           "number": 24,
           "name": "T. Dolan",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 28,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "Roberto Fernández",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -131,7 +131,7 @@
           "number": 18,
           "name": "Marcos Fernández",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 1,
@@ -179,7 +179,7 @@
           "number": 15,
           "name": "Bryan Zaragoza",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         }
       ]
     },
@@ -191,13 +191,13 @@
           "number": 1,
           "name": "O. Vlachodimos",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 2,
           "name": "Juan Iglesias",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.1"
         },
         {
           "number": 12,
@@ -209,7 +209,7 @@
           "number": 4,
           "name": "Kike Salas",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.4"
         },
         {
           "number": 17,
@@ -227,19 +227,19 @@
           "number": 6,
           "name": "L. Agoumé",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "6.2"
         },
         {
           "number": 18,
           "name": "Jon Guridi",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 30,
           "name": "Miguel Ángel",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.0"
         },
         {
           "number": 9,
@@ -251,7 +251,7 @@
           "number": 21,
           "name": "C. Ejuke",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "7.1"
         }
       ],
       "substitutes": [
@@ -259,13 +259,13 @@
           "number": 14,
           "name": "Manu Bueno",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 22,
           "name": "José Ángel Carmona",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 3,
@@ -301,7 +301,7 @@
           "number": 5,
           "name": "Andrés Castrín",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 34,
@@ -319,7 +319,7 @@
           "number": 19,
           "name": "L. Stassin",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 20,
