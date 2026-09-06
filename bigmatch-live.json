@@ -3,9 +3,256 @@
   "home": "Espanyol",
   "away": "Sevilla",
   "statusCode": "NS",
-  "updatedAt": "07/09/2026 01:20 WIB",
+  "updatedAt": "07/09/2026 01:37 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "coach": "Manolo González",
+      "startXI": [
+        {
+          "number": 13,
+          "name": "M. Dmitrović",
+          "position": "Kiper"
+        },
+        {
+          "number": 23,
+          "name": "O. El Hilali",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "Unai Núñez",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "L. Cabrera",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "Roger Hinojo",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "Álex Calatrava",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "Gabriel Moscardo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Edu Expósito",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "T. Dolan",
+          "position": "Gelandang"
+        },
+        {
+          "number": 28,
+          "name": "Javier Hernandez",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Roberto Fernández",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 17,
+          "name": "Jofre Carreras",
+          "position": "Penyerang"
+        },
+        {
+          "number": 26,
+          "name": "Rafel Bauzà",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "V. Drkušić",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Marcos Fernández",
+          "position": "Penyerang"
+        },
+        {
+          "number": 1,
+          "name": "Ángel Fortuño",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "Urko González",
+          "position": "Gelandang"
+        },
+        {
+          "number": 3,
+          "name": "Q. Hartman",
+          "position": "Bek"
+        },
+        {
+          "number": 10,
+          "name": "Pol Lozano",
+          "position": "Gelandang"
+        },
+        {
+          "number": 32,
+          "name": "José Ángel",
+          "position": "Bek"
+        },
+        {
+          "number": 11,
+          "name": "Pere Milla",
+          "position": "Gelandang"
+        },
+        {
+          "number": 5,
+          "name": "C. Riedel",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "Bryan Zaragoza",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "coach": "Luis García",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "O. Vlachodimos",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Juan Iglesias",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "A. Sangante",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Kike Salas",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "G. Suazo",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "G. Kochorashvili",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "L. Agoumé",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "Jon Guridi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 30,
+          "name": "Miguel Ángel",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "R. Ure",
+          "position": "Penyerang"
+        },
+        {
+          "number": 21,
+          "name": "C. Ejuke",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 14,
+          "name": "Manu Bueno",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "José Ángel Carmona",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Julio Díaz del Romo",
+          "position": "Bek"
+        },
+        {
+          "number": 10,
+          "name": "Peque Fernández",
+          "position": "Penyerang"
+        },
+        {
+          "number": 24,
+          "name": "Y. Fofana",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Alfon González",
+          "position": "Penyerang"
+        },
+        {
+          "number": 13,
+          "name": "Fran González",
+          "position": "Kiper"
+        },
+        {
+          "number": 5,
+          "name": "Andrés Castrín",
+          "position": "Bek"
+        },
+        {
+          "number": 34,
+          "name": "Iker Ortín Muñoz",
+          "position": "Bek"
+        },
+        {
+          "number": 16,
+          "name": "Isaac",
+          "position": "Penyerang"
+        },
+        {
+          "number": 19,
+          "name": "L. Stassin",
+          "position": "Penyerang"
+        },
+        {
+          "number": 20,
+          "name": "Félix Correia",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "RCDE Stadium",
     "city": "Cornella de Llobregat",
