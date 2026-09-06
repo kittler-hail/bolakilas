@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T01:04:38.030Z.
+   API-Football v3) pada 2026-09-06T02:05:06.030Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -441,8 +441,8 @@ const siteData = {
                     "away": 29
                 },
                 "poisson": {
-                    "home": 25,
-                    "away": 75
+                    "home": 26,
+                    "away": 74
                 },
                 "h2h": {
                     "home": 75,
@@ -529,97 +529,6 @@ const siteData = {
                     "player": "Anton Gaaei",
                     "team": "home",
                     "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-09-06",
-            "time": "01:45",
-            "home": "AS Roma",
-            "away": "Atalanta",
-            "stadium": "Stadio Olimpico",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/497.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/499.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Winner : AS Roma",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 73,
-                    "away": 27
-                },
-                "def": {
-                    "home": 100,
-                    "away": 0
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 7,
-                    "away": 93
-                },
-                "goals": {
-                    "home": 27,
-                    "away": 73
-                }
-            },
-            "goals": [
-                {
-                    "minute": "47",
-                    "player": "Éderson José dos Santos",
-                    "team": "away"
-                },
-                {
-                    "minute": "89",
-                    "player": "Mario Hermoso",
-                    "team": "home"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "Matias Soule",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "40",
-                    "player": "Gian Piero Gasperini",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "55",
-                    "player": "Maurizio Sarri",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "84",
-                    "player": "Raoul Bellanova",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+7",
-                    "player": "Gianluca Gaetano",
-                    "team": "away",
-                    "type": "red"
                 }
             ]
         },
@@ -801,6 +710,97 @@ const siteData = {
             ]
         },
         {
+            "league": "Serie A",
+            "date": "2026-09-06",
+            "time": "01:45",
+            "home": "AS Roma",
+            "away": "Atalanta",
+            "stadium": "Stadio Olimpico",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/497.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/499.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Winner : AS Roma",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 73,
+                    "away": 27
+                },
+                "def": {
+                    "home": 100,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 7,
+                    "away": 93
+                },
+                "goals": {
+                    "home": 27,
+                    "away": 73
+                }
+            },
+            "goals": [
+                {
+                    "minute": "47",
+                    "player": "Éderson José dos Santos",
+                    "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "Mario Hermoso",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Matias Soule",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "40",
+                    "player": "Gian Piero Gasperini",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "Maurizio Sarri",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Raoul Bellanova",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Gianluca Gaetano",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
+        },
+        {
             "league": "Jupiler Pro League",
             "date": "2026-09-06",
             "time": "01:45",
@@ -910,8 +910,8 @@ const siteData = {
                     "away": 50
                 },
                 "poisson": {
-                    "home": 45,
-                    "away": 55
+                    "home": 47,
+                    "away": 53
                 },
                 "h2h": {
                     "home": 100,
@@ -1405,56 +1405,14 @@ const siteData = {
             "league": "MLS",
             "date": "2026-09-06",
             "time": "06:30",
-            "home": "FC Cincinnati",
-            "away": "DC United",
-            "stadium": "TQL Stadium",
-            "round": "Pekan 23",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2242.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1615.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : FC Cincinnati or draw",
-            "comparison": {
-                "form": {
-                    "home": 73,
-                    "away": 27
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 54,
-                    "away": 46
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 42,
-                    "away": 58
-                }
-            }
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-06",
-            "time": "06:30",
             "home": "Inter Miami",
             "away": "Atlanta United FC",
             "stadium": "Nu Stadium",
             "round": "Pekan 23",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/9568.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1608.png",
             "prediction": "3 - 2",
@@ -1489,7 +1447,44 @@ const siteData = {
                     "home": 61,
                     "away": 39
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "32",
+                    "player": "Carlos Henrique Casimiro",
+                    "team": "home"
+                },
+                {
+                    "minute": "35",
+                    "player": "Miguel Almirón",
+                    "team": "away"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Luis Suárez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "28",
+                    "player": "Maximiliano Falcon",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "Cooper Sanchez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Germán Berterame",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1499,8 +1494,8 @@ const siteData = {
             "away": "San Diego",
             "stadium": "Exploria Stadium",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "63'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1598.png",
@@ -1544,6 +1539,38 @@ const siteData = {
                     "player": "Antoine Griezmann",
                     "team": "home"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "84",
+                    "player": "David Vazquez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Luis Otávio Costa de Aquino",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "kieran sargeant",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "David Brekalo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+9",
+                    "player": "Iván Angulo",
+                    "team": "home",
+                    "type": "yellow"
+                }
             ]
         },
         {
@@ -1554,9 +1581,9 @@ const siteData = {
             "away": "CF Montreal",
             "stadium": "Subaru Park",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1599.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1614.png",
@@ -1598,6 +1625,11 @@ const siteData = {
                     "minute": "57",
                     "player": "Danley Jean Jacques",
                     "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "Cavan Sullivan",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1630,6 +1662,24 @@ const siteData = {
                     "player": "Dawid Bugaj",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Kai Wagner",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "Victor Loturi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Jesus Bueno",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1641,9 +1691,9 @@ const siteData = {
             "away": "Chicago Fire",
             "stadium": "BMO Field",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 4,
             "homeLogo": "https://media.api-sports.io/football/teams/1601.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1607.png",
@@ -1715,6 +1765,11 @@ const siteData = {
                     "minute": "63",
                     "player": "Robert Lewandowski",
                     "team": "away"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Derrick Etienne Jr.",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1729,6 +1784,18 @@ const siteData = {
                     "player": "Markus Cimermancic",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Robin Lod",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Benjamin Kuscevic",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1740,9 +1807,9 @@ const siteData = {
             "away": "Colorado Rapids",
             "stadium": "ScottsMiracle-Gro Field",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1613.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1610.png",
@@ -1784,6 +1851,16 @@ const siteData = {
                     "minute": "22",
                     "player": "Santiago Rodriguez",
                     "team": "home"
+                },
+                {
+                    "minute": "81",
+                    "player": "Gonzalo Tapia",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Taha Habroune",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1798,6 +1875,18 @@ const siteData = {
                     "player": "Tarun Karumanchi",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Brooks Lennon",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+9",
+                    "player": "Patrick Schulte",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1809,8 +1898,8 @@ const siteData = {
             "away": "Houston Dynamo",
             "stadium": "Bank of America Stadium",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "63'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/18310.png",
@@ -1866,8 +1955,77 @@ const siteData = {
                     "player": "Djibril Diani",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Agustin Resch",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Ashley Westwood",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Artur",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Guilherme Augusto",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-06",
+            "time": "06:30",
+            "home": "FC Cincinnati",
+            "away": "DC United",
+            "stadium": "TQL Stadium",
+            "round": "Pekan 23",
+            "statusCode": "POSTP",
+            "homeLogo": "https://media.api-sports.io/football/teams/2242.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1615.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : FC Cincinnati or draw",
+            "comparison": {
+                "form": {
+                    "home": 73,
+                    "away": 27
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 54,
+                    "away": 46
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 42,
+                    "away": 58
+                }
+            }
         },
         {
             "league": "MLS",
@@ -1877,8 +2035,8 @@ const siteData = {
             "away": "New York Red Bulls",
             "stadium": "Lumen Field",
             "round": "Pekan 23",
-            "statusCode": "1H",
-            "minuteDisplay": "24'",
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
@@ -1915,7 +2073,27 @@ const siteData = {
                     "home": 56,
                     "away": 44
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "45+3",
+                    "player": "Ronald Donkor",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "Justin Che",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Julian Bazan",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1925,9 +2103,9 @@ const siteData = {
             "away": "Sporting Kansas City",
             "stadium": "Toyota Stadium",
             "round": "Pekan 23",
-            "statusCode": "1H",
-            "minuteDisplay": "25'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "61'",
+            "homeScore": 3,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1597.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1611.png",
@@ -1974,6 +2152,21 @@ const siteData = {
                     "minute": "19",
                     "player": "Stephen Afrifa",
                     "team": "away"
+                },
+                {
+                    "minute": "27",
+                    "player": "Logan Farrington",
+                    "team": "home"
+                },
+                {
+                    "minute": "30",
+                    "player": "Petar Musa",
+                    "team": "home"
+                },
+                {
+                    "minute": "45",
+                    "player": "Kaick da Silva Ferreira",
+                    "team": "home"
                 }
             ]
         },
@@ -1985,8 +2178,8 @@ const siteData = {
             "away": "San Jose Earthquakes",
             "stadium": "Q2 Stadium",
             "round": "Pekan 23",
-            "statusCode": "1H",
-            "minuteDisplay": "24'",
+            "statusCode": "2H",
+            "minuteDisplay": "63'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/16489.png",
@@ -2040,7 +2233,10 @@ const siteData = {
             "away": "Necaxa",
             "stadium": "Estadio Universitario",
             "round": "Apertura - 7",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
             "prediction": "2 - 1",
@@ -2075,7 +2271,45 @@ const siteData = {
                     "home": 59,
                     "away": 41
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Owen González",
+                    "team": "away"
+                },
+                {
+                    "minute": "40",
+                    "player": "Rodrigo Aguirre",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "5",
+                    "player": "Fernando Ordóñez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "19",
+                    "player": "Ricardo Monreal",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "21",
+                    "player": "Owen González",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "25",
+                    "player": "Nahuel Guzmán",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -2085,9 +2319,9 @@ const siteData = {
             "away": "Alebrijes de Oaxaca",
             "stadium": "Estadio Morelos",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
@@ -2123,7 +2357,19 @@ const siteData = {
                     "home": 67,
                     "away": 33
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "22",
+                    "player": "R. del Campo",
+                    "team": "home"
+                },
+                {
+                    "minute": "27",
+                    "player": "M. Rodriguez",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -2133,9 +2379,9 @@ const siteData = {
             "away": "Cruz Azul Hidalgo",
             "stadium": "",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14276.png",
             "awayLogo": "https://media.api-sports.io/football/teams/15928.png",
@@ -2171,7 +2417,45 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "J. Rodriguez",
+                    "team": "home"
+                },
+                {
+                    "minute": "20",
+                    "player": "C. Trejo",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "29",
+                    "player": "I. Silva",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "31",
+                    "player": "K. Gonzalez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "I. Silva",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "I. Silva",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -2181,9 +2465,9 @@ const siteData = {
             "away": "Venados FC",
             "stadium": "Estadio Tamaulipas",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/19905.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
@@ -2219,7 +2503,50 @@ const siteData = {
                     "home": 57,
                     "away": 43
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "J. A. Ocejo Zazueta",
+                    "team": "home"
+                },
+                {
+                    "minute": "11",
+                    "player": "C. Cruz",
+                    "team": "home"
+                },
+                {
+                    "minute": "45",
+                    "player": "J. A. Ocejo Zazueta",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "S. Montiel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "24",
+                    "player": "O. Manzanarez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "41",
+                    "player": "J. Martinez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "L. Macias",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -2229,9 +2556,9 @@ const siteData = {
             "away": "Correcaminos Uat",
             "stadium": "",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2313.png",
@@ -2267,7 +2594,28 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "23",
+                    "player": "F. Garcia",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "J. Estopier",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2277,7 +2625,10 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Dignity Health Sports Park",
             "round": "Pekan 23",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1605.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1609.png",
             "prediction": "1 - 1",
@@ -2312,7 +2663,22 @@ const siteData = {
                     "home": 54,
                     "away": 46
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Marco Reus",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "10",
+                    "player": "William Sands",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2322,7 +2688,10 @@ const siteData = {
             "away": "Los Angeles FC",
             "stadium": "America First Field",
             "round": "Pekan 23",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1616.png",
             "prediction": "1 - 2",
@@ -2357,7 +2726,19 @@ const siteData = {
                     "home": 37,
                     "away": 63
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "14",
+                    "player": "Denis Bouanga",
+                    "team": "away"
+                },
+                {
+                    "minute": "18",
+                    "player": "Saba Lobjanidze",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2751,8 +3132,8 @@ const siteData = {
                     "away": 67
                 },
                 "poisson": {
-                    "home": 10,
-                    "away": 90
+                    "home": 11,
+                    "away": 89
                 },
                 "h2h": {
                     "home": 40,
@@ -2855,6 +3236,51 @@ const siteData = {
             }
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-09-06",
+            "time": "20:00",
+            "home": "Estac Troyes",
+            "away": "Strasbourg",
+            "stadium": "",
+            "round": "Pekan 3",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/110.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/95.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Estac Troyes or draw",
+            "comparison": {
+                "form": {
+                    "home": 57,
+                    "away": 43
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 83,
+                    "away": 17
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 64,
+                    "away": 36
+                },
+                "goals": {
+                    "home": 55,
+                    "away": 45
+                }
+            }
+        },
+        {
             "league": "Serie A",
             "date": "2026-09-06",
             "time": "20:00",
@@ -2945,51 +3371,6 @@ const siteData = {
             }
         },
         {
-            "league": "Ligue 1",
-            "date": "2026-09-06",
-            "time": "20:00",
-            "home": "Estac Troyes",
-            "away": "Strasbourg",
-            "stadium": "",
-            "round": "Pekan 3",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/110.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/95.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Estac Troyes or draw",
-            "comparison": {
-                "form": {
-                    "home": 57,
-                    "away": 43
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 83,
-                    "away": 17
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 64,
-                    "away": 36
-                },
-                "goals": {
-                    "home": 55,
-                    "away": 45
-                }
-            }
-        },
-        {
             "league": "Bundesliga",
             "date": "2026-09-06",
             "time": "20:30",
@@ -3031,6 +3412,51 @@ const siteData = {
                 "goals": {
                     "home": 64,
                     "away": 36
+                }
+            }
+        },
+        {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-06",
+            "time": "21:00",
+            "home": "Kortrijk",
+            "away": "Zulte Waregem",
+            "stadium": "Guldensporen Stadion",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/734.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/600.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Winner : Zulte Waregem",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 100
+                },
+                "att": {
+                    "home": 11,
+                    "away": 89
+                },
+                "def": {
+                    "home": 23,
+                    "away": 77
+                },
+                "poisson": {
+                    "home": 12,
+                    "away": 88
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 55,
+                    "away": 45
                 }
             }
         },
@@ -3211,51 +3637,6 @@ const siteData = {
                 "goals": {
                     "home": 29,
                     "away": 71
-                }
-            }
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-06",
-            "time": "21:00",
-            "home": "Kortrijk",
-            "away": "Zulte Waregem",
-            "stadium": "Guldensporen Stadion",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/734.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/600.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Winner : Zulte Waregem",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 100
-                },
-                "att": {
-                    "home": 11,
-                    "away": 89
-                },
-                "def": {
-                    "home": 23,
-                    "away": 77
-                },
-                "poisson": {
-                    "home": 12,
-                    "away": 88
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 55,
-                    "away": 45
                 }
             }
         },
@@ -5028,7 +5409,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "06/09/2026 08:04 WIB",
+    "standingsUpdated": "06/09/2026 09:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33583,51 +33964,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-09-07",
-                "time": "01:45",
-                "home": "Juventus",
-                "away": "AC Milan",
-                "stadium": "Allianz Stadium",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/489.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Juventus or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-07",
                 "time": "01:45",
@@ -33669,6 +34005,51 @@ const siteData = {
                     "goals": {
                         "home": 64,
                         "away": 36
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-07",
+                "time": "01:45",
+                "home": "Juventus",
+                "away": "AC Milan",
+                "stadium": "Allianz Stadium",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/489.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Juventus or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
                     }
                 }
             },
