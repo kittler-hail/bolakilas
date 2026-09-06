@@ -3,36 +3,36 @@
   "home": "Everton",
   "away": "Manchester United",
   "statusCode": "2H",
-  "updatedAt": "06/09/2026 21:17 WIB",
+  "updatedAt": "06/09/2026 21:31 WIB",
   "statistics": {
     "home": {
       "possession": 46,
-      "shotsTotal": 6,
-      "shotsOnTarget": 1,
-      "corners": 1,
-      "fouls": 5,
+      "shotsTotal": 11,
+      "shotsOnTarget": 3,
+      "corners": 3,
+      "fouls": 7,
       "offsides": 2,
-      "yellowCards": 2,
+      "yellowCards": 3,
       "redCards": 0,
-      "shotsInsidebox": 5,
-      "shotsOutsidebox": 1,
-      "passesTotal": 280,
-      "passesAccurate": 245,
+      "shotsInsidebox": 9,
+      "shotsOutsidebox": 2,
+      "passesTotal": 327,
+      "passesAccurate": 284,
       "passesPct": null
     },
     "away": {
       "possession": 54,
-      "shotsTotal": 8,
+      "shotsTotal": 11,
       "shotsOnTarget": 2,
-      "corners": 2,
-      "fouls": 6,
+      "corners": 3,
+      "fouls": 8,
       "offsides": 1,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 3,
-      "shotsOutsidebox": 5,
-      "passesTotal": 330,
-      "passesAccurate": 289,
+      "shotsOutsidebox": 8,
+      "passesTotal": 425,
+      "passesAccurate": 373,
       "passesPct": null
     }
   },
@@ -51,19 +51,19 @@
           "number": 34,
           "name": "M. Röhl",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 6,
           "name": "J. Tarkowski",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.1"
         },
         {
           "number": 4,
           "name": "J. Branthwaite",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 16,
@@ -75,37 +75,37 @@
           "number": 45,
           "name": "H. Armstrong",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.0"
         },
         {
           "number": 37,
           "name": "J. Garner",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.3"
         },
         {
           "number": 22,
           "name": "B. Johnson",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 8,
           "name": "K. Dewsbury-Hall",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 19,
           "name": "Tyrique George",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.9"
         },
         {
           "number": 11,
           "name": "T. Barry",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
@@ -137,7 +137,7 @@
           "number": 10,
           "name": "J. Grealish",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 15,
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "S. Lammens",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 2,
@@ -185,7 +185,7 @@
           "number": 5,
           "name": "H. Maguire",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.2"
         },
         {
           "number": 6,
@@ -197,13 +197,13 @@
           "number": 23,
           "name": "L. Shaw",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 18,
           "name": "Y. Tielemans",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         {
           "number": 37,
@@ -227,7 +227,7 @@
           "number": 9,
           "name": "M. Rashford",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 10,
