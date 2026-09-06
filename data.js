@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T09:05:07.141Z.
+   API-Football v3) pada 2026-09-06T10:05:09.087Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1067,91 +1067,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-09-06",
-            "time": "02:00",
-            "home": "Willem II",
-            "away": "Excelsior",
-            "stadium": "Koning Willem II Stadion",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 3,
-            "homeLogo": "https://media.api-sports.io/football/teams/195.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/196.png",
-            "prediction": "1 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Winner : Excelsior and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 14,
-                    "away": 86
-                },
-                "att": {
-                    "home": 36,
-                    "away": 64
-                },
-                "def": {
-                    "home": 23,
-                    "away": 77
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 62,
-                    "away": 38
-                },
-                "goals": {
-                    "home": 60,
-                    "away": 40
-                }
-            },
-            "goals": [
-                {
-                    "minute": "8",
-                    "player": "David Garden",
-                    "team": "away"
-                },
-                {
-                    "minute": "34",
-                    "player": "Rick Meissen",
-                    "team": "away"
-                },
-                {
-                    "minute": "85",
-                    "player": "Irakli Yegoian",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "51",
-                    "player": "kasper boogaard",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "81",
-                    "player": "Jaden Slory",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "87",
-                    "player": "Nesto groen",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Scottish Premiership",
             "date": "2026-09-06",
             "time": "02:00",
@@ -1244,6 +1159,91 @@ const siteData = {
                     "minute": "90+7",
                     "player": "Samuel Antonio Ramos Linares",
                     "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-06",
+            "time": "02:00",
+            "home": "Willem II",
+            "away": "Excelsior",
+            "stadium": "Koning Willem II Stadion",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 3,
+            "homeLogo": "https://media.api-sports.io/football/teams/195.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/196.png",
+            "prediction": "1 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Winner : Excelsior and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 14,
+                    "away": 86
+                },
+                "att": {
+                    "home": 36,
+                    "away": 64
+                },
+                "def": {
+                    "home": 23,
+                    "away": 77
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 62,
+                    "away": 38
+                },
+                "goals": {
+                    "home": 60,
+                    "away": 40
+                }
+            },
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "David Garden",
+                    "team": "away"
+                },
+                {
+                    "minute": "34",
+                    "player": "Rick Meissen",
+                    "team": "away"
+                },
+                {
+                    "minute": "85",
+                    "player": "Irakli Yegoian",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "51",
+                    "player": "kasper boogaard",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Jaden Slory",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Nesto groen",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -3432,10 +3432,10 @@ const siteData = {
             "away": "Garudayaksa",
             "stadium": "Gelora Kie Raha Stadium",
             "round": "Pekan 1",
-            "statusCode": "1H",
-            "minuteDisplay": "34'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/22409.png",
             "awayLogo": "https://media.api-sports.io/football/teams/26645.png",
             "prediction": "0 - 0",
@@ -3470,7 +3470,19 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "36",
+                    "player": "Gustavo",
+                    "team": "home"
+                },
+                {
+                    "minute": "64",
+                    "player": "S. David",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -5695,8 +5707,8 @@ const siteData = {
             },
             {
                 "rank": 13,
-                "team": "Le Mans",
-                "logo": "https://media.api-sports.io/football/teams/1298.png",
+                "team": "Paris Saint Germain",
+                "logo": "https://media.api-sports.io/football/teams/85.png",
                 "played": 3,
                 "win": 0,
                 "draw": 2,
@@ -5706,8 +5718,8 @@ const siteData = {
             },
             {
                 "rank": 14,
-                "team": "Paris Saint Germain",
-                "logo": "https://media.api-sports.io/football/teams/85.png",
+                "team": "Le Mans",
+                "logo": "https://media.api-sports.io/football/teams/1298.png",
                 "played": 3,
                 "win": 0,
                 "draw": 2,
@@ -5818,8 +5830,8 @@ const siteData = {
             },
             {
                 "rank": 6,
-                "team": "Java United",
-                "logo": "",
+                "team": "Malut United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
                 "played": 34,
                 "win": 15,
                 "draw": 8,
@@ -5961,7 +5973,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "06/09/2026 16:05 WIB",
+    "standingsUpdated": "06/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
