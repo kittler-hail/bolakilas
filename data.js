@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T21:04:38.775Z.
+   API-Football v3) pada 2026-09-06T22:04:51.572Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -647,8 +647,8 @@ const siteData = {
                     "away": 44
                 },
                 "poisson": {
-                    "home": 30,
-                    "away": 70
+                    "home": 32,
+                    "away": 68
                 },
                 "h2h": {
                     "home": 29,
@@ -724,8 +724,8 @@ const siteData = {
             "away": "Academico Viseu",
             "stadium": "",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "75'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/762.png",
@@ -776,53 +776,14 @@ const siteData = {
                     "player": "Robinho",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Tomas Domingos",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
-        },
-        {
-            "league": "Liga MX",
-            "date": "2026-09-07",
-            "time": "06:00",
-            "home": "Cruz Azul",
-            "away": "Santos Laguna",
-            "stadium": "Estadio Banorte",
-            "round": "Apertura - 7",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Cruz Azul or draw",
-            "comparison": {
-                "form": {
-                    "home": 86,
-                    "away": 14
-                },
-                "att": {
-                    "home": 80,
-                    "away": 20
-                },
-                "def": {
-                    "home": 47,
-                    "away": 53
-                },
-                "poisson": {
-                    "home": 59,
-                    "away": 41
-                },
-                "h2h": {
-                    "home": 80,
-                    "away": 20
-                },
-                "goals": {
-                    "home": 57,
-                    "away": 43
-                }
-            }
         },
         {
             "league": "Liga de Expansion MX",
@@ -866,6 +827,51 @@ const siteData = {
                 "goals": {
                     "home": 62,
                     "away": 38
+                }
+            }
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-09-07",
+            "time": "06:00",
+            "home": "Cruz Azul",
+            "away": "Santos Laguna",
+            "stadium": "Estadio Banorte",
+            "round": "Apertura - 7",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Cruz Azul or draw",
+            "comparison": {
+                "form": {
+                    "home": 86,
+                    "away": 14
+                },
+                "att": {
+                    "home": 80,
+                    "away": 20
+                },
+                "def": {
+                    "home": 47,
+                    "away": 53
+                },
+                "poisson": {
+                    "home": 59,
+                    "away": 41
+                },
+                "h2h": {
+                    "home": 80,
+                    "away": 20
+                },
+                "goals": {
+                    "home": 57,
+                    "away": 43
                 }
             }
         },
@@ -1448,23 +1454,23 @@ const siteData = {
                 "rank": 4,
                 "team": "AC Milan",
                 "logo": "https://media.api-sports.io/football/teams/489.png",
-                "played": 2,
+                "played": 3,
                 "win": 2,
-                "draw": 0,
+                "draw": 1,
                 "lose": 0,
                 "gd": 3,
-                "points": 6
+                "points": 7
             },
             {
                 "rank": 5,
                 "team": "Juventus",
                 "logo": "https://media.api-sports.io/football/teams/496.png",
-                "played": 2,
+                "played": 3,
                 "win": 2,
-                "draw": 0,
+                "draw": 1,
                 "lose": 0,
                 "gd": 3,
-                "points": 6
+                "points": 7
             },
             {
                 "rank": 6,
@@ -1846,6 +1852,17 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Paris FC",
+                "logo": "https://media.api-sports.io/football/teams/114.png",
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "gd": 4,
+                "points": 7
+            },
+            {
+                "rank": 3,
                 "team": "Lyon",
                 "logo": "https://media.api-sports.io/football/teams/80.png",
                 "played": 3,
@@ -1856,7 +1873,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Lille",
                 "logo": "https://media.api-sports.io/football/teams/79.png",
                 "played": 3,
@@ -1867,7 +1884,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Rennes",
                 "logo": "https://media.api-sports.io/football/teams/94.png",
                 "played": 3,
@@ -1878,7 +1895,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Strasbourg",
                 "logo": "https://media.api-sports.io/football/teams/95.png",
                 "played": 3,
@@ -1889,7 +1906,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Stade Brestois 29",
                 "logo": "https://media.api-sports.io/football/teams/106.png",
                 "played": 3,
@@ -1898,17 +1915,6 @@ const siteData = {
                 "lose": 0,
                 "gd": 1,
                 "points": 5
-            },
-            {
-                "rank": 7,
-                "team": "Paris FC",
-                "logo": "https://media.api-sports.io/football/teams/114.png",
-                "played": 2,
-                "win": 1,
-                "draw": 1,
-                "lose": 0,
-                "gd": 3,
-                "points": 4
             },
             {
                 "rank": 8,
@@ -1936,11 +1942,11 @@ const siteData = {
                 "rank": 10,
                 "team": "Marseille",
                 "logo": "https://media.api-sports.io/football/teams/81.png",
-                "played": 2,
+                "played": 3,
                 "win": 1,
                 "draw": 0,
-                "lose": 1,
-                "gd": 2,
+                "lose": 2,
+                "gd": 1,
                 "points": 3
             },
             {
@@ -2233,7 +2239,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 04:04 WIB",
+    "standingsUpdated": "07/09/2026 05:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33307,51 +33313,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Fluminense",
-                "away": "Platense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Platense",
-                "comparison": {
-                    "form": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "att": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -33385,6 +33346,51 @@ const siteData = {
                     "poisson": {
                         "home": 100,
                         "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Fluminense",
+                "away": "Platense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Platense",
+                "comparison": {
+                    "form": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
                     },
                     "h2h": {
                         "home": 0,
