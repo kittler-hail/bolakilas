@@ -2,37 +2,37 @@
   "fixtureId": 1570367,
   "home": "Espanyol",
   "away": "Sevilla",
-  "statusCode": "2H",
-  "updatedAt": "07/09/2026 03:52 WIB",
+  "statusCode": "FT",
+  "updatedAt": "07/09/2026 04:08 WIB",
   "statistics": {
     "home": {
-      "possession": 53,
-      "shotsTotal": 7,
-      "shotsOnTarget": 1,
+      "possession": 56,
+      "shotsTotal": 12,
+      "shotsOnTarget": 3,
       "corners": 0,
-      "fouls": 15,
-      "offsides": 4,
+      "fouls": 17,
+      "offsides": 5,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 7,
       "shotsOutsidebox": 5,
-      "passesTotal": 323,
-      "passesAccurate": 263,
+      "passesTotal": 379,
+      "passesAccurate": 305,
       "passesPct": null
     },
     "away": {
-      "possession": 47,
+      "possession": 44,
       "shotsTotal": 6,
       "shotsOnTarget": 3,
-      "corners": 3,
+      "corners": 4,
       "fouls": 13,
       "offsides": 2,
       "yellowCards": 3,
       "redCards": 1,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 3,
-      "passesTotal": 286,
-      "passesAccurate": 221,
+      "passesTotal": 311,
+      "passesAccurate": 230,
       "passesPct": null
     }
   },
@@ -51,37 +51,37 @@
           "number": 23,
           "name": "O. El Hilali",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 14,
           "name": "Unai Núñez",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 6,
           "name": "L. Cabrera",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "6.6"
         },
         {
           "number": 21,
           "name": "Roger Hinojo",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "6.8"
         },
         {
           "number": 22,
           "name": "Álex Calatrava",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "5.9"
         },
         {
           "number": 20,
           "name": "Gabriel Moscardo",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.4"
         },
         {
           "number": 8,
@@ -93,19 +93,19 @@
           "number": 24,
           "name": "T. Dolan",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.3"
         },
         {
           "number": 28,
           "name": "Javier Hernandez",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.9"
         },
         {
           "number": 9,
           "name": "Roberto Fernández",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -131,7 +131,7 @@
           "number": 18,
           "name": "Marcos Fernández",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "8.0"
         },
         {
           "number": 1,
@@ -143,13 +143,13 @@
           "number": 4,
           "name": "Urko González",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.4"
         },
         {
           "number": 3,
           "name": "Q. Hartman",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 10,
@@ -173,13 +173,13 @@
           "number": 5,
           "name": "C. Riedel",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 15,
           "name": "Bryan Zaragoza",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.5"
         }
       ]
     },
@@ -191,37 +191,37 @@
           "number": 1,
           "name": "O. Vlachodimos",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.1"
         },
         {
           "number": 2,
           "name": "Juan Iglesias",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.1"
         },
         {
           "number": 12,
           "name": "A. Sangante",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "5.1"
         },
         {
           "number": 4,
           "name": "Kike Salas",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "5.7"
         },
         {
           "number": 17,
           "name": "G. Suazo",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "6.5"
         },
         {
           "number": 8,
           "name": "G. Kochorashvili",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.0"
         },
         {
           "number": 6,
@@ -233,7 +233,7 @@
           "number": 18,
           "name": "Jon Guridi",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.6"
         },
         {
           "number": 30,
@@ -245,13 +245,13 @@
           "number": 9,
           "name": "R. Ure",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "5.9"
         },
         {
           "number": 21,
           "name": "C. Ejuke",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -259,13 +259,13 @@
           "number": 14,
           "name": "Manu Bueno",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.3"
         },
         {
           "number": 22,
           "name": "José Ángel Carmona",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "6.4"
         },
         {
           "number": 3,
@@ -283,7 +283,7 @@
           "number": 24,
           "name": "Y. Fofana",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 7,
@@ -301,7 +301,7 @@
           "number": 5,
           "name": "Andrés Castrín",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "6.5"
         },
         {
           "number": 34,
