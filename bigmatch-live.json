@@ -3,36 +3,36 @@
   "home": "Everton",
   "away": "Manchester United",
   "statusCode": "1H",
-  "updatedAt": "06/09/2026 20:16 WIB",
+  "updatedAt": "06/09/2026 20:31 WIB",
   "statistics": {
     "home": {
-      "possession": 56,
+      "possession": 64,
       "shotsTotal": 1,
       "shotsOnTarget": 0,
-      "corners": null,
-      "fouls": 2,
-      "offsides": null,
+      "corners": 0,
+      "fouls": 4,
+      "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 0,
       "shotsOutsidebox": 1,
-      "passesTotal": 56,
-      "passesAccurate": 46,
+      "passesTotal": 155,
+      "passesAccurate": 137,
       "passesPct": null
     },
     "away": {
-      "possession": 44,
-      "shotsTotal": 1,
-      "shotsOnTarget": 0,
-      "corners": null,
+      "possession": 36,
+      "shotsTotal": 6,
+      "shotsOnTarget": 1,
+      "corners": 1,
       "fouls": 3,
-      "offsides": null,
+      "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 1,
-      "shotsOutsidebox": 0,
-      "passesTotal": 46,
-      "passesAccurate": 38,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 4,
+      "passesTotal": 137,
+      "passesAccurate": 120,
       "passesPct": null
     }
   },
@@ -45,37 +45,37 @@
           "number": 1,
           "name": "J. Pickford",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 34,
           "name": "M. Röhl",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "J. Tarkowski",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.6"
         },
         {
           "number": 4,
           "name": "J. Branthwaite",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 16,
           "name": "V. Mykolenko",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 45,
           "name": "H. Armstrong",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.4"
         },
         {
           "number": 37,
@@ -87,13 +87,13 @@
           "number": 22,
           "name": "B. Johnson",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 8,
           "name": "K. Dewsbury-Hall",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 19,
@@ -179,31 +179,31 @@
           "number": 2,
           "name": "Diogo Dalot",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 5,
           "name": "H. Maguire",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.9"
         },
         {
           "number": 6,
           "name": "Lisandro Martínez",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.5"
         },
         {
           "number": 23,
           "name": "L. Shaw",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 18,
           "name": "Y. Tielemans",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.8"
         },
         {
           "number": 37,
@@ -215,25 +215,25 @@
           "number": 19,
           "name": "B. Mbeumo",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 8,
           "name": "Bruno Fernandes",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.0"
         },
         {
           "number": 9,
           "name": "M. Rashford",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 10,
           "name": "Matheus Cunha",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
