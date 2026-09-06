@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T04:05:11.867Z.
+   API-Football v3) pada 2026-09-06T05:04:54.025Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -97,6 +97,115 @@ const siteData = {
         }
     },
     "matches": [
+        {
+            "league": "Super Lig",
+            "date": "2026-09-06",
+            "time": "00:00",
+            "home": "Fenerbahçe",
+            "away": "Beşiktaş",
+            "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/611.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Fenerbahçe or draw",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 43,
+                    "away": 57
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 45,
+                    "away": 55
+                }
+            },
+            "goals": [
+                {
+                    "minute": "26",
+                    "player": "Milan Škriniar",
+                    "team": "home"
+                },
+                {
+                    "minute": "38",
+                    "player": "Ridvan Yilmaz",
+                    "team": "away"
+                },
+                {
+                    "minute": "73",
+                    "player": "Dušan Vlahović",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45",
+                    "player": "Emirhan Topçu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Mason Greenwood",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Milan Škriniar",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Ederson Santana de Moraes",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Dušan Vlahović",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "Václav Černý",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "Mattéo Guendouzi",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
         {
             "league": "Primeira Liga",
             "date": "2026-09-06",
@@ -293,115 +402,6 @@ const siteData = {
                     "minute": "90+1",
                     "player": "Gustaf Lagerbielke",
                     "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-06",
-            "time": "00:00",
-            "home": "Fenerbahçe",
-            "away": "Beşiktaş",
-            "stadium": "Chobani Stadium Fenerbahce Sukru Saracoglu",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/611.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Fenerbahçe or draw",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 43,
-                    "away": 57
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 40,
-                    "away": 60
-                },
-                "goals": {
-                    "home": 45,
-                    "away": 55
-                }
-            },
-            "goals": [
-                {
-                    "minute": "26",
-                    "player": "Milan Škriniar",
-                    "team": "home"
-                },
-                {
-                    "minute": "38",
-                    "player": "Ridvan Yilmaz",
-                    "team": "away"
-                },
-                {
-                    "minute": "73",
-                    "player": "Dušan Vlahović",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45",
-                    "player": "Emirhan Topçu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45+1",
-                    "player": "Mason Greenwood",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "52",
-                    "player": "Milan Škriniar",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "52",
-                    "player": "Ederson Santana de Moraes",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "53",
-                    "player": "Dušan Vlahović",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "59",
-                    "player": "Václav Černý",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "76",
-                    "player": "Mattéo Guendouzi",
-                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -2316,98 +2316,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga MX",
-            "date": "2026-09-06",
-            "time": "08:00",
-            "home": "Tigres UANL",
-            "away": "Necaxa",
-            "stadium": "Estadio Universitario",
-            "round": "Apertura - 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Winner : Tigres UANL",
-            "comparison": {
-                "form": {
-                    "home": 56,
-                    "away": 44
-                },
-                "att": {
-                    "home": 54,
-                    "away": 46
-                },
-                "def": {
-                    "home": 59,
-                    "away": 41
-                },
-                "poisson": {
-                    "home": 79,
-                    "away": 21
-                },
-                "h2h": {
-                    "home": 75,
-                    "away": 25
-                },
-                "goals": {
-                    "home": 59,
-                    "away": 41
-                }
-            },
-            "goals": [
-                {
-                    "minute": "12",
-                    "player": "Owen González",
-                    "team": "away"
-                },
-                {
-                    "minute": "40",
-                    "player": "Rodrigo Aguirre",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "5",
-                    "player": "Fernando Ordóñez",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "19",
-                    "player": "Ricardo Monreal",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "21",
-                    "player": "Owen González",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "25",
-                    "player": "Nahuel Guzmán",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "Pedro Pedraza",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-06",
             "time": "08:00",
@@ -2499,6 +2407,12 @@ const siteData = {
                     "player": "A. Justo",
                     "team": "away",
                     "type": "red"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "A. Vazquez Hernandez",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -2576,7 +2490,7 @@ const siteData = {
                     "team": "home"
                 },
                 {
-                    "minute": "90+7",
+                    "minute": "90+6",
                     "player": "C. Trejo",
                     "team": "home"
                 }
@@ -2613,7 +2527,7 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "59",
+                    "minute": "58",
                     "player": "L. Lopez",
                     "team": "home",
                     "type": "yellow"
@@ -2885,6 +2799,12 @@ const siteData = {
                     "type": "red"
                 },
                 {
+                    "minute": "56",
+                    "player": "B. Figueroa",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
                     "minute": "86",
                     "player": "N. Gomez Del Rosal",
                     "team": "away",
@@ -2894,6 +2814,98 @@ const siteData = {
                     "minute": "90+5",
                     "player": "I. Doumbouya",
                     "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-09-06",
+            "time": "08:00",
+            "home": "Tigres UANL",
+            "away": "Necaxa",
+            "stadium": "Estadio Universitario",
+            "round": "Apertura - 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Winner : Tigres UANL",
+            "comparison": {
+                "form": {
+                    "home": 56,
+                    "away": 44
+                },
+                "att": {
+                    "home": 54,
+                    "away": 46
+                },
+                "def": {
+                    "home": 59,
+                    "away": 41
+                },
+                "poisson": {
+                    "home": 79,
+                    "away": 21
+                },
+                "h2h": {
+                    "home": 75,
+                    "away": 25
+                },
+                "goals": {
+                    "home": 59,
+                    "away": 41
+                }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Owen González",
+                    "team": "away"
+                },
+                {
+                    "minute": "40",
+                    "player": "Rodrigo Aguirre",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "5",
+                    "player": "Fernando Ordóñez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "19",
+                    "player": "Ricardo Monreal",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "21",
+                    "player": "Owen González",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "25",
+                    "player": "Nahuel Guzmán",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Pedro Pedraza",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -3093,8 +3105,8 @@ const siteData = {
             "away": "St. Louis City",
             "stadium": "BC Place",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/1603.png",
@@ -3178,6 +3190,24 @@ const siteData = {
                     "player": "Emmanuel Sabbi",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Ryan Gauld",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Christopher Durkin",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Fallou Fall",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -3189,10 +3219,10 @@ const siteData = {
             "away": "Minnesota United FC",
             "stadium": "Providence Park",
             "round": "Pekan 23",
-            "statusCode": "2H",
-            "minuteDisplay": "60'",
-            "homeScore": 4,
-            "awayScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 4,
             "homeLogo": "https://media.api-sports.io/football/teams/1617.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1612.png",
             "prediction": "2 - 3",
@@ -3236,8 +3266,8 @@ const siteData = {
                 },
                 {
                     "minute": "20",
-                    "player": "Ariel Lassiter",
-                    "team": "home"
+                    "player": "Drake Callender",
+                    "team": "away"
                 },
                 {
                     "minute": "26",
@@ -3263,6 +3293,16 @@ const siteData = {
                     "minute": "55",
                     "player": "Vincent Janssen",
                     "team": "home"
+                },
+                {
+                    "minute": "71",
+                    "player": "Kristoffer Velde",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Tomás Chancalay",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -3277,6 +3317,18 @@ const siteData = {
                     "player": "Finn Surman",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "Jefferson Abel Díaz Beleño",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Morris Duggan",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -3288,10 +3340,10 @@ const siteData = {
             "away": "Atlante FC",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 7",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2283.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
             "prediction": "2 - 1",
@@ -3332,6 +3384,11 @@ const siteData = {
                     "minute": "7",
                     "player": "Luís André Leite Esteves",
                     "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "Martín Sarrafiore",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -3339,6 +3396,30 @@ const siteData = {
                     "minute": "14",
                     "player": "Eugenio Pizzuto",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Eduardo Tercero",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Aldo Rocha",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Joaquín Alejandro Moxica Chapa",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Rodrigo Schlegel",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -5512,17 +5593,6 @@ const siteData = {
             },
             {
                 "rank": 4,
-                "team": "Stade Brestois 29",
-                "logo": "https://media.api-sports.io/football/teams/106.png",
-                "played": 3,
-                "win": 1,
-                "draw": 2,
-                "lose": 0,
-                "gd": 1,
-                "points": 5
-            },
-            {
-                "rank": 5,
                 "team": "Paris FC",
                 "logo": "https://media.api-sports.io/football/teams/114.png",
                 "played": 2,
@@ -5533,7 +5603,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 6,
+                "rank": 5,
                 "team": "Rennes",
                 "logo": "https://media.api-sports.io/football/teams/94.png",
                 "played": 2,
@@ -5544,7 +5614,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 7,
+                "rank": 6,
                 "team": "Estac Troyes",
                 "logo": "https://media.api-sports.io/football/teams/110.png",
                 "played": 2,
@@ -5555,7 +5625,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 8,
+                "rank": 7,
                 "team": "Lorient",
                 "logo": "https://media.api-sports.io/football/teams/97.png",
                 "played": 3,
@@ -5566,7 +5636,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 9,
+                "rank": 8,
                 "team": "Marseille",
                 "logo": "https://media.api-sports.io/football/teams/81.png",
                 "played": 2,
@@ -5577,7 +5647,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 10,
+                "rank": 9,
                 "team": "Lens",
                 "logo": "https://media.api-sports.io/football/teams/116.png",
                 "played": 3,
@@ -5588,7 +5658,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 11,
+                "rank": 10,
                 "team": "Angers",
                 "logo": "https://media.api-sports.io/football/teams/77.png",
                 "played": 2,
@@ -5599,7 +5669,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 12,
+                "rank": 11,
                 "team": "Strasbourg",
                 "logo": "https://media.api-sports.io/football/teams/95.png",
                 "played": 2,
@@ -5608,6 +5678,17 @@ const siteData = {
                 "lose": 1,
                 "gd": -3,
                 "points": 3
+            },
+            {
+                "rank": 12,
+                "team": "Stade Brestois 29",
+                "logo": "https://media.api-sports.io/football/teams/106.png",
+                "played": 2,
+                "win": 0,
+                "draw": 2,
+                "lose": 0,
+                "gd": 0,
+                "points": 2
             },
             {
                 "rank": 13,
@@ -5646,11 +5727,11 @@ const siteData = {
                 "rank": 16,
                 "team": "Le Havre",
                 "logo": "https://media.api-sports.io/football/teams/111.png",
-                "played": 3,
+                "played": 2,
                 "win": 0,
                 "draw": 1,
-                "lose": 2,
-                "gd": -2,
+                "lose": 1,
+                "gd": -1,
                 "points": 1
             },
             {
@@ -5679,205 +5760,205 @@ const siteData = {
         "Liga 1 (Indonesia)": [
             {
                 "rank": 1,
-                "team": "Arema FC",
-                "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 4,
-                "points": 3
+                "team": "Persib Bandung",
+                "logo": "https://media.api-sports.io/football/teams/2445.png",
+                "played": 34,
+                "win": 24,
+                "draw": 7,
+                "lose": 3,
+                "gd": 37,
+                "points": 79
             },
             {
                 "rank": 2,
-                "team": "Bali United",
-                "logo": "https://media.api-sports.io/football/teams/2448.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
+                "team": "Pusamania Borneo",
+                "logo": "https://media.api-sports.io/football/teams/2442.png",
+                "played": 34,
+                "win": 25,
+                "draw": 4,
+                "lose": 5,
+                "gd": 43,
+                "points": 79
             },
             {
                 "rank": 3,
                 "team": "Persija",
                 "logo": "https://media.api-sports.io/football/teams/10134.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
+                "played": 34,
+                "win": 22,
+                "draw": 5,
+                "lose": 7,
+                "gd": 36,
+                "points": 71
             },
             {
                 "rank": 4,
-                "team": "Dewa United",
-                "logo": "https://media.api-sports.io/football/teams/17902.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
+                "team": "Persebaya Surabaya",
+                "logo": "https://media.api-sports.io/football/teams/2446.png",
+                "played": 34,
+                "win": 16,
+                "draw": 10,
+                "lose": 8,
+                "gd": 26,
+                "points": 58
             },
             {
                 "rank": 5,
-                "team": "Persebaya Surabaya",
-                "logo": "https://media.api-sports.io/football/teams/2446.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
+                "team": "Bhayangkara FC",
+                "logo": "https://media.api-sports.io/football/teams/2443.png",
+                "played": 34,
+                "win": 16,
+                "draw": 5,
+                "lose": 13,
+                "gd": 8,
+                "points": 53
             },
             {
                 "rank": 6,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
+                "team": "Java United",
+                "logo": "",
+                "played": 34,
+                "win": 15,
+                "draw": 8,
+                "lose": 11,
+                "gd": 15,
+                "points": 53
             },
             {
                 "rank": 7,
-                "team": "PSIM Yogyakarta",
-                "logo": "https://media.api-sports.io/football/teams/4235.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
+                "team": "Dewa United",
+                "logo": "https://media.api-sports.io/football/teams/17902.png",
+                "played": 34,
+                "win": 16,
+                "draw": 5,
+                "lose": 13,
+                "gd": 7,
+                "points": 53
             },
             {
                 "rank": 8,
-                "team": "Bhayangkara FC",
-                "logo": "https://media.api-sports.io/football/teams/2443.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
+                "team": "Bali United",
+                "logo": "https://media.api-sports.io/football/teams/2448.png",
+                "played": 34,
+                "win": 14,
+                "draw": 9,
+                "lose": 11,
+                "gd": 9,
+                "points": 51
             },
             {
                 "rank": 9,
-                "team": "Persib Bandung",
-                "logo": "https://media.api-sports.io/football/teams/2445.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
+                "team": "Arema FC",
+                "logo": "https://media.api-sports.io/football/teams/2438.png",
+                "played": 34,
+                "win": 13,
+                "draw": 9,
+                "lose": 12,
+                "gd": 6,
+                "points": 48
             },
             {
                 "rank": 10,
-                "team": "PSM Makassar",
-                "logo": "https://media.api-sports.io/football/teams/2441.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "played": 34,
+                "win": 13,
+                "draw": 6,
+                "lose": 15,
+                "gd": 1,
+                "points": 45
             },
             {
                 "rank": 11,
-                "team": "Persijap",
-                "logo": "https://media.api-sports.io/football/teams/11132.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
+                "team": "PSIM Yogyakarta",
+                "logo": "https://media.api-sports.io/football/teams/4235.png",
+                "played": 34,
+                "win": 11,
+                "draw": 12,
+                "lose": 11,
+                "gd": -1,
+                "points": 45
             },
             {
                 "rank": 12,
-                "team": "Persepam Madura Utd",
-                "logo": "https://media.api-sports.io/football/teams/2444.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
+                "team": "Persik Kediri",
+                "logo": "https://media.api-sports.io/football/teams/4241.png",
+                "played": 34,
+                "win": 11,
+                "draw": 6,
+                "lose": 17,
+                "gd": -19,
+                "points": 39
             },
             {
                 "rank": 13,
-                "team": "Malut United",
-                "logo": "https://media.api-sports.io/football/teams/22409.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
+                "team": "Persijap",
+                "logo": "https://media.api-sports.io/football/teams/11132.png",
+                "played": 34,
+                "win": 9,
+                "draw": 9,
+                "lose": 16,
+                "gd": -14,
+                "points": 36
             },
             {
                 "rank": 14,
-                "team": "Garudayaksa",
-                "logo": "https://media.api-sports.io/football/teams/26645.png",
-                "played": 0,
-                "win": 0,
-                "draw": 0,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
+                "team": "Persepam Madura Utd",
+                "logo": "https://media.api-sports.io/football/teams/2444.png",
+                "played": 34,
+                "win": 9,
+                "draw": 8,
+                "lose": 17,
+                "gd": -17,
+                "points": 35
             },
             {
                 "rank": 15,
-                "team": "PSS Sleman",
-                "logo": "https://media.api-sports.io/football/teams/3882.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
+                "team": "PSM Makassar",
+                "logo": "https://media.api-sports.io/football/teams/2441.png",
+                "played": 34,
+                "win": 8,
+                "draw": 10,
+                "lose": 16,
+                "gd": -10,
+                "points": 34
             },
             {
                 "rank": 16,
-                "team": "Persik Kediri",
-                "logo": "https://media.api-sports.io/football/teams/4241.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
+                "team": "Persis Solo",
+                "logo": "https://media.api-sports.io/football/teams/4243.png",
+                "played": 34,
+                "win": 8,
+                "draw": 10,
+                "lose": 16,
+                "gd": -20,
+                "points": 34
             },
             {
                 "rank": 17,
-                "team": "Pusamania Borneo",
-                "logo": "https://media.api-sports.io/football/teams/2442.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
+                "team": "Semen Padang",
+                "logo": "https://media.api-sports.io/football/teams/2456.png",
+                "played": 34,
+                "win": 5,
+                "draw": 5,
+                "lose": 24,
+                "gd": -43,
+                "points": 20
             },
             {
                 "rank": 18,
-                "team": "Adhyaksa",
-                "logo": "https://media.api-sports.io/football/teams/24993.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -4,
-                "points": 0
+                "team": "PSBS Biak Numfor",
+                "logo": "https://media.api-sports.io/football/teams/4232.png",
+                "played": 34,
+                "win": 4,
+                "draw": 6,
+                "lose": 24,
+                "gd": -64,
+                "points": 18
             }
         ]
     },
-    "standingsUpdated": "06/09/2026 11:05 WIB",
+    "standingsUpdated": "06/09/2026 12:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -7490,7 +7571,7 @@ const siteData = {
                 "player": "Marcao",
                 "photo": "https://media.api-sports.io/football/players/433.png",
                 "reason": "Foot Injury",
-                "since": "2026-08-22"
+                "since": "2026-09-06"
             },
             {
                 "player": "K. Salas",
@@ -8221,13 +8302,19 @@ const siteData = {
             {
                 "player": "I. Toure",
                 "photo": "https://media.api-sports.io/football/players/56293.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
+                "reason": "Contusion",
+                "since": "2026-09-06"
             },
             {
                 "player": "G. Varela",
                 "photo": "https://media.api-sports.io/football/players/340547.png",
                 "reason": "Thigh Injury",
+                "since": "2026-09-06"
+            },
+            {
+                "player": "J. Ziolkowski",
+                "photo": "https://media.api-sports.io/football/players/384543.png",
+                "reason": "Foot Injury",
                 "since": "2026-09-06"
             }
         ],
@@ -8658,7 +8745,7 @@ const siteData = {
                 "player": "F. Ghedjemis",
                 "photo": "https://media.api-sports.io/football/players/334915.png",
                 "reason": "Calf Injury",
-                "since": "2026-09-06"
+                "since": "2026-08-29"
             }
         ],
         "sassuolo": [
@@ -34264,51 +34351,6 @@ const siteData = {
     "upcoming": {
         "2026-09-07": [
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-07",
-                "time": "00:00",
-                "home": "Vitória SC",
-                "away": "Casa Pia",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "def": {
-                        "home": 69,
-                        "away": 31
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-07",
                 "time": "00:00",
@@ -34395,6 +34437,51 @@ const siteData = {
                     "goals": {
                         "home": 20,
                         "away": 80
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-07",
+                "time": "00:00",
+                "home": "Vitória SC",
+                "away": "Casa Pia",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 69,
+                        "away": 31
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             },
@@ -34624,51 +34711,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-07",
-                "time": "06:00",
-                "home": "Cruz Azul",
-                "away": "Santos Laguna",
-                "stadium": "Estadio Banorte",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Cruz Azul or draw",
-                "comparison": {
-                    "form": {
-                        "home": 86,
-                        "away": 14
-                    },
-                    "att": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "def": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "poisson": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-07",
                 "time": "06:00",
@@ -34710,6 +34752,51 @@ const siteData = {
                     "goals": {
                         "home": 62,
                         "away": 38
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-07",
+                "time": "06:00",
+                "home": "Cruz Azul",
+                "away": "Santos Laguna",
+                "stadium": "Estadio Banorte",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Cruz Azul or draw",
+                "comparison": {
+                    "form": {
+                        "home": 86,
+                        "away": 14
+                    },
+                    "att": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "def": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "poisson": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
                     }
                 }
             },
