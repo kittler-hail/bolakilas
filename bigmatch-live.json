@@ -3,7 +3,7 @@
   "home": "Everton",
   "away": "Manchester United",
   "statusCode": "FT",
-  "updatedAt": "06/09/2026 23:19 WIB",
+  "updatedAt": "06/09/2026 23:35 WIB",
   "statistics": {
     "home": {
       "possession": 45,
@@ -16,7 +16,7 @@
       "redCards": 0,
       "shotsInsidebox": 14,
       "shotsOutsidebox": 4,
-      "passesTotal": 420,
+      "passesTotal": 419,
       "passesAccurate": 362,
       "passesPct": null
     },
