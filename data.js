@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T08:05:57.549Z.
+   API-Football v3) pada 2026-09-07T09:05:31.845Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -788,6 +788,69 @@ const siteData = {
             ]
         },
         {
+            "league": "Liga MX",
+            "date": "2026-09-07",
+            "time": "06:00",
+            "home": "Cruz Azul",
+            "away": "Santos Laguna",
+            "stadium": "Estadio Banorte",
+            "round": "Apertura - 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Cruz Azul or draw",
+            "comparison": {
+                "form": {
+                    "home": 86,
+                    "away": 14
+                },
+                "att": {
+                    "home": 80,
+                    "away": 20
+                },
+                "def": {
+                    "home": 47,
+                    "away": 53
+                },
+                "poisson": {
+                    "home": 59,
+                    "away": 41
+                },
+                "h2h": {
+                    "home": 80,
+                    "away": 20
+                },
+                "goals": {
+                    "home": 57,
+                    "away": 43
+                }
+            },
+            "goals": [
+                {
+                    "minute": "89",
+                    "player": "José Paradela",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "50",
+                    "player": "Aldo Lopez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-07",
             "time": "06:00",
@@ -872,69 +935,6 @@ const siteData = {
                 {
                     "minute": "75",
                     "player": "A. De Jesus Bravo Santiago",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Liga MX",
-            "date": "2026-09-07",
-            "time": "06:00",
-            "home": "Cruz Azul",
-            "away": "Santos Laguna",
-            "stadium": "Estadio Banorte",
-            "round": "Apertura - 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Cruz Azul or draw",
-            "comparison": {
-                "form": {
-                    "home": 86,
-                    "away": 14
-                },
-                "att": {
-                    "home": 80,
-                    "away": 20
-                },
-                "def": {
-                    "home": 47,
-                    "away": 53
-                },
-                "poisson": {
-                    "home": 59,
-                    "away": 41
-                },
-                "h2h": {
-                    "home": 80,
-                    "away": 20
-                },
-                "goals": {
-                    "home": 57,
-                    "away": 43
-                }
-            },
-            "goals": [
-                {
-                    "minute": "89",
-                    "player": "José Paradela",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "50",
-                    "player": "Aldo Lopez",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2304,7 +2304,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 15:05 WIB",
+    "standingsUpdated": "07/09/2026 16:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2991,10 +2991,10 @@ const siteData = {
             },
             {
                 "rank": 4,
-                "name": "A. Golovin",
-                "photo": "https://media.api-sports.io/football/players/109.png",
-                "team": "Monaco",
-                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
+                "name": "A. Thomasson",
+                "photo": "https://media.api-sports.io/football/players/22261.png",
+                "team": "Rennes",
+                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
                 "value": 2
             },
             {
@@ -3007,10 +3007,10 @@ const siteData = {
             },
             {
                 "rank": 6,
-                "name": "A. Thomasson",
-                "photo": "https://media.api-sports.io/football/players/22261.png",
-                "team": "Rennes",
-                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
+                "name": "A. Golovin",
+                "photo": "https://media.api-sports.io/football/players/109.png",
+                "team": "Monaco",
+                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
                 "value": 2
             },
             {
@@ -3039,10 +3039,10 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "name": "A. Bourabaa",
-                "photo": "https://media.api-sports.io/football/players/608142.png",
-                "team": "Le Mans",
-                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
+                "name": "Gessime Yassine",
+                "photo": "https://media.api-sports.io/football/players/369544.png",
+                "team": "Strasbourg",
+                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
                 "value": 1
             }
         ],
