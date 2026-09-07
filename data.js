@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T19:04:38.214Z.
+   API-Football v3) pada 2026-09-07T20:05:30.253Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -362,9 +362,9 @@ const siteData = {
             "away": "Lazio",
             "stadium": "Bluenergy Stadium - Stadio Friuli",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "19'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "59'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/494.png",
             "awayLogo": "https://media.api-sports.io/football/teams/487.png",
@@ -401,10 +401,35 @@ const siteData = {
                     "away": 44
                 }
             },
+            "goals": [
+                {
+                    "minute": "49",
+                    "player": "Jesper Karlstrom",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "13",
                     "player": "Jakub Piotrowski",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "23",
+                    "player": "Lennon Miller",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "25",
+                    "player": "Gustav Isaksen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "Jesper Karlstrom",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -418,7 +443,10 @@ const siteData = {
             "away": "Arouca",
             "stadium": "Estadio Antonio Coimbra da Mota",
             "round": "Pekan 5",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/230.png",
             "awayLogo": "https://media.api-sports.io/football/teams/240.png",
             "prediction": "1 - 2",
@@ -453,7 +481,21 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "Antef Tsoungui",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Francisco Reis Ferreira",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "LaLiga",
@@ -463,7 +505,10 @@ const siteData = {
             "away": "Real Sociedad",
             "stadium": "",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "35'",
+            "homeScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/797.png",
             "awayLogo": "https://media.api-sports.io/football/teams/548.png",
             "prediction": "1 - 2",
@@ -498,7 +543,27 @@ const siteData = {
                     "home": 25,
                     "away": 75
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Job Ochieng",
+                    "team": "away"
+                },
+                {
+                    "minute": "31",
+                    "player": "Yangel Herrera",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "9",
+                    "player": "Jon Aramburu",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -1312,6 +1377,17 @@ const siteData = {
             },
             {
                 "rank": 9,
+                "team": "Cagliari",
+                "logo": "https://media.api-sports.io/football/teams/490.png",
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "gd": 1,
+                "points": 6
+            },
+            {
+                "rank": 10,
                 "team": "Udinese",
                 "logo": "https://media.api-sports.io/football/teams/494.png",
                 "played": 2,
@@ -1322,7 +1398,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Sassuolo",
                 "logo": "https://media.api-sports.io/football/teams/488.png",
                 "played": 3,
@@ -1333,29 +1409,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 11,
-                "team": "Cagliari",
-                "logo": "https://media.api-sports.io/football/teams/490.png",
-                "played": 2,
-                "win": 1,
-                "draw": 0,
-                "lose": 1,
-                "gd": 0,
-                "points": 3
-            },
-            {
                 "rank": 12,
-                "team": "Lecce",
-                "logo": "https://media.api-sports.io/football/teams/867.png",
-                "played": 2,
-                "win": 1,
-                "draw": 0,
-                "lose": 1,
-                "gd": -2,
-                "points": 3
-            },
-            {
-                "rank": 13,
                 "team": "Napoli",
                 "logo": "https://media.api-sports.io/football/teams/492.png",
                 "played": 3,
@@ -1366,7 +1420,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 14,
+                "rank": 13,
                 "team": "Torino",
                 "logo": "https://media.api-sports.io/football/teams/503.png",
                 "played": 3,
@@ -1374,6 +1428,17 @@ const siteData = {
                 "draw": 0,
                 "lose": 2,
                 "gd": -1,
+                "points": 3
+            },
+            {
+                "rank": 14,
+                "team": "Lecce",
+                "logo": "https://media.api-sports.io/football/teams/867.png",
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "gd": -3,
                 "points": 3
             },
             {
@@ -2044,7 +2109,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 02:04 WIB",
+    "standingsUpdated": "08/09/2026 03:05 WIB",
     "topScorers": {
         "Premier League": [
             {
