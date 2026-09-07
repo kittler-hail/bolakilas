@@ -3,7 +3,7 @@
   "home": "Espanyol",
   "away": "Sevilla",
   "statusCode": "FT",
-  "updatedAt": "07/09/2026 11:52 WIB",
+  "updatedAt": "07/09/2026 12:10 WIB",
   "statistics": {
     "home": {
       "possession": 56,
@@ -31,8 +31,8 @@
       "redCards": 1,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 3,
-      "passesTotal": 312,
-      "passesAccurate": 230,
+      "passesTotal": 313,
+      "passesAccurate": 231,
       "passesPct": null
     }
   },
