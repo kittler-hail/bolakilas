@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T02:04:59.317Z.
+   API-Football v3) pada 2026-09-07T03:05:11.612Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -858,10 +858,10 @@ const siteData = {
             "away": "Leones Negros UDG",
             "stadium": "Estadio Akron",
             "round": "Apertura - 7",
-            "statusCode": "2H",
-            "minuteDisplay": "77'",
-            "homeScore": 0,
-            "awayScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
             "prediction": "2 - 2",
@@ -907,6 +907,16 @@ const siteData = {
                     "minute": "63",
                     "player": "J. Marchand",
                     "team": "away"
+                },
+                {
+                    "minute": "80",
+                    "player": "S. A. Hernandez",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "V. Moragrega",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -2294,7 +2304,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 09:04 WIB",
+    "standingsUpdated": "07/09/2026 10:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33368,51 +33378,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Santa Fe",
-                "away": "Vasco DA Gama",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -33446,6 +33411,51 @@ const siteData = {
                     "poisson": {
                         "home": 34,
                         "away": 66
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Santa Fe",
+                "away": "Vasco DA Gama",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
                     },
                     "h2h": {
                         "home": 0,
