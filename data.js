@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-06T23:04:37.337Z.
+   API-Football v3) pada 2026-09-07T00:08:01.523Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -75,12 +75,13 @@ const siteData = {
                 "results": [
                     "W",
                     "L",
-                    "L"
+                    "L",
+                    "D"
                 ],
                 "cleanSheets": 1,
                 "failedToScore": 0,
-                "goalsFor": 5,
-                "goalsAgainst": 4,
+                "goalsFor": 6,
+                "goalsAgainst": 5,
                 "winStreak": 1,
                 "attack": 45,
                 "defense": 56
@@ -794,8 +795,8 @@ const siteData = {
             "away": "Santos Laguna",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
@@ -842,10 +843,10 @@ const siteData = {
             "away": "Leones Negros UDG",
             "stadium": "Estadio Akron",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
+            "statusCode": "INT",
+            "minuteDisplay": "Terhenti",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
             "prediction": "2 - 2",
@@ -880,7 +881,14 @@ const siteData = {
                     "home": 62,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "6",
+                    "player": "O. Gil",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -2246,7 +2254,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 06:04 WIB",
+    "standingsUpdated": "07/09/2026 07:07 WIB",
     "topScorers": {
         "Premier League": [
             {
