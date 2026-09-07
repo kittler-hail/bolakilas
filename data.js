@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T22:04:51.552Z.
+   API-Football v3) pada 2026-09-07T23:05:37.857Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1207,8 +1207,8 @@ const siteData = {
             },
             {
                 "rank": 6,
-                "team": "Atletico Madrid",
-                "logo": "https://media.api-sports.io/football/teams/530.png",
+                "team": "Sevilla",
+                "logo": "https://media.api-sports.io/football/teams/536.png",
                 "played": 4,
                 "win": 2,
                 "draw": 1,
@@ -1218,8 +1218,8 @@ const siteData = {
             },
             {
                 "rank": 7,
-                "team": "Sevilla",
-                "logo": "https://media.api-sports.io/football/teams/536.png",
+                "team": "Atletico Madrid",
+                "logo": "https://media.api-sports.io/football/teams/530.png",
                 "played": 4,
                 "win": 2,
                 "draw": 1,
@@ -1240,6 +1240,17 @@ const siteData = {
             },
             {
                 "rank": 9,
+                "team": "Real Sociedad",
+                "logo": "https://media.api-sports.io/football/teams/548.png",
+                "played": 5,
+                "win": 2,
+                "draw": 1,
+                "lose": 2,
+                "gd": -2,
+                "points": 7
+            },
+            {
+                "rank": 10,
                 "team": "Athletic Club",
                 "logo": "https://media.api-sports.io/football/teams/531.png",
                 "played": 4,
@@ -1250,7 +1261,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Levante",
                 "logo": "https://media.api-sports.io/football/teams/539.png",
                 "played": 4,
@@ -1261,7 +1272,7 @@ const siteData = {
                 "points": 5
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Espanyol",
                 "logo": "https://media.api-sports.io/football/teams/540.png",
                 "played": 4,
@@ -1272,7 +1283,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Racing Santander",
                 "logo": "https://media.api-sports.io/football/teams/4665.png",
                 "played": 4,
@@ -1283,20 +1294,9 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png",
-                "played": 4,
-                "win": 1,
-                "draw": 1,
-                "lose": 2,
-                "gd": -3,
-                "points": 4
-            },
-            {
-                "rank": 14,
-                "team": "Real Sociedad",
-                "logo": "https://media.api-sports.io/football/teams/548.png",
                 "played": 4,
                 "win": 1,
                 "draw": 1,
@@ -1352,11 +1352,11 @@ const siteData = {
                 "rank": 19,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
-                "played": 3,
+                "played": 4,
                 "win": 0,
                 "draw": 1,
-                "lose": 2,
-                "gd": -6,
+                "lose": 3,
+                "gd": -7,
                 "points": 1
             },
             {
@@ -1473,8 +1473,8 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "team": "Udinese",
-                "logo": "https://media.api-sports.io/football/teams/494.png",
+                "team": "Sassuolo",
+                "logo": "https://media.api-sports.io/football/teams/488.png",
                 "played": 3,
                 "win": 1,
                 "draw": 1,
@@ -1484,8 +1484,8 @@ const siteData = {
             },
             {
                 "rank": 11,
-                "team": "Sassuolo",
-                "logo": "https://media.api-sports.io/football/teams/488.png",
+                "team": "Udinese",
+                "logo": "https://media.api-sports.io/football/teams/494.png",
                 "played": 3,
                 "win": 1,
                 "draw": 1,
@@ -2194,7 +2194,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 05:04 WIB",
+    "standingsUpdated": "08/09/2026 06:05 WIB",
     "topScorers": {
         "Premier League": [
             {
