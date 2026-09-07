@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T15:05:07.602Z.
+   API-Football v3) pada 2026-09-07T16:05:08.523Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -434,6 +434,92 @@ const siteData = {
             ]
         },
         {
+            "league": "Serie A",
+            "date": "2026-09-07",
+            "time": "01:45",
+            "home": "Juventus",
+            "away": "AC Milan",
+            "stadium": "Allianz Stadium",
+            "round": "Pekan 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/489.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Juventus or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 43,
+                    "away": 57
+                },
+                "def": {
+                    "home": 100,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 60,
+                    "away": 40
+                }
+            },
+            "goals": [
+                {
+                    "minute": "68",
+                    "player": "Alphadjo Cissè",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Federico Gatti",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "79",
+                    "player": "Pervis Estupinan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Koni De Winter",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Federico Gatti",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Alphadjo Cissè",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Ligue 1",
             "date": "2026-09-07",
             "time": "01:45",
@@ -517,92 +603,6 @@ const siteData = {
                 {
                     "minute": "87",
                     "player": "Lassine Sinayoko",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-09-07",
-            "time": "01:45",
-            "home": "Juventus",
-            "away": "AC Milan",
-            "stadium": "Allianz Stadium",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/489.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Juventus or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 43,
-                    "away": 57
-                },
-                "def": {
-                    "home": 100,
-                    "away": 0
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 60,
-                    "away": 40
-                }
-            },
-            "goals": [
-                {
-                    "minute": "68",
-                    "player": "Alphadjo Cissè",
-                    "team": "away"
-                },
-                {
-                    "minute": "90+2",
-                    "player": "Federico Gatti",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "79",
-                    "player": "Pervis Estupinan",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+2",
-                    "player": "Koni De Winter",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+6",
-                    "player": "Federico Gatti",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+6",
-                    "player": "Alphadjo Cissè",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2292,7 +2292,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 22:05 WIB",
+    "standingsUpdated": "07/09/2026 23:05 WIB",
     "topScorers": {
         "Premier League": [
             {
