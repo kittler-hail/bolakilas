@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T18:05:59.185Z.
+   API-Football v3) pada 2026-09-07T19:04:38.214Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -77,10 +77,10 @@ const siteData = {
             "away": "Celta Vigo",
             "stadium": "Coliseum",
             "round": "Pekan 4",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/546.png",
             "awayLogo": "https://media.api-sports.io/football/teams/538.png",
             "prediction": "2 - 1",
@@ -121,6 +121,11 @@ const siteData = {
                     "minute": "21",
                     "player": "Martin Satriano",
                     "team": "home"
+                },
+                {
+                    "minute": "57",
+                    "player": "Carl Starfelt",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -128,6 +133,36 @@ const siteData = {
                     "minute": "45+6",
                     "player": "Johan Mojica",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "Zaid Romero",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "Zaid Romero",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "77",
+                    "player": "Carl Starfelt",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Ramón Terrats",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Marcos Alonso",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -140,9 +175,9 @@ const siteData = {
             "away": "Gaziantep FK",
             "stadium": "",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "47'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 4,
             "homeLogo": "https://media.api-sports.io/football/teams/994.png",
             "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
@@ -199,6 +234,54 @@ const siteData = {
                     "minute": "45+1",
                     "player": "Kacper Kozłowski",
                     "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "Juan Santos",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Juan Santos",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "55",
+                    "player": "Arda Kurtulan",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Rhaldney Norberto Simiao Gomez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "Ogun Bayrak",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "76",
+                    "player": "Trivante Stewart",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Sinclair Armstrong",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Drissa Camara",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -210,10 +293,10 @@ const siteData = {
             "away": "Alanyaspor",
             "stadium": "",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "50'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1007.png",
             "awayLogo": "https://media.api-sports.io/football/teams/996.png",
             "prediction": "1 - 2",
@@ -249,11 +332,24 @@ const siteData = {
                     "away": 50
                 }
             },
+            "goals": [
+                {
+                    "minute": "70",
+                    "player": "Zakaria Ariss",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "31",
                     "player": "Attila Mocsi",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Meschack Elia",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -266,7 +362,10 @@ const siteData = {
             "away": "Lazio",
             "stadium": "Bluenergy Stadium - Stadio Friuli",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "19'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/494.png",
             "awayLogo": "https://media.api-sports.io/football/teams/487.png",
             "prediction": "1 - 2",
@@ -301,7 +400,15 @@ const siteData = {
                     "home": 56,
                     "away": 44
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "13",
+                    "player": "Jakub Piotrowski",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Primeira Liga",
@@ -1937,7 +2044,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 01:05 WIB",
+    "standingsUpdated": "08/09/2026 02:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30453,51 +30560,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Santa Fe",
-                "away": "Vasco DA Gama",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -30531,6 +30593,51 @@ const siteData = {
                     "poisson": {
                         "home": 34,
                         "away": 66
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Santa Fe",
+                "away": "Vasco DA Gama",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
                     },
                     "h2h": {
                         "home": 0,
@@ -31040,51 +31147,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-10",
-                "time": "05:00",
-                "home": "Santos",
-                "away": "Atletico-MG",
-                "stadium": "MRV Arena",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/128.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Santos or draw",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-10",
                 "time": "05:00",
@@ -31122,6 +31184,51 @@ const siteData = {
                     "h2h": {
                         "home": 50,
                         "away": 50
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-10",
+                "time": "05:00",
+                "home": "Santos",
+                "away": "Atletico-MG",
+                "stadium": "MRV Arena",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/128.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Santos or draw",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
                     },
                     "goals": {
                         "home": 57,
