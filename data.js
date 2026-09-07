@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T21:05:21.130Z.
+   API-Football v3) pada 2026-09-07T22:04:51.552Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -465,8 +465,8 @@ const siteData = {
             "away": "Arouca",
             "stadium": "Estadio Antonio Coimbra da Mota",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/230.png",
@@ -545,10 +545,10 @@ const siteData = {
             "away": "Real Sociedad",
             "stadium": "",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "75'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
-            "awayScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/797.png",
             "awayLogo": "https://media.api-sports.io/football/teams/548.png",
             "prediction": "1 - 2",
@@ -604,6 +604,11 @@ const siteData = {
                     "minute": "74",
                     "player": "Fernando Niño Rodríguez",
                     "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Luka Sučić",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -634,6 +639,12 @@ const siteData = {
                 {
                     "minute": "68",
                     "player": "Germán Valera",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Thomas Lemar",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1385,6 +1396,17 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "team": "Lazio",
+                "logo": "https://media.api-sports.io/football/teams/487.png",
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "gd": 3,
+                "points": 9
+            },
+            {
+                "rank": 4,
                 "team": "Como",
                 "logo": "https://media.api-sports.io/football/teams/895.png",
                 "played": 3,
@@ -1395,7 +1417,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "AC Milan",
                 "logo": "https://media.api-sports.io/football/teams/489.png",
                 "played": 3,
@@ -1406,7 +1428,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Juventus",
                 "logo": "https://media.api-sports.io/football/teams/496.png",
                 "played": 3,
@@ -1415,17 +1437,6 @@ const siteData = {
                 "lose": 0,
                 "gd": 3,
                 "points": 7
-            },
-            {
-                "rank": 6,
-                "team": "Lazio",
-                "logo": "https://media.api-sports.io/football/teams/487.png",
-                "played": 2,
-                "win": 2,
-                "draw": 0,
-                "lose": 0,
-                "gd": 2,
-                "points": 6
             },
             {
                 "rank": 7,
@@ -1464,11 +1475,11 @@ const siteData = {
                 "rank": 10,
                 "team": "Udinese",
                 "logo": "https://media.api-sports.io/football/teams/494.png",
-                "played": 2,
+                "played": 3,
                 "win": 1,
                 "draw": 1,
-                "lose": 0,
-                "gd": 1,
+                "lose": 1,
+                "gd": 0,
                 "points": 4
             },
             {
@@ -2183,7 +2194,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 04:05 WIB",
+    "standingsUpdated": "08/09/2026 05:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30699,51 +30710,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Santa Fe",
-                "away": "Vasco DA Gama",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -30777,6 +30743,51 @@ const siteData = {
                     "poisson": {
                         "home": 34,
                         "away": 66
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Santa Fe",
+                "away": "Vasco DA Gama",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
                     },
                     "h2h": {
                         "home": 0,
@@ -31286,51 +31297,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-10",
-                "time": "05:00",
-                "home": "Santos",
-                "away": "Atletico-MG",
-                "stadium": "MRV Arena",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/128.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Santos or draw",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-10",
                 "time": "05:00",
@@ -31368,6 +31334,51 @@ const siteData = {
                     "h2h": {
                         "home": 50,
                         "away": 50
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-10",
+                "time": "05:00",
+                "home": "Santos",
+                "away": "Atletico-MG",
+                "stadium": "MRV Arena",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/128.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Santos or draw",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
                     },
                     "goals": {
                         "home": 57,
