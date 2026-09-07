@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T09:05:31.845Z.
+   API-Football v3) pada 2026-09-07T10:05:07.076Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -354,7 +354,7 @@ const siteData = {
             "time": "00:15",
             "home": "SK Beveren",
             "away": "OH Leuven",
-            "stadium": "Freethiel Stadion",
+            "stadium": "Freethielstadion",
             "round": "Pekan 5",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -398,17 +398,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "69",
-                    "player": "Chris Lokesa",
+                    "player": "C. Lokesa",
                     "team": "home"
                 },
                 {
                     "minute": "85",
-                    "player": "Jearl Margaritha",
+                    "player": "J. Margaritha",
                     "team": "home"
                 },
                 {
-                    "minute": "90+1",
-                    "player": "Moïse Elohim Victoire Kaboré",
+                    "minute": "90",
+                    "player": "E. Kabore",
                     "team": "home"
                 }
             ],
@@ -2304,7 +2304,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 16:05 WIB",
+    "standingsUpdated": "07/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
