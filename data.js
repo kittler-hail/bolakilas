@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T11:05:12.563Z.
+   API-Football v3) pada 2026-09-07T12:06:22.803Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -104,6 +104,86 @@ const siteData = {
         }
     },
     "matches": [
+        {
+            "league": "Primeira Liga",
+            "date": "2026-09-07",
+            "time": "00:00",
+            "home": "Vitória SC",
+            "away": "Casa Pia",
+            "stadium": "",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/224.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 100,
+                    "away": 0
+                },
+                "def": {
+                    "home": 69,
+                    "away": 31
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "cards": [
+                {
+                    "minute": "62",
+                    "player": "Gustavo Silva",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Ivan Mandic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Tiago Miguel Carvalho Margarido",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "João Pedro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Balieiro Thiago",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
         {
             "league": "Super Lig",
             "date": "2026-09-07",
@@ -263,86 +343,6 @@ const siteData = {
                 {
                     "minute": "28",
                     "player": "Massadio Haïdara",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Primeira Liga",
-            "date": "2026-09-07",
-            "time": "00:00",
-            "home": "Vitória SC",
-            "away": "Casa Pia",
-            "stadium": "",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 100,
-                    "away": 0
-                },
-                "att": {
-                    "home": 100,
-                    "away": 0
-                },
-                "def": {
-                    "home": 69,
-                    "away": 31
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "cards": [
-                {
-                    "minute": "62",
-                    "player": "Gustavo Silva",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "62",
-                    "player": "Ivan Mandic",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "66",
-                    "player": "Tiago Miguel Carvalho Margarido",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "João Pedro",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "Balieiro Thiago",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -2106,205 +2106,205 @@ const siteData = {
         "Liga 1 (Indonesia)": [
             {
                 "rank": 1,
-                "team": "Persib Bandung",
-                "logo": "https://media.api-sports.io/football/teams/2445.png",
-                "played": 34,
-                "win": 24,
-                "draw": 7,
-                "lose": 3,
-                "gd": 37,
-                "points": 79
+                "team": "Arema FC",
+                "logo": "https://media.api-sports.io/football/teams/2438.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 4,
+                "points": 3
             },
             {
                 "rank": 2,
-                "team": "Pusamania Borneo",
-                "logo": "https://media.api-sports.io/football/teams/2442.png",
-                "played": 34,
-                "win": 25,
-                "draw": 4,
-                "lose": 5,
-                "gd": 43,
-                "points": 79
+                "team": "Persib Bandung",
+                "logo": "https://media.api-sports.io/football/teams/2445.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 2,
+                "points": 3
             },
             {
                 "rank": 3,
-                "team": "Persija",
-                "logo": "https://media.api-sports.io/football/teams/10134.png",
-                "played": 34,
-                "win": 22,
-                "draw": 5,
-                "lose": 7,
-                "gd": 36,
-                "points": 71
+                "team": "Persepam Madura Utd",
+                "logo": "https://media.api-sports.io/football/teams/2444.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 2,
+                "points": 3
             },
             {
                 "rank": 4,
-                "team": "Persebaya Surabaya",
-                "logo": "https://media.api-sports.io/football/teams/2446.png",
-                "played": 34,
-                "win": 16,
-                "draw": 10,
-                "lose": 8,
-                "gd": 26,
-                "points": 58
+                "team": "Bali United",
+                "logo": "https://media.api-sports.io/football/teams/2448.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 1,
+                "points": 3
             },
             {
                 "rank": 5,
-                "team": "Bhayangkara FC",
-                "logo": "https://media.api-sports.io/football/teams/2443.png",
-                "played": 34,
-                "win": 16,
-                "draw": 5,
-                "lose": 13,
-                "gd": 8,
-                "points": 53
+                "team": "Persija",
+                "logo": "https://media.api-sports.io/football/teams/10134.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 1,
+                "points": 3
             },
             {
                 "rank": 6,
-                "team": "Malut United",
-                "logo": "https://media.api-sports.io/football/teams/22409.png",
-                "played": 34,
-                "win": 15,
-                "draw": 8,
-                "lose": 11,
-                "gd": 15,
-                "points": 53
+                "team": "Dewa United",
+                "logo": "https://media.api-sports.io/football/teams/17902.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 1,
+                "points": 3
             },
             {
                 "rank": 7,
-                "team": "Dewa United",
-                "logo": "https://media.api-sports.io/football/teams/17902.png",
-                "played": 34,
-                "win": 16,
-                "draw": 5,
-                "lose": 13,
-                "gd": 7,
-                "points": 53
+                "team": "Persebaya Surabaya",
+                "logo": "https://media.api-sports.io/football/teams/2446.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
             },
             {
                 "rank": 8,
-                "team": "Bali United",
-                "logo": "https://media.api-sports.io/football/teams/2448.png",
-                "played": 34,
-                "win": 14,
-                "draw": 9,
-                "lose": 11,
-                "gd": 9,
-                "points": 51
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
             },
             {
                 "rank": 9,
-                "team": "Arema FC",
-                "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 34,
-                "win": 13,
-                "draw": 9,
-                "lose": 12,
-                "gd": 6,
-                "points": 48
+                "team": "PSIM Yogyakarta",
+                "logo": "https://media.api-sports.io/football/teams/4235.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
             },
             {
                 "rank": 10,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 34,
-                "win": 13,
-                "draw": 6,
-                "lose": 15,
-                "gd": 1,
-                "points": 45
+                "team": "Bhayangkara FC",
+                "logo": "https://media.api-sports.io/football/teams/2443.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
             },
             {
                 "rank": 11,
-                "team": "PSIM Yogyakarta",
-                "logo": "https://media.api-sports.io/football/teams/4235.png",
-                "played": 34,
-                "win": 11,
-                "draw": 12,
-                "lose": 11,
-                "gd": -1,
-                "points": 45
+                "team": "Garudayaksa",
+                "logo": "https://media.api-sports.io/football/teams/26645.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
             },
             {
                 "rank": 12,
-                "team": "Persik Kediri",
-                "logo": "https://media.api-sports.io/football/teams/4241.png",
-                "played": 34,
-                "win": 11,
-                "draw": 6,
-                "lose": 17,
-                "gd": -19,
-                "points": 39
+                "team": "PSS Sleman",
+                "logo": "https://media.api-sports.io/football/teams/3882.png",
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -1,
+                "points": 0
             },
             {
                 "rank": 13,
-                "team": "Persijap",
-                "logo": "https://media.api-sports.io/football/teams/11132.png",
-                "played": 34,
-                "win": 9,
-                "draw": 9,
-                "lose": 16,
-                "gd": -14,
-                "points": 36
+                "team": "Persik Kediri",
+                "logo": "https://media.api-sports.io/football/teams/4241.png",
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -1,
+                "points": 0
             },
             {
                 "rank": 14,
-                "team": "Persepam Madura Utd",
-                "logo": "https://media.api-sports.io/football/teams/2444.png",
-                "played": 34,
-                "win": 9,
-                "draw": 8,
-                "lose": 17,
-                "gd": -17,
-                "points": 35
+                "team": "Pusamania Borneo",
+                "logo": "https://media.api-sports.io/football/teams/2442.png",
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -1,
+                "points": 0
             },
             {
                 "rank": 15,
                 "team": "PSM Makassar",
                 "logo": "https://media.api-sports.io/football/teams/2441.png",
-                "played": 34,
-                "win": 8,
-                "draw": 10,
-                "lose": 16,
-                "gd": -10,
-                "points": 34
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -2,
+                "points": 0
             },
             {
                 "rank": 16,
-                "team": "Persis Solo",
-                "logo": "https://media.api-sports.io/football/teams/4243.png",
-                "played": 34,
-                "win": 8,
-                "draw": 10,
-                "lose": 16,
-                "gd": -20,
-                "points": 34
+                "team": "Persijap",
+                "logo": "https://media.api-sports.io/football/teams/11132.png",
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -2,
+                "points": 0
             },
             {
                 "rank": 17,
-                "team": "Semen Padang",
-                "logo": "https://media.api-sports.io/football/teams/2456.png",
-                "played": 34,
-                "win": 5,
-                "draw": 5,
-                "lose": 24,
-                "gd": -43,
-                "points": 20
+                "team": "Malut United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 0
             },
             {
                 "rank": 18,
-                "team": "PSBS Biak Numfor",
-                "logo": "https://media.api-sports.io/football/teams/4232.png",
-                "played": 34,
-                "win": 4,
-                "draw": 6,
-                "lose": 24,
-                "gd": -64,
-                "points": 18
+                "team": "Adhyaksa",
+                "logo": "https://media.api-sports.io/football/teams/24993.png",
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "gd": -4,
+                "points": 0
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 18:05 WIB",
+    "standingsUpdated": "07/09/2026 19:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2391,6 +2391,14 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "Raphinha",
+                "photo": "https://media.api-sports.io/football/players/1496.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 6
+            },
+            {
+                "rank": 2,
                 "name": "Sergio Camello",
                 "photo": "https://media.api-sports.io/football/players/52.png",
                 "team": "Rayo Vallecano",
@@ -2398,15 +2406,15 @@ const siteData = {
                 "value": 5
             },
             {
-                "rank": 2,
-                "name": "Raphinha",
-                "photo": "https://media.api-sports.io/football/players/1496.png",
+                "rank": 3,
+                "name": "Fermín",
+                "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
                 "teamLogo": "https://media.api-sports.io/football/teams/529.png",
-                "value": 5
+                "value": 4
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "P. Aubameyang",
                 "photo": "https://media.api-sports.io/football/players/1465.png",
                 "team": "Deportivo La Coruna",
@@ -2414,7 +2422,15 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 4,
+                "rank": 5,
+                "name": "Lamine Yamal",
+                "photo": "https://media.api-sports.io/football/players/386828.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 4
+            },
+            {
+                "rank": 6,
                 "name": "Kylian Mbappé",
                 "photo": "https://media.api-sports.io/football/players/278.png",
                 "team": "Real Madrid",
@@ -2422,52 +2438,36 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 5,
+                "rank": 7,
+                "name": "L. Boyé",
+                "photo": "https://media.api-sports.io/football/players/608.png",
+                "team": "Alaves",
+                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
+                "value": 4
+            },
+            {
+                "rank": 8,
+                "name": "A. Budimir",
+                "photo": "https://media.api-sports.io/football/players/46746.png",
+                "team": "Osasuna",
+                "teamLogo": "https://media.api-sports.io/football/teams/727.png",
+                "value": 4
+            },
+            {
+                "rank": 9,
+                "name": "M. Díaz",
+                "photo": "https://media.api-sports.io/football/players/760.png",
+                "team": "Alaves",
+                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
+                "value": 3
+            },
+            {
+                "rank": 10,
                 "name": "Álex Baena",
                 "photo": "https://media.api-sports.io/football/players/182219.png",
                 "team": "Atletico Madrid",
                 "teamLogo": "https://media.api-sports.io/football/teams/530.png",
                 "value": 3
-            },
-            {
-                "rank": 6,
-                "name": "M. Zabiri",
-                "photo": "https://media.api-sports.io/football/players/457101.png",
-                "team": "Racing Santander",
-                "teamLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "value": 3
-            },
-            {
-                "rank": 7,
-                "name": "Fermín",
-                "photo": "https://media.api-sports.io/football/players/340626.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
-                "value": 3
-            },
-            {
-                "rank": 8,
-                "name": "Roberto Fernández",
-                "photo": "https://media.api-sports.io/football/players/312990.png",
-                "team": "Espanyol",
-                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
-                "value": 3
-            },
-            {
-                "rank": 9,
-                "name": "J. Bellingham",
-                "photo": "https://media.api-sports.io/football/players/129718.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "M. Díaz",
-                "photo": "https://media.api-sports.io/football/players/760.png",
-                "team": "Alaves",
-                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
-                "value": 2
             }
         ],
         "Serie A": [
@@ -2481,6 +2481,14 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "A. Raimondo",
+                "photo": "https://media.api-sports.io/football/players/314254.png",
+                "team": "Frosinone",
+                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
+                "value": 4
+            },
+            {
+                "rank": 3,
                 "name": "M. Soulé",
                 "photo": "https://media.api-sports.io/football/players/323936.png",
                 "team": "AS Roma",
@@ -2488,7 +2496,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "M. Baturina",
                 "photo": "https://media.api-sports.io/football/players/295026.png",
                 "team": "Como",
@@ -2496,7 +2504,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "Assane Diao",
                 "photo": "https://media.api-sports.io/football/players/400948.png",
                 "team": "Como",
@@ -2504,7 +2512,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "H. Kamara",
                 "photo": "https://media.api-sports.io/football/players/22007.png",
                 "team": "Udinese",
@@ -2512,7 +2520,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "H. Çalhanoğlu",
                 "photo": "https://media.api-sports.io/football/players/1640.png",
                 "team": "Inter",
@@ -2520,7 +2528,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 7,
+                "rank": 8,
+                "name": "A. Cissè",
+                "photo": "https://media.api-sports.io/football/players/359100.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
+                "value": 2
+            },
+            {
+                "rank": 9,
                 "name": "C. Adams",
                 "photo": "https://media.api-sports.io/football/players/19524.png",
                 "team": "Torino",
@@ -2528,27 +2544,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "R. Højlund",
                 "photo": "https://media.api-sports.io/football/players/288006.png",
                 "team": "Napoli",
                 "teamLogo": "https://media.api-sports.io/football/teams/492.png",
-                "value": 2
-            },
-            {
-                "rank": 9,
-                "name": "Lautaro Martínez",
-                "photo": "https://media.api-sports.io/football/players/217.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "T. Douvikas",
-                "photo": "https://media.api-sports.io/football/players/26845.png",
-                "team": "Como",
-                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
                 "value": 2
             }
         ],
