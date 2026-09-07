@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T10:05:07.076Z.
+   API-Football v3) pada 2026-09-07T11:05:12.563Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -104,86 +104,6 @@ const siteData = {
         }
     },
     "matches": [
-        {
-            "league": "Primeira Liga",
-            "date": "2026-09-07",
-            "time": "00:00",
-            "home": "Vitória SC",
-            "away": "Casa Pia",
-            "stadium": "",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 100,
-                    "away": 0
-                },
-                "att": {
-                    "home": 100,
-                    "away": 0
-                },
-                "def": {
-                    "home": 69,
-                    "away": 31
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "cards": [
-                {
-                    "minute": "62",
-                    "player": "Gustavo Silva",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "62",
-                    "player": "Ivan Mandic",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "66",
-                    "player": "Tiago Miguel Carvalho Margarido",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "João Pedro",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "Balieiro Thiago",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "Super Lig",
             "date": "2026-09-07",
@@ -343,6 +263,86 @@ const siteData = {
                 {
                     "minute": "28",
                     "player": "Massadio Haïdara",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Primeira Liga",
+            "date": "2026-09-07",
+            "time": "00:00",
+            "home": "Vitória SC",
+            "away": "Casa Pia",
+            "stadium": "",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/224.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 100,
+                    "away": 0
+                },
+                "def": {
+                    "home": 69,
+                    "away": 31
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "cards": [
+                {
+                    "minute": "62",
+                    "player": "Gustavo Silva",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Ivan Mandic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Tiago Miguel Carvalho Margarido",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "João Pedro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Balieiro Thiago",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -2304,7 +2304,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 17:05 WIB",
+    "standingsUpdated": "07/09/2026 18:05 WIB",
     "topScorers": {
         "Premier League": [
             {
