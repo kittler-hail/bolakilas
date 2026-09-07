@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-07T00:08:01.523Z.
+   API-Football v3) pada 2026-09-07T01:05:29.094Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -104,86 +104,6 @@ const siteData = {
         }
     },
     "matches": [
-        {
-            "league": "Primeira Liga",
-            "date": "2026-09-07",
-            "time": "00:00",
-            "home": "Vitória SC",
-            "away": "Casa Pia",
-            "stadium": "",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 100,
-                    "away": 0
-                },
-                "att": {
-                    "home": 100,
-                    "away": 0
-                },
-                "def": {
-                    "home": 69,
-                    "away": 31
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "cards": [
-                {
-                    "minute": "62",
-                    "player": "Gustavo Silva",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "62",
-                    "player": "Ivan Mandic",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "66",
-                    "player": "Tiago Miguel Carvalho Margarido",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "João Pedro",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "Balieiro Thiago",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "Super Lig",
             "date": "2026-09-07",
@@ -343,6 +263,86 @@ const siteData = {
                 {
                     "minute": "28",
                     "player": "Massadio Haïdara",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Primeira Liga",
+            "date": "2026-09-07",
+            "time": "00:00",
+            "home": "Vitória SC",
+            "away": "Casa Pia",
+            "stadium": "",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/224.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Vitória SC or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 100,
+                    "away": 0
+                },
+                "def": {
+                    "home": 69,
+                    "away": 31
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "cards": [
+                {
+                    "minute": "62",
+                    "player": "Gustavo Silva",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Ivan Mandic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Tiago Miguel Carvalho Margarido",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "João Pedro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Balieiro Thiago",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -795,9 +795,9 @@ const siteData = {
             "away": "Santos Laguna",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 7",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
@@ -833,7 +833,22 @@ const siteData = {
                     "home": 57,
                     "away": 43
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "89",
+                    "player": "José Paradela",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "50",
+                    "player": "Aldo Lopez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -843,8 +858,8 @@ const siteData = {
             "away": "Leones Negros UDG",
             "stadium": "Estadio Akron",
             "round": "Apertura - 7",
-            "statusCode": "INT",
-            "minuteDisplay": "Terhenti",
+            "statusCode": "1H",
+            "minuteDisplay": "37'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
@@ -2254,7 +2269,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/09/2026 07:07 WIB",
+    "standingsUpdated": "07/09/2026 08:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33328,51 +33343,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Santa Fe",
-                "away": "Vasco DA Gama",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -33406,6 +33376,51 @@ const siteData = {
                     "poisson": {
                         "home": 34,
                         "away": 66
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Santa Fe",
+                "away": "Vasco DA Gama",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
                     },
                     "h2h": {
                         "home": 0,
