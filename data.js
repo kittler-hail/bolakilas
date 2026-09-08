@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T19:05:07.731Z.
+   API-Football v3) pada 2026-09-08T20:05:15.762Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Stade Pierre-Mauroy",
         "prediction": "0 - 0",
         "analysis": "Lille bertemu Real Betis dalam laga UEFA Champions League. Analisis API-Football: No predictions available.",
-        "statusCode": "1H",
-        "minuteDisplay": "3'",
-        "homeScore": 0,
-        "awayScore": 0,
+        "statusCode": "HT",
+        "minuteDisplay": "HT",
+        "homeScore": 2,
+        "awayScore": 1,
         "odds": {
             "home": 33,
             "draw": 33,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Lille",
                 "away": "Real Betis",
-                "score": "0-0"
+                "score": "2-1"
             }
         ],
         "form": {
@@ -70,10 +70,10 @@ const siteData = {
             "away": "Real Betis",
             "stadium": "Stade Pierre-Mauroy",
             "round": "League Stage - 1",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/79.png",
             "awayLogo": "https://media.api-sports.io/football/teams/543.png",
             "prediction": "0 - 0",
@@ -108,7 +108,24 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Ayase Ueda",
+                    "team": "home"
+                },
+                {
+                    "minute": "33",
+                    "player": "Marc Bartra",
+                    "team": "away"
+                },
+                {
+                    "minute": "36",
+                    "player": "Alexsandro",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -118,8 +135,8 @@ const siteData = {
             "away": "Villarreal",
             "stadium": "Signal Iduna Park",
             "round": "League Stage - 1",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/165.png",
@@ -156,7 +173,27 @@ const siteData = {
                     "home": 60,
                     "away": 40
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "Waldemar Anton",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "Pau Navarro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Sergi Cardona Bermúdez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -166,8 +203,8 @@ const siteData = {
             "away": "Manchester City",
             "stadium": "",
             "round": "League Stage - 1",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/212.png",
@@ -204,7 +241,15 @@ const siteData = {
                     "home": 25,
                     "away": 75
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "Josko Gvardiol",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -214,9 +259,9 @@ const siteData = {
             "away": "Inter",
             "stadium": "",
             "round": "League Stage - 1",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/541.png",
             "awayLogo": "https://media.api-sports.io/football/teams/505.png",
@@ -252,7 +297,27 @@ const siteData = {
                     "home": 80,
                     "away": 20
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "14",
+                    "player": "Kylian Mbappé",
+                    "team": "home"
+                },
+                {
+                    "minute": "23",
+                    "player": "Federico Valverde",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "39",
+                    "player": "Hakan Çalhanoğlu",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Copa Libertadores",
@@ -1843,7 +1908,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 02:05 WIB",
+    "standingsUpdated": "09/09/2026 03:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28813,51 +28878,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "07:30",
-                "home": "Estudiantes L.P.",
-                "away": "Corinthians",
-                "stadium": "Estadio Jorge Luis Hirschi",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "MLS",
                 "date": "2026-09-10",
                 "time": "07:30",
@@ -29034,6 +29054,51 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "07:30",
+                "home": "Estudiantes L.P.",
+                "away": "Corinthians",
+                "stadium": "Estadio Jorge Luis Hirschi",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
