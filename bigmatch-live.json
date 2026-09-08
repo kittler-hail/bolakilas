@@ -3,7 +3,7 @@
   "home": "Lille",
   "away": "Real Betis",
   "statusCode": "FT",
-  "updatedAt": "09/09/2026 04:45 WIB",
+  "updatedAt": "09/09/2026 04:58 WIB",
   "statistics": {
     "home": {
       "possession": 45,
@@ -16,7 +16,7 @@
       "redCards": 1,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 2,
-      "passesTotal": 448,
+      "passesTotal": 447,
       "passesAccurate": 392,
       "passesPct": null
     },
