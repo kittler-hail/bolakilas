@@ -3,9 +3,246 @@
   "home": "Club Brugge KV",
   "away": "Aston Villa",
   "statusCode": "NS",
-  "updatedAt": "08/09/2026 22:58 WIB",
+  "updatedAt": "08/09/2026 23:22 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "I. Leko",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Y. Sommer",
+          "position": "Kiper"
+        },
+        {
+          "number": 64,
+          "name": "K. Sabbe",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Lee Han-Beom",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "B. Mechele",
+          "position": "Bek"
+        },
+        {
+          "number": 65,
+          "name": "J. Seys",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "F. Potts",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "H. Vanaken",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Carlos Forbs",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "H. Vetlesen",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Jan Virgili",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "N. Tresoldi",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 54,
+          "name": "S. Coulibaly",
+          "position": "Bek"
+        },
+        {
+          "number": 67,
+          "name": "M. Diakhon",
+          "position": "Penyerang"
+        },
+        {
+          "number": 29,
+          "name": "N. Jackers",
+          "position": "Kiper"
+        },
+        {
+          "number": 80,
+          "name": "F. Lemaréchal",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "W. Mike",
+          "position": "Penyerang"
+        },
+        {
+          "number": 41,
+          "name": "H. Siquet",
+          "position": "Bek"
+        },
+        {
+          "number": 58,
+          "name": "J. Spileers",
+          "position": "Bek"
+        },
+        {
+          "number": 16,
+          "name": "C. Tsawa",
+          "position": "Gelandang"
+        },
+        {
+          "number": 81,
+          "name": "Argus Vanden Driessche",
+          "position": "Kiper"
+        },
+        {
+          "number": 77,
+          "name": "A. Vasovic",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "R. Vermant",
+          "position": "Penyerang"
+        },
+        {
+          "number": 62,
+          "name": "L. Audoor",
+          "position": "Gelandang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Unai Emery",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Z. Suzuki",
+          "position": "Kiper"
+        },
+        {
+          "number": 29,
+          "name": "A. Wan-Bissaka",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "V. Lindelöf",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "Pau Torres",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "I. Maatsen",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "B. Kamara",
+          "position": "Gelandang"
+        },
+        {
+          "number": 35,
+          "name": "João Gomes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "J.  McGinn",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "E. Buendía",
+          "position": "Gelandang"
+        },
+        {
+          "number": 53,
+          "name": "George Hemmings",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "N. Jackson",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 42,
+          "name": "J. Wright",
+          "position": "Kiper"
+        },
+        {
+          "number": 13,
+          "name": "M. Ruggeri",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "T. Mings",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "I. Mbaye",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "A. Garnacho",
+          "position": "Penyerang"
+        },
+        {
+          "number": 26,
+          "name": "L. Bogarde",
+          "position": "Gelandang"
+        },
+        {
+          "number": 40,
+          "name": "M. Bizot",
+          "position": "Kiper"
+        },
+        {
+          "number": 6,
+          "name": "R. Barkley",
+          "position": "Gelandang"
+        },
+        {
+          "number": 47,
+          "name": "Alysson Edward",
+          "position": "Penyerang"
+        },
+        {
+          "number": 18,
+          "name": "T. Abraham",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Jan Breydel Stadion",
     "city": "Brugge",
