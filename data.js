@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T02:05:06.017Z.
+   API-Football v3) pada 2026-09-08T03:05:00.433Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -658,10 +658,7 @@ const siteData = {
             "away": "GO Ahead Eagles",
             "stadium": "Stadion Galgenwaard",
             "round": "Pekan 5",
-            "statusCode": "INT",
-            "minuteDisplay": "Terhenti",
-            "homeScore": 1,
-            "awayScore": 3,
+            "statusCode": "NS",
             "homeLogo": "https://media.api-sports.io/football/teams/207.png",
             "awayLogo": "https://media.api-sports.io/football/teams/410.png",
             "prediction": "2 - 3",
@@ -696,49 +693,7 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            },
-            "goals": [
-                {
-                    "minute": "18",
-                    "player": "Mathis Suray",
-                    "team": "away"
-                },
-                {
-                    "minute": "49",
-                    "player": "Søren Tengstedt",
-                    "team": "away"
-                },
-                {
-                    "minute": "58",
-                    "player": "Victor Kaj Edvardsen",
-                    "team": "away"
-                },
-                {
-                    "minute": "63",
-                    "player": "Dani De Wit",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "44",
-                    "player": "Davy Van Den Berg",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "Artem Stepanov",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "Joris Kramer",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
+            }
         },
         {
             "league": "UEFA Champions League",
@@ -2194,7 +2149,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 09:05 WIB",
+    "standingsUpdated": "08/09/2026 10:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30710,51 +30665,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Fluminense",
-                "away": "Platense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Platense",
-                "comparison": {
-                    "form": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "att": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -30788,6 +30698,51 @@ const siteData = {
                     "poisson": {
                         "home": 100,
                         "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Fluminense",
+                "away": "Platense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Platense",
+                "comparison": {
+                    "form": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
                     },
                     "h2h": {
                         "home": 0,
@@ -31297,51 +31252,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "05:00",
-                "home": "Palmeiras",
-                "away": "LDU de Quito",
-                "stadium": "Estadio Rodrigo Paz Delgado",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/121.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1158.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Palmeiras or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "poisson": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-10",
                 "time": "05:00",
@@ -31379,6 +31289,51 @@ const siteData = {
                     "h2h": {
                         "home": 62,
                         "away": 38
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "05:00",
+                "home": "Palmeiras",
+                "away": "LDU de Quito",
+                "stadium": "Estadio Rodrigo Paz Delgado",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/121.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1158.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Palmeiras or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
                     },
                     "goals": {
                         "home": 57,
