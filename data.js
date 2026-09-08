@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T10:05:26.457Z.
+   API-Football v3) pada 2026-09-08T11:05:20.866Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2149,7 +2149,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 17:05 WIB",
+    "standingsUpdated": "08/09/2026 18:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30665,51 +30665,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Fluminense",
-                "away": "Platense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Platense",
-                "comparison": {
-                    "form": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "att": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-09",
                 "time": "05:00",
@@ -30743,6 +30698,51 @@ const siteData = {
                     "poisson": {
                         "home": 100,
                         "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-09",
+                "time": "05:00",
+                "home": "Fluminense",
+                "away": "Platense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Platense",
+                "comparison": {
+                    "form": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 34,
+                        "away": 66
                     },
                     "h2h": {
                         "home": 0,
@@ -31252,51 +31252,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "05:00",
-                "home": "Palmeiras",
-                "away": "LDU de Quito",
-                "stadium": "Estadio Rodrigo Paz Delgado",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/121.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1158.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Palmeiras or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "poisson": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-10",
                 "time": "05:00",
@@ -31334,6 +31289,51 @@ const siteData = {
                     "h2h": {
                         "home": 62,
                         "away": 38
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "05:00",
+                "home": "Palmeiras",
+                "away": "LDU de Quito",
+                "stadium": "Estadio Rodrigo Paz Delgado",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/121.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1158.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Palmeiras or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
                     },
                     "goals": {
                         "home": 57,
@@ -31612,51 +31612,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "07:30",
-                "home": "Estudiantes L.P.",
-                "away": "Corinthians",
-                "stadium": "Estadio Jorge Luis Hirschi",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "MLS",
                 "date": "2026-09-10",
                 "time": "07:30",
@@ -31833,6 +31788,51 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "07:30",
+                "home": "Estudiantes L.P.",
+                "away": "Corinthians",
+                "stadium": "Estadio Jorge Luis Hirschi",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
