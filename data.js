@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T18:05:58.005Z.
+   API-Football v3) pada 2026-09-08T19:05:07.731Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Stade Pierre-Mauroy",
         "prediction": "0 - 0",
         "analysis": "Lille bertemu Real Betis dalam laga UEFA Champions League. Analisis API-Football: No predictions available.",
-        "statusCode": "NS",
+        "statusCode": "1H",
+        "minuteDisplay": "3'",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
             "home": 33,
             "draw": 33,
@@ -40,7 +43,13 @@ const siteData = {
         "awayTeamId": 543,
         "homeLogo": "https://media.api-sports.io/football/teams/79.png",
         "awayLogo": "https://media.api-sports.io/football/teams/543.png",
-        "h2h": [],
+        "h2h": [
+            {
+                "home": "Lille",
+                "away": "Real Betis",
+                "score": "0-0"
+            }
+        ],
         "form": {
             "home": {
                 "attack": 0,
@@ -61,7 +70,10 @@ const siteData = {
             "away": "Real Betis",
             "stadium": "Stade Pierre-Mauroy",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/79.png",
             "awayLogo": "https://media.api-sports.io/football/teams/543.png",
             "prediction": "0 - 0",
@@ -106,7 +118,10 @@ const siteData = {
             "away": "Villarreal",
             "stadium": "Signal Iduna Park",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/165.png",
             "awayLogo": "https://media.api-sports.io/football/teams/533.png",
             "prediction": "1 - 0",
@@ -151,7 +166,10 @@ const siteData = {
             "away": "Manchester City",
             "stadium": "",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/212.png",
             "awayLogo": "https://media.api-sports.io/football/teams/50.png",
             "prediction": "0 - 1",
@@ -196,7 +214,10 @@ const siteData = {
             "away": "Inter",
             "stadium": "",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/541.png",
             "awayLogo": "https://media.api-sports.io/football/teams/505.png",
             "prediction": "1 - 0",
@@ -1822,7 +1843,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 01:05 WIB",
+    "standingsUpdated": "09/09/2026 02:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2918,7 +2939,7 @@ const siteData = {
             {
                 "player": "J. Gomez",
                 "photo": "https://media.api-sports.io/football/players/284.png",
-                "reason": "Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-09-04"
             },
             {
