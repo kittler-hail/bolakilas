@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T09:05:16.625Z.
+   API-Football v3) pada 2026-09-08T10:05:26.457Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2028,8 +2028,8 @@ const siteData = {
             },
             {
                 "rank": 8,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "team": "PSIM Yogyakarta",
+                "logo": "https://media.api-sports.io/football/teams/4235.png",
                 "played": 1,
                 "win": 0,
                 "draw": 1,
@@ -2039,8 +2039,8 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "team": "PSIM Yogyakarta",
-                "logo": "https://media.api-sports.io/football/teams/4235.png",
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
                 "played": 1,
                 "win": 0,
                 "draw": 1,
@@ -2061,6 +2061,17 @@ const siteData = {
             },
             {
                 "rank": 11,
+                "team": "Java United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
+            },
+            {
+                "rank": 12,
                 "team": "Garudayaksa",
                 "logo": "https://media.api-sports.io/football/teams/26645.png",
                 "played": 1,
@@ -2071,7 +2082,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "PSS Sleman",
                 "logo": "https://media.api-sports.io/football/teams/3882.png",
                 "played": 1,
@@ -2082,7 +2093,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Persik Kediri",
                 "logo": "https://media.api-sports.io/football/teams/4241.png",
                 "played": 1,
@@ -2093,7 +2104,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
                 "played": 1,
@@ -2104,7 +2115,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "team": "PSM Makassar",
                 "logo": "https://media.api-sports.io/football/teams/2441.png",
                 "played": 1,
@@ -2115,7 +2126,7 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 16,
+                "rank": 17,
                 "team": "Persijap",
                 "logo": "https://media.api-sports.io/football/teams/11132.png",
                 "played": 1,
@@ -2126,19 +2137,8 @@ const siteData = {
                 "points": 0
             },
             {
-                "rank": 17,
-                "team": "Malut United",
-                "logo": "https://media.api-sports.io/football/teams/22409.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 0
-            },
-            {
                 "rank": 18,
-                "team": "Adhyaksa",
+                "team": "Isenmulang Kalteng",
                 "logo": "https://media.api-sports.io/football/teams/24993.png",
                 "played": 1,
                 "win": 0,
@@ -2149,7 +2149,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 16:05 WIB",
+    "standingsUpdated": "08/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -31612,6 +31612,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "07:30",
+                "home": "Estudiantes L.P.",
+                "away": "Corinthians",
+                "stadium": "Estadio Jorge Luis Hirschi",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "MLS",
                 "date": "2026-09-10",
                 "time": "07:30",
@@ -31788,51 +31833,6 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
-                    }
-                }
-            },
-            {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "07:30",
-                "home": "Estudiantes L.P.",
-                "away": "Corinthians",
-                "stadium": "Estadio Jorge Luis Hirschi",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
                     }
                 }
             },
