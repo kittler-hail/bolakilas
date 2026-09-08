@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T16:05:47.599Z.
+   API-Football v3) pada 2026-09-08T17:05:04.848Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -14,49 +14,33 @@
    ========================================================= */
 
 const siteData = {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "bigMatch": {
         "league": "UEFA Champions League",
-        "date": "2026-09-08",
-        "time": "23:45",
-        "home": "Club Brugge KV",
-        "away": "Aston Villa",
-        "stadium": "Jan Breydel Stadion",
-        "prediction": "0 - 1",
-        "analysis": "Club Brugge KV bertemu Aston Villa dalam laga UEFA Champions League. Analisis API-Football: Double chance : draw or Aston Villa.",
+        "date": "2026-09-09",
+        "time": "02:00",
+        "home": "Lille",
+        "away": "Real Betis",
+        "stadium": "Stade Pierre-Mauroy",
+        "prediction": "0 - 0",
+        "analysis": "Lille bertemu Real Betis dalam laga UEFA Champions League. Analisis API-Football: No predictions available.",
         "statusCode": "NS",
         "odds": {
-            "home": 34,
-            "draw": 50,
-            "away": 50
+            "home": 33,
+            "draw": 33,
+            "away": 33
         },
         "probability": {
-            "home": 34,
-            "draw": 50,
-            "away": 50
+            "home": 33,
+            "draw": 33,
+            "away": 33
         },
-        "apiFixtureId": 1635643,
-        "homeTeamId": 569,
-        "awayTeamId": 66,
-        "homeLogo": "https://media.api-sports.io/football/teams/569.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/66.png",
-        "h2h": [
-            {
-                "home": "Aston Villa",
-                "away": "Club Brugge KV",
-                "score": "3-0"
-            },
-            {
-                "home": "Club Brugge KV",
-                "away": "Aston Villa",
-                "score": "1-3"
-            },
-            {
-                "home": "Club Brugge KV",
-                "away": "Aston Villa",
-                "score": "1-0"
-            }
-        ],
+        "apiFixtureId": 1635683,
+        "homeTeamId": 79,
+        "awayTeamId": 543,
+        "homeLogo": "https://media.api-sports.io/football/teams/79.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/543.png",
+        "h2h": [],
         "form": {
             "home": {
                 "attack": 0,
@@ -70,38 +54,80 @@ const siteData = {
     },
     "matches": [
         {
-            "league": "LaLiga",
-            "date": "2026-09-08",
-            "time": "00:00",
-            "home": "Getafe",
-            "away": "Celta Vigo",
-            "stadium": "Coliseum Alfonso Pérez",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/546.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/538.png",
-            "prediction": "2 - 1",
+            "league": "UEFA Champions League",
+            "date": "2026-09-09",
+            "time": "02:00",
+            "home": "Lille",
+            "away": "Real Betis",
+            "stadium": "Stade Pierre-Mauroy",
+            "round": "League Stage - 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/79.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/543.png",
+            "prediction": "0 - 0",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            }
+        },
+        {
+            "league": "UEFA Champions League",
+            "date": "2026-09-09",
+            "time": "02:00",
+            "home": "Borussia Dortmund",
+            "away": "Villarreal",
+            "stadium": "Signal Iduna Park",
+            "round": "League Stage - 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/165.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/533.png",
+            "prediction": "1 - 0",
             "odds": {
                 "home": 45,
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Double chance : Getafe or draw and -3.5 goals",
+            "advice": "Double chance : Borussia Dortmund or draw",
             "comparison": {
                 "form": {
-                    "home": 60,
-                    "away": 40
+                    "home": 0,
+                    "away": 0
                 },
                 "att": {
-                    "home": 50,
-                    "away": 50
+                    "home": 0,
+                    "away": 0
                 },
                 "def": {
-                    "home": 50,
-                    "away": 50
+                    "home": 0,
+                    "away": 0
                 },
                 "poisson": {
                     "home": 0,
@@ -112,668 +138,29 @@ const siteData = {
                     "away": 50
                 },
                 "goals": {
-                    "home": 55,
-                    "away": 45
-                }
-            },
-            "goals": [
-                {
-                    "minute": "21",
-                    "player": "M. Satriano",
-                    "team": "home"
-                },
-                {
-                    "minute": "57",
-                    "player": "C. Starfelt",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45+6",
-                    "player": "Johan Mojica",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "55",
-                    "player": "Zaid Romero",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "67",
-                    "player": "Zaid Romero",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "67",
-                    "player": "Zaid Romero",
-                    "team": "home",
-                    "type": "red"
-                },
-                {
-                    "minute": "77",
-                    "player": "Carl Starfelt",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "85",
-                    "player": "Ramón Terrats",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "85",
-                    "player": "Marcos Alonso",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-08",
-            "time": "00:00",
-            "home": "Göztepe",
-            "away": "Gaziantep FK",
-            "stadium": "Gursel Aksel Stadium",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 4,
-            "homeLogo": "https://media.api-sports.io/football/teams/994.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Göztepe or draw",
-            "comparison": {
-                "form": {
-                    "home": 20,
-                    "away": 80
-                },
-                "att": {
-                    "home": 63,
-                    "away": 38
-                },
-                "def": {
-                    "home": 30,
-                    "away": 70
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 71,
-                    "away": 29
-                },
-                "goals": {
                     "home": 60,
                     "away": 40
                 }
-            },
-            "goals": [
-                {
-                    "minute": "5",
-                    "player": "H. Dervisoglu",
-                    "team": "away"
-                },
-                {
-                    "minute": "10",
-                    "player": "M. Abena",
-                    "team": "away"
-                },
-                {
-                    "minute": "34",
-                    "player": "K. Kozlowski",
-                    "team": "away"
-                },
-                {
-                    "minute": "45",
-                    "player": "K. Kozlowski",
-                    "team": "away"
-                },
-                {
-                    "minute": "52",
-                    "player": "Juan",
-                    "team": "home"
-                },
-                {
-                    "minute": "90",
-                    "player": "Juan",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "55",
-                    "player": "Arda Kurtulan",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "66",
-                    "player": "Rhaldney",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "Ogün Bayrak",
-                    "team": "home",
-                    "type": "red"
-                },
-                {
-                    "minute": "76",
-                    "player": "Trivante Stewart",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "79",
-                    "player": "Sinclair Armstrong",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "Drissa Camara",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-08",
-            "time": "00:00",
-            "home": "Rizespor",
-            "away": "Alanyaspor",
-            "stadium": "Çaykur Didi Stadyumu",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/1007.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/996.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Alanyaspor and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 60,
-                    "away": 40
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "70",
-                    "player": "Z. Ariss",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "31",
-                    "player": "Attila Mocsi",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "87",
-                    "player": "Meschak Elia",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-09-08",
-            "time": "01:45",
-            "home": "Udinese",
-            "away": "Lazio",
-            "stadium": "Bluenergy Stadium",
-            "round": "Pekan 3",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/494.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/487.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Lazio and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 40,
-                    "away": 60
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 0,
-                    "away": 100
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 75,
-                    "away": 25
-                },
-                "goals": {
-                    "home": 56,
-                    "away": 44
-                }
-            },
-            "goals": [
-                {
-                    "minute": "49",
-                    "player": "J. Karlstrom",
-                    "team": "home"
-                },
-                {
-                    "minute": "75",
-                    "player": "D. Frattesi",
-                    "team": "away"
-                },
-                {
-                    "minute": "88",
-                    "player": "A. Gudmundsson",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "13",
-                    "player": "Jakub Piotrowski",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "23",
-                    "player": "Lennon Miller",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "25",
-                    "player": "Gustav Isaksen",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45+3",
-                    "player": "Jesper Karlström",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "67",
-                    "player": "Vakoun Issouf Bayo",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "84",
-                    "player": "Nicolò Bertola",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Primeira Liga",
-            "date": "2026-09-08",
-            "time": "02:15",
-            "home": "Estoril",
-            "away": "Arouca",
-            "stadium": "Estadio Antonio Coimbra da Mota",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/230.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/240.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Arouca and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 10,
-                    "away": 90
-                },
-                "att": {
-                    "home": 22,
-                    "away": 78
-                },
-                "def": {
-                    "home": 30,
-                    "away": 70
-                },
-                "poisson": {
-                    "home": 40,
-                    "away": 60
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 55,
-                    "away": 45
-                }
-            },
-            "cards": [
-                {
-                    "minute": "30",
-                    "player": "Antef Tsoungui",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45",
-                    "player": "Francisco Reis Ferreira",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "71",
-                    "player": "Jordan Arnolin",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "João Carvalho",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "Brian Mansilla",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "LaLiga",
-            "date": "2026-09-08",
-            "time": "02:30",
-            "home": "Elche",
-            "away": "Real Sociedad",
-            "stadium": "Estadio Martínez Valero",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 3,
-            "homeLogo": "https://media.api-sports.io/football/teams/797.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/548.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Real Sociedad",
-            "comparison": {
-                "form": {
-                    "home": 20,
-                    "away": 80
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 40,
-                    "away": 60
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 7,
-                    "away": 93
-                },
-                "goals": {
-                    "home": 25,
-                    "away": 75
-                }
-            },
-            "goals": [
-                {
-                    "minute": "11",
-                    "player": "J. Ochieng",
-                    "team": "away"
-                },
-                {
-                    "minute": "31",
-                    "player": "Y. Herrera",
-                    "team": "away"
-                },
-                {
-                    "minute": "67",
-                    "player": "T. Lemar",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "F. Nino",
-                    "team": "home"
-                },
-                {
-                    "minute": "90",
-                    "player": "L. Sucic",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "9",
-                    "player": "Jon Aramburu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "43",
-                    "player": "Tete Morente",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "57",
-                    "player": "Fernando Niño",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "64",
-                    "player": "Jon Martin",
-                    "team": "away",
-                    "type": "red"
-                },
-                {
-                    "minute": "68",
-                    "player": "Germán Valera",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+7",
-                    "player": "Thomas Lemar",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Eredivisie",
-            "date": "2026-09-08",
-            "time": "19:00",
-            "home": "Utrecht",
-            "away": "GO Ahead Eagles",
-            "stadium": "Stadion Galgenwaard",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 3,
-            "awayScore": 3,
-            "homeLogo": "https://media.api-sports.io/football/teams/207.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/410.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Winner : GO Ahead Eagles and +2.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 13,
-                    "away": 88
-                },
-                "att": {
-                    "home": 35,
-                    "away": 65
-                },
-                "def": {
-                    "home": 38,
-                    "away": 63
-                },
-                "poisson": {
-                    "home": 33,
-                    "away": 67
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 53,
-                    "away": 47
-                }
-            },
-            "goals": [
-                {
-                    "minute": "18",
-                    "player": "Mathis Suray",
-                    "team": "away"
-                },
-                {
-                    "minute": "49",
-                    "player": "Søren Tengstedt",
-                    "team": "away"
-                },
-                {
-                    "minute": "58",
-                    "player": "Victor Kaj Edvardsen",
-                    "team": "away"
-                },
-                {
-                    "minute": "63",
-                    "player": "Dani De Wit",
-                    "team": "home"
-                },
-                {
-                    "minute": "77",
-                    "player": "Matisse Didden",
-                    "team": "home"
-                },
-                {
-                    "minute": "90",
-                    "player": "Artem Stepanov",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "44",
-                    "player": "Davy Van Den Berg",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "Artem Stepanov",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "Joris Kramer",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
+            }
         },
         {
             "league": "UEFA Champions League",
-            "date": "2026-09-08",
-            "time": "23:45",
-            "home": "Club Brugge KV",
-            "away": "Aston Villa",
-            "stadium": "Jan Breydel Stadion",
+            "date": "2026-09-09",
+            "time": "02:00",
+            "home": "FC Porto",
+            "away": "Manchester City",
+            "stadium": "",
             "round": "League Stage - 1",
             "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/569.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/66.png",
+            "homeLogo": "https://media.api-sports.io/football/teams/212.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/50.png",
             "prediction": "0 - 1",
             "odds": {
                 "home": 34,
                 "draw": 50,
                 "away": 50
             },
-            "advice": "Double chance : draw or Aston Villa",
+            "advice": "Double chance : draw or Manchester City",
             "comparison": {
                 "form": {
                     "home": 0,
@@ -792,8 +179,8 @@ const siteData = {
                     "away": 0
                 },
                 "h2h": {
-                    "home": 33,
-                    "away": 67
+                    "home": 20,
+                    "away": 80
                 },
                 "goals": {
                     "home": 25,
@@ -803,37 +190,262 @@ const siteData = {
         },
         {
             "league": "UEFA Champions League",
-            "date": "2026-09-08",
-            "time": "23:45",
-            "home": "AEK Athens FC",
-            "away": "Lask Linz",
-            "stadium": "Allwyn Arena",
+            "date": "2026-09-09",
+            "time": "02:00",
+            "home": "Real Madrid",
+            "away": "Inter",
+            "stadium": "",
             "round": "League Stage - 1",
             "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/575.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1026.png",
+            "homeLogo": "https://media.api-sports.io/football/teams/541.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/505.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Double chance : Real Madrid or draw",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 80,
+                    "away": 20
+                }
+            }
+        },
+        {
+            "league": "Copa Libertadores",
+            "date": "2026-09-09",
+            "time": "05:00",
+            "home": "Fluminense",
+            "away": "Platense",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Platense",
+            "comparison": {
+                "form": {
+                    "home": 58,
+                    "away": 42
+                },
+                "att": {
+                    "home": 57,
+                    "away": 43
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 34,
+                    "away": 66
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            }
+        },
+        {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-09",
+            "time": "05:00",
+            "home": "Santa Fe",
+            "away": "Vasco DA Gama",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/133.png",
             "prediction": "2 - 1",
             "odds": {
                 "home": 45,
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Combo Winner : AEK Athens FC and +1.5 goals",
+            "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
             "comparison": {
                 "form": {
-                    "home": 57,
-                    "away": 43
+                    "home": 48,
+                    "away": 52
                 },
                 "att": {
-                    "home": 44,
-                    "away": 56
+                    "home": 41,
+                    "away": 59
+                },
+                "def": {
+                    "home": 75,
+                    "away": 25
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            }
+        },
+        {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-09",
+            "time": "07:30",
+            "home": "Boca Juniors",
+            "away": "Sao Paulo",
+            "stadium": "Estadio Alberto J. Armando",
+            "round": "Quarter-finals",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/451.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/126.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Double chance : Boca Juniors or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 53,
+                    "away": 47
+                },
+                "att": {
+                    "home": 56,
+                    "away": 44
+                },
+                "def": {
+                    "home": 60,
+                    "away": 40
+                },
+                "poisson": {
+                    "home": 60,
+                    "away": 40
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            }
+        },
+        {
+            "league": "UEFA Champions League",
+            "date": "2026-09-09",
+            "time": "23:45",
+            "home": "VfB Stuttgart",
+            "away": "Viking",
+            "stadium": "MHPArena",
+            "round": "League Stage - 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/172.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/759.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 100
+                },
+                "att": {
+                    "home": 0,
+                    "away": 100
                 },
                 "def": {
                     "home": 100,
                     "away": 0
                 },
                 "poisson": {
-                    "home": 100,
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            }
+        },
+        {
+            "league": "UEFA Champions League",
+            "date": "2026-09-09",
+            "time": "23:45",
+            "home": "Barcelona",
+            "away": "Feyenoord",
+            "stadium": "Camp Nou",
+            "round": "League Stage - 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/529.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/209.png",
+            "prediction": "0 - 0",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
                     "away": 0
                 },
                 "h2h": {
@@ -848,46 +460,46 @@ const siteData = {
         },
         {
             "league": "Eredivisie",
-            "date": "2026-09-08",
+            "date": "2026-09-09",
             "time": "23:45",
-            "home": "NEC Nijmegen",
-            "away": "Excelsior",
-            "stadium": "Stadion de Goffert",
+            "home": "Twente",
+            "away": "Telstar",
+            "stadium": "De Grolsch Veste",
             "round": "Pekan 3",
             "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/196.png",
-            "prediction": "2 - 3",
+            "homeLogo": "https://media.api-sports.io/football/teams/415.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/427.png",
+            "prediction": "2 - 1",
             "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
+                "home": 50,
+                "draw": 50,
+                "away": 33
             },
-            "advice": "Double chance : draw or Excelsior",
+            "advice": "Double chance : Twente or draw",
             "comparison": {
                 "form": {
-                    "home": 40,
-                    "away": 60
+                    "home": 64,
+                    "away": 36
                 },
                 "att": {
-                    "home": 47,
-                    "away": 53
+                    "home": 64,
+                    "away": 36
                 },
                 "def": {
-                    "home": 30,
-                    "away": 70
+                    "home": 67,
+                    "away": 33
                 },
                 "poisson": {
-                    "home": 0,
-                    "away": 100
+                    "home": 68,
+                    "away": 32
                 },
                 "h2h": {
-                    "home": 80,
-                    "away": 20
+                    "home": 85,
+                    "away": 15
                 },
                 "goals": {
-                    "home": 80,
-                    "away": 20
+                    "home": 73,
+                    "away": 27
                 }
             }
         }
@@ -2210,7 +1822,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 23:05 WIB",
+    "standingsUpdated": "09/09/2026 00:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -6416,2736 +6028,6 @@ const siteData = {
         ]
     },
     "history": {
-        "2026-08-23": [
-            {
-                "league": "Primeira Liga",
-                "date": "2026-08-23",
-                "time": "00:00",
-                "home": "Estoril",
-                "away": "Rio Ave",
-                "stadium": "Estadio Antonio Coimbra da Mota",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/230.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/226.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Estoril or draw and -3.5 goals",
-                "goals": [
-                    {
-                        "minute": "15",
-                        "player": "J. Blesa",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "72",
-                        "player": "Tamble",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "68",
-                        "player": "Fernando Medrano",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "86",
-                        "player": "Andreas Ndoj",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "LaLiga",
-                "date": "2026-08-23",
-                "time": "00:30",
-                "home": "Valencia",
-                "away": "Celta Vigo",
-                "stadium": "Estadio de Mestalla",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/532.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/538.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Celta Vigo",
-                "cards": [
-                    {
-                        "minute": "38",
-                        "player": "Justin De Haas",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "39",
-                        "player": "Stole Dimitrievski",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "57",
-                        "player": "Sergio Carreira",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "67",
-                        "player": "Javier Rueda",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "80",
-                        "player": "Ionuț Radu",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-08-23",
-                "time": "01:30",
-                "home": "Fenerbahçe",
-                "away": "Konyaspor",
-                "stadium": "Chobani Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 4,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/611.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/607.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Fenerbahçe or draw and -3.5 goals",
-                "goals": [
-                    {
-                        "minute": "7",
-                        "player": "V. Muriqi",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "10",
-                        "player": "E. Colley",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "20",
-                        "player": "M. Greenwood",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "33",
-                        "player": "M. Asensio",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "49",
-                        "player": "M. Greenwood",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "90",
-                        "player": "D. Turuc",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "45+4",
-                        "player": "Deniz Türüç",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45+4",
-                        "player": "Adil Demirbağ",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "61",
-                        "player": "Enis Bardhi",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Genoa",
-                "away": "Napoli",
-                "stadium": "Luigi Ferraris",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/495.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/492.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Napoli",
-                "goals": [
-                    {
-                        "minute": "82",
-                        "player": "K. De Bruyne",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "87",
-                        "player": "A. Vergara",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "-5",
-                        "player": "Stefano Sabelli",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "-5",
-                        "player": "Leo Østigård",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "54",
-                        "player": "Matteo Politano",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Parma",
-                "away": "Cagliari",
-                "stadium": "Stadio Ennio Tardini",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/523.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/490.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Cagliari",
-                "goals": [
-                    {
-                        "minute": "79",
-                        "player": "A. Romano",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "10",
-                        "player": "Zé Pedro",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "57",
-                        "player": "Jacopo Fazzini",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Nice",
-                "away": "Lorient",
-                "stadium": "Allianz Riviera",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/84.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/97.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Nice or draw",
-                "cards": [
-                    {
-                        "minute": "37",
-                        "player": "Zoumana Diallo",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Toulouse",
-                "away": "Lyon",
-                "stadium": "Stadium de Toulouse",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/96.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/80.png",
-                "prediction": "0 - 0",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
-                },
-                "advice": "No predictions available",
-                "goals": [
-                    {
-                        "minute": "68",
-                        "player": "N. Nartey",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "85",
-                        "player": "M. Fofana",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "31",
-                        "player": "Niklas Schmidt",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45",
-                        "player": "Noah Nartey",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Estac Troyes",
-                "away": "Paris FC",
-                "stadium": "Stade de l'Aube",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/110.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/114.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Paris FC",
-                "cards": [
-                    {
-                        "minute": "56",
-                        "player": "Michel Diaz",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "62",
-                        "player": "Otávio",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Le Mans",
-                "away": "Stade Brestois 29",
-                "stadium": "Stade Marie-Marvingt",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/1298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/106.png",
-                "prediction": "0 - 0",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
-                },
-                "advice": "No predictions available",
-                "goals": [
-                    {
-                        "minute": "31",
-                        "player": "R. Del Castillo",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "45",
-                        "player": "D. Gueye",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "55",
-                        "player": "L. Mafouta",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "62",
-                        "player": "K. Doumbia",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "43",
-                        "player": "Ludovic Ajorque",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "51",
-                        "player": "Alexandre Lauray",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-08-23",
-                "time": "01:45",
-                "home": "Antwerp",
-                "away": "Genk",
-                "stadium": "Bosuilstadion",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 4,
-                "awayScore": 4,
-                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/742.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Antwerp or draw",
-                "goals": [
-                    {
-                        "minute": "16",
-                        "player": "A. Valencia",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "J. Kongolo",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "48",
-                        "player": "R. Durosinmi",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "57",
-                        "player": "A. Yokoyama",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "70",
-                        "player": "A. Bibout",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "80",
-                        "player": "E. Tuypens",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "86",
-                        "player": "M. Frey",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "88",
-                        "player": "M. Frey",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "79",
-                        "player": "Daan Heymans",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Eredivisie",
-                "date": "2026-08-23",
-                "time": "02:00",
-                "home": "Heerenveen",
-                "away": "PEC Zwolle",
-                "stadium": "Abe Lenstra Stadion",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/210.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/193.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Double chance : Heerenveen or draw",
-                "goals": [
-                    {
-                        "minute": "50",
-                        "player": "N. Viergever",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "61",
-                        "player": "K. Kostons",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "40",
-                        "player": "Ryan Thomas",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "LaLiga",
-                "date": "2026-08-23",
-                "time": "02:30",
-                "home": "Espanyol",
-                "away": "Real Madrid",
-                "stadium": "RCDE Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/540.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/541.png",
-                "prediction": "2 - 0",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Real Madrid",
-                "goals": [
-                    {
-                        "minute": "9",
-                        "player": "J. Bellingham",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "30",
-                        "player": "A. Calatrava",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "90",
-                        "player": "C. Espi",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "32",
-                        "player": "Álex Calatrava",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "32",
-                        "player": "Vinícius Júnior",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-08-23",
-                "time": "02:30",
-                "home": "Sporting CP",
-                "away": "Alverca",
-                "stadium": "Estádio José Alvalade",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 3,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/228.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4724.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Sporting CP and +1.5 goals",
-                "goals": [
-                    {
-                        "minute": "2",
-                        "player": "M. Araujo",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "55",
-                        "player": "Matheus Mendes",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "60",
-                        "player": "L. Suarez",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "88",
-                        "player": "Figueiredo",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "16",
-                        "player": "Yaya Bojang",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "22",
-                        "player": "Geny Catamo",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "39",
-                        "player": "Davy Gui",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-08-23",
-                "time": "06:07",
-                "home": "Guadalajara Chivas",
-                "away": "Club Tijuana",
-                "stadium": "Estadio Akron",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 5,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/2278.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Club Tijuana and -3.5 goals",
-                "goals": [
-                    {
-                        "minute": "23",
-                        "player": "S. Sandoval",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "R. Marin",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "45+2",
-                        "player": "R. Marin",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "59",
-                        "player": "R. Alvarado",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "69",
-                        "player": "D. Campillo Del Campo",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "75",
-                        "player": "Elias Manoel",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "90+2",
-                        "player": "Elias Manoel",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "8",
-                        "player": "E. Alvarez",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45+1",
-                        "player": "R. Arciga",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "49",
-                        "player": "M. Gomez",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "73",
-                        "player": "L. Romo",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "06:30",
-                "home": "Orlando City SC",
-                "away": "Real Salt Lake",
-                "stadium": "Exploria Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/1598.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1606.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Orlando City SC or draw",
-                "goals": [
-                    {
-                        "minute": "36",
-                        "player": "D. Marczuk",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "53",
-                        "player": "A. Griezmann",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "81",
-                        "player": "A. Griezmann",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "43",
-                        "player": "Lineker Rodrigues",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45+4",
-                        "player": "A. Katranis",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "71",
-                        "player": "K. Henry",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "82",
-                        "player": "E. Atuesta",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "06:30",
-                "home": "New York Red Bulls",
-                "away": "Chicago Fire",
-                "stadium": "Sports Illustrated Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/1602.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1607.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Chicago Fire",
-                "goals": [
-                    {
-                        "minute": "38",
-                        "player": "M. Haile-Selassie",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "85",
-                        "player": "C. Harper",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "17",
-                        "player": "L. Barroso",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "64",
-                        "player": "J. Waterman",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "66",
-                        "player": "M. Sofo",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "06:30",
-                "home": "CF Montreal",
-                "away": "Los Angeles Galaxy",
-                "stadium": "Saputo Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/1614.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1605.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Los Angeles Galaxy and -3.5 goals",
-                "goals": [
-                    {
-                        "minute": "16",
-                        "player": "D. Rios",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "19",
-                        "player": "R. Ramos",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "48",
-                        "player": "M. Yoshida",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "79",
-                        "player": "P. Owusu",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "67",
-                        "player": "B. Craig",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "68",
-                        "player": "J. Marcinkowski",
-                        "team": "away",
-                        "type": "red"
-                    },
-                    {
-                        "minute": "90+1",
-                        "player": "B. Ceballos",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "06:30",
-                "home": "FC Cincinnati",
-                "away": "Seattle Sounders",
-                "stadium": "TQL Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/2242.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1595.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : FC Cincinnati",
-                "goals": [
-                    {
-                        "minute": "24",
-                        "player": "Evander",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "83",
-                        "player": "K. Kossa-Rienzi",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "38",
-                        "player": "R. Sailor",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "64",
-                        "player": "B. J. Ramirez Leon",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "75",
-                        "player": "P. Kingston",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "06:30",
-                "home": "Inter Miami",
-                "away": "Toronto FC",
-                "stadium": "Nu Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/9568.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1601.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Inter Miami or draw",
-                "goals": [
-                    {
-                        "minute": "59",
-                        "player": "J. Sargent",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "62",
-                        "player": "D. Etienne",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "82",
-                        "player": "L. Messi",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "37",
-                        "player": "R. Laryea",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "53",
-                        "player": "M. Falcon",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+5",
-                        "player": "D. Ayala",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "06:30",
-                "home": "Charlotte",
-                "away": "DC United",
-                "stadium": "Bank of America Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 3,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/18310.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1615.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Charlotte or draw",
-                "goals": [
-                    {
-                        "minute": "55",
-                        "player": "L. Munteanu",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "64",
-                        "player": "D. Schnegg",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "66",
-                        "player": "W. Cleary",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "77",
-                        "player": "P. Biel",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "34",
-                        "player": "K. Kurokawa",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "44",
-                        "player": "S. Hefti",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "68",
-                        "player": "Peglow",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "85",
-                        "player": "T. Smalls",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+4",
-                        "player": "P. Biel",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "07:30",
-                "home": "Nashville SC",
-                "away": "Columbus Crew",
-                "stadium": "Geodis Park",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 3,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/9569.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1613.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Nashville SC or draw",
-                "goals": [
-                    {
-                        "minute": "27",
-                        "player": "H. Mukhtar",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "58",
-                        "player": "M. Farsi",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "68",
-                        "player": "A. Gomes",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "90+3",
-                        "player": "R. Baker-Whiting",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "90+5",
-                        "player": "A. Najar",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "39",
-                        "player": "D. Lovitz",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "49",
-                        "player": "C. Ruvalcaba",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "07:30",
-                "home": "St. Louis City",
-                "away": "Houston Dynamo",
-                "stadium": "Energizer Park",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/20787.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1600.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Houston Dynamo",
-                "goals": [
-                    {
-                        "minute": "23",
-                        "player": "S. Becher",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "75",
-                        "player": "I. Aliyu",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "85",
-                        "player": "D. Polvara",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "27",
-                        "player": "A. Matan",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "58",
-                        "player": "M. Bogusz",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "58",
-                        "player": "A. Bouzat",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "63",
-                        "player": "S. Becher",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "70",
-                        "player": "C. Holse",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "81",
-                        "player": "Lucas Halter",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+8",
-                        "player": "T. Totland",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "08:00",
-                "home": "Austin",
-                "away": "Philadelphia Union",
-                "stadium": "Q2 Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/16489.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Philadelphia Union",
-                "goals": [
-                    {
-                        "minute": "18",
-                        "player": "C. Sullivan",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "21",
-                        "player": "B. Hines-Ike",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "38",
-                        "player": "J. Bueno",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "41",
-                        "player": "N. Pierre",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+6",
-                        "player": "E. Torres",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-08-23",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Santos Laguna",
-                "stadium": "Estadio Cuauhtemoc",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 3,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Puebla or draw",
-                "goals": [
-                    {
-                        "minute": "4",
-                        "player": "F. Almada",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "9",
-                        "player": "E. Mustre",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "51",
-                        "player": "E. Bullaude",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "54",
-                        "player": "E. Mustre",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "62",
-                        "player": "C. Baltazar",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "90+1",
-                        "player": "K. Picon",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-08-23",
-                "time": "08:00",
-                "home": "Durango",
-                "away": "Leones Negros UDG",
-                "stadium": "Estadio Francisco Zarco",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Leones Negros UDG and +1.5 goals",
-                "goals": [
-                    {
-                        "minute": "12",
-                        "player": "S. A. Hernandez",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "42",
-                        "player": "L. Razo",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "45+7",
-                        "player": "J. Angulo",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "32",
-                        "player": "J. Escalante",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45+6",
-                        "player": "U. Torres",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "53",
-                        "player": "R. Dominguez",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+4",
-                        "player": "J. Perez",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-08-23",
-                "time": "08:00",
-                "home": "CDS Tampico Madero",
-                "away": "Alebrijes de Oaxaca",
-                "stadium": "Estadio Tamaulipas",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/19905.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : CDS Tampico Madero or draw and -3.5 goals",
-                "goals": [
-                    {
-                        "minute": "25",
-                        "player": "J. A. Ocejo Zazueta",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "68",
-                        "player": "D. Martinez",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "90",
-                        "player": "E. Escalante",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "21",
-                        "player": "A. Tecpanecatl",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "29",
-                        "player": "O. Manzanarez",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45",
-                        "player": "A. Tecpanecatl",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45",
-                        "player": "A. Tecpanecatl",
-                        "team": "away",
-                        "type": "red"
-                    },
-                    {
-                        "minute": "55",
-                        "player": "A. Justo",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "87",
-                        "player": "E. Escalante",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-08-23",
-                "time": "08:00",
-                "home": "Piratas",
-                "away": "Cancún",
-                "stadium": "",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Piratas or draw",
-                "goals": [
-                    {
-                        "minute": "33",
-                        "player": "C. Trejo",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "24",
-                        "player": "U. Garcia",
-                        "team": "home",
-                        "type": "red"
-                    },
-                    {
-                        "minute": "43",
-                        "player": "R. Palomares",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "69",
-                        "player": "K. Campos",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "79",
-                        "player": "D. Guillen",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+1",
-                        "player": "O. Soto",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+7",
-                        "player": "E. Arce",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "08:30",
-                "home": "Vancouver Whitecaps",
-                "away": "FC Dallas",
-                "stadium": "BC Place",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 5,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/1603.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1597.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Vancouver Whitecaps or draw",
-                "goals": [
-                    {
-                        "minute": "11",
-                        "player": "E. Sabbi",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "23",
-                        "player": "B. White",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "37",
-                        "player": "B. White",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "45+6",
-                        "player": "E. Ocampo",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "68",
-                        "player": "B. Caicedo",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "7",
-                        "player": "S. Moore",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "R. Binyamin",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "42",
-                        "player": "J. Torquato",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "59",
-                        "player": "L. Abubakar",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+3",
-                        "player": "M. Laborda",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "09:30",
-                "home": "San Jose Earthquakes",
-                "away": "Minnesota United FC",
-                "stadium": "PayPal Park",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 5,
-                "homeLogo": "https://media.api-sports.io/football/teams/1596.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1612.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Minnesota United FC",
-                "goals": [
-                    {
-                        "minute": "4",
-                        "player": "T. Werner",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "10",
-                        "player": "J. Pereyra",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "40",
-                        "player": "K. Yeboah",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "44",
-                        "player": "K. Yeboah",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "65",
-                        "player": "M. Caldeira",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "86",
-                        "player": "M. Gonzalez",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "85",
-                        "player": "B. Kikanovic",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "09:30",
-                "home": "Los Angeles FC",
-                "away": "Portland Timbers",
-                "stadium": "BMO Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/1616.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1617.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Los Angeles FC or draw",
-                "goals": [
-                    {
-                        "minute": "4",
-                        "player": "D. Da Costa",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "79",
-                        "player": "D. Bouanga",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "16",
-                        "player": "M. Choiniere",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "K. Kelsy",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "86",
-                        "player": "D. Bouanga",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "89",
-                        "player": "V. Janssen",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+3",
-                        "player": "V. Janssen",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+3",
-                        "player": "V. Janssen",
-                        "team": "away",
-                        "type": "red"
-                    }
-                ]
-            },
-            {
-                "league": "MLS",
-                "date": "2026-08-23",
-                "time": "09:30",
-                "home": "San Diego",
-                "away": "Colorado Rapids",
-                "stadium": "Snapdragon Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 3,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1610.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Colorado Rapids",
-                "goals": [
-                    {
-                        "minute": "27",
-                        "player": "O. Valakari",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "35",
-                        "player": "E. Achouri",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "71",
-                        "player": "Gabriel Pirani",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "58",
-                        "player": "R. Cannon",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "89",
-                        "player": "K. Rosenberry",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+2",
-                        "player": "A. Harris",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-08-23",
-                "time": "10:00",
-                "home": "Cruz Azul",
-                "away": "Atlas",
-                "stadium": "Estadio Banorte",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Atlas",
-                "goals": [
-                    {
-                        "minute": "30",
-                        "player": "E. Zaldivar",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "45",
-                        "player": "F. Monzon",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "65",
-                        "player": "L. Esteves",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Eredivisie",
-                "date": "2026-08-23",
-                "time": "17:15",
-                "home": "GO Ahead Eagles",
-                "away": "ADO Den Haag",
-                "stadium": "De Adelaarshorst",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 3,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/410.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/198.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : GO Ahead Eagles and +1.5 goals",
-                "goals": [
-                    {
-                        "minute": "38",
-                        "player": "S. Tengstedt",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "64",
-                        "player": "V. Edvardsen",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "78",
-                        "player": "E. Rottier",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "90+1",
-                        "player": "S. I. Sigurdarson",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "44",
-                        "player": "J. Dirksen",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "82",
-                        "player": "E. Rottier",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "83",
-                        "player": "J. Kilo",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Eredivisie",
-                "date": "2026-08-23",
-                "time": "19:30",
-                "home": "PSV Eindhoven",
-                "away": "Groningen",
-                "stadium": "Philips Stadion",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 5,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/197.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/202.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Groningen and +1.5 goals",
-                "goals": [
-                    {
-                        "minute": "9",
-                        "player": "B. Willumsson",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "11",
-                        "player": "T. Blokzijl",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "35",
-                        "player": "I. Perisic",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "45+3",
-                        "player": "R. Pepi",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "53",
-                        "player": "I. Perisic",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "56",
-                        "player": "S. Dest",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "21",
-                        "player": "R. van Bommel",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45+2",
-                        "player": "M. Csinger",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Premier League",
-                "date": "2026-08-23",
-                "time": "20:00",
-                "home": "Manchester City",
-                "away": "Bournemouth",
-                "stadium": "Etihad Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/50.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/35.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Double chance : Manchester City or draw",
-                "goals": [
-                    {
-                        "minute": "26",
-                        "player": "M. Tavernier",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "84",
-                        "player": "M. Guehi",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "90+1",
-                        "player": "J. Gvardiol",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "45+1",
-                        "player": "Evanilson",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "78",
-                        "player": "P. Foden",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "85",
-                        "player": "A. Silva",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Premier League",
-                "date": "2026-08-23",
-                "time": "20:00",
-                "home": "Brighton",
-                "away": "Aston Villa",
-                "stadium": "American Express Stadium",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 4,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/51.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/66.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Aston Villa",
-                "goals": [
-                    {
-                        "minute": "8",
-                        "player": "V. Lindelof",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "18",
-                        "player": "M. De Cuyper",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "30",
-                        "player": "J. Hinshelwood",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "J. Hinshelwood",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "9",
-                        "player": "Joao Gomes",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "9",
-                        "player": "P. Gross",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "11",
-                        "player": "Y. Ayari",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "33",
-                        "player": "J. McGinn",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "40",
-                        "player": "Joao Gomes",
-                        "team": "away",
-                        "type": "red"
-                    },
-                    {
-                        "minute": "90+5",
-                        "player": "M. Cash",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-23",
-                "time": "20:00",
-                "home": "Angers",
-                "away": "Lille",
-                "stadium": "Stade Raymond-Kopa",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 0,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/77.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/79.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Lille",
-                "goals": [
-                    {
-                        "minute": "11",
-                        "player": "O. Giroud",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "T. Santos",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "22",
-                        "player": "A. Bermont",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "72",
-                        "player": "H. Haraldsson",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "74",
-                        "player": "R. Perraud",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90",
-                        "player": "U. Simbakoli",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-08-23",
-                "time": "21:00",
-                "home": "Lommel United",
-                "away": "KVC Westerlo",
-                "stadium": "Soevereinstadion",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 4,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/259.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or KVC Westerlo",
-                "goals": [
-                    {
-                        "minute": "30",
-                        "player": "T. Reyners",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "45+4",
-                        "player": "L. Schoofs",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "51",
-                        "player": "D. Konadu",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "89",
-                        "player": "T. Reyners",
-                        "team": "home"
-                    }
-                ]
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-08-23",
-                "time": "21:30",
-                "home": "Vitória SC",
-                "away": "Nacional",
-                "stadium": "Estádio Dom Afonso Henriques",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/224.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/225.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Nacional",
-                "goals": [
-                    {
-                        "minute": "4",
-                        "player": "Gustavo",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "28",
-                        "player": "G. Nogueira",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "38",
-                        "player": "M. Nogueira",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "45+4",
-                        "player": "T. Margarido",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "90+5",
-                        "player": "Daniel Junior",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Eredivisie",
-                "date": "2026-08-23",
-                "time": "21:45",
-                "home": "Cambuur",
-                "away": "Feyenoord",
-                "stadium": "Kooi Stadion",
-                "statusCode": "2H",
-                "minuteDisplay": "81'",
-                "homeScore": 2,
-                "awayScore": 4,
-                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/209.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Feyenoord",
-                "goals": [
-                    {
-                        "minute": "17",
-                        "player": "G. Zechiel",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "26",
-                        "player": "L. Valente",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "42",
-                        "player": "T. Jansen",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "45+1",
-                        "player": "A. Ueda",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "70",
-                        "player": "R. El Arguioui",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "81",
-                        "player": "R. El Arguioui",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "66",
-                        "player": "A. Hadj Moussa",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "LaLiga",
-                "date": "2026-08-23",
-                "time": "22:00",
-                "home": "Atletico Madrid",
-                "away": "Villarreal",
-                "stadium": "Riyadh Air Metropolitano",
-                "statusCode": "2H",
-                "minuteDisplay": "90'",
-                "homeScore": 2,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/530.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/533.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Atletico Madrid or draw",
-                "goals": [
-                    {
-                        "minute": "59",
-                        "player": "M. Pubill",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "66",
-                        "player": "G. Moreno",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "78",
-                        "player": "G. Mikautadze",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "86",
-                        "player": "G. Simeone",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "50",
-                        "player": "S. Mourino",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "54",
-                        "player": "A. Baena",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "76",
-                        "player": "D. Simeone",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "76",
-                        "player": "R. Le Normand",
-                        "team": "home",
-                        "type": "red"
-                    },
-                    {
-                        "minute": "76",
-                        "player": "M. Hjulmand",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-08-23",
-                "time": "22:15",
-                "home": "Le Havre",
-                "away": "Monaco",
-                "stadium": "Stade Oceane",
-                "statusCode": "2H",
-                "minuteDisplay": "80'",
-                "homeScore": 0,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/111.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/91.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Monaco",
-                "goals": [
-                    {
-                        "minute": "14",
-                        "player": "E. Dier",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "20",
-                        "player": "A. Richardson",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "35",
-                        "player": "F. Doucoure",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "44",
-                        "player": "V. Sasso",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "64",
-                        "player": "A. Golovin",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "66",
-                        "player": "Vanderson",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Premier League",
-                "date": "2026-08-23",
-                "time": "22:30",
-                "home": "Newcastle",
-                "away": "Liverpool",
-                "stadium": "St James' Park",
-                "statusCode": "2H",
-                "minuteDisplay": "67'",
-                "homeScore": 2,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/34.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/40.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Liverpool",
-                "goals": [
-                    {
-                        "minute": "5",
-                        "player": "A. Elanga",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "55",
-                        "player": "C. Gakpo",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "57",
-                        "player": "J. Willock",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "25",
-                        "player": "Y. Wissa",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "30",
-                        "player": "M. Kerkez",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "30",
-                        "player": "J. Frimpong",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "34",
-                        "player": "L. Miley",
-                        "team": "home",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "65",
-                        "player": "J. Ramsey",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-08-23",
-                "time": "23:00",
-                "home": "Trabzonspor",
-                "away": "Başakşehir",
-                "stadium": "Papara Park",
-                "statusCode": "HT",
-                "minuteDisplay": "HT",
-                "homeScore": 1,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/998.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/564.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Başakşehir and -3.5 goals",
-                "goals": [
-                    {
-                        "minute": "8",
-                        "player": "M. Salah",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "19",
-                        "player": "E. Shomurodov",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "22",
-                        "player": "O. Kemen",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "39",
-                        "player": "B. Yildirim",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-08-23",
-                "time": "23:00",
-                "home": "Eyüpspor",
-                "away": "Gaziantep FK",
-                "stadium": "Recep Tayyip Erdogan Stadium",
-                "statusCode": "HT",
-                "minuteDisplay": "HT",
-                "homeScore": 0,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/3588.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Eyüpspor or draw and -3.5 goals",
-                "cards": [
-                    {
-                        "minute": "28",
-                        "player": "M. Abena",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-08-23",
-                "time": "23:30",
-                "home": "Frosinone",
-                "away": "Juventus",
-                "stadium": "Stadio Benito Stirpe",
-                "statusCode": "1H",
-                "minuteDisplay": "23'",
-                "homeScore": 0,
-                "awayScore": 1,
-                "homeLogo": "https://media.api-sports.io/football/teams/512.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Double chance : draw or Juventus",
-                "goals": [
-                    {
-                        "minute": "22",
-                        "player": "Bremer",
-                        "team": "away"
-                    }
-                ]
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-08-23",
-                "time": "23:30",
-                "home": "Venezia",
-                "away": "Lecce",
-                "stadium": "Stadio Pierluigi Penzo",
-                "statusCode": "1H",
-                "minuteDisplay": "22'",
-                "homeScore": 0,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/517.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/867.png",
-                "prediction": "0 - 1",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Lecce",
-                "cards": [
-                    {
-                        "minute": "3",
-                        "player": "K. Gaspar",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-08-23",
-                "time": "23:30",
-                "home": "Club Brugge KV",
-                "away": "Cercle Brugge",
-                "stadium": "Jan Breydel Stadion",
-                "statusCode": "1H",
-                "minuteDisplay": "22'",
-                "homeScore": 0,
-                "awayScore": 0,
-                "homeLogo": "https://media.api-sports.io/football/teams/569.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/741.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Club Brugge KV or draw"
-            }
-        ],
         "2026-08-24": [
             {
                 "league": "Primeira Liga",
@@ -30541,85 +27423,41 @@ const siteData = {
                     }
                 ]
             }
-        ]
-    },
-    "upcoming": {
-        "2026-09-09": [
+        ],
+        "2026-09-08": [
             {
-                "league": "UEFA Champions League",
-                "date": "2026-09-09",
-                "time": "02:00",
-                "home": "Lille",
-                "away": "Real Betis",
-                "stadium": "Stade Pierre-Mauroy",
-                "round": "League Stage - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/79.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/543.png",
-                "prediction": "0 - 0",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
-                },
-                "advice": "No predictions available",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "def": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Champions League",
-                "date": "2026-09-09",
-                "time": "02:00",
-                "home": "Borussia Dortmund",
-                "away": "Villarreal",
-                "stadium": "Signal Iduna Park",
-                "round": "League Stage - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/165.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/533.png",
-                "prediction": "1 - 0",
+                "league": "LaLiga",
+                "date": "2026-09-08",
+                "time": "00:00",
+                "home": "Getafe",
+                "away": "Celta Vigo",
+                "stadium": "Coliseum Alfonso Pérez",
+                "round": "Pekan 4",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 1,
+                "awayScore": 1,
+                "homeLogo": "https://media.api-sports.io/football/teams/546.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/538.png",
+                "prediction": "2 - 1",
                 "odds": {
                     "home": 45,
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Double chance : Borussia Dortmund or draw",
+                "advice": "Combo Double chance : Getafe or draw and -3.5 goals",
                 "comparison": {
                     "form": {
-                        "home": 0,
-                        "away": 0
+                        "home": 60,
+                        "away": 40
                     },
                     "att": {
-                        "home": 0,
-                        "away": 0
+                        "home": 50,
+                        "away": 50
                     },
                     "def": {
-                        "home": 0,
-                        "away": 0
+                        "home": 50,
+                        "away": 50
                     },
                     "poisson": {
                         "home": 0,
@@ -30630,372 +27468,653 @@ const siteData = {
                         "away": 50
                     },
                     "goals": {
-                        "home": 60,
-                        "away": 40
+                        "home": 55,
+                        "away": 45
                     }
-                }
+                },
+                "goals": [
+                    {
+                        "minute": "21",
+                        "player": "M. Satriano",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "57",
+                        "player": "C. Starfelt",
+                        "team": "away"
+                    }
+                ],
+                "cards": [
+                    {
+                        "minute": "45+6",
+                        "player": "Johan Mojica",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "55",
+                        "player": "Zaid Romero",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "67",
+                        "player": "Zaid Romero",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "67",
+                        "player": "Zaid Romero",
+                        "team": "home",
+                        "type": "red"
+                    },
+                    {
+                        "minute": "77",
+                        "player": "Carl Starfelt",
+                        "team": "away",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "85",
+                        "player": "Ramón Terrats",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "85",
+                        "player": "Marcos Alonso",
+                        "team": "away",
+                        "type": "yellow"
+                    }
+                ]
             },
             {
-                "league": "UEFA Champions League",
-                "date": "2026-09-09",
-                "time": "02:00",
-                "home": "FC Porto",
-                "away": "Manchester City",
-                "stadium": "",
-                "round": "League Stage - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/212.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/50.png",
-                "prediction": "0 - 1",
+                "league": "Super Lig",
+                "date": "2026-09-08",
+                "time": "00:00",
+                "home": "Göztepe",
+                "away": "Gaziantep FK",
+                "stadium": "Gursel Aksel Stadium",
+                "round": "Pekan 4",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 2,
+                "awayScore": 4,
+                "homeLogo": "https://media.api-sports.io/football/teams/994.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
                 },
-                "advice": "Double chance : draw or Manchester City",
+                "advice": "Double chance : Göztepe or draw",
                 "comparison": {
                     "form": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "def": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
                         "home": 20,
                         "away": 80
                     },
-                    "goals": {
-                        "home": 25,
-                        "away": 75
-                    }
-                }
-            },
-            {
-                "league": "UEFA Champions League",
-                "date": "2026-09-09",
-                "time": "02:00",
-                "home": "Real Madrid",
-                "away": "Inter",
-                "stadium": "",
-                "round": "League Stage - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/541.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/505.png",
-                "prediction": "1 - 0",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Double chance : Real Madrid or draw",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 0
-                    },
                     "att": {
-                        "home": 0,
-                        "away": 0
+                        "home": 63,
+                        "away": 38
                     },
                     "def": {
-                        "home": 0,
-                        "away": 0
+                        "home": 30,
+                        "away": 70
                     },
                     "poisson": {
                         "home": 0,
-                        "away": 0
+                        "away": 100
                     },
                     "h2h": {
-                        "home": 100,
-                        "away": 0
+                        "home": 71,
+                        "away": 29
                     },
                     "goals": {
-                        "home": 80,
-                        "away": 20
+                        "home": 60,
+                        "away": 40
                     }
-                }
+                },
+                "goals": [
+                    {
+                        "minute": "5",
+                        "player": "H. Dervisoglu",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "10",
+                        "player": "M. Abena",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "34",
+                        "player": "K. Kozlowski",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "45",
+                        "player": "K. Kozlowski",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "52",
+                        "player": "Juan",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "90",
+                        "player": "Juan",
+                        "team": "home"
+                    }
+                ],
+                "cards": [
+                    {
+                        "minute": "55",
+                        "player": "Arda Kurtulan",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "66",
+                        "player": "Rhaldney",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "72",
+                        "player": "Ogün Bayrak",
+                        "team": "home",
+                        "type": "red"
+                    },
+                    {
+                        "minute": "76",
+                        "player": "Trivante Stewart",
+                        "team": "away",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "79",
+                        "player": "Sinclair Armstrong",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "90+1",
+                        "player": "Drissa Camara",
+                        "team": "away",
+                        "type": "yellow"
+                    }
+                ]
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Fluminense",
-                "away": "Platense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "league": "Super Lig",
+                "date": "2026-09-08",
+                "time": "00:00",
+                "home": "Rizespor",
+                "away": "Alanyaspor",
+                "stadium": "Çaykur Didi Stadyumu",
+                "round": "Pekan 4",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 0,
+                "awayScore": 1,
+                "homeLogo": "https://media.api-sports.io/football/teams/1007.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/996.png",
                 "prediction": "1 - 2",
                 "odds": {
                     "home": 10,
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Double chance : draw or Platense",
+                "advice": "Combo Double chance : draw or Alanyaspor and -3.5 goals",
                 "comparison": {
                     "form": {
-                        "home": 58,
-                        "away": 42
+                        "home": 60,
+                        "away": 40
                     },
                     "att": {
-                        "home": 57,
-                        "away": 43
+                        "home": 50,
+                        "away": 50
                     },
                     "def": {
                         "home": 50,
                         "away": 50
                     },
                     "poisson": {
-                        "home": 34,
-                        "away": 66
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-09",
-                "time": "05:00",
-                "home": "Santa Fe",
-                "away": "Vasco DA Gama",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/133.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Santa Fe or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-09",
-                "time": "07:30",
-                "home": "Boca Juniors",
-                "away": "Sao Paulo",
-                "stadium": "Estadio Alberto J. Armando",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/451.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/126.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Boca Juniors or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "def": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "poisson": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Champions League",
-                "date": "2026-09-09",
-                "time": "23:45",
-                "home": "VfB Stuttgart",
-                "away": "Viking",
-                "stadium": "MHPArena",
-                "round": "League Stage - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/172.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/759.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
-                },
-                "advice": "No predictions available",
-                "comparison": {
-                    "form": {
                         "home": 0,
                         "away": 100
                     },
-                    "att": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "def": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
                     "h2h": {
-                        "home": 0,
-                        "away": 0
+                        "home": 38,
+                        "away": 62
                     },
                     "goals": {
-                        "home": 0,
-                        "away": 0
+                        "home": 50,
+                        "away": 50
                     }
-                }
-            },
-            {
-                "league": "UEFA Champions League",
-                "date": "2026-09-09",
-                "time": "23:45",
-                "home": "Barcelona",
-                "away": "Feyenoord",
-                "stadium": "Camp Nou",
-                "round": "League Stage - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/529.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/209.png",
-                "prediction": "0 - 0",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
                 },
-                "advice": "No predictions available",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "def": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
+                "goals": [
+                    {
+                        "minute": "70",
+                        "player": "Z. Ariss",
+                        "team": "home"
                     }
-                }
+                ],
+                "cards": [
+                    {
+                        "minute": "31",
+                        "player": "Attila Mocsi",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "87",
+                        "player": "Meschak Elia",
+                        "team": "away",
+                        "type": "yellow"
+                    }
+                ]
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-09",
-                "time": "23:45",
-                "home": "Twente",
-                "away": "Telstar",
-                "stadium": "De Grolsch Veste",
+                "league": "Serie A",
+                "date": "2026-09-08",
+                "time": "01:45",
+                "home": "Udinese",
+                "away": "Lazio",
+                "stadium": "Bluenergy Stadium",
                 "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/415.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/427.png",
-                "prediction": "2 - 1",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 1,
+                "awayScore": 2,
+                "homeLogo": "https://media.api-sports.io/football/teams/494.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/487.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
                 },
-                "advice": "Double chance : Twente or draw",
+                "advice": "Combo Double chance : draw or Lazio and -3.5 goals",
                 "comparison": {
                     "form": {
-                        "home": 64,
-                        "away": 36
+                        "home": 40,
+                        "away": 60
                     },
                     "att": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "def": {
                         "home": 67,
                         "away": 33
                     },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
                     "poisson": {
-                        "home": 68,
-                        "away": 32
+                        "home": 0,
+                        "away": 100
                     },
                     "h2h": {
-                        "home": 85,
-                        "away": 15
+                        "home": 75,
+                        "away": 25
                     },
                     "goals": {
-                        "home": 73,
-                        "away": 27
+                        "home": 56,
+                        "away": 44
                     }
-                }
+                },
+                "goals": [
+                    {
+                        "minute": "49",
+                        "player": "J. Karlstrom",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "75",
+                        "player": "D. Frattesi",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "88",
+                        "player": "A. Gudmundsson",
+                        "team": "away"
+                    }
+                ],
+                "cards": [
+                    {
+                        "minute": "13",
+                        "player": "Jakub Piotrowski",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "23",
+                        "player": "Lennon Miller",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "25",
+                        "player": "Gustav Isaksen",
+                        "team": "away",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "45+3",
+                        "player": "Jesper Karlström",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "67",
+                        "player": "Vakoun Issouf Bayo",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "84",
+                        "player": "Nicolò Bertola",
+                        "team": "home",
+                        "type": "yellow"
+                    }
+                ]
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-08",
+                "time": "02:15",
+                "home": "Estoril",
+                "away": "Arouca",
+                "stadium": "Estadio Antonio Coimbra da Mota",
+                "round": "Pekan 5",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 0,
+                "awayScore": 0,
+                "homeLogo": "https://media.api-sports.io/football/teams/230.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/240.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Arouca and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 10,
+                        "away": 90
+                    },
+                    "att": {
+                        "home": 22,
+                        "away": 78
+                    },
+                    "def": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "poisson": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 55,
+                        "away": 45
+                    }
+                },
+                "cards": [
+                    {
+                        "minute": "30",
+                        "player": "Antef Tsoungui",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "45",
+                        "player": "Francisco Reis Ferreira",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "71",
+                        "player": "Jordan Arnolin",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "72",
+                        "player": "João Carvalho",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "86",
+                        "player": "Brian Mansilla",
+                        "team": "away",
+                        "type": "yellow"
+                    }
+                ]
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-08",
+                "time": "02:30",
+                "home": "Elche",
+                "away": "Real Sociedad",
+                "stadium": "Estadio Martínez Valero",
+                "round": "Pekan 4",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 2,
+                "awayScore": 3,
+                "homeLogo": "https://media.api-sports.io/football/teams/797.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/548.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Real Sociedad",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 25,
+                        "away": 75
+                    }
+                },
+                "goals": [
+                    {
+                        "minute": "11",
+                        "player": "J. Ochieng",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "31",
+                        "player": "Y. Herrera",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "67",
+                        "player": "T. Lemar",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "74",
+                        "player": "F. Nino",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "90",
+                        "player": "L. Sucic",
+                        "team": "away"
+                    }
+                ],
+                "cards": [
+                    {
+                        "minute": "9",
+                        "player": "Jon Aramburu",
+                        "team": "away",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "43",
+                        "player": "Tete Morente",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "57",
+                        "player": "Fernando Niño",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "64",
+                        "player": "Jon Martin",
+                        "team": "away",
+                        "type": "red"
+                    },
+                    {
+                        "minute": "68",
+                        "player": "Germán Valera",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "90+7",
+                        "player": "Thomas Lemar",
+                        "team": "home",
+                        "type": "yellow"
+                    }
+                ]
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-08",
+                "time": "19:00",
+                "home": "Utrecht",
+                "away": "GO Ahead Eagles",
+                "stadium": "Stadion Galgenwaard",
+                "round": "Pekan 5",
+                "statusCode": "FT",
+                "minuteDisplay": "FT",
+                "homeScore": 3,
+                "awayScore": 3,
+                "homeLogo": "https://media.api-sports.io/football/teams/207.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/410.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : GO Ahead Eagles and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 53,
+                        "away": 47
+                    }
+                },
+                "goals": [
+                    {
+                        "minute": "18",
+                        "player": "Mathis Suray",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "49",
+                        "player": "Søren Tengstedt",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "58",
+                        "player": "Victor Kaj Edvardsen",
+                        "team": "away"
+                    },
+                    {
+                        "minute": "63",
+                        "player": "Dani De Wit",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "77",
+                        "player": "Matisse Didden",
+                        "team": "home"
+                    },
+                    {
+                        "minute": "90",
+                        "player": "Artem Stepanov",
+                        "team": "home"
+                    }
+                ],
+                "cards": [
+                    {
+                        "minute": "44",
+                        "player": "Davy Van Den Berg",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "65",
+                        "player": "Artem Stepanov",
+                        "team": "home",
+                        "type": "yellow"
+                    },
+                    {
+                        "minute": "65",
+                        "player": "Joris Kramer",
+                        "team": "away",
+                        "type": "yellow"
+                    }
+                ]
             }
-        ],
+        ]
+    },
+    "upcoming": {
         "2026-09-10": [
             {
                 "league": "Scottish Premiership",
@@ -32167,20 +29286,566 @@ const siteData = {
                     }
                 }
             }
+        ],
+        "2026-09-11": [
+            {
+                "league": "UEFA Champions League",
+                "date": "2026-09-11",
+                "time": "02:00",
+                "home": "Manchester United",
+                "away": "Sabah FA",
+                "stadium": "Old Trafford",
+                "round": "League Stage - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/33.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/13976.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 33,
+                    "draw": 33,
+                    "away": 33
+                },
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Champions League",
+                "date": "2026-09-11",
+                "time": "02:00",
+                "home": "Bayern München",
+                "away": "Bodo/Glimt",
+                "stadium": "Allianz Arena",
+                "round": "League Stage - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/157.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/327.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 33,
+                    "draw": 33,
+                    "away": 33
+                },
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Champions League",
+                "date": "2026-09-11",
+                "time": "02:00",
+                "home": "Slavia Praha",
+                "away": "Lens",
+                "stadium": "Fortuna Arena",
+                "round": "League Stage - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/560.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/116.png",
+                "prediction": "0 - 0",
+                "odds": {
+                    "home": 33,
+                    "draw": 33,
+                    "away": 33
+                },
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Champions League",
+                "date": "2026-09-11",
+                "time": "02:00",
+                "home": "Como",
+                "away": "RB Leipzig",
+                "stadium": "Stadio Giuseppe Sinigaglia",
+                "round": "League Stage - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/895.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/173.png",
+                "prediction": "0 - 0",
+                "odds": {
+                    "home": 33,
+                    "draw": 33,
+                    "away": 33
+                },
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-11",
+                "time": "02:15",
+                "home": "Estrela",
+                "away": "SC Braga",
+                "stadium": "",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/15130.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/217.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or SC Braga and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "att": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "def": {
+                        "home": 27,
+                        "away": 73
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 63
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-11",
+                "time": "07:30",
+                "home": "Independiente del Valle",
+                "away": "Flamengo",
+                "stadium": "Estadio Banco Guayaquil",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1153.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/127.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Flamengo",
+                "comparison": {
+                    "form": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-11",
+                "time": "07:30",
+                "home": "Cienciano",
+                "away": "Atletico Torque",
+                "stadium": "Estadio Inca Garcilaso de la Vega",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2562.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2365.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Cienciano or draw",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "def": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "poisson": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-11",
+                "time": "08:00",
+                "home": "Alebrijes de Oaxaca",
+                "away": "Durango",
+                "stadium": "",
+                "round": "Apertura - 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/15941.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Alebrijes de Oaxaca or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "att": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 32,
+                        "away": 68
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 83,
+                        "away": 17
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-11",
+                "time": "10:00",
+                "home": "U.N.A.M. - Pumas",
+                "away": "Leon",
+                "stadium": "",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2286.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : U.N.A.M. - Pumas or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 19,
+                        "away": 81
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 69,
+                        "away": 31
+                    }
+                }
+            },
+            {
+                "league": "Liga 1 (Indonesia)",
+                "date": "2026-09-11",
+                "time": "15:30",
+                "home": "Garudayaksa",
+                "away": "Persik Kediri",
+                "stadium": "",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/26645.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4241.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Garudayaksa or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga 1 (Indonesia)",
+                "date": "2026-09-11",
+                "time": "19:00",
+                "home": "Dewa United",
+                "away": "Bhayangkara FC",
+                "stadium": "Indomilk Arena",
+                "round": "Pekan 2",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/17902.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2443.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Dewa United or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
+                    }
+                }
+            }
         ]
     },
     "predictionStats": {
-        "thisMonth": 145,
-        "correctScore": 52,
-        "correctWinner": 248,
+        "thisMonth": 152,
+        "correctScore": 53,
+        "correctWinner": 252,
         "winnerAccuracy": 43,
         "ouAccuracy": 55,
         "month": "2026-09",
-        "totalEvaluated": 580,
-        "ouEvaluated": 580,
-        "ouCorrect": 320
+        "totalEvaluated": 587,
+        "ouEvaluated": 587,
+        "ouCorrect": 324
     },
     "recentPredictions": [
+        {
+            "key": "Utrecht|GO Ahead Eagles|19:00",
+            "match": "Utrecht vs GO Ahead Eagles",
+            "predicted": "2 - 3",
+            "result": "3 - 3",
+            "correct": false
+        },
+        {
+            "key": "Elche|Real Sociedad|02:30",
+            "match": "Elche vs Real Sociedad",
+            "predicted": "1 - 2",
+            "result": "2 - 3",
+            "correct": true
+        },
+        {
+            "key": "Estoril|Arouca|02:15",
+            "match": "Estoril vs Arouca",
+            "predicted": "1 - 2",
+            "result": "0 - 0",
+            "correct": false
+        },
+        {
+            "key": "Udinese|Lazio|01:45",
+            "match": "Udinese vs Lazio",
+            "predicted": "1 - 2",
+            "result": "1 - 2",
+            "correct": true
+        },
+        {
+            "key": "Rizespor|Alanyaspor|00:00",
+            "match": "Rizespor vs Alanyaspor",
+            "predicted": "1 - 2",
+            "result": "0 - 1",
+            "correct": true
+        },
+        {
+            "key": "Göztepe|Gaziantep FK|00:00",
+            "match": "Göztepe vs Gaziantep FK",
+            "predicted": "1 - 2",
+            "result": "2 - 4",
+            "correct": true
+        },
+        {
+            "key": "Getafe|Celta Vigo|00:00",
+            "match": "Getafe vs Celta Vigo",
+            "predicted": "2 - 1",
+            "result": "1 - 1",
+            "correct": false
+        },
         {
             "key": "Tapatío|Leones Negros UDG|06:00",
             "match": "Tapatío vs Leones Negros UDG",
@@ -32271,55 +29936,6 @@ const siteData = {
             "predicted": "3 - 2",
             "result": "1 - 1",
             "correct": false
-        },
-        {
-            "key": "Angers|Rennes|22:15",
-            "match": "Angers vs Rennes",
-            "predicted": "2 - 3",
-            "result": "1 - 2",
-            "correct": true
-        },
-        {
-            "key": "ADO Den Haag|Fortuna Sittard|21:45",
-            "match": "ADO Den Haag vs Fortuna Sittard",
-            "predicted": "1 - 2",
-            "result": "1 - 3",
-            "correct": true
-        },
-        {
-            "key": "Santa Clara|Rio Ave|21:30",
-            "match": "Santa Clara vs Rio Ave",
-            "predicted": "2 - 1",
-            "result": "3 - 0",
-            "correct": true
-        },
-        {
-            "key": "Valencia|Barcelona|21:15",
-            "match": "Valencia vs Barcelona",
-            "predicted": "1 - 3",
-            "result": "0 - 4",
-            "correct": true
-        },
-        {
-            "key": "Heart Of Midlothian|Dundee|21:00",
-            "match": "Heart Of Midlothian vs Dundee",
-            "predicted": "2 - 1",
-            "result": "2 - 1",
-            "correct": true
-        },
-        {
-            "key": "ST Johnstone|Hibernian|21:00",
-            "match": "ST Johnstone vs Hibernian",
-            "predicted": "2 - 3",
-            "result": "2 - 1",
-            "correct": false
-        },
-        {
-            "key": "Kortrijk|Zulte Waregem|21:00",
-            "match": "Kortrijk vs Zulte Waregem",
-            "predicted": "1 - 2",
-            "result": "0 - 2",
-            "correct": true
         }
     ]
 };
