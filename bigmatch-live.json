@@ -2,37 +2,37 @@
   "fixtureId": 1635683,
   "home": "Lille",
   "away": "Real Betis",
-  "statusCode": "1H",
-  "updatedAt": "09/09/2026 02:35 WIB",
+  "statusCode": "HT",
+  "updatedAt": "09/09/2026 02:49 WIB",
   "statistics": {
     "home": {
       "possession": 55,
-      "shotsTotal": 4,
-      "shotsOnTarget": 1,
-      "corners": 0,
-      "fouls": 2,
+      "shotsTotal": 5,
+      "shotsOnTarget": 2,
+      "corners": 1,
+      "fouls": 4,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 2,
-      "passesTotal": 201,
-      "passesAccurate": 183,
+      "passesTotal": 252,
+      "passesAccurate": 226,
       "passesPct": null
     },
     "away": {
       "possession": 45,
-      "shotsTotal": 6,
-      "shotsOnTarget": 0,
-      "corners": 1,
-      "fouls": 6,
+      "shotsTotal": 12,
+      "shotsOnTarget": 1,
+      "corners": 2,
+      "fouls": 7,
       "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 4,
-      "shotsOutsidebox": 2,
-      "passesTotal": 177,
-      "passesAccurate": 155,
+      "shotsInsidebox": 7,
+      "shotsOutsidebox": 5,
+      "passesTotal": 252,
+      "passesAccurate": 222,
       "passesPct": null
     }
   },
@@ -45,61 +45,61 @@
           "number": 1,
           "name": "B. Özer",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 22,
           "name": "Tiago Santos",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "6.9"
         },
         {
           "number": 3,
           "name": "N. Ngoy",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.6"
         },
         {
           "number": 4,
           "name": "Alexsandro Ribeiro",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.6"
         },
         {
           "number": 15,
           "name": "R. Perraud",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.5"
         },
         {
           "number": 21,
           "name": "B. André",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "N. Bentaleb",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.0"
         },
         {
           "number": 8,
           "name": "E. Mbappé",
           "position": "Gelandang",
-          "rating": "7.4"
+          "rating": "7.1"
         },
         {
           "number": 28,
           "name": "G. Perrin",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 10,
           "name": "H. Haraldsson",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 18,
@@ -191,31 +191,31 @@
           "number": 1,
           "name": "Álvaro Vallés",
           "position": "Kiper",
-          "rating": "6.0"
+          "rating": "5.4"
         },
         {
           "number": 2,
           "name": "Héctor Bellerín",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "5.7"
         },
         {
           "number": 5,
           "name": "Marc Bartra",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "7.5"
         },
         {
           "number": 4,
           "name": "Natan",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 23,
           "name": "Junior Firpo",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 6,
@@ -227,31 +227,31 @@
           "number": 8,
           "name": "Pablo Fornals",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.4"
         },
         {
           "number": 7,
           "name": "Antony",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 22,
           "name": "Isco",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "7.0"
         },
         {
           "number": 17,
           "name": "Rodrigo Riquelme",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.1"
         },
         {
           "number": 19,
           "name": "T. Parrott",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
