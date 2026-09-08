@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T22:05:50.500Z.
+   API-Football v3) pada 2026-09-08T23:04:59.128Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -454,54 +454,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Copa Libertadores",
-            "date": "2026-09-09",
-            "time": "05:00",
-            "home": "Fluminense",
-            "away": "Platense",
-            "stadium": "",
-            "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Platense",
-            "comparison": {
-                "form": {
-                    "home": 58,
-                    "away": 42
-                },
-                "att": {
-                    "home": 57,
-                    "away": 43
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 34,
-                    "away": 66
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            }
-        },
-        {
             "league": "Copa Sudamericana",
             "date": "2026-09-09",
             "time": "05:00",
@@ -509,8 +461,8 @@ const siteData = {
             "away": "Vasco DA Gama",
             "stadium": "",
             "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
+            "statusCode": "2H",
+            "minuteDisplay": "46'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1139.png",
@@ -547,7 +499,75 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "28",
+                    "player": "Claudio Spinelli",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Copa Libertadores",
+            "date": "2026-09-09",
+            "time": "05:00",
+            "home": "Fluminense",
+            "away": "Platense",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "2H",
+            "minuteDisplay": "46'",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1064.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Platense",
+            "comparison": {
+                "form": {
+                    "home": 58,
+                    "away": 42
+                },
+                "att": {
+                    "home": 57,
+                    "away": 43
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 34,
+                    "away": 66
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "Gustavo Nonato Santana",
+                    "team": "home"
+                },
+                {
+                    "minute": "31",
+                    "player": "Hulk",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Copa Sudamericana",
@@ -2048,7 +2068,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 05:05 WIB",
+    "standingsUpdated": "09/09/2026 06:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -28658,51 +28678,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "05:00",
-                "home": "Palmeiras",
-                "away": "LDU de Quito",
-                "stadium": "Estadio Rodrigo Paz Delgado",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/121.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1158.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Palmeiras or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "poisson": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-10",
                 "time": "05:00",
@@ -28740,6 +28715,51 @@ const siteData = {
                     "h2h": {
                         "home": 62,
                         "away": 38
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "05:00",
+                "home": "Palmeiras",
+                "away": "LDU de Quito",
+                "stadium": "Estadio Rodrigo Paz Delgado",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/121.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1158.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Palmeiras or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
                     },
                     "goals": {
                         "home": 57,
@@ -29740,51 +29760,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-11",
-                "time": "07:30",
-                "home": "Independiente del Valle",
-                "away": "Flamengo",
-                "stadium": "Estadio Banco Guayaquil",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1153.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/127.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Flamengo",
-                "comparison": {
-                    "form": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 43,
-                        "away": 57
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-11",
                 "time": "07:30",
@@ -29826,6 +29801,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-11",
+                "time": "07:30",
+                "home": "Independiente del Valle",
+                "away": "Flamengo",
+                "stadium": "Estadio Banco Guayaquil",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1153.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/127.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Flamengo",
+                "comparison": {
+                    "form": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
                     }
                 }
             },
