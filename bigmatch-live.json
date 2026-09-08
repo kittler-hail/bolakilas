@@ -3,10 +3,10 @@
   "home": "Lille",
   "away": "Real Betis",
   "statusCode": "HT",
-  "updatedAt": "09/09/2026 02:49 WIB",
+  "updatedAt": "09/09/2026 03:03 WIB",
   "statistics": {
     "home": {
-      "possession": 55,
+      "possession": 49,
       "shotsTotal": 5,
       "shotsOnTarget": 2,
       "corners": 1,
@@ -16,12 +16,12 @@
       "redCards": 0,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 2,
-      "passesTotal": 252,
+      "passesTotal": 253,
       "passesAccurate": 226,
       "passesPct": null
     },
     "away": {
-      "possession": 45,
+      "possession": 51,
       "shotsTotal": 12,
       "shotsOnTarget": 1,
       "corners": 2,
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 5,
-      "passesTotal": 252,
-      "passesAccurate": 222,
+      "passesTotal": 260,
+      "passesAccurate": 227,
       "passesPct": null
     }
   },
@@ -63,7 +63,7 @@
           "number": 4,
           "name": "Alexsandro Ribeiro",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.7"
         },
         {
           "number": 15,
@@ -197,7 +197,7 @@
           "number": 2,
           "name": "Héctor Bellerín",
           "position": "Bek",
-          "rating": "5.7"
+          "rating": "5.9"
         },
         {
           "number": 5,
@@ -221,25 +221,25 @@
           "number": 6,
           "name": "F. Bernal",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.0"
         },
         {
           "number": 8,
           "name": "Pablo Fornals",
           "position": "Gelandang",
-          "rating": "7.4"
+          "rating": "7.2"
         },
         {
           "number": 7,
           "name": "Antony",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 22,
           "name": "Isco",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.9"
         },
         {
           "number": 17,
@@ -343,12 +343,12 @@
     "away": "3.10",
     "overUnder": {
       "line": "2.5",
-      "over": "1.80",
-      "under": "2.00"
+      "over": "1.75",
+      "under": "2.05"
     },
     "btts": {
-      "yes": "1.62",
-      "no": "2.20"
+      "yes": "1.60",
+      "no": "2.25"
     }
   },
   "liveOdds": null
