@@ -3,36 +3,36 @@
   "home": "Lille",
   "away": "Real Betis",
   "statusCode": "1H",
-  "updatedAt": "09/09/2026 02:19 WIB",
+  "updatedAt": "09/09/2026 02:35 WIB",
   "statistics": {
     "home": {
-      "possession": 49,
-      "shotsTotal": 3,
+      "possession": 55,
+      "shotsTotal": 4,
       "shotsOnTarget": 1,
       "corners": 0,
-      "fouls": 0,
-      "offsides": null,
+      "fouls": 2,
+      "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 2,
-      "shotsOutsidebox": 1,
-      "passesTotal": 112,
-      "passesAccurate": 105,
+      "shotsOutsidebox": 2,
+      "passesTotal": 201,
+      "passesAccurate": 183,
       "passesPct": null
     },
     "away": {
-      "possession": 51,
-      "shotsTotal": 5,
+      "possession": 45,
+      "shotsTotal": 6,
       "shotsOnTarget": 0,
       "corners": 1,
-      "fouls": 1,
-      "offsides": null,
+      "fouls": 6,
+      "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 4,
-      "shotsOutsidebox": 1,
-      "passesTotal": 90,
-      "passesAccurate": 78,
+      "shotsOutsidebox": 2,
+      "passesTotal": 177,
+      "passesAccurate": 155,
       "passesPct": null
     }
   },
@@ -45,43 +45,43 @@
           "number": 1,
           "name": "B. Özer",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 22,
           "name": "Tiago Santos",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.3"
         },
         {
           "number": 3,
           "name": "N. Ngoy",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "7.0"
         },
         {
           "number": 4,
           "name": "Alexsandro Ribeiro",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.1"
         },
         {
           "number": 15,
           "name": "R. Perraud",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 21,
           "name": "B. André",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 6,
           "name": "N. Bentaleb",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 8,
@@ -191,19 +191,19 @@
           "number": 1,
           "name": "Álvaro Vallés",
           "position": "Kiper",
-          "rating": "6.1"
+          "rating": "6.0"
         },
         {
           "number": 2,
           "name": "Héctor Bellerín",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.3"
         },
         {
           "number": 5,
           "name": "Marc Bartra",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.7"
         },
         {
           "number": 4,
@@ -215,43 +215,43 @@
           "number": 23,
           "name": "Junior Firpo",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "F. Bernal",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 8,
           "name": "Pablo Fornals",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.6"
         },
         {
           "number": 7,
           "name": "Antony",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.3"
         },
         {
           "number": 22,
           "name": "Isco",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.1"
         },
         {
           "number": 17,
           "name": "Rodrigo Riquelme",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 19,
           "name": "T. Parrott",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
