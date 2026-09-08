@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T12:07:05.305Z.
+   API-Football v3) pada 2026-09-08T14:06:35.712Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -360,7 +360,7 @@ const siteData = {
             "time": "01:45",
             "home": "Udinese",
             "away": "Lazio",
-            "stadium": "Bluenergy Stadium - Stadio Friuli",
+            "stadium": "Bluenergy Stadium",
             "round": "Pekan 3",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -404,17 +404,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "49",
-                    "player": "Jesper Karlstrom",
+                    "player": "J. Karlstrom",
                     "team": "home"
                 },
                 {
                     "minute": "75",
-                    "player": "Davide Frattesi",
+                    "player": "D. Frattesi",
                     "team": "away"
                 },
                 {
                     "minute": "88",
-                    "player": "Albert Gudmundsson",
+                    "player": "A. Gudmundsson",
                     "team": "away"
                 }
             ],
@@ -439,19 +439,19 @@ const siteData = {
                 },
                 {
                     "minute": "45+3",
-                    "player": "Jesper Karlstrom",
+                    "player": "Jesper Karlström",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "67",
-                    "player": "Vakoun Bayo",
+                    "player": "Vakoun Issouf Bayo",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "84",
-                    "player": "Nicolo Bertola",
+                    "player": "Nicolò Bertola",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -658,9 +658,9 @@ const siteData = {
             "away": "GO Ahead Eagles",
             "stadium": "Stadion Galgenwaard",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "70'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/207.png",
             "awayLogo": "https://media.api-sports.io/football/teams/410.png",
@@ -717,6 +717,16 @@ const siteData = {
                     "minute": "63",
                     "player": "Dani De Wit",
                     "team": "home"
+                },
+                {
+                    "minute": "77",
+                    "player": "Matisse Didden",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Artem Stepanov",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -739,51 +749,6 @@ const siteData = {
                     "type": "yellow"
                 }
             ]
-        },
-        {
-            "league": "Eredivisie",
-            "date": "2026-09-08",
-            "time": "23:45",
-            "home": "NEC Nijmegen",
-            "away": "Excelsior",
-            "stadium": "Stadion de Goffert",
-            "round": "Pekan 3",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/196.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Excelsior",
-            "comparison": {
-                "form": {
-                    "home": 40,
-                    "away": 60
-                },
-                "att": {
-                    "home": 47,
-                    "away": 53
-                },
-                "def": {
-                    "home": 30,
-                    "away": 70
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 80,
-                    "away": 20
-                },
-                "goals": {
-                    "home": 80,
-                    "away": 20
-                }
-            }
         },
         {
             "league": "UEFA Champions League",
@@ -872,6 +837,51 @@ const siteData = {
                 "goals": {
                     "home": 0,
                     "away": 0
+                }
+            }
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-08",
+            "time": "23:45",
+            "home": "NEC Nijmegen",
+            "away": "Excelsior",
+            "stadium": "Stadion de Goffert",
+            "round": "Pekan 3",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/413.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/196.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Excelsior",
+            "comparison": {
+                "form": {
+                    "home": 40,
+                    "away": 60
+                },
+                "att": {
+                    "home": 47,
+                    "away": 53
+                },
+                "def": {
+                    "home": 30,
+                    "away": 70
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 80,
+                    "away": 20
+                },
+                "goals": {
+                    "home": 80,
+                    "away": 20
                 }
             }
         }
@@ -2194,7 +2204,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 19:07 WIB",
+    "standingsUpdated": "08/09/2026 21:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2765,10 +2775,10 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "name": "Dani Olmo",
-                "photo": "https://media.api-sports.io/football/players/1323.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "name": "J. Ochieng",
+                "photo": "https://media.api-sports.io/football/players/387139.png",
+                "team": "Real Sociedad",
+                "teamLogo": "https://media.api-sports.io/football/teams/548.png",
                 "value": 2
             }
         ],
@@ -30845,51 +30855,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-09",
-                "time": "23:45",
-                "home": "Twente",
-                "away": "Telstar",
-                "stadium": "De Grolsch Veste",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/415.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/427.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Double chance : Twente or draw",
-                "comparison": {
-                    "form": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "att": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "def": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "poisson": {
-                        "home": 68,
-                        "away": 32
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 73,
-                        "away": 27
-                    }
-                }
-            },
-            {
                 "league": "UEFA Champions League",
                 "date": "2026-09-09",
                 "time": "23:45",
@@ -30978,6 +30943,51 @@ const siteData = {
                         "away": 0
                     }
                 }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-09",
+                "time": "23:45",
+                "home": "Twente",
+                "away": "Telstar",
+                "stadium": "De Grolsch Veste",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/415.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/427.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Double chance : Twente or draw",
+                "comparison": {
+                    "form": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "att": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 68,
+                        "away": 32
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 73,
+                        "away": 27
+                    }
+                }
             }
         ],
         "2026-09-10": [
@@ -31023,51 +31033,6 @@ const siteData = {
                     "goals": {
                         "home": 69,
                         "away": 31
-                    }
-                }
-            },
-            {
-                "league": "Scottish Premiership",
-                "date": "2026-09-10",
-                "time": "02:00",
-                "home": "ST Johnstone",
-                "away": "Celtic",
-                "stadium": "McDiarmid Park",
-                "round": "Pekan 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/258.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/247.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : Celtic and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 32,
-                        "away": 68
-                    },
-                    "att": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "def": {
-                        "home": 27,
-                        "away": 73
-                    },
-                    "poisson": {
-                        "home": 30,
-                        "away": 70
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 10,
-                        "away": 90
                     }
                 }
             },
@@ -31248,6 +31213,51 @@ const siteData = {
                     "goals": {
                         "home": 29,
                         "away": 71
+                    }
+                }
+            },
+            {
+                "league": "Scottish Premiership",
+                "date": "2026-09-10",
+                "time": "02:00",
+                "home": "ST Johnstone",
+                "away": "Celtic",
+                "stadium": "McDiarmid Park",
+                "round": "Pekan 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/258.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/247.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : Celtic and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 32,
+                        "away": 68
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "def": {
+                        "home": 27,
+                        "away": 73
+                    },
+                    "poisson": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 10,
+                        "away": 90
                     }
                 }
             },
