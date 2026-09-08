@@ -3,9 +3,256 @@
   "home": "Lille",
   "away": "Real Betis",
   "statusCode": "NS",
-  "updatedAt": "09/09/2026 01:24 WIB",
+  "updatedAt": "09/09/2026 01:45 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Davide Ancelotti",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "B. Özer",
+          "position": "Kiper"
+        },
+        {
+          "number": 22,
+          "name": "Tiago Santos",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "N. Ngoy",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Alexsandro Ribeiro",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "R. Perraud",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "B. André",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "N. Bentaleb",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "E. Mbappé",
+          "position": "Gelandang"
+        },
+        {
+          "number": 28,
+          "name": "G. Perrin",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "H. Haraldsson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "A. Ueda",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 26,
+          "name": "I. Cossier",
+          "position": "Bek"
+        },
+        {
+          "number": 24,
+          "name": "C. Verdonk",
+          "position": "Bek"
+        },
+        {
+          "number": 7,
+          "name": "D. Bakwa",
+          "position": "Penyerang"
+        },
+        {
+          "number": 35,
+          "name": "S. Diaoune",
+          "position": "Penyerang"
+        },
+        {
+          "number": 12,
+          "name": "O. Gill",
+          "position": "Kiper"
+        },
+        {
+          "number": 9,
+          "name": "O. Giroud",
+          "position": "Penyerang"
+        },
+        {
+          "number": 14,
+          "name": "M. Kjærgaard",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "N. Mukau",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "T. Nianzou",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "B. Önal",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "O. Sahraoui",
+          "position": "Penyerang"
+        },
+        {
+          "number": 2,
+          "name": "L. Srdanovic",
+          "position": "Bek"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "M. Pellegrini",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Álvaro Vallés",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Héctor Bellerín",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Marc Bartra",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Natan",
+          "position": "Bek"
+        },
+        {
+          "number": 23,
+          "name": "Junior Firpo",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "F. Bernal",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Pablo Fornals",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Antony",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "Isco",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "Rodrigo Riquelme",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "T. Parrott",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 18,
+          "name": "N. Deossa",
+          "position": "Gelandang"
+        },
+        {
+          "number": 15,
+          "name": "Álvaro Fidalgo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Fran García",
+          "position": "Bek"
+        },
+        {
+          "number": 16,
+          "name": "V. Gómez",
+          "position": "Bek"
+        },
+        {
+          "number": 31,
+          "name": "Manu González",
+          "position": "Kiper"
+        },
+        {
+          "number": 9,
+          "name": "C. Hernández",
+          "position": "Penyerang"
+        },
+        {
+          "number": 20,
+          "name": "G. Lo Celso",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "J. A. Morante",
+          "position": "Penyerang"
+        },
+        {
+          "number": 12,
+          "name": "Ángel Ortiz",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "Marc Roca",
+          "position": "Gelandang"
+        },
+        {
+          "number": 25,
+          "name": "Dani Ceballos",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "Diego Conde",
+          "position": "Kiper"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Stade Pierre-Mauroy",
     "city": "",
