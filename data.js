@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-08T14:06:35.712Z.
+   API-Football v3) pada 2026-09-08T15:06:08.368Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -75,7 +75,7 @@ const siteData = {
             "time": "00:00",
             "home": "Getafe",
             "away": "Celta Vigo",
-            "stadium": "Coliseum",
+            "stadium": "Coliseum Alfonso Pérez",
             "round": "Pekan 4",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -119,12 +119,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "21",
-                    "player": "Martin Satriano",
+                    "player": "M. Satriano",
                     "team": "home"
                 },
                 {
                     "minute": "57",
-                    "player": "Carl Starfelt",
+                    "player": "C. Starfelt",
                     "team": "away"
                 }
             ],
@@ -137,6 +137,12 @@ const siteData = {
                 },
                 {
                     "minute": "55",
+                    "player": "Zaid Romero",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
                     "player": "Zaid Romero",
                     "team": "home",
                     "type": "yellow"
@@ -173,7 +179,7 @@ const siteData = {
             "time": "00:00",
             "home": "Göztepe",
             "away": "Gaziantep FK",
-            "stadium": "",
+            "stadium": "Gursel Aksel Stadium",
             "round": "Pekan 4",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -217,32 +223,32 @@ const siteData = {
             "goals": [
                 {
                     "minute": "5",
-                    "player": "Halil Dervisoglu",
+                    "player": "H. Dervisoglu",
                     "team": "away"
                 },
                 {
                     "minute": "10",
-                    "player": "Myenty Abena",
+                    "player": "M. Abena",
                     "team": "away"
                 },
                 {
                     "minute": "34",
-                    "player": "Kacper Kozłowski",
+                    "player": "K. Kozlowski",
                     "team": "away"
                 },
                 {
-                    "minute": "45+1",
-                    "player": "Kacper Kozłowski",
+                    "minute": "45",
+                    "player": "K. Kozlowski",
                     "team": "away"
                 },
                 {
-                    "minute": "51",
-                    "player": "Juan Santos",
+                    "minute": "52",
+                    "player": "Juan",
                     "team": "home"
                 },
                 {
-                    "minute": "90+3",
-                    "player": "Juan Santos",
+                    "minute": "90",
+                    "player": "Juan",
                     "team": "home"
                 }
             ],
@@ -255,13 +261,13 @@ const siteData = {
                 },
                 {
                     "minute": "66",
-                    "player": "Rhaldney Norberto Simiao Gomez",
+                    "player": "Rhaldney",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "72",
-                    "player": "Ogun Bayrak",
+                    "player": "Ogün Bayrak",
                     "team": "home",
                     "type": "red"
                 },
@@ -291,7 +297,7 @@ const siteData = {
             "time": "00:00",
             "home": "Rizespor",
             "away": "Alanyaspor",
-            "stadium": "",
+            "stadium": "Çaykur Didi Stadyumu",
             "round": "Pekan 4",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -335,7 +341,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "70",
-                    "player": "Zakaria Ariss",
+                    "player": "Z. Ariss",
                     "team": "home"
                 }
             ],
@@ -348,7 +354,7 @@ const siteData = {
                 },
                 {
                     "minute": "87",
-                    "player": "Meschack Elia",
+                    "player": "Meschak Elia",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -543,7 +549,7 @@ const siteData = {
             "time": "02:30",
             "home": "Elche",
             "away": "Real Sociedad",
-            "stadium": "",
+            "stadium": "Estadio Martínez Valero",
             "round": "Pekan 4",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -587,27 +593,27 @@ const siteData = {
             "goals": [
                 {
                     "minute": "11",
-                    "player": "Job Ochieng",
+                    "player": "J. Ochieng",
                     "team": "away"
                 },
                 {
                     "minute": "31",
-                    "player": "Yangel Herrera",
+                    "player": "Y. Herrera",
                     "team": "away"
                 },
                 {
                     "minute": "67",
-                    "player": "Thomas Lemar",
+                    "player": "T. Lemar",
                     "team": "home"
                 },
                 {
                     "minute": "74",
-                    "player": "Fernando Niño Rodríguez",
+                    "player": "F. Nino",
                     "team": "home"
                 },
                 {
                     "minute": "90",
-                    "player": "Luka Sučić",
+                    "player": "L. Sucic",
                     "team": "away"
                 }
             ],
@@ -626,7 +632,7 @@ const siteData = {
                 },
                 {
                     "minute": "57",
-                    "player": "Fernando Niño Rodríguez",
+                    "player": "Fernando Niño",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -2204,7 +2210,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "08/09/2026 21:06 WIB",
+    "standingsUpdated": "08/09/2026 22:06 WIB",
     "topScorers": {
         "Premier League": [
             {
