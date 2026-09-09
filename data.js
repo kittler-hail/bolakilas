@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-09T02:05:55.942Z.
+   API-Football v3) pada 2026-09-09T03:05:10.357Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -655,8 +655,8 @@ const siteData = {
             "away": "Sao Paulo",
             "stadium": "Estadio Alberto J. Armando",
             "round": "Quarter-finals",
-            "statusCode": "2H",
-            "minuteDisplay": "75'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/451.png",
@@ -706,6 +706,18 @@ const siteData = {
                     "minute": "70",
                     "player": "Jonathan Calleri",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Dorival Silvestre Júnior",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Enner Valencia",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -2164,7 +2176,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 09:05 WIB",
+    "standingsUpdated": "09/09/2026 10:05 WIB",
     "topScorers": {
         "Premier League": [
             {
