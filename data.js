@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-09T01:05:18.277Z.
+   API-Football v3) pada 2026-09-09T02:05:55.942Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -64,6 +64,14 @@ const siteData = {
                 "defense": 0
             },
             "away": {
+                "results": [
+                    "W"
+                ],
+                "cleanSheets": 0,
+                "failedToScore": 0,
+                "goalsFor": 3,
+                "goalsAgainst": 2,
+                "winStreak": 1,
                 "attack": 0,
                 "defense": 0
             }
@@ -647,9 +655,9 @@ const siteData = {
             "away": "Sao Paulo",
             "stadium": "Estadio Alberto J. Armando",
             "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "75'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/451.png",
             "awayLogo": "https://media.api-sports.io/football/teams/126.png",
@@ -685,7 +693,22 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "52",
+                    "player": "Miguel Merentiel",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "70",
+                    "player": "Jonathan Calleri",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -2141,7 +2164,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 08:05 WIB",
+    "standingsUpdated": "09/09/2026 09:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -29147,51 +29170,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "07:30",
-                "home": "Estudiantes L.P.",
-                "away": "Corinthians",
-                "stadium": "Estadio Jorge Luis Hirschi",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "MLS",
                 "date": "2026-09-10",
                 "time": "07:30",
@@ -29368,6 +29346,51 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "07:30",
+                "home": "Estudiantes L.P.",
+                "away": "Corinthians",
+                "stadium": "Estadio Jorge Luis Hirschi",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
@@ -30054,7 +30077,7 @@ const siteData = {
                 "time": "15:30",
                 "home": "Garudayaksa",
                 "away": "Persik Kediri",
-                "stadium": "",
+                "stadium": "Pakansari Stadium",
                 "round": "Pekan 2",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/26645.png",
