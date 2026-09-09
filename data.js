@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-09T00:08:00.216Z.
+   API-Football v3) pada 2026-09-09T01:05:18.277Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -647,7 +647,10 @@ const siteData = {
             "away": "Sao Paulo",
             "stadium": "Estadio Alberto J. Armando",
             "round": "Quarter-finals",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "35'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/451.png",
             "awayLogo": "https://media.api-sports.io/football/teams/126.png",
             "prediction": "2 - 1",
@@ -2138,7 +2141,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 07:07 WIB",
+    "standingsUpdated": "09/09/2026 08:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3807,7 +3810,7 @@ const siteData = {
                 "player": "Marcao",
                 "photo": "https://media.api-sports.io/football/players/433.png",
                 "reason": "Foot Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "K. Salas",
@@ -3819,7 +3822,13 @@ const siteData = {
                 "player": "R. Vargas",
                 "photo": "https://media.api-sports.io/football/players/48471.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
+            },
+            {
+                "player": "A. Sangante",
+                "photo": "https://media.api-sports.io/football/players/174927.png",
+                "reason": "Red Card",
+                "since": "2026-09-11"
             }
         ],
         "rayo-vallecano": [
@@ -4253,25 +4262,25 @@ const siteData = {
                 "player": "S. Canos",
                 "photo": "https://media.api-sports.io/football/players/19352.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "J. Copete",
                 "photo": "https://media.api-sports.io/football/players/181582.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "D. Foulquier",
                 "photo": "https://media.api-sports.io/football/players/47251.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "D. Lopez",
                 "photo": "https://media.api-sports.io/football/players/162127.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "A. Mari",
@@ -4283,25 +4292,37 @@ const siteData = {
                 "player": "L. Rioja",
                 "photo": "https://media.api-sports.io/football/players/46933.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "J. De Haas",
                 "photo": "https://media.api-sports.io/football/players/36884.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "G. Rodriguez",
                 "photo": "https://media.api-sports.io/football/players/2476.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "U. Sadiq",
                 "photo": "https://media.api-sports.io/football/players/31406.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
+            },
+            {
+                "player": "M. Diakhaby",
+                "photo": "https://media.api-sports.io/football/players/916.png",
+                "reason": "Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "J. Vazquez",
+                "photo": "https://media.api-sports.io/football/players/162175.png",
+                "reason": "Ankle Injury",
+                "since": "2026-09-11"
             },
             {
                 "player": "P. Maffeo",
@@ -4565,7 +4586,7 @@ const siteData = {
                 "player": "A. Adorante",
                 "photo": "https://media.api-sports.io/football/players/212.png",
                 "reason": "Hernia",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "A. Duncan",
@@ -4583,19 +4604,25 @@ const siteData = {
                 "player": "M. Sverko",
                 "photo": "https://media.api-sports.io/football/players/26095.png",
                 "reason": "Hip Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "T. Basic",
                 "photo": "https://media.api-sports.io/football/players/1266.png",
                 "reason": "Foot Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
             },
             {
                 "player": "B. Franjic",
                 "photo": "https://media.api-sports.io/football/players/14704.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-11"
+            },
+            {
+                "player": "A. Bella-Kotchap",
+                "photo": "https://media.api-sports.io/football/players/25061.png",
+                "reason": "Injury",
+                "since": "2026-09-11"
             }
         ],
         "lecce": [
@@ -5017,13 +5044,25 @@ const siteData = {
                 "player": "F. Parisi",
                 "photo": "https://media.api-sports.io/football/players/136087.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "R. Sottil",
                 "photo": "https://media.api-sports.io/football/players/31507.png",
                 "reason": "Back Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
+            },
+            {
+                "player": "F. Croci",
+                "photo": "https://media.api-sports.io/football/players/639656.png",
+                "reason": "Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "C. Inao Oulai",
+                "photo": "https://media.api-sports.io/football/players/474591.png",
+                "reason": "Injury",
+                "since": "2026-09-11"
             },
             {
                 "player": "M. Kean",
@@ -5155,31 +5194,31 @@ const siteData = {
                 "player": "A. Gantenbein",
                 "photo": "https://media.api-sports.io/football/players/266192.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "E. Hojlund",
                 "photo": "https://media.api-sports.io/football/players/339875.png",
                 "reason": "Heel Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "T. Kalas",
                 "photo": "https://media.api-sports.io/football/players/19262.png",
                 "reason": "Lacking Match Fitness",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "B. Lasme",
                 "photo": "https://media.api-sports.io/football/players/24228.png",
                 "reason": "Calf Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "R. Schallenberg",
                 "photo": "https://media.api-sports.io/football/players/88140.png",
                 "reason": "Red Card",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "K. Karaman",
@@ -5251,31 +5290,31 @@ const siteData = {
                 "player": "O. Burke",
                 "photo": "https://media.api-sports.io/football/players/1124.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "M. Friedrich",
                 "photo": "https://media.api-sports.io/football/players/24839.png",
                 "reason": "Inactive",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "A. Ilic",
                 "photo": "https://media.api-sports.io/football/players/45892.png",
                 "reason": "Illness",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "A. Markgraf",
                 "photo": "https://media.api-sports.io/football/players/413294.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "S. Nsoki",
                 "photo": "https://media.api-sports.io/football/players/270.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-11"
             },
             {
                 "player": "F. Ronnow",
@@ -29108,6 +29147,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "07:30",
+                "home": "Estudiantes L.P.",
+                "away": "Corinthians",
+                "stadium": "Estadio Jorge Luis Hirschi",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "MLS",
                 "date": "2026-09-10",
                 "time": "07:30",
@@ -29284,51 +29368,6 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
-                    }
-                }
-            },
-            {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "07:30",
-                "home": "Estudiantes L.P.",
-                "away": "Corinthians",
-                "stadium": "Estadio Jorge Luis Hirschi",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
                     }
                 }
             },
