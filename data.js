@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-09T14:04:58.992Z.
+   API-Football v3) pada 2026-09-09T15:05:03.665Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -21,7 +21,7 @@ const siteData = {
         "time": "02:00",
         "home": "Lille",
         "away": "Real Betis",
-        "stadium": "Stade Pierre-Mauroy",
+        "stadium": "Decathlon Arena - Stade Pierre Mauroy",
         "prediction": "0 - 0",
         "analysis": "Lille bertemu Real Betis dalam laga UEFA Champions League. Analisis API-Football: No predictions available.",
         "statusCode": "FT",
@@ -84,7 +84,7 @@ const siteData = {
             "time": "02:00",
             "home": "Lille",
             "away": "Real Betis",
-            "stadium": "Stade Pierre-Mauroy",
+            "stadium": "Decathlon Arena - Stade Pierre Mauroy",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -292,7 +292,7 @@ const siteData = {
             "time": "02:00",
             "home": "FC Porto",
             "away": "Manchester City",
-            "stadium": "",
+            "stadium": "Estádio do Dragão",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -384,7 +384,7 @@ const siteData = {
             "time": "02:00",
             "home": "Real Madrid",
             "away": "Inter",
-            "stadium": "",
+            "stadium": "Bernabéu",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -428,12 +428,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "14",
-                    "player": "Kylian Mbappé",
+                    "player": "K. Mbappe",
                     "team": "home"
                 },
                 {
                     "minute": "23",
-                    "player": "Federico Valverde",
+                    "player": "F. Valverde",
                     "team": "home"
                 },
                 {
@@ -2176,7 +2176,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 21:04 WIB",
+    "standingsUpdated": "09/09/2026 22:05 WIB",
     "topScorers": {
         "Premier League": [
             {
