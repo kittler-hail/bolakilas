@@ -2,11 +2,11 @@
   "fixtureId": 1635686,
   "home": "Liverpool",
   "away": "Atletico Madrid",
-  "statusCode": "1H",
-  "updatedAt": "10/09/2026 02:44 WIB",
+  "statusCode": "HT",
+  "updatedAt": "10/09/2026 02:58 WIB",
   "statistics": {
     "home": {
-      "possession": 51,
+      "possession": 60,
       "shotsTotal": 6,
       "shotsOnTarget": 3,
       "corners": 3,
@@ -16,23 +16,23 @@
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 1,
-      "passesTotal": 228,
-      "passesAccurate": 196,
+      "passesTotal": 247,
+      "passesAccurate": 212,
       "passesPct": null
     },
     "away": {
-      "possession": 49,
-      "shotsTotal": 5,
+      "possession": 40,
+      "shotsTotal": 6,
       "shotsOnTarget": 3,
       "corners": 1,
       "fouls": 2,
-      "offsides": 2,
+      "offsides": 3,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 1,
-      "shotsOutsidebox": 4,
-      "passesTotal": 228,
-      "passesAccurate": 192,
+      "shotsOutsidebox": 5,
+      "passesTotal": 255,
+      "passesAccurate": 216,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 1,
           "name": "Alisson Becker",
           "position": "Kiper",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 33,
@@ -69,7 +69,7 @@
           "number": 6,
           "name": "M. Kerkez",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 8,
@@ -203,7 +203,7 @@
           "number": 18,
           "name": "Marc Pubill",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 17,
@@ -221,25 +221,25 @@
           "number": 8,
           "name": "Pablo Barrios",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "7.1"
         },
         {
           "number": 6,
           "name": "Koke",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 10,
           "name": "Álex Baena",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 7,
           "name": "Lee Kang-In",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.2"
         },
         {
           "number": 19,
