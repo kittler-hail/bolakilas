@@ -3,36 +3,36 @@
   "home": "Liverpool",
   "away": "Atletico Madrid",
   "statusCode": "1H",
-  "updatedAt": "10/09/2026 02:16 WIB",
+  "updatedAt": "10/09/2026 02:31 WIB",
   "statistics": {
     "home": {
-      "possession": 47,
-      "shotsTotal": 2,
-      "shotsOnTarget": 0,
-      "corners": 1,
-      "fouls": 1,
+      "possession": 45,
+      "shotsTotal": 3,
+      "shotsOnTarget": 1,
+      "corners": 2,
+      "fouls": 4,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 1,
+      "shotsInsidebox": 2,
       "shotsOutsidebox": 1,
-      "passesTotal": 60,
-      "passesAccurate": 50,
+      "passesTotal": 148,
+      "passesAccurate": 130,
       "passesPct": null
     },
     "away": {
-      "possession": 53,
-      "shotsTotal": 2,
-      "shotsOnTarget": 1,
-      "corners": 0,
+      "possession": 55,
+      "shotsTotal": 5,
+      "shotsOnTarget": 3,
+      "corners": 1,
       "fouls": 2,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 1,
-      "shotsOutsidebox": 1,
-      "passesTotal": 78,
-      "passesAccurate": 67,
+      "shotsOutsidebox": 4,
+      "passesTotal": 187,
+      "passesAccurate": 163,
       "passesPct": null
     }
   },
@@ -45,25 +45,25 @@
           "number": 1,
           "name": "Alisson Becker",
           "position": "Kiper",
-          "rating": "7.1"
+          "rating": "6.7"
         },
         {
           "number": 33,
           "name": "R. Araújo",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 5,
           "name": "J. Jacquet",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 4,
           "name": "V. van Dijk",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 6,
@@ -75,13 +75,13 @@
           "number": 8,
           "name": "D. Szoboszlai",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.2"
         },
         {
           "number": 10,
           "name": "A. Mac Allister",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.0"
         },
         {
           "number": 73,
@@ -93,19 +93,19 @@
           "number": 7,
           "name": "F. Wirtz",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 29,
           "name": "B. Barcola",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.1"
         },
         {
           "number": 9,
           "name": "A. Isak",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
@@ -185,55 +185,55 @@
           "number": 13,
           "name": "J. Oblak",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "7.2"
         },
         {
           "number": 14,
           "name": "Marcos Llorente",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "7.9"
         },
         {
           "number": 21,
           "name": "C. Romero",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 18,
           "name": "Marc Pubill",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 17,
           "name": "D. Hancko",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "7.0"
         },
         {
           "number": 20,
           "name": "G. Simeone",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 8,
           "name": "Pablo Barrios",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "7.1"
         },
         {
           "number": 6,
           "name": "Koke",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "7.0"
         },
         {
           "number": 10,
           "name": "Álex Baena",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 7,
@@ -245,7 +245,7 @@
           "number": 19,
           "name": "J. Álvarez",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "7.6"
         }
       ],
       "substitutes": [
