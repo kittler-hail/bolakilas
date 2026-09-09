@@ -3,36 +3,36 @@
   "home": "Paris Saint Germain",
   "away": "Slovan Bratislava",
   "statusCode": "2H",
-  "updatedAt": "10/09/2026 03:19 WIB",
+  "updatedAt": "10/09/2026 03:37 WIB",
   "statistics": {
     "home": {
-      "possession": 73,
-      "shotsTotal": 25,
-      "shotsOnTarget": 9,
-      "corners": 5,
-      "fouls": 6,
-      "offsides": 3,
+      "possession": 74,
+      "shotsTotal": 30,
+      "shotsOnTarget": 10,
+      "corners": 6,
+      "fouls": 7,
+      "offsides": 4,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 17,
-      "shotsOutsidebox": 8,
-      "passesTotal": 450,
-      "passesAccurate": 413,
+      "shotsInsidebox": 19,
+      "shotsOutsidebox": 11,
+      "passesTotal": 619,
+      "passesAccurate": 571,
       "passesPct": null
     },
     "away": {
-      "possession": 27,
+      "possession": 26,
       "shotsTotal": 5,
       "shotsOnTarget": 2,
       "corners": 0,
-      "fouls": 5,
-      "offsides": 0,
+      "fouls": 6,
+      "offsides": 1,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 3,
       "shotsOutsidebox": 2,
-      "passesTotal": 174,
-      "passesAccurate": 129,
+      "passesTotal": 230,
+      "passesAccurate": 167,
       "passesPct": null
     }
   },
@@ -45,37 +45,37 @@
           "number": 39,
           "name": "M. Safonov",
           "position": "Kiper",
-          "rating": "7.1"
+          "rating": "6.4"
         },
         {
           "number": 2,
           "name": "A. Hakimi",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.3"
         },
         {
           "number": 6,
           "name": "I. Zabarnyi",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.0"
         },
         {
           "number": 51,
           "name": "W. Pacho",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 25,
           "name": "Nuno Mendes",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "7.3"
         },
         {
           "number": 27,
           "name": "Pedro Fernández",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 17,
@@ -93,19 +93,19 @@
           "number": 11,
           "name": "M. Akliouche",
           "position": "Penyerang",
-          "rating": "7.6"
+          "rating": "7.2"
         },
         {
           "number": 10,
           "name": "O. Dembélé",
           "position": "Penyerang",
-          "rating": "9.3"
+          "rating": "9.2"
         },
         {
           "number": 9,
           "name": "Ferran Torres",
           "position": "Penyerang",
-          "rating": "9.8"
+          "rating": "9.7"
         }
       ],
       "substitutes": [
@@ -119,13 +119,13 @@
           "number": 4,
           "name": "Beraldo",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.2"
         },
         {
           "number": 12,
           "name": "L. Digne",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 14,
@@ -137,13 +137,13 @@
           "number": 22,
           "name": "M. Godts",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 21,
           "name": "L. Hernández",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 7,
@@ -161,7 +161,7 @@
           "number": 24,
           "name": "Senny Mayulu",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 47,
@@ -191,13 +191,13 @@
           "number": 71,
           "name": "D. Takáč",
           "position": "Kiper",
-          "rating": "5.1"
+          "rating": "6.4"
         },
         {
           "number": 28,
           "name": "C. Blackman",
           "position": "Bek",
-          "rating": "4.9"
+          "rating": "5.2"
         },
         {
           "number": 12,
@@ -209,7 +209,7 @@
           "number": 15,
           "name": "S. Marković",
           "position": "Bek",
-          "rating": "5.5"
+          "rating": "5.6"
         },
         {
           "number": 57,
@@ -239,7 +239,7 @@
           "number": 11,
           "name": "T. Barseghyan",
           "position": "Penyerang",
-          "rating": "5.8"
+          "rating": "6.7"
         },
         {
           "number": 99,
@@ -251,7 +251,7 @@
           "number": 21,
           "name": "Suleiman Camara",
           "position": "Penyerang",
-          "rating": "6.0"
+          "rating": "7.3"
         }
       ],
       "substitutes": [
@@ -283,7 +283,7 @@
           "number": 10,
           "name": "N. Marcelli",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 88,
@@ -295,7 +295,7 @@
           "number": 20,
           "name": "A. Mustafić",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 1,
@@ -319,7 +319,7 @@
           "number": 49,
           "name": "S. Camara",
           "position": "Bek",
-          "rating": "5.6"
+          "rating": "6.0"
         },
         {
           "number": 29,
