@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-09T08:05:33.654Z.
+   API-Football v3) pada 2026-09-09T09:05:07.665Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2176,7 +2176,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 15:05 WIB",
+    "standingsUpdated": "09/09/2026 16:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -29182,6 +29182,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Copa Libertadores",
+                "date": "2026-09-10",
+                "time": "07:30",
+                "home": "Estudiantes L.P.",
+                "away": "Corinthians",
+                "stadium": "Estadio Jorge Luis Hirschi",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "MLS",
                 "date": "2026-09-10",
                 "time": "07:30",
@@ -29358,51 +29403,6 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
-                    }
-                }
-            },
-            {
-                "league": "Copa Libertadores",
-                "date": "2026-09-10",
-                "time": "07:30",
-                "home": "Estudiantes L.P.",
-                "away": "Corinthians",
-                "stadium": "Estadio Jorge Luis Hirschi",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
                     }
                 }
             },
@@ -30041,7 +30041,7 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-09-11",
-                "time": "10:00",
+                "time": "10:05",
                 "home": "U.N.A.M. - Pumas",
                 "away": "Leon",
                 "stadium": "",
