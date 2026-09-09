@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-09T15:05:03.665Z.
+   API-Football v3) pada 2026-09-09T16:05:22.727Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -128,12 +128,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "12",
-                    "player": "Ayase Ueda",
+                    "player": "A. Ueda",
                     "team": "home"
                 },
                 {
                     "minute": "33",
-                    "player": "Marc Bartra",
+                    "player": "M. Bartra",
                     "team": "away"
                 },
                 {
@@ -143,27 +143,27 @@ const siteData = {
                 },
                 {
                     "minute": "49",
-                    "player": "Marc Bartra",
+                    "player": "M. Bartra",
                     "team": "away"
                 },
                 {
                     "minute": "53",
-                    "player": "Troy Parrott",
+                    "player": "T. Parrott",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "56",
-                    "player": "Natan Bernardo de Souza",
-                    "team": "away",
-                    "type": "yellow"
+                    "player": "Ethan Mbappé",
+                    "team": "home",
+                    "type": "red"
                 },
                 {
                     "minute": "56",
-                    "player": "Ethan Mbappe",
-                    "team": "home",
-                    "type": "red"
+                    "player": "Natan",
+                    "team": "away",
+                    "type": "yellow"
                 },
                 {
                     "minute": "61",
@@ -235,27 +235,27 @@ const siteData = {
             "goals": [
                 {
                     "minute": "53",
-                    "player": "Renato Veiga",
+                    "player": "R. Veiga",
                     "team": "away"
                 },
                 {
                     "minute": "66",
-                    "player": "Álvaro Santiago Mouriño González",
+                    "player": "S. Mourino",
                     "team": "away"
                 },
                 {
                     "minute": "80",
-                    "player": "Serhou Guirassy",
+                    "player": "S. Guirassy",
                     "team": "home"
                 },
                 {
                     "minute": "85",
-                    "player": "Serhou Guirassy",
+                    "player": "S. Guirassy",
                     "team": "home"
                 },
                 {
-                    "minute": "90+3",
-                    "player": "Serhou Guirassy",
+                    "minute": "90",
+                    "player": "S. Guirassy",
                     "team": "home"
                 }
             ],
@@ -274,13 +274,13 @@ const siteData = {
                 },
                 {
                     "minute": "42",
-                    "player": "Sergi Cardona Bermúdez",
+                    "player": "Sergi Cardona",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "83",
-                    "player": "Álvaro Santiago Mouriño González",
+                    "player": "Santiago Mouriño",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -336,19 +336,19 @@ const siteData = {
             "goals": [
                 {
                     "minute": "47",
-                    "player": "Erling Haaland",
+                    "player": "E. Haaland",
                     "team": "away"
                 },
                 {
-                    "minute": "90+1",
-                    "player": "Erling Haaland",
+                    "minute": "90",
+                    "player": "E. Haaland",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "37",
-                    "player": "Josko Gvardiol",
+                    "player": "Joško Gvardiol",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -356,12 +356,6 @@ const siteData = {
                     "minute": "49",
                     "player": "Gianluigi Donnarumma",
                     "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "Francesco Farioli",
-                    "team": "home",
                     "type": "yellow"
                 },
                 {
@@ -2176,7 +2170,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/09/2026 22:05 WIB",
+    "standingsUpdated": "09/09/2026 23:05 WIB",
     "topScorers": {
         "Premier League": [
             {
