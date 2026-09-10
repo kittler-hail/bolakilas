@@ -3,36 +3,36 @@
   "home": "Manchester United",
   "away": "Sabah FA",
   "statusCode": "2H",
-  "updatedAt": "11/09/2026 03:08 WIB",
+  "updatedAt": "11/09/2026 03:26 WIB",
   "statistics": {
     "home": {
-      "possession": 58,
-      "shotsTotal": 13,
-      "shotsOnTarget": 5,
+      "possession": 59,
+      "shotsTotal": 17,
+      "shotsOnTarget": 8,
       "corners": 6,
-      "fouls": 9,
+      "fouls": 10,
       "offsides": null,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 10,
-      "shotsOutsidebox": 3,
-      "passesTotal": 325,
-      "passesAccurate": 296,
+      "shotsInsidebox": 11,
+      "shotsOutsidebox": 6,
+      "passesTotal": 475,
+      "passesAccurate": 436,
       "passesPct": null
     },
     "away": {
-      "possession": 42,
-      "shotsTotal": 4,
+      "possession": 41,
+      "shotsTotal": 6,
       "shotsOnTarget": 0,
       "corners": 2,
-      "fouls": 1,
+      "fouls": 4,
       "offsides": null,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 2,
-      "shotsOutsidebox": 2,
-      "passesTotal": 236,
-      "passesAccurate": 197,
+      "shotsOutsidebox": 4,
+      "passesTotal": 321,
+      "passesAccurate": 270,
       "passesPct": null
     }
   },
@@ -57,7 +57,7 @@
           "number": 15,
           "name": "L. Yoro",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 6,
@@ -69,7 +69,7 @@
           "number": 13,
           "name": "P. Dorgu",
           "position": "Bek",
-          "rating": "8.5"
+          "rating": "8.2"
         },
         {
           "number": 18,
@@ -87,25 +87,25 @@
           "number": 19,
           "name": "B. Mbeumo",
           "position": "Gelandang",
-          "rating": "7.6"
+          "rating": "7.7"
         },
         {
           "number": 8,
           "name": "Bruno Fernandes",
           "position": "Gelandang",
-          "rating": "8.2"
+          "rating": "8.3"
         },
         {
           "number": 10,
           "name": "Matheus Cunha",
           "position": "Gelandang",
-          "rating": "8.0"
+          "rating": "8.2"
         },
         {
           "number": 30,
           "name": "B. Šeško",
           "position": "Penyerang",
-          "rating": "7.9"
+          "rating": "7.8"
         }
       ],
       "substitutes": [
@@ -119,13 +119,13 @@
           "number": 11,
           "name": "J. Zirkzee",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 17,
           "name": "Andrey Santos",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 2,
@@ -173,7 +173,7 @@
           "number": 7,
           "name": "M. Mount",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.5"
         },
         {
           "number": 9,
@@ -191,19 +191,19 @@
           "number": 92,
           "name": "S. Pokatilov",
           "position": "Kiper",
-          "rating": "5.3"
+          "rating": "6.7"
         },
         {
           "number": 80,
           "name": "A. Zedadka",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "6.6"
         },
         {
           "number": 5,
           "name": "R. Daşdəmirov",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 4,
@@ -215,31 +215,31 @@
           "number": 27,
           "name": "T. Puchacz",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 7,
           "name": "U. Rahmonaliyev",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.2"
         },
         {
           "number": 13,
           "name": "I. Lepinjica",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 11,
           "name": "K. Parris",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 21,
           "name": "V. Simić",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 8,
@@ -251,7 +251,7 @@
           "number": 20,
           "name": "J. Mickels",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -283,7 +283,7 @@
           "number": 99,
           "name": "P. Mbina",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "6.3"
         },
         {
           "number": 6,
@@ -301,7 +301,7 @@
           "number": 10,
           "name": "A. Isaev",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 88,
