@@ -2,8 +2,8 @@
   "fixtureId": 1635697,
   "home": "Manchester United",
   "away": "Sabah FA",
-  "statusCode": "2H",
-  "updatedAt": "11/09/2026 03:43 WIB",
+  "statusCode": "FT",
+  "updatedAt": "11/09/2026 03:56 WIB",
   "statistics": {
     "home": {
       "possession": 58,
@@ -16,23 +16,23 @@
       "redCards": 0,
       "shotsInsidebox": 15,
       "shotsOutsidebox": 6,
-      "passesTotal": 551,
-      "passesAccurate": 503,
+      "passesTotal": 626,
+      "passesAccurate": 572,
       "passesPct": null
     },
     "away": {
       "possession": 42,
-      "shotsTotal": 6,
+      "shotsTotal": 10,
       "shotsOnTarget": 0,
       "corners": 2,
-      "fouls": 9,
+      "fouls": 13,
       "offsides": null,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 2,
-      "shotsOutsidebox": 4,
-      "passesTotal": 390,
-      "passesAccurate": 332,
+      "shotsInsidebox": 5,
+      "shotsOutsidebox": 5,
+      "passesTotal": 454,
+      "passesAccurate": 388,
       "passesPct": null
     }
   },
@@ -51,25 +51,25 @@
           "number": 3,
           "name": "N. Mazraoui",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.1"
         },
         {
           "number": 15,
           "name": "L. Yoro",
           "position": "Bek",
-          "rating": "7.4"
+          "rating": "6.9"
         },
         {
           "number": 6,
           "name": "Lisandro Martínez",
           "position": "Bek",
-          "rating": "8.4"
+          "rating": "7.9"
         },
         {
           "number": 13,
           "name": "P. Dorgu",
           "position": "Bek",
-          "rating": "8.4"
+          "rating": "7.9"
         },
         {
           "number": 18,
@@ -113,19 +113,19 @@
           "number": 41,
           "name": "H. Amass",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "6.5"
         },
         {
           "number": 11,
           "name": "J. Zirkzee",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 17,
           "name": "Andrey Santos",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 2,
@@ -155,7 +155,7 @@
           "number": 31,
           "name": "S. Lacey",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 5,
@@ -173,7 +173,7 @@
           "number": 7,
           "name": "M. Mount",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 9,
@@ -197,25 +197,25 @@
           "number": 80,
           "name": "A. Zedadka",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.2"
         },
         {
           "number": 5,
           "name": "R. Daşdəmirov",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 4,
           "name": "A. McCarthy",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.0"
         },
         {
           "number": 27,
           "name": "T. Puchacz",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.3"
         },
         {
           "number": 7,
@@ -227,7 +227,7 @@
           "number": 13,
           "name": "I. Lepinjica",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.3"
         },
         {
           "number": 11,
@@ -239,7 +239,7 @@
           "number": 21,
           "name": "V. Simić",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 8,
@@ -251,7 +251,7 @@
           "number": 20,
           "name": "J. Mickels",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
@@ -283,7 +283,7 @@
           "number": 99,
           "name": "P. Mbina",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 6,
