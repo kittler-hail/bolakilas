@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-10T17:05:04.677Z.
+   API-Football v3) pada 2026-09-10T18:06:25.707Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1879,7 +1879,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "11/09/2026 00:05 WIB",
+    "standingsUpdated": "11/09/2026 01:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3608,7 +3608,7 @@ const siteData = {
                 "player": "Marcao",
                 "photo": "https://media.api-sports.io/football/players/433.png",
                 "reason": "Foot Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-06"
             },
             {
                 "player": "K. Salas",
@@ -3619,7 +3619,7 @@ const siteData = {
             {
                 "player": "R. Vargas",
                 "photo": "https://media.api-sports.io/football/players/48471.png",
-                "reason": "Ankle Injury",
+                "reason": "Knee Injury",
                 "since": "2026-09-11"
             },
             {
@@ -3696,7 +3696,7 @@ const siteData = {
                 "player": "I. Luque",
                 "photo": "https://media.api-sports.io/football/players/441223.png",
                 "reason": "Inactive",
-                "since": "2026-09-12"
+                "since": "2026-09-05"
             },
             {
                 "player": "A. Martin",
@@ -3780,7 +3780,7 @@ const siteData = {
                 "player": "A. Gorosabel",
                 "photo": "https://media.api-sports.io/football/players/47299.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-06"
             },
             {
                 "player": "L. Cabrera",
@@ -3858,13 +3858,13 @@ const siteData = {
                 "player": "F. Calero",
                 "photo": "https://media.api-sports.io/football/players/47478.png",
                 "reason": "Ribs Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-13"
             },
             {
                 "player": "M. Diarra",
                 "photo": "https://media.api-sports.io/football/players/328192.png",
                 "reason": "Calf Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-13"
             },
             {
                 "player": "Juanpe",
@@ -3876,25 +3876,25 @@ const siteData = {
                 "player": "D. Murillo",
                 "photo": "https://media.api-sports.io/football/players/185234.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-13"
             },
             {
                 "player": "A. Nino",
                 "photo": "https://media.api-sports.io/football/players/386850.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-13"
             },
             {
                 "player": "A. Ochoa",
                 "photo": "https://media.api-sports.io/football/players/444451.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-13"
             },
             {
                 "player": "J. Lobete",
                 "photo": "https://media.api-sports.io/football/players/182602.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-13"
             }
         ],
         "athletic-club": [
@@ -4170,7 +4170,7 @@ const siteData = {
                 "player": "A. Febas",
                 "photo": "https://media.api-sports.io/football/players/46711.png",
                 "reason": "Ribs Injury",
-                "since": "2026-09-07"
+                "since": "2026-09-13"
             },
             {
                 "player": "M. Alonso",
@@ -31534,8 +31534,8 @@ const siteData = {
                         "away": 44
                     },
                     "poisson": {
-                        "home": 87,
-                        "away": 13
+                        "home": 88,
+                        "away": 12
                     },
                     "h2h": {
                         "home": 50,
@@ -31910,6 +31910,51 @@ const siteData = {
         ],
         "2026-09-13": [
             {
+                "league": "Primeira Liga",
+                "date": "2026-09-13",
+                "time": "00:00",
+                "home": "Casa Pia",
+                "away": "FC Porto",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/212.png",
+                "prediction": "0 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : FC Porto and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 6,
+                        "away": 94
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 23,
+                        "away": 77
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-13",
                 "time": "00:00",
@@ -31996,51 +32041,6 @@ const siteData = {
                     "goals": {
                         "home": 70,
                         "away": 30
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-13",
-                "time": "00:00",
-                "home": "Casa Pia",
-                "away": "FC Porto",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/212.png",
-                "prediction": "0 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : FC Porto and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 6,
-                        "away": 94
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "def": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 23,
-                        "away": 77
                     }
                 }
             },
