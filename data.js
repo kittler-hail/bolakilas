@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-10T00:06:57.629Z.
+   API-Football v3) pada 2026-09-10T01:05:16.355Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -696,6 +696,66 @@ const siteData = {
             ]
         },
         {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-10",
+            "time": "05:00",
+            "home": "Santos",
+            "away": "Atletico-MG",
+            "stadium": "MRV Arena",
+            "round": "Quarter-finals",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/128.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Santos or draw",
+            "comparison": {
+                "form": {
+                    "home": 54,
+                    "away": 46
+                },
+                "att": {
+                    "home": 62,
+                    "away": 38
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 65,
+                    "away": 35
+                },
+                "h2h": {
+                    "home": 62,
+                    "away": 38
+                },
+                "goals": {
+                    "home": 57,
+                    "away": 43
+                }
+            },
+            "goals": [
+                {
+                    "minute": "31",
+                    "player": "Willian Arão",
+                    "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "Christian Oliva",
+                    "team": "home"
+                }
+            ]
+        },
+        {
             "league": "Copa Libertadores",
             "date": "2026-09-10",
             "time": "05:00",
@@ -795,66 +855,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Copa Sudamericana",
-            "date": "2026-09-10",
-            "time": "05:00",
-            "home": "Santos",
-            "away": "Atletico-MG",
-            "stadium": "MRV Arena",
-            "round": "Quarter-finals",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/128.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Santos or draw",
-            "comparison": {
-                "form": {
-                    "home": 54,
-                    "away": 46
-                },
-                "att": {
-                    "home": 62,
-                    "away": 38
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 65,
-                    "away": 35
-                },
-                "h2h": {
-                    "home": 62,
-                    "away": 38
-                },
-                "goals": {
-                    "home": 57,
-                    "away": 43
-                }
-            },
-            "goals": [
-                {
-                    "minute": "31",
-                    "player": "Willian Arão",
-                    "team": "home"
-                },
-                {
-                    "minute": "68",
-                    "player": "Christian Oliva",
-                    "team": "home"
-                }
-            ]
-        },
-        {
             "league": "MLS",
             "date": "2026-09-10",
             "time": "06:30",
@@ -862,8 +862,8 @@ const siteData = {
             "away": "Nashville SC",
             "stadium": "BMO Field",
             "round": "Pekan 24",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
+            "statusCode": "2H",
+            "minuteDisplay": "68'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1601.png",
@@ -917,10 +917,10 @@ const siteData = {
             "away": "Orlando City SC",
             "stadium": "Mercedes-Benz Stadium",
             "round": "Pekan 24",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
             "homeScore": 1,
-            "awayScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1608.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1598.png",
             "prediction": "2 - 3",
@@ -966,6 +966,19 @@ const siteData = {
                     "minute": "26",
                     "player": "Antoine Griezmann",
                     "team": "away"
+                },
+                {
+                    "minute": "58",
+                    "player": "Iván Angulo",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "42",
+                    "player": "David Brekalo",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -977,10 +990,10 @@ const siteData = {
             "away": "Charlotte",
             "stadium": "Saputo Stadium",
             "round": "Pekan 24",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1614.png",
             "awayLogo": "https://media.api-sports.io/football/teams/18310.png",
             "prediction": "1 - 2",
@@ -1018,9 +1031,22 @@ const siteData = {
             },
             "goals": [
                 {
-                    "minute": "24",
-                    "player": "",
+                    "minute": "34",
+                    "player": "Daniel Rios",
+                    "team": "home"
+                },
+                {
+                    "minute": "37",
+                    "player": "Liel Abada",
                     "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+4",
+                    "player": "Victor Loturi",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1032,10 +1058,10 @@ const siteData = {
             "away": "Columbus Crew",
             "stadium": "Audi Field",
             "round": "Pekan 24",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "66'",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1615.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1613.png",
             "prediction": "2 - 3",
@@ -1076,6 +1102,16 @@ const siteData = {
                     "minute": "24",
                     "player": "Tai Baribo",
                     "team": "home"
+                },
+                {
+                    "minute": "37",
+                    "player": "Tai Baribo",
+                    "team": "home"
+                },
+                {
+                    "minute": "49",
+                    "player": "Santiago Rodriguez",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1096,6 +1132,12 @@ const siteData = {
                     "player": "João Gabriel Martins Peglow",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "Kye Rowles",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1107,9 +1149,9 @@ const siteData = {
             "away": "FC Cincinnati",
             "stadium": "Subaru Park",
             "round": "Pekan 24",
-            "statusCode": "1H",
-            "minuteDisplay": "12'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1599.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2242.png",
@@ -1145,7 +1187,33 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "43",
+                    "player": "Quinn Sullivan",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Bruno Damiani",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "Obinna Nwobodo",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "40",
+                    "player": "Evander",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1155,7 +1223,10 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Yankee Stadium",
             "round": "Pekan 24",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1604.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1609.png",
             "prediction": "1 - 2",
@@ -1190,52 +1261,28 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
-        },
-        {
-            "league": "Copa Libertadores",
-            "date": "2026-09-10",
-            "time": "07:30",
-            "home": "Estudiantes L.P.",
-            "away": "Corinthians",
-            "stadium": "Estadio Jorge Luis Hirschi",
-            "round": "Quarter-finals",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/450.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/131.png",
-            "prediction": "1 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
             },
-            "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 57,
-                    "away": 43
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 57,
-                    "away": 43
-                },
-                "poisson": {
-                    "home": 36,
-                    "away": 64
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Carles Gil",
+                    "team": "away"
                 }
-            }
+            ],
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "Alhassan Yusuf",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "31",
+                    "player": "Matt Polster",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1245,7 +1292,10 @@ const siteData = {
             "away": "Real Salt Lake",
             "stadium": "Shell Energy Stadium",
             "round": "Pekan 24",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1600.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1606.png",
             "prediction": "2 - 1",
@@ -1290,7 +1340,10 @@ const siteData = {
             "away": "Inter Miami",
             "stadium": "Soldier Field",
             "round": "Pekan 24",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1607.png",
             "awayLogo": "https://media.api-sports.io/football/teams/9568.png",
             "prediction": "2 - 2",
@@ -1325,7 +1378,22 @@ const siteData = {
                     "home": 43,
                     "away": 57
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "10",
+                    "player": "Robert Lewandowski",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "4",
+                    "player": "Telasco Segovia",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1335,7 +1403,10 @@ const siteData = {
             "away": "FC Dallas",
             "stadium": "Allianz Field",
             "round": "Pekan 24",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "26'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1612.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1597.png",
             "prediction": "3 - 4",
@@ -1370,7 +1441,15 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "Osaze Urhoghide",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1380,7 +1459,10 @@ const siteData = {
             "away": "Colorado Rapids",
             "stadium": "Q2 Stadium",
             "round": "Pekan 24",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/16489.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1610.png",
             "prediction": "2 - 1",
@@ -1415,7 +1497,107 @@ const siteData = {
                     "home": 45,
                     "away": 55
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "22",
+                    "player": "Paxten Aaronson",
+                    "team": "away"
+                }
+            ]
+        },
+        {
+            "league": "Copa Libertadores",
+            "date": "2026-09-10",
+            "time": "07:30",
+            "home": "Estudiantes L.P.",
+            "away": "Corinthians",
+            "stadium": "Estadio Jorge Luis Hirschi",
+            "round": "Quarter-finals",
+            "statusCode": "1H",
+            "minuteDisplay": "36'",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/450.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/131.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Double chance : Estudiantes L.P. or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 57,
+                    "away": 43
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 57,
+                    "away": 43
+                },
+                "poisson": {
+                    "home": 36,
+                    "away": 64
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "Alexis Castro",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "Fabrizio Angileri",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "10",
+                    "player": "Kaio César",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "28",
+                    "player": "Guido Carrillo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "28",
+                    "player": "Breno Bidon",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "32",
+                    "player": "Gastón Benedetti",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "Gustavo Henrique",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -3006,7 +3188,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "10/09/2026 07:06 WIB",
+    "standingsUpdated": "10/09/2026 08:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -29570,51 +29752,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-11",
-                "time": "07:30",
-                "home": "Independiente del Valle",
-                "away": "Flamengo",
-                "stadium": "Estadio Banco Guayaquil",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1153.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/127.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Flamengo",
-                "comparison": {
-                    "form": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 43,
-                        "away": 57
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-11",
                 "time": "07:30",
@@ -29656,6 +29793,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-11",
+                "time": "07:30",
+                "home": "Independiente del Valle",
+                "away": "Flamengo",
+                "stadium": "Estadio Banco Guayaquil",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1153.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/127.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Flamengo",
+                "comparison": {
+                    "form": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
                     }
                 }
             },
