@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-10T15:05:04.656Z.
+   API-Football v3) pada 2026-09-10T16:05:19.960Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -755,7 +755,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "26",
-                    "player": "Agustin Giay",
+                    "player": "A. Giay",
                     "team": "home"
                 }
             ],
@@ -914,24 +914,24 @@ const siteData = {
             "goals": [
                 {
                     "minute": "3",
-                    "player": "Niklas Dorsch",
+                    "player": "N. Dorsch",
                     "team": "home"
                 },
                 {
                     "minute": "72",
-                    "player": "Dániel Sallói",
+                    "player": "D. Salloi",
                     "team": "home"
                 },
                 {
                     "minute": "90+3",
-                    "player": "Emilio Aristizábal",
+                    "player": "E. Aristizabal",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
-                    "minute": "90+7",
-                    "player": "Luka Gavran",
+                    "minute": "90+8",
+                    "player": "L. Gavran",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -987,46 +987,46 @@ const siteData = {
             "goals": [
                 {
                     "minute": "7",
-                    "player": "David Brekalo",
+                    "player": "D. Brekalo",
                     "team": "away"
                 },
                 {
                     "minute": "26",
-                    "player": "Antoine Griezmann",
+                    "player": "A. Griezmann",
                     "team": "away"
                 },
                 {
                     "minute": "58",
-                    "player": "Iván Angulo",
+                    "player": "I. Angulo",
                     "team": "away"
                 },
                 {
                     "minute": "77",
-                    "player": "Antoine Griezmann",
+                    "player": "A. Griezmann",
                     "team": "away"
                 },
                 {
                     "minute": "90+7",
-                    "player": "Tyrese Spicer",
+                    "player": "T. Spicer",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "42",
-                    "player": "David Brekalo",
+                    "player": "D. Brekalo",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "67",
-                    "player": "Tomás Jacob",
+                    "player": "T. Jacob",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "88",
-                    "player": "Justin Ellis",
+                    "player": "J. Ellis",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1167,48 +1167,48 @@ const siteData = {
             "goals": [
                 {
                     "minute": "24",
-                    "player": "Tai Baribo",
+                    "player": "T. Baribo",
                     "team": "home"
                 },
                 {
-                    "minute": "37",
-                    "player": "Tai Baribo",
+                    "minute": "38",
+                    "player": "T. Baribo",
                     "team": "home"
                 },
                 {
                     "minute": "49",
-                    "player": "Santiago Rodriguez",
+                    "player": "S. Rodriguez",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "12",
-                    "player": "Tarun Karumanchi",
+                    "player": "T. Karumanchi",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "19",
-                    "player": "Cesar Ruvalcaba",
+                    "player": "C. Ruvalcaba",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "19",
-                    "player": "João Gabriel Martins Peglow",
+                    "player": "Peglow",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "57",
-                    "player": "Kye Rowles",
+                    "player": "K. Rowles",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+5",
-                    "player": "Sean Johnson",
+                    "player": "S. Johnson",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1359,30 +1359,30 @@ const siteData = {
             "goals": [
                 {
                     "minute": "12",
-                    "player": "Carles Gil",
+                    "player": "C. Gil",
                     "team": "away"
                 },
                 {
                     "minute": "71",
-                    "player": "Luighi Hanri Sousa Santos",
+                    "player": "Luighi",
                     "team": "home"
                 },
                 {
                     "minute": "90+3",
-                    "player": "Dániel Gazdag",
+                    "player": "D. Gazdag",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "18",
-                    "player": "Alhassan Yusuf",
+                    "player": "A. Yusuf",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "31",
-                    "player": "Matt Polster",
+                    "player": "M. Polster",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1535,43 +1535,43 @@ const siteData = {
             "goals": [
                 {
                     "minute": "10",
-                    "player": "Robert Lewandowski",
+                    "player": "R. Lewandowski",
                     "team": "home"
                 },
                 {
                     "minute": "48",
-                    "player": "Carlos Henrique Casimiro",
+                    "player": "Casemiro",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "4",
-                    "player": "Telasco Segovia",
+                    "player": "T. Segovia",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "24",
-                    "player": "Maximiliano Falcon",
+                    "player": "M. Falcon",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "50",
-                    "player": "Jonathan Dean",
+                    "player": "J. Dean",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "59",
-                    "player": "Djé D'Avilla",
+                    "player": "D. D'Avilla",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "71",
-                    "player": "Germán Berterame",
+                    "player": "G. Berterame",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1627,30 +1627,30 @@ const siteData = {
             "goals": [
                 {
                     "minute": "62",
-                    "player": "Kaick da Silva Ferreira",
+                    "player": "Kaick",
                     "team": "away"
                 },
                 {
                     "minute": "73",
-                    "player": "Kelvin Yeboah",
+                    "player": "K. Yeboah",
                     "team": "home"
                 },
                 {
                     "minute": "84",
-                    "player": "Santiago Moreno",
+                    "player": "S. Moreno",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "7",
-                    "player": "Osaze Urhoghide",
+                    "player": "O. Urhoghide",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "69",
-                    "player": "Nectarios Triantis",
+                    "player": "N. Triantis",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -1662,7 +1662,7 @@ const siteData = {
                 },
                 {
                     "minute": "89",
-                    "player": "Owen Gene",
+                    "player": "O. Gene",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1718,25 +1718,25 @@ const siteData = {
             "goals": [
                 {
                     "minute": "22",
-                    "player": "Paxten Aaronson",
+                    "player": "P. Aaronson",
                     "team": "away"
                 },
                 {
                     "minute": "79",
-                    "player": "Facundo Daniel Torres Perez",
+                    "player": "F. Torres",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "45+4",
-                    "player": "Joshua Atencio",
+                    "player": "J. Atencio",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "62",
-                    "player": "Reggie Cannon",
+                    "player": "R. Cannon",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1896,42 +1896,42 @@ const siteData = {
             "goals": [
                 {
                     "minute": "8",
-                    "player": "Brian White",
+                    "player": "B. White",
                     "team": "home"
                 },
                 {
                     "minute": "57",
-                    "player": "Ryan Gauld",
+                    "player": "R. Gauld",
                     "team": "home"
                 },
                 {
                     "minute": "90",
-                    "player": "Bruno Caicedo",
+                    "player": "B. Caicedo",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "74",
-                    "player": "Justin Haak",
+                    "player": "J. Haak",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "74",
-                    "player": "Sergi Roberto",
+                    "player": "S. Roberto",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "89",
-                    "player": "Carlos Emiro Garces Torres",
+                    "player": "C. Garces",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+2",
-                    "player": "Yadaly Diaby",
+                    "player": "Y. Diaby",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -2073,53 +2073,53 @@ const siteData = {
             "goals": [
                 {
                     "minute": "1",
-                    "player": "Rafael Navarro Leal",
+                    "player": "Rafael Navarro",
                     "team": "away"
                 },
                 {
                     "minute": "32",
-                    "player": "Kristoffer Velde",
+                    "player": "K. Velde",
                     "team": "home"
                 },
                 {
                     "minute": "51",
-                    "player": "Rafael Navarro Leal",
+                    "player": "Rafael Navarro",
                     "team": "away"
                 },
                 {
                     "minute": "89",
-                    "player": "Kristoffer Velde",
+                    "player": "K. Velde",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "31",
-                    "player": "Dante Polvara",
+                    "player": "D. Polvara",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "36",
-                    "player": "Jaziel Alberto Orozco Landeros",
+                    "player": "J. Orozco",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "45+2",
-                    "player": "Tomas Totland",
+                    "player": "T. Totland",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "58",
-                    "player": "Eric Miller",
+                    "player": "E. Miller",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "67",
-                    "player": "Rafael Navarro Leal",
+                    "player": "Rafael Navarro",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2175,88 +2175,100 @@ const siteData = {
             "goals": [
                 {
                     "minute": "3",
-                    "player": "N.Tsakiris",
+                    "player": "N. Tsakiris",
                     "team": "away"
                 },
                 {
                     "minute": "12",
-                    "player": "Preston Judd",
+                    "player": "P. Judd",
                     "team": "away"
                 },
                 {
                     "minute": "35",
-                    "player": "Ousseni Bouda",
+                    "player": "O. Bouda",
                     "team": "away"
                 },
                 {
                     "minute": "42",
-                    "player": "Anders Dreyer",
+                    "player": "A. Dreyer",
                     "team": "home"
                 },
                 {
                     "minute": "90+4",
-                    "player": "Cédric Bakambu",
+                    "player": "C. Bakambu",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "7",
-                    "player": "Carlos Joaquim dos Santos",
+                    "player": "dos Santos CJ",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "13",
-                    "player": "Preston Judd",
+                    "player": "P. Judd",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "18",
-                    "player": "Christopher McVey",
+                    "player": "C. McVey",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "37",
-                    "player": "Ousseni Bouda",
+                    "player": "O. Bouda",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "45+3",
-                    "player": "Beau Leroux",
+                    "player": "B. Leroux",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "52",
-                    "player": "Jeppe Tverskov",
+                    "player": "J. Tverskov",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "75",
-                    "player": "Max Floriani",
+                    "player": "M. Floriani",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "80",
-                    "player": "Carlos Joaquim dos Santos",
+                    "player": "dos Santos CJ",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "dos Santos CJ",
                     "team": "home",
                     "type": "red"
                 },
                 {
                     "minute": "90+2",
-                    "player": "Max Floriani",
+                    "player": "M. Floriani",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "M. Floriani",
                     "team": "away",
                     "type": "red"
                 },
                 {
                     "minute": "90+5",
-                    "player": "Ronaldo Vieira",
+                    "player": "R. Vieira",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -3671,7 +3683,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "10/09/2026 22:05 WIB",
+    "standingsUpdated": "10/09/2026 23:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -7944,6 +7956,12 @@ const siteData = {
                 "player": "J. Mwanga",
                 "photo": "https://media.api-sports.io/football/players/282549.png",
                 "reason": "Red Card",
+                "since": "2026-09-12"
+            },
+            {
+                "player": "T. Pembele",
+                "photo": "https://media.api-sports.io/football/players/162067.png",
+                "reason": "Inactive",
                 "since": "2026-09-12"
             },
             {
@@ -31155,51 +31173,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-12",
-                "time": "19:00",
-                "home": "Racing Santander",
-                "away": "Alaves",
-                "stadium": "Estadio El Sardinero",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/542.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Alaves",
-                "comparison": {
-                    "form": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 27,
-                        "away": 73
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 27,
-                        "away": 73
-                    }
-                }
-            },
-            {
                 "league": "Liga 1 (Indonesia)",
                 "date": "2026-09-12",
                 "time": "19:00",
@@ -31286,6 +31259,51 @@ const siteData = {
                     "goals": {
                         "home": 29,
                         "away": 71
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-12",
+                "time": "19:00",
+                "home": "Racing Santander",
+                "away": "Alaves",
+                "stadium": "Estadio El Sardinero",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/4665.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/542.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Alaves",
+                "comparison": {
+                    "form": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "att": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "def": {
+                        "home": 27,
+                        "away": 73
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 27,
+                        "away": 73
                     }
                 }
             },
@@ -31975,29 +31993,29 @@ const siteData = {
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/415.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/198.png",
-                "prediction": "3 - 1",
+                "prediction": "2 - 1",
                 "odds": {
                     "home": 50,
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Combo Winner : Twente and +1.5 goals",
+                "advice": "Winner : Twente",
                 "comparison": {
                     "form": {
-                        "home": 88,
-                        "away": 13
+                        "home": 91,
+                        "away": 9
                     },
                     "att": {
-                        "home": 60,
-                        "away": 40
+                        "home": 63,
+                        "away": 38
                     },
                     "def": {
                         "home": 74,
                         "away": 26
                     },
                     "poisson": {
-                        "home": 91,
-                        "away": 9
+                        "home": 93,
+                        "away": 7
                     },
                     "h2h": {
                         "home": 75,
