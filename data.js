@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-10T11:05:10.621Z.
+   API-Football v3) pada 2026-09-10T12:06:57.802Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -712,66 +712,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Copa Sudamericana",
-            "date": "2026-09-10",
-            "time": "05:00",
-            "home": "Santos",
-            "away": "Atletico-MG",
-            "stadium": "MRV Arena",
-            "round": "Quarter-finals",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/128.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Santos or draw",
-            "comparison": {
-                "form": {
-                    "home": 54,
-                    "away": 46
-                },
-                "att": {
-                    "home": 62,
-                    "away": 38
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 65,
-                    "away": 35
-                },
-                "h2h": {
-                    "home": 62,
-                    "away": 38
-                },
-                "goals": {
-                    "home": 57,
-                    "away": 43
-                }
-            },
-            "goals": [
-                {
-                    "minute": "31",
-                    "player": "Willian Arão",
-                    "team": "home"
-                },
-                {
-                    "minute": "68",
-                    "player": "Christian Oliva",
-                    "team": "home"
-                }
-            ]
-        },
-        {
             "league": "Copa Libertadores",
             "date": "2026-09-10",
             "time": "05:00",
@@ -867,6 +807,66 @@ const siteData = {
                     "player": "Lucas Evangelista",
                     "team": "home",
                     "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-10",
+            "time": "05:00",
+            "home": "Santos",
+            "away": "Atletico-MG",
+            "stadium": "MRV Arena",
+            "round": "Quarter-finals",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/128.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Santos or draw",
+            "comparison": {
+                "form": {
+                    "home": 54,
+                    "away": 46
+                },
+                "att": {
+                    "home": 62,
+                    "away": 38
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 65,
+                    "away": 35
+                },
+                "h2h": {
+                    "home": 62,
+                    "away": 38
+                },
+                "goals": {
+                    "home": 57,
+                    "away": 43
+                }
+            },
+            "goals": [
+                {
+                    "minute": "31",
+                    "player": "Willian Arão",
+                    "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "Christian Oliva",
+                    "team": "home"
                 }
             ]
         },
@@ -3677,7 +3677,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "10/09/2026 18:05 WIB",
+    "standingsUpdated": "10/09/2026 19:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30247,51 +30247,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-11",
-                "time": "07:30",
-                "home": "Cienciano",
-                "away": "Atletico Torque",
-                "stadium": "Estadio Inca Garcilaso de la Vega",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2562.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2365.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Cienciano or draw",
-                "comparison": {
-                    "form": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "att": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "def": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "poisson": {
-                        "home": 73,
-                        "away": 27
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-11",
                 "time": "07:30",
@@ -30333,6 +30288,51 @@ const siteData = {
                     "goals": {
                         "home": 43,
                         "away": 57
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-11",
+                "time": "07:30",
+                "home": "Cienciano",
+                "away": "Atletico Torque",
+                "stadium": "Estadio Inca Garcilaso de la Vega",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2562.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2365.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Cienciano or draw",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "def": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "poisson": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
@@ -31959,51 +31959,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-12",
-                "time": "21:30",
-                "home": "Nacional",
-                "away": "Alverca",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/225.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4724.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Nacional",
-                "comparison": {
-                    "form": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "att": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 87,
-                        "away": 13
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-09-12",
                 "time": "21:30",
@@ -32045,6 +32000,51 @@ const siteData = {
                     "goals": {
                         "home": 60,
                         "away": 40
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-12",
+                "time": "21:30",
+                "home": "Nacional",
+                "away": "Alverca",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/225.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4724.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Nacional",
+                "comparison": {
+                    "form": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 87,
+                        "away": 13
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
