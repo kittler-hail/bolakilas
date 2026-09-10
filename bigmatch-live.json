@@ -3,9 +3,251 @@
   "home": "Manchester United",
   "away": "Sabah FA",
   "statusCode": "NS",
-  "updatedAt": "11/09/2026 01:14 WIB",
+  "updatedAt": "11/09/2026 01:34 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "M. Carrick",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "S. Lammens",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "N. Mazraoui",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "L. Yoro",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Lisandro Martínez",
+          "position": "Bek"
+        },
+        {
+          "number": 13,
+          "name": "P. Dorgu",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Y. Tielemans",
+          "position": "Gelandang"
+        },
+        {
+          "number": 37,
+          "name": "K. Mainoo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "B. Mbeumo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Bruno Fernandes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Matheus Cunha",
+          "position": "Gelandang"
+        },
+        {
+          "number": 30,
+          "name": "B. Šeško",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 41,
+          "name": "H. Amass",
+          "position": "Bek"
+        },
+        {
+          "number": 11,
+          "name": "J. Zirkzee",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "Andrey Santos",
+          "position": "Gelandang"
+        },
+        {
+          "number": 2,
+          "name": "Diogo Dalot",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "K. Darlow",
+          "position": "Kiper"
+        },
+        {
+          "number": 39,
+          "name": "T. Fletcher",
+          "position": "Gelandang"
+        },
+        {
+          "number": 26,
+          "name": "A. Heaven",
+          "position": "Bek"
+        },
+        {
+          "number": 31,
+          "name": "S. Lacey",
+          "position": "Penyerang"
+        },
+        {
+          "number": 5,
+          "name": "H. Maguire",
+          "position": "Bek"
+        },
+        {
+          "number": 45,
+          "name": "Dermot William Mee",
+          "position": "Kiper"
+        },
+        {
+          "number": 7,
+          "name": "M. Mount",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "M. Rashford",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "V. Dambrauskas",
+      "startXI": [
+        {
+          "number": 92,
+          "name": "S. Pokatilov",
+          "position": "Kiper"
+        },
+        {
+          "number": 80,
+          "name": "A. Zedadka",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "R. Daşdəmirov",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "A. McCarthy",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "T. Puchacz",
+          "position": "Bek"
+        },
+        {
+          "number": 7,
+          "name": "U. Rahmonaliyev",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "I. Lepinjica",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "K. Parris",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "V. Simić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "C. Nwachukwu",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "J. Mickels",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 16,
+          "name": "R. Rüstəmli",
+          "position": "Gelandang"
+        },
+        {
+          "number": 1,
+          "name": "A. Ramazanov",
+          "position": "Kiper"
+        },
+        {
+          "number": 17,
+          "name": "T. Mütəllimov",
+          "position": "Bek"
+        },
+        {
+          "number": 94,
+          "name": "R. Mirzəmmədov",
+          "position": "Kiper"
+        },
+        {
+          "number": 99,
+          "name": "P. Mbina",
+          "position": "Penyerang"
+        },
+        {
+          "number": 6,
+          "name": "A. Xaybulayev",
+          "position": "Gelandang"
+        },
+        {
+          "number": 33,
+          "name": "Erivaldo Almeida",
+          "position": "Bek"
+        },
+        {
+          "number": 10,
+          "name": "A. Isaev",
+          "position": "Gelandang"
+        },
+        {
+          "number": 88,
+          "name": "Rodrigo Fernandes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 37,
+          "name": "Du Queiroz",
+          "position": "Gelandang"
+        },
+        {
+          "number": 89,
+          "name": "Cafar Mukhtarov",
+          "position": "Bek"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Old Trafford",
     "city": "Manchester",
