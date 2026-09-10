@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-10T13:05:27.562Z.
+   API-Football v3) pada 2026-09-10T14:04:59.177Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -217,17 +217,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "17",
-                    "player": "Marcos Llorente",
+                    "player": "M. Llorente",
                     "team": "away"
                 },
                 {
                     "minute": "40",
-                    "player": "Dominik Szoboszlai",
+                    "player": "D. Szoboszlai",
                     "team": "home"
                 },
                 {
                     "minute": "50",
-                    "player": "Alexis Mac Allister",
+                    "player": "A. Mac Allister",
                     "team": "home"
                 }
             ],
@@ -296,37 +296,37 @@ const siteData = {
             "goals": [
                 {
                     "minute": "17",
-                    "player": "Ousmane Dembélé",
+                    "player": "O. Dembele",
                     "team": "home"
                 },
                 {
                     "minute": "23",
-                    "player": "Ousmane Dembélé",
+                    "player": "O. Dembele",
                     "team": "home"
                 },
                 {
                     "minute": "31",
-                    "player": "Ferrán Torres",
+                    "player": "F. Torres",
                     "team": "home"
                 },
                 {
                     "minute": "47",
-                    "player": "Ferrán Torres",
+                    "player": "F. Torres",
                     "team": "home"
                 },
                 {
                     "minute": "57",
-                    "player": "Ferrán Torres",
+                    "player": "F. Torres",
                     "team": "home"
                 },
                 {
                     "minute": "58",
-                    "player": "Suleiman Camara",
+                    "player": "S. Camara",
                     "team": "away"
                 },
                 {
                     "minute": "87",
-                    "player": "Fabián Ruiz",
+                    "player": "F. Ruiz",
                     "team": "home"
                 }
             ],
@@ -345,7 +345,7 @@ const siteData = {
             "time": "02:00",
             "home": "Sporting CP",
             "away": "Galatasaray",
-            "stadium": "",
+            "stadium": "Estádio José Alvalade",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -389,22 +389,22 @@ const siteData = {
             "goals": [
                 {
                     "minute": "5",
-                    "player": "Gonçalo Inácio",
+                    "player": "G. Inacio",
                     "team": "home"
                 },
                 {
                     "minute": "27",
-                    "player": "Geny Catamo",
+                    "player": "G. Catamo",
                     "team": "home"
                 },
                 {
                     "minute": "57",
-                    "player": "Luis Suárez",
+                    "player": "L. Suarez",
                     "team": "home"
                 },
                 {
                     "minute": "63",
-                    "player": "Rodrigo Zalazar",
+                    "player": "R. Zalazar",
                     "team": "home"
                 }
             ],
@@ -417,7 +417,7 @@ const siteData = {
                 },
                 {
                     "minute": "43",
-                    "player": "Luis Suárez",
+                    "player": "Luis Javier Suárez",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -430,12 +430,6 @@ const siteData = {
                 {
                     "minute": "80",
                     "player": "Deniz Gül",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "83",
-                    "player": "Okan Buruk",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -497,7 +491,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "75",
-                    "player": "Martin Odegaard",
+                    "player": "M. Odegaard",
                     "team": "away"
                 }
             ],
@@ -516,7 +510,7 @@ const siteData = {
                 },
                 {
                     "minute": "90+1",
-                    "player": "Martin Odegaard",
+                    "player": "Martin Ødegaard",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -761,12 +755,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "31",
-                    "player": "Willian Arão",
+                    "player": "Willian Arao",
                     "team": "home"
                 },
                 {
                     "minute": "68",
-                    "player": "Christian Oliva",
+                    "player": "C. Oliva",
                     "team": "home"
                 }
             ]
@@ -3677,7 +3671,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "10/09/2026 20:05 WIB",
+    "standingsUpdated": "10/09/2026 21:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30614,7 +30608,7 @@ const siteData = {
                 "time": "01:00",
                 "home": "AZ Alkmaar",
                 "away": "Willem II",
-                "stadium": "AFAS Stadion（Alkmaar）",
+                "stadium": "AFAS Stadion",
                 "round": "Pekan 6",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/201.png",
