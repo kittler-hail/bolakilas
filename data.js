@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-10T05:04:47.454Z.
+   API-Football v3) pada 2026-09-10T06:07:06.372Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -3677,7 +3677,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "10/09/2026 12:04 WIB",
+    "standingsUpdated": "10/09/2026 13:07 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -30558,51 +30558,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-12",
-                "time": "01:00",
-                "home": "AZ Alkmaar",
-                "away": "Willem II",
-                "stadium": "AFAS Stadion（Alkmaar）",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/201.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/195.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Combo Winner : AZ Alkmaar and +2.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 94,
-                        "away": 6
-                    },
-                    "att": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "def": {
-                        "home": 72,
-                        "away": 28
-                    },
-                    "poisson": {
-                        "home": 95,
-                        "away": 5
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 67,
-                        "away": 33
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-12",
                 "time": "01:00",
@@ -30644,6 +30599,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-12",
+                "time": "01:00",
+                "home": "AZ Alkmaar",
+                "away": "Willem II",
+                "stadium": "AFAS Stadion（Alkmaar）",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/201.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/195.png",
+                "prediction": "3 - 1",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Combo Winner : AZ Alkmaar and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 94,
+                        "away": 6
+                    },
+                    "att": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "def": {
+                        "home": 72,
+                        "away": 28
+                    },
+                    "poisson": {
+                        "home": 95,
+                        "away": 5
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
                     }
                 }
             },
@@ -30738,51 +30738,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-12",
-                "time": "01:45",
-                "home": "KV Mechelen",
-                "away": "Anderlecht",
-                "stadium": "Achter de Kazerne",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/266.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/554.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Anderlecht",
-                "comparison": {
-                    "form": {
-                        "home": 22,
-                        "away": 78
-                    },
-                    "att": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 28,
-                        "away": 72
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 35,
-                        "away": 65
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-12",
                 "time": "01:45",
@@ -30824,6 +30779,51 @@ const siteData = {
                     "goals": {
                         "home": 29,
                         "away": 71
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-12",
+                "time": "01:45",
+                "home": "KV Mechelen",
+                "away": "Anderlecht",
+                "stadium": "Achter de Kazerne",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/266.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/554.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Anderlecht",
+                "comparison": {
+                    "form": {
+                        "home": 22,
+                        "away": 78
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 28,
+                        "away": 72
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 35,
+                        "away": 65
                     }
                 }
             },
@@ -32223,51 +32223,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-12",
-                "time": "23:30",
-                "home": "Athletic Club",
-                "away": "Elche",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/531.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/797.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Athletic Club or draw",
-                "comparison": {
-                    "form": {
-                        "home": 86,
-                        "away": 14
-                    },
-                    "att": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "def": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "poisson": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 67,
-                        "away": 33
-                    }
-                }
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-09-12",
                 "time": "23:30",
@@ -32309,6 +32264,51 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-12",
+                "time": "23:30",
+                "home": "Athletic Club",
+                "away": "Elche",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/531.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/797.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Athletic Club or draw",
+                "comparison": {
+                    "form": {
+                        "home": 86,
+                        "away": 14
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "poisson": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
                     }
                 }
             },
