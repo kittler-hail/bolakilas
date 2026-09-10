@@ -3,7 +3,7 @@
   "home": "Manchester United",
   "away": "Sabah FA",
   "statusCode": "NS",
-  "updatedAt": "11/09/2026 00:53 WIB",
+  "updatedAt": "11/09/2026 01:14 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -13,14 +13,18 @@
     "image": ""
   },
   "odds": {
-    "bookmaker": "William Hill",
-    "home": "1.08",
-    "draw": "10.00",
-    "away": "26.00",
-    "overUnder": null,
+    "bookmaker": "10Bet",
+    "home": "1.11",
+    "draw": "8.60",
+    "away": "18.50",
+    "overUnder": {
+      "line": "2.5",
+      "over": "1.25",
+      "under": "3.85"
+    },
     "btts": {
-      "yes": "2.00",
-      "no": "1.75"
+      "yes": "1.95",
+      "no": "1.80"
     }
   },
   "liveOdds": null
