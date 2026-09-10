@@ -3,7 +3,7 @@
   "home": "Liverpool",
   "away": "Atletico Madrid",
   "statusCode": "FT",
-  "updatedAt": "10/09/2026 11:20 WIB",
+  "updatedAt": "10/09/2026 11:39 WIB",
   "statistics": {
     "home": {
       "possession": 45,
@@ -16,7 +16,7 @@
       "redCards": 0,
       "shotsInsidebox": 12,
       "shotsOutsidebox": 2,
-      "passesTotal": 420,
+      "passesTotal": 419,
       "passesAccurate": 354,
       "passesPct": null
     },
