@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-11T13:04:56.246Z.
+   API-Football v3) pada 2026-09-11T14:05:17.518Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -991,9 +991,9 @@ const siteData = {
             "away": "Bhayangkara FC",
             "stadium": "Indomilk Arena",
             "round": "Pekan 2",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/17902.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2443.png",
@@ -1042,9 +1042,14 @@ const siteData = {
                     "team": "home"
                 },
                 {
-                    "minute": "45+5",
-                    "player": "",
+                    "minute": "45+4",
+                    "player": "J. Brenes",
                     "team": "away"
+                },
+                {
+                    "minute": "85",
+                    "player": "Deni Junior",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1052,6 +1057,30 @@ const siteData = {
                     "minute": "45+3",
                     "player": "N. Kuipers",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "A. Ballah",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "P. Gede",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "I. Jenner",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Allano",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -2375,7 +2404,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "11/09/2026 20:04 WIB",
+    "standingsUpdated": "11/09/2026 21:05 WIB",
     "topScorers": {
         "Premier League": [
             {
