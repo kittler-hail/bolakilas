@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-11T21:05:06.456Z.
+   API-Football v3) pada 2026-09-11T22:05:09.352Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -953,8 +953,8 @@ const siteData = {
                     "away": 50
                 },
                 "poisson": {
-                    "home": 24,
-                    "away": 76
+                    "home": 23,
+                    "away": 77
                 },
                 "h2h": {
                     "home": 100,
@@ -2969,6 +2969,17 @@ const siteData = {
             },
             {
                 "rank": 15,
+                "team": "Fiorentina",
+                "logo": "https://media.api-sports.io/football/teams/502.png",
+                "played": 4,
+                "win": 1,
+                "draw": 0,
+                "lose": 3,
+                "gd": -6,
+                "points": 3
+            },
+            {
+                "rank": 16,
                 "team": "Bologna",
                 "logo": "https://media.api-sports.io/football/teams/500.png",
                 "played": 3,
@@ -2979,7 +2990,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 16,
+                "rank": 17,
                 "team": "Parma",
                 "logo": "https://media.api-sports.io/football/teams/523.png",
                 "played": 3,
@@ -2990,7 +3001,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 17,
+                "rank": 18,
                 "team": "Monza",
                 "logo": "https://media.api-sports.io/football/teams/1579.png",
                 "played": 3,
@@ -2999,17 +3010,6 @@ const siteData = {
                 "lose": 2,
                 "gd": -4,
                 "points": 1
-            },
-            {
-                "rank": 18,
-                "team": "Venezia",
-                "logo": "https://media.api-sports.io/football/teams/517.png",
-                "played": 3,
-                "win": 0,
-                "draw": 0,
-                "lose": 3,
-                "gd": -5,
-                "points": 0
             },
             {
                 "rank": 19,
@@ -3024,13 +3024,13 @@ const siteData = {
             },
             {
                 "rank": 20,
-                "team": "Fiorentina",
-                "logo": "https://media.api-sports.io/football/teams/502.png",
-                "played": 3,
+                "team": "Venezia",
+                "logo": "https://media.api-sports.io/football/teams/517.png",
+                "played": 4,
                 "win": 0,
                 "draw": 0,
-                "lose": 3,
-                "gd": -8,
+                "lose": 4,
+                "gd": -7,
                 "points": 0
             }
         ],
@@ -3103,6 +3103,17 @@ const siteData = {
             },
             {
                 "rank": 7,
+                "team": "FC Schalke 04",
+                "logo": "https://media.api-sports.io/football/teams/174.png",
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "gd": -1,
+                "points": 4
+            },
+            {
+                "rank": 8,
                 "team": "Bayer Leverkusen",
                 "logo": "https://media.api-sports.io/football/teams/168.png",
                 "played": 2,
@@ -3113,7 +3124,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "RB Leipzig",
                 "logo": "https://media.api-sports.io/football/teams/173.png",
                 "played": 2,
@@ -3124,7 +3135,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "VfB Stuttgart",
                 "logo": "https://media.api-sports.io/football/teams/172.png",
                 "played": 2,
@@ -3135,7 +3146,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Werder Bremen",
                 "logo": "https://media.api-sports.io/football/teams/162.png",
                 "played": 2,
@@ -3146,7 +3157,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "1. FC Köln",
                 "logo": "https://media.api-sports.io/football/teams/192.png",
                 "played": 2,
@@ -3157,7 +3168,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "SC Paderborn 07",
                 "logo": "https://media.api-sports.io/football/teams/185.png",
                 "played": 2,
@@ -3168,20 +3179,9 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Eintracht Frankfurt",
                 "logo": "https://media.api-sports.io/football/teams/169.png",
-                "played": 2,
-                "win": 0,
-                "draw": 1,
-                "lose": 1,
-                "gd": -3,
-                "points": 1
-            },
-            {
-                "rank": 14,
-                "team": "FC Schalke 04",
-                "logo": "https://media.api-sports.io/football/teams/174.png",
                 "played": 2,
                 "win": 0,
                 "draw": 1,
@@ -3193,11 +3193,11 @@ const siteData = {
                 "rank": 15,
                 "team": "Union Berlin",
                 "logo": "https://media.api-sports.io/football/teams/182.png",
-                "played": 2,
+                "played": 3,
                 "win": 0,
                 "draw": 1,
-                "lose": 1,
-                "gd": -4,
+                "lose": 2,
+                "gd": -6,
                 "points": 1
             },
             {
@@ -3237,6 +3237,17 @@ const siteData = {
         "Ligue 1": [
             {
                 "rank": 1,
+                "team": "Rennes",
+                "logo": "https://media.api-sports.io/football/teams/94.png",
+                "played": 4,
+                "win": 3,
+                "draw": 1,
+                "lose": 0,
+                "gd": 3,
+                "points": 10
+            },
+            {
+                "rank": 2,
                 "team": "Monaco",
                 "logo": "https://media.api-sports.io/football/teams/91.png",
                 "played": 3,
@@ -3247,7 +3258,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "team": "Paris FC",
                 "logo": "https://media.api-sports.io/football/teams/114.png",
                 "played": 3,
@@ -3258,7 +3269,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Lyon",
                 "logo": "https://media.api-sports.io/football/teams/80.png",
                 "played": 3,
@@ -3269,7 +3280,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Lille",
                 "logo": "https://media.api-sports.io/football/teams/79.png",
                 "played": 3,
@@ -3277,17 +3288,6 @@ const siteData = {
                 "draw": 1,
                 "lose": 0,
                 "gd": 3,
-                "points": 7
-            },
-            {
-                "rank": 5,
-                "team": "Rennes",
-                "logo": "https://media.api-sports.io/football/teams/94.png",
-                "played": 3,
-                "win": 2,
-                "draw": 1,
-                "lose": 0,
-                "gd": 2,
                 "points": 7
             },
             {
@@ -3336,8 +3336,8 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "team": "Marseille",
-                "logo": "https://media.api-sports.io/football/teams/81.png",
+                "team": "Lens",
+                "logo": "https://media.api-sports.io/football/teams/116.png",
                 "played": 3,
                 "win": 1,
                 "draw": 0,
@@ -3347,13 +3347,13 @@ const siteData = {
             },
             {
                 "rank": 11,
-                "team": "Lens",
-                "logo": "https://media.api-sports.io/football/teams/116.png",
-                "played": 3,
+                "team": "Marseille",
+                "logo": "https://media.api-sports.io/football/teams/81.png",
+                "played": 4,
                 "win": 1,
                 "draw": 0,
-                "lose": 2,
-                "gd": 1,
+                "lose": 3,
+                "gd": 0,
                 "points": 3
             },
             {
@@ -3635,7 +3635,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/09/2026 04:05 WIB",
+    "standingsUpdated": "12/09/2026 05:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -32756,6 +32756,51 @@ const siteData = {
     "upcoming": {
         "2026-09-13": [
             {
+                "league": "Primeira Liga",
+                "date": "2026-09-13",
+                "time": "00:00",
+                "home": "Casa Pia",
+                "away": "FC Porto",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/212.png",
+                "prediction": "0 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : FC Porto and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 6,
+                        "away": 94
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 23,
+                        "away": 77
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-13",
                 "time": "00:00",
@@ -32842,51 +32887,6 @@ const siteData = {
                     "goals": {
                         "home": 70,
                         "away": 30
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-13",
-                "time": "00:00",
-                "home": "Casa Pia",
-                "away": "FC Porto",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/212.png",
-                "prediction": "0 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : FC Porto and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 6,
-                        "away": 94
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "def": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 23,
-                        "away": 77
                     }
                 }
             },
@@ -33552,8 +33552,8 @@ const siteData = {
                         "away": 36
                     },
                     "poisson": {
-                        "home": 46,
-                        "away": 54
+                        "home": 45,
+                        "away": 55
                     },
                     "h2h": {
                         "home": 85,
@@ -35233,96 +35233,6 @@ const siteData = {
         ],
         "2026-09-14": [
             {
-                "league": "Super Lig",
-                "date": "2026-09-14",
-                "time": "00:00",
-                "home": "Galatasaray",
-                "away": "Kocaelispor",
-                "stadium": "Rams Park",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/645.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Kocaelispor",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-14",
-                "time": "00:00",
-                "home": "Amed",
-                "away": "Başakşehir",
-                "stadium": "Diyarbakir Stadium",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/564.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Amed",
-                "comparison": {
-                    "form": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "att": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "def": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "poisson": {
-                        "home": 89,
-                        "away": 11
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-14",
                 "time": "00:00",
@@ -35409,6 +35319,96 @@ const siteData = {
                     "goals": {
                         "home": 30,
                         "away": 70
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-14",
+                "time": "00:00",
+                "home": "Galatasaray",
+                "away": "Kocaelispor",
+                "stadium": "Rams Park",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/645.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Kocaelispor",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-14",
+                "time": "00:00",
+                "home": "Amed",
+                "away": "Başakşehir",
+                "stadium": "Diyarbakir Stadium",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/564.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Amed",
+                "comparison": {
+                    "form": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 89,
+                        "away": 11
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
