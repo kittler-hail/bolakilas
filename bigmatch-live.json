@@ -3,7 +3,7 @@
   "home": "Manchester United",
   "away": "Sabah FA",
   "statusCode": "FT",
-  "updatedAt": "11/09/2026 06:57 WIB",
+  "updatedAt": "11/09/2026 07:25 WIB",
   "statistics": {
     "home": {
       "possession": 58,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 15,
       "shotsOutsidebox": 6,
-      "passesTotal": 627,
-      "passesAccurate": 572,
+      "passesTotal": 625,
+      "passesAccurate": 571,
       "passesPct": null
     },
     "away": {
