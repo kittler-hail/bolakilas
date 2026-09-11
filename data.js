@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-11T12:06:53.198Z.
+   API-Football v3) pada 2026-09-11T13:04:56.246Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -991,10 +991,10 @@ const siteData = {
             "away": "Bhayangkara FC",
             "stadium": "Indomilk Arena",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "7'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/17902.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2443.png",
             "prediction": "2 - 1",
@@ -1029,7 +1029,32 @@ const siteData = {
                     "home": 43,
                     "away": 57
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "M. Ristovski",
+                    "team": "away"
+                },
+                {
+                    "minute": "33",
+                    "player": "Deni Junior",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+5",
+                    "player": "",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+3",
+                    "player": "N. Kuipers",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -2152,61 +2177,6 @@ const siteData = {
         "Liga 1 (Indonesia)": [
             {
                 "rank": 1,
-                "team": "Arema FC",
-                "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 4,
-                "points": 3
-            },
-            {
-                "rank": 2,
-                "team": "Persib Bandung",
-                "logo": "https://media.api-sports.io/football/teams/2445.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 2,
-                "points": 3
-            },
-            {
-                "rank": 3,
-                "team": "Persepam Madura Utd",
-                "logo": "https://media.api-sports.io/football/teams/2444.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 2,
-                "points": 3
-            },
-            {
-                "rank": 4,
-                "team": "Bali United",
-                "logo": "https://media.api-sports.io/football/teams/2448.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
-            },
-            {
-                "rank": 5,
-                "team": "Persija",
-                "logo": "https://media.api-sports.io/football/teams/10134.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 1,
-                "points": 3
-            },
-            {
-                "rank": 6,
                 "team": "Dewa United",
                 "logo": "https://media.api-sports.io/football/teams/17902.png",
                 "played": 1,
@@ -2217,7 +2187,73 @@ const siteData = {
                 "points": 3
             },
             {
+                "rank": 2,
+                "team": "Arema FC",
+                "logo": "https://media.api-sports.io/football/teams/2438.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 4,
+                "points": 3
+            },
+            {
+                "rank": 3,
+                "team": "Persib Bandung",
+                "logo": "https://media.api-sports.io/football/teams/2445.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 2,
+                "points": 3
+            },
+            {
+                "rank": 4,
+                "team": "Persepam Madura Utd",
+                "logo": "https://media.api-sports.io/football/teams/2444.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 2,
+                "points": 3
+            },
+            {
+                "rank": 5,
+                "team": "Persik Kediri",
+                "logo": "https://media.api-sports.io/football/teams/4241.png",
+                "played": 2,
+                "win": 1,
+                "draw": 0,
+                "lose": 1,
+                "gd": 1,
+                "points": 3
+            },
+            {
+                "rank": 6,
+                "team": "Bali United",
+                "logo": "https://media.api-sports.io/football/teams/2448.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 1,
+                "points": 3
+            },
+            {
                 "rank": 7,
+                "team": "Persija",
+                "logo": "https://media.api-sports.io/football/teams/10134.png",
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "gd": 1,
+                "points": 3
+            },
+            {
+                "rank": 8,
                 "team": "Persebaya Surabaya",
                 "logo": "https://media.api-sports.io/football/teams/2446.png",
                 "played": 1,
@@ -2228,7 +2264,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "PSIM Yogyakarta",
                 "logo": "https://media.api-sports.io/football/teams/4235.png",
                 "played": 1,
@@ -2239,7 +2275,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "Persita",
                 "logo": "https://media.api-sports.io/football/teams/4244.png",
                 "played": 1,
@@ -2250,7 +2286,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Bhayangkara FC",
                 "logo": "https://media.api-sports.io/football/teams/2443.png",
                 "played": 1,
@@ -2261,7 +2297,7 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Java United",
                 "logo": "https://media.api-sports.io/football/teams/22409.png",
                 "played": 1,
@@ -2272,31 +2308,20 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Garudayaksa",
                 "logo": "https://media.api-sports.io/football/teams/26645.png",
-                "played": 1,
+                "played": 2,
                 "win": 0,
                 "draw": 1,
-                "lose": 0,
-                "gd": 0,
+                "lose": 1,
+                "gd": -2,
                 "points": 1
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "PSS Sleman",
                 "logo": "https://media.api-sports.io/football/teams/3882.png",
-                "played": 1,
-                "win": 0,
-                "draw": 0,
-                "lose": 1,
-                "gd": -1,
-                "points": 0
-            },
-            {
-                "rank": 14,
-                "team": "Persik Kediri",
-                "logo": "https://media.api-sports.io/football/teams/4241.png",
                 "played": 1,
                 "win": 0,
                 "draw": 0,
@@ -2350,7 +2375,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "11/09/2026 19:06 WIB",
+    "standingsUpdated": "11/09/2026 20:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -31044,51 +31069,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-12",
-                "time": "08:00",
-                "home": "Correcaminos Uat",
-                "away": "Cancún",
-                "stadium": "",
-                "round": "Apertura - 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cancún",
-                "comparison": {
-                    "form": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "att": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-12",
                 "time": "08:00",
@@ -31130,6 +31110,51 @@ const siteData = {
                     "goals": {
                         "home": 80,
                         "away": 20
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-12",
+                "time": "08:00",
+                "home": "Correcaminos Uat",
+                "away": "Cancún",
+                "stadium": "",
+                "round": "Apertura - 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cancún",
+                "comparison": {
+                    "form": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
                     }
                 }
             },
