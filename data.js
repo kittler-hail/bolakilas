@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-11T17:04:33.342Z.
+   API-Football v3) pada 2026-09-11T18:05:33.440Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -105,11 +105,11 @@ const siteData = {
             "time": "00:00",
             "home": "Beşiktaş",
             "away": "Erzurumspor FK",
-            "stadium": "Besiktas Park",
+            "stadium": "Tüpraş Stadyumu",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "47'",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/549.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1009.png",
@@ -145,7 +145,33 @@ const siteData = {
                     "home": 59,
                     "away": 41
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "E. Topcu",
+                    "team": "home"
+                },
+                {
+                    "minute": "27",
+                    "player": "L. Trossard",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "15",
+                    "player": "O. Kokcu",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "26",
+                    "player": "K. Ouattara",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -155,7 +181,10 @@ const siteData = {
             "away": "Piratas",
             "stadium": "Estadio 10 de Diciembre",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/15928.png",
             "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
             "prediction": "1 - 2",
@@ -200,7 +229,10 @@ const siteData = {
             "away": "Willem II",
             "stadium": "AFAS Stadion",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/201.png",
             "awayLogo": "https://media.api-sports.io/football/teams/195.png",
             "prediction": "3 - 1",
@@ -1543,51 +1575,6 @@ const siteData = {
             }
         },
         {
-            "league": "Primeira Liga",
-            "date": "2026-09-12",
-            "time": "21:30",
-            "home": "Nacional",
-            "away": "Alverca",
-            "stadium": "",
-            "round": "Pekan 6",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/225.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/4724.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Winner : Nacional",
-            "comparison": {
-                "form": {
-                    "home": 67,
-                    "away": 33
-                },
-                "att": {
-                    "home": 55,
-                    "away": 45
-                },
-                "def": {
-                    "home": 56,
-                    "away": 44
-                },
-                "poisson": {
-                    "home": 88,
-                    "away": 12
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            }
-        },
-        {
             "league": "Eredivisie",
             "date": "2026-09-12",
             "time": "21:30",
@@ -1629,6 +1616,51 @@ const siteData = {
                 "goals": {
                     "home": 60,
                     "away": 40
+                }
+            }
+        },
+        {
+            "league": "Primeira Liga",
+            "date": "2026-09-12",
+            "time": "21:30",
+            "home": "Nacional",
+            "away": "Alverca",
+            "stadium": "",
+            "round": "Pekan 6",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/225.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/4724.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Winner : Nacional",
+            "comparison": {
+                "form": {
+                    "home": 67,
+                    "away": 33
+                },
+                "att": {
+                    "home": 55,
+                    "away": 45
+                },
+                "def": {
+                    "home": 56,
+                    "away": 44
+                },
+                "poisson": {
+                    "home": 87,
+                    "away": 13
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
                 }
             }
         },
@@ -3266,7 +3298,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/09/2026 00:04 WIB",
+    "standingsUpdated": "12/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4955,7 +4987,7 @@ const siteData = {
                 "player": "T. Martinez",
                 "photo": "https://media.api-sports.io/football/players/47181.png",
                 "reason": "Foot Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-06"
             },
             {
                 "player": "M. Rodriguez",
@@ -5005,12 +5037,6 @@ const siteData = {
                 "player": "Z. Romero",
                 "photo": "https://media.api-sports.io/football/players/180927.png",
                 "reason": "Red Card",
-                "since": "2026-09-13"
-            },
-            {
-                "player": "M. Satriano",
-                "photo": "https://media.api-sports.io/football/players/195512.png",
-                "reason": "Injury",
                 "since": "2026-09-13"
             }
         ],
@@ -5084,12 +5110,6 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
-                "player": "I. Balliu",
-                "photo": "https://media.api-sports.io/football/players/20520.png",
-                "reason": "Ankle Injury",
-                "since": "2026-09-12"
-            },
-            {
                 "player": "R. Nteka",
                 "photo": "https://media.api-sports.io/football/players/122657.png",
                 "reason": "Muscle Injury",
@@ -5105,6 +5125,12 @@ const siteData = {
                 "player": "J. de Frutos",
                 "photo": "https://media.api-sports.io/football/players/128582.png",
                 "reason": "Red Card",
+                "since": "2026-09-12"
+            },
+            {
+                "player": "I. Balliu",
+                "photo": "https://media.api-sports.io/football/players/20520.png",
+                "reason": "Ankle Injury",
                 "since": "2026-09-12"
             }
         ],
@@ -5160,6 +5186,12 @@ const siteData = {
                 "since": "2026-09-05"
             },
             {
+                "player": "J. Asp",
+                "photo": "https://media.api-sports.io/football/players/354754.png",
+                "reason": "Injury",
+                "since": "2026-09-13"
+            },
+            {
                 "player": "A. Traore",
                 "photo": "https://media.api-sports.io/football/players/18753.png",
                 "reason": "Muscle Injury",
@@ -5209,7 +5241,7 @@ const siteData = {
                 "player": "A. Gorosabel",
                 "photo": "https://media.api-sports.io/football/players/47299.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-12"
             },
             {
                 "player": "L. Cabrera",
@@ -5311,7 +5343,7 @@ const siteData = {
                 "player": "A. Nino",
                 "photo": "https://media.api-sports.io/football/players/386850.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-06"
             },
             {
                 "player": "A. Ochoa",
@@ -5475,7 +5507,7 @@ const siteData = {
                 "player": "R. Asencio",
                 "photo": "https://media.api-sports.io/football/players/341640.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-04"
             },
             {
                 "player": "Eder Militao",
