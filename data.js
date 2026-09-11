@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-11T08:05:24.592Z.
+   API-Football v3) pada 2026-09-11T09:05:09.364Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -899,7 +899,10 @@ const siteData = {
             "away": "Persik Kediri",
             "stadium": "Pakansari Stadium",
             "round": "Pekan 2",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "35'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/26645.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4241.png",
             "prediction": "2 - 1",
@@ -934,7 +937,22 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Jose Enrique",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "13",
+                    "player": "R. Matsumura",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -2300,7 +2318,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "11/09/2026 15:05 WIB",
+    "standingsUpdated": "11/09/2026 16:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -31087,51 +31105,6 @@ const siteData = {
                 "league": "Liga MX",
                 "date": "2026-09-12",
                 "time": "10:00",
-                "home": "Club Tijuana",
-                "away": "Club Queretaro",
-                "stadium": "Estadio Caliente",
-                "round": "Apertura - 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Club Tijuana or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "h2h": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "goals": {
-                        "home": 67,
-                        "away": 33
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-12",
-                "time": "10:00",
                 "home": "Atlante FC",
                 "away": "CF Pachuca",
                 "stadium": "Estadio Banorte",
@@ -31170,6 +31143,51 @@ const siteData = {
                     "goals": {
                         "home": 100,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-12",
+                "time": "10:10",
+                "home": "Club Tijuana",
+                "away": "Club Queretaro",
+                "stadium": "Estadio Caliente",
+                "round": "Apertura - 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Club Tijuana or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
                     }
                 }
             },
@@ -33201,51 +33219,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-13",
-                "time": "06:00",
-                "home": "Toluca",
-                "away": "Atlas",
-                "stadium": "",
-                "round": "Apertura - 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Toluca or draw",
-                "comparison": {
-                    "form": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "att": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 71,
-                        "away": 29
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-13",
                 "time": "06:00",
@@ -33287,6 +33260,51 @@ const siteData = {
                     "goals": {
                         "home": 64,
                         "away": 36
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-13",
+                "time": "06:05",
+                "home": "Toluca",
+                "away": "Atlas",
+                "stadium": "",
+                "round": "Apertura - 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Toluca or draw",
+                "comparison": {
+                    "form": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 71,
+                        "away": 29
                     }
                 }
             },
