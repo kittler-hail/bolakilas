@@ -3,36 +3,36 @@
   "home": "Sunderland",
   "away": "Arsenal",
   "statusCode": "1H",
-  "updatedAt": "13/09/2026 02:04 WIB",
+  "updatedAt": "13/09/2026 02:19 WIB",
   "statistics": {
     "home": {
-      "possession": 15,
-      "shotsTotal": null,
+      "possession": 24,
+      "shotsTotal": 2,
       "shotsOnTarget": 0,
       "corners": null,
-      "fouls": 1,
+      "fouls": 2,
       "offsides": null,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": null,
-      "shotsOutsidebox": null,
-      "passesTotal": 4,
-      "passesAccurate": 2,
+      "shotsInsidebox": 1,
+      "shotsOutsidebox": 1,
+      "passesTotal": 37,
+      "passesAccurate": 28,
       "passesPct": null
     },
     "away": {
-      "possession": 85,
-      "shotsTotal": null,
-      "shotsOnTarget": 0,
+      "possession": 76,
+      "shotsTotal": 2,
+      "shotsOnTarget": 1,
       "corners": null,
-      "fouls": 0,
+      "fouls": 3,
       "offsides": null,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": null,
-      "shotsOutsidebox": null,
-      "passesTotal": 23,
-      "passesAccurate": 23,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 0,
+      "passesTotal": 120,
+      "passesAccurate": 111,
       "passesPct": null
     }
   },
@@ -45,67 +45,67 @@
           "number": 22,
           "name": "R. Roefs",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 20,
           "name": "N. Mukiele",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 4,
           "name": "K. Danso",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 5,
           "name": "D. Ballard",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 17,
           "name": "Reinildo",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 34,
           "name": "G. Xhaka",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.2"
         },
         {
           "number": 27,
           "name": "N. Sadiki",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 12,
           "name": "T. Meunier",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 28,
           "name": "E. Le Fée",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 10,
           "name": "N. Angulo",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 9,
           "name": "B. Brobbey",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -173,67 +173,67 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 4,
           "name": "B. White",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 15,
           "name": "E. Konsa",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 6,
           "name": "Gabriel Magalhães",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 33,
           "name": "R. Calafiori",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 41,
           "name": "D. Rice",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "7.2"
         },
         {
           "number": 49,
           "name": "M. Lewis-Skelly",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 7,
           "name": "B. Saka",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 8,
           "name": "M. Ødegaard",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 17,
           "name": "C. Tzolis",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 29,
           "name": "K. Havertz",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -304,7 +304,7 @@
     "bookmaker": "William Hill",
     "home": "6.00",
     "draw": "3.60",
-    "away": "1.60",
+    "away": "1.57",
     "overUnder": null,
     "btts": {
       "yes": "2.10",
