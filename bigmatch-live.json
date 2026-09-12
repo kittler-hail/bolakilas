@@ -3,9 +3,226 @@
   "home": "Bournemouth",
   "away": "Brentford",
   "statusCode": "NS",
-  "updatedAt": "12/09/2026 20:29 WIB",
+  "updatedAt": "12/09/2026 20:43 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "M. Rose",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Đ. Petrović",
+          "position": "Kiper"
+        },
+        {
+          "number": 15,
+          "name": "A. Smith",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "J. Hill",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "António Silva",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "A. Truffert",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "A. Scott",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "T. Adams",
+          "position": "Gelandang"
+        },
+        {
+          "number": 37,
+          "name": "Rayan",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "J. Kluivert",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "M. Tavernier",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Evanilson",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 30,
+          "name": "Á. Rodríguez",
+          "position": "Penyerang"
+        },
+        {
+          "number": 7,
+          "name": "D. Brooks",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "A. Tóth",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "B. Doak",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "R. Christie",
+          "position": "Gelandang"
+        },
+        {
+          "number": 4,
+          "name": "L. Cook",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "B. Diakité",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "J. Soler",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "M. Di Gregorio",
+          "position": "Kiper"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-3",
+      "coach": "Keith Andrews",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "C. Kelleher",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "A. Hickey",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "K. Ajer",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "Jannik Schuster",
+          "position": "Bek"
+        },
+        {
+          "number": 23,
+          "name": "K. Lewis-Potter",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "M. Sangaré",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "Y. Yarmolyuk",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "V. Janelt",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "J. Anthony",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Thiago",
+          "position": "Penyerang"
+        },
+        {
+          "number": 7,
+          "name": "K. Schade",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 39,
+          "name": "Gustavo Gomes",
+          "position": "Penyerang"
+        },
+        {
+          "number": 14,
+          "name": "Fábio Carvalho",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "C. Wilson",
+          "position": "Penyerang"
+        },
+        {
+          "number": 24,
+          "name": "M. Damsgaard",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "D. Ouattara",
+          "position": "Penyerang"
+        },
+        {
+          "number": 33,
+          "name": "M. Kayode",
+          "position": "Bek"
+        },
+        {
+          "number": 25,
+          "name": "E. Diouf",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "R. Henry",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "H. Valdimarsson",
+          "position": "Kiper"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Vitality Stadium",
     "city": "Bournemouth",
