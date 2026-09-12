@@ -3,36 +3,36 @@
   "home": "Bournemouth",
   "away": "Brentford",
   "statusCode": "1H",
-  "updatedAt": "12/09/2026 21:32 WIB",
+  "updatedAt": "12/09/2026 21:46 WIB",
   "statistics": {
     "home": {
       "possession": 60,
-      "shotsTotal": 2,
-      "shotsOnTarget": 0,
+      "shotsTotal": 5,
+      "shotsOnTarget": 2,
       "corners": 1,
-      "fouls": 2,
+      "fouls": 3,
       "offsides": 3,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 1,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 1,
-      "passesTotal": 161,
-      "passesAccurate": 134,
+      "passesTotal": 195,
+      "passesAccurate": 162,
       "passesPct": null
     },
     "away": {
       "possession": 40,
-      "shotsTotal": 2,
-      "shotsOnTarget": 0,
+      "shotsTotal": 3,
+      "shotsOnTarget": 1,
       "corners": 0,
-      "fouls": 4,
+      "fouls": 7,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 0,
-      "passesTotal": 111,
-      "passesAccurate": 77,
+      "passesTotal": 133,
+      "passesAccurate": 93,
       "passesPct": null
     }
   },
@@ -45,67 +45,67 @@
           "number": 1,
           "name": "Đ. Petrović",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.0"
         },
         {
           "number": 15,
           "name": "A. Smith",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 5,
           "name": "J. Hill",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 14,
           "name": "António Silva",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 3,
           "name": "A. Truffert",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 8,
           "name": "A. Scott",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 12,
           "name": "T. Adams",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 37,
           "name": "Rayan",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 19,
           "name": "J. Kluivert",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "7.6"
         },
         {
           "number": 16,
           "name": "M. Tavernier",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 9,
           "name": "Evanilson",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -173,55 +173,55 @@
           "number": 1,
           "name": "C. Kelleher",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 2,
           "name": "A. Hickey",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.7"
         },
         {
           "number": 20,
           "name": "K. Ajer",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 44,
           "name": "Jannik Schuster",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.2"
         },
         {
           "number": 23,
           "name": "K. Lewis-Potter",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.3"
         },
         {
           "number": 18,
           "name": "M. Sangaré",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 6,
           "name": "Y. Yarmolyuk",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.9"
         },
         {
           "number": 27,
           "name": "V. Janelt",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 19,
           "name": "J. Anthony",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 9,
@@ -233,7 +233,7 @@
           "number": 7,
           "name": "K. Schade",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "7.3"
         }
       ],
       "substitutes": [
