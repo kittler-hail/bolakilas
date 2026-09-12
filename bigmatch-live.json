@@ -3,11 +3,11 @@
   "home": "Bournemouth",
   "away": "Brentford",
   "statusCode": "FT",
-  "updatedAt": "12/09/2026 22:59 WIB",
+  "updatedAt": "12/09/2026 23:19 WIB",
   "statistics": {
     "home": {
-      "possession": 57,
-      "shotsTotal": 19,
+      "possession": 56,
+      "shotsTotal": 20,
       "shotsOnTarget": 10,
       "corners": 2,
       "fouls": 10,
@@ -15,14 +15,14 @@
       "yellowCards": 5,
       "redCards": 0,
       "shotsInsidebox": 11,
-      "shotsOutsidebox": 8,
-      "passesTotal": 473,
-      "passesAccurate": 388,
+      "shotsOutsidebox": 9,
+      "passesTotal": 480,
+      "passesAccurate": 395,
       "passesPct": null
     },
     "away": {
-      "possession": 43,
-      "shotsTotal": 7,
+      "possession": 44,
+      "shotsTotal": 8,
       "shotsOnTarget": 2,
       "corners": 1,
       "fouls": 13,
@@ -30,9 +30,9 @@
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 6,
-      "shotsOutsidebox": 1,
-      "passesTotal": 352,
-      "passesAccurate": 249,
+      "shotsOutsidebox": 2,
+      "passesTotal": 370,
+      "passesAccurate": 260,
       "passesPct": null
     }
   },
@@ -131,13 +131,13 @@
           "number": 11,
           "name": "B. Doak",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 10,
           "name": "R. Christie",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "6.0"
         },
         {
           "number": 4,
@@ -185,13 +185,13 @@
           "number": 20,
           "name": "K. Ajer",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.6"
         },
         {
           "number": 44,
           "name": "Jannik Schuster",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "6.0"
         },
         {
           "number": 23,
@@ -203,7 +203,7 @@
           "number": 18,
           "name": "M. Sangaré",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.2"
         },
         {
           "number": 6,
@@ -233,7 +233,7 @@
           "number": 7,
           "name": "K. Schade",
           "position": "Penyerang",
-          "rating": "8.0"
+          "rating": "7.8"
         }
       ],
       "substitutes": [
@@ -271,13 +271,13 @@
           "number": 33,
           "name": "M. Kayode",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 25,
           "name": "E. Diouf",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.4"
         },
         {
           "number": 3,
