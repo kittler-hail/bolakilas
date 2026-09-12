@@ -3,36 +3,36 @@
   "home": "Sunderland",
   "away": "Arsenal",
   "statusCode": "1H",
-  "updatedAt": "13/09/2026 02:19 WIB",
+  "updatedAt": "13/09/2026 02:33 WIB",
   "statistics": {
     "home": {
-      "possession": 24,
+      "possession": 27,
       "shotsTotal": 2,
       "shotsOnTarget": 0,
       "corners": null,
-      "fouls": 2,
-      "offsides": null,
-      "yellowCards": 0,
+      "fouls": 4,
+      "offsides": 1,
+      "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 1,
-      "passesTotal": 37,
-      "passesAccurate": 28,
+      "passesTotal": 73,
+      "passesAccurate": 57,
       "passesPct": null
     },
     "away": {
-      "possession": 76,
-      "shotsTotal": 2,
+      "possession": 73,
+      "shotsTotal": 4,
       "shotsOnTarget": 1,
       "corners": null,
-      "fouls": 3,
-      "offsides": null,
+      "fouls": 4,
+      "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
-      "shotsOutsidebox": 0,
-      "passesTotal": 120,
-      "passesAccurate": 111,
+      "shotsInsidebox": 3,
+      "shotsOutsidebox": 1,
+      "passesTotal": 197,
+      "passesAccurate": 183,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 22,
           "name": "R. Roefs",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "6.8"
         },
         {
           "number": 20,
@@ -57,25 +57,25 @@
           "number": 4,
           "name": "K. Danso",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 5,
           "name": "D. Ballard",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "7.0"
         },
         {
           "number": 17,
           "name": "Reinildo",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.2"
         },
         {
           "number": 34,
           "name": "G. Xhaka",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.7"
         },
         {
           "number": 27,
@@ -87,7 +87,7 @@
           "number": 12,
           "name": "T. Meunier",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 28,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "B. Brobbey",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 4,
@@ -191,13 +191,13 @@
           "number": 6,
           "name": "Gabriel Magalhães",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.9"
         },
         {
           "number": 33,
           "name": "R. Calafiori",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.6"
         },
         {
           "number": 41,
@@ -209,7 +209,7 @@
           "number": 49,
           "name": "M. Lewis-Skelly",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.9"
         },
         {
           "number": 7,
@@ -221,7 +221,7 @@
           "number": 8,
           "name": "M. Ødegaard",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.1"
         },
         {
           "number": 17,
@@ -233,7 +233,7 @@
           "number": 29,
           "name": "K. Havertz",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
