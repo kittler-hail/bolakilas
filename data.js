@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-12T04:05:07.680Z.
+   API-Football v3) pada 2026-09-12T05:05:03.248Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -166,19 +166,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "15",
-                    "player": "O. Kokcu",
+                    "player": "Orkun Kökçü",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "26",
-                    "player": "K. Ouattara",
+                    "player": "Kassoum Ouattara",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "66",
-                    "player": "S. Ozcan",
+                    "player": "Salih Özcan",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -558,19 +558,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "38",
-                    "player": "J. Schingtienne",
+                    "player": "Joel Schingtienne",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "72",
-                    "player": "A. Njie",
+                    "player": "Alieu Njie",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "73",
-                    "player": "S. Sohm",
+                    "player": "Simon Sohm",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -909,6 +909,12 @@ const siteData = {
                     "player": "Carlos Baltazar",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Luis Jiménez",
+                    "team": "home",
+                    "type": "red"
                 }
             ]
         },
@@ -1052,8 +1058,8 @@ const siteData = {
             "away": "CF Pachuca",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 8",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
@@ -1138,6 +1144,12 @@ const siteData = {
                     "player": "Sergio Rodríguez",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "Carlos Sánchez",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1149,8 +1161,8 @@ const siteData = {
             "away": "Club Queretaro",
             "stadium": "Estadio Caliente",
             "round": "Apertura - 8",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "2H",
+            "minuteDisplay": "90+3'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
@@ -1199,6 +1211,18 @@ const siteData = {
                 {
                     "minute": "20",
                     "player": "Daniel Parra",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Bayron Duarte",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Ali Ávila",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1925,6 +1949,51 @@ const siteData = {
             }
         },
         {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-12",
+            "time": "21:00",
+            "home": "SK Beveren",
+            "away": "St. Truiden",
+            "stadium": "Freethiel Stadion",
+            "round": "Pekan 6",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/738.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or St. Truiden",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 29,
+                    "away": 71
+                },
+                "def": {
+                    "home": 44,
+                    "away": 56
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 38,
+                    "away": 63
+                }
+            }
+        },
+        {
             "league": "Super Lig",
             "date": "2026-09-12",
             "time": "21:00",
@@ -2011,51 +2080,6 @@ const siteData = {
                 "goals": {
                     "home": 70,
                     "away": 30
-                }
-            }
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-12",
-            "time": "21:00",
-            "home": "SK Beveren",
-            "away": "St. Truiden",
-            "stadium": "Freethiel Stadion",
-            "round": "Pekan 6",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/738.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or St. Truiden",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 29,
-                    "away": 71
-                },
-                "def": {
-                    "home": 44,
-                    "away": 56
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 38,
-                    "away": 63
                 }
             }
         },
@@ -2375,51 +2399,6 @@ const siteData = {
             }
         },
         {
-            "league": "Bundesliga",
-            "date": "2026-09-12",
-            "time": "23:30",
-            "home": "1. FC Köln",
-            "away": "Werder Bremen",
-            "stadium": "RheinEnergieStadion",
-            "round": "Pekan 3",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/192.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/162.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Combo Winner : 1. FC Köln and +2.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 45,
-                    "away": 55
-                },
-                "poisson": {
-                    "home": 80,
-                    "away": 20
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            }
-        },
-        {
             "league": "LaLiga",
             "date": "2026-09-12",
             "time": "23:30",
@@ -2461,6 +2440,51 @@ const siteData = {
                 "goals": {
                     "home": 67,
                     "away": 33
+                }
+            }
+        },
+        {
+            "league": "Bundesliga",
+            "date": "2026-09-12",
+            "time": "23:30",
+            "home": "1. FC Köln",
+            "away": "Werder Bremen",
+            "stadium": "RheinEnergieStadion",
+            "round": "Pekan 3",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/192.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/162.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Winner : 1. FC Köln and +2.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 45,
+                    "away": 55
+                },
+                "poisson": {
+                    "home": 80,
+                    "away": 20
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
                 }
             }
         },
@@ -3828,7 +3852,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/09/2026 11:05 WIB",
+    "standingsUpdated": "12/09/2026 12:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35022,51 +35046,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-09-13",
-                "time": "21:00",
-                "home": "Gençlerbirliği S.K.",
-                "away": "Kasımpaşa",
-                "stadium": "Eryaman Stadium",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Kasımpaşa",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 42,
-                        "away": 58
-                    }
-                }
-            },
-            {
                 "league": "Jupiler Pro League",
                 "date": "2026-09-13",
                 "time": "21:00",
@@ -35108,6 +35087,51 @@ const siteData = {
                     "goals": {
                         "home": 76,
                         "away": 24
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-13",
+                "time": "21:00",
+                "home": "Gençlerbirliği S.K.",
+                "away": "Kasımpaşa",
+                "stadium": "Eryaman Stadium",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Kasımpaşa",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
                     }
                 }
             },
