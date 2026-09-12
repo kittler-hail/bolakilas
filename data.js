@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-12T22:05:00.733Z.
+   API-Football v3) pada 2026-09-12T23:04:34.168Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1482,10 +1482,10 @@ const siteData = {
             "away": "CDS Tampico Madero",
             "stadium": "Estadio Tlahuicole",
             "round": "Apertura - 8",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
             "prediction": "3 - 2",
@@ -1520,7 +1520,27 @@ const siteData = {
                     "home": 67,
                     "away": 33
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "18",
+                    "player": "J. A. Ocejo Zazueta",
+                    "team": "away"
+                },
+                {
+                    "minute": "22",
+                    "player": "E. Robles",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "P. Gonzalez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1530,7 +1550,10 @@ const siteData = {
             "away": "Tepatitlán",
             "stadium": "Estadio Carlos Iturralde Rivero",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2311.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14279.png",
             "prediction": "3 - 2",
@@ -2094,8 +2117,8 @@ const siteData = {
                     "away": 57
                 },
                 "poisson": {
-                    "home": 75,
-                    "away": 25
+                    "home": 77,
+                    "away": 23
                 },
                 "h2h": {
                     "home": 38,
@@ -2828,51 +2851,6 @@ const siteData = {
             }
         },
         {
-            "league": "Super Lig",
-            "date": "2026-09-13",
-            "time": "21:00",
-            "home": "Gençlerbirliği S.K.",
-            "away": "Kasımpaşa",
-            "stadium": "Eryaman Stadium",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Kasımpaşa",
-            "comparison": {
-                "form": {
-                    "home": 54,
-                    "away": 46
-                },
-                "att": {
-                    "home": 44,
-                    "away": 56
-                },
-                "def": {
-                    "home": 36,
-                    "away": 64
-                },
-                "poisson": {
-                    "home": 39,
-                    "away": 61
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 42,
-                    "away": 58
-                }
-            }
-        },
-        {
             "league": "Jupiler Pro League",
             "date": "2026-09-13",
             "time": "21:00",
@@ -2914,6 +2892,51 @@ const siteData = {
                 "goals": {
                     "home": 76,
                     "away": 24
+                }
+            }
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-13",
+            "time": "21:00",
+            "home": "Gençlerbirliği S.K.",
+            "away": "Kasımpaşa",
+            "stadium": "Eryaman Stadium",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Kasımpaşa",
+            "comparison": {
+                "form": {
+                    "home": 54,
+                    "away": 46
+                },
+                "att": {
+                    "home": 44,
+                    "away": 56
+                },
+                "def": {
+                    "home": 36,
+                    "away": 64
+                },
+                "poisson": {
+                    "home": 39,
+                    "away": 61
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 42,
+                    "away": 58
                 }
             }
         },
@@ -3084,8 +3107,8 @@ const siteData = {
                     "away": 75
                 },
                 "poisson": {
-                    "home": 33,
-                    "away": 67
+                    "home": 35,
+                    "away": 65
                 },
                 "h2h": {
                     "home": 62,
@@ -3332,19 +3355,19 @@ const siteData = {
         "Premier League": [
             {
                 "rank": 1,
-                "team": "Manchester City",
-                "logo": "https://media.api-sports.io/football/teams/50.png",
-                "played": 3,
-                "win": 3,
+                "team": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png",
+                "played": 4,
+                "win": 4,
                 "draw": 0,
                 "lose": 0,
-                "gd": 5,
-                "points": 9
+                "gd": 7,
+                "points": 12
             },
             {
                 "rank": 2,
-                "team": "Arsenal",
-                "logo": "https://media.api-sports.io/football/teams/42.png",
+                "team": "Manchester City",
+                "logo": "https://media.api-sports.io/football/teams/50.png",
                 "played": 3,
                 "win": 3,
                 "draw": 0,
@@ -3477,11 +3500,11 @@ const siteData = {
                 "rank": 14,
                 "team": "Sunderland",
                 "logo": "https://media.api-sports.io/football/teams/746.png",
-                "played": 3,
+                "played": 4,
                 "win": 1,
                 "draw": 1,
-                "lose": 1,
-                "gd": 0,
+                "lose": 2,
+                "gd": -2,
                 "points": 4
             },
             {
@@ -4596,7 +4619,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "13/09/2026 05:04 WIB",
+    "standingsUpdated": "13/09/2026 06:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -5439,7 +5462,7 @@ const siteData = {
                 "player": "J. Timber",
                 "photo": "https://media.api-sports.io/football/players/38746.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-06"
             },
             {
                 "player": "C. Mosquera",
@@ -5770,16 +5793,22 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "F. Azeez",
-                "photo": "https://media.api-sports.io/football/players/282637.png",
-                "reason": "Abdominal strain",
-                "since": "2026-09-05"
-            },
-            {
                 "player": "J. Hinshelwood",
                 "photo": "https://media.api-sports.io/football/players/305730.png",
                 "reason": "Injury",
                 "since": "2026-09-13"
+            },
+            {
+                "player": "M. Orozco",
+                "photo": "https://media.api-sports.io/football/players/528054.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "F. Azeez",
+                "photo": "https://media.api-sports.io/football/players/282637.png",
+                "reason": "Abdominal strain",
+                "since": "2026-09-05"
             },
             {
                 "player": "G. Rutter",
@@ -5804,12 +5833,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/524411.png",
                 "reason": "Lacking Match Fitness",
                 "since": "2026-09-13"
-            },
-            {
-                "player": "M. Orozco",
-                "photo": "https://media.api-sports.io/football/players/528054.png",
-                "reason": "Injury",
-                "since": "2026-08-30"
             }
         ],
         "aston-villa": [
@@ -6008,6 +6031,12 @@ const siteData = {
                 "since": "2026-08-22"
             },
             {
+                "player": "J. Maddison",
+                "photo": "https://media.api-sports.io/football/players/18784.png",
+                "reason": "Knock",
+                "since": "2026-09-05"
+            },
+            {
                 "player": "M. Mudryk",
                 "photo": "https://media.api-sports.io/football/players/63577.png",
                 "reason": "Ankle Injury",
@@ -6017,12 +6046,6 @@ const siteData = {
                 "player": "Richarlison",
                 "photo": "https://media.api-sports.io/football/players/2413.png",
                 "reason": "Transfer negotiations",
-                "since": "2026-09-12"
-            },
-            {
-                "player": "J. Maddison",
-                "photo": "https://media.api-sports.io/football/players/18784.png",
-                "reason": "Knock",
                 "since": "2026-09-12"
             }
         ],
@@ -6230,16 +6253,16 @@ const siteData = {
                 "since": "2026-08-24"
             },
             {
-                "player": "M. Palestra",
-                "photo": "https://media.api-sports.io/football/players/383018.png",
-                "reason": "Injury",
-                "since": "2026-09-12"
-            },
-            {
                 "player": "E. Fernandez",
                 "photo": "https://media.api-sports.io/football/players/5996.png",
                 "reason": "Coach's decision",
                 "since": "2026-08-30"
+            },
+            {
+                "player": "M. Palestra",
+                "photo": "https://media.api-sports.io/football/players/383018.png",
+                "reason": "Injury",
+                "since": "2026-09-12"
             }
         ],
         "crystal-palace": [
