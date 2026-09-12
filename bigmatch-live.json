@@ -2,37 +2,37 @@
   "fixtureId": 1557405,
   "home": "Sunderland",
   "away": "Arsenal",
-  "statusCode": "1H",
-  "updatedAt": "13/09/2026 02:45 WIB",
+  "statusCode": "HT",
+  "updatedAt": "13/09/2026 02:58 WIB",
   "statistics": {
     "home": {
-      "possession": 34,
+      "possession": 33,
       "shotsTotal": 5,
       "shotsOnTarget": 0,
       "corners": 2,
-      "fouls": 8,
+      "fouls": 9,
       "offsides": 1,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 4,
-      "passesTotal": 114,
-      "passesAccurate": 90,
+      "passesTotal": 115,
+      "passesAccurate": 89,
       "passesPct": null
     },
     "away": {
-      "possession": 66,
+      "possession": 67,
       "shotsTotal": 5,
       "shotsOnTarget": 2,
-      "corners": 1,
+      "corners": 2,
       "fouls": 6,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 1,
-      "passesTotal": 232,
-      "passesAccurate": 208,
+      "passesTotal": 239,
+      "passesAccurate": 212,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 22,
           "name": "R. Roefs",
           "position": "Kiper",
-          "rating": "7.2"
+          "rating": "7.1"
         },
         {
           "number": 20,
@@ -57,19 +57,19 @@
           "number": 4,
           "name": "K. Danso",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.4"
         },
         {
           "number": 5,
           "name": "D. Ballard",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 17,
           "name": "Reinildo",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 34,
@@ -93,7 +93,7 @@
           "number": 28,
           "name": "E. Le Fée",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 10,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "B. Brobbey",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "7.0"
         }
       ],
       "substitutes": [
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "7.3"
+          "rating": "7.1"
         },
         {
           "number": 4,
@@ -233,7 +233,7 @@
           "number": 29,
           "name": "K. Havertz",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
