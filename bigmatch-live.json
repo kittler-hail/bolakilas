@@ -2,37 +2,37 @@
   "fixtureId": 1557405,
   "home": "Sunderland",
   "away": "Arsenal",
-  "statusCode": "2H",
-  "updatedAt": "13/09/2026 03:53 WIB",
+  "statusCode": "FT",
+  "updatedAt": "13/09/2026 04:11 WIB",
   "statistics": {
     "home": {
       "possession": 42,
-      "shotsTotal": 13,
+      "shotsTotal": 12,
       "shotsOnTarget": 3,
       "corners": 4,
       "fouls": 18,
       "offsides": 2,
-      "yellowCards": 5,
-      "redCards": 0,
-      "shotsInsidebox": 8,
+      "yellowCards": 4,
+      "redCards": 1,
+      "shotsInsidebox": 7,
       "shotsOutsidebox": 5,
-      "passesTotal": 280,
-      "passesAccurate": 216,
+      "passesTotal": 282,
+      "passesAccurate": 217,
       "passesPct": null
     },
     "away": {
       "possession": 58,
-      "shotsTotal": 10,
-      "shotsOnTarget": 4,
-      "corners": 3,
+      "shotsTotal": 11,
+      "shotsOnTarget": 5,
+      "corners": 2,
       "fouls": 11,
       "offsides": 2,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 7,
+      "shotsInsidebox": 8,
       "shotsOutsidebox": 3,
-      "passesTotal": 387,
-      "passesAccurate": 320,
+      "passesTotal": 388,
+      "passesAccurate": 321,
       "passesPct": null
     }
   },
@@ -45,37 +45,37 @@
           "number": 22,
           "name": "R. Roefs",
           "position": "Kiper",
-          "rating": "6.2"
+          "rating": "5.6"
         },
         {
           "number": 20,
           "name": "N. Mukiele",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "5.3"
         },
         {
           "number": 4,
           "name": "K. Danso",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.1"
         },
         {
           "number": 5,
           "name": "D. Ballard",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "5.7"
         },
         {
           "number": 17,
           "name": "Reinildo",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "5.6"
         },
         {
           "number": 34,
           "name": "G. Xhaka",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.1"
         },
         {
           "number": 27,
@@ -87,25 +87,25 @@
           "number": 12,
           "name": "T. Meunier",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "6.4"
         },
         {
           "number": 28,
           "name": "E. Le Fée",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.5"
         },
         {
           "number": 10,
           "name": "N. Angulo",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "5.9"
         },
         {
           "number": 9,
           "name": "B. Brobbey",
           "position": "Penyerang",
-          "rating": "6.0"
+          "rating": "5.9"
         }
       ],
       "substitutes": [
@@ -137,7 +137,7 @@
           "number": 39,
           "name": "M. Fofana",
           "position": "Penyerang",
-          "rating": "5.8"
+          "rating": "6.2"
         },
         {
           "number": 32,
@@ -173,19 +173,19 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "7.4"
+          "rating": "7.3"
         },
         {
           "number": 4,
           "name": "B. White",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.5"
         },
         {
           "number": 15,
           "name": "E. Konsa",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.5"
         },
         {
           "number": 6,
@@ -197,7 +197,7 @@
           "number": 33,
           "name": "R. Calafiori",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.0"
         },
         {
           "number": 41,
@@ -209,13 +209,13 @@
           "number": 49,
           "name": "M. Lewis-Skelly",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         {
           "number": 7,
           "name": "B. Saka",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "7.3"
         },
         {
           "number": 8,
@@ -227,7 +227,7 @@
           "number": 17,
           "name": "C. Tzolis",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 29,
@@ -241,13 +241,13 @@
           "number": 39,
           "name": "Bruno Guimarães",
           "position": "Gelandang",
-          "rating": "8.1"
+          "rating": "7.8"
         },
         {
           "number": 10,
           "name": "E. Eze",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.5"
         },
         {
           "number": 14,
@@ -271,19 +271,19 @@
           "number": 23,
           "name": "Mikel Merino",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.4"
         },
         {
           "number": 12,
           "name": "J. Timber",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.2"
         },
         {
           "number": 36,
           "name": "Martín Zubimendi",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.6"
         },
         {
           "number": 13,
