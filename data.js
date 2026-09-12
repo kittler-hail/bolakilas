@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-12T00:07:08.248Z.
+   API-Football v3) pada 2026-09-12T01:04:35.345Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -839,7 +839,10 @@ const siteData = {
             "away": "Puebla",
             "stadium": "Estadio Victoria",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2291.png",
             "prediction": "1 - 2",
@@ -884,7 +887,10 @@ const siteData = {
             "away": "Cancún",
             "stadium": "",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
             "prediction": "2 - 3",
@@ -1732,6 +1738,51 @@ const siteData = {
             }
         },
         {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-12",
+            "time": "21:00",
+            "home": "SK Beveren",
+            "away": "St. Truiden",
+            "stadium": "Freethiel Stadion",
+            "round": "Pekan 6",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/738.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or St. Truiden",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 29,
+                    "away": 71
+                },
+                "def": {
+                    "home": 44,
+                    "away": 56
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 38,
+                    "away": 63
+                }
+            }
+        },
+        {
             "league": "Super Lig",
             "date": "2026-09-12",
             "time": "21:00",
@@ -1818,51 +1869,6 @@ const siteData = {
                 "goals": {
                     "home": 70,
                     "away": 30
-                }
-            }
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-12",
-            "time": "21:00",
-            "home": "SK Beveren",
-            "away": "St. Truiden",
-            "stadium": "Freethiel Stadion",
-            "round": "Pekan 6",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/738.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or St. Truiden",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 29,
-                    "away": 71
-                },
-                "def": {
-                    "home": 44,
-                    "away": 56
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 38,
-                    "away": 63
                 }
             }
         },
@@ -2182,51 +2188,6 @@ const siteData = {
             }
         },
         {
-            "league": "Bundesliga",
-            "date": "2026-09-12",
-            "time": "23:30",
-            "home": "1. FC Köln",
-            "away": "Werder Bremen",
-            "stadium": "RheinEnergieStadion",
-            "round": "Pekan 3",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/192.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/162.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Combo Winner : 1. FC Köln and +2.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 45,
-                    "away": 55
-                },
-                "poisson": {
-                    "home": 80,
-                    "away": 20
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            }
-        },
-        {
             "league": "LaLiga",
             "date": "2026-09-12",
             "time": "23:30",
@@ -2268,6 +2229,51 @@ const siteData = {
                 "goals": {
                     "home": 67,
                     "away": 33
+                }
+            }
+        },
+        {
+            "league": "Bundesliga",
+            "date": "2026-09-12",
+            "time": "23:30",
+            "home": "1. FC Köln",
+            "away": "Werder Bremen",
+            "stadium": "RheinEnergieStadion",
+            "round": "Pekan 3",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/192.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/162.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Winner : 1. FC Köln and +2.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 45,
+                    "away": 55
+                },
+                "poisson": {
+                    "home": 80,
+                    "away": 20
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
                 }
             }
         },
@@ -3635,7 +3641,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/09/2026 07:07 WIB",
+    "standingsUpdated": "12/09/2026 08:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -6114,25 +6120,37 @@ const siteData = {
                 "player": "A. Zanoli",
                 "photo": "https://media.api-sports.io/football/players/162907.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-07"
+                "since": "2026-09-14"
             },
             {
                 "player": "J. Arizala",
                 "photo": "https://media.api-sports.io/football/players/411171.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-07"
+                "since": "2026-09-14"
             },
             {
                 "player": "M. Palma",
                 "photo": "https://media.api-sports.io/football/players/422156.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-07"
+                "since": "2026-09-14"
             },
             {
                 "player": "N. Zaniolo",
                 "photo": "https://media.api-sports.io/football/players/786.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-07"
+                "since": "2026-09-14"
+            },
+            {
+                "player": "J. Piotrowski",
+                "photo": "https://media.api-sports.io/football/players/1939.png",
+                "reason": "Heart Problems",
+                "since": "2026-09-14"
+            },
+            {
+                "player": "O. Solet",
+                "photo": "https://media.api-sports.io/football/players/656.png",
+                "reason": "Injury",
+                "since": "2026-09-14"
             }
         ],
         "como": [
@@ -6140,7 +6158,7 @@ const siteData = {
                 "player": "J. Addai",
                 "photo": "https://media.api-sports.io/football/players/354533.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-09-04"
+                "since": "2026-09-14"
             }
         ],
         "inter": [
@@ -6154,13 +6172,19 @@ const siteData = {
                 "player": "D. Spence",
                 "photo": "https://media.api-sports.io/football/players/19235.png",
                 "reason": "Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-14"
             },
             {
                 "player": "M. Spinacce",
                 "photo": "https://media.api-sports.io/football/players/436238.png",
                 "reason": "Inactive",
                 "since": "2026-09-05"
+            },
+            {
+                "player": "F. Dimarco",
+                "photo": "https://media.api-sports.io/football/players/31010.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-14"
             }
         ],
         "monza": [
@@ -6257,12 +6281,6 @@ const siteData = {
                 "since": "2026-09-11"
             },
             {
-                "player": "B. Franjic",
-                "photo": "https://media.api-sports.io/football/players/14704.png",
-                "reason": "Injury",
-                "since": "2026-09-11"
-            },
-            {
                 "player": "A. Bella-Kotchap",
                 "photo": "https://media.api-sports.io/football/players/25061.png",
                 "reason": "Injury",
@@ -6272,6 +6290,12 @@ const siteData = {
                 "player": "M. Dagasso",
                 "photo": "https://media.api-sports.io/football/players/342025.png",
                 "reason": "Inactive",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "B. Franjic",
+                "photo": "https://media.api-sports.io/football/players/14704.png",
+                "reason": "Injury",
                 "since": "2026-09-11"
             }
         ],
@@ -6394,19 +6418,19 @@ const siteData = {
                 "player": "H. Nicolussi Caviglia",
                 "photo": "https://media.api-sports.io/football/players/881.png",
                 "reason": "Groin Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-14"
             },
             {
                 "player": "A. Bernabe",
                 "photo": "https://media.api-sports.io/football/players/628.png",
                 "reason": "Inactive",
-                "since": "2026-09-06"
+                "since": "2026-09-14"
             },
             {
                 "player": "O. Diallo",
                 "photo": "https://media.api-sports.io/football/players/432610.png",
                 "reason": "Injury",
-                "since": "2026-09-06"
+                "since": "2026-09-14"
             }
         ],
         "cagliari": [
@@ -6482,19 +6506,25 @@ const siteData = {
                 "player": "F. Israel",
                 "photo": "https://media.api-sports.io/football/players/56266.png",
                 "reason": "Shoulder Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-14"
             },
             {
                 "player": "P. Pellegri",
                 "photo": "https://media.api-sports.io/football/players/123.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-14"
             },
             {
                 "player": "C. Casadei",
                 "photo": "https://media.api-sports.io/football/players/270507.png",
                 "reason": "Rest",
-                "since": "2026-09-05"
+                "since": "2026-09-14"
+            },
+            {
+                "player": "S. Coco",
+                "photo": "https://media.api-sports.io/football/players/122468.png",
+                "reason": "Injury",
+                "since": "2026-09-14"
             },
             {
                 "player": "C. Biraghi",
@@ -6716,13 +6746,13 @@ const siteData = {
                 "player": "M. Bah",
                 "photo": "https://media.api-sports.io/football/players/626686.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-14"
             },
             {
                 "player": "L. Pellegrini",
                 "photo": "https://media.api-sports.io/football/players/782.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-14"
             },
             {
                 "player": "D. Rensch",
@@ -6757,6 +6787,88 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/334915.png",
                 "reason": "Calf Injury",
                 "since": "2026-08-29"
+            }
+        ],
+        "union-berlin": [
+            {
+                "player": "O. Burke",
+                "photo": "https://media.api-sports.io/football/players/1124.png",
+                "reason": "Achilles Tendon Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "M. Friedrich",
+                "photo": "https://media.api-sports.io/football/players/24839.png",
+                "reason": "Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "A. Ilic",
+                "photo": "https://media.api-sports.io/football/players/45892.png",
+                "reason": "Illness",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "A. Markgraf",
+                "photo": "https://media.api-sports.io/football/players/413294.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "S. Nsoki",
+                "photo": "https://media.api-sports.io/football/players/270.png",
+                "reason": "Muscle Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "K. Imeri",
+                "photo": "https://media.api-sports.io/football/players/48612.png",
+                "reason": "Thigh Injury",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "F. Ronnow",
+                "photo": "https://media.api-sports.io/football/players/1798.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-29"
+            }
+        ],
+        "fc-schalke-04": [
+            {
+                "player": "T. Kalas",
+                "photo": "https://media.api-sports.io/football/players/19262.png",
+                "reason": "Lacking Match Fitness",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "R. Schallenberg",
+                "photo": "https://media.api-sports.io/football/players/88140.png",
+                "reason": "Red Card",
+                "since": "2026-09-11"
+            },
+            {
+                "player": "A. Gantenbein",
+                "photo": "https://media.api-sports.io/football/players/266192.png",
+                "reason": "Ankle Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "E. Hojlund",
+                "photo": "https://media.api-sports.io/football/players/339875.png",
+                "reason": "Heel Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "B. Lasme",
+                "photo": "https://media.api-sports.io/football/players/24228.png",
+                "reason": "Calf Injury",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "K. Karaman",
+                "photo": "https://media.api-sports.io/football/players/25466.png",
+                "reason": "Hip Injury",
+                "since": "2026-08-30"
             }
         ],
         "eintracht-frankfurt": [
@@ -6846,7 +6958,7 @@ const siteData = {
                 "player": "M. Muheim",
                 "photo": "https://media.api-sports.io/football/players/48489.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-06"
             },
             {
                 "player": "W. Omari",
@@ -6861,15 +6973,15 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "S. Bornauw",
-                "photo": "https://media.api-sports.io/football/players/1408.png",
-                "reason": "Inactive",
+                "player": "K. Amoako",
+                "photo": "https://media.api-sports.io/football/players/355176.png",
+                "reason": "Illness",
                 "since": "2026-09-13"
             },
             {
-                "player": "A. S. Lokonga",
-                "photo": "https://media.api-sports.io/football/players/1427.png",
-                "reason": "Back Injury",
+                "player": "S. Bornauw",
+                "photo": "https://media.api-sports.io/football/players/1408.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-13"
             }
         ],
@@ -6909,50 +7021,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/48378.png",
                 "reason": "Knee Injury",
                 "since": "2026-09-12"
-            },
-            {
-                "player": "R. Zentner",
-                "photo": "https://media.api-sports.io/football/players/25906.png",
-                "reason": "Thigh Injury",
-                "since": "2026-09-12"
-            }
-        ],
-        "fc-schalke-04": [
-            {
-                "player": "A. Gantenbein",
-                "photo": "https://media.api-sports.io/football/players/266192.png",
-                "reason": "Ankle Injury",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "E. Hojlund",
-                "photo": "https://media.api-sports.io/football/players/339875.png",
-                "reason": "Heel Injury",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "T. Kalas",
-                "photo": "https://media.api-sports.io/football/players/19262.png",
-                "reason": "Lacking Match Fitness",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "B. Lasme",
-                "photo": "https://media.api-sports.io/football/players/24228.png",
-                "reason": "Calf Injury",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "R. Schallenberg",
-                "photo": "https://media.api-sports.io/football/players/88140.png",
-                "reason": "Red Card",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "K. Karaman",
-                "photo": "https://media.api-sports.io/football/players/25466.png",
-                "reason": "Hip Injury",
-                "since": "2026-08-30"
             }
         ],
         "bayern-munchen": [
@@ -7010,51 +7078,7 @@ const siteData = {
                 "player": "M. Terrier",
                 "photo": "https://media.api-sports.io/football/players/663.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
-            }
-        ],
-        "union-berlin": [
-            {
-                "player": "O. Burke",
-                "photo": "https://media.api-sports.io/football/players/1124.png",
-                "reason": "Achilles Tendon Injury",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "M. Friedrich",
-                "photo": "https://media.api-sports.io/football/players/24839.png",
-                "reason": "Injury",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "A. Ilic",
-                "photo": "https://media.api-sports.io/football/players/45892.png",
-                "reason": "Illness",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "A. Markgraf",
-                "photo": "https://media.api-sports.io/football/players/413294.png",
-                "reason": "Knee Injury",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "S. Nsoki",
-                "photo": "https://media.api-sports.io/football/players/270.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-11"
-            },
-            {
-                "player": "F. Ronnow",
-                "photo": "https://media.api-sports.io/football/players/1798.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-29"
-            },
-            {
-                "player": "K. Imeri",
-                "photo": "https://media.api-sports.io/football/players/48612.png",
-                "reason": "Thigh Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-05"
             }
         ],
         "borussia-monchengladbach": [
@@ -7297,6 +7321,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/270836.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-30"
+            },
+            {
+                "player": "S. Lynen",
+                "photo": "https://media.api-sports.io/football/players/38798.png",
+                "reason": "Hip Injury",
+                "since": "2026-09-12"
             }
         ],
         "rb-leipzig": [
@@ -7416,7 +7446,7 @@ const siteData = {
                 "player": "S. El Mala",
                 "photo": "https://media.api-sports.io/football/players/432310.png",
                 "reason": "Illness",
-                "since": "2026-09-12"
+                "since": "2026-09-04"
             },
             {
                 "player": "T. Hubers",
@@ -7428,13 +7458,13 @@ const siteData = {
                 "player": "S. Sebulonsen",
                 "photo": "https://media.api-sports.io/football/players/191740.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-04"
             },
             {
                 "player": "L. Waldschmidt",
                 "photo": "https://media.api-sports.io/football/players/26260.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-04"
             }
         ],
         "lens": [
@@ -32768,51 +32798,6 @@ const siteData = {
     "upcoming": {
         "2026-09-13": [
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-13",
-                "time": "00:00",
-                "home": "Casa Pia",
-                "away": "FC Porto",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/212.png",
-                "prediction": "0 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : FC Porto and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 6,
-                        "away": 94
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "def": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 23,
-                        "away": 77
-                    }
-                }
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-13",
                 "time": "00:00",
@@ -32899,6 +32884,51 @@ const siteData = {
                     "goals": {
                         "home": 70,
                         "away": 30
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-13",
+                "time": "00:00",
+                "home": "Casa Pia",
+                "away": "FC Porto",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/212.png",
+                "prediction": "0 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : FC Porto and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 6,
+                        "away": 94
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 23,
+                        "away": 77
                     }
                 }
             },
@@ -33308,51 +33338,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-13",
-                "time": "02:00",
-                "home": "Cambuur",
-                "away": "NEC Nijmegen",
-                "stadium": "Kooi Stadion",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/413.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Combo Winner : NEC Nijmegen and +2.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 13,
-                        "away": 88
-                    },
-                    "att": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "h2h": {
-                        "home": 7,
-                        "away": 93
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-13",
                 "time": "02:00",
@@ -33394,6 +33379,51 @@ const siteData = {
                     "goals": {
                         "home": 57,
                         "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-13",
+                "time": "02:00",
+                "home": "Cambuur",
+                "away": "NEC Nijmegen",
+                "stadium": "Kooi Stadion",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/420.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/413.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Combo Winner : NEC Nijmegen and +2.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
                     }
                 }
             },
@@ -34793,51 +34823,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-09-13",
-                "time": "21:00",
-                "home": "Gençlerbirliği S.K.",
-                "away": "Kasımpaşa",
-                "stadium": "Eryaman Stadium",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Kasımpaşa",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 42,
-                        "away": 58
-                    }
-                }
-            },
-            {
                 "league": "Jupiler Pro League",
                 "date": "2026-09-13",
                 "time": "21:00",
@@ -34879,6 +34864,51 @@ const siteData = {
                     "goals": {
                         "home": 76,
                         "away": 24
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-13",
+                "time": "21:00",
+                "home": "Gençlerbirliği S.K.",
+                "away": "Kasımpaşa",
+                "stadium": "Eryaman Stadium",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Kasımpaşa",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
                     }
                 }
             },
@@ -35245,96 +35275,6 @@ const siteData = {
         ],
         "2026-09-14": [
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-14",
-                "time": "00:00",
-                "home": "Benfica",
-                "away": "GIL Vicente",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/211.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/762.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Benfica",
-                "comparison": {
-                    "form": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "att": {
-                        "home": 86,
-                        "away": 14
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 83,
-                        "away": 17
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-14",
-                "time": "00:00",
-                "home": "Arouca",
-                "away": "Santa Clara",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/240.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/227.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Santa Clara and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 76,
-                        "away": 24
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
-                    }
-                }
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-14",
                 "time": "00:00",
@@ -35421,6 +35361,96 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-14",
+                "time": "00:00",
+                "home": "Benfica",
+                "away": "GIL Vicente",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/211.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/762.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Benfica",
+                "comparison": {
+                    "form": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "att": {
+                        "home": 86,
+                        "away": 14
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 83,
+                        "away": 17
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-14",
+                "time": "00:00",
+                "home": "Arouca",
+                "away": "Santa Clara",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/240.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/227.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Santa Clara and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 76,
+                        "away": 24
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
                     }
                 }
             },
