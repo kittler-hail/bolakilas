@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-12T09:05:13.988Z.
+   API-Football v3) pada 2026-09-12T10:05:06.777Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -577,6 +577,93 @@ const siteData = {
             ]
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-09-12",
+            "time": "01:45",
+            "home": "Rennes",
+            "away": "Marseille",
+            "stadium": "Roazhon Park",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/94.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Rennes or draw",
+            "comparison": {
+                "form": {
+                    "home": 70,
+                    "away": 30
+                },
+                "att": {
+                    "home": 54,
+                    "away": 46
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 29,
+                    "away": 71
+                }
+            },
+            "goals": [
+                {
+                    "minute": "52",
+                    "player": "Adrien Thomasson",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "Himad Abdelli",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "Przemysław Frankowski",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "Igor Paixão",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Amine Harit",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Timothy Weah",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Jupiler Pro League",
             "date": "2026-09-12",
             "time": "01:45",
@@ -666,91 +753,10 @@ const siteData = {
                     "player": "Frederik Vanderbiest",
                     "team": "home",
                     "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-09-12",
-            "time": "01:45",
-            "home": "Rennes",
-            "away": "Marseille",
-            "stadium": "Roazhon Park",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/94.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Rennes or draw",
-            "comparison": {
-                "form": {
-                    "home": 70,
-                    "away": 30
-                },
-                "att": {
-                    "home": 54,
-                    "away": 46
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 29,
-                    "away": 71
-                }
-            },
-            "goals": [
-                {
-                    "minute": "52",
-                    "player": "Adrien Thomasson",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "33",
-                    "player": "Himad Abdelli",
-                    "team": "away",
-                    "type": "yellow"
                 },
                 {
-                    "minute": "43",
-                    "player": "Przemysław Frankowski",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "43",
-                    "player": "Igor Paixão",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "85",
-                    "player": "Amine Harit",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Timothy Weah",
+                    "minute": "90+6",
+                    "player": "Vítor Bruno Clara Santos Mota Fernandes",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1248,10 +1254,10 @@ const siteData = {
             "away": "Persepam Madura Utd",
             "stadium": "Maguwoharjo Stadium",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
+            "statusCode": "2H",
+            "minuteDisplay": "78'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/3882.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2444.png",
             "prediction": "1 - 2",
@@ -1287,6 +1293,23 @@ const siteData = {
                     "away": 25
                 }
             },
+            "goals": [
+                {
+                    "minute": "45",
+                    "player": "D. Mitkov",
+                    "team": "away"
+                },
+                {
+                    "minute": "47",
+                    "player": "J. Santacruz",
+                    "team": "away"
+                },
+                {
+                    "minute": "67",
+                    "player": "D. Mitkov",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "12",
@@ -1304,9 +1327,9 @@ const siteData = {
             "away": "Persib Bandung",
             "stadium": "Bung Karno Stadium",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/10134.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2445.png",
@@ -1342,7 +1365,28 @@ const siteData = {
                     "home": 29,
                     "away": 71
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "42",
+                    "player": "A. Jeremejeff",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "66",
+                    "player": "D. Kolinger",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "L. Menalo",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "LaLiga",
@@ -2425,51 +2469,6 @@ const siteData = {
             }
         },
         {
-            "league": "LaLiga",
-            "date": "2026-09-12",
-            "time": "23:30",
-            "home": "Athletic Club",
-            "away": "Elche",
-            "stadium": "",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/531.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/797.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Athletic Club or draw",
-            "comparison": {
-                "form": {
-                    "home": 86,
-                    "away": 14
-                },
-                "att": {
-                    "home": 55,
-                    "away": 45
-                },
-                "def": {
-                    "home": 71,
-                    "away": 29
-                },
-                "poisson": {
-                    "home": 57,
-                    "away": 43
-                },
-                "h2h": {
-                    "home": 71,
-                    "away": 29
-                },
-                "goals": {
-                    "home": 67,
-                    "away": 33
-                }
-            }
-        },
-        {
             "league": "Bundesliga",
             "date": "2026-09-12",
             "time": "23:30",
@@ -2511,6 +2510,51 @@ const siteData = {
                 "goals": {
                     "home": 50,
                     "away": 50
+                }
+            }
+        },
+        {
+            "league": "LaLiga",
+            "date": "2026-09-12",
+            "time": "23:30",
+            "home": "Athletic Club",
+            "away": "Elche",
+            "stadium": "",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/531.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/797.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Athletic Club or draw",
+            "comparison": {
+                "form": {
+                    "home": 86,
+                    "away": 14
+                },
+                "att": {
+                    "home": 55,
+                    "away": 45
+                },
+                "def": {
+                    "home": 71,
+                    "away": 29
+                },
+                "poisson": {
+                    "home": 57,
+                    "away": 43
+                },
+                "h2h": {
+                    "home": 71,
+                    "away": 29
+                },
+                "goals": {
+                    "home": 67,
+                    "away": 33
                 }
             }
         },
@@ -3878,7 +3922,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/09/2026 16:05 WIB",
+    "standingsUpdated": "12/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33266,96 +33310,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-13",
-                "time": "01:45",
-                "home": "OH Leuven",
-                "away": "Cercle Brugge",
-                "stadium": "Den Dreef",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/741.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cercle Brugge",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "def": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "poisson": {
-                        "home": 21,
-                        "away": 79
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 36,
-                        "away": 64
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-13",
-                "time": "01:45",
-                "home": "Union St. Gilloise",
-                "away": "Lommel United",
-                "stadium": "Stade Joseph Marien",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/259.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Union St. Gilloise or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "att": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "goals": {
-                        "home": 67,
-                        "away": 33
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-13",
                 "time": "01:45",
@@ -33532,6 +33486,96 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-13",
+                "time": "01:45",
+                "home": "OH Leuven",
+                "away": "Cercle Brugge",
+                "stadium": "Den Dreef",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/741.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cercle Brugge",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "def": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "poisson": {
+                        "home": 21,
+                        "away": 79
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 36,
+                        "away": 64
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-13",
+                "time": "01:45",
+                "home": "Union St. Gilloise",
+                "away": "Lommel United",
+                "stadium": "Stade Joseph Marien",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/259.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Union St. Gilloise or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "att": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 67,
+                        "away": 33
                     }
                 }
             },
@@ -35774,8 +35818,8 @@ const siteData = {
                         "away": 75
                     },
                     "poisson": {
-                        "home": 37,
-                        "away": 63
+                        "home": 38,
+                        "away": 62
                     },
                     "h2h": {
                         "home": 40,
