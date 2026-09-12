@@ -3,21 +3,21 @@
   "home": "Bournemouth",
   "away": "Brentford",
   "statusCode": "2H",
-  "updatedAt": "12/09/2026 22:33 WIB",
+  "updatedAt": "12/09/2026 22:46 WIB",
   "statistics": {
     "home": {
       "possession": 58,
-      "shotsTotal": 12,
-      "shotsOnTarget": 6,
+      "shotsTotal": 17,
+      "shotsOnTarget": 9,
       "corners": 2,
-      "fouls": 6,
+      "fouls": 7,
       "offsides": 3,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 8,
-      "shotsOutsidebox": 4,
-      "passesTotal": 351,
-      "passesAccurate": 287,
+      "shotsInsidebox": 10,
+      "shotsOutsidebox": 7,
+      "passesTotal": 427,
+      "passesAccurate": 354,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 1,
-      "passesTotal": 257,
-      "passesAccurate": 179,
+      "passesTotal": 309,
+      "passesAccurate": 217,
       "passesPct": null
     }
   },
@@ -51,43 +51,43 @@
           "number": 15,
           "name": "A. Smith",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 5,
           "name": "J. Hill",
           "position": "Bek",
-          "rating": "5.7"
+          "rating": "6.2"
         },
         {
           "number": 14,
           "name": "António Silva",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.2"
         },
         {
           "number": 3,
           "name": "A. Truffert",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 8,
           "name": "A. Scott",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 12,
           "name": "T. Adams",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 37,
           "name": "Rayan",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.1"
         },
         {
           "number": 19,
@@ -99,13 +99,13 @@
           "number": 16,
           "name": "M. Tavernier",
           "position": "Gelandang",
-          "rating": "8.0"
+          "rating": "8.2"
         },
         {
           "number": 9,
           "name": "Evanilson",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "7.1"
         }
       ],
       "substitutes": [
@@ -137,7 +137,7 @@
           "number": 10,
           "name": "R. Christie",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 4,
@@ -173,13 +173,13 @@
           "number": 1,
           "name": "C. Kelleher",
           "position": "Kiper",
-          "rating": "6.0"
+          "rating": "6.5"
         },
         {
           "number": 2,
           "name": "A. Hickey",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 20,
@@ -191,7 +191,7 @@
           "number": 44,
           "name": "Jannik Schuster",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "5.7"
         },
         {
           "number": 23,
@@ -203,7 +203,7 @@
           "number": 18,
           "name": "M. Sangaré",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 6,
@@ -215,7 +215,7 @@
           "number": 27,
           "name": "V. Janelt",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.3"
         },
         {
           "number": 19,
@@ -259,7 +259,7 @@
           "number": 24,
           "name": "M. Damsgaard",
           "position": "Gelandang",
-          "rating": "5.8"
+          "rating": "6.0"
         },
         {
           "number": 11,
@@ -271,13 +271,13 @@
           "number": 33,
           "name": "M. Kayode",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 25,
           "name": "E. Diouf",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "5.8"
         },
         {
           "number": 3,
