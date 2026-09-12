@@ -3,9 +3,226 @@
   "home": "Sunderland",
   "away": "Arsenal",
   "statusCode": "NS",
-  "updatedAt": "13/09/2026 01:19 WIB",
+  "updatedAt": "13/09/2026 01:36 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "R. Le Bris",
+      "startXI": [
+        {
+          "number": 22,
+          "name": "R. Roefs",
+          "position": "Kiper"
+        },
+        {
+          "number": 20,
+          "name": "N. Mukiele",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "K. Danso",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "D. Ballard",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Reinildo",
+          "position": "Bek"
+        },
+        {
+          "number": 34,
+          "name": "G. Xhaka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "N. Sadiki",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "T. Meunier",
+          "position": "Gelandang"
+        },
+        {
+          "number": 28,
+          "name": "E. Le Fée",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "N. Angulo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "B. Brobbey",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 11,
+          "name": "C. Rigg",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "C. Talbi",
+          "position": "Penyerang"
+        },
+        {
+          "number": 15,
+          "name": "O. Alderete",
+          "position": "Bek"
+        },
+        {
+          "number": 31,
+          "name": "M. Ellborg",
+          "position": "Kiper"
+        },
+        {
+          "number": 39,
+          "name": "M. Fofana",
+          "position": "Penyerang"
+        },
+        {
+          "number": 32,
+          "name": "T. Hume",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "W. Isidor",
+          "position": "Penyerang"
+        },
+        {
+          "number": 6,
+          "name": "D. Methalie",
+          "position": "Bek"
+        },
+        {
+          "number": 13,
+          "name": "L. O&apos;Nien",
+          "position": "Gelandang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Mikel Arteta",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "David Raya",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "B. White",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "E. Konsa",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Gabriel Magalhães",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "R. Calafiori",
+          "position": "Bek"
+        },
+        {
+          "number": 41,
+          "name": "D. Rice",
+          "position": "Gelandang"
+        },
+        {
+          "number": 49,
+          "name": "M. Lewis-Skelly",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "B. Saka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "M. Ødegaard",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "C. Tzolis",
+          "position": "Gelandang"
+        },
+        {
+          "number": 29,
+          "name": "K. Havertz",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 39,
+          "name": "Bruno Guimarães",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "E. Eze",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "V. Gyökeres",
+          "position": "Penyerang"
+        },
+        {
+          "number": 5,
+          "name": "P. Hincapié",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "N. Madueke",
+          "position": "Penyerang"
+        },
+        {
+          "number": 23,
+          "name": "Mikel Merino",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "J. Timber",
+          "position": "Bek"
+        },
+        {
+          "number": 36,
+          "name": "Martín Zubimendi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "Kepa",
+          "position": "Kiper"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Stadium of Light",
     "city": "Sunderland",
