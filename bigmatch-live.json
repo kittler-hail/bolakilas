@@ -3,9 +3,256 @@
   "home": "Real Sociedad",
   "away": "Atletico Madrid",
   "statusCode": "NS",
-  "updatedAt": "14/09/2026 01:15 WIB",
+  "updatedAt": "14/09/2026 01:34 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "P. Matarazzo",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Álex Remiro",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "J. Aramburu",
+          "position": "Bek"
+        },
+        {
+          "number": 34,
+          "name": "Luken Beitia",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "M. Sarr",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Sergio Gómez",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "Y. Herrera",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "Carlos Soler",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Gonçalo Guedes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "L. Sučić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Barrenetxea",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Mikel Oyarzabal",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 3,
+          "name": "Aihen Muñoz",
+          "position": "Bek"
+        },
+        {
+          "number": 13,
+          "name": "Unai Marrero",
+          "position": "Kiper"
+        },
+        {
+          "number": 22,
+          "name": "Héctor Fort",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "J. Ochieng",
+          "position": "Penyerang"
+        },
+        {
+          "number": 4,
+          "name": "Jon Gorrotxategi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "T. Kubo",
+          "position": "Penyerang"
+        },
+        {
+          "number": 16,
+          "name": "Jon Pacheco",
+          "position": "Bek"
+        },
+        {
+          "number": 29,
+          "name": "Alex Garcia",
+          "position": "Penyerang"
+        },
+        {
+          "number": 8,
+          "name": "Beñat Turrientes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "A. Zakharyan",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "O. Óskarsson",
+          "position": "Penyerang"
+        },
+        {
+          "number": 27,
+          "name": "Gorka Carrera",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "coach": "D. Simeone",
+      "startXI": [
+        {
+          "number": 13,
+          "name": "J. Oblak",
+          "position": "Kiper"
+        },
+        {
+          "number": 14,
+          "name": "Marcos Llorente",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "C. Romero",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "D. Hancko",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Marc Pubill",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "G. Simeone",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Álex Baena",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "M. Hjulmand",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "Álex Grimaldo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Lee Kang-In",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "A. Lookman",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 5,
+          "name": "J. Cardoso",
+          "position": "Gelandang"
+        },
+        {
+          "number": 15,
+          "name": "J. David",
+          "position": "Penyerang"
+        },
+        {
+          "number": 27,
+          "name": "J. Dominguez",
+          "position": "Bek"
+        },
+        {
+          "number": 25,
+          "name": "Salvador Esquivel",
+          "position": "Kiper"
+        },
+        {
+          "number": 6,
+          "name": "Koke",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "Robin Le Normand",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Rodrigo Mendoza",
+          "position": "Gelandang"
+        },
+        {
+          "number": 1,
+          "name": "J. Musso",
+          "position": "Kiper"
+        },
+        {
+          "number": 16,
+          "name": "Arnau Ortiz",
+          "position": "Penyerang"
+        },
+        {
+          "number": 3,
+          "name": "O. Vargas",
+          "position": "Gelandang"
+        },
+        {
+          "number": 45,
+          "name": "Javier Gil",
+          "position": "Bek"
+        },
+        {
+          "number": 30,
+          "name": "Dani MartÃ­nez",
+          "position": "Bek"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Anoeta",
     "city": "San Sebastian",
