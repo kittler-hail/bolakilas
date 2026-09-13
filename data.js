@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-12T23:04:34.168Z.
+   API-Football v3) pada 2026-09-13T00:07:27.870Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -523,71 +523,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Serie A",
-            "date": "2026-09-13",
-            "time": "01:45",
-            "home": "Atalanta",
-            "away": "Cagliari",
-            "stadium": "New Balance Arena",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/499.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/490.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Cagliari and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "19",
-                    "player": "P. Mendy",
-                    "team": "away"
-                },
-                {
-                    "minute": "41",
-                    "player": "G. Scamacca",
-                    "team": "home"
-                },
-                {
-                    "minute": "61",
-                    "player": "D. Maldini",
-                    "team": "away"
-                }
-            ]
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-09-13",
             "time": "01:45",
@@ -861,6 +796,71 @@ const siteData = {
                     "player": "Hamari Traore",
                     "team": "home",
                     "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-09-13",
+            "time": "01:45",
+            "home": "Atalanta",
+            "away": "Cagliari",
+            "stadium": "New Balance Arena",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/499.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/490.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Cagliari and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "P. Mendy",
+                    "team": "away"
+                },
+                {
+                    "minute": "41",
+                    "player": "G. Scamacca",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "D. Maldini",
+                    "team": "away"
                 }
             ]
         },
@@ -1482,9 +1482,9 @@ const siteData = {
             "away": "CDS Tampico Madero",
             "stadium": "Estadio Tlahuicole",
             "round": "Apertura - 8",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
@@ -1531,6 +1531,16 @@ const siteData = {
                     "minute": "22",
                     "player": "E. Robles",
                     "team": "home"
+                },
+                {
+                    "minute": "89",
+                    "player": "Christian",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Christian",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1538,6 +1548,54 @@ const siteData = {
                     "minute": "7",
                     "player": "P. Gonzalez",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "M. A. Trejo Castro",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Christian",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "J. Tovar",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "I. Ramirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "J. Tovar",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "J. Tovar",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "E. Garcia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "D. Lopez",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1550,9 +1608,9 @@ const siteData = {
             "away": "Tepatitlán",
             "stadium": "Estadio Carlos Iturralde Rivero",
             "round": "Apertura - 8",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2311.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14279.png",
@@ -1588,7 +1646,28 @@ const siteData = {
                     "home": 64,
                     "away": 36
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "42",
+                    "player": "S. Lora",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "P. Kilani",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "E. Martinez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1598,7 +1677,10 @@ const siteData = {
             "away": "Atlas",
             "stadium": "",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 3,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
             "prediction": "2 - 1",
@@ -1633,7 +1715,32 @@ const siteData = {
                     "home": 71,
                     "away": 29
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "Alexis Vega",
+                    "team": "home"
+                },
+                {
+                    "minute": "22",
+                    "player": "Jesús Angulo",
+                    "team": "home"
+                },
+                {
+                    "minute": "29",
+                    "player": "Federico Viñas",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "24",
+                    "player": "Manuel Capasso",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1643,7 +1750,10 @@ const siteData = {
             "away": "Toronto FC",
             "stadium": "Exploria Stadium",
             "round": "Pekan 25",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1598.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1601.png",
             "prediction": "3 - 2",
@@ -1678,7 +1788,15 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Luis Otávio Costa de Aquino",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1688,7 +1806,10 @@ const siteData = {
             "away": "New York Red Bulls",
             "stadium": "ScottsMiracle-Gro Field",
             "round": "Pekan 25",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1613.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1602.png",
             "prediction": "2 - 1",
@@ -1733,7 +1854,10 @@ const siteData = {
             "away": "Atlanta United FC",
             "stadium": "Audi Field",
             "round": "Pekan 25",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1615.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1608.png",
             "prediction": "1 - 2",
@@ -1778,7 +1902,10 @@ const siteData = {
             "away": "Charlotte",
             "stadium": "TQL Stadium",
             "round": "Pekan 25",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2242.png",
             "awayLogo": "https://media.api-sports.io/football/teams/18310.png",
             "prediction": "1 - 2",
@@ -1813,7 +1940,24 @@ const siteData = {
                     "home": 31,
                     "away": 69
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "2",
+                    "player": "Pavel Bucha",
+                    "team": "home"
+                },
+                {
+                    "minute": "7",
+                    "player": "Liel Abada",
+                    "team": "away"
+                },
+                {
+                    "minute": "17",
+                    "player": "Pep Biel",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1823,7 +1967,10 @@ const siteData = {
             "away": "Nashville SC",
             "stadium": "Nu Stadium",
             "round": "Pekan 25",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "28'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/9568.png",
             "awayLogo": "https://media.api-sports.io/football/teams/9569.png",
             "prediction": "2 - 3",
@@ -1858,7 +2005,27 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "Sam Surridge",
+                    "team": "away"
+                },
+                {
+                    "minute": "19",
+                    "player": " Reed Baker-Whiting",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "9",
+                    "player": "Alex Muyl",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2716,51 +2883,6 @@ const siteData = {
             }
         },
         {
-            "league": "Serie A",
-            "date": "2026-09-13",
-            "time": "20:00",
-            "home": "Lecce",
-            "away": "Monza",
-            "stadium": "Stadio Via del Mare",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/867.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1579.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Lecce or draw",
-            "comparison": {
-                "form": {
-                    "home": 75,
-                    "away": 25
-                },
-                "att": {
-                    "home": 33,
-                    "away": 67
-                },
-                "def": {
-                    "home": 62,
-                    "away": 38
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 75,
-                    "away": 25
-                },
-                "goals": {
-                    "home": 63,
-                    "away": 38
-                }
-            }
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-09-13",
             "time": "20:00",
@@ -2798,6 +2920,51 @@ const siteData = {
                 "h2h": {
                     "home": 71,
                     "away": 29
+                },
+                "goals": {
+                    "home": 63,
+                    "away": 38
+                }
+            }
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-09-13",
+            "time": "20:00",
+            "home": "Lecce",
+            "away": "Monza",
+            "stadium": "Stadio Via del Mare",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/867.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1579.png",
+            "prediction": "3 - 2",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Lecce or draw",
+            "comparison": {
+                "form": {
+                    "home": 75,
+                    "away": 25
+                },
+                "att": {
+                    "home": 33,
+                    "away": 67
+                },
+                "def": {
+                    "home": 62,
+                    "away": 38
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 75,
+                    "away": 25
                 },
                 "goals": {
                     "home": 63,
@@ -4619,7 +4786,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "13/09/2026 06:04 WIB",
+    "standingsUpdated": "13/09/2026 07:07 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -8519,16 +8686,16 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "M. Nawrocki",
-                "photo": "https://media.api-sports.io/football/players/178708.png",
-                "reason": "Injury",
-                "since": "2026-09-13"
-            },
-            {
                 "player": "O. Edouard",
                 "photo": "https://media.api-sports.io/football/players/1135.png",
                 "reason": "Personal Reasons",
                 "since": "2026-08-29"
+            },
+            {
+                "player": "M. Nawrocki",
+                "photo": "https://media.api-sports.io/football/players/178708.png",
+                "reason": "Injury",
+                "since": "2026-09-13"
             },
             {
                 "player": "S. Sagnan",
@@ -8725,6 +8892,12 @@ const siteData = {
                 "since": "2026-08-22"
             },
             {
+                "player": "A. Mendy",
+                "photo": "https://media.api-sports.io/football/players/313937.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-12"
+            },
+            {
                 "player": "M. Sanson",
                 "photo": "https://media.api-sports.io/football/players/1914.png",
                 "reason": "Surgery",
@@ -8735,12 +8908,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/49583.png",
                 "reason": "Surgery",
                 "since": "2026-08-30"
-            },
-            {
-                "player": "A. Mendy",
-                "photo": "https://media.api-sports.io/football/players/313937.png",
-                "reason": "Knee Injury",
-                "since": "2026-09-12"
             }
         ],
         "lorient": [
@@ -8827,8 +8994,14 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
-                "player": "A. Gomes Rodriguez",
-                "photo": "https://media.api-sports.io/football/players/409794.png",
+                "player": "R. Himbert",
+                "photo": "https://media.api-sports.io/football/players/497617.png",
+                "reason": "Inactive",
+                "since": "2026-09-12"
+            },
+            {
+                "player": "N. Kamara",
+                "photo": "https://media.api-sports.io/football/players/493026.png",
                 "reason": "Inactive",
                 "since": "2026-09-04"
             },
@@ -8839,8 +9012,14 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
-                "player": "N. Kamara",
-                "photo": "https://media.api-sports.io/football/players/493026.png",
+                "player": "M. Ouedraogo",
+                "photo": "https://media.api-sports.io/football/players/412049.png",
+                "reason": "Inactive",
+                "since": "2026-09-12"
+            },
+            {
+                "player": "A. Gomes Rodriguez",
+                "photo": "https://media.api-sports.io/football/players/409794.png",
                 "reason": "Inactive",
                 "since": "2026-09-04"
             },
@@ -8857,22 +9036,10 @@ const siteData = {
                 "since": "2026-09-04"
             },
             {
-                "player": "M. Ouedraogo",
-                "photo": "https://media.api-sports.io/football/players/412049.png",
-                "reason": "Inactive",
-                "since": "2026-09-12"
-            },
-            {
                 "player": "M. de Carvalho",
                 "photo": "https://media.api-sports.io/football/players/438692.png",
                 "reason": "Inactive",
                 "since": "2026-09-04"
-            },
-            {
-                "player": "R. Himbert",
-                "photo": "https://media.api-sports.io/football/players/497617.png",
-                "reason": "Inactive",
-                "since": "2026-09-12"
             }
         ],
         "estac-troyes": [
@@ -8889,15 +9056,15 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
-                "player": "P. Gozzi",
-                "photo": "https://media.api-sports.io/football/players/859.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-13"
-            },
-            {
                 "player": "Y. Titi",
                 "photo": "https://media.api-sports.io/football/players/395810.png",
                 "reason": "Injury",
+                "since": "2026-09-13"
+            },
+            {
+                "player": "P. Gozzi",
+                "photo": "https://media.api-sports.io/football/players/859.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-13"
             },
             {
@@ -8912,7 +9079,7 @@ const siteData = {
                 "player": "J. Ikone",
                 "photo": "https://media.api-sports.io/football/players/22229.png",
                 "reason": "Hamstring Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-06"
             },
             {
                 "player": "E. Mbemba",
@@ -8927,6 +9094,12 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
+                "player": "T. De Smet",
+                "photo": "https://media.api-sports.io/football/players/8474.png",
+                "reason": "Inactive",
+                "since": "2026-09-12"
+            },
+            {
                 "player": "Otavio",
                 "photo": "https://media.api-sports.io/football/players/266013.png",
                 "reason": "Injury",
@@ -8937,12 +9110,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/359603.png",
                 "reason": "Injury",
                 "since": "2026-08-30"
-            },
-            {
-                "player": "T. De Smet",
-                "photo": "https://media.api-sports.io/football/players/8474.png",
-                "reason": "Inactive",
-                "since": "2026-09-12"
             }
         ],
         "le-mans": [
@@ -9021,6 +9188,12 @@ const siteData = {
                 "since": "2026-08-22"
             },
             {
+                "player": "J. Bourgault",
+                "photo": "https://media.api-sports.io/football/players/369556.png",
+                "reason": "Knee Injury",
+                "since": "2026-08-29"
+            },
+            {
                 "player": "R. Cagnon",
                 "photo": "https://media.api-sports.io/football/players/158587.png",
                 "reason": "Shoulder Injury",
@@ -9031,12 +9204,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/302915.png",
                 "reason": "Ankle Injury",
                 "since": "2026-09-13"
-            },
-            {
-                "player": "J. Bourgault",
-                "photo": "https://media.api-sports.io/football/players/369556.png",
-                "reason": "Knee Injury",
-                "since": "2026-08-29"
             },
             {
                 "player": "N. Edjouma",
@@ -9267,12 +9434,6 @@ const siteData = {
                 "since": "2026-09-04"
             },
             {
-                "player": "L. Digne",
-                "photo": "https://media.api-sports.io/football/players/2724.png",
-                "reason": "Inactive",
-                "since": "2026-09-04"
-            },
-            {
                 "player": "O. Dembele",
                 "photo": "https://media.api-sports.io/football/players/153.png",
                 "reason": "Rest",
@@ -9283,6 +9444,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/335051.png",
                 "reason": "Illness",
                 "since": "2026-08-28"
+            },
+            {
+                "player": "L. Digne",
+                "photo": "https://media.api-sports.io/football/players/2724.png",
+                "reason": "Inactive",
+                "since": "2026-09-04"
             }
         ]
     },
@@ -34968,51 +35135,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-09-14",
-                "time": "01:45",
-                "home": "Sassuolo",
-                "away": "Juventus",
-                "stadium": "",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/488.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Juventus and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "att": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "def": {
-                        "home": 17,
-                        "away": 83
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 40,
-                        "away": 60
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-14",
                 "time": "01:45",
@@ -35054,6 +35176,51 @@ const siteData = {
                     "goals": {
                         "home": 10,
                         "away": 90
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-14",
+                "time": "01:45",
+                "home": "Sassuolo",
+                "away": "Juventus",
+                "stadium": "",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/488.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Juventus and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "att": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "def": {
+                        "home": 17,
+                        "away": 83
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 40,
+                        "away": 60
                     }
                 }
             },
@@ -35238,51 +35405,6 @@ const siteData = {
                 }
             },
             {
-                "league": "MLS",
-                "date": "2026-09-14",
-                "time": "08:00",
-                "home": "San Diego",
-                "away": "Philadelphia Union",
-                "stadium": "Snapdragon Stadium",
-                "round": "Pekan 25",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Philadelphia Union and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "att": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 61,
-                        "away": 39
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-14",
                 "time": "08:00",
@@ -35324,6 +35446,51 @@ const siteData = {
                     "goals": {
                         "home": 31,
                         "away": 69
+                    }
+                }
+            },
+            {
+                "league": "MLS",
+                "date": "2026-09-14",
+                "time": "08:00",
+                "home": "San Diego",
+                "away": "Philadelphia Union",
+                "stadium": "Snapdragon Stadium",
+                "round": "Pekan 25",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Philadelphia Union and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
