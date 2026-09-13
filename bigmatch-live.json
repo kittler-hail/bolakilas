@@ -2,9 +2,40 @@
   "fixtureId": 1570380,
   "home": "Real Sociedad",
   "away": "Atletico Madrid",
-  "statusCode": "NS",
-  "updatedAt": "14/09/2026 01:50 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "14/09/2026 02:05 WIB",
+  "statistics": {
+    "home": {
+      "possession": 11,
+      "shotsTotal": null,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": null,
+      "passesTotal": 10,
+      "passesAccurate": 7,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 89,
+      "shotsTotal": null,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": null,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": null,
+      "passesTotal": 19,
+      "passesAccurate": 16,
+      "passesPct": null
+    }
+  },
   "lineups": {
     "home": {
       "formation": "4-2-3-1",
@@ -13,119 +44,142 @@
         {
           "number": 1,
           "name": "Álex Remiro",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 2,
           "name": "J. Aramburu",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 34,
           "name": "Luken Beitia",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 19,
           "name": "M. Sarr",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 17,
           "name": "Sergio Gómez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 21,
           "name": "Y. Herrera",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 18,
           "name": "Carlos Soler",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 11,
           "name": "Gonçalo Guedes",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 24,
           "name": "L. Sučić",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 7,
           "name": "Barrenetxea",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 10,
           "name": "Mikel Oyarzabal",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         }
       ],
       "substitutes": [
         {
           "number": 3,
           "name": "Aihen Muñoz",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 13,
           "name": "Unai Marrero",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 22,
           "name": "Héctor Fort",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 12,
           "name": "J. Ochieng",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 4,
           "name": "Jon Gorrotxategi",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 14,
           "name": "T. Kubo",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 16,
           "name": "Jon Pacheco",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 29,
           "name": "Alex Garcia",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 8,
           "name": "Beñat Turrientes",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 23,
           "name": "A. Zakharyan",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 9,
           "name": "O. Óskarsson",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 27,
           "name": "Gorka Carrera",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         }
       ]
     },
@@ -136,119 +190,142 @@
         {
           "number": 13,
           "name": "J. Oblak",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 14,
           "name": "Marcos Llorente",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 21,
           "name": "C. Romero",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 17,
           "name": "D. Hancko",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 18,
           "name": "Marc Pubill",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 20,
           "name": "G. Simeone",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 10,
           "name": "Álex Baena",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 23,
           "name": "M. Hjulmand",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 22,
           "name": "Álex Grimaldo",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 7,
           "name": "Lee Kang-In",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 11,
           "name": "A. Lookman",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         }
       ],
       "substitutes": [
         {
           "number": 5,
           "name": "J. Cardoso",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 15,
           "name": "J. David",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 27,
           "name": "J. Dominguez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 25,
           "name": "Salvador Esquivel",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 6,
           "name": "Koke",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 24,
           "name": "Robin Le Normand",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 4,
           "name": "Rodrigo Mendoza",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 1,
           "name": "J. Musso",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 16,
           "name": "Arnau Ortiz",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 3,
           "name": "O. Vargas",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 45,
           "name": "Javier Gil",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 30,
           "name": "Dani MartÃ­nez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         }
       ]
     }
