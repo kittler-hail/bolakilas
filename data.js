@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T19:04:06.320Z.
+   API-Football v3) pada 2026-09-13T20:05:23.761Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,8 +24,8 @@ const siteData = {
         "stadium": "Anoeta",
         "prediction": "1 - 2",
         "analysis": "Real Sociedad bertemu Atletico Madrid dalam laga LaLiga. Analisis API-Football: Double chance : draw or Atletico Madrid.",
-        "statusCode": "1H",
-        "minuteDisplay": "2'",
+        "statusCode": "HT",
+        "minuteDisplay": "HT",
         "homeScore": 0,
         "awayScore": 0,
         "odds": {
@@ -45,6 +45,11 @@ const siteData = {
         "awayLogo": "https://media.api-sports.io/football/teams/530.png",
         "h2h": [
             {
+                "home": "Real Sociedad",
+                "away": "Atletico Madrid",
+                "score": "0-0"
+            },
+            {
                 "home": "Atletico Madrid",
                 "away": "Real Sociedad",
                 "score": "2-2"
@@ -63,11 +68,6 @@ const siteData = {
                 "home": "Atletico Madrid",
                 "away": "Real Sociedad",
                 "score": "4-0"
-            },
-            {
-                "home": "Real Sociedad",
-                "away": "Atletico Madrid",
-                "score": "1-1"
             }
         ],
         "form": {
@@ -105,6 +105,188 @@ const siteData = {
         }
     },
     "matches": [
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Galatasaray",
+            "away": "Kocaelispor",
+            "stadium": "Rams Park Stadyumu",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Kocaelispor",
+            "comparison": {
+                "form": {
+                    "home": 53,
+                    "away": 47
+                },
+                "att": {
+                    "home": 71,
+                    "away": 29
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 62,
+                    "away": 38
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "goals": [
+                {
+                    "minute": "71",
+                    "player": "A. Bardakci",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "S. Inan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "22",
+                    "player": "A. Dijksteel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "56",
+                    "player": "D. Gul",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "A. Bardakci",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "R. Sallai",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Amed",
+            "away": "Başakşehir",
+            "stadium": "Şilbe Spor Kompleksi",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Winner : Amed",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 54,
+                    "away": 46
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 90,
+                    "away": 10
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "45+1",
+                    "player": "E. Bayram",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "M. Diagne",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "C. Operi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "U. Gunes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "E. Krasniqi",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
         {
             "league": "Primeira Liga",
             "date": "2026-09-14",
@@ -329,188 +511,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Galatasaray",
-            "away": "Kocaelispor",
-            "stadium": "Rams Park Stadyumu",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Kocaelispor",
-            "comparison": {
-                "form": {
-                    "home": 53,
-                    "away": 47
-                },
-                "att": {
-                    "home": 71,
-                    "away": 29
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 62,
-                    "away": 38
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "goals": [
-                {
-                    "minute": "71",
-                    "player": "A. Bardakci",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "16",
-                    "player": "S. Inan",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "22",
-                    "player": "A. Dijksteel",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "56",
-                    "player": "D. Gul",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "A. Bardakci",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "R. Sallai",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Amed",
-            "away": "Başakşehir",
-            "stadium": "Şilbe Spor Kompleksi",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 5,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Winner : Amed",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 54,
-                    "away": 46
-                },
-                "def": {
-                    "home": 55,
-                    "away": 45
-                },
-                "poisson": {
-                    "home": 90,
-                    "away": 10
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "45+1",
-                    "player": "E. Bayram",
-                    "team": "away"
-                },
-                {
-                    "minute": "51",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "55",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "83",
-                    "player": "M. Diagne",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "6",
-                    "player": "C. Operi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "53",
-                    "player": "U. Gunes",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "59",
-                    "player": "E. Krasniqi",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Jupiler Pro League",
             "date": "2026-09-14",
             "time": "00:15",
@@ -518,8 +518,8 @@ const siteData = {
             "away": "Kortrijk",
             "stadium": "Easi Arena",
             "round": "Pekan 6",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
@@ -602,81 +602,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-09-14",
-            "time": "01:00",
-            "home": "Leones Negros UDG",
-            "away": "CA La Paz",
-            "stadium": "Estadio Jalisco",
-            "round": "Apertura - 8",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or CA La Paz",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 46,
-                    "away": 54
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 36,
-                    "away": 64
-                },
-                "h2h": {
-                    "home": 40,
-                    "away": 60
-                },
-                "goals": {
-                    "home": 47,
-                    "away": 53
-                }
-            },
-            "goals": [
-                {
-                    "minute": "17",
-                    "player": "J. Brigido",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "34",
-                    "player": "A. De Jesus Bravo Santiago",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "37",
-                    "player": "Y. Del Aguila",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45+1",
-                    "player": "J. Escalante",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Eredivisie",
             "date": "2026-09-14",
             "time": "01:00",
@@ -684,9 +609,9 @@ const siteData = {
             "away": "Sparta Rotterdam",
             "stadium": "Philips Stadion",
             "round": "Pekan 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/197.png",
             "awayLogo": "https://media.api-sports.io/football/teams/426.png",
@@ -738,6 +663,16 @@ const siteData = {
                     "minute": "39",
                     "player": "Kodai Sano",
                     "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Sven Mijnans",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "Sven Mijnans",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -745,6 +680,132 @@ const siteData = {
                     "minute": "30",
                     "player": "Bruno Martins Indi",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Armando Obispo",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-09-14",
+            "time": "01:00",
+            "home": "Leones Negros UDG",
+            "away": "CA La Paz",
+            "stadium": "Estadio Jalisco",
+            "round": "Apertura - 8",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or CA La Paz",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 46,
+                    "away": 54
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 36,
+                    "away": 64
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 47,
+                    "away": 53
+                }
+            },
+            "goals": [
+                {
+                    "minute": "17",
+                    "player": "J. Brigido",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "M. Barragan",
+                    "team": "away"
+                },
+                {
+                    "minute": "81",
+                    "player": "H. Torres",
+                    "team": "away"
+                },
+                {
+                    "minute": "82",
+                    "player": "C. Robles",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "34",
+                    "player": "A. De Jesus Bravo Santiago",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "C. Robles",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "J. Escalante",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "J. Marchand",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "J. Alonzo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "M. Valenzuela",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "Y. Del Aguila",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "J. Perez",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -755,10 +816,10 @@ const siteData = {
             "time": "01:45",
             "home": "Sassuolo",
             "away": "Juventus",
-            "stadium": "",
+            "stadium": "Mapei Stadium",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "19'",
+            "statusCode": "2H",
+            "minuteDisplay": "64'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/488.png",
@@ -795,7 +856,21 @@ const siteData = {
                     "home": 40,
                     "away": 60
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "J. Lucumi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "L. Lipani",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Ligue 1",
@@ -805,8 +880,8 @@ const siteData = {
             "away": "Paris Saint Germain",
             "stadium": "Stade Francis-Le-Blé",
             "round": "Pekan 4",
-            "statusCode": "1H",
-            "minuteDisplay": "18'",
+            "statusCode": "2H",
+            "minuteDisplay": "59'",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/106.png",
@@ -850,6 +925,14 @@ const siteData = {
                     "player": "Ferrán Torres",
                     "team": "away"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "Kamory Doumbia",
+                    "team": "home",
+                    "type": "yellow"
+                }
             ]
         },
         {
@@ -860,8 +943,8 @@ const siteData = {
             "away": "Atletico Madrid",
             "stadium": "Anoeta",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/548.png",
@@ -898,7 +981,15 @@ const siteData = {
                     "home": 39,
                     "away": 61
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "Yangel Herrera",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Primeira Liga",
@@ -908,7 +999,10 @@ const siteData = {
             "away": "Sporting CP",
             "stadium": "Estadio Municipal de Famalicao",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "32'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/242.png",
             "awayLogo": "https://media.api-sports.io/football/teams/228.png",
             "prediction": "1 - 2",
@@ -1581,6 +1675,17 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "team": "Deportivo La Coruna",
+                "logo": "https://media.api-sports.io/football/teams/544.png",
+                "played": 5,
+                "win": 2,
+                "draw": 3,
+                "lose": 0,
+                "gd": 3,
+                "points": 9
+            },
+            {
+                "rank": 6,
                 "team": "Real Betis",
                 "logo": "https://media.api-sports.io/football/teams/543.png",
                 "played": 4,
@@ -1589,17 +1694,6 @@ const siteData = {
                 "lose": 1,
                 "gd": 0,
                 "points": 9
-            },
-            {
-                "rank": 6,
-                "team": "Deportivo La Coruna",
-                "logo": "https://media.api-sports.io/football/teams/544.png",
-                "played": 4,
-                "win": 2,
-                "draw": 2,
-                "lose": 0,
-                "gd": 3,
-                "points": 8
             },
             {
                 "rank": 7,
@@ -1680,22 +1774,22 @@ const siteData = {
             },
             {
                 "rank": 14,
+                "team": "Getafe",
+                "logo": "https://media.api-sports.io/football/teams/546.png",
+                "played": 5,
+                "win": 1,
+                "draw": 2,
+                "lose": 2,
+                "gd": -3,
+                "points": 5
+            },
+            {
+                "rank": 15,
                 "team": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 6,
                 "win": 0,
                 "draw": 4,
-                "lose": 2,
-                "gd": -3,
-                "points": 4
-            },
-            {
-                "rank": 15,
-                "team": "Getafe",
-                "logo": "https://media.api-sports.io/football/teams/546.png",
-                "played": 4,
-                "win": 1,
-                "draw": 1,
                 "lose": 2,
                 "gd": -3,
                 "points": 4
@@ -2579,7 +2673,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 02:04 WIB",
+    "standingsUpdated": "14/09/2026 03:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35630,8 +35724,8 @@ const siteData = {
                         "away": 62
                     },
                     "poisson": {
-                        "home": 45,
-                        "away": 55
+                        "home": 46,
+                        "away": 54
                     },
                     "h2h": {
                         "home": 50,
@@ -35765,8 +35859,8 @@ const siteData = {
                         "away": 38
                     },
                     "poisson": {
-                        "home": 66,
-                        "away": 34
+                        "home": 65,
+                        "away": 35
                     },
                     "h2h": {
                         "home": 80,
@@ -36231,51 +36325,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Dorados",
-                "away": "Cancún",
-                "stadium": "Estadio El Encanto",
-                "round": "Apertura - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cancún",
-                "comparison": {
-                    "form": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "poisson": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-16",
                 "time": "08:00",
@@ -36317,6 +36366,51 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Dorados",
+                "away": "Cancún",
+                "stadium": "Estadio El Encanto",
+                "round": "Apertura - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cancún",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
