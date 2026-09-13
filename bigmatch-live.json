@@ -3,7 +3,7 @@
   "home": "Sunderland",
   "away": "Arsenal",
   "statusCode": "FT",
-  "updatedAt": "13/09/2026 08:34 WIB",
+  "updatedAt": "13/09/2026 08:49 WIB",
   "statistics": {
     "home": {
       "possession": 42,
@@ -17,7 +17,7 @@
       "shotsInsidebox": 7,
       "shotsOutsidebox": 5,
       "passesTotal": 282,
-      "passesAccurate": 218,
+      "passesAccurate": 217,
       "passesPct": null
     },
     "away": {
@@ -31,7 +31,7 @@
       "redCards": 0,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 3,
-      "passesTotal": 389,
+      "passesTotal": 388,
       "passesAccurate": 322,
       "passesPct": null
     }
