@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T12:05:51.580Z.
+   API-Football v3) pada 2026-09-13T13:04:38.276Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -72,10 +72,32 @@ const siteData = {
         ],
         "form": {
             "home": {
+                "results": [
+                    "L",
+                    "W",
+                    "D",
+                    "L"
+                ],
+                "cleanSheets": 1,
+                "failedToScore": 1,
+                "goalsFor": 3,
+                "goalsAgainst": 5,
+                "winStreak": 1,
                 "attack": 33,
                 "defense": 25
             },
             "away": {
+                "results": [
+                    "W",
+                    "W",
+                    "W",
+                    "W"
+                ],
+                "cleanSheets": 3,
+                "failedToScore": 0,
+                "goalsFor": 8,
+                "goalsAgainst": 1,
+                "winStreak": 4,
                 "attack": 67,
                 "defense": 75
             }
@@ -920,6 +942,12 @@ const siteData = {
                     "minute": "81",
                     "player": "Lukas Mondele",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Birger Verstraete",
+                    "team": "home",
                     "type": "yellow"
                 },
                 {
@@ -2208,7 +2236,61 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "Sam Surridge",
+                    "team": "away"
+                },
+                {
+                    "minute": "19",
+                    "player": " Reed Baker-Whiting",
+                    "team": "away"
+                },
+                {
+                    "minute": "62",
+                    "player": "Lionel Messi",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Sam Surridge",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "9",
+                    "player": "Alex Muyl",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "41",
+                    "player": "Fricio Caicedo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "Maxwell Woledzi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Germán Berterame",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Matías Galarza",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2645,7 +2727,82 @@ const siteData = {
                     "home": 42,
                     "away": 58
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "51",
+                    "player": "R. del Campo",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "24",
+                    "player": "E. Carballo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "28",
+                    "player": "R. del Campo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "L. Hernandez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "K. Magana",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "M. Rodriguez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "R. Sandoval",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "E. Carballo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "E. Carballo",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "68",
+                    "player": "C. A. Flores Sanchez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "L. Hernandez",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "88",
+                    "player": "M. Dominguez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -2779,7 +2936,45 @@ const siteData = {
                     "home": 39,
                     "away": 61
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "41",
+                    "player": "Nicolás Fernández Mercau",
+                    "team": "away"
+                },
+                {
+                    "minute": "61",
+                    "player": "Luighi Hanri Sousa Santos",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "64",
+                    "player": "Alexandros Katranis",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Lineker Rodrigues",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Kevin O'Toole",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Matthew Freese",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2827,7 +3022,34 @@ const siteData = {
                     "home": 65,
                     "away": 35
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "43",
+                    "player": "Paxten Aaronson",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "81",
+                    "player": "Dante Sealy",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Kosi Thompson",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Wayne Frederick",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2875,7 +3097,46 @@ const siteData = {
                     "home": 46,
                     "away": 54
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "38",
+                    "player": "Daniel Munie",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "1",
+                    "player": "Ronaldo Vieira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "3",
+                    "player": "Bruce Arena",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "19",
+                    "player": "Beau Leroux",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Agustin Resch",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Benjamin Kikanovic",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -2923,7 +3184,33 @@ const siteData = {
                     "home": 38,
                     "away": 62
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "44",
+                    "player": "Marco Reus",
+                    "team": "home"
+                },
+                {
+                    "minute": "81",
+                    "player": "Paul Arriola",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "90+5",
+                    "player": "Peter Kingston",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Hassani Dotson",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -2971,7 +3258,88 @@ const siteData = {
                     "home": 56,
                     "away": 44
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "Erik Lira",
+                    "team": "home"
+                },
+                {
+                    "minute": "35",
+                    "player": "José Paradela",
+                    "team": "home"
+                },
+                {
+                    "minute": "45",
+                    "player": "Jesús Orozco",
+                    "team": "home"
+                },
+                {
+                    "minute": "52",
+                    "player": "Brian Rodríguez",
+                    "team": "away"
+                },
+                {
+                    "minute": "72",
+                    "player": "Gabriel Fernández",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Oscar Andres Perea Abonce",
+                    "team": "away"
+                },
+                {
+                    "minute": "90",
+                    "player": "Miguel Borja",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+6",
+                    "player": "Jesús Orozco",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+6",
+                    "player": "Raphael Veiga",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+6",
+                    "player": "Nicolás Ibañez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+6",
+                    "player": "Alan Cervantes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Erik Lira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Ángel Márquez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "José Paradela",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -3019,7 +3387,59 @@ const siteData = {
                     "home": 29,
                     "away": 71
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "Gabriel Silva",
+                    "team": "away"
+                },
+                {
+                    "minute": "35",
+                    "player": "Gustavo Franca",
+                    "team": "away"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "S. Jevtoski",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "MV",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "L. Cumic",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "L. Cumic",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "23",
+                    "player": "A. Maulana",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "M. Hidayat",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "R. Fandi",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -3067,7 +3487,54 @@ const siteData = {
                     "home": 43,
                     "away": 57
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "15",
+                    "player": "A. Ramalingom",
+                    "team": "home"
+                },
+                {
+                    "minute": "30",
+                    "player": "D. da Silva",
+                    "team": "away"
+                },
+                {
+                    "minute": "38",
+                    "player": "D. da Silva",
+                    "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "R. Rodriguez",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "A. Andrejic",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "60",
+                    "player": "J. Guseynov",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "F. Sudin",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "C. Gomis",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -3077,8 +3544,8 @@ const siteData = {
             "away": "Utrecht",
             "stadium": "Stadion Woudestein",
             "round": "Pekan 6",
-            "statusCode": "2H",
-            "minuteDisplay": "90+3'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/196.png",
@@ -3115,7 +3582,38 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "36",
+                    "player": "Artem Stepanov",
+                    "team": "away"
+                },
+                {
+                    "minute": "77",
+                    "player": "Aymen sliti",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Dani De Wit",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "71",
+                    "player": "Valentin Sulzbacher",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Mario Domínguez Franco",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -3125,9 +3623,9 @@ const siteData = {
             "away": "Antwerp",
             "stadium": "Jan Breydel Stadion",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "36'",
-            "homeScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "72'",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/569.png",
             "awayLogo": "https://media.api-sports.io/football/teams/740.png",
@@ -3163,7 +3661,44 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "Hugo Vetlesen",
+                    "team": "home"
+                },
+                {
+                    "minute": "19",
+                    "player": "Snayder Porozo",
+                    "team": "away"
+                },
+                {
+                    "minute": "50",
+                    "player": "Hugo Vetlesen",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+4",
+                    "player": "Semm Renders",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Jorne Spileers",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Romeo Vermant",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "LaLiga",
@@ -3173,9 +3708,9 @@ const siteData = {
             "away": "Malaga",
             "stadium": "",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/538.png",
             "awayLogo": "https://media.api-sports.io/football/teams/535.png",
@@ -3211,7 +3746,28 @@ const siteData = {
                     "home": 45,
                     "away": 55
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "41",
+                    "player": "Ferran Jutglà",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "24",
+                    "player": "Einar Galilea",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "26",
+                    "player": "Yoel Lago",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -3221,8 +3777,8 @@ const siteData = {
             "away": "PSIM Yogyakarta",
             "stadium": "Gelora Bung Tomo Stadium",
             "round": "Pekan 2",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2446.png",
@@ -3259,7 +3815,21 @@ const siteData = {
                     "home": 75,
                     "away": 25
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "O. Rudzan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "R. Irianto",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Eredivisie",
@@ -3269,7 +3839,10 @@ const siteData = {
             "away": "Telstar",
             "stadium": "Abe Lenstra Stadion",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "33'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/210.png",
             "awayLogo": "https://media.api-sports.io/football/teams/427.png",
             "prediction": "2 - 1",
@@ -3314,7 +3887,10 @@ const siteData = {
             "away": "Brighton",
             "stadium": "Coventry Building Society Arena",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1346.png",
             "awayLogo": "https://media.api-sports.io/football/teams/51.png",
             "prediction": "1 - 2",
@@ -3359,7 +3935,10 @@ const siteData = {
             "away": "Monza",
             "stadium": "Stadio Via del Mare",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/867.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1579.png",
             "prediction": "3 - 2",
@@ -3404,7 +3983,10 @@ const siteData = {
             "away": "Estac Troyes",
             "stadium": "Stade Pierre-Mauroy",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/79.png",
             "awayLogo": "https://media.api-sports.io/football/teams/110.png",
             "prediction": "2 - 1",
@@ -3439,7 +4021,14 @@ const siteData = {
                     "home": 63,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "2",
+                    "player": "Hákon Arnar Haraldsson",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -5090,6 +5679,28 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "team": "Arema FC",
+                "logo": "https://media.api-sports.io/football/teams/2438.png",
+                "played": 2,
+                "win": 1,
+                "draw": 1,
+                "lose": 0,
+                "gd": 4,
+                "points": 4
+            },
+            {
+                "rank": 5,
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "played": 2,
+                "win": 1,
+                "draw": 1,
+                "lose": 0,
+                "gd": 1,
+                "points": 4
+            },
+            {
+                "rank": 6,
                 "team": "Dewa United",
                 "logo": "https://media.api-sports.io/football/teams/17902.png",
                 "played": 2,
@@ -5100,18 +5711,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 5,
-                "team": "Arema FC",
-                "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 1,
-                "win": 1,
-                "draw": 0,
-                "lose": 0,
-                "gd": 4,
-                "points": 3
-            },
-            {
-                "rank": 6,
+                "rank": 7,
                 "team": "Persib Bandung",
                 "logo": "https://media.api-sports.io/football/teams/2445.png",
                 "played": 2,
@@ -5122,7 +5722,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Persik Kediri",
                 "logo": "https://media.api-sports.io/football/teams/4241.png",
                 "played": 2,
@@ -5133,7 +5733,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
                 "played": 2,
@@ -5144,7 +5744,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "Bhayangkara FC",
                 "logo": "https://media.api-sports.io/football/teams/2443.png",
                 "played": 2,
@@ -5155,40 +5755,18 @@ const siteData = {
                 "points": 2
             },
             {
-                "rank": 10,
-                "team": "PSIM Yogyakarta",
-                "logo": "https://media.api-sports.io/football/teams/4235.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
-            },
-            {
                 "rank": 11,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 1,
+                "team": "Java United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
+                "played": 2,
                 "win": 0,
                 "draw": 1,
-                "lose": 0,
-                "gd": 0,
+                "lose": 1,
+                "gd": -1,
                 "points": 1
             },
             {
                 "rank": 12,
-                "team": "Java United",
-                "logo": "https://media.api-sports.io/football/teams/22409.png",
-                "played": 1,
-                "win": 0,
-                "draw": 1,
-                "lose": 0,
-                "gd": 0,
-                "points": 1
-            },
-            {
-                "rank": 13,
                 "team": "Garudayaksa",
                 "logo": "https://media.api-sports.io/football/teams/26645.png",
                 "played": 2,
@@ -5199,9 +5777,20 @@ const siteData = {
                 "points": 1
             },
             {
-                "rank": 14,
+                "rank": 13,
                 "team": "Persebaya Surabaya",
                 "logo": "https://media.api-sports.io/football/teams/2446.png",
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "gd": 0,
+                "points": 1
+            },
+            {
+                "rank": 14,
+                "team": "PSIM Yogyakarta",
+                "logo": "https://media.api-sports.io/football/teams/4235.png",
                 "played": 1,
                 "win": 0,
                 "draw": 1,
@@ -5213,12 +5802,12 @@ const siteData = {
                 "rank": 15,
                 "team": "PSM Makassar",
                 "logo": "https://media.api-sports.io/football/teams/2441.png",
-                "played": 1,
+                "played": 2,
                 "win": 0,
-                "draw": 0,
+                "draw": 1,
                 "lose": 1,
                 "gd": -2,
-                "points": 0
+                "points": 1
             },
             {
                 "rank": 16,
@@ -5255,7 +5844,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "13/09/2026 18:04 WIB",
+    "standingsUpdated": "13/09/2026 20:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -5342,6 +5931,22 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "Sergio Camello",
+                "photo": "https://media.api-sports.io/football/players/52.png",
+                "team": "Rayo Vallecano",
+                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
+                "value": 6
+            },
+            {
+                "rank": 2,
+                "name": "Kylian Mbappé",
+                "photo": "https://media.api-sports.io/football/players/278.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "value": 6
+            },
+            {
+                "rank": 3,
                 "name": "Raphinha",
                 "photo": "https://media.api-sports.io/football/players/1496.png",
                 "team": "Barcelona",
@@ -5349,15 +5954,23 @@ const siteData = {
                 "value": 6
             },
             {
-                "rank": 2,
-                "name": "Sergio Camello",
-                "photo": "https://media.api-sports.io/football/players/52.png",
-                "team": "Rayo Vallecano",
-                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
+                "rank": 4,
+                "name": "M. Zabiri",
+                "photo": "https://media.api-sports.io/football/players/457101.png",
+                "team": "Racing Santander",
+                "teamLogo": "https://media.api-sports.io/football/teams/4665.png",
                 "value": 5
             },
             {
-                "rank": 3,
+                "rank": 5,
+                "name": "Roberto Fernández",
+                "photo": "https://media.api-sports.io/football/players/312990.png",
+                "team": "Espanyol",
+                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
+                "value": 5
+            },
+            {
+                "rank": 6,
                 "name": "Fermín",
                 "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
@@ -5365,7 +5978,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 4,
+                "rank": 7,
                 "name": "P. Aubameyang",
                 "photo": "https://media.api-sports.io/football/players/1465.png",
                 "team": "Deportivo La Coruna",
@@ -5373,23 +5986,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 5,
-                "name": "Lamine Yamal",
-                "photo": "https://media.api-sports.io/football/players/386828.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
-                "value": 4
-            },
-            {
-                "rank": 6,
-                "name": "Kylian Mbappé",
-                "photo": "https://media.api-sports.io/football/players/278.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 4
-            },
-            {
-                "rank": 7,
+                "rank": 8,
                 "name": "L. Boyé",
                 "photo": "https://media.api-sports.io/football/players/608.png",
                 "team": "Alaves",
@@ -5397,28 +5994,20 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 8,
+                "rank": 9,
+                "name": "Lamine Yamal",
+                "photo": "https://media.api-sports.io/football/players/386828.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 4
+            },
+            {
+                "rank": 10,
                 "name": "A. Budimir",
                 "photo": "https://media.api-sports.io/football/players/46746.png",
                 "team": "Osasuna",
                 "teamLogo": "https://media.api-sports.io/football/teams/727.png",
                 "value": 4
-            },
-            {
-                "rank": 9,
-                "name": "M. Díaz",
-                "photo": "https://media.api-sports.io/football/players/760.png",
-                "team": "Alaves",
-                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
-                "value": 3
-            },
-            {
-                "rank": 10,
-                "name": "Álex Baena",
-                "photo": "https://media.api-sports.io/football/players/182219.png",
-                "team": "Atletico Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
-                "value": 3
             }
         ],
         "Serie A": [
@@ -5456,6 +6045,14 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "name": "G. Kvernadze",
+                "photo": "https://media.api-sports.io/football/players/311251.png",
+                "team": "Frosinone",
+                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
+                "value": 2
+            },
+            {
+                "rank": 6,
                 "name": "M. Soulé",
                 "photo": "https://media.api-sports.io/football/players/323936.png",
                 "team": "AS Roma",
@@ -5463,7 +6060,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "M. Baturina",
                 "photo": "https://media.api-sports.io/football/players/295026.png",
                 "team": "Como",
@@ -5471,7 +6068,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "Assane Diao",
                 "photo": "https://media.api-sports.io/football/players/400948.png",
                 "team": "Como",
@@ -5479,7 +6076,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "H. Kamara",
                 "photo": "https://media.api-sports.io/football/players/22007.png",
                 "team": "Udinese",
@@ -5487,19 +6084,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 9,
-                "name": "Mateo Pellegrino",
-                "photo": "https://media.api-sports.io/football/players/292172.png",
-                "team": "Fiorentina",
-                "teamLogo": "https://media.api-sports.io/football/teams/502.png",
-                "value": 2
-            },
-            {
                 "rank": 10,
-                "name": "H. Çalhanoğlu",
-                "photo": "https://media.api-sports.io/football/players/1640.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
+                "name": "A. Cissè",
+                "photo": "https://media.api-sports.io/football/players/359100.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 2
             }
         ],
@@ -5770,6 +6359,14 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "Vinícius Júnior",
+                "photo": "https://media.api-sports.io/football/players/762.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "value": 3
+            },
+            {
+                "rank": 4,
                 "name": "Angel Pérez",
                 "photo": "https://media.api-sports.io/football/players/331369.png",
                 "team": "Alaves",
@@ -5777,7 +6374,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "Javier Hernandez",
                 "photo": "https://media.api-sports.io/football/players/388495.png",
                 "team": "Espanyol",
@@ -5785,7 +6382,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "Unai López",
                 "photo": "https://media.api-sports.io/football/players/47285.png",
                 "team": "Rayo Vallecano",
@@ -5793,7 +6390,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "Fermín",
                 "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
@@ -5801,7 +6398,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "P. Aubameyang",
                 "photo": "https://media.api-sports.io/football/players/1465.png",
                 "team": "Deportivo La Coruna",
@@ -5809,7 +6406,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "J. Bellingham",
                 "photo": "https://media.api-sports.io/football/players/129718.png",
                 "team": "Real Madrid",
@@ -5817,19 +6414,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 9,
-                "name": "Vinícius Júnior",
-                "photo": "https://media.api-sports.io/football/players/762.png",
+                "rank": 10,
+                "name": "A. Güler",
+                "photo": "https://media.api-sports.io/football/players/291964.png",
                 "team": "Real Madrid",
                 "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "J. Ochieng",
-                "photo": "https://media.api-sports.io/football/players/387139.png",
-                "team": "Real Sociedad",
-                "teamLogo": "https://media.api-sports.io/football/teams/548.png",
                 "value": 2
             }
         ],
@@ -5844,10 +6433,10 @@ const siteData = {
             },
             {
                 "rank": 2,
-                "name": "G. Busio",
-                "photo": "https://media.api-sports.io/football/players/51266.png",
-                "team": "Venezia",
-                "teamLogo": "https://media.api-sports.io/football/teams/517.png",
+                "name": "A. Rabiot",
+                "photo": "https://media.api-sports.io/football/players/272.png",
+                "team": "AC Milan",
+                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 2
             },
             {
@@ -5860,6 +6449,30 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "name": "G. Busio",
+                "photo": "https://media.api-sports.io/football/players/51266.png",
+                "team": "Venezia",
+                "teamLogo": "https://media.api-sports.io/football/teams/517.png",
+                "value": 2
+            },
+            {
+                "rank": 5,
+                "name": "M. Zaccagni",
+                "photo": "https://media.api-sports.io/football/players/30937.png",
+                "team": "Lazio",
+                "teamLogo": "https://media.api-sports.io/football/teams/487.png",
+                "value": 2
+            },
+            {
+                "rank": 6,
+                "name": "M. Adopo",
+                "photo": "https://media.api-sports.io/football/players/30505.png",
+                "team": "Cagliari",
+                "teamLogo": "https://media.api-sports.io/football/teams/490.png",
+                "value": 2
+            },
+            {
+                "rank": 7,
                 "name": "Ricardo Mangas",
                 "photo": "https://media.api-sports.io/football/players/41324.png",
                 "team": "Monza",
@@ -5867,7 +6480,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 8,
                 "name": "A. Diouf",
                 "photo": "https://media.api-sports.io/football/players/270509.png",
                 "team": "Inter",
@@ -5875,43 +6488,19 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
-                "name": "M. Soulé",
-                "photo": "https://media.api-sports.io/football/players/323936.png",
-                "team": "AS Roma",
-                "teamLogo": "https://media.api-sports.io/football/teams/497.png",
-                "value": 1
-            },
-            {
-                "rank": 7,
-                "name": "M. Baturina",
-                "photo": "https://media.api-sports.io/football/players/295026.png",
-                "team": "Como",
-                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
-                "value": 1
-            },
-            {
-                "rank": 8,
-                "name": "Assane Diao",
-                "photo": "https://media.api-sports.io/football/players/400948.png",
-                "team": "Como",
-                "teamLogo": "https://media.api-sports.io/football/teams/895.png",
-                "value": 1
-            },
-            {
                 "rank": 9,
-                "name": "H. Kamara",
-                "photo": "https://media.api-sports.io/football/players/22007.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
+                "name": "G. Kvernadze",
+                "photo": "https://media.api-sports.io/football/players/311251.png",
+                "team": "Frosinone",
+                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
                 "value": 1
             },
             {
                 "rank": 10,
-                "name": "A. Hainaut",
-                "photo": "https://media.api-sports.io/football/players/275394.png",
-                "team": "Venezia",
-                "teamLogo": "https://media.api-sports.io/football/teams/517.png",
+                "name": "M. Soulé",
+                "photo": "https://media.api-sports.io/football/players/323936.png",
+                "team": "AS Roma",
+                "teamLogo": "https://media.api-sports.io/football/teams/497.png",
                 "value": 1
             }
         ],
@@ -35544,51 +36133,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-14",
-                "time": "01:00",
-                "home": "Leones Negros UDG",
-                "away": "CA La Paz",
-                "stadium": "Estadio Jalisco",
-                "round": "Apertura - 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or CA La Paz",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
-                    }
-                }
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-09-14",
                 "time": "01:00",
@@ -35630,6 +36174,51 @@ const siteData = {
                     "goals": {
                         "home": 77,
                         "away": 23
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-14",
+                "time": "01:00",
+                "home": "Leones Negros UDG",
+                "away": "CA La Paz",
+                "stadium": "Estadio Jalisco",
+                "round": "Apertura - 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or CA La Paz",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
