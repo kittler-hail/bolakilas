@@ -3,36 +3,36 @@
   "home": "Real Sociedad",
   "away": "Atletico Madrid",
   "statusCode": "1H",
-  "updatedAt": "14/09/2026 02:35 WIB",
+  "updatedAt": "14/09/2026 02:48 WIB",
   "statistics": {
     "home": {
       "possession": 52,
-      "shotsTotal": 0,
-      "shotsOnTarget": 0,
-      "corners": 2,
-      "fouls": 6,
+      "shotsTotal": 3,
+      "shotsOnTarget": 1,
+      "corners": 5,
+      "fouls": 7,
       "offsides": 0,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 0,
-      "shotsOutsidebox": 0,
-      "passesTotal": 208,
-      "passesAccurate": 179,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 1,
+      "passesTotal": 256,
+      "passesAccurate": 218,
       "passesPct": null
     },
     "away": {
       "possession": 48,
-      "shotsTotal": 3,
+      "shotsTotal": 4,
       "shotsOnTarget": 0,
-      "corners": 1,
-      "fouls": 3,
+      "corners": 2,
+      "fouls": 4,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 1,
-      "passesTotal": 196,
-      "passesAccurate": 163,
+      "passesTotal": 237,
+      "passesAccurate": 193,
       "passesPct": null
     }
   },
@@ -51,31 +51,31 @@
           "number": 2,
           "name": "J. Aramburu",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.1"
         },
         {
           "number": 34,
           "name": "Luken Beitia",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.4"
         },
         {
           "number": 19,
           "name": "M. Sarr",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 17,
           "name": "Sergio Gómez",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 21,
           "name": "Y. Herrera",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 18,
@@ -93,19 +93,19 @@
           "number": 24,
           "name": "L. Sučić",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 7,
           "name": "Barrenetxea",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 10,
           "name": "Mikel Oyarzabal",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -191,25 +191,25 @@
           "number": 13,
           "name": "J. Oblak",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "7.1"
         },
         {
           "number": 14,
           "name": "Marcos Llorente",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.5"
         },
         {
           "number": 21,
           "name": "C. Romero",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.8"
         },
         {
           "number": 17,
           "name": "D. Hancko",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 18,
@@ -221,19 +221,19 @@
           "number": 20,
           "name": "G. Simeone",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 10,
           "name": "Álex Baena",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.9"
         },
         {
           "number": 23,
           "name": "M. Hjulmand",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.0"
         },
         {
           "number": 22,
@@ -245,13 +245,13 @@
           "number": 7,
           "name": "Lee Kang-In",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.0"
         },
         {
           "number": 11,
           "name": "A. Lookman",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
