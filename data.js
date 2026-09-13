@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T10:12:49.683Z.
+   API-Football v3) pada 2026-09-13T11:04:58.909Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -72,10 +72,32 @@ const siteData = {
         ],
         "form": {
             "home": {
+                "results": [
+                    "L",
+                    "W",
+                    "D",
+                    "L"
+                ],
+                "cleanSheets": 1,
+                "failedToScore": 1,
+                "goalsFor": 3,
+                "goalsAgainst": 5,
+                "winStreak": 1,
                 "attack": 33,
                 "defense": 25
             },
             "away": {
+                "results": [
+                    "W",
+                    "W",
+                    "W",
+                    "W"
+                ],
+                "cleanSheets": 3,
+                "failedToScore": 0,
+                "goalsFor": 8,
+                "goalsAgainst": 1,
+                "winStreak": 4,
                 "attack": 67,
                 "defense": 75
             }
@@ -3321,9 +3343,9 @@ const siteData = {
             "away": "Arema FC",
             "stadium": "Gelora BJ Habibie",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "80'",
-            "homeScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2441.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2438.png",
@@ -3385,6 +3407,11 @@ const siteData = {
                     "minute": "66",
                     "player": "L. Cumic",
                     "team": "home"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "L. Cumic",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -3392,6 +3419,24 @@ const siteData = {
                     "minute": "23",
                     "player": "A. Maulana",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "M. Hidayat",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "R. Fandi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -3404,9 +3449,9 @@ const siteData = {
             "away": "Java United",
             "stadium": "Utama Sport Center Kelapa Dua",
             "round": "Pekan 2",
-            "statusCode": "2H",
-            "minuteDisplay": "84'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/4244.png",
             "awayLogo": "https://media.api-sports.io/football/teams/22409.png",
@@ -3458,6 +3503,16 @@ const siteData = {
                     "minute": "38",
                     "player": "D. da Silva",
                     "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "R. Rodriguez",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "A. Andrejic",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -3465,6 +3520,18 @@ const siteData = {
                     "minute": "60",
                     "player": "J. Guseynov",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "F. Sudin",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "C. Gomis",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -3477,7 +3544,10 @@ const siteData = {
             "away": "Utrecht",
             "stadium": "Stadion Woudestein",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/196.png",
             "awayLogo": "https://media.api-sports.io/football/teams/207.png",
             "prediction": "3 - 1",
@@ -3512,7 +3582,14 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "36",
+                    "player": "Artem Stepanov",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -3875,51 +3952,6 @@ const siteData = {
             }
         },
         {
-            "league": "Super Lig",
-            "date": "2026-09-13",
-            "time": "21:00",
-            "home": "Gençlerbirliği S.K.",
-            "away": "Kasımpaşa",
-            "stadium": "Eryaman Stadium",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Kasımpaşa",
-            "comparison": {
-                "form": {
-                    "home": 54,
-                    "away": 46
-                },
-                "att": {
-                    "home": 44,
-                    "away": 56
-                },
-                "def": {
-                    "home": 36,
-                    "away": 64
-                },
-                "poisson": {
-                    "home": 39,
-                    "away": 61
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 42,
-                    "away": 58
-                }
-            }
-        },
-        {
             "league": "Jupiler Pro League",
             "date": "2026-09-13",
             "time": "21:00",
@@ -3961,6 +3993,51 @@ const siteData = {
                 "goals": {
                     "home": 76,
                     "away": 24
+                }
+            }
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-13",
+            "time": "21:00",
+            "home": "Gençlerbirliği S.K.",
+            "away": "Kasımpaşa",
+            "stadium": "Eryaman Stadium",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/997.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1004.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Kasımpaşa",
+            "comparison": {
+                "form": {
+                    "home": 54,
+                    "away": 46
+                },
+                "att": {
+                    "home": 44,
+                    "away": 56
+                },
+                "def": {
+                    "home": 36,
+                    "away": 64
+                },
+                "poisson": {
+                    "home": 39,
+                    "away": 61
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 42,
+                    "away": 58
                 }
             }
         },
@@ -5643,7 +5720,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "13/09/2026 16:28 WIB",
+    "standingsUpdated": "13/09/2026 18:04 WIB",
     "topScorers": {
         "Premier League": [
             {
