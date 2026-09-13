@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T21:04:53.864Z.
+   API-Football v3) pada 2026-09-13T22:05:30.929Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -602,95 +602,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-09-14",
-            "time": "01:00",
-            "home": "PSV Eindhoven",
-            "away": "Sparta Rotterdam",
-            "stadium": "Philips Stadion",
-            "round": "Pekan 6",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 4,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/197.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Combo Winner : PSV Eindhoven and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 72,
-                    "away": 28
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 60,
-                    "away": 40
-                },
-                "poisson": {
-                    "home": 72,
-                    "away": 28
-                },
-                "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 77,
-                    "away": 23
-                }
-            },
-            "goals": [
-                {
-                    "minute": "15",
-                    "player": "Milan Zonneveld",
-                    "team": "away"
-                },
-                {
-                    "minute": "23",
-                    "player": "Sven Mijnans",
-                    "team": "home"
-                },
-                {
-                    "minute": "39",
-                    "player": "Kodai Sano",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "Sven Mijnans",
-                    "team": "home"
-                },
-                {
-                    "minute": "88",
-                    "player": "Sven Mijnans",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "30",
-                    "player": "Bruno Martins Indi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "75",
-                    "player": "Armando Obispo",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-14",
             "time": "01:00",
@@ -811,76 +722,90 @@ const siteData = {
             ]
         },
         {
-            "league": "Ligue 1",
+            "league": "Eredivisie",
             "date": "2026-09-14",
-            "time": "01:45",
-            "home": "Stade Brestois 29",
-            "away": "Paris Saint Germain",
-            "stadium": "Stade Francis-Le-Blé",
-            "round": "Pekan 4",
+            "time": "01:00",
+            "home": "PSV Eindhoven",
+            "away": "Sparta Rotterdam",
+            "stadium": "Philips Stadion",
+            "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
-            "homeScore": 0,
+            "homeScore": 4,
             "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/106.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
-            "prediction": "2 - 3",
+            "homeLogo": "https://media.api-sports.io/football/teams/197.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
+            "prediction": "3 - 2",
             "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
+                "home": 50,
+                "draw": 50,
+                "away": 33
             },
-            "advice": "Combo Double chance : draw or Paris Saint Germain and +1.5 goals",
+            "advice": "Combo Winner : PSV Eindhoven and +1.5 goals",
             "comparison": {
                 "form": {
-                    "home": 71,
-                    "away": 29
+                    "home": 72,
+                    "away": 28
                 },
                 "att": {
-                    "home": 55,
-                    "away": 45
+                    "home": 67,
+                    "away": 33
                 },
                 "def": {
-                    "home": 55,
-                    "away": 45
+                    "home": 60,
+                    "away": 40
                 },
                 "poisson": {
-                    "home": 50,
-                    "away": 50
+                    "home": 72,
+                    "away": 28
                 },
                 "h2h": {
-                    "home": 0,
-                    "away": 100
+                    "home": 100,
+                    "away": 0
                 },
                 "goals": {
-                    "home": 10,
-                    "away": 90
+                    "home": 77,
+                    "away": 23
                 }
             },
             "goals": [
                 {
-                    "minute": "5",
-                    "player": "Ferrán Torres",
+                    "minute": "15",
+                    "player": "Milan Zonneveld",
                     "team": "away"
+                },
+                {
+                    "minute": "23",
+                    "player": "Sven Mijnans",
+                    "team": "home"
+                },
+                {
+                    "minute": "39",
+                    "player": "Kodai Sano",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Sven Mijnans",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "Sven Mijnans",
+                    "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "30",
-                    "player": "Kamory Doumbia",
+                    "player": "Bruno Martins Indi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Armando Obispo",
                     "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "84",
-                    "player": "Vitinha",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "87",
-                    "player": "Dro Fernández",
-                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -987,6 +912,81 @@ const siteData = {
             ]
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-09-14",
+            "time": "01:45",
+            "home": "Stade Brestois 29",
+            "away": "Paris Saint Germain",
+            "stadium": "Stade Francis-Le-Blé",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/106.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Paris Saint Germain and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 71,
+                    "away": 29
+                },
+                "att": {
+                    "home": 55,
+                    "away": 45
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 50,
+                    "away": 50
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 100
+                },
+                "goals": {
+                    "home": 10,
+                    "away": 90
+                }
+            },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "Ferrán Torres",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "Kamory Doumbia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Vitinha",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Dro Fernández",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "LaLiga",
             "date": "2026-09-14",
             "time": "02:00",
@@ -1085,10 +1085,10 @@ const siteData = {
             "away": "Sporting CP",
             "stadium": "Estadio Municipal de Famalicao",
             "round": "Pekan 6",
-            "statusCode": "2H",
-            "minuteDisplay": "71'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/242.png",
             "awayLogo": "https://media.api-sports.io/football/teams/228.png",
             "prediction": "1 - 2",
@@ -1124,11 +1124,65 @@ const siteData = {
                     "away": 83
                 }
             },
+            "goals": [
+                {
+                    "minute": "81",
+                    "player": "Luis Suárez",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Gonçalo Inácio",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "45+1",
                     "player": "Gil Dias",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "Geny Catamo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Marcos Vinicios Lopes Moura",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Carlos Augusto Soares da Costa Faria Carvalhal",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Luis Suárez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Roméo Beney",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "90",
+                    "player": "Nestory Irankunda",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Iván Fresneda",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1141,7 +1195,10 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Soldier Field",
             "round": "Pekan 25",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1607.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1609.png",
             "prediction": "2 - 2",
@@ -1758,6 +1815,17 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "team": "Atletico Madrid",
+                "logo": "https://media.api-sports.io/football/teams/530.png",
+                "played": 5,
+                "win": 3,
+                "draw": 1,
+                "lose": 1,
+                "gd": 4,
+                "points": 10
+            },
+            {
+                "rank": 5,
                 "team": "Sevilla",
                 "logo": "https://media.api-sports.io/football/teams/536.png",
                 "played": 5,
@@ -1768,7 +1836,7 @@ const siteData = {
                 "points": 10
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Deportivo La Coruna",
                 "logo": "https://media.api-sports.io/football/teams/544.png",
                 "played": 5,
@@ -1779,7 +1847,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Real Betis",
                 "logo": "https://media.api-sports.io/football/teams/543.png",
                 "played": 4,
@@ -1790,7 +1858,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Espanyol",
                 "logo": "https://media.api-sports.io/football/teams/540.png",
                 "played": 5,
@@ -1798,17 +1866,6 @@ const siteData = {
                 "draw": 1,
                 "lose": 2,
                 "gd": 3,
-                "points": 7
-            },
-            {
-                "rank": 8,
-                "team": "Atletico Madrid",
-                "logo": "https://media.api-sports.io/football/teams/530.png",
-                "played": 4,
-                "win": 2,
-                "draw": 1,
-                "lose": 1,
-                "gd": 1,
                 "points": 7
             },
             {
@@ -1835,17 +1892,6 @@ const siteData = {
             },
             {
                 "rank": 11,
-                "team": "Real Sociedad",
-                "logo": "https://media.api-sports.io/football/teams/548.png",
-                "played": 5,
-                "win": 2,
-                "draw": 1,
-                "lose": 2,
-                "gd": -2,
-                "points": 7
-            },
-            {
-                "rank": 12,
                 "team": "Osasuna",
                 "logo": "https://media.api-sports.io/football/teams/727.png",
                 "played": 5,
@@ -1853,6 +1899,17 @@ const siteData = {
                 "draw": 1,
                 "lose": 2,
                 "gd": -3,
+                "points": 7
+            },
+            {
+                "rank": 12,
+                "team": "Real Sociedad",
+                "logo": "https://media.api-sports.io/football/teams/548.png",
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "gd": -5,
                 "points": 7
             },
             {
@@ -2013,17 +2070,6 @@ const siteData = {
             },
             {
                 "rank": 7,
-                "team": "Juventus",
-                "logo": "https://media.api-sports.io/football/teams/496.png",
-                "played": 3,
-                "win": 2,
-                "draw": 1,
-                "lose": 0,
-                "gd": 3,
-                "points": 7
-            },
-            {
-                "rank": 8,
                 "team": "Frosinone",
                 "logo": "https://media.api-sports.io/football/teams/512.png",
                 "played": 4,
@@ -2034,7 +2080,29 @@ const siteData = {
                 "points": 7
             },
             {
+                "rank": 8,
+                "team": "Juventus",
+                "logo": "https://media.api-sports.io/football/teams/496.png",
+                "played": 4,
+                "win": 2,
+                "draw": 1,
+                "lose": 1,
+                "gd": 2,
+                "points": 7
+            },
+            {
                 "rank": 9,
+                "team": "Sassuolo",
+                "logo": "https://media.api-sports.io/football/teams/488.png",
+                "played": 4,
+                "win": 2,
+                "draw": 1,
+                "lose": 1,
+                "gd": 1,
+                "points": 7
+            },
+            {
+                "rank": 10,
                 "team": "Napoli",
                 "logo": "https://media.api-sports.io/football/teams/492.png",
                 "played": 4,
@@ -2045,7 +2113,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Atalanta",
                 "logo": "https://media.api-sports.io/football/teams/499.png",
                 "played": 4,
@@ -2056,7 +2124,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Lecce",
                 "logo": "https://media.api-sports.io/football/teams/867.png",
                 "played": 4,
@@ -2065,17 +2133,6 @@ const siteData = {
                 "lose": 2,
                 "gd": -2,
                 "points": 6
-            },
-            {
-                "rank": 12,
-                "team": "Sassuolo",
-                "logo": "https://media.api-sports.io/football/teams/488.png",
-                "played": 3,
-                "win": 1,
-                "draw": 1,
-                "lose": 1,
-                "gd": 0,
-                "points": 4
             },
             {
                 "rank": 13,
@@ -2767,7 +2824,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 04:04 WIB",
+    "standingsUpdated": "14/09/2026 05:05 WIB",
     "topScorers": {
         "Premier League": [
             {
