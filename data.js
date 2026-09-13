@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T17:04:33.857Z.
+   API-Football v3) pada 2026-09-13T18:05:45.113Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -103,100 +103,67 @@ const siteData = {
     },
     "matches": [
         {
-            "league": "Primeira Liga",
+            "league": "Super Lig",
             "date": "2026-09-14",
             "time": "00:00",
-            "home": "Benfica",
-            "away": "GIL Vicente",
-            "stadium": "",
-            "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
+            "home": "Amed",
+            "away": "Başakşehir",
+            "stadium": "Şilbe Spor Kompleksi",
+            "round": "Pekan 5",
+            "statusCode": "2H",
+            "minuteDisplay": "48'",
+            "homeScore": 1,
             "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/211.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/762.png",
+            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
             "prediction": "2 - 1",
             "odds": {
                 "home": 45,
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Winner : Benfica",
+            "advice": "Winner : Amed",
             "comparison": {
                 "form": {
-                    "home": 65,
-                    "away": 35
+                    "home": 64,
+                    "away": 36
                 },
                 "att": {
-                    "home": 86,
-                    "away": 14
+                    "home": 54,
+                    "away": 46
                 },
                 "def": {
-                    "home": 25,
-                    "away": 75
+                    "home": 55,
+                    "away": 45
                 },
                 "poisson": {
-                    "home": 0,
-                    "away": 0
+                    "home": 90,
+                    "away": 10
                 },
                 "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 83,
-                    "away": 17
-                }
-            }
-        },
-        {
-            "league": "Primeira Liga",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Arouca",
-            "away": "Santa Clara",
-            "stadium": "",
-            "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/240.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/227.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Santa Clara and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 48,
-                    "away": 52
-                },
-                "att": {
-                    "home": 44,
-                    "away": 56
-                },
-                "def": {
                     "home": 50,
                     "away": 50
                 },
-                "poisson": {
-                    "home": 77,
-                    "away": 23
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
                 "goals": {
-                    "home": 30,
-                    "away": 70
+                    "home": 50,
+                    "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "45+1",
+                    "player": "E. Bayram",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "C. Operi",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Super Lig",
@@ -204,10 +171,10 @@ const siteData = {
             "time": "00:00",
             "home": "Galatasaray",
             "away": "Kocaelispor",
-            "stadium": "Rams Park",
+            "stadium": "Rams Park Stadyumu",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/645.png",
@@ -244,55 +211,162 @@ const siteData = {
                     "home": 33,
                     "away": 67
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "A. Dijksteel",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
-            "league": "Super Lig",
+            "league": "Primeira Liga",
             "date": "2026-09-14",
             "time": "00:00",
-            "home": "Amed",
-            "away": "Başakşehir",
-            "stadium": "Diyarbakir Stadium",
-            "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
+            "home": "Benfica",
+            "away": "GIL Vicente",
+            "stadium": "",
+            "round": "Pekan 6",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/211.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/762.png",
             "prediction": "2 - 1",
             "odds": {
                 "home": 45,
                 "draw": 45,
                 "away": 10
             },
-            "advice": "Winner : Amed",
+            "advice": "Winner : Benfica",
             "comparison": {
                 "form": {
-                    "home": 64,
-                    "away": 36
+                    "home": 65,
+                    "away": 35
                 },
                 "att": {
-                    "home": 54,
-                    "away": 46
+                    "home": 86,
+                    "away": 14
                 },
                 "def": {
-                    "home": 55,
-                    "away": 45
+                    "home": 25,
+                    "away": 75
                 },
                 "poisson": {
-                    "home": 90,
-                    "away": 10
+                    "home": 0,
+                    "away": 0
                 },
                 "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 83,
+                    "away": 17
+                }
+            },
+            "goals": [
+                {
+                    "minute": "7",
+                    "player": "Hector Hernandez",
+                    "team": "away"
+                },
+                {
+                    "minute": "29",
+                    "player": "Vangelis Pavlidis",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "12",
+                    "player": "Enzo Barrenechea",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "26",
+                    "player": "Hector Hernandez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Primeira Liga",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Arouca",
+            "away": "Santa Clara",
+            "stadium": "",
+            "round": "Pekan 6",
+            "statusCode": "2H",
+            "minuteDisplay": "49'",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/240.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/227.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Santa Clara and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 48,
+                    "away": 52
+                },
+                "att": {
+                    "home": 44,
+                    "away": 56
+                },
+                "def": {
                     "home": 50,
                     "away": 50
                 },
+                "poisson": {
+                    "home": 77,
+                    "away": 23
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
                 "goals": {
-                    "home": 50,
-                    "away": 50
+                    "home": 30,
+                    "away": 70
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "22",
+                    "player": "Gonçalo Paciência",
+                    "team": "away"
+                },
+                {
+                    "minute": "36",
+                    "player": "José Tavares",
+                    "team": "away"
+                },
+                {
+                    "minute": "47",
+                    "player": "Iván Barbero",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "Emanuel Moreira",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -302,7 +376,10 @@ const siteData = {
             "away": "Kortrijk",
             "stadium": "Easi Arena",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/5902.png",
             "awayLogo": "https://media.api-sports.io/football/teams/734.png",
             "prediction": "2 - 1",
@@ -337,7 +414,27 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "7",
+                    "player": "Mustapha Isah Ubandoma",
+                    "team": "home"
+                },
+                {
+                    "minute": "37",
+                    "player": "Mustapha Isah Ubandoma",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+2",
+                    "player": "Matyas Kovacs",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -347,7 +444,10 @@ const siteData = {
             "away": "CA La Paz",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
             "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
             "prediction": "1 - 2",
@@ -371,8 +471,8 @@ const siteData = {
                     "away": 75
                 },
                 "poisson": {
-                    "home": 38,
-                    "away": 62
+                    "home": 36,
+                    "away": 64
                 },
                 "h2h": {
                     "home": 40,
@@ -392,7 +492,10 @@ const siteData = {
             "away": "Sparta Rotterdam",
             "stadium": "Philips Stadion",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "6'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/197.png",
             "awayLogo": "https://media.api-sports.io/football/teams/426.png",
             "prediction": "3 - 2",
@@ -416,8 +519,8 @@ const siteData = {
                     "away": 40
                 },
                 "poisson": {
-                    "home": 70,
-                    "away": 30
+                    "home": 72,
+                    "away": 28
                 },
                 "h2h": {
                     "home": 100,
@@ -1203,12 +1306,12 @@ const siteData = {
                 "rank": 1,
                 "team": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png",
-                "played": 4,
-                "win": 4,
+                "played": 5,
+                "win": 5,
                 "draw": 0,
                 "lose": 0,
-                "gd": 15,
-                "points": 12
+                "gd": 17,
+                "points": 15
             },
             {
                 "rank": 2,
@@ -1335,11 +1438,11 @@ const siteData = {
                 "rank": 13,
                 "team": "Levante",
                 "logo": "https://media.api-sports.io/football/teams/539.png",
-                "played": 4,
+                "played": 5,
                 "win": 1,
                 "draw": 2,
-                "lose": 1,
-                "gd": 0,
+                "lose": 2,
+                "gd": -2,
                 "points": 5
             },
             {
@@ -1933,6 +2036,17 @@ const siteData = {
             },
             {
                 "rank": 9,
+                "team": "Lens",
+                "logo": "https://media.api-sports.io/football/teams/116.png",
+                "played": 4,
+                "win": 1,
+                "draw": 1,
+                "lose": 2,
+                "gd": 1,
+                "points": 4
+            },
+            {
+                "rank": 10,
                 "team": "Angers",
                 "logo": "https://media.api-sports.io/football/teams/77.png",
                 "played": 4,
@@ -1943,7 +2057,7 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Estac Troyes",
                 "logo": "https://media.api-sports.io/football/teams/110.png",
                 "played": 4,
@@ -1952,17 +2066,6 @@ const siteData = {
                 "lose": 2,
                 "gd": -5,
                 "points": 4
-            },
-            {
-                "rank": 11,
-                "team": "Lens",
-                "logo": "https://media.api-sports.io/football/teams/116.png",
-                "played": 3,
-                "win": 1,
-                "draw": 0,
-                "lose": 2,
-                "gd": 1,
-                "points": 3
             },
             {
                 "rank": 12,
@@ -1977,6 +2080,17 @@ const siteData = {
             },
             {
                 "rank": 13,
+                "team": "Le Mans",
+                "logo": "https://media.api-sports.io/football/teams/1298.png",
+                "played": 4,
+                "win": 0,
+                "draw": 3,
+                "lose": 1,
+                "gd": -1,
+                "points": 3
+            },
+            {
+                "rank": 14,
                 "team": "Auxerre",
                 "logo": "https://media.api-sports.io/football/teams/108.png",
                 "played": 4,
@@ -1987,20 +2101,9 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Paris Saint Germain",
                 "logo": "https://media.api-sports.io/football/teams/85.png",
-                "played": 3,
-                "win": 0,
-                "draw": 2,
-                "lose": 1,
-                "gd": -1,
-                "points": 2
-            },
-            {
-                "rank": 15,
-                "team": "Le Mans",
-                "logo": "https://media.api-sports.io/football/teams/1298.png",
                 "played": 3,
                 "win": 0,
                 "draw": 2,
@@ -2243,7 +2346,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 00:04 WIB",
+    "standingsUpdated": "14/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35731,19 +35834,19 @@ const siteData = {
                     "draw": 50,
                     "away": 50
                 },
-                "advice": "Combo Winner : Real Madrid and +1.5 goals",
+                "advice": "Winner : Real Madrid",
                 "comparison": {
                     "form": {
-                        "home": 10,
-                        "away": 90
+                        "home": 14,
+                        "away": 86
                     },
                     "att": {
-                        "home": 33,
-                        "away": 67
+                        "home": 30,
+                        "away": 70
                     },
                     "def": {
-                        "home": 20,
-                        "away": 80
+                        "home": 24,
+                        "away": 76
                     },
                     "poisson": {
                         "home": 16,
