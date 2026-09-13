@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T09:28:07.158Z.
+   API-Football v3) pada 2026-09-13T10:12:49.683Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -72,32 +72,10 @@ const siteData = {
         ],
         "form": {
             "home": {
-                "results": [
-                    "L",
-                    "W",
-                    "D",
-                    "L"
-                ],
-                "cleanSheets": 1,
-                "failedToScore": 1,
-                "goalsFor": 3,
-                "goalsAgainst": 5,
-                "winStreak": 1,
                 "attack": 33,
                 "defense": 25
             },
             "away": {
-                "results": [
-                    "W",
-                    "W",
-                    "W",
-                    "W"
-                ],
-                "cleanSheets": 3,
-                "failedToScore": 0,
-                "goalsFor": 8,
-                "goalsAgainst": 1,
-                "winStreak": 4,
                 "attack": 67,
                 "defense": 75
             }
@@ -519,6 +497,71 @@ const siteData = {
             ]
         },
         {
+            "league": "Serie A",
+            "date": "2026-09-13",
+            "time": "01:45",
+            "home": "Atalanta",
+            "away": "Cagliari",
+            "stadium": "New Balance Arena",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/499.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/490.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Cagliari and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "P. Mendy",
+                    "team": "away"
+                },
+                {
+                    "minute": "41",
+                    "player": "G. Scamacca",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "D. Maldini",
+                    "team": "away"
+                }
+            ]
+        },
+        {
             "league": "Ligue 1",
             "date": "2026-09-13",
             "time": "01:45",
@@ -792,71 +835,6 @@ const siteData = {
                     "player": "Hamari Traore",
                     "team": "home",
                     "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-09-13",
-            "time": "01:45",
-            "home": "Atalanta",
-            "away": "Cagliari",
-            "stadium": "New Balance Arena",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/499.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/490.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Cagliari and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "19",
-                    "player": "P. Mendy",
-                    "team": "away"
-                },
-                {
-                    "minute": "41",
-                    "player": "G. Scamacca",
-                    "team": "home"
-                },
-                {
-                    "minute": "61",
-                    "player": "D. Maldini",
-                    "team": "away"
                 }
             ]
         },
@@ -3343,10 +3321,10 @@ const siteData = {
             "away": "Arema FC",
             "stadium": "Gelora BJ Habibie",
             "round": "Pekan 2",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 2,
+            "statusCode": "2H",
+            "minuteDisplay": "80'",
+            "homeScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2441.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2438.png",
             "prediction": "1 - 4",
@@ -3397,6 +3375,16 @@ const siteData = {
                     "minute": "45+1",
                     "player": "S. Jevtoski",
                     "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "Careca",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "L. Cumic",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -3416,8 +3404,8 @@ const siteData = {
             "away": "Java United",
             "stadium": "Utama Sport Center Kelapa Dua",
             "round": "Pekan 2",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "2H",
+            "minuteDisplay": "84'",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/4244.png",
@@ -3470,6 +3458,14 @@ const siteData = {
                     "minute": "38",
                     "player": "D. da Silva",
                     "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "60",
+                    "player": "J. Guseynov",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -3744,51 +3740,6 @@ const siteData = {
             }
         },
         {
-            "league": "Ligue 1",
-            "date": "2026-09-13",
-            "time": "20:00",
-            "home": "Lille",
-            "away": "Estac Troyes",
-            "stadium": "Stade Pierre-Mauroy",
-            "round": "Pekan 4",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/79.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/110.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Lille or draw",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 56,
-                    "away": 44
-                },
-                "def": {
-                    "home": 78,
-                    "away": 22
-                },
-                "poisson": {
-                    "home": 34,
-                    "away": 66
-                },
-                "h2h": {
-                    "home": 71,
-                    "away": 29
-                },
-                "goals": {
-                    "home": 63,
-                    "away": 38
-                }
-            }
-        },
-        {
             "league": "Serie A",
             "date": "2026-09-13",
             "time": "20:00",
@@ -3826,6 +3777,51 @@ const siteData = {
                 "h2h": {
                     "home": 75,
                     "away": 25
+                },
+                "goals": {
+                    "home": 63,
+                    "away": 38
+                }
+            }
+        },
+        {
+            "league": "Ligue 1",
+            "date": "2026-09-13",
+            "time": "20:00",
+            "home": "Lille",
+            "away": "Estac Troyes",
+            "stadium": "Stade Pierre-Mauroy",
+            "round": "Pekan 4",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/79.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/110.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Lille or draw",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 56,
+                    "away": 44
+                },
+                "def": {
+                    "home": 78,
+                    "away": 22
+                },
+                "poisson": {
+                    "home": 34,
+                    "away": 66
+                },
+                "h2h": {
+                    "home": 71,
+                    "away": 29
                 },
                 "goals": {
                     "home": 63,
@@ -36026,51 +36022,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-14",
-                "time": "01:45",
-                "home": "Stade Brestois 29",
-                "away": "Paris Saint Germain",
-                "stadium": "Stade Francis-Le-Blé",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/106.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/85.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Paris Saint Germain and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "att": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "def": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "poisson": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 10,
-                        "away": 90
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-09-14",
                 "time": "01:45",
@@ -36112,6 +36063,51 @@ const siteData = {
                     "goals": {
                         "home": 40,
                         "away": 60
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-14",
+                "time": "01:45",
+                "home": "Stade Brestois 29",
+                "away": "Paris Saint Germain",
+                "stadium": "Stade Francis-Le-Blé",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/106.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/85.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Paris Saint Germain and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 10,
+                        "away": 90
                     }
                 }
             },
