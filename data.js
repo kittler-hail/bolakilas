@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T11:05:04.372Z.
+   API-Football v3) pada 2026-09-14T12:06:33.419Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -3092,7 +3092,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 18:05 WIB",
+    "standingsUpdated": "14/09/2026 19:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3187,14 +3187,6 @@ const siteData = {
             },
             {
                 "rank": 2,
-                "name": "Kylian Mbappé",
-                "photo": "https://media.api-sports.io/football/players/278.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 6
-            },
-            {
-                "rank": 3,
                 "name": "Raphinha",
                 "photo": "https://media.api-sports.io/football/players/1496.png",
                 "team": "Barcelona",
@@ -3202,7 +3194,31 @@ const siteData = {
                 "value": 6
             },
             {
+                "rank": 3,
+                "name": "Kylian Mbappé",
+                "photo": "https://media.api-sports.io/football/players/278.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "value": 6
+            },
+            {
                 "rank": 4,
+                "name": "Lamine Yamal",
+                "photo": "https://media.api-sports.io/football/players/386828.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 6
+            },
+            {
+                "rank": 5,
+                "name": "P. Aubameyang",
+                "photo": "https://media.api-sports.io/football/players/1465.png",
+                "team": "Deportivo La Coruna",
+                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "value": 5
+            },
+            {
+                "rank": 6,
                 "name": "M. Zabiri",
                 "photo": "https://media.api-sports.io/football/players/457101.png",
                 "team": "Racing Santander",
@@ -3210,7 +3226,7 @@ const siteData = {
                 "value": 5
             },
             {
-                "rank": 5,
+                "rank": 7,
                 "name": "Roberto Fernández",
                 "photo": "https://media.api-sports.io/football/players/312990.png",
                 "team": "Espanyol",
@@ -3218,7 +3234,7 @@ const siteData = {
                 "value": 5
             },
             {
-                "rank": 6,
+                "rank": 8,
                 "name": "Fermín",
                 "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
@@ -3226,27 +3242,11 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 7,
-                "name": "P. Aubameyang",
-                "photo": "https://media.api-sports.io/football/players/1465.png",
-                "team": "Deportivo La Coruna",
-                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
-                "value": 4
-            },
-            {
-                "rank": 8,
+                "rank": 9,
                 "name": "L. Boyé",
                 "photo": "https://media.api-sports.io/football/players/608.png",
                 "team": "Alaves",
                 "teamLogo": "https://media.api-sports.io/football/teams/542.png",
-                "value": 4
-            },
-            {
-                "rank": 9,
-                "name": "Lamine Yamal",
-                "photo": "https://media.api-sports.io/football/players/386828.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
                 "value": 4
             },
             {
@@ -3293,6 +3293,14 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "name": "Vasilije Adžić",
+                "photo": "https://media.api-sports.io/football/players/339872.png",
+                "team": "Sassuolo",
+                "teamLogo": "https://media.api-sports.io/football/teams/488.png",
+                "value": 2
+            },
+            {
+                "rank": 6,
                 "name": "G. Kvernadze",
                 "photo": "https://media.api-sports.io/football/players/311251.png",
                 "team": "Frosinone",
@@ -3300,7 +3308,15 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
+                "rank": 7,
+                "name": "L. Coulibaly",
+                "photo": "https://media.api-sports.io/football/players/1748.png",
+                "team": "Lecce",
+                "teamLogo": "https://media.api-sports.io/football/teams/867.png",
+                "value": 2
+            },
+            {
+                "rank": 8,
                 "name": "M. Soulé",
                 "photo": "https://media.api-sports.io/football/players/323936.png",
                 "team": "AS Roma",
@@ -3308,7 +3324,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 7,
+                "rank": 9,
                 "name": "M. Baturina",
                 "photo": "https://media.api-sports.io/football/players/295026.png",
                 "team": "Como",
@@ -3316,27 +3332,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "Assane Diao",
                 "photo": "https://media.api-sports.io/football/players/400948.png",
                 "team": "Como",
                 "teamLogo": "https://media.api-sports.io/football/teams/895.png",
-                "value": 2
-            },
-            {
-                "rank": 9,
-                "name": "H. Kamara",
-                "photo": "https://media.api-sports.io/football/players/22007.png",
-                "team": "Udinese",
-                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "A. Cissè",
-                "photo": "https://media.api-sports.io/football/players/359100.png",
-                "team": "AC Milan",
-                "teamLogo": "https://media.api-sports.io/football/teams/489.png",
                 "value": 2
             }
         ],
@@ -7072,6 +7072,12 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
+                "player": "C. Makosso",
+                "photo": "https://media.api-sports.io/football/players/412926.png",
+                "reason": "Red Card",
+                "since": "2026-08-29"
+            },
+            {
                 "player": "F. Oppegard",
                 "photo": "https://media.api-sports.io/football/players/215827.png",
                 "reason": "Illness",
@@ -7082,12 +7088,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/19182.png",
                 "reason": "Lacking Match Fitness",
                 "since": "2026-09-04"
-            },
-            {
-                "player": "C. Makosso",
-                "photo": "https://media.api-sports.io/football/players/412926.png",
-                "reason": "Red Card",
-                "since": "2026-08-29"
             }
         ],
         "marseille": [
@@ -7198,10 +7198,10 @@ const siteData = {
                 "since": "2026-08-22"
             },
             {
-                "player": "A. Mendy",
-                "photo": "https://media.api-sports.io/football/players/313937.png",
-                "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "player": "A. Abdi",
+                "photo": "https://media.api-sports.io/football/players/49583.png",
+                "reason": "Surgery",
+                "since": "2026-08-30"
             },
             {
                 "player": "M. Sanson",
@@ -7210,10 +7210,10 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
-                "player": "A. Abdi",
-                "photo": "https://media.api-sports.io/football/players/49583.png",
-                "reason": "Surgery",
-                "since": "2026-08-30"
+                "player": "A. Mendy",
+                "photo": "https://media.api-sports.io/football/players/313937.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-12"
             }
         ],
         "lorient": [
@@ -7406,6 +7406,12 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
+                "player": "L. Koleosho",
+                "photo": "https://media.api-sports.io/football/players/359603.png",
+                "reason": "Injury",
+                "since": "2026-08-30"
+            },
+            {
                 "player": "T. De Smet",
                 "photo": "https://media.api-sports.io/football/players/8474.png",
                 "reason": "Inactive",
@@ -7416,12 +7422,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/266013.png",
                 "reason": "Injury",
                 "since": "2026-09-12"
-            },
-            {
-                "player": "L. Koleosho",
-                "photo": "https://media.api-sports.io/football/players/359603.png",
-                "reason": "Injury",
-                "since": "2026-08-30"
             }
         ],
         "le-mans": [
@@ -7432,9 +7432,33 @@ const siteData = {
                 "since": "2026-08-22"
             },
             {
+                "player": "R. Bamba",
+                "photo": "https://media.api-sports.io/football/players/363226.png",
+                "reason": "Loan agreement",
+                "since": "2026-08-30"
+            },
+            {
                 "player": "E. Colas",
                 "photo": "https://media.api-sports.io/football/players/174939.png",
                 "reason": "Injury",
+                "since": "2026-09-13"
+            },
+            {
+                "player": "Y. Larouci",
+                "photo": "https://media.api-sports.io/football/players/138828.png",
+                "reason": "Concussion",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "S. Yohou",
+                "photo": "https://media.api-sports.io/football/players/20602.png",
+                "reason": "Thigh Injury",
+                "since": "2026-08-30"
+            },
+            {
+                "player": "L. Buades",
+                "photo": "https://media.api-sports.io/football/players/21448.png",
+                "reason": "Knock",
                 "since": "2026-09-13"
             },
             {
@@ -7450,27 +7474,9 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "N. Kocik",
-                "photo": "https://media.api-sports.io/football/players/24189.png",
-                "reason": "Ankle Injury",
-                "since": "2026-09-05"
-            },
-            {
                 "player": "E. Quarshie",
                 "photo": "https://media.api-sports.io/football/players/24259.png",
                 "reason": "Coach's decision",
-                "since": "2026-09-13"
-            },
-            {
-                "player": "D. Sidibe",
-                "photo": "https://media.api-sports.io/football/players/102.png",
-                "reason": "Red Card",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "L. Buades",
-                "photo": "https://media.api-sports.io/football/players/21448.png",
-                "reason": "Knock",
                 "since": "2026-09-13"
             },
             {
@@ -7480,22 +7486,16 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "R. Bamba",
-                "photo": "https://media.api-sports.io/football/players/363226.png",
-                "reason": "Loan agreement",
-                "since": "2026-08-30"
+                "player": "N. Kocik",
+                "photo": "https://media.api-sports.io/football/players/24189.png",
+                "reason": "Ankle Injury",
+                "since": "2026-09-05"
             },
             {
-                "player": "Y. Larouci",
-                "photo": "https://media.api-sports.io/football/players/138828.png",
-                "reason": "Concussion",
-                "since": "2026-08-30"
-            },
-            {
-                "player": "S. Yohou",
-                "photo": "https://media.api-sports.io/football/players/20602.png",
-                "reason": "Thigh Injury",
-                "since": "2026-08-30"
+                "player": "D. Sidibe",
+                "photo": "https://media.api-sports.io/football/players/102.png",
+                "reason": "Red Card",
+                "since": "2026-09-05"
             }
         ],
         "stade-brestois-29": [
@@ -7516,6 +7516,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/369556.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-29"
+            },
+            {
+                "player": "M. Balde",
+                "photo": "https://media.api-sports.io/football/players/41323.png",
+                "reason": "Injury",
+                "since": "2026-09-13"
             },
             {
                 "player": "R. Cagnon",
@@ -7708,6 +7714,12 @@ const siteData = {
                 "since": "2026-08-23"
             },
             {
+                "player": "B. Samba",
+                "photo": "https://media.api-sports.io/football/players/21628.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-30"
+            },
+            {
                 "player": "D. Cisse",
                 "photo": "https://media.api-sports.io/football/players/343792.png",
                 "reason": "Inactive",
@@ -7730,12 +7742,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/417830.png",
                 "reason": "Inactive",
                 "since": "2026-09-06"
-            },
-            {
-                "player": "B. Samba",
-                "photo": "https://media.api-sports.io/football/players/21628.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-30"
             }
         ],
         "paris-saint-germain": [
@@ -7768,6 +7774,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/335051.png",
                 "reason": "Illness",
                 "since": "2026-08-28"
+            },
+            {
+                "player": "S. Mayulu",
+                "photo": "https://media.api-sports.io/football/players/409216.png",
+                "reason": "Inactive",
+                "since": "2026-09-13"
+            },
+            {
+                "player": "I. Zabarnyi",
+                "photo": "https://media.api-sports.io/football/players/161671.png",
+                "reason": "Coach's decision",
+                "since": "2026-09-13"
             },
             {
                 "player": "L. Digne",
