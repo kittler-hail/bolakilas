@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T15:07:38.428Z.
+   API-Football v3) pada 2026-09-14T16:05:01.489Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -106,176 +106,6 @@ const siteData = {
         }
     },
     "matches": [
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Galatasaray",
-            "away": "Kocaelispor",
-            "stadium": "Rams Park Stadyumu",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Kocaelispor",
-            "comparison": {
-                "form": {
-                    "home": 53,
-                    "away": 47
-                },
-                "att": {
-                    "home": 71,
-                    "away": 29
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 62,
-                    "away": 38
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "goals": [
-                {
-                    "minute": "71",
-                    "player": "A. Bardakci",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "22",
-                    "player": "Anfernee Jamal Dijksteel",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "56",
-                    "player": "Deniz Gül",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Roland Sallai",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Amed",
-            "away": "Başakşehir",
-            "stadium": "Şilbe Spor Kompleksi",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 5,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Winner : Amed",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 54,
-                    "away": 46
-                },
-                "def": {
-                    "home": 55,
-                    "away": 45
-                },
-                "poisson": {
-                    "home": 90,
-                    "away": 10
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "45",
-                    "player": "E. Bayram",
-                    "team": "away"
-                },
-                {
-                    "minute": "51",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "55",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "83",
-                    "player": "M. Diagne",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "6",
-                    "player": "Christopher Operi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "54",
-                    "player": "Umut Güneş",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "60",
-                    "player": "Ermal Krasniqi",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "Primeira Liga",
             "date": "2026-09-14",
@@ -494,6 +324,176 @@ const siteData = {
                 {
                     "minute": "87",
                     "player": "Gabrijel Rukavina",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Galatasaray",
+            "away": "Kocaelispor",
+            "stadium": "Rams Park Stadyumu",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Kocaelispor",
+            "comparison": {
+                "form": {
+                    "home": 53,
+                    "away": 47
+                },
+                "att": {
+                    "home": 71,
+                    "away": 29
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 62,
+                    "away": 38
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "goals": [
+                {
+                    "minute": "71",
+                    "player": "A. Bardakci",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "Anfernee Jamal Dijksteel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "56",
+                    "player": "Deniz Gül",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Roland Sallai",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Amed",
+            "away": "Başakşehir",
+            "stadium": "Şilbe Spor Kompleksi",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Winner : Amed",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 54,
+                    "away": 46
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 90,
+                    "away": 10
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "45",
+                    "player": "E. Bayram",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "M. Diagne",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "Christopher Operi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Umut Güneş",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Ermal Krasniqi",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1010,8 +1010,8 @@ const siteData = {
                     "away": 57
                 },
                 "poisson": {
-                    "home": 66,
-                    "away": 34
+                    "home": 67,
+                    "away": 33
                 },
                 "h2h": {
                     "home": 38,
@@ -1663,6 +1663,12 @@ const siteData = {
                 }
             ],
             "cards": [
+                {
+                    "minute": "36",
+                    "player": "E. Solari",
+                    "team": "away",
+                    "type": "yellow"
+                },
                 {
                     "minute": "38",
                     "player": "Pedro Vite",
@@ -3092,7 +3098,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 22:07 WIB",
+    "standingsUpdated": "14/09/2026 23:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35993,8 +35999,8 @@ const siteData = {
                         "away": 45
                     },
                     "poisson": {
-                        "home": 28,
-                        "away": 72
+                        "home": 26,
+                        "away": 74
                     },
                     "h2h": {
                         "home": 0,
