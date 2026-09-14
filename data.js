@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T02:05:41.109Z.
+   API-Football v3) pada 2026-09-14T03:05:47.187Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -106,6 +106,188 @@ const siteData = {
         }
     },
     "matches": [
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Galatasaray",
+            "away": "Kocaelispor",
+            "stadium": "Rams Park",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Kocaelispor",
+            "comparison": {
+                "form": {
+                    "home": 53,
+                    "away": 47
+                },
+                "att": {
+                    "home": 71,
+                    "away": 29
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 62,
+                    "away": 38
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "goals": [
+                {
+                    "minute": "71",
+                    "player": "A. Bardakci",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "S. Inan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "22",
+                    "player": "A. Dijksteel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "56",
+                    "player": "D. Gul",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "A. Bardakci",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "R. Sallai",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Amed",
+            "away": "Başakşehir",
+            "stadium": "Diyarbakir Stadium",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Winner : Amed",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 54,
+                    "away": 46
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 90,
+                    "away": 10
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "45+1",
+                    "player": "E. Bayram",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "M. Diagne",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "C. Operi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "U. Gunes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "E. Krasniqi",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
         {
             "league": "Primeira Liga",
             "date": "2026-09-14",
@@ -324,188 +506,6 @@ const siteData = {
                 {
                     "minute": "87",
                     "player": "Gabrijel Rukavina",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Galatasaray",
-            "away": "Kocaelispor",
-            "stadium": "Rams Park",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Kocaelispor",
-            "comparison": {
-                "form": {
-                    "home": 53,
-                    "away": 47
-                },
-                "att": {
-                    "home": 71,
-                    "away": 29
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 62,
-                    "away": 38
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "goals": [
-                {
-                    "minute": "71",
-                    "player": "A. Bardakci",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "16",
-                    "player": "S. Inan",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "22",
-                    "player": "A. Dijksteel",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "56",
-                    "player": "D. Gul",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "A. Bardakci",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "R. Sallai",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Amed",
-            "away": "Başakşehir",
-            "stadium": "Diyarbakir Stadium",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 5,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Winner : Amed",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 54,
-                    "away": 46
-                },
-                "def": {
-                    "home": 55,
-                    "away": 45
-                },
-                "poisson": {
-                    "home": 90,
-                    "away": 10
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "45+1",
-                    "player": "E. Bayram",
-                    "team": "away"
-                },
-                {
-                    "minute": "51",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "55",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "83",
-                    "player": "M. Diagne",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "6",
-                    "player": "C. Operi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "53",
-                    "player": "U. Gunes",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "59",
-                    "player": "E. Krasniqi",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1402,10 +1402,10 @@ const siteData = {
             "away": "Philadelphia Union",
             "stadium": "Snapdragon Stadium",
             "round": "Pekan 25",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "2H",
+            "minuteDisplay": "90'",
             "homeScore": 0,
-            "awayScore": 1,
+            "awayScore": 4,
             "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
             "prediction": "1 - 2",
@@ -1446,6 +1446,21 @@ const siteData = {
                     "minute": "45+5",
                     "player": "Cavan Sullivan",
                     "team": "away"
+                },
+                {
+                    "minute": "61",
+                    "player": "Cavan Sullivan",
+                    "team": "away"
+                },
+                {
+                    "minute": "67",
+                    "player": "Bruno Damiani",
+                    "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "Aníbal Godoy",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1477,10 +1492,10 @@ const siteData = {
             "away": "FC Juarez",
             "stadium": "Estadio Corona",
             "round": "Apertura - 8",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
             "prediction": "2 - 1",
@@ -1516,6 +1531,23 @@ const siteData = {
                     "away": 69
                 }
             },
+            "goals": [
+                {
+                    "minute": "54",
+                    "player": "Oscar Estupiñan",
+                    "team": "away"
+                },
+                {
+                    "minute": "64",
+                    "player": "Ezequiel Bullaude",
+                    "team": "home"
+                },
+                {
+                    "minute": "78",
+                    "player": "Esteban Lozano",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "19",
@@ -1540,6 +1572,30 @@ const siteData = {
                     "player": "Monchu",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Emmanuel Echeverria",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "Mauricio Cuevas",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Jesus Murillo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Denzell Garcia",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1551,9 +1607,9 @@ const siteData = {
             "away": "U.N.A.M. - Pumas",
             "stadium": "Estadio Akron",
             "round": "Apertura - 8",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "90+3'",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2286.png",
@@ -1595,12 +1651,34 @@ const siteData = {
                     "minute": "3",
                     "player": "Santiago Sandoval",
                     "team": "home"
+                },
+                {
+                    "minute": "56",
+                    "player": "Santiago Sandoval",
+                    "team": "home"
+                },
+                {
+                    "minute": "67",
+                    "player": "Bryan Gonzalez",
+                    "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "38",
                     "player": "Pedro Vite",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Diego Campillo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Luciano Herrera",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -3015,7 +3093,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 09:05 WIB",
+    "standingsUpdated": "14/09/2026 10:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36532,51 +36610,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Vasco DA Gama",
-                "away": "Santa Fe",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-16",
                 "time": "05:00",
@@ -36618,6 +36651,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Vasco DA Gama",
+                "away": "Santa Fe",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
