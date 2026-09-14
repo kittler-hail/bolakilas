@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T08:05:44.442Z.
+   API-Football v3) pada 2026-09-14T09:06:36.218Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -21,7 +21,7 @@ const siteData = {
         "time": "02:00",
         "home": "Real Sociedad",
         "away": "Atletico Madrid",
-        "stadium": "Anoeta",
+        "stadium": "Anoeta Stadium",
         "prediction": "1 - 2",
         "analysis": "Real Sociedad bertemu Atletico Madrid dalam laga LaLiga. Analisis API-Football: Double chance : draw or Atletico Madrid.",
         "statusCode": "FT",
@@ -935,8 +935,8 @@ const siteData = {
                     "away": 45
                 },
                 "poisson": {
-                    "home": 50,
-                    "away": 50
+                    "home": 49,
+                    "away": 51
                 },
                 "h2h": {
                     "home": 0,
@@ -981,7 +981,7 @@ const siteData = {
             "time": "02:00",
             "home": "Real Sociedad",
             "away": "Atletico Madrid",
-            "stadium": "Anoeta",
+            "stadium": "Anoeta Stadium",
             "round": "Pekan 5",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -3092,7 +3092,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 15:05 WIB",
+    "standingsUpdated": "14/09/2026 16:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3771,10 +3771,10 @@ const siteData = {
             },
             {
                 "rank": 3,
-                "name": "A. Thomasson",
-                "photo": "https://media.api-sports.io/football/players/22261.png",
-                "team": "Rennes",
-                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
+                "name": "A. Bourabaa",
+                "photo": "https://media.api-sports.io/football/players/608142.png",
+                "team": "Le Mans",
+                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
                 "value": 2
             },
             {
@@ -3787,6 +3787,14 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "name": "A. Thomasson",
+                "photo": "https://media.api-sports.io/football/players/22261.png",
+                "team": "Rennes",
+                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
+                "value": 2
+            },
+            {
+                "rank": 6,
                 "name": "P. Šulc",
                 "photo": "https://media.api-sports.io/football/players/66387.png",
                 "team": "Lyon",
@@ -3794,23 +3802,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
-                "name": "S. Nanasi",
-                "photo": "https://media.api-sports.io/football/players/226803.png",
-                "team": "Strasbourg",
-                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
-                "value": 2
-            },
-            {
                 "rank": 7,
-                "name": "A. Golovin",
-                "photo": "https://media.api-sports.io/football/players/109.png",
-                "team": "Monaco",
-                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
-                "value": 2
-            },
-            {
-                "rank": 8,
                 "name": "Fabián Ruiz",
                 "photo": "https://media.api-sports.io/football/players/328.png",
                 "team": "Paris Saint Germain",
@@ -3818,19 +3810,27 @@ const siteData = {
                 "value": 2
             },
             {
+                "rank": 8,
+                "name": "S. Nanasi",
+                "photo": "https://media.api-sports.io/football/players/226803.png",
+                "team": "Strasbourg",
+                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
+                "value": 2
+            },
+            {
                 "rank": 9,
+                "name": "A. Golovin",
+                "photo": "https://media.api-sports.io/football/players/109.png",
+                "team": "Monaco",
+                "teamLogo": "https://media.api-sports.io/football/teams/91.png",
+                "value": 2
+            },
+            {
+                "rank": 10,
                 "name": "K. Doumbia",
                 "photo": "https://media.api-sports.io/football/players/326068.png",
                 "team": "Stade Brestois 29",
                 "teamLogo": "https://media.api-sports.io/football/teams/106.png",
-                "value": 1
-            },
-            {
-                "rank": 10,
-                "name": "L. Mafouta",
-                "photo": "https://media.api-sports.io/football/players/85558.png",
-                "team": "Le Mans",
-                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
                 "value": 1
             }
         ],
@@ -36038,7 +36038,7 @@ const siteData = {
                     "draw": 50,
                     "away": 33
                 },
-                "advice": "Combo Double chance : Inter or draw and +2.5 goals",
+                "advice": "Combo Double chance : Inter or draw and +1.5 goals",
                 "comparison": {
                     "form": {
                         "home": 69,
@@ -36053,8 +36053,8 @@ const siteData = {
                         "away": 38
                     },
                     "poisson": {
-                        "home": 64,
-                        "away": 36
+                        "home": 63,
+                        "away": 37
                     },
                     "h2h": {
                         "home": 80,
@@ -36117,7 +36117,7 @@ const siteData = {
                 "time": "02:00",
                 "home": "Villarreal",
                 "away": "Real Betis",
-                "stadium": "Estadio de la Ceramica",
+                "stadium": "Estadio de la Cerámica",
                 "round": "Pekan 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/533.png",
@@ -36299,7 +36299,7 @@ const siteData = {
                 "time": "00:00",
                 "home": "Rayo Vallecano",
                 "away": "Espanyol",
-                "stadium": "Campo de Futbol de Vallecas",
+                "stadium": "Municipal de Butarque",
                 "round": "Pekan 6",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/728.png",
@@ -36344,7 +36344,7 @@ const siteData = {
                 "time": "01:00",
                 "home": "Alaves",
                 "away": "Valencia",
-                "stadium": "Estadio Mendizorrotza",
+                "stadium": "Estadio de Mendizorroza",
                 "round": "Pekan 6",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/542.png",
@@ -36569,7 +36569,7 @@ const siteData = {
                 "time": "02:30",
                 "home": "Elche",
                 "away": "Real Madrid",
-                "stadium": "",
+                "stadium": "Estadio Manuel Martínez Valero",
                 "round": "Pekan 6",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/797.png",
@@ -36605,51 +36605,6 @@ const siteData = {
                     "goals": {
                         "home": 25,
                         "away": 75
-                    }
-                }
-            },
-            {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Vasco DA Gama",
-                "away": "Santa Fe",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
                     }
                 }
             },
@@ -36701,6 +36656,51 @@ const siteData = {
             {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Vasco DA Gama",
+                "away": "Santa Fe",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-16",
                 "time": "07:30",
                 "home": "Sao Paulo",
                 "away": "Boca Juniors",
@@ -36740,51 +36740,6 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Dorados",
-                "away": "Cancún",
-                "stadium": "Estadio El Encanto",
-                "round": "Apertura - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cancún",
-                "comparison": {
-                    "form": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "poisson": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
                     }
                 }
             },
@@ -36830,6 +36785,51 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Dorados",
+                "away": "Cancún",
+                "stadium": "Estadio El Encanto",
+                "round": "Apertura - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cancún",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
