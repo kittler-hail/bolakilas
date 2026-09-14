@@ -3,9 +3,226 @@
   "home": "Leeds",
   "away": "Newcastle",
   "statusCode": "NS",
-  "updatedAt": "15/09/2026 01:22 WIB",
+  "updatedAt": "15/09/2026 01:44 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "3-5-2",
+      "coach": "D. Farke",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "J. Trafford",
+          "position": "Kiper"
+        },
+        {
+          "number": 24,
+          "name": "J. Justin",
+          "position": "Bek"
+        },
+        {
+          "number": 30,
+          "name": "N. Elvedi",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "T. Muharemović",
+          "position": "Bek"
+        },
+        {
+          "number": 2,
+          "name": "J. Bogle",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "A. Stach",
+          "position": "Gelandang"
+        },
+        {
+          "number": 4,
+          "name": "E. Ampadu",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "A. Tanaka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 3,
+          "name": "G. Gudmundsson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "D. Calvert-Lewin",
+          "position": "Penyerang"
+        },
+        {
+          "number": 19,
+          "name": "N. Okafor",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 16,
+          "name": "M. Zetterer",
+          "position": "Kiper"
+        },
+        {
+          "number": 11,
+          "name": "B. Aaronson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "J. Bahoya",
+          "position": "Penyerang"
+        },
+        {
+          "number": 26,
+          "name": "M. Bard",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "J. Bijol",
+          "position": "Bek"
+        },
+        {
+          "number": 7,
+          "name": "D. James",
+          "position": "Penyerang"
+        },
+        {
+          "number": 8,
+          "name": "S. Longstaff",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "L. Nmecha",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "H. Wilson",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Matthias Jaissle",
+      "startXI": [
+        {
+          "number": 21,
+          "name": "L. Horníček",
+          "position": "Kiper"
+        },
+        {
+          "number": 37,
+          "name": "A. Dedić",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "M. Thiaw",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "S. Botman",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "L. Hall",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Nico González",
+          "position": "Gelandang"
+        },
+        {
+          "number": 67,
+          "name": "L. Miley",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "J. Murphy",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "M. Fernandez-Pardo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "H. Barnes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Y. Wissa",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "N. Pope",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "T. Livramento",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "F. Schär",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "A. Bamba",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Sean Steur",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "B. Touré",
+          "position": "Penyerang"
+        },
+        {
+          "number": 28,
+          "name": "J. Willock",
+          "position": "Gelandang"
+        },
+        {
+          "number": 41,
+          "name": "J. Ramsey",
+          "position": "Gelandang"
+        },
+        {
+          "number": 76,
+          "name": "M. Miley",
+          "position": "Gelandang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Elland Road",
     "city": "Leeds",
