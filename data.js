@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T00:07:43.294Z.
+   API-Football v3) pada 2026-09-14T01:05:41.218Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -74,15 +74,15 @@ const siteData = {
             "home": {
                 "results": [
                     "L",
-                    "L",
                     "W",
                     "D",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 1,
-                "failedToScore": 2,
+                "failedToScore": 3,
                 "goalsFor": 6,
-                "goalsAgainst": 8,
+                "goalsAgainst": 11,
                 "winStreak": 1,
                 "attack": 46,
                 "defense": 43
@@ -92,11 +92,12 @@ const siteData = {
                     "W",
                     "D",
                     "W",
-                    "L"
+                    "L",
+                    "W"
                 ],
-                "cleanSheets": 1,
+                "cleanSheets": 2,
                 "failedToScore": 1,
-                "goalsFor": 7,
+                "goalsFor": 10,
                 "goalsAgainst": 6,
                 "winStreak": 1,
                 "attack": 54,
@@ -1286,8 +1287,8 @@ const siteData = {
             "away": "Austin",
             "stadium": "BC Place",
             "round": "Pekan 25",
-            "statusCode": "2H",
-            "minuteDisplay": "68'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1603.png",
@@ -1366,6 +1367,30 @@ const siteData = {
                     "player": "Guilherme Biro",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Jesper Ingemann Sørensen",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Emmanuel Sabbi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Guilherme Biro",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Besard Sabovic",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1422,7 +1447,10 @@ const siteData = {
             "away": "FC Juarez",
             "stadium": "Estadio Corona",
             "round": "Apertura - 8",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
             "prediction": "2 - 1",
@@ -2913,7 +2941,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 07:07 WIB",
+    "standingsUpdated": "14/09/2026 08:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36565,51 +36593,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Dorados",
-                "away": "Cancún",
-                "stadium": "Estadio El Encanto",
-                "round": "Apertura - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cancún",
-                "comparison": {
-                    "form": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "poisson": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-16",
                 "time": "08:00",
@@ -36651,6 +36634,51 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Dorados",
+                "away": "Cancún",
+                "stadium": "Estadio El Encanto",
+                "round": "Apertura - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cancún",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
