@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T07:06:45.064Z.
+   API-Football v3) pada 2026-09-14T08:05:44.442Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -800,81 +800,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Ligue 1",
-            "date": "2026-09-14",
-            "time": "01:45",
-            "home": "Stade Brestois 29",
-            "away": "Paris Saint Germain",
-            "stadium": "Stade Francis-Le-Blé",
-            "round": "Pekan 4",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/106.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Paris Saint Germain and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 71,
-                    "away": 29
-                },
-                "att": {
-                    "home": 55,
-                    "away": 45
-                },
-                "def": {
-                    "home": 55,
-                    "away": 45
-                },
-                "poisson": {
-                    "home": 50,
-                    "away": 50
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 100
-                },
-                "goals": {
-                    "home": 10,
-                    "away": 90
-                }
-            },
-            "goals": [
-                {
-                    "minute": "5",
-                    "player": "Ferrán Torres",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "30",
-                    "player": "Kamory Doumbia",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "84",
-                    "player": "Vitinha",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "87",
-                    "player": "Dro Fernández",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Serie A",
             "date": "2026-09-14",
             "time": "01:45",
@@ -971,6 +896,81 @@ const siteData = {
                     "minute": "90+3",
                     "player": "Fedde Leysen",
                     "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Ligue 1",
+            "date": "2026-09-14",
+            "time": "01:45",
+            "home": "Stade Brestois 29",
+            "away": "Paris Saint Germain",
+            "stadium": "Stade Francis-Le-Blé",
+            "round": "Pekan 4",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/106.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Paris Saint Germain and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 71,
+                    "away": 29
+                },
+                "att": {
+                    "home": 55,
+                    "away": 45
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 50,
+                    "away": 50
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 100
+                },
+                "goals": {
+                    "home": 10,
+                    "away": 90
+                }
+            },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "Ferrán Torres",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "Kamory Doumbia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Vitinha",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Dro Fernández",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1351,7 +1351,7 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "47",
+                    "minute": "46",
                     "player": "Guilherme Biro",
                     "team": "away",
                     "type": "yellow"
@@ -3092,7 +3092,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 14:06 WIB",
+    "standingsUpdated": "14/09/2026 15:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3367,6 +3367,14 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "name": "Ferran Torres",
+                "photo": "https://media.api-sports.io/football/players/931.png",
+                "team": "Paris Saint Germain",
+                "teamLogo": "https://media.api-sports.io/football/teams/85.png",
+                "value": 3
+            },
+            {
+                "rank": 5,
                 "name": "Paris Josua  Brunner",
                 "photo": "https://media.api-sports.io/football/players/386276.png",
                 "team": "Monaco",
@@ -3374,7 +3382,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "L. Mafouta",
                 "photo": "https://media.api-sports.io/football/players/85558.png",
                 "team": "Le Mans",
@@ -3382,7 +3390,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "E. Lepaul",
                 "photo": "https://media.api-sports.io/football/players/163004.png",
                 "team": "Rennes",
@@ -3390,7 +3398,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "F. Thauvin",
                 "photo": "https://media.api-sports.io/football/players/1922.png",
                 "team": "Lens",
@@ -3398,27 +3406,19 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 8,
-                "name": "Gessime Yassine",
-                "photo": "https://media.api-sports.io/football/players/369544.png",
-                "team": "Strasbourg",
-                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
-                "value": 2
-            },
-            {
                 "rank": 9,
-                "name": "S. Amo-Ameyaw",
-                "photo": "https://media.api-sports.io/football/players/334035.png",
-                "team": "Strasbourg",
-                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
+                "name": "A. Bourabaa",
+                "photo": "https://media.api-sports.io/football/players/608142.png",
+                "team": "Le Mans",
+                "teamLogo": "https://media.api-sports.io/football/teams/1298.png",
                 "value": 2
             },
             {
                 "rank": 10,
-                "name": "Ferran Torres",
-                "photo": "https://media.api-sports.io/football/players/931.png",
-                "team": "Paris Saint Germain",
-                "teamLogo": "https://media.api-sports.io/football/teams/85.png",
+                "name": "Gessime Yassine",
+                "photo": "https://media.api-sports.io/football/players/369544.png",
+                "team": "Strasbourg",
+                "teamLogo": "https://media.api-sports.io/football/teams/95.png",
                 "value": 2
             }
         ],
@@ -3449,6 +3449,14 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "name": "M. Krattenmacher",
+                "photo": "https://media.api-sports.io/football/players/342170.png",
+                "team": "SV Elversberg",
+                "teamLogo": "https://media.api-sports.io/football/teams/1660.png",
+                "value": 3
+            },
+            {
+                "rank": 5,
                 "name": "M. Gregoritsch",
                 "photo": "https://media.api-sports.io/football/players/25297.png",
                 "team": "FC Augsburg",
@@ -3456,7 +3464,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "Y. Suzuki",
                 "photo": "https://media.api-sports.io/football/players/199143.png",
                 "team": "SC Freiburg",
@@ -3464,7 +3472,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "P. Tietz",
                 "photo": "https://media.api-sports.io/football/players/26171.png",
                 "team": "FSV Mainz 05",
@@ -3472,7 +3480,15 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 7,
+                "rank": 8,
+                "name": "A. Nusa",
+                "photo": "https://media.api-sports.io/football/players/314511.png",
+                "team": "RB Leipzig",
+                "teamLogo": "https://media.api-sports.io/football/teams/173.png",
+                "value": 2
+            },
+            {
+                "rank": 9,
                 "name": "S. Guirassy",
                 "photo": "https://media.api-sports.io/football/players/21393.png",
                 "team": "Borussia Dortmund",
@@ -3480,27 +3496,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 10,
                 "name": "J. Burkardt",
                 "photo": "https://media.api-sports.io/football/players/25926.png",
                 "team": "Eintracht Frankfurt",
                 "teamLogo": "https://media.api-sports.io/football/teams/169.png",
-                "value": 2
-            },
-            {
-                "rank": 9,
-                "name": "J. Vagnoman",
-                "photo": "https://media.api-sports.io/football/players/24868.png",
-                "team": "VfB Stuttgart",
-                "teamLogo": "https://media.api-sports.io/football/teams/172.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "T. Skarke",
-                "photo": "https://media.api-sports.io/football/players/24910.png",
-                "team": "Union Berlin",
-                "teamLogo": "https://media.api-sports.io/football/teams/182.png",
                 "value": 2
             }
         ]
@@ -3541,14 +3541,6 @@ const siteData = {
             },
             {
                 "rank": 5,
-                "name": "C. Palmer",
-                "photo": "https://media.api-sports.io/football/players/152982.png",
-                "team": "Chelsea",
-                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
-                "value": 2
-            },
-            {
-                "rank": 6,
                 "name": "R. Cherki",
                 "photo": "https://media.api-sports.io/football/players/156477.png",
                 "team": "Manchester City",
@@ -3556,7 +3548,31 @@ const siteData = {
                 "value": 2
             },
             {
+                "rank": 6,
+                "name": "C. Palmer",
+                "photo": "https://media.api-sports.io/football/players/152982.png",
+                "team": "Chelsea",
+                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
+                "value": 2
+            },
+            {
                 "rank": 7,
+                "name": "P. Groß",
+                "photo": "https://media.api-sports.io/football/players/18970.png",
+                "team": "Brighton",
+                "teamLogo": "https://media.api-sports.io/football/teams/51.png",
+                "value": 2
+            },
+            {
+                "rank": 8,
+                "name": "M. De Cuyper",
+                "photo": "https://media.api-sports.io/football/players/162007.png",
+                "team": "Brighton",
+                "teamLogo": "https://media.api-sports.io/football/teams/51.png",
+                "value": 2
+            },
+            {
+                "rank": 9,
                 "name": "M. Gibbs-White",
                 "photo": "https://media.api-sports.io/football/players/18746.png",
                 "team": "Nottingham Forest",
@@ -3564,27 +3580,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
-                "name": "J. Hato",
-                "photo": "https://media.api-sports.io/football/players/341642.png",
-                "team": "Chelsea",
-                "teamLogo": "https://media.api-sports.io/football/teams/49.png",
-                "value": 2
-            },
-            {
-                "rank": 9,
-                "name": "D. Rice",
-                "photo": "https://media.api-sports.io/football/players/2937.png",
-                "team": "Arsenal",
-                "teamLogo": "https://media.api-sports.io/football/teams/42.png",
-                "value": 2
-            },
-            {
                 "rank": 10,
-                "name": "R. Calafiori",
-                "photo": "https://media.api-sports.io/football/players/157052.png",
-                "team": "Arsenal",
-                "teamLogo": "https://media.api-sports.io/football/teams/42.png",
+                "name": "P. Foden",
+                "photo": "https://media.api-sports.io/football/players/631.png",
+                "team": "Manchester City",
+                "teamLogo": "https://media.api-sports.io/football/teams/50.png",
                 "value": 2
             }
         ],
@@ -36067,51 +36067,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-15",
-                "time": "02:00",
-                "home": "Villarreal",
-                "away": "Real Betis",
-                "stadium": "Estadio de la Ceramica",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/533.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/543.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 18,
-                        "away": 82
-                    },
-                    "att": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
-                    }
-                }
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-09-15",
                 "time": "02:00",
@@ -36153,6 +36108,51 @@ const siteData = {
                     "goals": {
                         "home": 42,
                         "away": 58
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-15",
+                "time": "02:00",
+                "home": "Villarreal",
+                "away": "Real Betis",
+                "stadium": "Estadio de la Ceramica",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/533.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/543.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 18,
+                        "away": 82
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
@@ -36609,51 +36609,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Platense",
-                "away": "Fluminense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/124.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Fluminense",
-                "comparison": {
-                    "form": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "poisson": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-16",
                 "time": "05:00",
@@ -36695,6 +36650,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Platense",
+                "away": "Fluminense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/124.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Fluminense",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
