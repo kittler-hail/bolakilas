@@ -3,36 +3,36 @@
   "home": "Leeds",
   "away": "Newcastle",
   "statusCode": "1H",
-  "updatedAt": "15/09/2026 02:21 WIB",
+  "updatedAt": "15/09/2026 02:38 WIB",
   "statistics": {
     "home": {
-      "possession": 51,
-      "shotsTotal": 2,
-      "shotsOnTarget": 1,
-      "corners": 2,
-      "fouls": 2,
+      "possession": 60,
+      "shotsTotal": 6,
+      "shotsOnTarget": 3,
+      "corners": 3,
+      "fouls": 3,
       "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 1,
-      "shotsOutsidebox": 1,
-      "passesTotal": 101,
-      "passesAccurate": 82,
+      "shotsInsidebox": 4,
+      "shotsOutsidebox": 2,
+      "passesTotal": 205,
+      "passesAccurate": 172,
       "passesPct": null
     },
     "away": {
-      "possession": 49,
+      "possession": 40,
       "shotsTotal": 0,
       "shotsOnTarget": 0,
       "corners": 1,
-      "fouls": 1,
-      "offsides": 0,
+      "fouls": 3,
+      "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 0,
       "shotsOutsidebox": 0,
-      "passesTotal": 99,
-      "passesAccurate": 81,
+      "passesTotal": 141,
+      "passesAccurate": 108,
       "passesPct": null
     }
   },
@@ -45,67 +45,67 @@
           "number": 1,
           "name": "J. Trafford",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "7.1"
         },
         {
           "number": 24,
           "name": "J. Justin",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 30,
           "name": "N. Elvedi",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 5,
           "name": "T. Muharemović",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "7.3"
         },
         {
           "number": 2,
           "name": "J. Bogle",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.8"
         },
         {
           "number": 18,
           "name": "A. Stach",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.1"
         },
         {
           "number": 4,
           "name": "E. Ampadu",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "7.4"
         },
         {
           "number": 22,
           "name": "A. Tanaka",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.2"
         },
         {
           "number": 3,
           "name": "G. Gudmundsson",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 9,
           "name": "D. Calvert-Lewin",
           "position": "Penyerang",
-          "rating": "6.1"
+          "rating": "7.9"
         },
         {
           "number": 19,
           "name": "N. Okafor",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
@@ -173,67 +173,67 @@
           "number": 21,
           "name": "L. Horníček",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "6.0"
         },
         {
           "number": 37,
           "name": "A. Dedić",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.4"
         },
         {
           "number": 12,
           "name": "M. Thiaw",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.2"
         },
         {
           "number": 4,
           "name": "S. Botman",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "5.8"
         },
         {
           "number": 3,
           "name": "L. Hall",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 6,
           "name": "Nico González",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.0"
         },
         {
           "number": 67,
           "name": "L. Miley",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "5.3"
         },
         {
           "number": 23,
           "name": "J. Murphy",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "5.7"
         },
         {
           "number": 20,
           "name": "M. Fernandez-Pardo",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.1"
         },
         {
           "number": 11,
           "name": "H. Barnes",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.3"
         },
         {
           "number": 9,
           "name": "Y. Wissa",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -265,7 +265,7 @@
           "number": 14,
           "name": "Sean Steur",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.9"
         },
         {
           "number": 17,
