@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T17:04:22.839Z.
+   API-Football v3) pada 2026-09-14T18:05:25.139Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -107,8 +107,8 @@ const siteData = {
             "away": "Fenerbahçe",
             "stadium": "Gaziantep Stadyumu",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
+            "statusCode": "2H",
+            "minuteDisplay": "48'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/3573.png",
@@ -145,7 +145,15 @@ const siteData = {
                     "home": 14,
                     "away": 86
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "4",
+                    "player": "U. Meleke",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Primeira Liga",
@@ -155,7 +163,10 @@ const siteData = {
             "away": "Estrela",
             "stadium": "",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "18'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/226.png",
             "awayLogo": "https://media.api-sports.io/football/teams/15130.png",
             "prediction": "1 - 2",
@@ -238,51 +249,6 @@ const siteData = {
             }
         },
         {
-            "league": "LaLiga",
-            "date": "2026-09-15",
-            "time": "02:00",
-            "home": "Villarreal",
-            "away": "Real Betis",
-            "stadium": "Estadio de la Cerámica",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/533.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/543.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 18,
-                    "away": 82
-                },
-                "att": {
-                    "home": 55,
-                    "away": 45
-                },
-                "def": {
-                    "home": 38,
-                    "away": 62
-                },
-                "poisson": {
-                    "home": 46,
-                    "away": 54
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 47,
-                    "away": 53
-                }
-            }
-        },
-        {
             "league": "Premier League",
             "date": "2026-09-15",
             "time": "02:00",
@@ -324,6 +290,51 @@ const siteData = {
                 "goals": {
                     "home": 42,
                     "away": 58
+                }
+            }
+        },
+        {
+            "league": "LaLiga",
+            "date": "2026-09-15",
+            "time": "02:00",
+            "home": "Villarreal",
+            "away": "Real Betis",
+            "stadium": "Estadio de la Cerámica",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/533.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/543.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 18,
+                    "away": 82
+                },
+                "att": {
+                    "home": 55,
+                    "away": 45
+                },
+                "def": {
+                    "home": 38,
+                    "away": 62
+                },
+                "poisson": {
+                    "home": 46,
+                    "away": 54
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 47,
+                    "away": 53
                 }
             }
         },
@@ -1781,7 +1792,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 00:04 WIB",
+    "standingsUpdated": "15/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3557,8 +3568,8 @@ const siteData = {
             {
                 "player": "A. Sangante",
                 "photo": "https://media.api-sports.io/football/players/174927.png",
-                "reason": "Red Card",
-                "since": "2026-09-11"
+                "reason": "Ankle Injury",
+                "since": "2026-09-16"
             }
         ],
         "rayo-vallecano": [
@@ -3614,7 +3625,7 @@ const siteData = {
                 "player": "J. de Frutos",
                 "photo": "https://media.api-sports.io/football/players/128582.png",
                 "reason": "Red Card",
-                "since": "2026-09-12"
+                "since": "2026-09-15"
             }
         ],
         "racing-santander": [
@@ -3659,8 +3670,8 @@ const siteData = {
             {
                 "player": "N. Carrillo",
                 "photo": "https://media.api-sports.io/football/players/628615.png",
-                "reason": "Injury",
-                "since": "2026-09-05"
+                "reason": "Ankle Injury",
+                "since": "2026-09-16"
             },
             {
                 "player": "Y. Hernandez",
@@ -3737,6 +3748,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/286639.png",
                 "reason": "Knee Injury",
                 "since": "2026-08-29"
+            },
+            {
+                "player": "Jofre",
+                "photo": "https://media.api-sports.io/football/players/182674.png",
+                "reason": "Injury",
+                "since": "2026-09-15"
             }
         ],
         "levante": [
@@ -4124,7 +4141,7 @@ const siteData = {
                 "player": "G. Rodriguez",
                 "photo": "https://media.api-sports.io/football/players/2476.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-11"
             },
             {
                 "player": "M. Diakhaby",
@@ -4141,7 +4158,7 @@ const siteData = {
             {
                 "player": "C. Tarrega",
                 "photo": "https://media.api-sports.io/football/players/333672.png",
-                "reason": "Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-09-15"
             }
         ],
@@ -33229,8 +33246,8 @@ const siteData = {
                         "away": 76
                     },
                     "poisson": {
-                        "home": 16,
-                        "away": 84
+                        "home": 17,
+                        "away": 83
                     },
                     "h2h": {
                         "home": 15,
