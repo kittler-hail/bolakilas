@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-13T23:04:40.606Z.
+   API-Football v3) pada 2026-09-14T00:07:43.294Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -602,95 +602,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-09-14",
-            "time": "01:00",
-            "home": "PSV Eindhoven",
-            "away": "Sparta Rotterdam",
-            "stadium": "Philips Stadion",
-            "round": "Pekan 6",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 4,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/197.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
-            },
-            "advice": "Combo Winner : PSV Eindhoven and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 72,
-                    "away": 28
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 60,
-                    "away": 40
-                },
-                "poisson": {
-                    "home": 72,
-                    "away": 28
-                },
-                "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 77,
-                    "away": 23
-                }
-            },
-            "goals": [
-                {
-                    "minute": "15",
-                    "player": "Milan Zonneveld",
-                    "team": "away"
-                },
-                {
-                    "minute": "23",
-                    "player": "Sven Mijnans",
-                    "team": "home"
-                },
-                {
-                    "minute": "39",
-                    "player": "Kodai Sano",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "Sven Mijnans",
-                    "team": "home"
-                },
-                {
-                    "minute": "88",
-                    "player": "Sven Mijnans",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "30",
-                    "player": "Bruno Martins Indi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "75",
-                    "player": "Armando Obispo",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-14",
             "time": "01:00",
@@ -805,6 +716,95 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "J. Perez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-14",
+            "time": "01:00",
+            "home": "PSV Eindhoven",
+            "away": "Sparta Rotterdam",
+            "stadium": "Philips Stadion",
+            "round": "Pekan 6",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/197.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/426.png",
+            "prediction": "3 - 2",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Combo Winner : PSV Eindhoven and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 72,
+                    "away": 28
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 60,
+                    "away": 40
+                },
+                "poisson": {
+                    "home": 72,
+                    "away": 28
+                },
+                "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 77,
+                    "away": 23
+                }
+            },
+            "goals": [
+                {
+                    "minute": "15",
+                    "player": "Milan Zonneveld",
+                    "team": "away"
+                },
+                {
+                    "minute": "23",
+                    "player": "Sven Mijnans",
+                    "team": "home"
+                },
+                {
+                    "minute": "39",
+                    "player": "Kodai Sano",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Sven Mijnans",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "Sven Mijnans",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "Bruno Martins Indi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Armando Obispo",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1195,8 +1195,8 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Soldier Field",
             "round": "Pekan 25",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1607.png",
@@ -1269,6 +1269,12 @@ const siteData = {
                     "player": "Peyton Miller",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Sergio Oregel",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1280,10 +1286,10 @@ const siteData = {
             "away": "Austin",
             "stadium": "BC Place",
             "round": "Pekan 25",
-            "statusCode": "1H",
-            "minuteDisplay": "25'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "68'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1603.png",
             "awayLogo": "https://media.api-sports.io/football/teams/16489.png",
             "prediction": "2 - 1",
@@ -1317,6 +1323,94 @@ const siteData = {
                 "goals": {
                     "home": 80,
                     "away": 20
+                }
+            },
+            "goals": [
+                {
+                    "minute": "28",
+                    "player": "Christian Ramirez",
+                    "team": "away"
+                },
+                {
+                    "minute": "49",
+                    "player": "Brian White",
+                    "team": "home"
+                },
+                {
+                    "minute": "60",
+                    "player": "Christian Ramirez",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "35",
+                    "player": "Jon Bell",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "Joseph Rosales",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "Oliver Love Larraz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "Guilherme Biro",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-14",
+            "time": "08:00",
+            "home": "San Diego",
+            "away": "Philadelphia Union",
+            "stadium": "Snapdragon Stadium",
+            "round": "Pekan 25",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Philadelphia Union and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 35,
+                    "away": 65
+                },
+                "att": {
+                    "home": 41,
+                    "away": 59
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 61,
+                    "away": 39
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
                 }
             }
         },
@@ -1362,51 +1456,6 @@ const siteData = {
                 "goals": {
                     "home": 31,
                     "away": 69
-                }
-            }
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-14",
-            "time": "08:00",
-            "home": "San Diego",
-            "away": "Philadelphia Union",
-            "stadium": "Snapdragon Stadium",
-            "round": "Pekan 25",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/25484.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Philadelphia Union and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 35,
-                    "away": 65
-                },
-                "att": {
-                    "home": 41,
-                    "away": 59
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 61,
-                    "away": 39
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
                 }
             }
         },
@@ -2864,7 +2913,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 06:04 WIB",
+    "standingsUpdated": "14/09/2026 07:07 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36516,6 +36565,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Dorados",
+                "away": "Cancún",
+                "stadium": "Estadio El Encanto",
+                "round": "Apertura - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cancún",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
+                    }
+                }
+            },
+            {
                 "league": "Liga MX",
                 "date": "2026-09-16",
                 "time": "08:00",
@@ -36557,51 +36651,6 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Dorados",
-                "away": "Cancún",
-                "stadium": "Estadio El Encanto",
-                "round": "Apertura - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cancún",
-                "comparison": {
-                    "form": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "poisson": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
                     }
                 }
             },
