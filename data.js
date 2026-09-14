@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T20:05:42.648Z.
+   API-Football v3) pada 2026-09-14T21:05:17.263Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Elland Road",
         "prediction": "1 - 2",
         "analysis": "Leeds bertemu Newcastle dalam laga Premier League. Analisis API-Football: Double chance : draw or Newcastle.",
-        "statusCode": "2H",
-        "minuteDisplay": "48'",
-        "homeScore": 3,
-        "awayScore": 0,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 4,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -44,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/63.png",
         "awayLogo": "https://media.api-sports.io/football/teams/34.png",
         "h2h": [
+            {
+                "home": "Leeds",
+                "away": "Newcastle",
+                "score": "4-1"
+            },
             {
                 "home": "Newcastle",
                 "away": "Leeds",
@@ -63,11 +68,6 @@ const siteData = {
                 "home": "Newcastle",
                 "away": "Leeds",
                 "score": "0-0"
-            },
-            {
-                "home": "Leeds",
-                "away": "Newcastle",
-                "score": "0-1"
             }
         ],
         "form": {
@@ -314,10 +314,10 @@ const siteData = {
             "away": "Udinese",
             "stadium": "San Siro/Giuseppe Meazza",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "62'",
-            "homeScore": 3,
-            "awayScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/505.png",
             "awayLogo": "https://media.api-sports.io/football/teams/494.png",
             "prediction": "2 - 1",
@@ -378,6 +378,21 @@ const siteData = {
                     "minute": "57",
                     "player": "M. Thuram",
                     "team": "home"
+                },
+                {
+                    "minute": "67",
+                    "player": "F. Esposito",
+                    "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "A. Bonny",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "I. Gueye",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -385,6 +400,12 @@ const siteData = {
                     "minute": "45",
                     "player": "K. Davis",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "H. Mkhitaryan",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -397,10 +418,10 @@ const siteData = {
             "away": "Newcastle",
             "stadium": "Elland Road",
             "round": "Pekan 4",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
-            "homeScore": 3,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/63.png",
             "awayLogo": "https://media.api-sports.io/football/teams/34.png",
             "prediction": "1 - 2",
@@ -451,6 +472,16 @@ const siteData = {
                     "minute": "45+1",
                     "player": "Dominic Calvert-Lewin",
                     "team": "home"
+                },
+                {
+                    "minute": "59",
+                    "player": "Noah Okafor",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Bazoumana Touré",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -458,6 +489,18 @@ const siteData = {
                     "minute": "44",
                     "player": "Dominic Calvert-Lewin",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Jacob Murphy",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Valentino Livramento",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -470,8 +513,8 @@ const siteData = {
             "away": "Real Betis",
             "stadium": "Estadio de la Cerámica",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "46'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/533.png",
@@ -525,6 +568,14 @@ const siteData = {
                     "player": "Natan Bernardo de Souza",
                     "team": "away"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "84",
+                    "player": "Renato Veiga",
+                    "team": "home",
+                    "type": "yellow"
+                }
             ]
         },
         {
@@ -535,10 +586,10 @@ const siteData = {
             "away": "Maritimo",
             "stadium": "Parque Joaquim de Almeida Freitas",
             "round": "Pekan 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 2,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "90+2'",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/215.png",
             "awayLogo": "https://media.api-sports.io/football/teams/214.png",
             "prediction": "1 - 2",
@@ -584,6 +635,16 @@ const siteData = {
                     "minute": "28",
                     "player": "Leonardo Vonić",
                     "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "Romain Correia",
+                    "team": "away"
+                },
+                {
+                    "minute": "86",
+                    "player": "Alexandre Parsemain",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -598,6 +659,12 @@ const siteData = {
                     "player": "Kiko Bondoso",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "Maxime Dominguez",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -609,8 +676,8 @@ const siteData = {
             "away": "Estoril",
             "stadium": "",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "19'",
+            "statusCode": "2H",
+            "minuteDisplay": "59'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/217.png",
@@ -647,7 +714,15 @@ const siteData = {
                     "home": 60,
                     "away": 40
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "34",
+                    "player": "Francisco Reis Ferreira",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -2013,7 +2088,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 03:05 WIB",
+    "standingsUpdated": "15/09/2026 04:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4969,12 +5044,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/19524.png",
                 "reason": "Muscle Injury",
                 "since": "2026-09-14"
-            },
-            {
-                "player": "G. Simeone",
-                "photo": "https://media.api-sports.io/football/players/30414.png",
-                "reason": "Back Injury",
-                "since": "2026-09-14"
             }
         ],
         "ac-milan": [
@@ -5111,15 +5180,21 @@ const siteData = {
                 "since": "2026-08-24"
             },
             {
-                "player": "A. Dovbyk",
-                "photo": "https://media.api-sports.io/football/players/15811.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-13"
-            },
-            {
                 "player": "O. El Azzouzi",
                 "photo": "https://media.api-sports.io/football/players/319919.png",
                 "reason": "Thigh Injury",
+                "since": "2026-09-13"
+            },
+            {
+                "player": "J. Rowe",
+                "photo": "https://media.api-sports.io/football/players/278095.png",
+                "reason": "Inactive",
+                "since": "2026-08-31"
+            },
+            {
+                "player": "A. Dovbyk",
+                "photo": "https://media.api-sports.io/football/players/15811.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-13"
             },
             {
@@ -5133,12 +5208,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/128461.png",
                 "reason": "Hip Injury",
                 "since": "2026-09-13"
-            },
-            {
-                "player": "J. Rowe",
-                "photo": "https://media.api-sports.io/football/players/278095.png",
-                "reason": "Inactive",
-                "since": "2026-08-31"
             }
         ],
         "lazio": [
@@ -5215,6 +5284,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/162452.png",
                 "reason": "Muscle Injury",
                 "since": "2026-08-31"
+            },
+            {
+                "player": "E. Ndicka",
+                "photo": "https://media.api-sports.io/football/players/1807.png",
+                "reason": "Illness",
+                "since": "2026-09-14"
             }
         ],
         "fiorentina": [
@@ -33487,51 +33562,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Platense",
-                "away": "Fluminense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/124.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Fluminense",
-                "comparison": {
-                    "form": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "poisson": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-16",
                 "time": "05:00",
@@ -33573,6 +33603,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Platense",
+                "away": "Fluminense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/124.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Fluminense",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
@@ -33622,51 +33697,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Toluca",
-                "stadium": "Estadio Cuauhtémoc",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Toluca",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "poisson": {
-                        "home": 24,
-                        "away": 76
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 14,
-                        "away": 86
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-16",
                 "time": "08:00",
@@ -33708,6 +33738,51 @@ const siteData = {
                     "goals": {
                         "home": 47,
                         "away": 53
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Toluca",
+                "stadium": "Estadio Cuauhtémoc",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Toluca",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 24,
+                        "away": 76
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 14,
+                        "away": 86
                     }
                 }
             },
@@ -34344,51 +34419,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "LDU de Quito",
-                "away": "Palmeiras",
-                "stadium": "Estadio Rodrigo Paz Delgado",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Palmeiras and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "h2h": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "goals": {
-                        "home": 38,
-                        "away": 63
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -34430,6 +34460,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "LDU de Quito",
+                "away": "Palmeiras",
+                "stadium": "Estadio Rodrigo Paz Delgado",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Palmeiras and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 63
                     }
                 }
             },
