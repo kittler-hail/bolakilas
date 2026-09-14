@@ -3,7 +3,7 @@
   "home": "Real Sociedad",
   "away": "Atletico Madrid",
   "statusCode": "FT",
-  "updatedAt": "14/09/2026 07:26 WIB",
+  "updatedAt": "14/09/2026 07:49 WIB",
   "statistics": {
     "home": {
       "possession": 54,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 2,
       "shotsOutsidebox": 6,
-      "passesTotal": 524,
-      "passesAccurate": 450,
+      "passesTotal": 525,
+      "passesAccurate": 451,
       "passesPct": null
     },
     "away": {
