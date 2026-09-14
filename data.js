@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T18:05:25.139Z.
+   API-Football v3) pada 2026-09-14T19:05:38.475Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Elland Road",
         "prediction": "1 - 2",
         "analysis": "Leeds bertemu Newcastle dalam laga Premier League. Analisis API-Football: Double chance : draw or Newcastle.",
-        "statusCode": "NS",
+        "statusCode": "1H",
+        "minuteDisplay": "5'",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -107,8 +110,8 @@ const siteData = {
             "away": "Fenerbahçe",
             "stadium": "Gaziantep Stadyumu",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/3573.png",
@@ -152,6 +155,42 @@ const siteData = {
                     "player": "U. Meleke",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "I. Kahveci",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "A. Kizildag",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "V. Muriqi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "M. Abena",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "O. Aydin",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "S. Hansen",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -163,10 +202,10 @@ const siteData = {
             "away": "Estrela",
             "stadium": "",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "18'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "58'",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/226.png",
             "awayLogo": "https://media.api-sports.io/football/teams/15130.png",
             "prediction": "1 - 2",
@@ -201,7 +240,43 @@ const siteData = {
                     "home": 62,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "Ianis Stoica",
+                    "team": "away"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "Francisco Petrasso",
+                    "team": "home"
+                },
+                {
+                    "minute": "53",
+                    "player": "Abraham Marcus",
+                    "team": "away"
+                },
+                {
+                    "minute": "56",
+                    "player": "Roland Galcik",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "26",
+                    "player": "Max Scholze",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "44",
+                    "player": "Francisco Petrasso",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -211,7 +286,10 @@ const siteData = {
             "away": "Udinese",
             "stadium": "",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "19'",
+            "homeScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/505.png",
             "awayLogo": "https://media.api-sports.io/football/teams/494.png",
             "prediction": "2 - 1",
@@ -246,7 +324,19 @@ const siteData = {
                     "home": 64,
                     "away": 36
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "9",
+                    "player": "J. Abankwah",
+                    "team": "away"
+                },
+                {
+                    "minute": "16",
+                    "player": "J. Ekkelenkamp",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Premier League",
@@ -256,7 +346,10 @@ const siteData = {
             "away": "Newcastle",
             "stadium": "Elland Road",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/63.png",
             "awayLogo": "https://media.api-sports.io/football/teams/34.png",
             "prediction": "1 - 2",
@@ -301,7 +394,10 @@ const siteData = {
             "away": "Real Betis",
             "stadium": "Estadio de la Cerámica",
             "round": "Pekan 5",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/533.png",
             "awayLogo": "https://media.api-sports.io/football/teams/543.png",
             "prediction": "1 - 2",
@@ -1792,7 +1888,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 01:05 WIB",
+    "standingsUpdated": "15/09/2026 02:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2796,6 +2892,12 @@ const siteData = {
             {
                 "player": "A. Diallo",
                 "photo": "https://media.api-sports.io/football/players/157997.png",
+                "reason": "Injury",
+                "since": "2026-09-13"
+            },
+            {
+                "player": "L. Shaw",
+                "photo": "https://media.api-sports.io/football/players/891.png",
                 "reason": "Injury",
                 "since": "2026-09-13"
             }
