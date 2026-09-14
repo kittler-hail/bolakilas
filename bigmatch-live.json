@@ -2,37 +2,37 @@
   "fixtureId": 1557402,
   "home": "Leeds",
   "away": "Newcastle",
-  "statusCode": "2H",
-  "updatedAt": "15/09/2026 03:47 WIB",
+  "statusCode": "FT",
+  "updatedAt": "15/09/2026 04:00 WIB",
   "statistics": {
     "home": {
-      "possession": 52,
-      "shotsTotal": 14,
+      "possession": 51,
+      "shotsTotal": 15,
       "shotsOnTarget": 6,
-      "corners": 4,
+      "corners": 5,
       "fouls": 8,
       "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 10,
-      "shotsOutsidebox": 4,
-      "passesTotal": 417,
-      "passesAccurate": 348,
+      "shotsOutsidebox": 5,
+      "passesTotal": 429,
+      "passesAccurate": 356,
       "passesPct": null
     },
     "away": {
-      "possession": 48,
-      "shotsTotal": 6,
-      "shotsOnTarget": 4,
+      "possession": 49,
+      "shotsTotal": 7,
+      "shotsOnTarget": 5,
       "corners": 5,
-      "fouls": 11,
+      "fouls": 13,
       "offsides": 3,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 3,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 3,
-      "passesTotal": 394,
-      "passesAccurate": 322,
+      "passesTotal": 417,
+      "passesAccurate": 342,
       "passesPct": null
     }
   },
@@ -45,55 +45,55 @@
           "number": 1,
           "name": "J. Trafford",
           "position": "Kiper",
-          "rating": "7.7"
+          "rating": "7.5"
         },
         {
           "number": 24,
           "name": "J. Justin",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "6.4"
         },
         {
           "number": 30,
           "name": "N. Elvedi",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "6.6"
         },
         {
           "number": 5,
           "name": "T. Muharemović",
           "position": "Bek",
-          "rating": "8.0"
+          "rating": "7.3"
         },
         {
           "number": 2,
           "name": "J. Bogle",
           "position": "Gelandang",
-          "rating": "8.2"
+          "rating": "8.0"
         },
         {
           "number": 18,
           "name": "A. Stach",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.6"
         },
         {
           "number": 4,
           "name": "E. Ampadu",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.5"
         },
         {
           "number": 22,
           "name": "A. Tanaka",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 3,
           "name": "G. Gudmundsson",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 9,
@@ -119,7 +119,7 @@
           "number": 11,
           "name": "B. Aaronson",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 23,
@@ -131,7 +131,7 @@
           "number": 26,
           "name": "M. Bard",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "6.4"
         },
         {
           "number": 15,
@@ -143,13 +143,13 @@
           "number": 7,
           "name": "D. James",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 8,
           "name": "S. Longstaff",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 14,
@@ -161,7 +161,7 @@
           "number": 10,
           "name": "H. Wilson",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.9"
         }
       ]
     },
@@ -173,7 +173,7 @@
           "number": 21,
           "name": "L. Horníček",
           "position": "Kiper",
-          "rating": "6.0"
+          "rating": "5.5"
         },
         {
           "number": 37,
@@ -271,7 +271,7 @@
           "number": 17,
           "name": "B. Touré",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "7.3"
         },
         {
           "number": 28,
