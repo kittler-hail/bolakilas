@@ -2,9 +2,40 @@
   "fixtureId": 1557402,
   "home": "Leeds",
   "away": "Newcastle",
-  "statusCode": "NS",
-  "updatedAt": "15/09/2026 02:00 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "15/09/2026 02:21 WIB",
+  "statistics": {
+    "home": {
+      "possession": 51,
+      "shotsTotal": 2,
+      "shotsOnTarget": 1,
+      "corners": 2,
+      "fouls": 2,
+      "offsides": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": 1,
+      "shotsOutsidebox": 1,
+      "passesTotal": 101,
+      "passesAccurate": 82,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 49,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": 1,
+      "fouls": 1,
+      "offsides": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 99,
+      "passesAccurate": 81,
+      "passesPct": null
+    }
+  },
   "lineups": {
     "home": {
       "formation": "3-5-2",
@@ -13,104 +44,124 @@
         {
           "number": 1,
           "name": "J. Trafford",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.8"
         },
         {
           "number": 24,
           "name": "J. Justin",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.9"
         },
         {
           "number": 30,
           "name": "N. Elvedi",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.5"
         },
         {
           "number": 5,
           "name": "T. Muharemović",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 2,
           "name": "J. Bogle",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.4"
         },
         {
           "number": 18,
           "name": "A. Stach",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.6"
         },
         {
           "number": 4,
           "name": "E. Ampadu",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 22,
           "name": "A. Tanaka",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 3,
           "name": "G. Gudmundsson",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 9,
           "name": "D. Calvert-Lewin",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.1"
         },
         {
           "number": 19,
           "name": "N. Okafor",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         }
       ],
       "substitutes": [
         {
           "number": 16,
           "name": "M. Zetterer",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 11,
           "name": "B. Aaronson",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 23,
           "name": "J. Bahoya",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 26,
           "name": "M. Bard",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 15,
           "name": "J. Bijol",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 7,
           "name": "D. James",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 8,
           "name": "S. Longstaff",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 14,
           "name": "L. Nmecha",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 10,
           "name": "H. Wilson",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         }
       ]
     },
@@ -121,104 +172,124 @@
         {
           "number": 21,
           "name": "L. Horníček",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.9"
         },
         {
           "number": 37,
           "name": "A. Dedić",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.1"
         },
         {
           "number": 12,
           "name": "M. Thiaw",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 4,
           "name": "S. Botman",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 3,
           "name": "L. Hall",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.8"
         },
         {
           "number": 6,
           "name": "Nico González",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 67,
           "name": "L. Miley",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 23,
           "name": "J. Murphy",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 20,
           "name": "M. Fernandez-Pardo",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 11,
           "name": "H. Barnes",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.4"
         },
         {
           "number": 9,
           "name": "Y. Wissa",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.4"
         }
       ],
       "substitutes": [
         {
           "number": 1,
           "name": "N. Pope",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 2,
           "name": "T. Livramento",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 5,
           "name": "F. Schär",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 8,
           "name": "A. Bamba",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 14,
           "name": "Sean Steur",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 17,
           "name": "B. Touré",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 28,
           "name": "J. Willock",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 41,
           "name": "J. Ramsey",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 76,
           "name": "M. Miley",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         }
       ]
     }
@@ -231,13 +302,13 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "2.20",
+    "home": "2.30",
     "draw": "3.30",
-    "away": "3.10",
+    "away": "2.90",
     "overUnder": null,
     "btts": {
-      "yes": "1.65",
-      "no": "2.20"
+      "yes": "1.57",
+      "no": "2.30"
     }
   },
   "liveOdds": null
