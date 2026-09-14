@@ -2,37 +2,37 @@
   "fixtureId": 1557402,
   "home": "Leeds",
   "away": "Newcastle",
-  "statusCode": "HT",
-  "updatedAt": "15/09/2026 02:53 WIB",
+  "statusCode": "2H",
+  "updatedAt": "15/09/2026 03:13 WIB",
   "statistics": {
     "home": {
-      "possession": 59,
-      "shotsTotal": 10,
+      "possession": 54,
+      "shotsTotal": 11,
       "shotsOnTarget": 5,
       "corners": 3,
       "fouls": 4,
       "offsides": 1,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 7,
+      "shotsInsidebox": 8,
       "shotsOutsidebox": 3,
-      "passesTotal": 254,
-      "passesAccurate": 210,
+      "passesTotal": 272,
+      "passesAccurate": 222,
       "passesPct": null
     },
     "away": {
-      "possession": 41,
-      "shotsTotal": 1,
-      "shotsOnTarget": 1,
-      "corners": 2,
-      "fouls": 4,
+      "possession": 46,
+      "shotsTotal": 2,
+      "shotsOnTarget": 2,
+      "corners": 4,
+      "fouls": 7,
       "offsides": 1,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 0,
-      "passesTotal": 184,
-      "passesAccurate": 140,
+      "passesTotal": 241,
+      "passesAccurate": 188,
       "passesPct": null
     }
   },
@@ -45,43 +45,43 @@
           "number": 1,
           "name": "J. Trafford",
           "position": "Kiper",
-          "rating": "7.1"
+          "rating": "7.3"
         },
         {
           "number": 24,
           "name": "J. Justin",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.5"
         },
         {
           "number": 30,
           "name": "N. Elvedi",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 5,
           "name": "T. Muharemović",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.7"
         },
         {
           "number": 2,
           "name": "J. Bogle",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "8.2"
         },
         {
           "number": 18,
           "name": "A. Stach",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 4,
           "name": "E. Ampadu",
           "position": "Gelandang",
-          "rating": "7.5"
+          "rating": "6.9"
         },
         {
           "number": 22,
@@ -93,13 +93,13 @@
           "number": 3,
           "name": "G. Gudmundsson",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 9,
           "name": "D. Calvert-Lewin",
           "position": "Penyerang",
-          "rating": "8.8"
+          "rating": "8.4"
         },
         {
           "number": 19,
@@ -173,19 +173,19 @@
           "number": 21,
           "name": "L. Horníček",
           "position": "Kiper",
-          "rating": "5.5"
+          "rating": "5.4"
         },
         {
           "number": 37,
           "name": "A. Dedić",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "5.4"
         },
         {
           "number": 12,
           "name": "M. Thiaw",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.1"
         },
         {
           "number": 4,
@@ -197,7 +197,7 @@
           "number": 3,
           "name": "L. Hall",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.2"
         },
         {
           "number": 6,
@@ -221,7 +221,7 @@
           "number": 20,
           "name": "M. Fernandez-Pardo",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "5.6"
         },
         {
           "number": 11,
@@ -233,7 +233,7 @@
           "number": 9,
           "name": "Y. Wissa",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
@@ -265,7 +265,7 @@
           "number": 14,
           "name": "Sean Steur",
           "position": "Gelandang",
-          "rating": "5.3"
+          "rating": "6.1"
         },
         {
           "number": 17,
