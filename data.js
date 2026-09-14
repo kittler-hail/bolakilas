@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-14T10:05:35.573Z.
+   API-Football v3) pada 2026-09-14T11:05:04.372Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -106,176 +106,6 @@ const siteData = {
         }
     },
     "matches": [
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Galatasaray",
-            "away": "Kocaelispor",
-            "stadium": "Rams Park Stadyumu",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Kocaelispor",
-            "comparison": {
-                "form": {
-                    "home": 53,
-                    "away": 47
-                },
-                "att": {
-                    "home": 71,
-                    "away": 29
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 62,
-                    "away": 38
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            },
-            "goals": [
-                {
-                    "minute": "71",
-                    "player": "A. Bardakci",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "22",
-                    "player": "Anfernee Jamal Dijksteel",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "56",
-                    "player": "Deniz Gül",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Roland Sallai",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-14",
-            "time": "00:00",
-            "home": "Amed",
-            "away": "Başakşehir",
-            "stadium": "Şilbe Spor Kompleksi",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 5,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Winner : Amed",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 54,
-                    "away": 46
-                },
-                "def": {
-                    "home": 55,
-                    "away": 45
-                },
-                "poisson": {
-                    "home": 90,
-                    "away": 10
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "45",
-                    "player": "E. Bayram",
-                    "team": "away"
-                },
-                {
-                    "minute": "51",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "55",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "74",
-                    "player": "G. Orban",
-                    "team": "home"
-                },
-                {
-                    "minute": "83",
-                    "player": "M. Diagne",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "6",
-                    "player": "Christopher Operi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "54",
-                    "player": "Umut Güneş",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "60",
-                    "player": "Ermal Krasniqi",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "Primeira Liga",
             "date": "2026-09-14",
@@ -494,6 +324,176 @@ const siteData = {
                 {
                     "minute": "87",
                     "player": "Gabrijel Rukavina",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Galatasaray",
+            "away": "Kocaelispor",
+            "stadium": "Rams Park Stadyumu",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/645.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/7411.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Kocaelispor",
+            "comparison": {
+                "form": {
+                    "home": 53,
+                    "away": 47
+                },
+                "att": {
+                    "home": 71,
+                    "away": 29
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 62,
+                    "away": 38
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "goals": [
+                {
+                    "minute": "71",
+                    "player": "A. Bardakci",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "Anfernee Jamal Dijksteel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "56",
+                    "player": "Deniz Gül",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Roland Sallai",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-14",
+            "time": "00:00",
+            "home": "Amed",
+            "away": "Başakşehir",
+            "stadium": "Şilbe Spor Kompleksi",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/564.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Winner : Amed",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 54,
+                    "away": 46
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 90,
+                    "away": 10
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "45",
+                    "player": "E. Bayram",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "M. Diagne",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "Christopher Operi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Umut Güneş",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Ermal Krasniqi",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -2437,23 +2437,23 @@ const siteData = {
             },
             {
                 "rank": 16,
-                "team": "Parma",
-                "logo": "https://media.api-sports.io/football/teams/523.png",
-                "played": 3,
-                "win": 0,
-                "draw": 1,
-                "lose": 2,
-                "gd": -3,
-                "points": 1
-            },
-            {
-                "rank": 17,
                 "team": "Bologna",
                 "logo": "https://media.api-sports.io/football/teams/500.png",
                 "played": 4,
                 "win": 0,
                 "draw": 1,
                 "lose": 3,
+                "gd": -3,
+                "points": 1
+            },
+            {
+                "rank": 17,
+                "team": "Parma",
+                "logo": "https://media.api-sports.io/football/teams/523.png",
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
                 "gd": -3,
                 "points": 1
             },
@@ -3092,7 +3092,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/09/2026 17:05 WIB",
+    "standingsUpdated": "14/09/2026 18:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3938,12 +3938,6 @@ const siteData = {
                 "since": "2026-09-06"
             },
             {
-                "player": "C. Mosquera",
-                "photo": "https://media.api-sports.io/football/players/333682.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-12"
-            },
-            {
                 "player": "Gabriel Jesus",
                 "photo": "https://media.api-sports.io/football/players/643.png",
                 "reason": "Transfer negotiations",
@@ -3954,6 +3948,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/127769.png",
                 "reason": "Transfer negotiations",
                 "since": "2026-08-31"
+            },
+            {
+                "player": "C. Mosquera",
+                "photo": "https://media.api-sports.io/football/players/333682.png",
+                "reason": "Muscle Injury",
+                "since": "2026-09-12"
             }
         ],
         "coventry": [
@@ -3976,6 +3976,12 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
+                "player": "J. Eccles",
+                "photo": "https://media.api-sports.io/football/players/19984.png",
+                "reason": "Injury",
+                "since": "2026-09-13"
+            },
+            {
                 "player": "Y. Gboho",
                 "photo": "https://media.api-sports.io/football/players/84128.png",
                 "reason": "Transfer negotiations",
@@ -3986,12 +3992,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/382358.png",
                 "reason": "Loan agreement",
                 "since": "2026-09-05"
-            },
-            {
-                "player": "J. Eccles",
-                "photo": "https://media.api-sports.io/football/players/19984.png",
-                "reason": "Injury",
-                "since": "2026-09-13"
             }
         ],
         "hull-city": [
@@ -4143,7 +4143,7 @@ const siteData = {
                 "player": "I. Gruev",
                 "photo": "https://media.api-sports.io/football/players/129142.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-05"
             },
             {
                 "player": "J. Rodon",
@@ -4175,12 +4175,6 @@ const siteData = {
                 "player": "W. Osula",
                 "photo": "https://media.api-sports.io/football/players/315237.png",
                 "reason": "Injury",
-                "since": "2026-09-14"
-            },
-            {
-                "player": "A. Dedic",
-                "photo": "https://media.api-sports.io/football/players/7318.png",
-                "reason": "Hamstring Injury",
                 "since": "2026-09-14"
             },
             {
@@ -4278,18 +4272,6 @@ const siteData = {
                 "since": "2026-08-30"
             },
             {
-                "player": "F. Azeez",
-                "photo": "https://media.api-sports.io/football/players/282637.png",
-                "reason": "Abdominal strain",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "G. Rutter",
-                "photo": "https://media.api-sports.io/football/players/90590.png",
-                "reason": "Injury",
-                "since": "2026-09-05"
-            },
-            {
                 "player": "M. Svoboda",
                 "photo": "https://media.api-sports.io/football/players/7090.png",
                 "reason": "Injury",
@@ -4306,6 +4288,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/524411.png",
                 "reason": "Lacking Match Fitness",
                 "since": "2026-09-13"
+            },
+            {
+                "player": "F. Azeez",
+                "photo": "https://media.api-sports.io/football/players/282637.png",
+                "reason": "Abdominal strain",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "G. Rutter",
+                "photo": "https://media.api-sports.io/football/players/90590.png",
+                "reason": "Injury",
+                "since": "2026-09-05"
             }
         ],
         "aston-villa": [
@@ -4352,6 +4346,12 @@ const siteData = {
                 "since": "2026-08-23"
             },
             {
+                "player": "Joao Gomes",
+                "photo": "https://media.api-sports.io/football/players/195103.png",
+                "reason": "Red Card",
+                "since": "2026-09-12"
+            },
+            {
                 "player": "M. Cash",
                 "photo": "https://media.api-sports.io/football/players/19298.png",
                 "reason": "Muscle Injury",
@@ -4361,12 +4361,6 @@ const siteData = {
                 "player": "L. Goretzka",
                 "photo": "https://media.api-sports.io/football/players/511.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
-            },
-            {
-                "player": "Joao Gomes",
-                "photo": "https://media.api-sports.io/football/players/195103.png",
-                "reason": "Red Card",
                 "since": "2026-09-12"
             }
         ],
@@ -4388,12 +4382,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/41621.png",
                 "reason": "Injury",
                 "since": "2026-08-28"
-            },
-            {
-                "player": "N. O'Reilly",
-                "photo": "https://media.api-sports.io/football/players/307123.png",
-                "reason": "Back Injury",
-                "since": "2026-09-13"
             }
         ],
         "bournemouth": [
@@ -4630,16 +4618,16 @@ const siteData = {
                 "since": "2026-09-12"
             },
             {
-                "player": "J. Philogene",
-                "photo": "https://media.api-sports.io/football/players/138931.png",
-                "reason": "Ankle Injury",
-                "since": "2026-09-04"
-            },
-            {
                 "player": "Florentino",
                 "photo": "https://media.api-sports.io/football/players/575.png",
                 "reason": "Inactive",
                 "since": "2026-08-30"
+            },
+            {
+                "player": "J. Philogene",
+                "photo": "https://media.api-sports.io/football/players/138931.png",
+                "reason": "Ankle Injury",
+                "since": "2026-09-04"
             }
         ],
         "sunderland": [
@@ -36067,51 +36055,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-15",
-                "time": "02:00",
-                "home": "Villarreal",
-                "away": "Real Betis",
-                "stadium": "Estadio de la Cerámica",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/533.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/543.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 18,
-                        "away": 82
-                    },
-                    "att": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
-                    }
-                }
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-09-15",
                 "time": "02:00",
@@ -36153,6 +36096,51 @@ const siteData = {
                     "goals": {
                         "home": 42,
                         "away": 58
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-15",
+                "time": "02:00",
+                "home": "Villarreal",
+                "away": "Real Betis",
+                "stadium": "Estadio de la Cerámica",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/533.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/543.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 18,
+                        "away": 82
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
@@ -36609,51 +36597,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Vasco DA Gama",
-                "away": "Santa Fe",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-16",
                 "time": "05:00",
@@ -36695,6 +36638,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Vasco DA Gama",
+                "away": "Santa Fe",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
