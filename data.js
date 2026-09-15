@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T17:04:39.200Z.
+   API-Football v3) pada 2026-09-15T18:05:25.311Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -72,9 +72,9 @@ const siteData = {
             "away": "Espanyol",
             "stadium": "Municipal de Butarque",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 1,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/728.png",
             "awayLogo": "https://media.api-sports.io/football/teams/540.png",
@@ -114,8 +114,21 @@ const siteData = {
             "goals": [
                 {
                     "minute": "3",
-                    "player": "",
+                    "player": "Álvaro García",
                     "team": "home"
+                },
+                {
+                    "minute": "26",
+                    "player": "Adrià Pedrosa",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+2",
+                    "player": "Unai López",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -127,7 +140,10 @@ const siteData = {
             "away": "Valencia",
             "stadium": "Estadio de Mendizorroza",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/542.png",
             "awayLogo": "https://media.api-sports.io/football/teams/532.png",
             "prediction": "2 - 1",
@@ -172,7 +188,10 @@ const siteData = {
             "away": "Willem II",
             "stadium": "Johan Cruijff Arena",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/194.png",
             "awayLogo": "https://media.api-sports.io/football/teams/195.png",
             "prediction": "3 - 1",
@@ -390,51 +409,6 @@ const siteData = {
             }
         },
         {
-            "league": "Copa Sudamericana",
-            "date": "2026-09-16",
-            "time": "05:00",
-            "home": "Vasco DA Gama",
-            "away": "Santa Fe",
-            "stadium": "",
-            "round": "Quarter-finals",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 45,
-                    "away": 55
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 37,
-                    "away": 63
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            }
-        },
-        {
             "league": "Copa Libertadores",
             "date": "2026-09-16",
             "time": "05:00",
@@ -476,6 +450,51 @@ const siteData = {
                 "goals": {
                     "home": 0,
                     "away": 100
+                }
+            }
+        },
+        {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-16",
+            "time": "05:00",
+            "home": "Vasco DA Gama",
+            "away": "Santa Fe",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 45,
+                    "away": 55
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 37,
+                    "away": 63
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
                 }
             }
         },
@@ -2068,7 +2087,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 00:04 WIB",
+    "standingsUpdated": "16/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4062,6 +4081,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/378284.png",
                 "reason": "Injury",
                 "since": "2026-09-16"
+            },
+            {
+                "player": "H. Sotelo",
+                "photo": "https://media.api-sports.io/football/players/313651.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-16"
             }
         ],
         "atletico-madrid": [
@@ -4155,13 +4180,13 @@ const siteData = {
                 "player": "A. Aznou",
                 "photo": "https://media.api-sports.io/football/players/431921.png",
                 "reason": "Illness",
-                "since": "2026-09-17"
+                "since": "2026-09-13"
             },
             {
                 "player": "C. Dotor",
                 "photo": "https://media.api-sports.io/football/players/162034.png",
                 "reason": "Illness",
-                "since": "2026-09-17"
+                "since": "2026-09-13"
             },
             {
                 "player": "J. Lobete",
@@ -4173,7 +4198,7 @@ const siteData = {
                 "player": "A. Pastor",
                 "photo": "https://media.api-sports.io/football/players/56670.png",
                 "reason": "Illness",
-                "since": "2026-09-17"
+                "since": "2026-09-13"
             }
         ],
         "athletic-club": [
@@ -4217,12 +4242,6 @@ const siteData = {
                 "player": "G. Guruzeta",
                 "photo": "https://media.api-sports.io/football/players/47291.png",
                 "reason": "Hamstring Injury",
-                "since": "2026-09-16"
-            },
-            {
-                "player": "I. Williams",
-                "photo": "https://media.api-sports.io/football/players/47294.png",
-                "reason": "Foot Injury",
                 "since": "2026-09-16"
             },
             {
@@ -4594,12 +4613,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/1305.png",
                 "reason": "Inactive",
                 "since": "2026-08-31"
-            },
-            {
-                "player": "G. Martin",
-                "photo": "https://media.api-sports.io/football/players/181701.png",
-                "reason": "Injury",
-                "since": "2026-09-16"
             }
         ],
         "udinese": [
@@ -33539,51 +33552,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "Atletico-MG",
-                "away": "Santos",
-                "stadium": "MRV Arena",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Santos",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -33625,6 +33593,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 63
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "Atletico-MG",
+                "away": "Santos",
+                "stadium": "MRV Arena",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Santos",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             },
@@ -34171,51 +34184,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-18",
-                "time": "07:30",
-                "home": "Atletico Torque",
-                "away": "Cienciano",
-                "stadium": "Estadio Centenario",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2562.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cienciano",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 97,
-                        "away": 3
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-18",
                 "time": "07:30",
@@ -34257,6 +34225,51 @@ const siteData = {
                     "goals": {
                         "home": 54,
                         "away": 46
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-18",
+                "time": "07:30",
+                "home": "Atletico Torque",
+                "away": "Cienciano",
+                "stadium": "Estadio Centenario",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2562.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cienciano",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 97,
+                        "away": 3
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
