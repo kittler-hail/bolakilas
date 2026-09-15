@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T14:05:22.142Z.
+   API-Football v3) pada 2026-09-15T15:05:42.176Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -413,79 +413,6 @@ const siteData = {
             ]
         },
         {
-            "league": "LaLiga",
-            "date": "2026-09-15",
-            "time": "02:00",
-            "home": "Villarreal",
-            "away": "Real Betis",
-            "stadium": "Estadio de la Cerámica",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/533.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/543.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 18,
-                    "away": 82
-                },
-                "att": {
-                    "home": 55,
-                    "away": 45
-                },
-                "def": {
-                    "home": 38,
-                    "away": 62
-                },
-                "poisson": {
-                    "home": 47,
-                    "away": 53
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 47,
-                    "away": 53
-                }
-            },
-            "goals": [
-                {
-                    "minute": "29",
-                    "player": "Gerard Moreno",
-                    "team": "home"
-                },
-                {
-                    "minute": "39",
-                    "player": "Cucho Hernández",
-                    "team": "away"
-                },
-                {
-                    "minute": "43",
-                    "player": "Natan Bernardo de Souza",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "84",
-                    "player": "Renato Veiga",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Premier League",
             "date": "2026-09-15",
             "time": "02:00",
@@ -576,6 +503,79 @@ const siteData = {
                     "minute": "90+1",
                     "player": "Valentino Livramento",
                     "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "LaLiga",
+            "date": "2026-09-15",
+            "time": "02:00",
+            "home": "Villarreal",
+            "away": "Real Betis",
+            "stadium": "Estadio de la Cerámica",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/533.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/543.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Real Betis and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 18,
+                    "away": 82
+                },
+                "att": {
+                    "home": 55,
+                    "away": 45
+                },
+                "def": {
+                    "home": 38,
+                    "away": 62
+                },
+                "poisson": {
+                    "home": 47,
+                    "away": 53
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 47,
+                    "away": 53
+                }
+            },
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "G. Moreno",
+                    "team": "home"
+                },
+                {
+                    "minute": "39",
+                    "player": "C. Hernandez",
+                    "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "Natan",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "84",
+                    "player": "Renato Veiga",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -2156,7 +2156,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 21:05 WIB",
+    "standingsUpdated": "15/09/2026 22:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3582,7 +3582,7 @@ const siteData = {
             {
                 "player": "Richarlison",
                 "photo": "https://media.api-sports.io/football/players/2413.png",
-                "reason": "Transfer negotiations",
+                "reason": "Inactive",
                 "since": "2026-09-12"
             }
         ],
@@ -34086,8 +34086,8 @@ const siteData = {
                         "away": 50
                     },
                     "poisson": {
-                        "home": 44,
-                        "away": 56
+                        "home": 45,
+                        "away": 55
                     },
                     "h2h": {
                         "home": 15,
