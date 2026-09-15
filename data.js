@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T12:06:43.129Z.
+   API-Football v3) pada 2026-09-15T13:05:58.129Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -763,7 +763,7 @@ const siteData = {
             "time": "08:00",
             "home": "Leon",
             "away": "Atletico San Luis",
-            "stadium": "Estadio León",
+            "stadium": "Estadio Leon",
             "round": "Apertura - 8",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -807,31 +807,31 @@ const siteData = {
             "goals": [
                 {
                     "minute": "49",
-                    "player": "Diber Cambindo",
+                    "player": "D. Cambindo",
                     "team": "home"
                 },
                 {
                     "minute": "71",
-                    "player": "Diber Cambindo",
+                    "player": "D. Cambindo",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "48",
-                    "player": "Jesús Lara",
+                    "player": "J. Lara",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "81",
-                    "player": "Roberto Meraz",
+                    "player": "R. Meraz",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+1",
-                    "player": "Benjamín Galindo",
+                    "player": "B. Galindo",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2156,7 +2156,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 19:06 WIB",
+    "standingsUpdated": "15/09/2026 20:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2745,6 +2745,14 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "name": "A. Diouf",
+                "photo": "https://media.api-sports.io/football/players/270509.png",
+                "team": "Inter",
+                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
+                "value": 3
+            },
+            {
+                "rank": 3,
                 "name": "A. Rabiot",
                 "photo": "https://media.api-sports.io/football/players/272.png",
                 "team": "AC Milan",
@@ -2752,7 +2760,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "Ricardo Mangas",
                 "photo": "https://media.api-sports.io/football/players/41324.png",
                 "team": "Monza",
@@ -2760,7 +2768,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "S. Chukwueze",
                 "photo": "https://media.api-sports.io/football/players/1696.png",
                 "team": "AC Milan",
@@ -2768,7 +2776,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "G. Busio",
                 "photo": "https://media.api-sports.io/football/players/51266.png",
                 "team": "Venezia",
@@ -2776,7 +2784,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "M. Zaccagni",
                 "photo": "https://media.api-sports.io/football/players/30937.png",
                 "team": "Lazio",
@@ -2784,7 +2792,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "M. Adopo",
                 "photo": "https://media.api-sports.io/football/players/30505.png",
                 "team": "Cagliari",
@@ -2792,7 +2800,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "I. Ilić",
                 "photo": "https://media.api-sports.io/football/players/46170.png",
                 "team": "Lecce",
@@ -2800,20 +2808,12 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 9,
-                "name": "A. Diouf",
-                "photo": "https://media.api-sports.io/football/players/270509.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
-                "value": 2
-            },
-            {
                 "rank": 10,
-                "name": "Vasilije Adžić",
-                "photo": "https://media.api-sports.io/football/players/339872.png",
-                "team": "Sassuolo",
-                "teamLogo": "https://media.api-sports.io/football/teams/488.png",
-                "value": 1
+                "name": "K. Davis",
+                "photo": "https://media.api-sports.io/football/players/19185.png",
+                "team": "Udinese",
+                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
+                "value": 2
             }
         ],
         "Ligue 1": [
@@ -33648,51 +33648,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Vasco DA Gama",
-                "away": "Santa Fe",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-16",
                 "time": "05:00",
@@ -33734,6 +33689,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Vasco DA Gama",
+                "away": "Santa Fe",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
@@ -33783,51 +33783,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Toluca",
-                "stadium": "Estadio Cuauhtémoc",
-                "round": "Apertura - 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Toluca",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "poisson": {
-                        "home": 23,
-                        "away": 77
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 14,
-                        "away": 86
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-16",
                 "time": "08:00",
@@ -33869,6 +33824,51 @@ const siteData = {
                     "goals": {
                         "home": 47,
                         "away": 53
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Toluca",
+                "stadium": "Estadio Cuauhtémoc",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Toluca",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "poisson": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 14,
+                        "away": 86
                     }
                 }
             },
@@ -34505,51 +34505,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "Atletico-MG",
-                "away": "Santos",
-                "stadium": "MRV Arena",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Santos",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -34591,6 +34546,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 63
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "Atletico-MG",
+                "away": "Santos",
+                "stadium": "MRV Arena",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Santos",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             },
