@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T22:05:25.134Z.
+   API-Football v3) pada 2026-09-15T23:04:42.304Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -747,9 +747,9 @@ const siteData = {
             "away": "Santa Fe",
             "stadium": "",
             "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/133.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
@@ -785,7 +785,22 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "37",
+                    "player": "Bruno Duarte Da Silva",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "Emanuel Olivera",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Copa Libertadores",
@@ -795,9 +810,9 @@ const siteData = {
             "away": "Fluminense",
             "stadium": "",
             "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "46'",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
             "awayLogo": "https://media.api-sports.io/football/teams/124.png",
@@ -833,7 +848,33 @@ const siteData = {
                     "home": 0,
                     "away": 100
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "30",
+                    "player": "Guido Mainero",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Bruno Christian Sepulveda",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "11",
+                    "player": "Julian Millan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "13",
+                    "player": "Ignacio Vazquez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Copa Sudamericana",
@@ -1395,12 +1436,12 @@ const siteData = {
                 "rank": 2,
                 "team": "Real Madrid",
                 "logo": "https://media.api-sports.io/football/teams/541.png",
-                "played": 5,
-                "win": 4,
+                "played": 6,
+                "win": 5,
                 "draw": 0,
                 "lose": 1,
-                "gd": 10,
-                "points": 12
+                "gd": 11,
+                "points": 15
             },
             {
                 "rank": 3,
@@ -1593,11 +1634,11 @@ const siteData = {
                 "rank": 20,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
-                "played": 5,
+                "played": 6,
                 "win": 0,
                 "draw": 2,
-                "lose": 3,
-                "gd": -7,
+                "lose": 4,
+                "gd": -8,
                 "points": 2
             }
         ],
@@ -2424,7 +2465,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 05:05 WIB",
+    "standingsUpdated": "16/09/2026 06:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3770,32 +3811,38 @@ const siteData = {
             {
                 "player": "A. Milambo",
                 "photo": "https://media.api-sports.io/football/players/319517.png",
-                "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "reason": "Inactive",
+                "since": "2026-09-18"
             },
             {
                 "player": "S. van den Berg",
                 "photo": "https://media.api-sports.io/football/players/36922.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "N. Collins",
                 "photo": "https://media.api-sports.io/football/players/19495.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "J. Dasilva",
                 "photo": "https://media.api-sports.io/football/players/19362.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "M. Jensen",
                 "photo": "https://media.api-sports.io/football/players/47438.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
+            },
+            {
+                "player": "K. Furo",
+                "photo": "https://media.api-sports.io/football/players/393193.png",
+                "reason": "Surgery",
+                "since": "2026-09-18"
             }
         ],
         "tottenham": [
@@ -4031,13 +4078,13 @@ const siteData = {
                 "player": "M. Caicedo",
                 "photo": "https://media.api-sports.io/football/players/116117.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "E. Emegha",
                 "photo": "https://media.api-sports.io/football/players/203762.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "W. Fofana",
@@ -4049,7 +4096,7 @@ const siteData = {
                 "player": "J. Henderson",
                 "photo": "https://media.api-sports.io/football/players/292.png",
                 "reason": "Wrist Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "M. Sarr",
@@ -4067,7 +4114,13 @@ const siteData = {
                 "player": "M. Palestra",
                 "photo": "https://media.api-sports.io/football/players/383018.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
+            },
+            {
+                "player": "M. Gusto",
+                "photo": "https://media.api-sports.io/football/players/161907.png",
+                "reason": "Injury",
+                "since": "2026-09-18"
             }
         ],
         "crystal-palace": [
