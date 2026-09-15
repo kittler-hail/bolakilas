@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T01:06:03.506Z.
+   API-Football v3) pada 2026-09-15T02:07:09.757Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -75,12 +75,13 @@ const siteData = {
                 "results": [
                     "W",
                     "D",
-                    "D"
+                    "D",
+                    "W"
                 ],
                 "cleanSheets": 1,
                 "failedToScore": 0,
-                "goalsFor": 3,
-                "goalsAgainst": 2,
+                "goalsFor": 7,
+                "goalsAgainst": 3,
                 "winStreak": 1,
                 "attack": 33,
                 "defense": 67
@@ -763,8 +764,8 @@ const siteData = {
             "away": "Atletico San Luis",
             "stadium": "Estadio León",
             "round": "Apertura - 8",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "2H",
+            "minuteDisplay": "47'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
@@ -2122,7 +2123,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 08:06 WIB",
+    "standingsUpdated": "15/09/2026 09:07 WIB",
     "topScorers": {
         "Premier League": [
             {
