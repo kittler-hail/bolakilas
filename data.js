@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T18:05:25.311Z.
+   API-Football v3) pada 2026-09-15T19:04:25.325Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -72,10 +72,10 @@ const siteData = {
             "away": "Espanyol",
             "stadium": "Municipal de Butarque",
             "round": "Pekan 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/728.png",
             "awayLogo": "https://media.api-sports.io/football/teams/540.png",
             "prediction": "1 - 2",
@@ -121,6 +121,11 @@ const siteData = {
                     "minute": "26",
                     "player": "Adrià Pedrosa",
                     "team": "home"
+                },
+                {
+                    "minute": "54",
+                    "player": "Roberto Fernández Jaén",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -129,6 +134,102 @@ const siteData = {
                     "player": "Unai López",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Marcos Fernández",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "Georgiy Tsitaishvili",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Pathé Ciss",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Gnangoro Bouare",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Alexandre Zurawski",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Omar El Hilali",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-16",
+            "time": "01:00",
+            "home": "Ajax",
+            "away": "Willem II",
+            "stadium": "Johan Cruijff Arena",
+            "round": "Pekan 3",
+            "statusCode": "2H",
+            "minuteDisplay": "47'",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/194.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/195.png",
+            "prediction": "3 - 1",
+            "odds": {
+                "home": 50,
+                "draw": 50,
+                "away": 33
+            },
+            "advice": "Double chance : Ajax or draw",
+            "comparison": {
+                "form": {
+                    "home": 83,
+                    "away": 17
+                },
+                "att": {
+                    "home": 74,
+                    "away": 26
+                },
+                "def": {
+                    "home": 70,
+                    "away": 30
+                },
+                "poisson": {
+                    "home": 67,
+                    "away": 33
+                },
+                "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 86,
+                    "away": 14
+                }
+            },
+            "goals": [
+                {
+                    "minute": "41",
+                    "player": "Davy Klaassen",
+                    "team": "home"
+                },
+                {
+                    "minute": "45",
+                    "player": "Julian Brandt",
+                    "team": "home"
                 }
             ]
         },
@@ -140,8 +241,8 @@ const siteData = {
             "away": "Valencia",
             "stadium": "Estadio de Mendizorroza",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/542.png",
@@ -178,55 +279,27 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
-        },
-        {
-            "league": "Eredivisie",
-            "date": "2026-09-16",
-            "time": "01:00",
-            "home": "Ajax",
-            "away": "Willem II",
-            "stadium": "Johan Cruijff Arena",
-            "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/194.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/195.png",
-            "prediction": "3 - 1",
-            "odds": {
-                "home": 50,
-                "draw": 50,
-                "away": 33
             },
-            "advice": "Double chance : Ajax or draw",
-            "comparison": {
-                "form": {
-                    "home": 83,
-                    "away": 17
+            "cards": [
+                {
+                    "minute": "21",
+                    "player": "Javi Guerra",
+                    "team": "away",
+                    "type": "yellow"
                 },
-                "att": {
-                    "home": 74,
-                    "away": 26
+                {
+                    "minute": "21",
+                    "player": "Antonio Blanco",
+                    "team": "home",
+                    "type": "yellow"
                 },
-                "def": {
-                    "home": 70,
-                    "away": 30
-                },
-                "poisson": {
-                    "home": 67,
-                    "away": 33
-                },
-                "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 86,
-                    "away": 14
+                {
+                    "minute": "45+2",
+                    "player": "José Luis García Vayá",
+                    "team": "away",
+                    "type": "yellow"
                 }
-            }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -236,7 +309,10 @@ const siteData = {
             "away": "Kilmarnock",
             "stadium": "Easter Road",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "19'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/249.png",
             "awayLogo": "https://media.api-sports.io/football/teams/250.png",
             "prediction": "2 - 1",
@@ -281,7 +357,10 @@ const siteData = {
             "away": "Aberdeen",
             "stadium": "Fir Park",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "20'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/256.png",
             "awayLogo": "https://media.api-sports.io/football/teams/252.png",
             "prediction": "2 - 1",
@@ -316,7 +395,15 @@ const siteData = {
                     "home": 67,
                     "away": 33
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "12",
+                    "player": "Lewis Mayo",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Scottish Premiership",
@@ -326,7 +413,10 @@ const siteData = {
             "away": "Heart Of Midlothian",
             "stadium": "Falkirk Stadium",
             "round": "Pekan 3",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "19'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1389.png",
             "awayLogo": "https://media.api-sports.io/football/teams/254.png",
             "prediction": "1 - 2",
@@ -361,7 +451,22 @@ const siteData = {
                     "home": 17,
                     "away": 83
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "Ben krauhaus",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "Finley Frank Barbrook",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "LaLiga",
@@ -544,51 +649,6 @@ const siteData = {
             }
         },
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-09-16",
-            "time": "08:00",
-            "home": "Dorados",
-            "away": "Cancún",
-            "stadium": "Estadio El Encanto",
-            "round": "Apertura - 1",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Cancún",
-            "comparison": {
-                "form": {
-                    "home": 41,
-                    "away": 59
-                },
-                "att": {
-                    "home": 48,
-                    "away": 52
-                },
-                "def": {
-                    "home": 31,
-                    "away": 69
-                },
-                "poisson": {
-                    "home": 55,
-                    "away": 45
-                },
-                "h2h": {
-                    "home": 29,
-                    "away": 71
-                },
-                "goals": {
-                    "home": 47,
-                    "away": 53
-                }
-            }
-        },
-        {
             "league": "Liga MX",
             "date": "2026-09-16",
             "time": "08:00",
@@ -630,6 +690,51 @@ const siteData = {
                 "goals": {
                     "home": 14,
                     "away": 86
+                }
+            }
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-09-16",
+            "time": "08:00",
+            "home": "Dorados",
+            "away": "Cancún",
+            "stadium": "Estadio El Encanto",
+            "round": "Apertura - 1",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Cancún",
+            "comparison": {
+                "form": {
+                    "home": 41,
+                    "away": 59
+                },
+                "att": {
+                    "home": 48,
+                    "away": 52
+                },
+                "def": {
+                    "home": 31,
+                    "away": 69
+                },
+                "poisson": {
+                    "home": 55,
+                    "away": 45
+                },
+                "h2h": {
+                    "home": 29,
+                    "away": 71
+                },
+                "goals": {
+                    "home": 47,
+                    "away": 53
                 }
             }
         },
@@ -2087,7 +2192,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 01:05 WIB",
+    "standingsUpdated": "16/09/2026 02:04 WIB",
     "topScorers": {
         "Premier League": [
             {
