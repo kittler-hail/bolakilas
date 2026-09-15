@@ -3,7 +3,7 @@
   "home": "Leeds",
   "away": "Newcastle",
   "statusCode": "FT",
-  "updatedAt": "15/09/2026 07:29 WIB",
+  "updatedAt": "15/09/2026 07:51 WIB",
   "statistics": {
     "home": {
       "possession": 51,
@@ -17,7 +17,7 @@
       "shotsInsidebox": 10,
       "shotsOutsidebox": 5,
       "passesTotal": 429,
-      "passesAccurate": 356,
+      "passesAccurate": 357,
       "passesPct": null
     },
     "away": {
