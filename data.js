@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T20:06:08.496Z.
+   API-Football v3) pada 2026-09-15T21:05:02.229Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -348,8 +348,8 @@ const siteData = {
             "away": "Kilmarnock",
             "stadium": "Easter Road",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "64'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/249.png",
@@ -400,6 +400,18 @@ const siteData = {
                     "player": "Tyreece John-Jules",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Djenairo Daniels",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Djenairo Daniels",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -411,10 +423,10 @@ const siteData = {
             "away": "Aberdeen",
             "stadium": "Fir Park",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "64'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 2,
+            "awayScore": 4,
             "homeLogo": "https://media.api-sports.io/football/teams/256.png",
             "awayLogo": "https://media.api-sports.io/football/teams/252.png",
             "prediction": "2 - 1",
@@ -460,6 +472,16 @@ const siteData = {
                     "minute": "46",
                     "player": "Connor Patrick Ronan",
                     "team": "away"
+                },
+                {
+                    "minute": "76",
+                    "player": "Ayoub Mouloua",
+                    "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "Kevin Nisbet",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -486,6 +508,12 @@ const siteData = {
                     "player": "Afeez Aremu Olalekan",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "Ayoub Mouloua",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -497,9 +525,9 @@ const siteData = {
             "away": "Heart Of Midlothian",
             "stadium": "Falkirk Stadium",
             "round": "Pekan 3",
-            "statusCode": "2H",
-            "minuteDisplay": "64'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1389.png",
             "awayLogo": "https://media.api-sports.io/football/teams/254.png",
@@ -546,6 +574,11 @@ const siteData = {
                     "minute": "22",
                     "player": "James wilson",
                     "team": "away"
+                },
+                {
+                    "minute": "68",
+                    "player": "Owen Eames",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -572,6 +605,24 @@ const siteData = {
                     "player": "Ryan Strain",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "Owen Eames",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Calvin Fodrey",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Jamie McCart",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -583,9 +634,9 @@ const siteData = {
             "away": "Real Madrid",
             "stadium": "Estadio Manuel Martínez Valero",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "34'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "73'",
+            "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/797.png",
             "awayLogo": "https://media.api-sports.io/football/teams/541.png",
@@ -632,6 +683,11 @@ const siteData = {
                     "minute": "33",
                     "player": "Kylian Mbappé",
                     "team": "away"
+                },
+                {
+                    "minute": "71",
+                    "player": "Abiel Alessio Osorio",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -648,51 +704,6 @@ const siteData = {
                     "type": "yellow"
                 }
             ]
-        },
-        {
-            "league": "Copa Sudamericana",
-            "date": "2026-09-16",
-            "time": "05:00",
-            "home": "Vasco DA Gama",
-            "away": "Santa Fe",
-            "stadium": "",
-            "round": "Quarter-finals",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 45,
-                    "away": 55
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 37,
-                    "away": 63
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            }
         },
         {
             "league": "Copa Libertadores",
@@ -736,6 +747,51 @@ const siteData = {
                 "goals": {
                     "home": 0,
                     "away": 100
+                }
+            }
+        },
+        {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-16",
+            "time": "05:00",
+            "home": "Vasco DA Gama",
+            "away": "Santa Fe",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 45,
+                    "away": 55
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 37,
+                    "away": 63
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
                 }
             }
         },
@@ -1321,11 +1377,11 @@ const siteData = {
                 "rank": 4,
                 "team": "Alaves",
                 "logo": "https://media.api-sports.io/football/teams/542.png",
-                "played": 5,
+                "played": 6,
                 "win": 3,
                 "draw": 1,
-                "lose": 1,
-                "gd": 6,
+                "lose": 2,
+                "gd": 5,
                 "points": 10
             },
             {
@@ -1365,11 +1421,11 @@ const siteData = {
                 "rank": 8,
                 "team": "Espanyol",
                 "logo": "https://media.api-sports.io/football/teams/540.png",
-                "played": 5,
+                "played": 6,
                 "win": 2,
                 "draw": 1,
-                "lose": 2,
-                "gd": 3,
+                "lose": 3,
+                "gd": 2,
                 "points": 7
             },
             {
@@ -1407,6 +1463,17 @@ const siteData = {
             },
             {
                 "rank": 12,
+                "team": "Rayo Vallecano",
+                "logo": "https://media.api-sports.io/football/teams/728.png",
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "gd": -5,
+                "points": 7
+            },
+            {
+                "rank": 13,
                 "team": "Real Sociedad",
                 "logo": "https://media.api-sports.io/football/teams/548.png",
                 "played": 6,
@@ -1417,7 +1484,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Levante",
                 "logo": "https://media.api-sports.io/football/teams/539.png",
                 "played": 5,
@@ -1428,7 +1495,7 @@ const siteData = {
                 "points": 5
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Getafe",
                 "logo": "https://media.api-sports.io/football/teams/546.png",
                 "played": 5,
@@ -1439,7 +1506,7 @@ const siteData = {
                 "points": 5
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "team": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 6,
@@ -1450,18 +1517,18 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 16,
-                "team": "Rayo Vallecano",
-                "logo": "https://media.api-sports.io/football/teams/728.png",
-                "played": 5,
+                "rank": 17,
+                "team": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png",
+                "played": 6,
                 "win": 1,
                 "draw": 1,
-                "lose": 3,
-                "gd": -6,
+                "lose": 4,
+                "gd": -8,
                 "points": 4
             },
             {
-                "rank": 17,
+                "rank": 18,
                 "team": "Malaga",
                 "logo": "https://media.api-sports.io/football/teams/535.png",
                 "played": 5,
@@ -1472,7 +1539,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 18,
+                "rank": 19,
                 "team": "Villarreal",
                 "logo": "https://media.api-sports.io/football/teams/533.png",
                 "played": 5,
@@ -1483,7 +1550,7 @@ const siteData = {
                 "points": 2
             },
             {
-                "rank": 19,
+                "rank": 20,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
                 "played": 5,
@@ -1492,17 +1559,6 @@ const siteData = {
                 "lose": 3,
                 "gd": -7,
                 "points": 2
-            },
-            {
-                "rank": 20,
-                "team": "Valencia",
-                "logo": "https://media.api-sports.io/football/teams/532.png",
-                "played": 5,
-                "win": 0,
-                "draw": 1,
-                "lose": 4,
-                "gd": -9,
-                "points": 1
             }
         ],
         "Serie A": [
@@ -2328,7 +2384,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 03:06 WIB",
+    "standingsUpdated": "16/09/2026 04:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4957,7 +5013,7 @@ const siteData = {
                 "player": "P. Ciurria",
                 "photo": "https://media.api-sports.io/football/players/31532.png",
                 "reason": "Inactive",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "L. Colombo",
@@ -4975,7 +5031,7 @@ const siteData = {
                 "player": "M. Pessina",
                 "photo": "https://media.api-sports.io/football/players/30436.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "D. Thiam",
@@ -4987,19 +5043,19 @@ const siteData = {
                 "player": "I. Toure",
                 "photo": "https://media.api-sports.io/football/players/56293.png",
                 "reason": "Contusion",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "C. Ngonge",
                 "photo": "https://media.api-sports.io/football/players/85.png",
                 "reason": "Lacking Match Fitness",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "J. Ziolkowski",
                 "photo": "https://media.api-sports.io/football/players/384543.png",
                 "reason": "Foot Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "G. Varela",
@@ -5379,31 +5435,31 @@ const siteData = {
                 "player": "D. Boloca",
                 "photo": "https://media.api-sports.io/football/players/291780.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "F. Cande",
                 "photo": "https://media.api-sports.io/football/players/41371.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "I. Kone",
                 "photo": "https://media.api-sports.io/football/players/328046.png",
                 "reason": "Broken Leg",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "Y. Paz",
                 "photo": "https://media.api-sports.io/football/players/59513.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "E. Pieragnolo",
                 "photo": "https://media.api-sports.io/football/players/342055.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "A. Pinamonti",
@@ -5415,13 +5471,13 @@ const siteData = {
                 "player": "S. Walukiewicz",
                 "photo": "https://media.api-sports.io/football/players/40582.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "C. Volpato",
                 "photo": "https://media.api-sports.io/football/players/342035.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             }
         ],
         "bologna": [
@@ -5799,31 +5855,31 @@ const siteData = {
                 "player": "O. Burke",
                 "photo": "https://media.api-sports.io/football/players/1124.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-18"
             },
             {
                 "player": "M. Friedrich",
                 "photo": "https://media.api-sports.io/football/players/24839.png",
                 "reason": "Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-18"
             },
             {
                 "player": "A. Ilic",
                 "photo": "https://media.api-sports.io/football/players/45892.png",
                 "reason": "Illness",
-                "since": "2026-09-11"
+                "since": "2026-09-18"
             },
             {
                 "player": "A. Markgraf",
                 "photo": "https://media.api-sports.io/football/players/413294.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-18"
             },
             {
                 "player": "S. Nsoki",
                 "photo": "https://media.api-sports.io/football/players/270.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-18"
             },
             {
                 "player": "F. Ronnow",
@@ -5835,7 +5891,7 @@ const siteData = {
                 "player": "K. Imeri",
                 "photo": "https://media.api-sports.io/football/players/48612.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-11"
+                "since": "2026-09-18"
             }
         ],
         "eintracht-frankfurt": [
@@ -5881,7 +5937,7 @@ const siteData = {
                 "player": "T. Buchmann",
                 "photo": "https://media.api-sports.io/football/players/330612.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "S. Gnabry",
@@ -33793,51 +33849,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "Atletico-MG",
-                "away": "Santos",
-                "stadium": "MRV Arena",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Santos",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -33879,6 +33890,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 63
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "Atletico-MG",
+                "away": "Santos",
+                "stadium": "MRV Arena",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Santos",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             },
@@ -34425,51 +34481,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-18",
-                "time": "07:30",
-                "home": "Atletico Torque",
-                "away": "Cienciano",
-                "stadium": "Estadio Centenario",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2562.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cienciano",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 97,
-                        "away": 3
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-18",
                 "time": "07:30",
@@ -34511,6 +34522,51 @@ const siteData = {
                     "goals": {
                         "home": 54,
                         "away": 46
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-18",
+                "time": "07:30",
+                "home": "Atletico Torque",
+                "away": "Cienciano",
+                "stadium": "Estadio Centenario",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2562.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cienciano",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 97,
+                        "away": 3
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
