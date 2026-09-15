@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T05:05:21.535Z.
+   API-Football v3) pada 2026-09-15T06:06:29.345Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2156,7 +2156,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/09/2026 12:05 WIB",
+    "standingsUpdated": "15/09/2026 13:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4358,16 +4358,16 @@ const siteData = {
                 "since": "2026-09-17"
             },
             {
-                "player": "D. Llorente",
-                "photo": "https://media.api-sports.io/football/players/47302.png",
-                "reason": "Broken nose",
-                "since": "2026-09-17"
-            },
-            {
                 "player": "D. Ceballos",
                 "photo": "https://media.api-sports.io/football/players/748.png",
                 "reason": "Lacking Match Fitness",
                 "since": "2026-09-04"
+            },
+            {
+                "player": "D. Llorente",
+                "photo": "https://media.api-sports.io/football/players/47302.png",
+                "reason": "Broken nose",
+                "since": "2026-09-17"
             }
         ],
         "real-sociedad": [
@@ -4499,7 +4499,7 @@ const siteData = {
                 "player": "L. Rioja",
                 "photo": "https://media.api-sports.io/football/players/46933.png",
                 "reason": "Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-11"
             },
             {
                 "player": "J. De Haas",
@@ -33358,8 +33358,8 @@ const siteData = {
                         "away": 74
                     },
                     "poisson": {
-                        "home": 41,
-                        "away": 59
+                        "home": 42,
+                        "away": 58
                     },
                     "h2h": {
                         "home": 20,
@@ -33642,51 +33642,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-16",
-                "time": "05:00",
-                "home": "Platense",
-                "away": "Fluminense",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/124.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Fluminense",
-                "comparison": {
-                    "form": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "poisson": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-16",
                 "time": "05:00",
@@ -33728,6 +33683,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-16",
+                "time": "05:00",
+                "home": "Platense",
+                "away": "Fluminense",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/124.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Fluminense",
+                "comparison": {
+                    "form": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
@@ -33777,51 +33777,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-16",
-                "time": "08:00",
-                "home": "Dorados",
-                "away": "Cancún",
-                "stadium": "Estadio El Encanto",
-                "round": "Apertura - 1",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cancún",
-                "comparison": {
-                    "form": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "poisson": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 47,
-                        "away": 53
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-16",
                 "time": "08:00",
@@ -33863,6 +33818,51 @@ const siteData = {
                     "goals": {
                         "home": 14,
                         "away": 86
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-16",
+                "time": "08:00",
+                "home": "Dorados",
+                "away": "Cancún",
+                "stadium": "Estadio El Encanto",
+                "round": "Apertura - 1",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cancún",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "poisson": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 47,
+                        "away": 53
                     }
                 }
             },
@@ -34499,51 +34499,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "LDU de Quito",
-                "away": "Palmeiras",
-                "stadium": "Estadio Rodrigo Paz Delgado",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Palmeiras and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "h2h": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "goals": {
-                        "home": 38,
-                        "away": 63
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -34585,6 +34540,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "LDU de Quito",
+                "away": "Palmeiras",
+                "stadium": "Estadio Rodrigo Paz Delgado",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Palmeiras and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 63
                     }
                 }
             },
