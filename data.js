@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T13:06:47.152Z.
+   API-Football v3) pada 2026-09-16T14:06:11.322Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2638,7 +2638,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 20:06 WIB",
+    "standingsUpdated": "16/09/2026 21:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4560,6 +4560,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/162122.png",
                 "reason": "Red Card",
                 "since": "2026-09-05"
+            },
+            {
+                "player": "T. Gijselhart",
+                "photo": "https://media.api-sports.io/football/players/392417.png",
+                "reason": "Transfer negotiations",
+                "since": "2026-09-16"
             }
         ],
         "elche": [
@@ -34107,8 +34113,8 @@ const siteData = {
                         "away": 60
                     },
                     "poisson": {
-                        "home": 48,
-                        "away": 52
+                        "home": 49,
+                        "away": 51
                     },
                     "h2h": {
                         "home": 7,
@@ -34739,8 +34745,8 @@ const siteData = {
                         "away": 44
                     },
                     "poisson": {
-                        "home": 50,
-                        "away": 50
+                        "home": 51,
+                        "away": 49
                     },
                     "h2h": {
                         "home": 29,
