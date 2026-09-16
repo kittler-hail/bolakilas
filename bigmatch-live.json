@@ -3,37 +3,37 @@
   "home": "Bayer Leverkusen",
   "away": "Celje",
   "statusCode": "2H",
-  "updatedAt": "17/09/2026 03:21 WIB",
+  "updatedAt": "17/09/2026 03:39 WIB",
   "statistics": {
     "home": {
-      "possession": 61,
-      "shotsTotal": 13,
-      "shotsOnTarget": 6,
-      "corners": 5,
-      "fouls": 9,
+      "possession": 58,
+      "shotsTotal": 15,
+      "shotsOnTarget": 8,
+      "corners": 6,
+      "fouls": 11,
       "offsides": 2,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 9,
-      "shotsOutsidebox": 4,
-      "passesTotal": 437,
-      "passesAccurate": 387,
+      "shotsInsidebox": 10,
+      "shotsOutsidebox": 5,
+      "passesTotal": 540,
+      "passesAccurate": 480,
       "passesPct": 89
     },
     "away": {
-      "possession": 39,
-      "shotsTotal": 4,
+      "possession": 42,
+      "shotsTotal": 5,
       "shotsOnTarget": 3,
       "corners": 1,
-      "fouls": 7,
+      "fouls": 9,
       "offsides": 1,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 3,
+      "shotsInsidebox": 4,
       "shotsOutsidebox": 1,
-      "passesTotal": 288,
-      "passesAccurate": 251,
-      "passesPct": 87
+      "passesTotal": 404,
+      "passesAccurate": 356,
+      "passesPct": 88
     }
   },
   "lineups": {
@@ -45,7 +45,7 @@
           "number": 1,
           "name": "Mark Flekken",
           "position": "Kiper",
-          "rating": "8.3"
+          "rating": "8.2"
         },
         {
           "number": 17,
@@ -69,19 +69,19 @@
           "number": 2,
           "name": "Facundo Medina",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.9"
         },
         {
           "number": 8,
           "name": "Robert Andrich",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 24,
           "name": "Aleix García",
           "position": "Gelandang",
-          "rating": "7.3"
+          "rating": "7.9"
         },
         {
           "number": 19,
@@ -127,17 +127,20 @@
         {
           "number": 4,
           "name": "Jarell Quansah",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "Ezequiel Fernández",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 9,
           "name": "Afonso Moreira",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         },
         {
           "number": 29,
@@ -159,19 +162,19 @@
           "number": 1,
           "name": "Žan-Luk Leban",
           "position": "Kiper",
-          "rating": "9.0"
+          "rating": "8.7"
         },
         {
           "number": 2,
           "name": "Pijus Širvys",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.0"
         },
         {
           "number": 44,
           "name": "Łukasz Bejger",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 6,
@@ -261,17 +264,20 @@
         {
           "number": 25,
           "name": "Veton Tusha",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         },
         {
           "number": 77,
           "name": "Matic Ivanšek",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         },
         {
           "number": 9,
           "name": "Blaž Kramer",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.7"
         },
         {
           "number": 31,
