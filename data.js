@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-15T23:04:42.304Z.
+   API-Football v3) pada 2026-09-16T00:06:29.119Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -747,9 +747,9 @@ const siteData = {
             "away": "Santa Fe",
             "stadium": "",
             "round": "Quarter-finals",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/133.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
@@ -791,6 +791,11 @@ const siteData = {
                     "minute": "37",
                     "player": "Bruno Duarte Da Silva",
                     "team": "home"
+                },
+                {
+                    "minute": "65",
+                    "player": "David",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -810,10 +815,10 @@ const siteData = {
             "away": "Fluminense",
             "stadium": "",
             "round": "Quarter-finals",
-            "statusCode": "2H",
-            "minuteDisplay": "46'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1064.png",
             "awayLogo": "https://media.api-sports.io/football/teams/124.png",
             "prediction": "1 - 2",
@@ -859,6 +864,11 @@ const siteData = {
                     "minute": "45+2",
                     "player": "Bruno Christian Sepulveda",
                     "team": "home"
+                },
+                {
+                    "minute": "57",
+                    "player": "Agustín Canobbio",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -871,6 +881,24 @@ const siteData = {
                 {
                     "minute": "13",
                     "player": "Ignacio Vazquez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Agustin Lagos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Paulo Henrique Chagas de Lima",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Juan Carlos Gauto",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -922,51 +950,6 @@ const siteData = {
             }
         },
         {
-            "league": "Liga MX",
-            "date": "2026-09-16",
-            "time": "08:00",
-            "home": "Puebla",
-            "away": "Toluca",
-            "stadium": "Estadio Cuauhtémoc",
-            "round": "Apertura - 7",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Toluca",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 36,
-                    "away": 64
-                },
-                "def": {
-                    "home": 36,
-                    "away": 64
-                },
-                "poisson": {
-                    "home": 23,
-                    "away": 77
-                },
-                "h2h": {
-                    "home": 15,
-                    "away": 85
-                },
-                "goals": {
-                    "home": 14,
-                    "away": 86
-                }
-            }
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-16",
             "time": "08:00",
@@ -1008,6 +991,51 @@ const siteData = {
                 "goals": {
                     "home": 47,
                     "away": 53
+                }
+            }
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-09-16",
+            "time": "08:00",
+            "home": "Puebla",
+            "away": "Toluca",
+            "stadium": "Estadio Cuauhtémoc",
+            "round": "Apertura - 7",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Toluca",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 36,
+                    "away": 64
+                },
+                "def": {
+                    "home": 36,
+                    "away": 64
+                },
+                "poisson": {
+                    "home": 23,
+                    "away": 77
+                },
+                "h2h": {
+                    "home": 15,
+                    "away": 85
+                },
+                "goals": {
+                    "home": 14,
+                    "away": 86
                 }
             }
         },
@@ -2465,7 +2493,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 06:04 WIB",
+    "standingsUpdated": "16/09/2026 07:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -6398,7 +6426,7 @@ const siteData = {
                 "player": "S. Baidoo",
                 "photo": "https://media.api-sports.io/football/players/322984.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "N. Celik",
@@ -6410,7 +6438,7 @@ const siteData = {
                 "player": "J. Chavez",
                 "photo": "https://media.api-sports.io/football/players/237191.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "J. Gradit",
@@ -6422,7 +6450,7 @@ const siteData = {
                 "player": "S. Abdulhamid",
                 "photo": "https://media.api-sports.io/football/players/44594.png",
                 "reason": "Contusion",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "O. Edouard",
@@ -6434,7 +6462,7 @@ const siteData = {
                 "player": "M. Nawrocki",
                 "photo": "https://media.api-sports.io/football/players/178708.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             },
             {
                 "player": "S. Sagnan",
@@ -6446,7 +6474,7 @@ const siteData = {
                 "player": "Y. Titraoui",
                 "photo": "https://media.api-sports.io/football/players/327599.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-18"
             }
         ],
         "auxerre": [
@@ -7088,7 +7116,7 @@ const siteData = {
                 "player": "F. Balogun",
                 "photo": "https://media.api-sports.io/football/players/138835.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "E. Diop",
@@ -7100,7 +7128,7 @@ const siteData = {
                 "player": "A. Fati",
                 "photo": "https://media.api-sports.io/football/players/135775.png",
                 "reason": "Calf Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "C. Mawissa",
@@ -7112,7 +7140,7 @@ const siteData = {
                 "player": "T. Minamino",
                 "photo": "https://media.api-sports.io/football/players/1101.png",
                 "reason": "Inactive",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "M. Salisu",
@@ -7124,13 +7152,19 @@ const siteData = {
                 "player": "J. Teze",
                 "photo": "https://media.api-sports.io/football/players/231.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
             },
             {
                 "player": "M. Coulibaly",
                 "photo": "https://media.api-sports.io/football/players/419035.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-18"
+            },
+            {
+                "player": "A. Soubeir",
+                "photo": "https://media.api-sports.io/football/players/671702.png",
+                "reason": "Injury",
+                "since": "2026-09-18"
             }
         ],
         "rennes": [
