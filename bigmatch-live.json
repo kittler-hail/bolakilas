@@ -3,9 +3,231 @@
   "home": "Bayer Leverkusen",
   "away": "Celje",
   "statusCode": "NS",
-  "updatedAt": "17/09/2026 01:24 WIB",
+  "updatedAt": "17/09/2026 01:44 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Carles Martinez",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Mark Flekken",
+          "position": "Kiper"
+        },
+        {
+          "number": 17,
+          "name": "Lucas Vázquez",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Loïc Badé",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "Edmond Tapsoba",
+          "position": "Bek"
+        },
+        {
+          "number": 2,
+          "name": "Facundo Medina",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "Robert Andrich",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "Aleix García",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "Moussa Diaby",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Malik Tillman",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Martin Terrier",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Patrik Schick",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 28,
+          "name": "Janis Blaswich",
+          "position": "Kiper"
+        },
+        {
+          "number": 36,
+          "name": "Niklas Lomb",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "Miguel Gutiérrez",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Jarell Quansah",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Ezequiel Fernández",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Afonso Moreira",
+          "position": "Penyerang"
+        },
+        {
+          "number": 29,
+          "name": "Eliesse Ben Seghir",
+          "position": "Penyerang"
+        },
+        {
+          "number": 35,
+          "name": "Christian Kofane",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-5-2",
+      "coach": "Vitor Campelos",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Žan-Luk Leban",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Pijus Širvys",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "Łukasz Bejger",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Artemijus Tutyškinas",
+          "position": "Bek"
+        },
+        {
+          "number": 11,
+          "name": "Milot Avdyli",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "Mark Zabukovnik",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "Svit Sešlar",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Luka Tičić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Benjamin Verbič",
+          "position": "Gelandang"
+        },
+        {
+          "number": 91,
+          "name": "Yaya Dukuly",
+          "position": "Penyerang"
+        },
+        {
+          "number": 47,
+          "name": "Armandas Kučys",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 12,
+          "name": "Luka Kolar",
+          "position": "Kiper"
+        },
+        {
+          "number": 23,
+          "name": "Žiga Frelih",
+          "position": "Kiper"
+        },
+        {
+          "number": 20,
+          "name": "Alpha Diounkou",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "Leonardo Koutris",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Darko Hrka",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Mario Kvesić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "Papa Daniel",
+          "position": "Gelandang"
+        },
+        {
+          "number": 25,
+          "name": "Veton Tusha",
+          "position": "Penyerang"
+        },
+        {
+          "number": 77,
+          "name": "Matic Ivanšek",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Blaž Kramer",
+          "position": "Penyerang"
+        },
+        {
+          "number": 31,
+          "name": "Dejan Suhovrsnik",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "BayArena",
     "city": "Leverkusen",
