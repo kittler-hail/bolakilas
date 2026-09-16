@@ -2,27 +2,27 @@
   "fixtureId": 1636225,
   "home": "Bayer Leverkusen",
   "away": "Celje",
-  "statusCode": "HT",
-  "updatedAt": "17/09/2026 02:59 WIB",
+  "statusCode": "2H",
+  "updatedAt": "17/09/2026 03:21 WIB",
   "statistics": {
     "home": {
-      "possession": 60,
-      "shotsTotal": 12,
-      "shotsOnTarget": 5,
-      "corners": 4,
-      "fouls": 5,
-      "offsides": 1,
+      "possession": 61,
+      "shotsTotal": 13,
+      "shotsOnTarget": 6,
+      "corners": 5,
+      "fouls": 9,
+      "offsides": 2,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 8,
+      "shotsInsidebox": 9,
       "shotsOutsidebox": 4,
-      "passesTotal": 297,
-      "passesAccurate": 265,
+      "passesTotal": 437,
+      "passesAccurate": 387,
       "passesPct": 89
     },
     "away": {
-      "possession": 40,
-      "shotsTotal": 3,
+      "possession": 39,
+      "shotsTotal": 4,
       "shotsOnTarget": 3,
       "corners": 1,
       "fouls": 7,
@@ -30,10 +30,10 @@
       "yellowCards": null,
       "redCards": null,
       "shotsInsidebox": 3,
-      "shotsOutsidebox": 0,
-      "passesTotal": 205,
-      "passesAccurate": 181,
-      "passesPct": 88
+      "shotsOutsidebox": 1,
+      "passesTotal": 288,
+      "passesAccurate": 251,
+      "passesPct": 87
     }
   },
   "lineups": {
@@ -45,67 +45,67 @@
           "number": 1,
           "name": "Mark Flekken",
           "position": "Kiper",
-          "rating": "8.0"
+          "rating": "8.3"
         },
         {
           "number": 17,
           "name": "Lucas Vázquez",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.7"
         },
         {
           "number": 5,
           "name": "Loïc Badé",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.6"
         },
         {
           "number": 12,
           "name": "Edmond Tapsoba",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.2"
         },
         {
           "number": 2,
           "name": "Facundo Medina",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.9"
         },
         {
           "number": 8,
           "name": "Robert Andrich",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 24,
           "name": "Aleix García",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.3"
         },
         {
           "number": 19,
           "name": "Moussa Diaby",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 10,
           "name": "Malik Tillman",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Martin Terrier",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 14,
           "name": "Patrik Schick",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.9"
         }
       ],
       "substitutes": [
@@ -159,13 +159,13 @@
           "number": 1,
           "name": "Žan-Luk Leban",
           "position": "Kiper",
-          "rating": "8.2"
+          "rating": "9.0"
         },
         {
           "number": 2,
           "name": "Pijus Širvys",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.2"
         },
         {
           "number": 44,
@@ -183,7 +183,7 @@
           "number": 11,
           "name": "Milot Avdyli",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 19,
@@ -195,19 +195,19 @@
           "number": 10,
           "name": "Svit Sešlar",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 14,
           "name": "Luka Tičić",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 7,
           "name": "Benjamin Verbič",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 91,
