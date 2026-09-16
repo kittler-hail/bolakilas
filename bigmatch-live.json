@@ -2,9 +2,40 @@
   "fixtureId": 1636225,
   "home": "Bayer Leverkusen",
   "away": "Celje",
-  "statusCode": "NS",
-  "updatedAt": "17/09/2026 01:58 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "17/09/2026 02:18 WIB",
+  "statistics": {
+    "home": {
+      "possession": 69,
+      "shotsTotal": 3,
+      "shotsOnTarget": null,
+      "corners": 0,
+      "fouls": 2,
+      "offsides": 0,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 1,
+      "passesTotal": 97,
+      "passesAccurate": 84,
+      "passesPct": 87
+    },
+    "away": {
+      "possession": 31,
+      "shotsTotal": 0,
+      "shotsOnTarget": null,
+      "corners": 1,
+      "fouls": 1,
+      "offsides": 1,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 0,
+      "passesTotal": 44,
+      "passesAccurate": 35,
+      "passesPct": 80
+    }
+  },
   "lineups": {
     "home": {
       "formation": "4-2-3-1",
@@ -13,57 +44,68 @@
         {
           "number": 1,
           "name": "Mark Flekken",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.3"
         },
         {
           "number": 17,
           "name": "Lucas Vázquez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.9"
         },
         {
           "number": 5,
           "name": "Loïc Badé",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.9"
         },
         {
           "number": 12,
           "name": "Edmond Tapsoba",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 2,
           "name": "Facundo Medina",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 8,
           "name": "Robert Andrich",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 24,
           "name": "Aleix García",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.6"
         },
         {
           "number": 19,
           "name": "Moussa Diaby",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 10,
           "name": "Malik Tillman",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Martin Terrier",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 14,
           "name": "Patrik Schick",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         }
       ],
       "substitutes": [
@@ -116,57 +158,68 @@
         {
           "number": 1,
           "name": "Žan-Luk Leban",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.7"
         },
         {
           "number": 2,
           "name": "Pijus Širvys",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.6"
         },
         {
           "number": 44,
           "name": "Łukasz Bejger",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 6,
           "name": "Artemijus Tutyškinas",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 11,
           "name": "Milot Avdyli",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 19,
           "name": "Mark Zabukovnik",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 10,
           "name": "Svit Sešlar",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 14,
           "name": "Luka Tičić",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 7,
           "name": "Benjamin Verbič",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 91,
           "name": "Yaya Dukuly",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.7"
         },
         {
           "number": 47,
           "name": "Armandas Kučys",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         }
       ],
       "substitutes": [
@@ -236,13 +289,13 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.08",
-    "draw": "12.00",
-    "away": "26.00",
+    "home": "1.05",
+    "draw": "13.00",
+    "away": "41.00",
     "overUnder": null,
     "btts": {
-      "yes": "2.05",
-      "no": "1.75"
+      "yes": "2.25",
+      "no": "1.62"
     }
   },
   "liveOdds": null
