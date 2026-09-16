@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T01:04:59.435Z.
+   API-Football v3) pada 2026-09-16T02:05:17.792Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -740,6 +740,74 @@ const siteData = {
             ]
         },
         {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-16",
+            "time": "05:00",
+            "home": "Vasco DA Gama",
+            "away": "Santa Fe",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 45,
+                    "away": 55
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 37,
+                    "away": 63
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "37",
+                    "player": "Bruno Duarte Da Silva",
+                    "team": "home"
+                },
+                {
+                    "minute": "65",
+                    "player": "David",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "Emanuel Olivera",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Copa Libertadores",
             "date": "2026-09-16",
             "time": "05:00",
@@ -839,83 +907,15 @@ const siteData = {
         {
             "league": "Copa Sudamericana",
             "date": "2026-09-16",
-            "time": "05:00",
-            "home": "Vasco DA Gama",
-            "away": "Santa Fe",
-            "stadium": "",
-            "round": "Quarter-finals",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 45,
-                    "away": 55
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 37,
-                    "away": 63
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "37",
-                    "player": "Bruno Duarte Da Silva",
-                    "team": "home"
-                },
-                {
-                    "minute": "65",
-                    "player": "David",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "6",
-                    "player": "Emanuel Olivera",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Copa Sudamericana",
-            "date": "2026-09-16",
             "time": "07:30",
             "home": "Sao Paulo",
             "away": "Boca Juniors",
             "stadium": "",
             "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
+            "statusCode": "2H",
+            "minuteDisplay": "73'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/126.png",
             "awayLogo": "https://media.api-sports.io/football/teams/451.png",
             "prediction": "1 - 2",
@@ -950,7 +950,28 @@ const siteData = {
                     "home": 0,
                     "away": 100
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "60",
+                    "player": "Leandro Lozano",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "49",
+                    "player": "Djhordney Ferreira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "Dorival Silvestre Júnior",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -960,8 +981,8 @@ const siteData = {
             "away": "Toluca",
             "stadium": "Estadio Cuauhtémoc",
             "round": "Apertura - 7",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
@@ -1008,9 +1029,9 @@ const siteData = {
             "away": "Cancún",
             "stadium": "Estadio El Encanto",
             "round": "Apertura - 1",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
@@ -1046,7 +1067,14 @@ const siteData = {
                     "home": 47,
                     "away": 53
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "45+2",
+                    "player": "O. Coronel",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -2502,7 +2530,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 08:04 WIB",
+    "standingsUpdated": "16/09/2026 09:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4338,14 +4366,14 @@ const siteData = {
                 "since": "2026-09-15"
             },
             {
-                "player": "R. Nteka",
-                "photo": "https://media.api-sports.io/football/players/122657.png",
+                "player": "J. Vertrouwd",
+                "photo": "https://media.api-sports.io/football/players/314006.png",
                 "reason": "Muscle Injury",
                 "since": "2026-09-15"
             },
             {
-                "player": "J. Vertrouwd",
-                "photo": "https://media.api-sports.io/football/players/314006.png",
+                "player": "R. Nteka",
+                "photo": "https://media.api-sports.io/football/players/122657.png",
                 "reason": "Muscle Injury",
                 "since": "2026-09-15"
             },
@@ -4376,10 +4404,10 @@ const siteData = {
                 "since": "2026-08-28"
             },
             {
-                "player": "S. Eriksson",
-                "photo": "https://media.api-sports.io/football/players/408875.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-09-16"
+                "player": "I. Luque",
+                "photo": "https://media.api-sports.io/football/players/441223.png",
+                "reason": "Inactive",
+                "since": "2026-09-05"
             },
             {
                 "player": "A. Martin",
@@ -4388,16 +4416,16 @@ const siteData = {
                 "since": "2026-09-16"
             },
             {
+                "player": "S. Eriksson",
+                "photo": "https://media.api-sports.io/football/players/408875.png",
+                "reason": "Shoulder Injury",
+                "since": "2026-09-16"
+            },
+            {
                 "player": "A. Almeida",
                 "photo": "https://media.api-sports.io/football/players/41157.png",
                 "reason": "Red Card",
                 "since": "2026-09-16"
-            },
-            {
-                "player": "I. Luque",
-                "photo": "https://media.api-sports.io/football/players/441223.png",
-                "reason": "Inactive",
-                "since": "2026-09-05"
             }
         ],
         "deportivo-la-coruna": [
@@ -4449,7 +4477,7 @@ const siteData = {
                 "player": "Y. Santiago",
                 "photo": "https://media.api-sports.io/football/players/284415.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-18"
             }
         ],
         "espanyol": [
@@ -4457,19 +4485,19 @@ const siteData = {
                 "player": "K. Garcia",
                 "photo": "https://media.api-sports.io/football/players/47396.png",
                 "reason": "Hamstring Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-18"
             },
             {
                 "player": "J. Puado",
                 "photo": "https://media.api-sports.io/football/players/47349.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-18"
             },
             {
                 "player": "A. Gorosabel",
                 "photo": "https://media.api-sports.io/football/players/47299.png",
                 "reason": "Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-18"
             },
             {
                 "player": "L. Cabrera",
@@ -4487,7 +4515,13 @@ const siteData = {
                 "player": "Jofre",
                 "photo": "https://media.api-sports.io/football/players/182674.png",
                 "reason": "Groin Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-18"
+            },
+            {
+                "player": "O. El Hilali",
+                "photo": "https://media.api-sports.io/football/players/286601.png",
+                "reason": "Red Card",
+                "since": "2026-09-18"
             }
         ],
         "levante": [
@@ -4666,16 +4700,16 @@ const siteData = {
                 "since": "2026-09-16"
             },
             {
-                "player": "G. Guruzeta",
-                "photo": "https://media.api-sports.io/football/players/47291.png",
-                "reason": "Hamstring Injury",
-                "since": "2026-09-16"
-            },
-            {
                 "player": "A. Djalo",
                 "photo": "https://media.api-sports.io/football/players/190489.png",
                 "reason": "Coach's decision",
                 "since": "2026-09-05"
+            },
+            {
+                "player": "G. Guruzeta",
+                "photo": "https://media.api-sports.io/football/players/47291.png",
+                "reason": "Hamstring Injury",
+                "since": "2026-09-16"
             }
         ],
         "real-betis": [
@@ -33985,51 +34019,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "LDU de Quito",
-                "away": "Palmeiras",
-                "stadium": "Estadio Rodrigo Paz Delgado",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Palmeiras and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "h2h": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "goals": {
-                        "home": 38,
-                        "away": 63
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -34071,6 +34060,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "LDU de Quito",
+                "away": "Palmeiras",
+                "stadium": "Estadio Rodrigo Paz Delgado",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Palmeiras and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 63
                     }
                 }
             },
@@ -34617,51 +34651,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Libertadores",
-                "date": "2026-09-18",
-                "time": "07:30",
-                "home": "Flamengo",
-                "away": "Independiente del Valle",
-                "stadium": "",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/127.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1153.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Flamengo or draw",
-                "comparison": {
-                    "form": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "poisson": {
-                        "home": 77,
-                        "away": 23
-                    },
-                    "h2h": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "goals": {
-                        "home": 54,
-                        "away": 46
-                    }
-                }
-            },
-            {
                 "league": "Copa Sudamericana",
                 "date": "2026-09-18",
                 "time": "07:30",
@@ -34703,6 +34692,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Copa Libertadores",
+                "date": "2026-09-18",
+                "time": "07:30",
+                "home": "Flamengo",
+                "away": "Independiente del Valle",
+                "stadium": "",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/127.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1153.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Flamengo or draw",
+                "comparison": {
+                    "form": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 77,
+                        "away": 23
+                    },
+                    "h2h": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "goals": {
+                        "home": 54,
+                        "away": 46
                     }
                 }
             },
