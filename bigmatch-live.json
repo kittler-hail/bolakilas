@@ -3,7 +3,7 @@
   "home": "Omonia Nicosia",
   "away": "Celta Vigo",
   "statusCode": "NS",
-  "updatedAt": "16/09/2026 17:56 WIB",
+  "updatedAt": "16/09/2026 18:18 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,9 +14,9 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "3.90",
-    "draw": "3.25",
-    "away": "1.95",
+    "home": "4.00",
+    "draw": "3.30",
+    "away": "1.85",
     "overUnder": null,
     "btts": {
       "yes": "1.85",
