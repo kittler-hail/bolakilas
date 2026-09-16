@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T12:06:33.156Z.
+   API-Football v3) pada 2026-09-16T13:06:47.152Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -740,74 +740,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Copa Sudamericana",
-            "date": "2026-09-16",
-            "time": "05:00",
-            "home": "Vasco DA Gama",
-            "away": "Santa Fe",
-            "stadium": "",
-            "round": "Quarter-finals",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 45,
-                    "away": 55
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 25,
-                    "away": 75
-                },
-                "poisson": {
-                    "home": 37,
-                    "away": 63
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "37",
-                    "player": "Bruno Duarte Da Silva",
-                    "team": "home"
-                },
-                {
-                    "minute": "65",
-                    "player": "David",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "6",
-                    "player": "Emanuel Olivera",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Copa Libertadores",
             "date": "2026-09-16",
             "time": "05:00",
@@ -900,6 +832,74 @@ const siteData = {
                     "minute": "90+5",
                     "player": "Juan Carlos Gauto",
                     "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Copa Sudamericana",
+            "date": "2026-09-16",
+            "time": "05:00",
+            "home": "Vasco DA Gama",
+            "away": "Santa Fe",
+            "stadium": "",
+            "round": "Quarter-finals",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/133.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1139.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Santa Fe and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 45,
+                    "away": 55
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 25,
+                    "away": 75
+                },
+                "poisson": {
+                    "home": 37,
+                    "away": 63
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "37",
+                    "player": "Bruno Duarte Da Silva",
+                    "team": "home"
+                },
+                {
+                    "minute": "65",
+                    "player": "David",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "Emanuel Olivera",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -2440,6 +2440,17 @@ const siteData = {
         "Liga 1 (Indonesia)": [
             {
                 "rank": 1,
+                "team": "Dewa United",
+                "logo": "https://media.api-sports.io/football/teams/17902.png",
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "gd": 3,
+                "points": 7
+            },
+            {
+                "rank": 2,
                 "team": "Bali United",
                 "logo": "https://media.api-sports.io/football/teams/2448.png",
                 "played": 2,
@@ -2450,7 +2461,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "team": "Persepam Madura Utd",
                 "logo": "https://media.api-sports.io/football/teams/2444.png",
                 "played": 2,
@@ -2461,7 +2472,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Persija",
                 "logo": "https://media.api-sports.io/football/teams/10134.png",
                 "played": 2,
@@ -2472,7 +2483,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Arema FC",
                 "logo": "https://media.api-sports.io/football/teams/2438.png",
                 "played": 2,
@@ -2483,20 +2494,9 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Persita",
                 "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 2,
-                "win": 1,
-                "draw": 1,
-                "lose": 0,
-                "gd": 1,
-                "points": 4
-            },
-            {
-                "rank": 6,
-                "team": "Dewa United",
-                "logo": "https://media.api-sports.io/football/teams/17902.png",
                 "played": 2,
                 "win": 1,
                 "draw": 1,
@@ -2541,11 +2541,11 @@ const siteData = {
                 "rank": 10,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
-                "played": 2,
+                "played": 3,
                 "win": 1,
                 "draw": 0,
-                "lose": 1,
-                "gd": 0,
+                "lose": 2,
+                "gd": -2,
                 "points": 3
             },
             {
@@ -2638,7 +2638,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 19:06 WIB",
+    "standingsUpdated": "16/09/2026 20:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3137,6 +3137,14 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "Javier Hernandez",
+                "photo": "https://media.api-sports.io/football/players/388495.png",
+                "team": "Espanyol",
+                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
+                "value": 4
+            },
+            {
+                "rank": 2,
                 "name": "A. Gordon",
                 "photo": "https://media.api-sports.io/football/players/138787.png",
                 "team": "Barcelona",
@@ -3144,7 +3152,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 2,
+                "rank": 3,
                 "name": "Raphinha",
                 "photo": "https://media.api-sports.io/football/players/1496.png",
                 "team": "Barcelona",
@@ -3152,7 +3160,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "name": "M. Díaz",
                 "photo": "https://media.api-sports.io/football/players/760.png",
                 "team": "Alaves",
@@ -3160,7 +3168,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "Vinícius Júnior",
                 "photo": "https://media.api-sports.io/football/players/762.png",
                 "team": "Real Madrid",
@@ -3168,23 +3176,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 5,
-                "name": "Angel Pérez",
-                "photo": "https://media.api-sports.io/football/players/331369.png",
-                "team": "Alaves",
-                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
-                "value": 3
-            },
-            {
                 "rank": 6,
-                "name": "Javier Hernandez",
-                "photo": "https://media.api-sports.io/football/players/388495.png",
-                "team": "Espanyol",
-                "teamLogo": "https://media.api-sports.io/football/teams/540.png",
-                "value": 3
-            },
-            {
-                "rank": 7,
                 "name": "Unai López",
                 "photo": "https://media.api-sports.io/football/players/47285.png",
                 "team": "Rayo Vallecano",
@@ -3192,7 +3184,23 @@ const siteData = {
                 "value": 3
             },
             {
+                "rank": 7,
+                "name": "Angel Pérez",
+                "photo": "https://media.api-sports.io/football/players/331369.png",
+                "team": "Alaves",
+                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
+                "value": 3
+            },
+            {
                 "rank": 8,
+                "name": "Kylian Mbappé",
+                "photo": "https://media.api-sports.io/football/players/278.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
+                "value": 2
+            },
+            {
+                "rank": 9,
                 "name": "P. Aubameyang",
                 "photo": "https://media.api-sports.io/football/players/1465.png",
                 "team": "Deportivo La Coruna",
@@ -3200,19 +3208,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "name": "Fermín",
                 "photo": "https://media.api-sports.io/football/players/340626.png",
                 "team": "Barcelona",
                 "teamLogo": "https://media.api-sports.io/football/teams/529.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "J. Bellingham",
-                "photo": "https://media.api-sports.io/football/players/129718.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
                 "value": 2
             }
         ],
@@ -34121,51 +34121,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-17",
-                "time": "05:00",
-                "home": "Atletico-MG",
-                "away": "Santos",
-                "stadium": "MRV Arena",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Santos",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-17",
                 "time": "05:00",
@@ -34207,6 +34162,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 63
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-17",
+                "time": "05:00",
+                "home": "Atletico-MG",
+                "away": "Santos",
+                "stadium": "MRV Arena",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/128.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Santos",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             },
@@ -34753,51 +34753,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Copa Sudamericana",
-                "date": "2026-09-18",
-                "time": "07:30",
-                "home": "Atletico Torque",
-                "away": "Cienciano",
-                "stadium": "Estadio Centenario",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2562.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Cienciano",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 97,
-                        "away": 3
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Copa Libertadores",
                 "date": "2026-09-18",
                 "time": "07:30",
@@ -34839,6 +34794,51 @@ const siteData = {
                     "goals": {
                         "home": 54,
                         "away": 46
+                    }
+                }
+            },
+            {
+                "league": "Copa Sudamericana",
+                "date": "2026-09-18",
+                "time": "07:30",
+                "home": "Atletico Torque",
+                "away": "Cienciano",
+                "stadium": "Estadio Centenario",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2562.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Cienciano",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 97,
+                        "away": 3
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
