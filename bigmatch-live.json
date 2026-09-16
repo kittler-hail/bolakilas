@@ -3,9 +3,256 @@
   "home": "Omonia Nicosia",
   "away": "Celta Vigo",
   "statusCode": "NS",
-  "updatedAt": "16/09/2026 23:25 WIB",
+  "updatedAt": "16/09/2026 23:43 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Henning Berg",
+      "startXI": [
+        {
+          "number": 40,
+          "name": "Fabiano",
+          "position": "Kiper"
+        },
+        {
+          "number": 93,
+          "name": "Jean-Kévin Duverne",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "Senou Coulibaly",
+          "position": "Bek"
+        },
+        {
+          "number": 37,
+          "name": "Ľubomír Šatka",
+          "position": "Bek"
+        },
+        {
+          "number": 29,
+          "name": "Jure Balkovec",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "Mateo Marić",
+          "position": "Gelandang"
+        },
+        {
+          "number": 74,
+          "name": "Panagiotis Andreou",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Ewandro Costa",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "Muamer Tanković",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Jaden Montnor",
+          "position": "Gelandang"
+        },
+        {
+          "number": 99,
+          "name": "Loïs Diony",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "Thomas Kaminski",
+          "position": "Kiper"
+        },
+        {
+          "number": 78,
+          "name": "Pantelis Michail",
+          "position": "Kiper"
+        },
+        {
+          "number": 27,
+          "name": "Stefan Simic",
+          "position": "Bek"
+        },
+        {
+          "number": 77,
+          "name": "Loic Négo",
+          "position": "Bek"
+        },
+        {
+          "number": 90,
+          "name": "Christos Konstantinidis",
+          "position": "Bek"
+        },
+        {
+          "number": 92,
+          "name": "Christoforou Panagiotis",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "Florin Tănase",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "Luuk Brouwers",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "Mihlali Mayambela",
+          "position": "Penyerang"
+        },
+        {
+          "number": 82,
+          "name": "Andreas Christou",
+          "position": "Bek"
+        },
+        {
+          "number": 9,
+          "name": "Andronikos Kakoullis",
+          "position": "Penyerang"
+        },
+        {
+          "number": 85,
+          "name": "Angelos Neophytou",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-3",
+      "coach": "Claudio Giraldez",
+      "startXI": [
+        {
+          "number": 13,
+          "name": "Ionuț Radu",
+          "position": "Kiper"
+        },
+        {
+          "number": 20,
+          "name": "Javi Rodríguez",
+          "position": "Bek"
+        },
+        {
+          "number": 2,
+          "name": "Carl Starfelt",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "Marcos Alonso",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "Álvaro Núñez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Miguel Román",
+          "position": "Gelandang"
+        },
+        {
+          "number": 30,
+          "name": "Hugo Burcio",
+          "position": "Gelandang"
+        },
+        {
+          "number": 5,
+          "name": "Sergio Carreira",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "Couhaib Driouech",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "Pablo Durán",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Ferrán Jutglà",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "Altay Bayındır",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "Abdoulaye Faye",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Yoel Lago",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "Sebastián Cáceres",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "Javi Galán",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Ilaix Moriba",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "Aleix Febas",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "Hugo González",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "Javier Rueda",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "Williot Swedberg",
+          "position": "Penyerang"
+        },
+        {
+          "number": 23,
+          "name": "Hugo Álvarez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Borja Iglesias",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "GSP Stadium",
     "city": "Nicosia",
