@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T22:05:02.376Z.
+   API-Football v3) pada 2026-09-16T23:04:52.842Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1453,12 +1453,12 @@ const siteData = {
                 "rank": 1,
                 "team": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png",
-                "played": 5,
-                "win": 5,
+                "played": 6,
+                "win": 6,
                 "draw": 0,
                 "lose": 0,
-                "gd": 17,
-                "points": 15
+                "gd": 22,
+                "points": 18
             },
             {
                 "rank": 2,
@@ -1552,11 +1552,11 @@ const siteData = {
                 "rank": 10,
                 "team": "Racing Santander",
                 "logo": "https://media.api-sports.io/football/teams/4665.png",
-                "played": 5,
+                "played": 6,
                 "win": 2,
                 "draw": 1,
-                "lose": 2,
-                "gd": 0,
+                "lose": 3,
+                "gd": -5,
                 "points": 7
             },
             {
@@ -2493,7 +2493,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 05:04 WIB",
+    "standingsUpdated": "17/09/2026 06:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36540,51 +36540,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-19",
-                "time": "21:30",
-                "home": "ADO Den Haag",
-                "away": "Cambuur",
-                "stadium": "WerkTalent Stadion",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-19",
                 "time": "21:30",
@@ -36671,6 +36626,51 @@ const siteData = {
                     "goals": {
                         "home": 73,
                         "away": 27
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-19",
+                "time": "21:30",
+                "home": "ADO Den Haag",
+                "away": "Cambuur",
+                "stadium": "WerkTalent Stadion",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
                     }
                 }
             },
