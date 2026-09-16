@@ -2,9 +2,40 @@
   "fixtureId": 1636312,
   "home": "Omonia Nicosia",
   "away": "Celta Vigo",
-  "statusCode": "NS",
-  "updatedAt": "16/09/2026 23:43 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "16/09/2026 23:58 WIB",
+  "statistics": {
+    "home": {
+      "possession": 42,
+      "shotsTotal": 1,
+      "shotsOnTarget": 1,
+      "corners": 0,
+      "fouls": 0,
+      "offsides": 0,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 0,
+      "shotsOutsidebox": 1,
+      "passesTotal": 50,
+      "passesAccurate": 42,
+      "passesPct": 84
+    },
+    "away": {
+      "possession": 58,
+      "shotsTotal": 1,
+      "shotsOnTarget": 0,
+      "corners": 1,
+      "fouls": 2,
+      "offsides": 1,
+      "yellowCards": null,
+      "redCards": null,
+      "shotsInsidebox": 1,
+      "shotsOutsidebox": 0,
+      "passesTotal": 66,
+      "passesAccurate": 60,
+      "passesPct": 91
+    }
+  },
   "lineups": {
     "home": {
       "formation": "4-2-3-1",
@@ -13,57 +44,68 @@
         {
           "number": 40,
           "name": "Fabiano",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.3"
         },
         {
           "number": 93,
           "name": "Jean-Kévin Duverne",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 5,
           "name": "Senou Coulibaly",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
           "number": 37,
           "name": "Ľubomír Šatka",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 29,
           "name": "Jure Balkovec",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.5"
         },
         {
           "number": 14,
           "name": "Mateo Marić",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 74,
           "name": "Panagiotis Andreou",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Ewandro Costa",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 22,
           "name": "Muamer Tanković",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 7,
           "name": "Jaden Montnor",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 99,
           "name": "Loïs Diony",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         }
       ],
       "substitutes": [
@@ -136,57 +178,68 @@
         {
           "number": 13,
           "name": "Ionuț Radu",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "6.3"
         },
         {
           "number": 20,
           "name": "Javi Rodríguez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 2,
           "name": "Carl Starfelt",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 3,
           "name": "Marcos Alonso",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.3"
         },
         {
           "number": 15,
           "name": "Álvaro Núñez",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 8,
           "name": "Miguel Román",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 30,
           "name": "Hugo Burcio",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 5,
           "name": "Sergio Carreira",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.7"
         },
         {
           "number": 24,
           "name": "Couhaib Driouech",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.2"
         },
         {
           "number": 11,
           "name": "Pablo Durán",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         },
         {
           "number": 9,
           "name": "Ferrán Jutglà",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.3"
         }
       ],
       "substitutes": [
