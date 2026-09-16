@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T20:05:56.301Z.
+   API-Football v3) pada 2026-09-16T21:05:20.482Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,9 +24,9 @@ const siteData = {
         "stadium": "BayArena",
         "prediction": "0 - 0",
         "analysis": "Bayer Leverkusen bertemu Celje dalam laga UEFA Europa League. Analisis API-Football: No predictions available.",
-        "statusCode": "2H",
-        "minuteDisplay": "48'",
-        "homeScore": 1,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 2,
         "awayScore": 0,
         "odds": {
             "home": 33,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Bayer Leverkusen",
                 "away": "Celje",
-                "score": "1-0"
+                "score": "2-0"
             }
         ],
         "form": {
@@ -253,9 +253,9 @@ const siteData = {
             "away": "Celje",
             "stadium": "BayArena",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/168.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4360.png",
@@ -297,6 +297,109 @@ const siteData = {
                     "minute": "15",
                     "player": "S. Seslar",
                     "team": "away"
+                },
+                {
+                    "minute": "74",
+                    "player": "F. Medina",
+                    "team": "home"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa League",
+            "date": "2026-09-17",
+            "time": "02:00",
+            "home": "AC Milan",
+            "away": "Benfica",
+            "stadium": "San Siro/Giuseppe Meazza",
+            "round": "League Stage - 1",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/211.png",
+            "prediction": "0 - 2",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Winner : Benfica",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 100
+                },
+                "att": {
+                    "home": 0,
+                    "away": 100
+                },
+                "def": {
+                    "home": 100,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 100
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 100
+                }
+            },
+            "goals": [
+                {
+                    "minute": "16",
+                    "player": "D. Lukebakio",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "J. Kaminski",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "11",
+                    "player": "S. Pavlovic",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "26",
+                    "player": "S. El Karouani",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "J. Duran",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "D. Banjaqui",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "L. Barreiro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "V. Pavlidis",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -308,9 +411,9 @@ const siteData = {
             "away": "Jagiellonia",
             "stadium": "Georgios Karaiskakis Stadium",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/553.png",
             "awayLogo": "https://media.api-sports.io/football/teams/336.png",
@@ -357,6 +460,11 @@ const siteData = {
                     "minute": "43",
                     "player": "A. Gonzalez",
                     "team": "home"
+                },
+                {
+                    "minute": "84",
+                    "player": "R. Yaremchuk",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -371,6 +479,24 @@ const siteData = {
                     "player": "B. Onyemaechi",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "G. Montoia",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "S. Hezze",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "B. Vital",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -382,9 +508,9 @@ const siteData = {
             "away": "Lyon",
             "stadium": "Lotto Park",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/554.png",
             "awayLogo": "https://media.api-sports.io/football/teams/80.png",
@@ -431,6 +557,11 @@ const siteData = {
                     "minute": "22",
                     "player": "K. Nakamura",
                     "team": "away"
+                },
+                {
+                    "minute": "61",
+                    "player": "M. Cvetkovic",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -452,210 +583,12 @@ const siteData = {
             "league": "UEFA Europa League",
             "date": "2026-09-17",
             "time": "02:00",
-            "home": "Sturm Graz",
-            "away": "Rennes",
-            "stadium": "Merkur Arena",
-            "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "46'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/637.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/94.png",
-            "prediction": "0 - 0",
-            "odds": {
-                "home": 33,
-                "draw": 33,
-                "away": 33
-            },
-            "advice": "No predictions available",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 0
-                },
-                "att": {
-                    "home": 0,
-                    "away": 0
-                },
-                "def": {
-                    "home": 0,
-                    "away": 0
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "34",
-                    "player": "P. Koller",
-                    "team": "home"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa League",
-            "date": "2026-09-17",
-            "time": "02:00",
-            "home": "Sunderland",
-            "away": "AZ Alkmaar",
-            "stadium": "Stadium of Light",
-            "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/746.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/201.png",
-            "prediction": "0 - 0",
-            "odds": {
-                "home": 33,
-                "draw": 33,
-                "away": 33
-            },
-            "advice": "No predictions available",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 0
-                },
-                "att": {
-                    "home": 0,
-                    "away": 0
-                },
-                "def": {
-                    "home": 0,
-                    "away": 0
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "cards": [
-                {
-                    "minute": "22",
-                    "player": "T. Hume",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "30",
-                    "player": "O. Alderete",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "39",
-                    "player": "A. Oufkir",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa League",
-            "date": "2026-09-17",
-            "time": "02:00",
-            "home": "AC Milan",
-            "away": "Benfica",
-            "stadium": "San Siro/Giuseppe Meazza",
-            "round": "League Stage - 1",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/211.png",
-            "prediction": "0 - 2",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Winner : Benfica",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 100
-                },
-                "att": {
-                    "home": 0,
-                    "away": 100
-                },
-                "def": {
-                    "home": 100,
-                    "away": 0
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 100
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 100
-                }
-            },
-            "goals": [
-                {
-                    "minute": "16",
-                    "player": "D. Lukebakio",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "11",
-                    "player": "S. Pavlovic",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "26",
-                    "player": "S. El Karouani",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "37",
-                    "player": "J. Duran",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa League",
-            "date": "2026-09-17",
-            "time": "02:00",
             "home": "Hapoel Beer Sheva",
             "away": "Dinamo Zagreb",
             "stadium": "Rapid-Giulesti Stadium",
             "round": "League Stage - 1",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/563.png",
@@ -695,6 +628,206 @@ const siteData = {
             }
         },
         {
+            "league": "UEFA Europa League",
+            "date": "2026-09-17",
+            "time": "02:00",
+            "home": "Sturm Graz",
+            "away": "Rennes",
+            "stadium": "Merkur Arena",
+            "round": "League Stage - 1",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/637.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/94.png",
+            "prediction": "0 - 0",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "cards": [
+                {
+                    "minute": "51",
+                    "player": "L. Balbo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "F. Ingolitsch",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "J. Gorenc Stankovic",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa League",
+            "date": "2026-09-17",
+            "time": "02:00",
+            "home": "Sunderland",
+            "away": "AZ Alkmaar",
+            "stadium": "Stadium of Light",
+            "round": "League Stage - 1",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/746.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/201.png",
+            "prediction": "0 - 0",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 0
+                },
+                "att": {
+                    "home": 0,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 0
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "66",
+                    "player": "E. Le Fee",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "T. Hume",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "O. Alderete",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "A. Oufkir",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Weslley Patati",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "N. Mukiele",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "LaLiga",
+            "date": "2026-09-17",
+            "time": "02:30",
+            "home": "Levante",
+            "away": "Athletic Club",
+            "stadium": "Estadio Ciudad de Valencia",
+            "round": "Pekan 6",
+            "statusCode": "POSTP",
+            "homeLogo": "https://media.api-sports.io/football/teams/539.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/531.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Athletic Club",
+            "comparison": {
+                "form": {
+                    "home": 42,
+                    "away": 58
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 40,
+                    "away": 60
+                },
+                "poisson": {
+                    "home": 49,
+                    "away": 51
+                },
+                "h2h": {
+                    "home": 7,
+                    "away": 93
+                },
+                "goals": {
+                    "home": 27,
+                    "away": 73
+                }
+            }
+        },
+        {
             "league": "LaLiga",
             "date": "2026-09-17",
             "time": "02:30",
@@ -702,10 +835,10 @@ const siteData = {
             "away": "Racing Santander",
             "stadium": "Spotify Camp Nou",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "32'",
-            "homeScore": 2,
-            "awayScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "65'",
+            "homeScore": 4,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/529.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
             "prediction": "3 - 1",
@@ -756,6 +889,21 @@ const siteData = {
                     "minute": "30",
                     "player": "Maguette Gueye",
                     "team": "away"
+                },
+                {
+                    "minute": "36",
+                    "player": "Asier Villalibre",
+                    "team": "away"
+                },
+                {
+                    "minute": "42",
+                    "player": "Raphael Dias Belloli",
+                    "team": "home"
+                },
+                {
+                    "minute": "65",
+                    "player": "Yassir Zabiri",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -764,53 +912,26 @@ const siteData = {
                     "player": "Pedro Felipe",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "45+5",
+                    "player": "Lamine Yamal",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Karim Adeyemi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Yassir Zabiri",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
-        },
-        {
-            "league": "LaLiga",
-            "date": "2026-09-17",
-            "time": "02:30",
-            "home": "Levante",
-            "away": "Athletic Club",
-            "stadium": "Estadio Ciudad de Valencia",
-            "round": "Pekan 6",
-            "statusCode": "POSTP",
-            "homeLogo": "https://media.api-sports.io/football/teams/539.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/531.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Athletic Club",
-            "comparison": {
-                "form": {
-                    "home": 42,
-                    "away": 58
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 40,
-                    "away": 60
-                },
-                "poisson": {
-                    "home": 49,
-                    "away": 51
-                },
-                "h2h": {
-                    "home": 7,
-                    "away": 93
-                },
-                "goals": {
-                    "home": 27,
-                    "away": 73
-                }
-            }
         },
         {
             "league": "Copa Libertadores",
@@ -2356,7 +2477,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 03:05 WIB",
+    "standingsUpdated": "17/09/2026 04:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -34777,51 +34898,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-09-19",
-                "time": "01:45",
-                "home": "Monza",
-                "away": "Sassuolo",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Monza or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 13,
-                        "away": 88
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 39,
-                        "away": 61
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 64,
-                        "away": 36
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-19",
                 "time": "01:45",
@@ -34863,6 +34939,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 62
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-19",
+                "time": "01:45",
+                "home": "Monza",
+                "away": "Sassuolo",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Monza or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
                     }
                 }
             },
