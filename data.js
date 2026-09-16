@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T14:06:11.322Z.
+   API-Football v3) pada 2026-09-16T15:05:36.219Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -991,75 +991,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga MX",
-            "date": "2026-09-16",
-            "time": "08:00",
-            "home": "Puebla",
-            "away": "Toluca",
-            "stadium": "Estadio Cuauhtémoc",
-            "round": "Apertura - 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Toluca",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 36,
-                    "away": 64
-                },
-                "def": {
-                    "home": 36,
-                    "away": 64
-                },
-                "poisson": {
-                    "home": 23,
-                    "away": 77
-                },
-                "h2h": {
-                    "home": 15,
-                    "away": 85
-                },
-                "goals": {
-                    "home": 14,
-                    "away": 86
-                }
-            },
-            "goals": [
-                {
-                    "minute": "69",
-                    "player": "José Pachuca",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "57",
-                    "player": "Ignacio Maestro",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90",
-                    "player": "Bruno Méndez",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-16",
             "time": "08:00",
@@ -1129,6 +1060,75 @@ const siteData = {
                     "minute": "90+6",
                     "player": "E. Gutierrez",
                     "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-09-16",
+            "time": "08:00",
+            "home": "Puebla",
+            "away": "Toluca",
+            "stadium": "Estadio Cuauhtémoc",
+            "round": "Apertura - 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Toluca",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 36,
+                    "away": 64
+                },
+                "def": {
+                    "home": 36,
+                    "away": 64
+                },
+                "poisson": {
+                    "home": 23,
+                    "away": 77
+                },
+                "h2h": {
+                    "home": 15,
+                    "away": 85
+                },
+                "goals": {
+                    "home": 14,
+                    "away": 86
+                }
+            },
+            "goals": [
+                {
+                    "minute": "69",
+                    "player": "José Pachuca",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "57",
+                    "player": "Ignacio Maestro",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Bruno Méndez",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -2638,7 +2638,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 21:06 WIB",
+    "standingsUpdated": "16/09/2026 22:05 WIB",
     "topScorers": {
         "Premier League": [
             {
