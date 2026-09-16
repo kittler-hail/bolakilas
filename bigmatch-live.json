@@ -2,37 +2,37 @@
   "fixtureId": 1636225,
   "home": "Bayer Leverkusen",
   "away": "Celje",
-  "statusCode": "2H",
-  "updatedAt": "17/09/2026 03:39 WIB",
+  "statusCode": "FT",
+  "updatedAt": "17/09/2026 03:54 WIB",
   "statistics": {
     "home": {
-      "possession": 58,
-      "shotsTotal": 15,
+      "possession": 56,
+      "shotsTotal": 17,
       "shotsOnTarget": 8,
       "corners": 6,
-      "fouls": 11,
+      "fouls": 16,
       "offsides": 2,
       "yellowCards": null,
       "redCards": null,
-      "shotsInsidebox": 10,
-      "shotsOutsidebox": 5,
-      "passesTotal": 540,
-      "passesAccurate": 480,
-      "passesPct": 89
+      "shotsInsidebox": 11,
+      "shotsOutsidebox": 6,
+      "passesTotal": 615,
+      "passesAccurate": 543,
+      "passesPct": 88
     },
     "away": {
-      "possession": 42,
+      "possession": 44,
       "shotsTotal": 5,
       "shotsOnTarget": 3,
-      "corners": 1,
-      "fouls": 9,
+      "corners": 2,
+      "fouls": 10,
       "offsides": 1,
       "yellowCards": null,
       "redCards": null,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 1,
-      "passesTotal": 404,
-      "passesAccurate": 356,
+      "passesTotal": 495,
+      "passesAccurate": 436,
       "passesPct": 88
     }
   },
@@ -45,7 +45,7 @@
           "number": 1,
           "name": "Mark Flekken",
           "position": "Kiper",
-          "rating": "8.2"
+          "rating": "8.3"
         },
         {
           "number": 17,
@@ -57,13 +57,13 @@
           "number": 5,
           "name": "Loïc Badé",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.7"
         },
         {
           "number": 12,
           "name": "Edmond Tapsoba",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.9"
         },
         {
           "number": 2,
@@ -128,7 +128,7 @@
           "number": 4,
           "name": "Jarell Quansah",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.9"
         },
         {
           "number": 6,
@@ -140,17 +140,19 @@
           "number": 9,
           "name": "Afonso Moreira",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 29,
           "name": "Eliesse Ben Seghir",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.6"
         },
         {
           "number": 35,
           "name": "Christian Kofane",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.5"
         }
       ]
     },
@@ -168,7 +170,7 @@
           "number": 2,
           "name": "Pijus Širvys",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.9"
         },
         {
           "number": 44,
@@ -180,19 +182,19 @@
           "number": 6,
           "name": "Artemijus Tutyškinas",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "7.0"
         },
         {
           "number": 11,
           "name": "Milot Avdyli",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 19,
           "name": "Mark Zabukovnik",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 10,
@@ -259,7 +261,8 @@
         {
           "number": 13,
           "name": "Papa Daniel",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 25,
@@ -277,7 +280,7 @@
           "number": 9,
           "name": "Blaž Kramer",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 31,
