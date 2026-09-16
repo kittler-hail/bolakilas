@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T09:05:12.031Z.
+   API-Football v3) pada 2026-09-16T10:05:10.181Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1141,9 +1141,9 @@ const siteData = {
             "away": "Dewa United",
             "stadium": "Stadion Batakan",
             "round": "Pekan 5",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
+            "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2442.png",
             "awayLogo": "https://media.api-sports.io/football/teams/17902.png",
@@ -1185,6 +1185,19 @@ const siteData = {
                     "minute": "14",
                     "player": "Johnathan",
                     "team": "away"
+                },
+                {
+                    "minute": "49",
+                    "player": "I. Zikrak",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "56",
+                    "player": "Deni Junior",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -2597,7 +2610,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 16:05 WIB",
+    "standingsUpdated": "16/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
