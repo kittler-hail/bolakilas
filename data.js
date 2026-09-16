@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T10:05:10.181Z.
+   API-Football v3) pada 2026-09-16T11:05:19.337Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1141,10 +1141,10 @@ const siteData = {
             "away": "Dewa United",
             "stadium": "Stadion Batakan",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "77'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2442.png",
             "awayLogo": "https://media.api-sports.io/football/teams/17902.png",
             "prediction": "2 - 1",
@@ -1190,6 +1190,16 @@ const siteData = {
                     "minute": "49",
                     "player": "I. Zikrak",
                     "team": "home"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Deni Junior",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Deni Junior",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1197,6 +1207,24 @@ const siteData = {
                     "minute": "56",
                     "player": "Deni Junior",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Gabriel Oliveira",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Jean Mangabeira",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "Kadu",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -2610,7 +2638,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/09/2026 17:05 WIB",
+    "standingsUpdated": "16/09/2026 18:05 WIB",
     "topScorers": {
         "Premier League": [
             {
