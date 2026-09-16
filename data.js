@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T21:05:20.482Z.
+   API-Football v3) pada 2026-09-16T22:05:02.376Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -52,10 +52,26 @@ const siteData = {
         ],
         "form": {
             "home": {
+                "results": [
+                    "W"
+                ],
+                "cleanSheets": 1,
+                "failedToScore": 0,
+                "goalsFor": 2,
+                "goalsAgainst": 0,
+                "winStreak": 1,
                 "attack": 0,
                 "defense": 0
             },
             "away": {
+                "results": [
+                    "L"
+                ],
+                "cleanSheets": 0,
+                "failedToScore": 1,
+                "goalsFor": 0,
+                "goalsAgainst": 2,
+                "winStreak": 0,
                 "attack": 0,
                 "defense": 0
             }
@@ -2477,7 +2493,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 04:05 WIB",
+    "standingsUpdated": "17/09/2026 05:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3314,7 +3330,7 @@ const siteData = {
                 "player": "W. Saliba",
                 "photo": "https://media.api-sports.io/football/players/22090.png",
                 "reason": "Back Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Timber",
@@ -3338,7 +3354,13 @@ const siteData = {
                 "player": "C. Mosquera",
                 "photo": "https://media.api-sports.io/football/players/333682.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
+            },
+            {
+                "player": "B. White",
+                "photo": "https://media.api-sports.io/football/players/19959.png",
+                "reason": "Groin Injury",
+                "since": "2026-09-19"
             }
         ],
         "coventry": [
@@ -3346,25 +3368,25 @@ const siteData = {
                 "player": "L. Woolfenden",
                 "photo": "https://media.api-sports.io/football/players/17714.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "H. Wright",
                 "photo": "https://media.api-sports.io/football/players/427.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "K. Kesler-Hayden",
                 "photo": "https://media.api-sports.io/football/players/298128.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Eccles",
                 "photo": "https://media.api-sports.io/football/players/19984.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "Y. Gboho",
@@ -3377,6 +3399,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/382358.png",
                 "reason": "Loan agreement",
                 "since": "2026-09-05"
+            },
+            {
+                "player": "T. Awoniyi",
+                "photo": "https://media.api-sports.io/football/players/8598.png",
+                "reason": "Red Card",
+                "since": "2026-09-19"
+            },
+            {
+                "player": "F. Onyeka",
+                "photo": "https://media.api-sports.io/football/players/15799.png",
+                "reason": "Injury",
+                "since": "2026-09-19"
             }
         ],
         "hull-city": [
@@ -3384,7 +3418,7 @@ const siteData = {
                 "player": "J. Butland",
                 "photo": "https://media.api-sports.io/football/players/2930.png",
                 "reason": "Arm Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Gelhardt",
@@ -3396,13 +3430,13 @@ const siteData = {
                 "player": "D. Gyabi",
                 "photo": "https://media.api-sports.io/football/players/282124.png",
                 "reason": "Groin Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "C. Hughes",
                 "photo": "https://media.api-sports.io/football/players/331551.png",
                 "reason": "Groin Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Jacob",
@@ -3414,13 +3448,13 @@ const siteData = {
                 "player": "E. Matazo",
                 "photo": "https://media.api-sports.io/football/players/162991.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "H. Morita",
                 "photo": "https://media.api-sports.io/football/players/32960.png",
                 "reason": "Calf Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "O. Zambrano",
@@ -3432,7 +3466,7 @@ const siteData = {
                 "player": "I. Ansah",
                 "photo": "https://media.api-sports.io/football/players/380873.png",
                 "reason": "Back Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Crooks",
@@ -3445,6 +3479,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/19242.png",
                 "reason": "Injury",
                 "since": "2026-09-05"
+            },
+            {
+                "player": "N. Mendy",
+                "photo": "https://media.api-sports.io/football/players/358431.png",
+                "reason": "Injury",
+                "since": "2026-09-19"
             }
         ],
         "manchester-united": [
@@ -3496,7 +3536,7 @@ const siteData = {
                 "player": "N. Savona",
                 "photo": "https://media.api-sports.io/football/players/181806.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "R. Yates",
@@ -3509,6 +3549,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/22149.png",
                 "reason": "Calf Injury",
                 "since": "2026-08-29"
+            },
+            {
+                "player": "Cunha",
+                "photo": "https://media.api-sports.io/football/players/362711.png",
+                "reason": "Muscle Injury",
+                "since": "2026-09-19"
+            },
+            {
+                "player": "N. Milenkovic",
+                "photo": "https://media.api-sports.io/football/players/2817.png",
+                "reason": "Muscle Injury",
+                "since": "2026-09-19"
             }
         ],
         "leeds": [
@@ -3548,7 +3600,7 @@ const siteData = {
                 "player": "Joelinton",
                 "photo": "https://media.api-sports.io/football/players/723.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
             },
             {
                 "player": "V. Livramento",
@@ -3560,25 +3612,31 @@ const siteData = {
                 "player": "D. Burn",
                 "photo": "https://media.api-sports.io/football/players/18961.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
             },
             {
                 "player": "W. Osula",
                 "photo": "https://media.api-sports.io/football/players/315237.png",
                 "reason": "Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
             },
             {
                 "player": "A. Elanga",
                 "photo": "https://media.api-sports.io/football/players/153430.png",
-                "reason": "Injury",
-                "since": "2026-09-14"
+                "reason": "Knee Injury",
+                "since": "2026-09-19"
             },
             {
                 "player": "E. Jaouen",
                 "photo": "https://media.api-sports.io/football/players/329640.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
+            },
+            {
+                "player": "Nico",
+                "photo": "https://media.api-sports.io/football/players/161933.png",
+                "reason": "Injury",
+                "since": "2026-09-19"
             }
         ],
         "liverpool": [
@@ -3630,19 +3688,19 @@ const siteData = {
                 "player": "E. Ferguson",
                 "photo": "https://media.api-sports.io/football/players/129643.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "Y. Minteh",
                 "photo": "https://media.api-sports.io/football/players/383685.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "K. Mitoma",
                 "photo": "https://media.api-sports.io/football/players/106835.png",
                 "reason": "Hamstring Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. O'Riley",
@@ -3654,13 +3712,13 @@ const siteData = {
                 "player": "S. Tzimas",
                 "photo": "https://media.api-sports.io/football/players/343311.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Hinshelwood",
                 "photo": "https://media.api-sports.io/football/players/305730.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Orozco",
@@ -3672,31 +3730,31 @@ const siteData = {
                 "player": "M. Svoboda",
                 "photo": "https://media.api-sports.io/football/players/7090.png",
                 "reason": "Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Wieffer",
                 "photo": "https://media.api-sports.io/football/players/92993.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "Z. Yohanna",
                 "photo": "https://media.api-sports.io/football/players/524411.png",
                 "reason": "Lacking Match Fitness",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "F. Azeez",
                 "photo": "https://media.api-sports.io/football/players/282637.png",
                 "reason": "Abdominal strain",
-                "since": "2026-09-05"
+                "since": "2026-09-19"
             },
             {
                 "player": "G. Rutter",
                 "photo": "https://media.api-sports.io/football/players/90590.png",
                 "reason": "Injury",
-                "since": "2026-09-05"
+                "since": "2026-09-19"
             }
         ],
         "aston-villa": [
@@ -4022,7 +4080,13 @@ const siteData = {
                 "player": "C. Norgaard",
                 "photo": "https://media.api-sports.io/football/players/30407.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
+            },
+            {
+                "player": "M. Rohl",
+                "photo": "https://media.api-sports.io/football/players/202854.png",
+                "reason": "Injury",
+                "since": "2026-09-19"
             }
         ],
         "ipswich": [
@@ -4030,13 +4094,13 @@ const siteData = {
                 "player": "A. Matusiwa",
                 "photo": "https://media.api-sports.io/football/players/37236.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-04"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Taylor",
                 "photo": "https://media.api-sports.io/football/players/18397.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "Florentino",
@@ -4049,6 +4113,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/138931.png",
                 "reason": "Ankle Injury",
                 "since": "2026-09-04"
+            },
+            {
+                "player": "Emersonn",
+                "photo": "https://media.api-sports.io/football/players/321648.png",
+                "reason": "Muscle Injury",
+                "since": "2026-09-19"
             }
         ],
         "sunderland": [
@@ -4184,7 +4254,7 @@ const siteData = {
                 "player": "F. Garces",
                 "photo": "https://media.api-sports.io/football/players/6638.png",
                 "reason": "Suspended",
-                "since": "2026-09-15"
+                "since": "2026-09-19"
             },
             {
                 "player": "T. Mendes",
@@ -4202,13 +4272,13 @@ const siteData = {
                 "player": "A. Manas",
                 "photo": "https://media.api-sports.io/football/players/330440.png",
                 "reason": "Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Rodriguez",
                 "photo": "https://media.api-sports.io/football/players/332645.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-15"
+                "since": "2026-09-19"
             },
             {
                 "player": "T. Martinez",
@@ -4378,13 +4448,13 @@ const siteData = {
                 "player": "A. Martin",
                 "photo": "https://media.api-sports.io/football/players/47209.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-16"
+                "since": "2026-09-19"
             },
             {
                 "player": "S. Eriksson",
                 "photo": "https://media.api-sports.io/football/players/408875.png",
                 "reason": "Shoulder Injury",
-                "since": "2026-09-16"
+                "since": "2026-09-19"
             },
             {
                 "player": "A. Almeida",
@@ -4625,6 +4695,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/56670.png",
                 "reason": "Illness",
                 "since": "2026-09-13"
+            },
+            {
+                "player": "J. Cajuste",
+                "photo": "https://media.api-sports.io/football/players/15797.png",
+                "reason": "Injury",
+                "since": "2026-09-17"
             }
         ],
         "athletic-club": [
@@ -4632,7 +4708,7 @@ const siteData = {
                 "player": "U. Egiluz",
                 "photo": "https://media.api-sports.io/football/players/332305.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-16"
+                "since": "2026-09-19"
             },
             {
                 "player": "B. Prados Diaz",
@@ -4656,13 +4732,13 @@ const siteData = {
                 "player": "D. Vivian",
                 "photo": "https://media.api-sports.io/football/players/47278.png",
                 "reason": "Hamstring Injury",
-                "since": "2026-09-16"
+                "since": "2026-09-19"
             },
             {
                 "player": "P. Canales",
                 "photo": "https://media.api-sports.io/football/players/437643.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-16"
+                "since": "2026-09-19"
             },
             {
                 "player": "A. Djalo",
@@ -4700,7 +4776,7 @@ const siteData = {
                 "player": "J. Morante",
                 "photo": "https://media.api-sports.io/football/players/544644.png",
                 "reason": "Coach's decision",
-                "since": "2026-09-14"
+                "since": "2026-09-17"
             },
             {
                 "player": "T. Parrott",
@@ -4936,13 +5012,19 @@ const siteData = {
                 "player": "A. Antanon",
                 "photo": "https://media.api-sports.io/football/players/481678.png",
                 "reason": "Ankle Injury",
-                "since": "2026-09-13"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. El Abdellaoui",
                 "photo": "https://media.api-sports.io/football/players/351913.png",
                 "reason": "Injury",
                 "since": "2026-09-13"
+            },
+            {
+                "player": "I. Aspas",
+                "photo": "https://media.api-sports.io/football/players/47445.png",
+                "reason": "Muscle Injury",
+                "since": "2026-09-19"
             }
         ],
         "villarreal": [
@@ -5116,7 +5198,7 @@ const siteData = {
                 "player": "D. Spence",
                 "photo": "https://media.api-sports.io/football/players/19235.png",
                 "reason": "Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Spinacce",
@@ -5128,7 +5210,19 @@ const siteData = {
                 "player": "H. Calhanoglu",
                 "photo": "https://media.api-sports.io/football/players/1640.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
+            },
+            {
+                "player": "F. Stante",
+                "photo": "https://media.api-sports.io/football/players/386867.png",
+                "reason": "Injury",
+                "since": "2026-09-19"
+            },
+            {
+                "player": "J. Stones",
+                "photo": "https://media.api-sports.io/football/players/626.png",
+                "reason": "Injury",
+                "since": "2026-09-19"
             }
         ],
         "monza": [
@@ -5714,7 +5808,7 @@ const siteData = {
                 "player": "M. Bah",
                 "photo": "https://media.api-sports.io/football/players/626686.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
             },
             {
                 "player": "L. Pellegrini",
@@ -5732,7 +5826,7 @@ const siteData = {
                 "player": "E. Ndicka",
                 "photo": "https://media.api-sports.io/football/players/1807.png",
                 "reason": "Illness",
-                "since": "2026-09-14"
+                "since": "2026-09-19"
             }
         ],
         "fiorentina": [
@@ -6039,6 +6133,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/48612.png",
                 "reason": "Thigh Injury",
                 "since": "2026-09-18"
+            },
+            {
+                "player": "J. Juranovic",
+                "photo": "https://media.api-sports.io/football/players/14330.png",
+                "reason": "Illness",
+                "since": "2026-09-18"
             }
         ],
         "eintracht-frankfurt": [
@@ -6116,13 +6216,13 @@ const siteData = {
                 "player": "L. Assignon",
                 "photo": "https://media.api-sports.io/football/players/180731.png",
                 "reason": "Shoulder Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Diehl",
                 "photo": "https://media.api-sports.io/football/players/287927.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "C. Fuhrich",
@@ -6134,13 +6234,13 @@ const siteData = {
                 "player": "L. Jaquez",
                 "photo": "https://media.api-sports.io/football/players/349344.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "N. Nartey",
                 "photo": "https://media.api-sports.io/football/players/24806.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "L. Sauer",
@@ -6152,19 +6252,25 @@ const siteData = {
                 "player": "D. Seimen",
                 "photo": "https://media.api-sports.io/football/players/327993.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "D. Zagadou",
                 "photo": "https://media.api-sports.io/football/players/13.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "T. Tomas",
                 "photo": "https://media.api-sports.io/football/players/265363.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
+            },
+            {
+                "player": "A. Stiller",
+                "photo": "https://media.api-sports.io/football/players/137210.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-19"
             }
         ],
         "sv-elversberg": [
@@ -6294,13 +6400,13 @@ const siteData = {
                 "player": "E. Can",
                 "photo": "https://media.api-sports.io/football/players/864.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "M. Kaba",
                 "photo": "https://media.api-sports.io/football/players/592218.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "N. Schlotterbeck",
@@ -6318,25 +6424,25 @@ const siteData = {
                 "player": "K. Karetsas",
                 "photo": "https://media.api-sports.io/football/players/404891.png",
                 "reason": "Health problems",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "G. Konstantelias",
                 "photo": "https://media.api-sports.io/football/players/162410.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Lerma",
                 "photo": "https://media.api-sports.io/football/players/465666.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "F. Mane",
                 "photo": "https://media.api-sports.io/football/players/341839.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             }
         ],
         "hamburger-sv": [
@@ -6650,13 +6756,13 @@ const siteData = {
                 "player": "M. Godo",
                 "photo": "https://media.api-sports.io/football/players/359386.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "J. Panichelli",
                 "photo": "https://media.api-sports.io/football/players/390742.png",
                 "reason": "Knee Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "S. El Mourabet",
@@ -6896,13 +7002,13 @@ const siteData = {
                 "player": "E. Mbemba",
                 "photo": "https://media.api-sports.io/football/players/490981.png",
                 "reason": "Inactive",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "N. Sangui",
                 "photo": "https://media.api-sports.io/football/players/389322.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "L. Koleosho",
@@ -6914,13 +7020,13 @@ const siteData = {
                 "player": "T. De Smet",
                 "photo": "https://media.api-sports.io/football/players/8474.png",
                 "reason": "Inactive",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             },
             {
                 "player": "Otavio",
                 "photo": "https://media.api-sports.io/football/players/266013.png",
                 "reason": "Injury",
-                "since": "2026-09-12"
+                "since": "2026-09-19"
             }
         ],
         "le-mans": [
@@ -7196,6 +7302,12 @@ const siteData = {
                 "player": "M. Coulibaly",
                 "photo": "https://media.api-sports.io/football/players/419035.png",
                 "reason": "Muscle Injury",
+                "since": "2026-09-18"
+            },
+            {
+                "player": "S. Idumbo",
+                "photo": "https://media.api-sports.io/football/players/340152.png",
+                "reason": "Groin Injury",
                 "since": "2026-09-18"
             },
             {
@@ -34898,51 +35010,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-19",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Lens",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/116.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Monaco or draw",
-                "comparison": {
-                    "form": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 38,
-                        "away": 62
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-09-19",
                 "time": "01:45",
@@ -34984,6 +35051,51 @@ const siteData = {
                     "goals": {
                         "home": 64,
                         "away": 36
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-19",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Lens",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/116.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Monaco or draw",
+                "comparison": {
+                    "form": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 62
                     }
                 }
             },
