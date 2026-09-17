@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-17T13:06:27.923Z.
+   API-Football v3) pada 2026-09-17T14:05:55.607Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -951,8 +951,8 @@ const siteData = {
                     "away": 60
                 },
                 "poisson": {
-                    "home": 49,
-                    "away": 51
+                    "home": 48,
+                    "away": 52
                 },
                 "h2h": {
                     "home": 7,
@@ -2638,7 +2638,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 20:06 WIB",
+    "standingsUpdated": "17/09/2026 21:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2725,6 +2725,22 @@ const siteData = {
         "LaLiga": [
             {
                 "rank": 1,
+                "name": "Raphinha",
+                "photo": "https://media.api-sports.io/football/players/1496.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 9
+            },
+            {
+                "rank": 2,
+                "name": "Lamine Yamal",
+                "photo": "https://media.api-sports.io/football/players/386828.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 7
+            },
+            {
+                "rank": 3,
                 "name": "Kylian Mbappé",
                 "photo": "https://media.api-sports.io/football/players/278.png",
                 "team": "Real Madrid",
@@ -2732,7 +2748,7 @@ const siteData = {
                 "value": 7
             },
             {
-                "rank": 2,
+                "rank": 4,
                 "name": "Sergio Camello",
                 "photo": "https://media.api-sports.io/football/players/52.png",
                 "team": "Rayo Vallecano",
@@ -2740,7 +2756,15 @@ const siteData = {
                 "value": 6
             },
             {
-                "rank": 3,
+                "rank": 5,
+                "name": "M. Zabiri",
+                "photo": "https://media.api-sports.io/football/players/457101.png",
+                "team": "Racing Santander",
+                "teamLogo": "https://media.api-sports.io/football/teams/4665.png",
+                "value": 6
+            },
+            {
+                "rank": 6,
                 "name": "Roberto Fernández",
                 "photo": "https://media.api-sports.io/football/players/312990.png",
                 "team": "Espanyol",
@@ -2748,35 +2772,11 @@ const siteData = {
                 "value": 6
             },
             {
-                "rank": 4,
-                "name": "Raphinha",
-                "photo": "https://media.api-sports.io/football/players/1496.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
-                "value": 6
-            },
-            {
-                "rank": 5,
-                "name": "Lamine Yamal",
-                "photo": "https://media.api-sports.io/football/players/386828.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
-                "value": 6
-            },
-            {
-                "rank": 6,
+                "rank": 7,
                 "name": "P. Aubameyang",
                 "photo": "https://media.api-sports.io/football/players/1465.png",
                 "team": "Deportivo La Coruna",
                 "teamLogo": "https://media.api-sports.io/football/teams/544.png",
-                "value": 5
-            },
-            {
-                "rank": 7,
-                "name": "M. Zabiri",
-                "photo": "https://media.api-sports.io/football/players/457101.png",
-                "team": "Racing Santander",
-                "teamLogo": "https://media.api-sports.io/football/teams/4665.png",
                 "value": 5
             },
             {
@@ -2789,18 +2789,18 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "name": "L. Boyé",
-                "photo": "https://media.api-sports.io/football/players/608.png",
-                "team": "Alaves",
-                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
+                "name": "Álex Baena",
+                "photo": "https://media.api-sports.io/football/players/182219.png",
+                "team": "Atletico Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/530.png",
                 "value": 4
             },
             {
                 "rank": 10,
-                "name": "A. Budimir",
-                "photo": "https://media.api-sports.io/football/players/46746.png",
-                "team": "Osasuna",
-                "teamLogo": "https://media.api-sports.io/football/teams/727.png",
+                "name": "L. Boyé",
+                "photo": "https://media.api-sports.io/football/players/608.png",
+                "team": "Alaves",
+                "teamLogo": "https://media.api-sports.io/football/teams/542.png",
                 "value": 4
             }
         ],
@@ -3177,6 +3177,14 @@ const siteData = {
             },
             {
                 "rank": 6,
+                "name": "Dani Olmo",
+                "photo": "https://media.api-sports.io/football/players/1323.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "value": 3
+            },
+            {
+                "rank": 7,
                 "name": "Unai López",
                 "photo": "https://media.api-sports.io/football/players/47285.png",
                 "team": "Rayo Vallecano",
@@ -3184,7 +3192,7 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "Angel Pérez",
                 "photo": "https://media.api-sports.io/football/players/331369.png",
                 "team": "Alaves",
@@ -3192,27 +3200,19 @@ const siteData = {
                 "value": 3
             },
             {
-                "rank": 8,
-                "name": "Kylian Mbappé",
-                "photo": "https://media.api-sports.io/football/players/278.png",
-                "team": "Real Madrid",
-                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
-                "value": 2
-            },
-            {
                 "rank": 9,
-                "name": "P. Aubameyang",
-                "photo": "https://media.api-sports.io/football/players/1465.png",
-                "team": "Deportivo La Coruna",
-                "teamLogo": "https://media.api-sports.io/football/teams/544.png",
+                "name": "Lamine Yamal",
+                "photo": "https://media.api-sports.io/football/players/386828.png",
+                "team": "Barcelona",
+                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
                 "value": 2
             },
             {
                 "rank": 10,
-                "name": "Fermín",
-                "photo": "https://media.api-sports.io/football/players/340626.png",
-                "team": "Barcelona",
-                "teamLogo": "https://media.api-sports.io/football/teams/529.png",
+                "name": "Kylian Mbappé",
+                "photo": "https://media.api-sports.io/football/players/278.png",
+                "team": "Real Madrid",
+                "teamLogo": "https://media.api-sports.io/football/teams/541.png",
                 "value": 2
             }
         ],
@@ -34797,8 +34797,8 @@ const siteData = {
                         "away": 44
                     },
                     "poisson": {
-                        "home": 51,
-                        "away": 49
+                        "home": 49,
+                        "away": 51
                     },
                     "h2h": {
                         "home": 29,
@@ -35384,8 +35384,8 @@ const siteData = {
                         "away": 32
                     },
                     "poisson": {
-                        "home": 63,
-                        "away": 37
+                        "home": 62,
+                        "away": 38
                     },
                     "h2h": {
                         "home": 85,
@@ -35813,29 +35813,29 @@ const siteData = {
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/727.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/728.png",
-                "prediction": "2 - 2",
+                "prediction": "2 - 3",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
                 },
-                "advice": "Double chance : Osasuna or draw",
+                "advice": "Double chance : draw or Rayo Vallecano",
                 "comparison": {
                     "form": {
-                        "home": 50,
-                        "away": 50
+                        "home": 46,
+                        "away": 54
                     },
                     "att": {
                         "home": 36,
                         "away": 64
                     },
                     "def": {
-                        "home": 62,
-                        "away": 38
+                        "home": 52,
+                        "away": 48
                     },
                     "poisson": {
-                        "home": 53,
-                        "away": 47
+                        "home": 51,
+                        "away": 49
                     },
                     "h2h": {
                         "home": 50,
@@ -36689,8 +36689,8 @@ const siteData = {
                         "away": 50
                     },
                     "poisson": {
-                        "home": 61,
-                        "away": 39
+                        "home": 59,
+                        "away": 41
                     },
                     "h2h": {
                         "home": 50,
@@ -37028,29 +37028,29 @@ const siteData = {
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/538.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "prediction": "1 - 2",
+                "prediction": "3 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
                 "advice": "Double chance : Celta Vigo or draw",
                 "comparison": {
                     "form": {
-                        "home": 30,
-                        "away": 70
+                        "home": 33,
+                        "away": 67
                     },
                     "att": {
                         "home": 25,
                         "away": 75
                     },
                     "def": {
-                        "home": 60,
-                        "away": 40
+                        "home": 70,
+                        "away": 30
                     },
                     "poisson": {
-                        "home": 40,
-                        "away": 60
+                        "home": 46,
+                        "away": 54
                     },
                     "h2h": {
                         "home": 100,
@@ -37108,51 +37108,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Scottish Premiership",
-                "date": "2026-09-19",
-                "time": "23:45",
-                "home": "Kilmarnock",
-                "away": "Heart Of Midlothian",
-                "stadium": "Rugby Park",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/250.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/254.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Heart Of Midlothian",
-                "comparison": {
-                    "form": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "att": {
-                        "home": 14,
-                        "away": 86
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 10,
-                        "away": 90
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-09-19",
                 "time": "23:45",
@@ -37194,6 +37149,51 @@ const siteData = {
                     "goals": {
                         "home": 40,
                         "away": 60
+                    }
+                }
+            },
+            {
+                "league": "Scottish Premiership",
+                "date": "2026-09-19",
+                "time": "23:45",
+                "home": "Kilmarnock",
+                "away": "Heart Of Midlothian",
+                "stadium": "Rugby Park",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/250.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/254.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Heart Of Midlothian",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 14,
+                        "away": 86
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 10,
+                        "away": 90
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             }
