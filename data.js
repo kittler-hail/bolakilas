@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-17T18:06:39.328Z.
+   API-Football v3) pada 2026-09-17T19:04:54.650Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Selhurst Park",
         "prediction": "0 - 2",
         "analysis": "Crystal Palace bertemu Lech Poznan dalam laga UEFA Europa League. Analisis API-Football: No predictions available.",
-        "statusCode": "NS",
+        "statusCode": "1H",
+        "minuteDisplay": "4'",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
             "home": 33,
             "draw": 33,
@@ -40,7 +43,13 @@ const siteData = {
         "awayTeamId": 347,
         "homeLogo": "https://media.api-sports.io/football/teams/52.png",
         "awayLogo": "https://media.api-sports.io/football/teams/347.png",
-        "h2h": [],
+        "h2h": [
+            {
+                "home": "Crystal Palace",
+                "away": "Lech Poznan",
+                "score": "0-0"
+            }
+        ],
         "form": {
             "home": {
                 "attack": 0,
@@ -72,8 +81,8 @@ const siteData = {
             "away": "Getafe",
             "stadium": "Estadio de La Cartuja",
             "round": "Pekan 6",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/543.png",
@@ -136,6 +145,30 @@ const siteData = {
                     "player": "David Cordón Mancha",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Mario Martín Rielves",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Nemanja Gudelj",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "Juan Sebastian Boselli Graf",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Mario Martín Rielves",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -147,7 +180,10 @@ const siteData = {
             "away": "Lech Poznan",
             "stadium": "Selhurst Park",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/52.png",
             "awayLogo": "https://media.api-sports.io/football/teams/347.png",
             "prediction": "0 - 2",
@@ -192,7 +228,10 @@ const siteData = {
             "away": "Ferencvarosi TC",
             "stadium": "Celtic Park",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/247.png",
             "awayLogo": "https://media.api-sports.io/football/teams/651.png",
             "prediction": "0 - 1",
@@ -237,7 +276,10 @@ const siteData = {
             "away": "Torreense",
             "stadium": "",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/321.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4799.png",
             "prediction": "1 - 0",
@@ -282,7 +324,10 @@ const siteData = {
             "away": "NEC Nijmegen",
             "stadium": "Allianz Stadium",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/496.png",
             "awayLogo": "https://media.api-sports.io/football/teams/413.png",
             "prediction": "0 - 0",
@@ -327,7 +372,10 @@ const siteData = {
             "away": "Bournemouth",
             "stadium": "Anoeta",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/548.png",
             "awayLogo": "https://media.api-sports.io/football/teams/35.png",
             "prediction": "1 - 0",
@@ -372,7 +420,10 @@ const siteData = {
             "away": "Marseille",
             "stadium": "Besiktas Park",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/549.png",
             "awayLogo": "https://media.api-sports.io/football/teams/81.png",
             "prediction": "1 - 0",
@@ -417,7 +468,10 @@ const siteData = {
             "away": "Union St. Gilloise",
             "stadium": "Doosan Arena",
             "round": "League Stage - 1",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/567.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
             "prediction": "1 - 1",
@@ -2043,7 +2097,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "18/09/2026 01:06 WIB",
+    "standingsUpdated": "18/09/2026 02:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -34815,51 +34869,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-19",
-                "time": "01:45",
-                "home": "Monaco",
-                "away": "Lens",
-                "stadium": "Stade Louis II",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/116.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Monaco or draw",
-                "comparison": {
-                    "form": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 38,
-                        "away": 62
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-09-19",
                 "time": "01:45",
@@ -34901,6 +34910,51 @@ const siteData = {
                     "goals": {
                         "home": 64,
                         "away": 36
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-09-19",
+                "time": "01:45",
+                "home": "Monaco",
+                "away": "Lens",
+                "stadium": "Stade Louis II",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/116.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Monaco or draw",
+                "comparison": {
+                    "form": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 62
                     }
                 }
             },
@@ -35985,6 +36039,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "OH Leuven",
+                "away": "RAAL La Louvière",
+                "stadium": "Den Dreef",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or RAAL La Louvière",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-19",
                 "time": "21:00",
@@ -36071,51 +36170,6 @@ const siteData = {
                     "goals": {
                         "home": 45,
                         "away": 55
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "OH Leuven",
-                "away": "RAAL La Louvière",
-                "stadium": "Den Dreef",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or RAAL La Louvière",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
                     }
                 }
             },
@@ -37022,6 +37076,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Serie A",
+                "date": "2026-09-20",
+                "time": "01:45",
+                "home": "Venezia",
+                "away": "Lazio",
+                "stadium": "Stadio Pierluigi Penzo",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/517.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/487.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Lazio",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 21,
+                        "away": 79
+                    },
+                    "poisson": {
+                        "home": 10,
+                        "away": 90
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 22,
+                        "away": 78
+                    }
+                }
+            },
+            {
                 "league": "Ligue 1",
                 "date": "2026-09-20",
                 "time": "01:45",
@@ -37198,51 +37297,6 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 62
-                    }
-                }
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-09-20",
-                "time": "01:45",
-                "home": "Venezia",
-                "away": "Lazio",
-                "stadium": "Stadio Pierluigi Penzo",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/517.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/487.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Lazio",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "def": {
-                        "home": 21,
-                        "away": 79
-                    },
-                    "poisson": {
-                        "home": 10,
-                        "away": 90
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 22,
-                        "away": 78
                     }
                 }
             },
@@ -38957,51 +39011,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-09-20",
-                "time": "20:00",
-                "home": "Auxerre",
-                "away": "Stade Brestois 29",
-                "stadium": "Stade de l'Abbé-Deschamps",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/108.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/106.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Stade Brestois 29",
-                "comparison": {
-                    "form": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "att": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "def": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "poisson": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 62,
-                        "away": 38
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-09-20",
                 "time": "20:00",
@@ -39092,6 +39101,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Ligue 1",
+                "date": "2026-09-20",
+                "time": "20:00",
+                "home": "Auxerre",
+                "away": "Stade Brestois 29",
+                "stadium": "Stade de l'Abbé-Deschamps",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/108.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/106.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Stade Brestois 29",
+                "comparison": {
+                    "form": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "poisson": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 62,
+                        "away": 38
+                    }
+                }
+            },
+            {
                 "league": "Bundesliga",
                 "date": "2026-09-20",
                 "time": "20:30",
@@ -39133,6 +39187,51 @@ const siteData = {
                     "goals": {
                         "home": 61,
                         "away": 39
+                    }
+                }
+            },
+            {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-20",
+                "time": "21:00",
+                "home": "St. Truiden",
+                "away": "KVC Westerlo",
+                "stadium": "Daio Wasabi Stayen",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : St. Truiden or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 69,
+                        "away": 31
                     }
                 }
             },
@@ -39223,51 +39322,6 @@ const siteData = {
                     "goals": {
                         "home": 36,
                         "away": 64
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-20",
-                "time": "21:00",
-                "home": "St. Truiden",
-                "away": "KVC Westerlo",
-                "stadium": "Daio Wasabi Stayen",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : St. Truiden or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 69,
-                        "away": 31
                     }
                 }
             },
