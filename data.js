@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-17T07:07:04.234Z.
+   API-Football v3) pada 2026-09-17T08:05:35.768Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -84,7 +84,7 @@ const siteData = {
             "time": "00:00",
             "home": "Atletico Madrid",
             "away": "Osasuna",
-            "stadium": "Riyadh Air Metropolitano",
+            "stadium": "Metropolitano Stadium",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -174,7 +174,7 @@ const siteData = {
             "time": "00:00",
             "home": "Deportivo La Coruna",
             "away": "Sevilla",
-            "stadium": "Estadio de Riazor",
+            "stadium": "Estadio Municipal de Riazor",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -798,7 +798,7 @@ const siteData = {
             "time": "02:30",
             "home": "Barcelona",
             "away": "Racing Santander",
-            "stadium": "Spotify Camp Nou",
+            "stadium": "Camp Nou",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -972,7 +972,10 @@ const siteData = {
             "away": "Palmeiras",
             "stadium": "Estadio Rodrigo Paz Delgado",
             "round": "Quarter-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1158.png",
             "awayLogo": "https://media.api-sports.io/football/teams/121.png",
             "prediction": "1 - 2",
@@ -1015,9 +1018,12 @@ const siteData = {
             "time": "05:00",
             "home": "Atletico-MG",
             "away": "Santos",
-            "stadium": "MRV Arena",
+            "stadium": "Arena MRV",
             "round": "Quarter-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
             "awayLogo": "https://media.api-sports.io/football/teams/128.png",
             "prediction": "1 - 2",
@@ -2544,7 +2550,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 14:07 WIB",
+    "standingsUpdated": "17/09/2026 15:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -34317,7 +34323,7 @@ const siteData = {
                 "time": "00:00",
                 "home": "Real Betis",
                 "away": "Getafe",
-                "stadium": "Benito Villamarín",
+                "stadium": "Estadio de La Cartuja",
                 "round": "Pekan 6",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/543.png",
@@ -34677,7 +34683,7 @@ const siteData = {
                 "time": "02:30",
                 "home": "Malaga",
                 "away": "Villarreal",
-                "stadium": "La Rosaleda",
+                "stadium": "Estadio La Rosaleda",
                 "round": "Pekan 6",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/535.png",
@@ -34722,7 +34728,7 @@ const siteData = {
                 "time": "07:30",
                 "home": "Flamengo",
                 "away": "Independiente del Valle",
-                "stadium": "",
+                "stadium": "Estádio do Maracanã",
                 "round": "Quarter-finals",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/127.png",
@@ -35079,51 +35085,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-09-19",
-                "time": "01:45",
-                "home": "Monza",
-                "away": "Sassuolo",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Monza or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 13,
-                        "away": 88
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 39,
-                        "away": 61
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 64,
-                        "away": 36
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-19",
                 "time": "01:45",
@@ -35165,6 +35126,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 62
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-19",
+                "time": "01:45",
+                "home": "Monza",
+                "away": "Sassuolo",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Monza or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
                     }
                 }
             },
@@ -36249,6 +36255,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "OH Leuven",
+                "away": "RAAL La Louvière",
+                "stadium": "Den Dreef",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or RAAL La Louvière",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-19",
                 "time": "21:00",
@@ -36515,51 +36566,6 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "OH Leuven",
-                "away": "RAAL La Louvière",
-                "stadium": "Den Dreef",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or RAAL La Louvière",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
                     }
                 }
             },
