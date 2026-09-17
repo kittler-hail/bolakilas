@@ -3,9 +3,241 @@
   "home": "Crystal Palace",
   "away": "Lech Poznan",
   "statusCode": "NS",
-  "updatedAt": "18/09/2026 01:11 WIB",
+  "updatedAt": "18/09/2026 01:33 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "3-4-3",
+      "coach": "P. Sage",
+      "startXI": [
+        {
+          "number": 44,
+          "name": "W. Benítez",
+          "position": "Kiper"
+        },
+        {
+          "number": 26,
+          "name": "C. Richards",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "A. Disasi",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "H. Ahanor",
+          "position": "Bek"
+        },
+        {
+          "number": 25,
+          "name": "A. Khalaili",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "Q. Timber",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "A. Wharton",
+          "position": "Gelandang"
+        },
+        {
+          "number": 3,
+          "name": "T. Mitchell",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "D. Kamada",
+          "position": "Penyerang"
+        },
+        {
+          "number": 22,
+          "name": "J. Strand Larsen",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "Yeremy Pino",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 43,
+          "name": "S. Williams",
+          "position": "Gelandang"
+        },
+        {
+          "number": 6,
+          "name": "J. Canvot",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "B. Chilwell",
+          "position": "Bek"
+        },
+        {
+          "number": 31,
+          "name": "R. Matthews",
+          "position": "Kiper"
+        },
+        {
+          "number": 11,
+          "name": "D. McNeil",
+          "position": "Penyerang"
+        },
+        {
+          "number": 30,
+          "name": "Óscar Mingueza",
+          "position": "Bek"
+        },
+        {
+          "number": 9,
+          "name": "E. Nketiah",
+          "position": "Penyerang"
+        },
+        {
+          "number": 24,
+          "name": "D. Osorio",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "I. Sarr",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "T. Tomiyasu",
+          "position": "Bek"
+        },
+        {
+          "number": 81,
+          "name": "Lucca Benetton",
+          "position": "Kiper"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "N. Frederiksen",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "M. Lis",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Joel Pereira",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "W. Mońka",
+          "position": "Bek"
+        },
+        {
+          "number": 59,
+          "name": "T. Yegbe",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "M. Gurgul",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "R. Murawski",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "Pablo Rodríguez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "P. Wålemark",
+          "position": "Gelandang"
+        },
+        {
+          "number": 77,
+          "name": "L. Palma",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "A. Sayyadmanesh",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "M. Ishak",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 72,
+          "name": "M. Skrzypczak",
+          "position": "Bek"
+        },
+        {
+          "number": 31,
+          "name": "Wiktor Obremski",
+          "position": "Kiper"
+        },
+        {
+          "number": 4,
+          "name": "João Moutinho",
+          "position": "Bek"
+        },
+        {
+          "number": 24,
+          "name": "F. Jagiełło",
+          "position": "Gelandang"
+        },
+        {
+          "number": 33,
+          "name": "M. Pruchniewski",
+          "position": "Kiper"
+        },
+        {
+          "number": 11,
+          "name": "D. Håkans",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "R. Gumny",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "L. Bengtsson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "Y. Agnero",
+          "position": "Penyerang"
+        },
+        {
+          "number": 56,
+          "name": "W. Szymczak",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Selhurst Park",
     "city": "London",
