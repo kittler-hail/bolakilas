@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-17T09:05:26.042Z.
+   API-Football v3) pada 2026-09-17T10:05:11.086Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -84,7 +84,7 @@ const siteData = {
             "time": "00:00",
             "home": "Atletico Madrid",
             "away": "Osasuna",
-            "stadium": "Metropolitano Stadium",
+            "stadium": "Riyadh Air Metropolitano",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -128,7 +128,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "24",
-                    "player": "Jonathan David",
+                    "player": "J. David",
                     "team": "home"
                 },
                 {
@@ -138,12 +138,12 @@ const siteData = {
                 },
                 {
                     "minute": "63",
-                    "player": "Robin Le Normand",
+                    "player": "R. Le Normand",
                     "team": "home"
                 },
                 {
                     "minute": "82",
-                    "player": "Alejandro Baena Rodríguez",
+                    "player": "A. Baena",
                     "team": "home"
                 }
             ],
@@ -174,7 +174,7 @@ const siteData = {
             "time": "00:00",
             "home": "Deportivo La Coruna",
             "away": "Sevilla",
-            "stadium": "Estadio Municipal de Riazor",
+            "stadium": "Estadio Riazor",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -218,7 +218,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "52",
-                    "player": "Miguel Sierra",
+                    "player": "M. Sierra",
                     "team": "away"
                 }
             ],
@@ -248,14 +248,14 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "90+4",
-                    "player": "Isaac Romero",
+                    "minute": "90+6",
+                    "player": "Juan Iglesias",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
-                    "minute": "90+6",
-                    "player": "Juan Antonio Iglesias Sánchez",
+                    "minute": "90+4",
+                    "player": "Isaac Romero",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -842,7 +842,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "8",
-                    "player": "João Cancelo",
+                    "player": "J. Cancelo",
                     "team": "home"
                 },
                 {
@@ -857,7 +857,7 @@ const siteData = {
                 },
                 {
                     "minute": "36",
-                    "player": "Asier Villalibre",
+                    "player": "A. Villalibre",
                     "team": "away"
                 },
                 {
@@ -867,7 +867,7 @@ const siteData = {
                 },
                 {
                     "minute": "65",
-                    "player": "M. Zabiri",
+                    "player": "Y. Zabiri",
                     "team": "away"
                 },
                 {
@@ -901,13 +901,13 @@ const siteData = {
                 },
                 {
                     "minute": "60",
-                    "player": "K. Adeyemi",
+                    "player": "Karim Adeyemi",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "60",
-                    "player": "M. Zabiri",
+                    "player": "Yassir Zabiri",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -2550,7 +2550,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 16:05 WIB",
+    "standingsUpdated": "17/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35355,6 +35355,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga MX",
+                "date": "2026-09-19",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Atlante FC",
+                "stadium": "Estadio Cuauhtémoc",
+                "round": "Apertura - 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Puebla or draw",
+                "comparison": {
+                    "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
+            },
+            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-19",
                 "time": "08:00",
@@ -35447,45 +35492,45 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-09-19",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Atlante FC",
-                "stadium": "Estadio Cuauhtémoc",
+                "time": "10:00",
+                "home": "FC Juarez",
+                "away": "Tigres UANL",
+                "stadium": "Estadio Olímpico Benito Juárez",
                 "round": "Apertura - 9",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
-                "prediction": "1 - 1",
+                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
                 },
-                "advice": "Double chance : Puebla or draw",
+                "advice": "Double chance : draw or Tigres UANL",
                 "comparison": {
                     "form": {
-                        "home": 75,
-                        "away": 25
+                        "home": 0,
+                        "away": 100
                     },
                     "att": {
-                        "home": 78,
-                        "away": 22
+                        "home": 43,
+                        "away": 57
                     },
                     "def": {
-                        "home": 50,
-                        "away": 50
+                        "home": 16,
+                        "away": 84
                     },
                     "poisson": {
-                        "home": 56,
-                        "away": 44
+                        "home": 26,
+                        "away": 74
                     },
                     "h2h": {
-                        "home": 0,
-                        "away": 100
+                        "home": 40,
+                        "away": 60
                     },
                     "goals": {
-                        "home": 0,
-                        "away": 100
+                        "home": 43,
+                        "away": 57
                     }
                 }
             },
@@ -35531,51 +35576,6 @@ const siteData = {
                     "goals": {
                         "home": 47,
                         "away": 53
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-19",
-                "time": "10:00",
-                "home": "FC Juarez",
-                "away": "Tigres UANL",
-                "stadium": "Estadio Olímpico Benito Juárez",
-                "round": "Apertura - 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Tigres UANL",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 16,
-                        "away": 84
-                    },
-                    "poisson": {
-                        "home": 26,
-                        "away": 74
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 43,
-                        "away": 57
                     }
                 }
             },
@@ -36615,51 +36615,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-19",
-                "time": "21:30",
-                "home": "ADO Den Haag",
-                "away": "Cambuur",
-                "stadium": "WerkTalent Stadion",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-19",
                 "time": "21:30",
@@ -36746,6 +36701,51 @@ const siteData = {
                     "goals": {
                         "home": 73,
                         "away": 27
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-19",
+                "time": "21:30",
+                "home": "ADO Den Haag",
+                "away": "Cambuur",
+                "stadium": "WerkTalent Stadion",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
                     }
                 }
             },
@@ -37020,51 +37020,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-09-19",
-                "time": "23:45",
-                "home": "Sparta Rotterdam",
-                "away": "Heerenveen",
-                "stadium": "Sparta Stadion Het Kasteel",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/426.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/210.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Sparta Rotterdam or draw",
-                "comparison": {
-                    "form": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "att": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 40,
-                        "away": 60
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-19",
                 "time": "23:45",
@@ -37106,6 +37061,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-19",
+                "time": "23:45",
+                "home": "Sparta Rotterdam",
+                "away": "Heerenveen",
+                "stadium": "Sparta Stadion Het Kasteel",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/426.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/210.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Sparta Rotterdam or draw",
+                "comparison": {
+                    "form": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 40,
+                        "away": 60
                     }
                 }
             }
