@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-16T23:04:52.842Z.
+   API-Football v3) pada 2026-09-17T00:06:22.376Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2493,7 +2493,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 06:04 WIB",
+    "standingsUpdated": "17/09/2026 07:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36540,6 +36540,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Eredivisie",
+                "date": "2026-09-19",
+                "time": "21:30",
+                "home": "ADO Den Haag",
+                "away": "Cambuur",
+                "stadium": "WerkTalent Stadion",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
+                    }
+                }
+            },
+            {
                 "league": "Primeira Liga",
                 "date": "2026-09-19",
                 "time": "21:30",
@@ -36626,51 +36671,6 @@ const siteData = {
                     "goals": {
                         "home": 73,
                         "away": 27
-                    }
-                }
-            },
-            {
-                "league": "Eredivisie",
-                "date": "2026-09-19",
-                "time": "21:30",
-                "home": "ADO Den Haag",
-                "away": "Cambuur",
-                "stadium": "WerkTalent Stadion",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
                     }
                 }
             },
@@ -36855,51 +36855,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-19",
-                "time": "23:30",
-                "home": "Celta Vigo",
-                "away": "Racing Santander",
-                "stadium": "Municipal de Balaídos",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/538.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Celta Vigo or draw",
-                "comparison": {
-                    "form": {
-                        "home": 30,
-                        "away": 70
-                    },
-                    "att": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "def": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "poisson": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
-                    }
-                }
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-09-19",
                 "time": "23:30",
@@ -36941,6 +36896,51 @@ const siteData = {
                     "goals": {
                         "home": 61,
                         "away": 39
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-19",
+                "time": "23:30",
+                "home": "Celta Vigo",
+                "away": "Racing Santander",
+                "stadium": "Municipal de Balaídos",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/538.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Celta Vigo or draw",
+                "comparison": {
+                    "form": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
                     }
                 }
             },
