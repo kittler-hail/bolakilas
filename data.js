@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-17T20:05:21.231Z.
+   API-Football v3) pada 2026-09-17T21:05:10.696Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -19,15 +19,15 @@ const siteData = {
         "league": "UEFA Europa League",
         "date": "2026-09-18",
         "time": "02:00",
-        "home": "Lillestrom",
-        "away": "Torreense",
-        "stadium": "",
-        "prediction": "1 - 0",
-        "analysis": "Lillestrom bertemu Torreense dalam laga UEFA Europa League. Analisis API-Football: No predictions available.",
-        "statusCode": "HT",
-        "minuteDisplay": "HT",
-        "homeScore": 0,
-        "awayScore": 1,
+        "home": "Crystal Palace",
+        "away": "Lech Poznan",
+        "stadium": "Selhurst Park",
+        "prediction": "0 - 2",
+        "analysis": "Crystal Palace bertemu Lech Poznan dalam laga UEFA Europa League. Analisis API-Football: No predictions available.",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 4,
+        "awayScore": 0,
         "odds": {
             "home": 33,
             "draw": 33,
@@ -38,35 +38,37 @@ const siteData = {
             "draw": 33,
             "away": 33
         },
-        "apiFixtureId": 1636287,
-        "homeTeamId": 321,
-        "awayTeamId": 4799,
-        "homeLogo": "https://media.api-sports.io/football/teams/321.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/4799.png",
+        "apiFixtureId": 1636251,
+        "homeTeamId": 52,
+        "awayTeamId": 347,
+        "homeLogo": "https://media.api-sports.io/football/teams/52.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/347.png",
         "h2h": [
             {
-                "home": "Lillestrom",
-                "away": "Torreense",
-                "score": "0-1"
+                "home": "Crystal Palace",
+                "away": "Lech Poznan",
+                "score": "4-0"
             }
         ],
         "form": {
             "home": {
-                "results": [
-                    "D",
-                    "W"
-                ],
-                "cleanSheets": 1,
-                "failedToScore": 1,
-                "goalsFor": 2,
-                "goalsAgainst": 1,
-                "winStreak": 0,
-                "attack": 100,
-                "defense": 0
-            },
-            "away": {
                 "attack": 0,
                 "defense": 100
+            },
+            "away": {
+                "results": [
+                    "W",
+                    "W",
+                    "W",
+                    "D"
+                ],
+                "cleanSheets": 3,
+                "failedToScore": 0,
+                "goalsFor": 15,
+                "goalsAgainst": 2,
+                "winStreak": 3,
+                "attack": 100,
+                "defense": 0
             }
         }
     },
@@ -174,216 +176,13 @@ const siteData = {
             "league": "UEFA Europa League",
             "date": "2026-09-18",
             "time": "02:00",
-            "home": "Lillestrom",
-            "away": "Torreense",
-            "stadium": "",
-            "round": "League Stage - 1",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/321.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/4799.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 33,
-                "draw": 33,
-                "away": 33
-            },
-            "advice": "No predictions available",
-            "comparison": {
-                "form": {
-                    "home": 100,
-                    "away": 0
-                },
-                "att": {
-                    "home": 100,
-                    "away": 0
-                },
-                "def": {
-                    "home": 0,
-                    "away": 100
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "23",
-                    "player": "Alejandro Alfaro",
-                    "team": "away"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa League",
-            "date": "2026-09-18",
-            "time": "02:00",
-            "home": "Beşiktaş",
-            "away": "Marseille",
-            "stadium": "Besiktas Park",
-            "round": "League Stage - 1",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/549.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-            "prediction": "1 - 0",
-            "odds": {
-                "home": 33,
-                "draw": 33,
-                "away": 33
-            },
-            "advice": "No predictions available",
-            "comparison": {
-                "form": {
-                    "home": 100,
-                    "away": 0
-                },
-                "att": {
-                    "home": 100,
-                    "away": 0
-                },
-                "def": {
-                    "home": 0,
-                    "away": 100
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "15",
-                    "player": "Ilhan Fakili",
-                    "team": "home"
-                },
-                {
-                    "minute": "29",
-                    "player": "Keyliane Abdallah",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "10",
-                    "player": "Emmanuel Agbadou",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa League",
-            "date": "2026-09-18",
-            "time": "02:00",
-            "home": "Plzen",
-            "away": "Union St. Gilloise",
-            "stadium": "Doosan Arena",
-            "round": "League Stage - 1",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/567.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
-            "prediction": "1 - 1",
-            "odds": {
-                "home": 33,
-                "draw": 33,
-                "away": 33
-            },
-            "advice": "No predictions available",
-            "comparison": {
-                "form": {
-                    "home": 100,
-                    "away": 0
-                },
-                "att": {
-                    "home": 100,
-                    "away": 0
-                },
-                "def": {
-                    "home": 0,
-                    "away": 100
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "17",
-                    "player": "Relebohile Mofokeng",
-                    "team": "away"
-                },
-                {
-                    "minute": "43",
-                    "player": "Mateo Biondic",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "16",
-                    "player": "Ondrej Kricfalusi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "42",
-                    "player": "Mateo Biondic",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45",
-                    "player": "Patrik Hrošovský",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa League",
-            "date": "2026-09-18",
-            "time": "02:00",
             "home": "Crystal Palace",
             "away": "Lech Poznan",
             "stadium": "Selhurst Park",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "47'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/52.png",
             "awayLogo": "https://media.api-sports.io/football/teams/347.png",
@@ -435,6 +234,25 @@ const siteData = {
                     "minute": "34",
                     "player": "Jörgen Strand Larsen",
                     "team": "home"
+                },
+                {
+                    "minute": "89",
+                    "player": "Eddie Nketiah",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "76",
+                    "player": "Radosław Murawski",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Radosław Murawski",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -446,8 +264,8 @@ const siteData = {
             "away": "Ferencvarosi TC",
             "stadium": "Celtic Park",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "48'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/247.png",
@@ -506,6 +324,123 @@ const siteData = {
                     "player": "Daniel Arzani",
                     "team": "away"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "86",
+                    "player": "Jonathan Levi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Attila Osváth",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa League",
+            "date": "2026-09-18",
+            "time": "02:00",
+            "home": "Lillestrom",
+            "away": "Torreense",
+            "stadium": "",
+            "round": "League Stage - 1",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/321.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/4799.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 100,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 100
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "23",
+                    "player": "Alejandro Alfaro",
+                    "team": "away"
+                },
+                {
+                    "minute": "49",
+                    "player": "Manuel Pozo",
+                    "team": "away"
+                },
+                {
+                    "minute": "79",
+                    "player": "Thomas Lehne Olsen",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "51",
+                    "player": "Manuel Pozo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "David Bruno",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Fredrik Gulbrandsen",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Nuha Jatta",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Dany Jean",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Nuha Jatta",
+                    "team": "away",
+                    "type": "red"
+                }
             ]
         },
         {
@@ -516,9 +451,9 @@ const siteData = {
             "away": "NEC Nijmegen",
             "stadium": "Allianz Stadium",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "46'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/496.png",
             "awayLogo": "https://media.api-sports.io/football/teams/413.png",
@@ -570,6 +505,30 @@ const siteData = {
                     "minute": "35",
                     "player": "Nick Woltemade",
                     "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "Zeki Çelik",
+                    "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "Randal Kolo Muani",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "52",
+                    "player": "Jamiro Monteiro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Douglas Luiz Soares",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -581,9 +540,9 @@ const siteData = {
             "away": "Bournemouth",
             "stadium": "Anoeta",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "47'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/548.png",
             "awayLogo": "https://media.api-sports.io/football/teams/35.png",
@@ -630,6 +589,11 @@ const siteData = {
                     "minute": "20",
                     "player": "Rayan Vitor Simplício Rocha",
                     "team": "away"
+                },
+                {
+                    "minute": "57",
+                    "player": "Sergio Gómez",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -650,6 +614,210 @@ const siteData = {
                     "player": "Justin Kluivert",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Adrien Truffert",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Bafode Diakite",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Orri Steinn Óskarsson",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa League",
+            "date": "2026-09-18",
+            "time": "02:00",
+            "home": "Beşiktaş",
+            "away": "Marseille",
+            "stadium": "Besiktas Park",
+            "round": "League Stage - 1",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/549.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+            "prediction": "1 - 0",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 100,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 100
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "15",
+                    "player": "Ilhan Fakili",
+                    "team": "home"
+                },
+                {
+                    "minute": "29",
+                    "player": "Keyliane Abdallah",
+                    "team": "away"
+                },
+                {
+                    "minute": "56",
+                    "player": "Václav Černý",
+                    "team": "home"
+                },
+                {
+                    "minute": "59",
+                    "player": "Amir Murillo",
+                    "team": "home"
+                },
+                {
+                    "minute": "81",
+                    "player": "Ernest Poku",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "10",
+                    "player": "Emmanuel Agbadou",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "Amine Harit",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Fabio Miretti",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa League",
+            "date": "2026-09-18",
+            "time": "02:00",
+            "home": "Plzen",
+            "away": "Union St. Gilloise",
+            "stadium": "Doosan Arena",
+            "round": "League Stage - 1",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 3,
+            "homeLogo": "https://media.api-sports.io/football/teams/567.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1393.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 100,
+                    "away": 0
+                },
+                "att": {
+                    "home": 100,
+                    "away": 0
+                },
+                "def": {
+                    "home": 0,
+                    "away": 100
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "17",
+                    "player": "Relebohile Mofokeng",
+                    "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "Mateo Biondic",
+                    "team": "away"
+                },
+                {
+                    "minute": "59",
+                    "player": "Ondrej Kricfalusi",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "Ondrej Kricfalusi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Mateo Biondic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Patrik Hrošovský",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "Stefan Pirgic",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -661,10 +829,10 @@ const siteData = {
             "away": "Villarreal",
             "stadium": "Estadio La Rosaleda",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
+            "statusCode": "2H",
+            "minuteDisplay": "74'",
             "homeScore": 1,
-            "awayScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/535.png",
             "awayLogo": "https://media.api-sports.io/football/teams/533.png",
             "prediction": "1 - 2",
@@ -705,12 +873,40 @@ const siteData = {
                     "minute": "12",
                     "player": "Carlos Dotor",
                     "team": "home"
+                },
+                {
+                    "minute": "40",
+                    "player": "Alberto Moleiro",
+                    "team": "away"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Pape Gueye",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "34",
                     "player": "José Salinas",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Ilias Akhomach Chakkour",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "David Larrubia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Einar Galilea",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1240,6 +1436,17 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "team": "Real Betis",
+                "logo": "https://media.api-sports.io/football/teams/543.png",
+                "played": 6,
+                "win": 5,
+                "draw": 0,
+                "lose": 1,
+                "gd": 2,
+                "points": 15
+            },
+            {
+                "rank": 4,
                 "team": "Atletico Madrid",
                 "logo": "https://media.api-sports.io/football/teams/530.png",
                 "played": 6,
@@ -1250,7 +1457,7 @@ const siteData = {
                 "points": 13
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Sevilla",
                 "logo": "https://media.api-sports.io/football/teams/536.png",
                 "played": 6,
@@ -1259,17 +1466,6 @@ const siteData = {
                 "lose": 1,
                 "gd": 3,
                 "points": 13
-            },
-            {
-                "rank": 5,
-                "team": "Real Betis",
-                "logo": "https://media.api-sports.io/football/teams/543.png",
-                "played": 5,
-                "win": 4,
-                "draw": 0,
-                "lose": 1,
-                "gd": 1,
-                "points": 12
             },
             {
                 "rank": 6,
@@ -1374,11 +1570,11 @@ const siteData = {
                 "rank": 15,
                 "team": "Getafe",
                 "logo": "https://media.api-sports.io/football/teams/546.png",
-                "played": 5,
+                "played": 6,
                 "win": 1,
                 "draw": 2,
-                "lose": 2,
-                "gd": -3,
+                "lose": 3,
+                "gd": -4,
                 "points": 5
             },
             {
@@ -2260,7 +2456,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "18/09/2026 03:05 WIB",
+    "standingsUpdated": "18/09/2026 04:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35302,6 +35498,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga MX",
+                "date": "2026-09-19",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Atlante FC",
+                "stadium": "Estadio Cuauhtémoc",
+                "round": "Apertura - 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Puebla or draw",
+                "comparison": {
+                    "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
+            },
+            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-19",
                 "time": "08:00",
@@ -35394,45 +35635,45 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-09-19",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Atlante FC",
-                "stadium": "Estadio Cuauhtémoc",
+                "time": "10:00",
+                "home": "FC Juarez",
+                "away": "Tigres UANL",
+                "stadium": "Estadio Olímpico Benito Juárez",
                 "round": "Apertura - 9",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
-                "prediction": "1 - 1",
+                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
                 },
-                "advice": "Double chance : Puebla or draw",
+                "advice": "Double chance : draw or Tigres UANL",
                 "comparison": {
                     "form": {
-                        "home": 75,
-                        "away": 25
+                        "home": 0,
+                        "away": 100
                     },
                     "att": {
-                        "home": 78,
-                        "away": 22
+                        "home": 43,
+                        "away": 57
                     },
                     "def": {
-                        "home": 50,
-                        "away": 50
+                        "home": 16,
+                        "away": 84
                     },
                     "poisson": {
-                        "home": 56,
-                        "away": 44
+                        "home": 26,
+                        "away": 74
                     },
                     "h2h": {
-                        "home": 0,
-                        "away": 100
+                        "home": 40,
+                        "away": 60
                     },
                     "goals": {
-                        "home": 0,
-                        "away": 100
+                        "home": 43,
+                        "away": 57
                     }
                 }
             },
@@ -35478,51 +35719,6 @@ const siteData = {
                     "goals": {
                         "home": 47,
                         "away": 53
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-09-19",
-                "time": "10:00",
-                "home": "FC Juarez",
-                "away": "Tigres UANL",
-                "stadium": "Estadio Olímpico Benito Juárez",
-                "round": "Apertura - 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Tigres UANL",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 16,
-                        "away": 84
-                    },
-                    "poisson": {
-                        "home": 26,
-                        "away": 74
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 43,
-                        "away": 57
                     }
                 }
             },
