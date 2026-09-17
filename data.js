@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-17T00:06:22.376Z.
+   API-Football v3) pada 2026-09-17T01:05:30.523Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2493,7 +2493,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/09/2026 07:06 WIB",
+    "standingsUpdated": "17/09/2026 08:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35010,51 +35010,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-09-19",
-                "time": "01:45",
-                "home": "Monza",
-                "away": "Sassuolo",
-                "stadium": "",
-                "round": "Pekan 5",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Monza or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 13,
-                        "away": 88
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 39,
-                        "away": 61
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 64,
-                        "away": 36
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-09-19",
                 "time": "01:45",
@@ -35096,6 +35051,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 62
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-09-19",
+                "time": "01:45",
+                "home": "Monza",
+                "away": "Sassuolo",
+                "stadium": "",
+                "round": "Pekan 5",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Monza or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 13,
+                        "away": 88
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
                     }
                 }
             },
@@ -36180,96 +36180,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "Çorum FK",
-                "away": "Alanyaspor",
-                "stadium": "Corum Stadyumu",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/996.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Alanyaspor",
-                "comparison": {
-                    "form": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "Kocaelispor",
-                "away": "Gaziantep FK",
-                "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Kocaelispor or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "goals": {
-                        "home": 45,
-                        "away": 55
-                    }
-                }
-            },
-            {
                 "league": "Jupiler Pro League",
                 "date": "2026-09-19",
                 "time": "21:00",
@@ -36491,6 +36401,96 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "Çorum FK",
+                "away": "Alanyaspor",
+                "stadium": "Corum Stadyumu",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/996.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Alanyaspor",
+                "comparison": {
+                    "form": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "Kocaelispor",
+                "away": "Gaziantep FK",
+                "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Kocaelispor or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
                     }
                 }
             },
@@ -36855,51 +36855,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-09-19",
-                "time": "23:30",
-                "home": "VfB Stuttgart",
-                "away": "Borussia Dortmund",
-                "stadium": "MHP Arena",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/172.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/165.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : VfB Stuttgart or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "poisson": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 61,
-                        "away": 39
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-19",
                 "time": "23:30",
@@ -36941,6 +36896,51 @@ const siteData = {
                     "goals": {
                         "home": 60,
                         "away": 40
+                    }
+                }
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-09-19",
+                "time": "23:30",
+                "home": "VfB Stuttgart",
+                "away": "Borussia Dortmund",
+                "stadium": "MHP Arena",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/172.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/165.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : VfB Stuttgart or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "poisson": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 61,
+                        "away": 39
                     }
                 }
             },
