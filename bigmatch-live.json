@@ -2,37 +2,37 @@
   "fixtureId": 1636251,
   "home": "Crystal Palace",
   "away": "Lech Poznan",
-  "statusCode": "1H",
-  "updatedAt": "18/09/2026 02:41 WIB",
+  "statusCode": "HT",
+  "updatedAt": "18/09/2026 02:54 WIB",
   "statistics": {
     "home": {
-      "possession": 51,
+      "possession": 49,
       "shotsTotal": 8,
       "shotsOnTarget": 4,
       "corners": 4,
-      "fouls": 4,
+      "fouls": 7,
       "offsides": 2,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 6,
       "shotsOutsidebox": 2,
-      "passesTotal": 217,
-      "passesAccurate": 193,
+      "passesTotal": 246,
+      "passesAccurate": 216,
       "passesPct": null
     },
     "away": {
-      "possession": 49,
+      "possession": 51,
       "shotsTotal": 7,
       "shotsOnTarget": 1,
-      "corners": 1,
-      "fouls": 4,
+      "corners": 2,
+      "fouls": 5,
       "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 3,
-      "passesTotal": 213,
-      "passesAccurate": 181,
+      "passesTotal": 258,
+      "passesAccurate": 219,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 44,
           "name": "W. Benítez",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "7.1"
         },
         {
           "number": 26,
@@ -63,13 +63,13 @@
           "number": 21,
           "name": "H. Ahanor",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.9"
         },
         {
           "number": 25,
           "name": "A. Khalaili",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 23,
@@ -87,13 +87,13 @@
           "number": 3,
           "name": "T. Mitchell",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 18,
           "name": "D. Kamada",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 22,
@@ -185,19 +185,19 @@
           "number": 1,
           "name": "M. Lis",
           "position": "Kiper",
-          "rating": "5.1"
+          "rating": "5.2"
         },
         {
           "number": 2,
           "name": "Joel Pereira",
           "position": "Bek",
-          "rating": "5.7"
+          "rating": "5.4"
         },
         {
           "number": 27,
           "name": "W. Mońka",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 59,
@@ -209,19 +209,19 @@
           "number": 15,
           "name": "M. Gurgul",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.0"
         },
         {
           "number": 22,
           "name": "R. Murawski",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 21,
           "name": "Pablo Rodríguez",
           "position": "Gelandang",
-          "rating": "5.8"
+          "rating": "6.1"
         },
         {
           "number": 10,
@@ -233,13 +233,13 @@
           "number": 77,
           "name": "L. Palma",
           "position": "Gelandang",
-          "rating": "5.4"
+          "rating": "5.5"
         },
         {
           "number": 17,
           "name": "A. Sayyadmanesh",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.4"
         },
         {
           "number": 9,
