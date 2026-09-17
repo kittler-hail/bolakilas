@@ -3,36 +3,36 @@
   "home": "Lillestrom",
   "away": "Torreense",
   "statusCode": "2H",
-  "updatedAt": "18/09/2026 03:15 WIB",
+  "updatedAt": "18/09/2026 03:32 WIB",
   "statistics": {
     "home": {
-      "possession": 64,
-      "shotsTotal": 11,
+      "possession": 63,
+      "shotsTotal": 12,
       "shotsOnTarget": 4,
-      "corners": 8,
-      "fouls": 6,
+      "corners": 10,
+      "fouls": 9,
       "offsides": 1,
-      "yellowCards": 0,
-      "redCards": 0,
-      "shotsInsidebox": 7,
-      "shotsOutsidebox": 4,
-      "passesTotal": 354,
-      "passesAccurate": 307,
-      "passesPct": null
-    },
-    "away": {
-      "possession": 36,
-      "shotsTotal": 10,
-      "shotsOnTarget": 3,
-      "corners": 2,
-      "fouls": 7,
-      "offsides": 0,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 7,
+      "shotsOutsidebox": 5,
+      "passesTotal": 427,
+      "passesAccurate": 367,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 37,
+      "shotsTotal": 10,
+      "shotsOnTarget": 3,
+      "corners": 2,
+      "fouls": 11,
+      "offsides": 0,
+      "yellowCards": 3,
+      "redCards": 0,
+      "shotsInsidebox": 7,
       "shotsOutsidebox": 3,
-      "passesTotal": 206,
-      "passesAccurate": 164,
+      "passesTotal": 249,
+      "passesAccurate": 194,
       "passesPct": null
     }
   },
@@ -45,13 +45,13 @@
           "number": 12,
           "name": "P. Dahlberg",
           "position": "Kiper",
-          "rating": "5.9"
+          "rating": "6.0"
         },
         {
           "number": 2,
           "name": "L. Ranger",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 5,
@@ -75,37 +75,37 @@
           "number": 29,
           "name": "Y. Ibrahimaj",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "5.5"
         },
         {
           "number": 21,
           "name": "F. Ottosson",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 14,
           "name": "G. Nyheim",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.2"
         },
         {
           "number": 26,
           "name": "Y. Paintsil",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 8,
           "name": "F. Gulbrandsen",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.2"
         },
         {
           "number": 20,
           "name": "Vá",
           "position": "Penyerang",
-          "rating": "7.0"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -113,7 +113,7 @@
           "number": 22,
           "name": "D. Bassi",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 1,
@@ -125,7 +125,7 @@
           "number": 17,
           "name": "E. Kitolano",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 47,
@@ -155,7 +155,7 @@
           "number": 10,
           "name": "T. Lehne Olsen",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 3,
@@ -179,7 +179,7 @@
           "number": 31,
           "name": "Adriel",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "7.4"
         },
         {
           "number": 22,
@@ -197,7 +197,7 @@
           "number": 4,
           "name": "Volnei Feltes",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 23,
@@ -209,7 +209,7 @@
           "number": 6,
           "name": "A. Oudrhiri",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         {
           "number": 8,
@@ -221,13 +221,13 @@
           "number": 11,
           "name": "Manu Pozo",
           "position": "Gelandang",
-          "rating": "7.8"
+          "rating": "7.9"
         },
         {
           "number": 33,
           "name": "João Marques",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 7,
@@ -239,7 +239,7 @@
           "number": 27,
           "name": "M. Abubakari",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
@@ -265,7 +265,7 @@
           "number": 21,
           "name": "Nuha Jatta",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 53,
