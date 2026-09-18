@@ -2,9 +2,40 @@
   "fixtureId": 1557408,
   "home": "Brentford",
   "away": "Chelsea",
-  "statusCode": "NS",
-  "updatedAt": "19/09/2026 01:48 WIB",
-  "statistics": null,
+  "statusCode": "1H",
+  "updatedAt": "19/09/2026 02:03 WIB",
+  "statistics": {
+    "home": {
+      "possession": 41,
+      "shotsTotal": null,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 1,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": null,
+      "passesTotal": 10,
+      "passesAccurate": 9,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 59,
+      "shotsTotal": null,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 0,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": null,
+      "passesTotal": 15,
+      "passesAccurate": 13,
+      "passesPct": null
+    }
+  },
   "lineups": {
     "home": {
       "formation": "4-2-3-1",
