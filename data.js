@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-18T09:05:00.229Z.
+   API-Football v3) pada 2026-09-18T10:05:37.831Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -88,7 +88,7 @@ const siteData = {
             "time": "00:00",
             "home": "Real Betis",
             "away": "Getafe",
-            "stadium": "Estadio de La Cartuja",
+            "stadium": "Benito Villamarín",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -355,7 +355,7 @@ const siteData = {
             "time": "02:00",
             "home": "Lillestrom",
             "away": "Torreense",
-            "stadium": "",
+            "stadium": "Åråsen Stadion",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -547,7 +547,7 @@ const siteData = {
             "time": "02:00",
             "home": "Real Sociedad",
             "away": "Bournemouth",
-            "stadium": "Anoeta",
+            "stadium": "Anoeta Stadium",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -650,7 +650,7 @@ const siteData = {
             "time": "02:00",
             "home": "Beşiktaş",
             "away": "Marseille",
-            "stadium": "Besiktas Park",
+            "stadium": "Tüpraş Stadium",
             "round": "League Stage - 1",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -836,7 +836,7 @@ const siteData = {
             "time": "02:30",
             "home": "Malaga",
             "away": "Villarreal",
-            "stadium": "Estadio La Rosaleda",
+            "stadium": "La Rosaleda",
             "round": "Pekan 6",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -1299,8 +1299,8 @@ const siteData = {
             "away": "Persik Kediri",
             "stadium": "Kanjuruhan Stadium",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
             "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2438.png",
@@ -1348,6 +1348,26 @@ const siteData = {
                     "minute": "30",
                     "player": "Matheus Blade",
                     "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "Kiko",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "MV",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "A. Dewangga",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -2715,7 +2735,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "18/09/2026 16:04 WIB",
+    "standingsUpdated": "18/09/2026 17:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35426,7 +35446,7 @@ const siteData = {
                 "time": "01:00",
                 "home": "Groningen",
                 "away": "PEC Zwolle",
-                "stadium": "Euroborg",
+                "stadium": "Hitachi Capital Mobility Stadion",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/202.png",
@@ -35606,7 +35626,7 @@ const siteData = {
                 "time": "01:45",
                 "home": "Gent",
                 "away": "Standard Liege",
-                "stadium": "Planet Group Arena",
+                "stadium": "Ghelamco Arena",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/631.png",
@@ -35651,7 +35671,7 @@ const siteData = {
                 "time": "02:00",
                 "home": "Brentford",
                 "away": "Chelsea",
-                "stadium": "Brentford Community Stadium",
+                "stadium": "Gtech Community Stadium",
                 "round": "Pekan 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/55.png",
@@ -36551,7 +36571,7 @@ const siteData = {
                 "time": "21:00",
                 "home": "Newcastle",
                 "away": "Hull City",
-                "stadium": "St. James' Park",
+                "stadium": "St James' Park",
                 "round": "Pekan 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/34.png",
@@ -36641,7 +36661,7 @@ const siteData = {
                 "time": "21:00",
                 "home": "Brighton",
                 "away": "Arsenal",
-                "stadium": "Amex Stadium",
+                "stadium": "American Express Stadium",
                 "round": "Pekan 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/51.png",
@@ -36771,51 +36791,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "OH Leuven",
-                "away": "RAAL La Louvière",
-                "stadium": "Den Dreef",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or RAAL La Louvière",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "h2h": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-09-19",
                 "time": "21:00",
@@ -36866,7 +36841,7 @@ const siteData = {
                 "time": "21:00",
                 "home": "ST Mirren",
                 "away": "Dundee Utd",
-                "stadium": "The SMISA Stadium",
+                "stadium": "The SMiSA Stadium",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/251.png",
@@ -36996,6 +36971,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "OH Leuven",
+                "away": "RAAL La Louvière",
+                "stadium": "Den Dreef Stadium",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/260.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/5902.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or RAAL La Louvière",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
+                    }
+                }
+            },
+            {
                 "league": "LaLiga",
                 "date": "2026-09-19",
                 "time": "21:15",
@@ -37046,7 +37066,7 @@ const siteData = {
                 "time": "21:30",
                 "home": "ADO Den Haag",
                 "away": "Cambuur",
-                "stadium": "WerkTalent Stadion",
+                "stadium": "Bingoal Stadion",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/198.png",
@@ -37091,7 +37111,7 @@ const siteData = {
                 "time": "21:30",
                 "home": "Nacional",
                 "away": "Famalicao",
-                "stadium": "",
+                "stadium": "Estádio da Madeira",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/225.png",
@@ -37136,7 +37156,7 @@ const siteData = {
                 "time": "21:30",
                 "home": "GIL Vicente",
                 "away": "Maritimo",
-                "stadium": "",
+                "stadium": "Estadio Cidade de Barcelos",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/762.png",
@@ -37451,7 +37471,7 @@ const siteData = {
                 "time": "23:45",
                 "home": "Sparta Rotterdam",
                 "away": "Heerenveen",
-                "stadium": "Sparta Stadion Het Kasteel",
+                "stadium": "Sparta Stadium Het Kasteel",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/426.png",
@@ -37496,7 +37516,7 @@ const siteData = {
                 "time": "23:45",
                 "home": "Kilmarnock",
                 "away": "Heart Of Midlothian",
-                "stadium": "Rugby Park",
+                "stadium": "The BBSP Stadium Rugby Park",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/250.png",
@@ -37537,51 +37557,6 @@ const siteData = {
             }
         ],
         "2026-09-20": [
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-20",
-                "time": "00:00",
-                "home": "Alverca",
-                "away": "Rio Ave",
-                "stadium": "FC Alverca Sports Complex",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4724.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/226.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Alverca or draw",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "poisson": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
             {
                 "league": "Super Lig",
                 "date": "2026-09-20",
@@ -37669,6 +37644,51 @@ const siteData = {
                     "goals": {
                         "home": 23,
                         "away": 77
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-20",
+                "time": "00:00",
+                "home": "Alverca",
+                "away": "Rio Ave",
+                "stadium": "Complexo Desportivo FC Alverca",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/4724.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/226.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Alverca or draw",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
@@ -37948,7 +37968,7 @@ const siteData = {
                 "time": "01:45",
                 "home": "Lommel United",
                 "away": "KV Mechelen",
-                "stadium": "Soevereinstadion",
+                "stadium": "Soeverein stadion",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/259.png",
@@ -38128,7 +38148,7 @@ const siteData = {
                 "time": "02:30",
                 "home": "Sporting CP",
                 "away": "Arouca",
-                "stadium": "",
+                "stadium": "Estádio José Alvalade",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/228.png",
