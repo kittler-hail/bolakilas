@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-18T12:06:20.486Z.
+   API-Football v3) pada 2026-09-18T13:04:52.293Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -939,104 +939,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Copa Libertadores",
-            "date": "2026-09-18",
-            "time": "07:30",
-            "home": "Flamengo",
-            "away": "Independiente del Valle",
-            "stadium": "Estádio do Maracanã",
-            "round": "Quarter-finals",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/127.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1153.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Flamengo or draw",
-            "comparison": {
-                "form": {
-                    "home": 52,
-                    "away": 48
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 67,
-                    "away": 33
-                },
-                "poisson": {
-                    "home": 77,
-                    "away": 23
-                },
-                "h2h": {
-                    "home": 60,
-                    "away": 40
-                },
-                "goals": {
-                    "home": 54,
-                    "away": 46
-                }
-            },
-            "goals": [
-                {
-                    "minute": "31",
-                    "player": "Djorkaeff Reascos",
-                    "team": "away"
-                },
-                {
-                    "minute": "83",
-                    "player": "Giorgian de Arrascaeta",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "53",
-                    "player": "Lucas Paquetá",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "55",
-                    "player": "Jorginho",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "58",
-                    "player": "Mateo Carabajal",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "Jorginho",
-                    "team": "home",
-                    "type": "red"
-                },
-                {
-                    "minute": "80",
-                    "player": "Erick Pulgar",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+2",
-                    "player": "Nicolas De la Cruz",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Copa Sudamericana",
             "date": "2026-09-18",
             "time": "07:30",
@@ -1165,6 +1067,104 @@ const siteData = {
                     "minute": "90+8",
                     "player": "Gonzalo Aguirre",
                     "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Copa Libertadores",
+            "date": "2026-09-18",
+            "time": "07:30",
+            "home": "Flamengo",
+            "away": "Independiente del Valle",
+            "stadium": "Estádio do Maracanã",
+            "round": "Quarter-finals",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/127.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1153.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Flamengo or draw",
+            "comparison": {
+                "form": {
+                    "home": 52,
+                    "away": 48
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 67,
+                    "away": 33
+                },
+                "poisson": {
+                    "home": 77,
+                    "away": 23
+                },
+                "h2h": {
+                    "home": 60,
+                    "away": 40
+                },
+                "goals": {
+                    "home": 54,
+                    "away": 46
+                }
+            },
+            "goals": [
+                {
+                    "minute": "31",
+                    "player": "Djorkaeff Reascos",
+                    "team": "away"
+                },
+                {
+                    "minute": "83",
+                    "player": "Giorgian de Arrascaeta",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "53",
+                    "player": "Lucas Paquetá",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "Jorginho",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Mateo Carabajal",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Jorginho",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "80",
+                    "player": "Erick Pulgar",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Nicolas De la Cruz",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -1391,10 +1391,10 @@ const siteData = {
             "away": "PSIM Yogyakarta",
             "stadium": "Gelora Ratu Pamelingan Stadium",
             "round": "Pekan 3",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2444.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4235.png",
             "prediction": "2 - 1",
@@ -1429,7 +1429,22 @@ const siteData = {
                     "home": 17,
                     "away": 83
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "15",
+                    "player": "N. Haljeta",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "24",
+                    "player": "E. Vidal",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -2598,12 +2613,12 @@ const siteData = {
                 "rank": 5,
                 "team": "Arema FC",
                 "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 2,
+                "played": 3,
                 "win": 1,
-                "draw": 1,
+                "draw": 2,
                 "lose": 0,
                 "gd": 4,
-                "points": 4
+                "points": 5
             },
             {
                 "rank": 6,
@@ -2618,6 +2633,17 @@ const siteData = {
             },
             {
                 "rank": 7,
+                "team": "Persik Kediri",
+                "logo": "https://media.api-sports.io/football/teams/4241.png",
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "gd": 1,
+                "points": 4
+            },
+            {
+                "rank": 8,
                 "team": "Persebaya Surabaya",
                 "logo": "https://media.api-sports.io/football/teams/2446.png",
                 "played": 2,
@@ -2628,20 +2654,9 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Persib Bandung",
                 "logo": "https://media.api-sports.io/football/teams/2445.png",
-                "played": 2,
-                "win": 1,
-                "draw": 0,
-                "lose": 1,
-                "gd": 1,
-                "points": 3
-            },
-            {
-                "rank": 9,
-                "team": "Persik Kediri",
-                "logo": "https://media.api-sports.io/football/teams/4241.png",
                 "played": 2,
                 "win": 1,
                 "draw": 0,
@@ -2750,7 +2765,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "18/09/2026 19:06 WIB",
+    "standingsUpdated": "18/09/2026 20:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36716,6 +36731,96 @@ const siteData = {
                 }
             },
             {
+                "league": "Super Lig",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "Çorum FK",
+                "away": "Alanyaspor",
+                "stadium": "Corum Stadyumu",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/996.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Alanyaspor",
+                "comparison": {
+                    "form": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-19",
+                "time": "21:00",
+                "home": "Kocaelispor",
+                "away": "Gaziantep FK",
+                "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Kocaelispor or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "goals": {
+                        "home": 45,
+                        "away": 55
+                    }
+                }
+            },
+            {
                 "league": "Jupiler Pro League",
                 "date": "2026-09-19",
                 "time": "21:00",
@@ -36941,96 +37046,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "Çorum FK",
-                "away": "Alanyaspor",
-                "stadium": "Corum Stadyumu",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/996.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Alanyaspor",
-                "comparison": {
-                    "form": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-19",
-                "time": "21:00",
-                "home": "Kocaelispor",
-                "away": "Gaziantep FK",
-                "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Kocaelispor or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "att": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "goals": {
-                        "home": 45,
-                        "away": 55
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-19",
                 "time": "21:15",
@@ -37072,51 +37087,6 @@ const siteData = {
                     "goals": {
                         "home": 55,
                         "away": 45
-                    }
-                }
-            },
-            {
-                "league": "Eredivisie",
-                "date": "2026-09-19",
-                "time": "21:30",
-                "home": "ADO Den Haag",
-                "away": "Cambuur",
-                "stadium": "Bingoal Stadion",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
                     }
                 }
             },
@@ -37207,6 +37177,51 @@ const siteData = {
                     "goals": {
                         "home": 73,
                         "away": 27
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-09-19",
+                "time": "21:30",
+                "home": "ADO Den Haag",
+                "away": "Cambuur",
+                "stadium": "Bingoal Stadion",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/198.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/420.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Cambuur and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "goals": {
+                        "home": 30,
+                        "away": 70
                     }
                 }
             },
@@ -37391,51 +37406,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-09-19",
-                "time": "23:30",
-                "home": "Celta Vigo",
-                "away": "Racing Santander",
-                "stadium": "Municipal de Balaídos",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/538.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Celta Vigo or draw",
-                "comparison": {
-                    "form": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "att": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "def": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
-                    }
-                }
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-09-19",
                 "time": "23:30",
@@ -37477,6 +37447,51 @@ const siteData = {
                     "goals": {
                         "home": 61,
                         "away": 39
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-09-19",
+                "time": "23:30",
+                "home": "Celta Vigo",
+                "away": "Racing Santander",
+                "stadium": "Municipal de Balaídos",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/538.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4665.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Celta Vigo or draw",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
                     }
                 }
             },
@@ -39198,7 +39213,7 @@ const siteData = {
                 "time": "17:15",
                 "home": "Feyenoord",
                 "away": "Utrecht",
-                "stadium": "De Kuip",
+                "stadium": "Stadion Feijenoord",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/209.png",
@@ -39378,7 +39393,7 @@ const siteData = {
                 "time": "19:00",
                 "home": "Getafe",
                 "away": "Malaga",
-                "stadium": "Coliseum",
+                "stadium": "Coliseum Alfonso Pérez",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/546.png",
@@ -39468,7 +39483,7 @@ const siteData = {
                 "time": "19:30",
                 "home": "AZ Alkmaar",
                 "away": "Telstar",
-                "stadium": "AFAS Stadion",
+                "stadium": "AFAS Stadion（Alkmaar）",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/201.png",
@@ -39868,51 +39883,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-20",
-                "time": "21:00",
-                "home": "St. Truiden",
-                "away": "KVC Westerlo",
-                "stadium": "Daio Wasabi Stayen",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : St. Truiden or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 69,
-                        "away": 31
-                    }
-                }
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-20",
                 "time": "21:00",
@@ -40003,12 +39973,57 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-20",
+                "time": "21:00",
+                "home": "St. Truiden",
+                "away": "KVC Westerlo",
+                "stadium": "Stayen",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : St. Truiden or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 69,
+                        "away": 31
+                    }
+                }
+            },
+            {
                 "league": "LaLiga",
                 "date": "2026-09-20",
                 "time": "21:15",
                 "home": "Atletico Madrid",
                 "away": "Real Madrid",
-                "stadium": "Metropolitano Stadium",
+                "stadium": "Riyadh Air Metropolitano",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/530.png",
@@ -40053,7 +40068,7 @@ const siteData = {
                 "time": "21:30",
                 "home": "Vitória SC",
                 "away": "Moreirense",
-                "stadium": "",
+                "stadium": "Estádio D. Afonso Henriques",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/224.png",
@@ -40098,7 +40113,7 @@ const siteData = {
                 "time": "21:30",
                 "home": "Estrela",
                 "away": "Academico Viseu",
-                "stadium": "",
+                "stadium": "Estadio Jose Gomes",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/15130.png",
@@ -40143,7 +40158,7 @@ const siteData = {
                 "time": "21:45",
                 "home": "NEC Nijmegen",
                 "away": "GO Ahead Eagles",
-                "stadium": "Goffertstadion",
+                "stadium": "Stadion de Goffert",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/413.png",
@@ -40368,7 +40383,7 @@ const siteData = {
                 "time": "23:30",
                 "home": "Villarreal",
                 "away": "Levante",
-                "stadium": "Estadio de la Ceramica",
+                "stadium": "Estadio de la Cerámica",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/533.png",
@@ -40413,7 +40428,7 @@ const siteData = {
                 "time": "23:30",
                 "home": "Deportivo La Coruna",
                 "away": "Real Betis",
-                "stadium": "Estadio Municipal de Riazor",
+                "stadium": "Estadio de Riazor",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/544.png",
@@ -40458,7 +40473,7 @@ const siteData = {
                 "time": "23:30",
                 "home": "Club Brugge KV",
                 "away": "Genk",
-                "stadium": "Jan Breydel Stadion",
+                "stadium": "Jan Breydel Stadium",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/569.png",
