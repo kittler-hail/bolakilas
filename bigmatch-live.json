@@ -2,37 +2,37 @@
   "fixtureId": 1557408,
   "home": "Brentford",
   "away": "Chelsea",
-  "statusCode": "1H",
-  "updatedAt": "19/09/2026 02:34 WIB",
+  "statusCode": "HT",
+  "updatedAt": "19/09/2026 02:47 WIB",
   "statistics": {
     "home": {
-      "possession": 38,
-      "shotsTotal": 2,
-      "shotsOnTarget": 0,
+      "possession": 46,
+      "shotsTotal": 7,
+      "shotsOnTarget": 2,
       "corners": 2,
-      "fouls": 5,
-      "offsides": null,
+      "fouls": 6,
+      "offsides": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
-      "shotsOutsidebox": 0,
-      "passesTotal": 108,
-      "passesAccurate": 84,
+      "shotsInsidebox": 4,
+      "shotsOutsidebox": 3,
+      "passesTotal": 191,
+      "passesAccurate": 158,
       "passesPct": null
     },
     "away": {
-      "possession": 62,
-      "shotsTotal": 3,
+      "possession": 54,
+      "shotsTotal": 4,
       "shotsOnTarget": 2,
-      "corners": 2,
-      "fouls": 3,
-      "offsides": null,
+      "corners": 3,
+      "fouls": 5,
+      "offsides": 1,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 1,
-      "passesTotal": 179,
-      "passesAccurate": 155,
+      "passesTotal": 231,
+      "passesAccurate": 196,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 1,
           "name": "C. Kelleher",
           "position": "Kiper",
-          "rating": "7.2"
+          "rating": "7.3"
         },
         {
           "number": 33,
@@ -57,55 +57,55 @@
           "number": 44,
           "name": "Jannik Schuster",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.5"
         },
         {
           "number": 20,
           "name": "K. Ajer",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 23,
           "name": "K. Lewis-Potter",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 6,
           "name": "Y. Yarmolyuk",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 27,
           "name": "V. Janelt",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 19,
           "name": "J. Anthony",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 24,
           "name": "M. Damsgaard",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.1"
         },
         {
           "number": 7,
           "name": "K. Schade",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 9,
           "name": "Thiago",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -179,19 +179,19 @@
           "number": 3,
           "name": "W. Fofana",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 5,
           "name": "M. Lacroix",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.5"
         },
         {
           "number": 6,
           "name": "L. Colwill",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 7,
@@ -209,25 +209,25 @@
           "number": 4,
           "name": "V. Barco",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.1"
         },
         {
           "number": 29,
           "name": "Pep Chavarría",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "7.0"
         },
         {
           "number": 10,
           "name": "C. Palmer",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.7"
         },
         {
           "number": 17,
           "name": "M. Rogers",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 18,
