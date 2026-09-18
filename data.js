@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-18T13:04:52.293Z.
+   API-Football v3) pada 2026-09-18T14:05:20.497Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1391,9 +1391,9 @@ const siteData = {
             "away": "PSIM Yogyakarta",
             "stadium": "Gelora Ratu Pamelingan Stadium",
             "round": "Pekan 3",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2444.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4235.png",
@@ -1435,12 +1435,46 @@ const siteData = {
                     "minute": "15",
                     "player": "N. Haljeta",
                     "team": "away"
+                },
+                {
+                    "minute": "71",
+                    "player": "Mendonca",
+                    "team": "home"
+                },
+                {
+                    "minute": "73",
+                    "player": "Freitas Gali",
+                    "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "24",
                     "player": "E. Vidal",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Ilhamsyah",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "R. Hardiawan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Ze Valente",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "M. Caballero",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2765,7 +2799,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "18/09/2026 20:04 WIB",
+    "standingsUpdated": "18/09/2026 21:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35831,51 +35865,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-09-19",
-                "time": "08:00",
-                "home": "Puebla",
-                "away": "Atlante FC",
-                "stadium": "Estadio Cuauhtémoc",
-                "round": "Apertura - 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Puebla or draw",
-                "comparison": {
-                    "form": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "att": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-19",
                 "time": "08:00",
@@ -35968,45 +35957,45 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-09-19",
-                "time": "10:00",
-                "home": "FC Juarez",
-                "away": "Tigres UANL",
-                "stadium": "Estadio Olímpico Benito Juárez",
+                "time": "08:00",
+                "home": "Puebla",
+                "away": "Atlante FC",
+                "stadium": "Estadio Cuauhtémoc",
                 "round": "Apertura - 9",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
-                "prediction": "1 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
+                "prediction": "1 - 1",
                 "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
                 },
-                "advice": "Double chance : draw or Tigres UANL",
+                "advice": "Double chance : Puebla or draw",
                 "comparison": {
                     "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "h2h": {
                         "home": 0,
                         "away": 100
                     },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 16,
-                        "away": 84
-                    },
-                    "poisson": {
-                        "home": 26,
-                        "away": 74
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
                     "goals": {
-                        "home": 43,
-                        "away": 57
+                        "home": 0,
+                        "away": 100
                     }
                 }
             },
@@ -36052,6 +36041,51 @@ const siteData = {
                     "goals": {
                         "home": 47,
                         "away": 53
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-19",
+                "time": "10:00",
+                "home": "FC Juarez",
+                "away": "Tigres UANL",
+                "stadium": "Estadio Olímpico Benito Juárez",
+                "round": "Apertura - 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Tigres UANL",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 16,
+                        "away": 84
+                    },
+                    "poisson": {
+                        "home": 26,
+                        "away": 74
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
                     }
                 }
             },
@@ -36222,8 +36256,8 @@ const siteData = {
                         "away": 48
                     },
                     "poisson": {
-                        "home": 51,
-                        "away": 49
+                        "home": 52,
+                        "away": 48
                     },
                     "h2h": {
                         "home": 50,
@@ -37406,51 +37440,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-09-19",
-                "time": "23:30",
-                "home": "VfB Stuttgart",
-                "away": "Borussia Dortmund",
-                "stadium": "MHP Arena",
-                "round": "Pekan 4",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/172.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/165.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : VfB Stuttgart or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "att": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "def": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "poisson": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 61,
-                        "away": 39
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-09-19",
                 "time": "23:30",
@@ -37492,6 +37481,51 @@ const siteData = {
                     "goals": {
                         "home": 60,
                         "away": 40
+                    }
+                }
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-09-19",
+                "time": "23:30",
+                "home": "VfB Stuttgart",
+                "away": "Borussia Dortmund",
+                "stadium": "MHP Arena",
+                "round": "Pekan 4",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/172.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/165.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : VfB Stuttgart or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "att": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "def": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "poisson": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 61,
+                        "away": 39
                     }
                 }
             },
@@ -39411,12 +39445,12 @@ const siteData = {
                         "away": 38
                     },
                     "att": {
-                        "home": 60,
-                        "away": 40
+                        "home": 50,
+                        "away": 50
                     },
                     "def": {
-                        "home": 57,
-                        "away": 43
+                        "home": 69,
+                        "away": 31
                     },
                     "poisson": {
                         "home": 89,
@@ -40397,16 +40431,16 @@ const siteData = {
                 "advice": "Double chance : Villarreal or draw",
                 "comparison": {
                     "form": {
-                        "home": 29,
-                        "away": 71
+                        "home": 44,
+                        "away": 56
                     },
                     "att": {
-                        "home": 50,
-                        "away": 50
+                        "home": 53,
+                        "away": 47
                     },
                     "def": {
-                        "home": 47,
-                        "away": 53
+                        "home": 50,
+                        "away": 50
                     },
                     "poisson": {
                         "home": 100,
@@ -40454,8 +40488,8 @@ const siteData = {
                         "away": 50
                     },
                     "poisson": {
-                        "home": 55,
-                        "away": 45
+                        "home": 56,
+                        "away": 44
                     },
                     "h2h": {
                         "home": 25,
