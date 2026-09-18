@@ -3,7 +3,7 @@
   "home": "Brentford",
   "away": "Chelsea",
   "statusCode": "FT",
-  "updatedAt": "19/09/2026 05:52 WIB",
+  "updatedAt": "19/09/2026 06:11 WIB",
   "statistics": {
     "home": {
       "possession": 40,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 9,
       "shotsOutsidebox": 4,
-      "passesTotal": 344,
-      "passesAccurate": 274,
+      "passesTotal": 343,
+      "passesAccurate": 273,
       "passesPct": null
     },
     "away": {
