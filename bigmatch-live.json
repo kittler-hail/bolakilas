@@ -3,9 +3,226 @@
   "home": "Brentford",
   "away": "Chelsea",
   "statusCode": "NS",
-  "updatedAt": "19/09/2026 01:14 WIB",
+  "updatedAt": "19/09/2026 01:33 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Keith Andrews",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "C. Kelleher",
+          "position": "Kiper"
+        },
+        {
+          "number": 33,
+          "name": "M. Kayode",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "Jannik Schuster",
+          "position": "Bek"
+        },
+        {
+          "number": 20,
+          "name": "K. Ajer",
+          "position": "Bek"
+        },
+        {
+          "number": 23,
+          "name": "K. Lewis-Potter",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Y. Yarmolyuk",
+          "position": "Gelandang"
+        },
+        {
+          "number": 27,
+          "name": "V. Janelt",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "J. Anthony",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "M. Damsgaard",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "K. Schade",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Thiago",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 31,
+          "name": "E. Balcombe",
+          "position": "Kiper"
+        },
+        {
+          "number": 14,
+          "name": "Fábio Carvalho",
+          "position": "Gelandang"
+        },
+        {
+          "number": 25,
+          "name": "E. Diouf",
+          "position": "Bek"
+        },
+        {
+          "number": 48,
+          "name": "B. Fredrick",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "R. Henry",
+          "position": "Bek"
+        },
+        {
+          "number": 2,
+          "name": "A. Hickey",
+          "position": "Bek"
+        },
+        {
+          "number": 11,
+          "name": "D. Ouattara",
+          "position": "Penyerang"
+        },
+        {
+          "number": 18,
+          "name": "M. Sangaré",
+          "position": "Gelandang"
+        },
+        {
+          "number": 13,
+          "name": "C. Wilson",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "coach": "Xabi Alonso",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "E. Martínez",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "W. Fofana",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "M. Lacroix",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "L. Colwill",
+          "position": "Bek"
+        },
+        {
+          "number": 7,
+          "name": "Pedro Neto",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "J. Henderson",
+          "position": "Gelandang"
+        },
+        {
+          "number": 4,
+          "name": "V. Barco",
+          "position": "Gelandang"
+        },
+        {
+          "number": 29,
+          "name": "Pep Chavarría",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "C. Palmer",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "M. Rogers",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "D. Welbeck",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 23,
+          "name": "Geovany Tcherno Quenda",
+          "position": "Gelandang"
+        },
+        {
+          "number": 39,
+          "name": "M. Penders",
+          "position": "Kiper"
+        },
+        {
+          "number": 32,
+          "name": "M. Nicoll-Jazuli",
+          "position": "Gelandang"
+        },
+        {
+          "number": 45,
+          "name": "R. Lavia",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "J. Hato",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "M. Gusto",
+          "position": "Bek"
+        },
+        {
+          "number": 11,
+          "name": "J. Bynoe-Gittens",
+          "position": "Penyerang"
+        },
+        {
+          "number": 41,
+          "name": "Estêvão",
+          "position": "Penyerang"
+        },
+        {
+          "number": 34,
+          "name": "Joshua Kofi Acheampong",
+          "position": "Bek"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Gtech Community Stadium",
     "city": "Brentford, Middlesex",
