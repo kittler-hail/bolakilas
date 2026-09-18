@@ -3,36 +3,36 @@
   "home": "Brentford",
   "away": "Chelsea",
   "statusCode": "2H",
-  "updatedAt": "19/09/2026 03:36 WIB",
+  "updatedAt": "19/09/2026 03:50 WIB",
   "statistics": {
     "home": {
-      "possession": 46,
-      "shotsTotal": 10,
-      "shotsOnTarget": 3,
-      "corners": 3,
+      "possession": 42,
+      "shotsTotal": 12,
+      "shotsOnTarget": 5,
+      "corners": 4,
+      "fouls": 10,
+      "offsides": 2,
+      "yellowCards": 2,
+      "redCards": 0,
+      "shotsInsidebox": 8,
+      "shotsOutsidebox": 4,
+      "passesTotal": 334,
+      "passesAccurate": 268,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 58,
+      "shotsTotal": 11,
+      "shotsOnTarget": 2,
+      "corners": 11,
       "fouls": 7,
       "offsides": 2,
       "yellowCards": 0,
       "redCards": 0,
-      "shotsInsidebox": 6,
+      "shotsInsidebox": 7,
       "shotsOutsidebox": 4,
-      "passesTotal": 322,
-      "passesAccurate": 262,
-      "passesPct": null
-    },
-    "away": {
-      "possession": 54,
-      "shotsTotal": 9,
-      "shotsOnTarget": 2,
-      "corners": 8,
-      "fouls": 6,
-      "offsides": 2,
-      "yellowCards": 0,
-      "redCards": 0,
-      "shotsInsidebox": 6,
-      "shotsOutsidebox": 3,
-      "passesTotal": 383,
-      "passesAccurate": 329,
+      "passesTotal": 484,
+      "passesAccurate": 422,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 1,
           "name": "C. Kelleher",
           "position": "Kiper",
-          "rating": "7.3"
+          "rating": "7.4"
         },
         {
           "number": 33,
@@ -57,19 +57,19 @@
           "number": 44,
           "name": "Jannik Schuster",
           "position": "Bek",
-          "rating": "8.0"
+          "rating": "8.1"
         },
         {
           "number": 20,
           "name": "K. Ajer",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.3"
         },
         {
           "number": 23,
           "name": "K. Lewis-Potter",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 6,
@@ -81,7 +81,7 @@
           "number": 27,
           "name": "V. Janelt",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 19,
@@ -93,19 +93,19 @@
           "number": 24,
           "name": "M. Damsgaard",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.9"
         },
         {
           "number": 7,
           "name": "K. Schade",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 9,
           "name": "Thiago",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "7.6"
         }
       ],
       "substitutes": [
@@ -119,13 +119,13 @@
           "number": 14,
           "name": "Fábio Carvalho",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 25,
           "name": "E. Diouf",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "7.0"
         },
         {
           "number": 48,
@@ -143,19 +143,19 @@
           "number": 2,
           "name": "A. Hickey",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 11,
           "name": "D. Ouattara",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 18,
           "name": "M. Sangaré",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "6.7"
         },
         {
           "number": 13,
@@ -173,25 +173,25 @@
           "number": 1,
           "name": "E. Martínez",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 3,
           "name": "W. Fofana",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.0"
         },
         {
           "number": 5,
           "name": "M. Lacroix",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "7.0"
         },
         {
           "number": 6,
           "name": "L. Colwill",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 7,
@@ -203,31 +203,31 @@
           "number": 14,
           "name": "J. Henderson",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 4,
           "name": "V. Barco",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 29,
           "name": "Pep Chavarría",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 10,
           "name": "C. Palmer",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "5.9"
         },
         {
           "number": 17,
           "name": "M. Rogers",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 18,
@@ -241,7 +241,7 @@
           "number": 23,
           "name": "Geovany Tcherno Quenda",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "6.1"
         },
         {
           "number": 39,
@@ -253,7 +253,7 @@
           "number": 32,
           "name": "M. Nicoll-Jazuli",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 45,
@@ -283,13 +283,13 @@
           "number": 41,
           "name": "Estêvão",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.2"
         },
         {
           "number": 34,
           "name": "Joshua Kofi Acheampong",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.0"
         }
       ]
     }
