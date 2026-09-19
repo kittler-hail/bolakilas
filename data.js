@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-19T01:04:46.802Z.
+   API-Football v3) pada 2026-09-19T02:05:10.789Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -832,8 +832,8 @@ const siteData = {
             "away": "New York Red Bulls",
             "stadium": "Yankee Stadium",
             "round": "Pekan 26",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1604.png",
@@ -919,10 +919,10 @@ const siteData = {
             "away": "Atlante FC",
             "stadium": "Estadio Cuauhtémoc",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2291.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
             "prediction": "1 - 1",
@@ -957,7 +957,14 @@ const siteData = {
                     "home": 0,
                     "away": 100
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "41",
+                    "player": "Walter Portales",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -967,8 +974,8 @@ const siteData = {
             "away": "Mineros de Zacatecas",
             "stadium": "",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
+            "statusCode": "2H",
+            "minuteDisplay": "46'",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14279.png",
@@ -1015,9 +1022,9 @@ const siteData = {
             "away": "Venados FC",
             "stadium": "",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
@@ -1054,9 +1061,28 @@ const siteData = {
                     "away": 0
                 }
             },
+            "goals": [
+                {
+                    "minute": "36",
+                    "player": "J. Gamboa",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "2",
+                    "player": "Ochoa Brandon",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "24",
+                    "player": "S. Lora",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+6",
                     "player": "",
                     "team": "away",
                     "type": "yellow"
@@ -1829,96 +1855,6 @@ const siteData = {
             }
         },
         {
-            "league": "Super Lig",
-            "date": "2026-09-19",
-            "time": "21:00",
-            "home": "Çorum FK",
-            "away": "Alanyaspor",
-            "stadium": "Corum Stadyumu",
-            "round": "Pekan 6",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/996.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Alanyaspor",
-            "comparison": {
-                "form": {
-                    "home": 47,
-                    "away": 53
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 71,
-                    "away": 29
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 100
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 100
-                }
-            }
-        },
-        {
-            "league": "Super Lig",
-            "date": "2026-09-19",
-            "time": "21:00",
-            "home": "Kocaelispor",
-            "away": "Gaziantep FK",
-            "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
-            "round": "Pekan 6",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
-            "prediction": "1 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Combo Double chance : Kocaelispor or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 53,
-                    "away": 47
-                },
-                "att": {
-                    "home": 42,
-                    "away": 58
-                },
-                "def": {
-                    "home": 56,
-                    "away": 44
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 25,
-                    "away": 75
-                },
-                "goals": {
-                    "home": 45,
-                    "away": 55
-                }
-            }
-        },
-        {
             "league": "Jupiler Pro League",
             "date": "2026-09-19",
             "time": "21:00",
@@ -2140,6 +2076,96 @@ const siteData = {
                 "goals": {
                     "home": 50,
                     "away": 50
+                }
+            }
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-19",
+            "time": "21:00",
+            "home": "Çorum FK",
+            "away": "Alanyaspor",
+            "stadium": "Corum Stadyumu",
+            "round": "Pekan 6",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/6343.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/996.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Alanyaspor",
+            "comparison": {
+                "form": {
+                    "home": 47,
+                    "away": 53
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 71,
+                    "away": 29
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 100
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 100
+                }
+            }
+        },
+        {
+            "league": "Super Lig",
+            "date": "2026-09-19",
+            "time": "21:00",
+            "home": "Kocaelispor",
+            "away": "Gaziantep FK",
+            "stadium": "Turka Arac Muayene Kocaeli Stadyumu",
+            "round": "Pekan 6",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/7411.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/3573.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Double chance : Kocaelispor or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 53,
+                    "away": 47
+                },
+                "att": {
+                    "home": 42,
+                    "away": 58
+                },
+                "def": {
+                    "home": 56,
+                    "away": 44
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 25,
+                    "away": 75
+                },
+                "goals": {
+                    "home": 45,
+                    "away": 55
                 }
             }
         },
@@ -2594,51 +2620,6 @@ const siteData = {
             }
         },
         {
-            "league": "Eredivisie",
-            "date": "2026-09-19",
-            "time": "23:45",
-            "home": "Sparta Rotterdam",
-            "away": "Heerenveen",
-            "stadium": "Sparta Stadium Het Kasteel",
-            "round": "Pekan 7",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/426.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/210.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Sparta Rotterdam or draw",
-            "comparison": {
-                "form": {
-                    "home": 63,
-                    "away": 38
-                },
-                "att": {
-                    "home": 63,
-                    "away": 38
-                },
-                "def": {
-                    "home": 43,
-                    "away": 57
-                },
-                "poisson": {
-                    "home": 52,
-                    "away": 48
-                },
-                "h2h": {
-                    "home": 40,
-                    "away": 60
-                },
-                "goals": {
-                    "home": 40,
-                    "away": 60
-                }
-            }
-        },
-        {
             "league": "Scottish Premiership",
             "date": "2026-09-19",
             "time": "23:45",
@@ -2680,6 +2661,51 @@ const siteData = {
                 "goals": {
                     "home": 33,
                     "away": 67
+                }
+            }
+        },
+        {
+            "league": "Eredivisie",
+            "date": "2026-09-19",
+            "time": "23:45",
+            "home": "Sparta Rotterdam",
+            "away": "Heerenveen",
+            "stadium": "Sparta Stadium Het Kasteel",
+            "round": "Pekan 7",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/426.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/210.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Sparta Rotterdam or draw",
+            "comparison": {
+                "form": {
+                    "home": 63,
+                    "away": 38
+                },
+                "att": {
+                    "home": 63,
+                    "away": 38
+                },
+                "def": {
+                    "home": 43,
+                    "away": 57
+                },
+                "poisson": {
+                    "home": 52,
+                    "away": 48
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 40,
+                    "away": 60
                 }
             }
         }
@@ -4002,7 +4028,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "19/09/2026 08:04 WIB",
+    "standingsUpdated": "19/09/2026 09:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -5460,15 +5486,15 @@ const siteData = {
                 "since": "2026-09-18"
             },
             {
-                "player": "M. Jensen",
-                "photo": "https://media.api-sports.io/football/players/47438.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-18"
-            },
-            {
                 "player": "K. Furo",
                 "photo": "https://media.api-sports.io/football/players/393193.png",
                 "reason": "Surgery",
+                "since": "2026-09-18"
+            },
+            {
+                "player": "M. Jensen",
+                "photo": "https://media.api-sports.io/football/players/47438.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-18"
             }
         ],
@@ -6146,15 +6172,15 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
-                "player": "Jofre",
-                "photo": "https://media.api-sports.io/football/players/182674.png",
-                "reason": "Groin Injury",
-                "since": "2026-09-18"
-            },
-            {
                 "player": "O. El Hilali",
                 "photo": "https://media.api-sports.io/football/players/286601.png",
                 "reason": "Red Card",
+                "since": "2026-09-18"
+            },
+            {
+                "player": "Jofre",
+                "photo": "https://media.api-sports.io/football/players/182674.png",
+                "reason": "Groin Injury",
                 "since": "2026-09-18"
             }
         ],
@@ -6868,16 +6894,16 @@ const siteData = {
                 "since": "2026-09-18"
             },
             {
-                "player": "C. Ngonge",
-                "photo": "https://media.api-sports.io/football/players/85.png",
-                "reason": "Lacking Match Fitness",
-                "since": "2026-09-13"
-            },
-            {
                 "player": "J. Ziolkowski",
                 "photo": "https://media.api-sports.io/football/players/384543.png",
                 "reason": "Foot Injury",
                 "since": "2026-09-18"
+            },
+            {
+                "player": "C. Ngonge",
+                "photo": "https://media.api-sports.io/football/players/85.png",
+                "reason": "Lacking Match Fitness",
+                "since": "2026-09-13"
             },
             {
                 "player": "G. Varela",
@@ -7320,15 +7346,15 @@ const siteData = {
                 "since": "2026-09-18"
             },
             {
-                "player": "C. Volpato",
-                "photo": "https://media.api-sports.io/football/players/342035.png",
-                "reason": "Thigh Injury",
-                "since": "2026-09-18"
-            },
-            {
                 "player": "J. Idzes",
                 "photo": "https://media.api-sports.io/football/players/37651.png",
                 "reason": "Muscle Injury",
+                "since": "2026-09-18"
+            },
+            {
+                "player": "C. Volpato",
+                "photo": "https://media.api-sports.io/football/players/342035.png",
+                "reason": "Thigh Injury",
                 "since": "2026-09-18"
             }
         ],
@@ -7764,16 +7790,16 @@ const siteData = {
                 "since": "2026-08-29"
             },
             {
-                "player": "K. Imeri",
-                "photo": "https://media.api-sports.io/football/players/48612.png",
-                "reason": "Thigh Injury",
-                "since": "2026-09-11"
-            },
-            {
                 "player": "J. Juranovic",
                 "photo": "https://media.api-sports.io/football/players/14330.png",
                 "reason": "Illness",
                 "since": "2026-09-18"
+            },
+            {
+                "player": "K. Imeri",
+                "photo": "https://media.api-sports.io/football/players/48612.png",
+                "reason": "Thigh Injury",
+                "since": "2026-09-11"
             }
         ],
         "eintracht-frankfurt": [
@@ -8274,16 +8300,16 @@ const siteData = {
                 "since": "2026-09-18"
             },
             {
-                "player": "S. Sagnan",
-                "photo": "https://media.api-sports.io/football/players/437139.png",
-                "reason": "Red Card",
-                "since": "2026-09-13"
-            },
-            {
                 "player": "Y. Titraoui",
                 "photo": "https://media.api-sports.io/football/players/327599.png",
                 "reason": "Injury",
                 "since": "2026-09-18"
+            },
+            {
+                "player": "S. Sagnan",
+                "photo": "https://media.api-sports.io/football/players/437139.png",
+                "reason": "Red Card",
+                "since": "2026-09-13"
             }
         ],
         "auxerre": [
@@ -8988,15 +9014,15 @@ const siteData = {
                 "since": "2026-09-18"
             },
             {
-                "player": "M. Coulibaly",
-                "photo": "https://media.api-sports.io/football/players/419035.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-18"
-            },
-            {
                 "player": "M. Biereth",
                 "photo": "https://media.api-sports.io/football/players/283026.png",
                 "reason": "Inactive",
+                "since": "2026-09-18"
+            },
+            {
+                "player": "M. Coulibaly",
+                "photo": "https://media.api-sports.io/football/players/419035.png",
+                "reason": "Muscle Injury",
                 "since": "2026-09-18"
             },
             {
@@ -37414,6 +37440,51 @@ const siteData = {
     "upcoming": {
         "2026-09-20": [
             {
+                "league": "Primeira Liga",
+                "date": "2026-09-20",
+                "time": "00:00",
+                "home": "Alverca",
+                "away": "Rio Ave",
+                "stadium": "Complexo Desportivo FC Alverca",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/4724.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/226.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Alverca or draw",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-20",
                 "time": "00:00",
@@ -37500,51 +37571,6 @@ const siteData = {
                     "goals": {
                         "home": 23,
                         "away": 77
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-20",
-                "time": "00:00",
-                "home": "Alverca",
-                "away": "Rio Ave",
-                "stadium": "Complexo Desportivo FC Alverca",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/4724.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/226.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Alverca or draw",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "poisson": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
                     }
                 }
             },
@@ -39709,6 +39735,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-09-20",
+                "time": "21:00",
+                "home": "St. Truiden",
+                "away": "KVC Westerlo",
+                "stadium": "Stayen",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : St. Truiden or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 69,
+                        "away": 31
+                    }
+                }
+            },
+            {
                 "league": "Super Lig",
                 "date": "2026-09-20",
                 "time": "21:00",
@@ -39795,51 +39866,6 @@ const siteData = {
                     "goals": {
                         "home": 36,
                         "away": 64
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-09-20",
-                "time": "21:00",
-                "home": "St. Truiden",
-                "away": "KVC Westerlo",
-                "stadium": "Stayen",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/735.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/261.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : St. Truiden or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "def": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 69,
-                        "away": 31
                     }
                 }
             },
@@ -40341,96 +40367,6 @@ const siteData = {
         ],
         "2026-09-21": [
             {
-                "league": "Super Lig",
-                "date": "2026-09-21",
-                "time": "00:00",
-                "home": "Göztepe",
-                "away": "Rizespor",
-                "stadium": "",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/994.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1007.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Göztepe or draw",
-                "comparison": {
-                    "form": {
-                        "home": 18,
-                        "away": 82
-                    },
-                    "att": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "def": {
-                        "home": 24,
-                        "away": 76
-                    },
-                    "poisson": {
-                        "home": 6,
-                        "away": 94
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
-                    }
-                }
-            },
-            {
-                "league": "Super Lig",
-                "date": "2026-09-21",
-                "time": "00:00",
-                "home": "Amed",
-                "away": "Beşiktaş",
-                "stadium": "Diyarbakir Stadium",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Amed or draw",
-                "comparison": {
-                    "form": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "poisson": {
-                        "home": 89,
-                        "away": 11
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-09-21",
                 "time": "00:00",
@@ -40517,6 +40453,96 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-21",
+                "time": "00:00",
+                "home": "Göztepe",
+                "away": "Rizespor",
+                "stadium": "",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/994.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1007.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Göztepe or draw",
+                "comparison": {
+                    "form": {
+                        "home": 18,
+                        "away": 82
+                    },
+                    "att": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "def": {
+                        "home": 24,
+                        "away": 76
+                    },
+                    "poisson": {
+                        "home": 6,
+                        "away": 94
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-09-21",
+                "time": "00:00",
+                "home": "Amed",
+                "away": "Beşiktaş",
+                "stadium": "Diyarbakir Stadium",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/549.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Amed or draw",
+                "comparison": {
+                    "form": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "poisson": {
+                        "home": 89,
+                        "away": 11
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
