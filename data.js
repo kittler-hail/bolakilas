@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T17:04:34.326Z.
+   API-Football v3) pada 2026-09-20T18:05:29.418Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -111,8 +111,8 @@ const siteData = {
             "away": "SC Braga",
             "stadium": "Estádio de São Miguel",
             "round": "Pekan 7",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/227.png",
@@ -149,7 +149,21 @@ const siteData = {
                     "home": 23,
                     "away": 77
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "29",
+                    "player": "Tiago Ribeiro",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "36",
+                    "player": "Adrian Bajrami",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Primeira Liga",
@@ -159,8 +173,8 @@ const siteData = {
             "away": "Casa Pia",
             "stadium": "Estádio António Coimbra da Mota",
             "round": "Pekan 7",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/230.png",
@@ -197,7 +211,15 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "41",
+                    "player": "Ismael Sierra",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Super Lig",
@@ -205,10 +227,10 @@ const siteData = {
             "time": "00:00",
             "home": "Göztepe",
             "away": "Rizespor",
-            "stadium": "",
+            "stadium": "Gursel Aksel Stadium",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/994.png",
@@ -234,8 +256,8 @@ const siteData = {
                     "away": 76
                 },
                 "poisson": {
-                    "home": 6,
-                    "away": 94
+                    "home": 5,
+                    "away": 95
                 },
                 "h2h": {
                     "home": 71,
@@ -249,8 +271,22 @@ const siteData = {
             "goals": [
                 {
                     "minute": "2",
-                    "player": "",
+                    "player": "A. Kurtulan",
                     "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "A. Kurtulan",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "18",
+                    "player": "A. Matos",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -262,9 +298,9 @@ const siteData = {
             "away": "Beşiktaş",
             "stadium": "Diyarbakir Stadium",
             "round": "Pekan 6",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/3579.png",
             "awayLogo": "https://media.api-sports.io/football/teams/549.png",
@@ -300,7 +336,45 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "G. Orban",
+                    "team": "home"
+                },
+                {
+                    "minute": "22",
+                    "player": "D. Saba",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "26",
+                    "player": "M. Khalil",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "E. Krasniqi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "I. Fakili",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "D. Bates",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Jupiler Pro League",
@@ -310,7 +384,10 @@ const siteData = {
             "away": "SK Beveren",
             "stadium": "Guldensporen Stadion",
             "round": "Pekan 7",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/734.png",
             "awayLogo": "https://media.api-sports.io/football/teams/738.png",
             "prediction": "1 - 2",
@@ -345,7 +422,15 @@ const siteData = {
                     "home": 11,
                     "away": 89
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "32",
+                    "player": "Johannes Schenk",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Bundesliga",
@@ -355,7 +440,10 @@ const siteData = {
             "away": "1899 Hoffenheim",
             "stadium": "Home Deluxe Arena",
             "round": "Pekan 4",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "36'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/185.png",
             "awayLogo": "https://media.api-sports.io/football/teams/167.png",
             "prediction": "1 - 2",
@@ -389,6 +477,58 @@ const siteData = {
                 "goals": {
                     "home": 17,
                     "away": 83
+                }
+            },
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "Santiago Castaneda",
+                    "team": "home"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-09-21",
+            "time": "01:45",
+            "home": "AC Milan",
+            "away": "Lecce",
+            "stadium": "",
+            "round": "Pekan 5",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/867.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : AC Milan or draw",
+            "comparison": {
+                "form": {
+                    "home": 57,
+                    "away": 43
+                },
+                "att": {
+                    "home": 58,
+                    "away": 42
+                },
+                "def": {
+                    "home": 64,
+                    "away": 36
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 86,
+                    "away": 14
                 }
             }
         },
@@ -434,51 +574,6 @@ const siteData = {
                 "goals": {
                     "home": 22,
                     "away": 78
-                }
-            }
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-09-21",
-            "time": "01:45",
-            "home": "AC Milan",
-            "away": "Lecce",
-            "stadium": "",
-            "round": "Pekan 5",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/867.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : AC Milan or draw",
-            "comparison": {
-                "form": {
-                    "home": 57,
-                    "away": 43
-                },
-                "att": {
-                    "home": 58,
-                    "away": 42
-                },
-                "def": {
-                    "home": 64,
-                    "away": 36
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 86,
-                    "away": 14
                 }
             }
         },
@@ -1085,17 +1180,28 @@ const siteData = {
             },
             {
                 "rank": 2,
-                "team": "Real Madrid",
-                "logo": "https://media.api-sports.io/football/teams/541.png",
-                "played": 6,
+                "team": "Atletico Madrid",
+                "logo": "https://media.api-sports.io/football/teams/530.png",
+                "played": 7,
                 "win": 5,
-                "draw": 0,
+                "draw": 1,
                 "lose": 1,
-                "gd": 11,
-                "points": 15
+                "gd": 9,
+                "points": 16
             },
             {
                 "rank": 3,
+                "team": "Real Madrid",
+                "logo": "https://media.api-sports.io/football/teams/541.png",
+                "played": 7,
+                "win": 5,
+                "draw": 0,
+                "lose": 2,
+                "gd": 10,
+                "points": 15
+            },
+            {
+                "rank": 4,
                 "team": "Real Betis",
                 "logo": "https://media.api-sports.io/football/teams/543.png",
                 "played": 6,
@@ -1104,17 +1210,6 @@ const siteData = {
                 "lose": 1,
                 "gd": 2,
                 "points": 15
-            },
-            {
-                "rank": 4,
-                "team": "Atletico Madrid",
-                "logo": "https://media.api-sports.io/football/teams/530.png",
-                "played": 6,
-                "win": 4,
-                "draw": 1,
-                "lose": 1,
-                "gd": 8,
-                "points": 13
             },
             {
                 "rank": 5,
@@ -2116,7 +2211,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/09/2026 00:04 WIB",
+    "standingsUpdated": "21/09/2026 01:05 WIB",
     "topScorers": {
         "Premier League": [
             {
