@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T05:04:54.770Z.
+   API-Football v3) pada 2026-09-20T06:06:07.825Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -569,6 +569,177 @@ const siteData = {
             ]
         },
         {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-20",
+            "time": "01:45",
+            "home": "Lommel United",
+            "away": "KV Mechelen",
+            "stadium": "Soeverein stadion",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/259.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Lommel United or draw",
+            "comparison": {
+                "form": {
+                    "home": 75,
+                    "away": 25
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 63,
+                    "away": 37
+                },
+                "poisson": {
+                    "home": 82,
+                    "away": 18
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 53,
+                    "away": 47
+                }
+            },
+            "cards": [
+                {
+                    "minute": "40",
+                    "player": "Tom Reyners",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Dennis Praet",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "Simion Michez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Mike Eerdhuijzen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Marco Decherf",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Jason Van Duiven",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-20",
+            "time": "01:45",
+            "home": "Anderlecht",
+            "away": "Zulte Waregem",
+            "stadium": "Lotto Park",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/554.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/600.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Zulte Waregem and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 47,
+                    "away": 53
+                },
+                "att": {
+                    "home": 20,
+                    "away": 80
+                },
+                "def": {
+                    "home": 43,
+                    "away": 57
+                },
+                "poisson": {
+                    "home": 53,
+                    "away": 47
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "40",
+                    "player": "Tawfik Bentayeb",
+                    "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "Marten Winkler",
+                    "team": "home"
+                },
+                {
+                    "minute": "54",
+                    "player": "Marten Winkler",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "24",
+                    "player": "Laurent Lemoine",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "34",
+                    "player": "Lukas Ambros",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Marco Kana",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Ligue 1",
             "date": "2026-09-20",
             "time": "01:45",
@@ -967,177 +1138,6 @@ const siteData = {
                 {
                     "minute": "78",
                     "player": "Adil Bourabaa",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-20",
-            "time": "01:45",
-            "home": "Lommel United",
-            "away": "KV Mechelen",
-            "stadium": "Soeverein stadion",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/259.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Lommel United or draw",
-            "comparison": {
-                "form": {
-                    "home": 75,
-                    "away": 25
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 63,
-                    "away": 37
-                },
-                "poisson": {
-                    "home": 82,
-                    "away": 18
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 53,
-                    "away": 47
-                }
-            },
-            "cards": [
-                {
-                    "minute": "40",
-                    "player": "Tom Reyners",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45",
-                    "player": "Dennis Praet",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "48",
-                    "player": "Simion Michez",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "70",
-                    "player": "Mike Eerdhuijzen",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "Marco Decherf",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Jason Van Duiven",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-20",
-            "time": "01:45",
-            "home": "Anderlecht",
-            "away": "Zulte Waregem",
-            "stadium": "Lotto Park",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 3,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/554.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/600.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Zulte Waregem and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 47,
-                    "away": 53
-                },
-                "att": {
-                    "home": 20,
-                    "away": 80
-                },
-                "def": {
-                    "home": 43,
-                    "away": 57
-                },
-                "poisson": {
-                    "home": 53,
-                    "away": 47
-                },
-                "h2h": {
-                    "home": 40,
-                    "away": 60
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "40",
-                    "player": "Tawfik Bentayeb",
-                    "team": "home"
-                },
-                {
-                    "minute": "48",
-                    "player": "Marten Winkler",
-                    "team": "home"
-                },
-                {
-                    "minute": "54",
-                    "player": "Marten Winkler",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "24",
-                    "player": "Laurent Lemoine",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "34",
-                    "player": "Lukas Ambros",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "80",
-                    "player": "Marco Kana",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -3180,8 +3180,8 @@ const siteData = {
             "away": "Guadalajara Chivas",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 9",
-            "statusCode": "2H",
-            "minuteDisplay": "80'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
@@ -3245,6 +3245,24 @@ const siteData = {
                 {
                     "minute": "50",
                     "player": "Daniel Aguirre",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Jonathan Perez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Cristian Borja",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Fernando González",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -5964,7 +5982,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/09/2026 12:04 WIB",
+    "standingsUpdated": "20/09/2026 13:06 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -7574,6 +7592,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/333.png",
                 "reason": "Inactive",
                 "since": "2026-09-20"
+            },
+            {
+                "player": "K. Grabara",
+                "photo": "https://media.api-sports.io/football/players/15573.png",
+                "reason": "Knee Injury",
+                "since": "2026-09-20"
             }
         ],
         "everton": [
@@ -7865,13 +7889,13 @@ const siteData = {
                 "player": "B. Mayoral",
                 "photo": "https://media.api-sports.io/football/players/47472.png",
                 "reason": "Injury",
-                "since": "2026-09-20"
+                "since": "2026-09-17"
             },
             {
                 "player": "R. Terrats",
                 "photo": "https://media.api-sports.io/football/players/187987.png",
                 "reason": "Inactive",
-                "since": "2026-09-20"
+                "since": "2026-09-17"
             },
             {
                 "player": "A. Garcia",
@@ -8499,7 +8523,7 @@ const siteData = {
                 "player": "L. Rioja",
                 "photo": "https://media.api-sports.io/football/players/46933.png",
                 "reason": "Injury",
-                "since": "2026-09-20"
+                "since": "2026-09-11"
             },
             {
                 "player": "J. De Haas",
@@ -8757,7 +8781,7 @@ const siteData = {
                 "player": "J. Addai",
                 "photo": "https://media.api-sports.io/football/players/354533.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-09-20"
+                "since": "2026-09-14"
             }
         ],
         "inter": [
@@ -9021,7 +9045,7 @@ const siteData = {
                 "player": "F. Anguissa",
                 "photo": "https://media.api-sports.io/football/players/3406.png",
                 "reason": "Muscle Injury",
-                "since": "2026-09-20"
+                "since": "2026-09-13"
             },
             {
                 "player": "A. Meret",
@@ -9058,13 +9082,19 @@ const siteData = {
             {
                 "player": "A. Bernabe",
                 "photo": "https://media.api-sports.io/football/players/628.png",
-                "reason": "Inactive",
-                "since": "2026-09-06"
+                "reason": "Injury",
+                "since": "2026-09-20"
             },
             {
                 "player": "O. Diallo",
                 "photo": "https://media.api-sports.io/football/players/432610.png",
                 "reason": "Injury",
+                "since": "2026-09-06"
+            },
+            {
+                "player": "L. Valenti",
+                "photo": "https://media.api-sports.io/football/players/6221.png",
+                "reason": "Coach's decision",
                 "since": "2026-09-20"
             }
         ],
@@ -9236,6 +9266,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/325.png",
                 "reason": "Red Card",
                 "since": "2026-09-12"
+            },
+            {
+                "player": "O. Kossounou",
+                "photo": "https://media.api-sports.io/football/players/48119.png",
+                "reason": "Thigh Injury",
+                "since": "2026-09-20"
             }
         ],
         "sassuolo": [
@@ -9510,6 +9546,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/7327.png",
                 "reason": "Muscle Injury",
                 "since": "2026-09-12"
+            },
+            {
+                "player": "Bernardo",
+                "photo": "https://media.api-sports.io/football/players/18964.png",
+                "reason": "Achilles Tendon Injury",
+                "since": "2026-09-20"
             }
         ],
         "fsv-mainz-05": [
@@ -9900,6 +9942,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/392254.png",
                 "reason": "Injury",
                 "since": "2026-09-20"
+            },
+            {
+                "player": "L. Schnellbacher",
+                "photo": "https://media.api-sports.io/football/players/26642.png",
+                "reason": "Illness",
+                "since": "2026-09-20"
             }
         ],
         "bayer-leverkusen": [
@@ -10159,7 +10207,7 @@ const siteData = {
                 "player": "T. Kalas",
                 "photo": "https://media.api-sports.io/football/players/19262.png",
                 "reason": "Lacking Match Fitness",
-                "since": "2026-09-20"
+                "since": "2026-09-11"
             },
             {
                 "player": "K. Karaman",
@@ -10271,7 +10319,7 @@ const siteData = {
                 "player": "S. Fofana",
                 "photo": "https://media.api-sports.io/football/players/193505.png",
                 "reason": "Groin Injury",
-                "since": "2026-09-20"
+                "since": "2026-09-12"
             },
             {
                 "player": "R. Labeau Lascary",
@@ -10368,12 +10416,6 @@ const siteData = {
             {
                 "player": "T. Nnadi",
                 "photo": "https://media.api-sports.io/football/players/354298.png",
-                "reason": "Injury",
-                "since": "2026-09-20"
-            },
-            {
-                "player": "D. Cornelius",
-                "photo": "https://media.api-sports.io/football/players/51295.png",
                 "reason": "Injury",
                 "since": "2026-09-20"
             }
@@ -11059,13 +11101,13 @@ const siteData = {
                 "player": "S. Mayulu",
                 "photo": "https://media.api-sports.io/football/players/409216.png",
                 "reason": "Inactive",
-                "since": "2026-09-20"
+                "since": "2026-09-13"
             },
             {
                 "player": "I. Zabarnyi",
                 "photo": "https://media.api-sports.io/football/players/161671.png",
                 "reason": "Coach's decision",
-                "since": "2026-09-20"
+                "since": "2026-09-13"
             },
             {
                 "player": "A. Hakimi",
