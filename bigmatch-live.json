@@ -3,36 +3,36 @@
   "home": "Valencia",
   "away": "Real Sociedad",
   "statusCode": "2H",
-  "updatedAt": "21/09/2026 03:23 WIB",
+  "updatedAt": "21/09/2026 03:39 WIB",
   "statistics": {
     "home": {
       "possession": 54,
-      "shotsTotal": 13,
+      "shotsTotal": 16,
       "shotsOnTarget": 3,
       "corners": 6,
-      "fouls": 3,
+      "fouls": 6,
       "offsides": 2,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 7,
-      "shotsOutsidebox": 6,
-      "passesTotal": 305,
-      "passesAccurate": 258,
+      "shotsInsidebox": 8,
+      "shotsOutsidebox": 7,
+      "passesTotal": 372,
+      "passesAccurate": 317,
       "passesPct": null
     },
     "away": {
       "possession": 46,
-      "shotsTotal": 17,
-      "shotsOnTarget": 3,
+      "shotsTotal": 19,
+      "shotsOnTarget": 4,
       "corners": 4,
-      "fouls": 8,
+      "fouls": 9,
       "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 12,
+      "shotsInsidebox": 14,
       "shotsOutsidebox": 5,
-      "passesTotal": 269,
-      "passesAccurate": 221,
+      "passesTotal": 315,
+      "passesAccurate": 260,
       "passesPct": null
     }
   },
@@ -45,43 +45,43 @@
           "number": 1,
           "name": "S. Dimitrievski",
           "position": "Kiper",
-          "rating": "6.1"
+          "rating": "6.0"
         },
         {
           "number": 24,
           "name": "Pablo Maffeo",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.6"
         },
         {
           "number": 18,
           "name": "Pepelu",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 12,
           "name": "J. de Haas",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 14,
           "name": "José Gayà",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 33,
           "name": "Aaron Mayol",
           "position": "Gelandang",
-          "rating": "7.9"
+          "rating": "8.0"
         },
         {
           "number": 23,
           "name": "F. Ugrinic",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 2,
@@ -93,7 +93,7 @@
           "number": 7,
           "name": "A. Danjuma",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         {
           "number": 8,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "Hugo Duro",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "7.1"
         }
       ],
       "substitutes": [
@@ -125,7 +125,7 @@
           "number": 10,
           "name": "H. Elliott",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 22,
@@ -137,7 +137,7 @@
           "number": 27,
           "name": "David Otorbi",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 29,
@@ -191,19 +191,19 @@
           "number": 1,
           "name": "Álex Remiro",
           "position": "Kiper",
-          "rating": "6.1"
+          "rating": "5.8"
         },
         {
           "number": 2,
           "name": "J. Aramburu",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 34,
           "name": "Luken Beitia",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 6,
@@ -221,7 +221,7 @@
           "number": 11,
           "name": "Gonçalo Guedes",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.6"
         },
         {
           "number": 4,
@@ -233,7 +233,7 @@
           "number": 18,
           "name": "Carlos Soler",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "7.3"
         },
         {
           "number": 12,
@@ -251,7 +251,7 @@
           "number": 10,
           "name": "Mikel Oyarzabal",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.8"
         }
       ],
       "substitutes": [
@@ -259,7 +259,7 @@
           "number": 7,
           "name": "Barrenetxea",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 22,
@@ -271,7 +271,7 @@
           "number": 21,
           "name": "Y. Herrera",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 14,
@@ -295,7 +295,7 @@
           "number": 3,
           "name": "Aihen Muñoz",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 16,
@@ -325,7 +325,7 @@
           "number": 9,
           "name": "O. Óskarsson",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.4"
         }
       ]
     }
