@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T22:04:38.623Z.
+   API-Football v3) pada 2026-09-20T23:04:31.662Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1191,7 +1191,10 @@ const siteData = {
             "away": "Tlaxcala",
             "stadium": "Estadio Akron",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
             "prediction": "3 - 2",
@@ -2682,7 +2685,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/09/2026 05:04 WIB",
+    "standingsUpdated": "21/09/2026 06:04 WIB",
     "topScorers": {
         "Premier League": [
             {
