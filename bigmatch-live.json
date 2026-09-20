@@ -3,9 +3,256 @@
   "home": "Valencia",
   "away": "Real Sociedad",
   "statusCode": "NS",
-  "updatedAt": "21/09/2026 01:21 WIB",
+  "updatedAt": "21/09/2026 01:39 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "coach": "Óscar Sánchez",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "S. Dimitrievski",
+          "position": "Kiper"
+        },
+        {
+          "number": 24,
+          "name": "Pablo Maffeo",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "Pepelu",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "J. de Haas",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "José Gayà",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "Aaron Mayol",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "F. Ugrinic",
+          "position": "Gelandang"
+        },
+        {
+          "number": 2,
+          "name": "G. Rodríguez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "A. Danjuma",
+          "position": "Gelandang"
+        },
+        {
+          "number": 8,
+          "name": "Javi Guerra",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "Hugo Duro",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 36,
+          "name": "Iker Córdoba",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "A. Dieng",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "H. Elliott",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "Arnau Martínez",
+          "position": "Bek"
+        },
+        {
+          "number": 27,
+          "name": "David Otorbi",
+          "position": "Penyerang"
+        },
+        {
+          "number": 29,
+          "name": "Alex Panach",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "Dani Raba",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "Luis Rioja",
+          "position": "Penyerang"
+        },
+        {
+          "number": 39,
+          "name": "R. Sato",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "Jesús Vázquez",
+          "position": "Bek"
+        },
+        {
+          "number": 25,
+          "name": "K. van Oevelen",
+          "position": "Kiper"
+        },
+        {
+          "number": 37,
+          "name": "Aimar Blázquez",
+          "position": "Penyerang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "coach": "P. Matarazzo",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Álex Remiro",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "J. Aramburu",
+          "position": "Bek"
+        },
+        {
+          "number": 34,
+          "name": "Luken Beitia",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Jon Martín",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Sergio Gómez",
+          "position": "Bek"
+        },
+        {
+          "number": 11,
+          "name": "Gonçalo Guedes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 4,
+          "name": "Jon Gorrotxategi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "Carlos Soler",
+          "position": "Gelandang"
+        },
+        {
+          "number": 12,
+          "name": "J. Ochieng",
+          "position": "Gelandang"
+        },
+        {
+          "number": 24,
+          "name": "L. Sučić",
+          "position": "Penyerang"
+        },
+        {
+          "number": 10,
+          "name": "Mikel Oyarzabal",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 7,
+          "name": "Barrenetxea",
+          "position": "Penyerang"
+        },
+        {
+          "number": 22,
+          "name": "Héctor Fort",
+          "position": "Bek"
+        },
+        {
+          "number": 21,
+          "name": "Y. Herrera",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "T. Kubo",
+          "position": "Penyerang"
+        },
+        {
+          "number": 29,
+          "name": "Alex Garcia",
+          "position": "Penyerang"
+        },
+        {
+          "number": 13,
+          "name": "Unai Marrero",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "Aihen Muñoz",
+          "position": "Bek"
+        },
+        {
+          "number": 16,
+          "name": "Jon Pacheco",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "M. Sarr",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "Beñat Turrientes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 23,
+          "name": "A. Zakharyan",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "O. Óskarsson",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Estadio de Mestalla",
     "city": "Valencia",
