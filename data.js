@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T00:07:16.060Z.
+   API-Football v3) pada 2026-09-20T01:04:35.343Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -101,87 +101,6 @@ const siteData = {
         }
     },
     "matches": [
-        {
-            "league": "Primeira Liga",
-            "date": "2026-09-20",
-            "time": "00:00",
-            "home": "Alverca",
-            "away": "Rio Ave",
-            "stadium": "Complexo Desportivo FC Alverca",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/4724.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/226.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Alverca or draw",
-            "comparison": {
-                "form": {
-                    "home": 56,
-                    "away": 44
-                },
-                "att": {
-                    "home": 62,
-                    "away": 38
-                },
-                "def": {
-                    "home": 59,
-                    "away": 41
-                },
-                "poisson": {
-                    "home": 68,
-                    "away": 32
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "3",
-                    "player": "Dawda Camara Sankharé",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "87",
-                    "player": "Simón García",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "88",
-                    "player": "Davy Gui",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "André Vidigal",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+5",
-                    "player": "Francisco Petrasso",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "Super Lig",
             "date": "2026-09-20",
@@ -387,6 +306,87 @@ const siteData = {
                 {
                     "minute": "90+3",
                     "player": "L. Sane",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Primeira Liga",
+            "date": "2026-09-20",
+            "time": "00:00",
+            "home": "Alverca",
+            "away": "Rio Ave",
+            "stadium": "Complexo Desportivo FC Alverca",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/4724.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/226.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Alverca or draw",
+            "comparison": {
+                "form": {
+                    "home": 56,
+                    "away": 44
+                },
+                "att": {
+                    "home": 62,
+                    "away": 38
+                },
+                "def": {
+                    "home": 59,
+                    "away": 41
+                },
+                "poisson": {
+                    "home": 68,
+                    "away": 32
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "Dawda Camara Sankharé",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "87",
+                    "player": "Simón García",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Davy Gui",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "André Vidigal",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Francisco Petrasso",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1450,12 +1450,96 @@ const siteData = {
             "league": "Liga MX",
             "date": "2026-09-20",
             "time": "06:00",
+            "home": "Atletico San Luis",
+            "away": "Necaxa",
+            "stadium": "Estadio Libertad Financiera",
+            "round": "Apertura - 9",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/2314.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Necaxa",
+            "comparison": {
+                "form": {
+                    "home": 67,
+                    "away": 33
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 44,
+                    "away": 56
+                },
+                "poisson": {
+                    "home": 39,
+                    "away": 61
+                },
+                "h2h": {
+                    "home": 7,
+                    "away": 93
+                },
+                "goals": {
+                    "home": 26,
+                    "away": 74
+                }
+            },
+            "goals": [
+                {
+                    "minute": "10",
+                    "player": "Julián Carranza",
+                    "team": "away"
+                },
+                {
+                    "minute": "27",
+                    "player": "Felipe Mora",
+                    "team": "home"
+                },
+                {
+                    "minute": "54",
+                    "player": "Christopher Andrade",
+                    "team": "away"
+                },
+                {
+                    "minute": "81",
+                    "player": "Eduardo Aguila",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "80",
+                    "player": "Pedro Pedraza",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Aldo Cruz",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-09-20",
+            "time": "06:00",
             "home": "Atlas",
             "away": "U.N.A.M. - Pumas",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 9",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
+            "statusCode": "2H",
+            "minuteDisplay": "90+8'",
             "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2283.png",
@@ -1504,65 +1588,13 @@ const siteData = {
                     "player": "Luís André Leite Esteves",
                     "team": "home"
                 }
-            ]
-        },
-        {
-            "league": "Liga MX",
-            "date": "2026-09-20",
-            "time": "06:00",
-            "home": "Atletico San Luis",
-            "away": "Necaxa",
-            "stadium": "Estadio Libertad Financiera",
-            "round": "Apertura - 9",
-            "statusCode": "2H",
-            "minuteDisplay": "49'",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/2314.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Necaxa",
-            "comparison": {
-                "form": {
-                    "home": 67,
-                    "away": 33
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 44,
-                    "away": 56
-                },
-                "poisson": {
-                    "home": 39,
-                    "away": 61
-                },
-                "h2h": {
-                    "home": 7,
-                    "away": 93
-                },
-                "goals": {
-                    "home": 26,
-                    "away": 74
-                }
-            },
-            "goals": [
+            ],
+            "cards": [
                 {
-                    "minute": "10",
-                    "player": "Julián Carranza",
-                    "team": "away"
-                },
-                {
-                    "minute": "27",
-                    "player": "Felipe Mora",
-                    "team": "home"
+                    "minute": "87",
+                    "player": "Adalberto Carrasquilla",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -1572,12 +1604,12 @@ const siteData = {
             "time": "06:30",
             "home": "San Jose Earthquakes",
             "away": "Los Angeles FC",
-            "stadium": "PayPal Park",
+            "stadium": "Levi's Stadium",
             "round": "Pekan 26",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
+            "statusCode": "2H",
+            "minuteDisplay": "65'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1596.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1616.png",
             "prediction": "1 - 2",
@@ -1612,7 +1644,27 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "34",
+                    "player": "Son Heung-Min",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "D. Bouanga",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "A. Long",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1622,10 +1674,10 @@ const siteData = {
             "away": "Orlando City SC",
             "stadium": "Gillette Stadium",
             "round": "Pekan 26",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "65'",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1609.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1598.png",
             "prediction": "2 - 3",
@@ -1666,12 +1718,28 @@ const siteData = {
                     "minute": "19",
                     "player": "C. Gil",
                     "team": "home"
+                },
+                {
+                    "minute": "59",
+                    "player": "P. Miller",
+                    "team": "home"
+                },
+                {
+                    "minute": "62",
+                    "player": "I. Angulo",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "14",
                     "player": "B. Raines",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "W. Sands",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1685,10 +1753,10 @@ const siteData = {
             "away": "Columbus Crew",
             "stadium": "Saputo Stadium",
             "round": "Pekan 26",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
+            "statusCode": "2H",
+            "minuteDisplay": "68'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1614.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1613.png",
             "prediction": "1 - 2",
@@ -1724,11 +1792,24 @@ const siteData = {
                     "away": 58
                 }
             },
+            "goals": [
+                {
+                    "minute": "57",
+                    "player": "M. Farsi",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "2",
                     "player": "B. Ceballos",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "32",
+                    "player": "S. Moreira",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1741,9 +1822,9 @@ const siteData = {
             "away": "Charlotte",
             "stadium": "Audi Field",
             "round": "Pekan 26",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "67'",
+            "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1615.png",
             "awayLogo": "https://media.api-sports.io/football/teams/18310.png",
@@ -1785,12 +1866,29 @@ const siteData = {
                     "minute": "22",
                     "player": "A. Westwood",
                     "team": "away"
+                },
+                {
+                    "minute": "47",
+                    "player": "L. Bartlett",
+                    "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "3",
                     "player": "Peglow",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "D. Schnegg",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "A. Dozzell",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1804,7 +1902,10 @@ const siteData = {
             "away": "Austin",
             "stadium": "Toyota Stadium",
             "round": "Pekan 26",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1597.png",
             "awayLogo": "https://media.api-sports.io/football/teams/16489.png",
             "prediction": "3 - 2",
@@ -1839,7 +1940,15 @@ const siteData = {
                     "home": 71,
                     "away": 29
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "M. Desler",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1849,7 +1958,10 @@ const siteData = {
             "away": "FC Cincinnati",
             "stadium": "Shell Energy Stadium",
             "round": "Pekan 26",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "24'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1600.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2242.png",
             "prediction": "2 - 1",
@@ -1894,7 +2006,10 @@ const siteData = {
             "away": "Philadelphia Union",
             "stadium": "Children's Mercy Park",
             "round": "Pekan 26",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "24'",
+            "homeScore": 3,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1611.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1599.png",
             "prediction": "1 - 3",
@@ -1929,7 +2044,24 @@ const siteData = {
                     "home": 40,
                     "away": 60
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "Andre Luiz",
+                    "team": "home"
+                },
+                {
+                    "minute": "10",
+                    "player": "Andre Luiz",
+                    "team": "home"
+                },
+                {
+                    "minute": "16",
+                    "player": "W. Meyer",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1939,7 +2071,10 @@ const siteData = {
             "away": "Los Angeles Galaxy",
             "stadium": "Allianz Field",
             "round": "Pekan 26",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1612.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1605.png",
             "prediction": "3 - 2",
@@ -1974,7 +2109,19 @@ const siteData = {
                     "home": 38,
                     "away": 62
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "P. Ruiz",
+                    "team": "away"
+                },
+                {
+                    "minute": "23",
+                    "player": "M. Caldeira",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1984,7 +2131,10 @@ const siteData = {
             "away": "Toronto FC",
             "stadium": "CITYPARK",
             "round": "Pekan 26",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "25'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/20787.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1601.png",
             "prediction": "3 - 2",
@@ -2019,7 +2169,15 @@ const siteData = {
                     "home": 100,
                     "away": 0
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "23",
+                    "player": "W. Zimmerman",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -2029,7 +2187,10 @@ const siteData = {
             "away": "Leones Negros UDG",
             "stadium": "Estadio Morelos",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
             "prediction": "1 - 2",
@@ -2074,7 +2235,10 @@ const siteData = {
             "away": "Alebrijes de Oaxaca",
             "stadium": "",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14276.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
             "prediction": "2 - 1",
@@ -2119,7 +2283,10 @@ const siteData = {
             "away": "Dorados",
             "stadium": "Estadio Tamaulipas",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "4'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/19905.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
             "prediction": "2 - 2",
@@ -5140,7 +5307,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/09/2026 07:07 WIB",
+    "standingsUpdated": "20/09/2026 08:04 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -38702,96 +38869,6 @@ const siteData = {
     "upcoming": {
         "2026-09-21": [
             {
-                "league": "Primeira Liga",
-                "date": "2026-09-21",
-                "time": "00:00",
-                "home": "Santa Clara",
-                "away": "SC Braga",
-                "stadium": "Estádio de São Miguel",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/227.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/217.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Santa Clara or draw",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "def": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "poisson": {
-                        "home": 79,
-                        "away": 21
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 23,
-                        "away": 77
-                    }
-                }
-            },
-            {
-                "league": "Primeira Liga",
-                "date": "2026-09-21",
-                "time": "00:00",
-                "home": "Estoril",
-                "away": "Casa Pia",
-                "stadium": "Estádio António Coimbra da Mota",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/230.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Estoril or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Super Lig",
                 "date": "2026-09-21",
                 "time": "00:00",
@@ -38878,6 +38955,96 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-21",
+                "time": "00:00",
+                "home": "Santa Clara",
+                "away": "SC Braga",
+                "stadium": "Estádio de São Miguel",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/227.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/217.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Santa Clara or draw",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "def": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "poisson": {
+                        "home": 79,
+                        "away": 21
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 23,
+                        "away": 77
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-09-21",
+                "time": "00:00",
+                "home": "Estoril",
+                "away": "Casa Pia",
+                "stadium": "Estádio António Coimbra da Mota",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/230.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4716.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Estoril or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
