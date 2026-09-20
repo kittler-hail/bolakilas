@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T20:05:20.254Z.
+   API-Football v3) pada 2026-09-20T21:04:47.594Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Estadio de Mestalla",
         "prediction": "1 - 2",
         "analysis": "Valencia bertemu Real Sociedad dalam laga LaLiga. Analisis API-Football: Double chance : draw or Real Sociedad.",
-        "statusCode": "HT",
-        "minuteDisplay": "HT",
-        "homeScore": 0,
-        "awayScore": 1,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 2,
+        "awayScore": 3,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Valencia",
                 "away": "Real Sociedad",
-                "score": "0-1"
+                "score": "2-3"
             },
             {
                 "home": "Real Sociedad",
@@ -742,6 +742,103 @@ const siteData = {
             ]
         },
         {
+            "league": "Ligue 1",
+            "date": "2026-09-21",
+            "time": "01:45",
+            "home": "Marseille",
+            "away": "Paris Saint Germain",
+            "stadium": "Orange Vélodrome",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/81.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Paris Saint Germain",
+            "comparison": {
+                "form": {
+                    "home": 38,
+                    "away": 63
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 57,
+                    "away": 43
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 22,
+                    "away": 78
+                }
+            },
+            "goals": [
+                {
+                    "minute": "66",
+                    "player": "Ferrán Torres",
+                    "team": "away"
+                },
+                {
+                    "minute": "72",
+                    "player": "Angel Gomes",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Marcos Aoás Corrêa",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "32",
+                    "player": "Timothy Weah",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "Nuno Mendes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Timothy Weah",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "81",
+                    "player": "Keyliane Abdallah",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Angel Gomes",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Serie A",
             "date": "2026-09-21",
             "time": "01:45",
@@ -749,9 +846,9 @@ const siteData = {
             "away": "Lecce",
             "stadium": "San Siro/Giuseppe Meazza",
             "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "60'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/489.png",
             "awayLogo": "https://media.api-sports.io/football/teams/867.png",
@@ -793,74 +890,22 @@ const siteData = {
                     "minute": "14",
                     "player": "C. Pulisic",
                     "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "A. Rabiot",
+                    "team": "home"
+                },
+                {
+                    "minute": "73",
+                    "player": "D. Moreira",
+                    "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "58",
                     "player": "D. Veiga",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Ligue 1",
-            "date": "2026-09-21",
-            "time": "01:45",
-            "home": "Marseille",
-            "away": "Paris Saint Germain",
-            "stadium": "Orange Vélodrome",
-            "round": "Pekan 5",
-            "statusCode": "2H",
-            "minuteDisplay": "59'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/81.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/85.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Paris Saint Germain",
-            "comparison": {
-                "form": {
-                    "home": 38,
-                    "away": 63
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 57,
-                    "away": 43
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 22,
-                    "away": 78
-                }
-            },
-            "cards": [
-                {
-                    "minute": "32",
-                    "player": "Timothy Weah",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "39",
-                    "player": "Nuno Mendes",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -874,10 +919,10 @@ const siteData = {
             "away": "Real Sociedad",
             "stadium": "Estadio de Mestalla",
             "round": "Pekan 7",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/532.png",
             "awayLogo": "https://media.api-sports.io/football/teams/548.png",
             "prediction": "1 - 2",
@@ -918,6 +963,26 @@ const siteData = {
                     "minute": "26",
                     "player": "Luka Sučić",
                     "team": "away"
+                },
+                {
+                    "minute": "57",
+                    "player": "Aaron Mayol",
+                    "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "Carlos Soler",
+                    "team": "away"
+                },
+                {
+                    "minute": "84",
+                    "player": "Luken Beitia Aguirregomezcorta",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Ander Barrenetxea",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -932,6 +997,24 @@ const siteData = {
                     "player": "José Gayà",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Luka Sučić",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Orri Steinn Óskarsson",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Orri Steinn Óskarsson",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -943,10 +1026,10 @@ const siteData = {
             "away": "Benfica",
             "stadium": "Estádio do Dragão",
             "round": "Pekan 7",
-            "statusCode": "1H",
-            "minuteDisplay": "34'",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "70'",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/212.png",
             "awayLogo": "https://media.api-sports.io/football/teams/211.png",
             "prediction": "2 - 3",
@@ -987,6 +1070,21 @@ const siteData = {
                     "minute": "31",
                     "player": "Gabri Veiga",
                     "team": "home"
+                },
+                {
+                    "minute": "51",
+                    "player": "Alexander Bah",
+                    "team": "away"
+                },
+                {
+                    "minute": "54",
+                    "player": "Victor Froholdt",
+                    "team": "home"
+                },
+                {
+                    "minute": "60",
+                    "player": "Hwang In-Beom",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1001,6 +1099,18 @@ const siteData = {
                     "player": "Clément Lenglet",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "34",
+                    "player": "Gianluca Prestianni",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "35",
+                    "player": "Clément Lenglet",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -2071,6 +2181,17 @@ const siteData = {
             },
             {
                 "rank": 12,
+                "team": "SC Paderborn 07",
+                "logo": "https://media.api-sports.io/football/teams/185.png",
+                "played": 4,
+                "win": 1,
+                "draw": 1,
+                "lose": 2,
+                "gd": -2,
+                "points": 4
+            },
+            {
+                "rank": 13,
                 "team": "1. FC Köln",
                 "logo": "https://media.api-sports.io/football/teams/192.png",
                 "played": 4,
@@ -2081,18 +2202,18 @@ const siteData = {
                 "points": 4
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "1899 Hoffenheim",
                 "logo": "https://media.api-sports.io/football/teams/167.png",
-                "played": 3,
+                "played": 4,
                 "win": 1,
                 "draw": 0,
-                "lose": 2,
-                "gd": -1,
+                "lose": 3,
+                "gd": -3,
                 "points": 3
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "VfB Stuttgart",
                 "logo": "https://media.api-sports.io/football/teams/172.png",
                 "played": 4,
@@ -2103,7 +2224,7 @@ const siteData = {
                 "points": 3
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "team": "Hamburger SV",
                 "logo": "https://media.api-sports.io/football/teams/175.png",
                 "played": 4,
@@ -2112,17 +2233,6 @@ const siteData = {
                 "lose": 3,
                 "gd": -11,
                 "points": 3
-            },
-            {
-                "rank": 16,
-                "team": "SC Paderborn 07",
-                "logo": "https://media.api-sports.io/football/teams/185.png",
-                "played": 3,
-                "win": 0,
-                "draw": 1,
-                "lose": 2,
-                "gd": -4,
-                "points": 1
             },
             {
                 "rank": 17,
@@ -2548,7 +2658,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/09/2026 03:05 WIB",
+    "standingsUpdated": "21/09/2026 04:04 WIB",
     "topScorers": {
         "Premier League": [
             {
