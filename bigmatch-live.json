@@ -1,315 +1,305 @@
 {
-  "fixtureId": 1557413,
-  "home": "Manchester City",
-  "away": "Sunderland",
-  "statusCode": "2H",
-  "updatedAt": "20/09/2026 21:55 WIB",
+  "fixtureId": 1557407,
+  "home": "Bournemouth",
+  "away": "Liverpool",
+  "statusCode": "FT",
+  "updatedAt": "20/09/2026 22:14 WIB",
   "statistics": {
     "home": {
-      "possession": 57,
-      "shotsTotal": 16,
-      "shotsOnTarget": 6,
-      "corners": 6,
-      "fouls": 12,
-      "offsides": 0,
-      "yellowCards": 0,
+      "possession": 46,
+      "shotsTotal": 9,
+      "shotsOnTarget": 2,
+      "corners": 3,
+      "fouls": 11,
+      "offsides": 4,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 12,
+      "shotsInsidebox": 5,
       "shotsOutsidebox": 4,
-      "passesTotal": 464,
-      "passesAccurate": 402,
+      "passesTotal": 382,
+      "passesAccurate": 297,
       "passesPct": null
     },
     "away": {
-      "possession": 43,
-      "shotsTotal": 15,
-      "shotsOnTarget": 8,
-      "corners": 5,
-      "fouls": 14,
-      "offsides": 0,
-      "yellowCards": 1,
+      "possession": 54,
+      "shotsTotal": 12,
+      "shotsOnTarget": 3,
+      "corners": 3,
+      "fouls": 13,
+      "offsides": 2,
+      "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 11,
-      "shotsOutsidebox": 3,
-      "passesTotal": 357,
-      "passesAccurate": 291,
+      "shotsInsidebox": 7,
+      "shotsOutsidebox": 5,
+      "passesTotal": 474,
+      "passesAccurate": 384,
       "passesPct": null
     }
   },
   "lineups": {
     "home": {
       "formation": "4-2-3-1",
-      "coach": "E. Maresca",
+      "coach": "M. Rose",
       "startXI": [
         {
           "number": 1,
-          "name": "G. Donnarumma",
+          "name": "Đ. Petrović",
           "position": "Kiper",
-          "rating": "6.1"
-        },
-        {
-          "number": 27,
-          "name": "Matheus Nunes",
-          "position": "Bek",
           "rating": "6.3"
         },
         {
-          "number": 3,
-          "name": "Rúben Dias",
-          "position": "Bek",
-          "rating": "6.1"
-        },
-        {
-          "number": 6,
-          "name": "M. Guéhi",
-          "position": "Bek",
-          "rating": "6.7"
-        },
-        {
-          "number": 24,
-          "name": "J. Gvardiol",
+          "number": 15,
+          "name": "A. Smith",
           "position": "Bek",
           "rating": "5.9"
         },
         {
-          "number": 17,
-          "name": "E. Fernández",
-          "position": "Gelandang",
-          "rating": "7.2"
-        },
-        {
           "number": 5,
-          "name": "E. Anderson",
-          "position": "Gelandang",
-          "rating": "6.3"
-        },
-        {
-          "number": 7,
-          "name": "I. Ndiaye",
-          "position": "Gelandang",
+          "name": "J. Hill",
+          "position": "Bek",
           "rating": "6.6"
         },
         {
-          "number": 10,
-          "name": "R. Cherki",
-          "position": "Gelandang",
-          "rating": "8.0"
+          "number": 14,
+          "name": "António Silva",
+          "position": "Bek",
+          "rating": "6.7"
         },
         {
-          "number": 42,
-          "name": "A. Semenyo",
+          "number": 3,
+          "name": "A. Truffert",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 12,
+          "name": "T. Adams",
           "position": "Gelandang",
-          "rating": "9.1"
+          "rating": "6.5"
+        },
+        {
+          "number": 8,
+          "name": "A. Scott",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 37,
+          "name": "Rayan",
+          "position": "Gelandang",
+          "rating": "6.4"
+        },
+        {
+          "number": 10,
+          "name": "R. Christie",
+          "position": "Gelandang",
+          "rating": "6.0"
+        },
+        {
+          "number": 16,
+          "name": "M. Tavernier",
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
           "number": 9,
-          "name": "E. Haaland",
+          "name": "Evanilson",
           "position": "Penyerang",
-          "rating": "7.4"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
         {
-          "number": 8,
-          "name": "M. Kovačić",
+          "number": 29,
+          "name": "D. Jebbison",
+          "position": "Penyerang",
+          "rating": "6.1"
+        },
+        {
+          "number": 27,
+          "name": "A. Tóth",
+          "position": "Gelandang",
+          "rating": "5.8"
+        },
+        {
+          "number": 24,
+          "name": "Juanlu Sánchez",
           "position": "Gelandang",
           "rating": "0.0"
         },
         {
           "number": 11,
-          "name": "J. Doku",
+          "name": "B. Doak",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
-          "number": 32,
-          "name": "A. Bouaddi",
+          "number": 7,
+          "name": "D. Brooks",
           "position": "Gelandang",
+          "rating": "6.4"
+        },
+        {
+          "number": 4,
+          "name": "L. Cook",
+          "position": "Gelandang",
+          "rating": "5.9"
+        },
+        {
+          "number": 18,
+          "name": "B. Diakité",
+          "position": "Bek",
           "rating": "0.0"
         },
         {
-          "number": 37,
-          "name": "Allan",
-          "position": "Penyerang",
+          "number": 6,
+          "name": "J. Soler",
+          "position": "Bek",
           "rating": "0.0"
         },
         {
-          "number": 28,
-          "name": "G. Rulli",
+          "number": 20,
+          "name": "M. Di Gregorio",
           "position": "Kiper",
-          "rating": "0.0"
-        },
-        {
-          "number": 21,
-          "name": "R. Aït-Nouri",
-          "position": "Bek",
-          "rating": "0.0"
-        },
-        {
-          "number": 33,
-          "name": "N. O&apos;Reilly",
-          "position": "Bek",
-          "rating": "5.7"
-        },
-        {
-          "number": 45,
-          "name": "A. Khusanov",
-          "position": "Bek",
-          "rating": "0.0"
-        },
-        {
-          "number": 82,
-          "name": "R. Lewis",
-          "position": "Bek",
           "rating": "0.0"
         }
       ]
     },
     "away": {
       "formation": "4-2-3-1",
-      "coach": "R. Le Bris",
+      "coach": "Andoni Iraola",
       "startXI": [
         {
-          "number": 22,
-          "name": "R. Roefs",
+          "number": 1,
+          "name": "Alisson Becker",
           "position": "Kiper",
-          "rating": "5.7"
+          "rating": "7.1"
         },
         {
-          "number": 20,
-          "name": "N. Mukiele",
+          "number": 33,
+          "name": "R. Araújo",
           "position": "Bek",
-          "rating": "5.8"
-        },
-        {
-          "number": 4,
-          "name": "K. Danso",
-          "position": "Bek",
-          "rating": "5.8"
+          "rating": "6.6"
         },
         {
           "number": 5,
-          "name": "D. Ballard",
+          "name": "J. Jacquet",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "7.1"
+        },
+        {
+          "number": 4,
+          "name": "V. van Dijk",
+          "position": "Bek",
+          "rating": "7.3"
         },
         {
           "number": 6,
-          "name": "D. Methalie",
+          "name": "M. Kerkez",
           "position": "Bek",
-          "rating": "5.7"
+          "rating": "6.3"
         },
         {
-          "number": 34,
-          "name": "G. Xhaka",
+          "number": 8,
+          "name": "D. Szoboszlai",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 10,
+          "name": "A. Mac Allister",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 18,
+          "name": "C. Gakpo",
           "position": "Gelandang",
           "rating": "6.8"
         },
         {
-          "number": 27,
-          "name": "N. Sadiki",
+          "number": 7,
+          "name": "F. Wirtz",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "6.6"
         },
         {
-          "number": 12,
-          "name": "T. Meunier",
+          "number": 29,
+          "name": "B. Barcola",
           "position": "Gelandang",
-          "rating": "7.1"
-        },
-        {
-          "number": 28,
-          "name": "E. Le Fée",
-          "position": "Gelandang",
-          "rating": "7.4"
-        },
-        {
-          "number": 10,
-          "name": "N. Angulo",
-          "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 9,
-          "name": "B. Brobbey",
+          "name": "A. Isak",
           "position": "Penyerang",
-          "rating": "9.7"
+          "rating": "7.5"
         }
       ],
       "substitutes": [
         {
-          "number": 32,
-          "name": "T. Hume",
-          "position": "Bek",
-          "rating": "5.6"
-        },
-        {
-          "number": 13,
-          "name": "L. O&apos;Nien",
-          "position": "Gelandang",
-          "rating": "0.0"
-        },
-        {
-          "number": 15,
-          "name": "O. Alderete",
-          "position": "Bek",
-          "rating": "0.0"
-        },
-        {
-          "number": 29,
-          "name": "Jules Ahoka",
-          "position": "Gelandang",
-          "rating": "0.0"
-        },
-        {
-          "number": 11,
-          "name": "C. Rigg",
-          "position": "Gelandang",
-          "rating": "0.0"
-        },
-        {
-          "number": 7,
-          "name": "C. Talbi",
+          "number": 73,
+          "name": "R. Ngumoha",
           "position": "Penyerang",
           "rating": "0.0"
         },
         {
-          "number": 39,
-          "name": "M. Fofana",
+          "number": 67,
+          "name": "L. Koumas",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.4"
         },
         {
-          "number": 31,
-          "name": "M. Ellborg",
+          "number": 23,
+          "name": "Víctor Muñoz",
+          "position": "Penyerang",
+          "rating": "6.7"
+        },
+        {
+          "number": 42,
+          "name": "T. Nyoni",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 38,
+          "name": "R. Gravenberch",
+          "position": "Gelandang",
+          "rating": "6.2"
+        },
+        {
+          "number": 30,
+          "name": "J. Frimpong",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 21,
+          "name": "K. Tsimikas",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 2,
+          "name": "J. Gomez",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 25,
+          "name": "G. Mamardashvili",
           "position": "Kiper",
           "rating": "0.0"
-        },
-        {
-          "number": 18,
-          "name": "W. Isidor",
-          "position": "Penyerang",
-          "rating": "6.3"
         }
       ]
     }
   },
   "venue": {
-    "name": "Etihad Stadium",
-    "city": "Manchester",
-    "capacity": 55097,
-    "image": "https://media.api-sports.io/football/venues/555.png"
+    "name": "Vitality Stadium",
+    "city": "Bournemouth, Dorset",
+    "capacity": 12000,
+    "image": "https://media.api-sports.io/football/venues/504.png"
   },
-  "odds": {
-    "bookmaker": "William Hill",
-    "home": "1.35",
-    "draw": "5.00",
-    "away": "8.00",
-    "overUnder": null,
-    "btts": {
-      "yes": "1.80",
-      "no": "1.91"
-    }
-  },
+  "odds": null,
   "liveOdds": null
 }
