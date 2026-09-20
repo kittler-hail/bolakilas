@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T04:05:28.016Z.
+   API-Football v3) pada 2026-09-20T05:04:54.770Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -254,19 +254,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "26",
-                    "player": "A. Dursun",
+                    "player": "Abdurrahim Dursun",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
-                    "minute": "28",
-                    "player": "U. Gunes",
+                    "minute": "27",
+                    "player": "Umut Güneş",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "57",
-                    "player": "O. Kemen",
+                    "player": "Olivier Kemen",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -344,49 +344,37 @@ const siteData = {
             "cards": [
                 {
                     "minute": "48",
-                    "player": "E. Muci",
+                    "player": "Ernest Muçi",
                     "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "70",
-                    "player": "O. Buruk",
-                    "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "71",
-                    "player": "S. Savic",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "O. Buruk",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "82",
-                    "player": "M. Salah",
+                    "player": "Stefan Savić",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "82",
-                    "player": "A. Onana",
+                    "player": "André Onana",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "Mohamed Salah",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "87",
-                    "player": "L. Ugochukwu",
+                    "player": "Lesley Ugochukwu",
                     "team": "away",
                     "type": "red"
                 },
                 {
                     "minute": "90+3",
-                    "player": "L. Sane",
+                    "player": "Leroy Sané",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -544,7 +532,7 @@ const siteData = {
             "cards": [
                 {
                     "minute": "29",
-                    "player": "K. Perez",
+                    "player": "Kike Pérez",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -556,25 +544,25 @@ const siteData = {
                 },
                 {
                     "minute": "74",
-                    "player": "T. Correia",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90",
-                    "player": "T. Fernandez",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "J. Schingtienne",
+                    "player": "Thierry Correia",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+2",
-                    "player": "M. Moreno",
+                    "player": "Matias Moreno",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Joel Schingtienne",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Toni Fernández",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -2831,84 +2819,6 @@ const siteData = {
             "league": "MLS",
             "date": "2026-09-20",
             "time": "08:30",
-            "home": "Colorado Rapids",
-            "away": "Seattle Sounders",
-            "stadium": "Dick's Sporting Goods Park",
-            "round": "Pekan 26",
-            "statusCode": "2H",
-            "minuteDisplay": "77'",
-            "homeScore": 3,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1595.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Seattle Sounders and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 38,
-                    "away": 63
-                },
-                "def": {
-                    "home": 46,
-                    "away": 54
-                },
-                "poisson": {
-                    "home": 71,
-                    "away": 29
-                },
-                "h2h": {
-                    "home": 25,
-                    "away": 75
-                },
-                "goals": {
-                    "home": 38,
-                    "away": 62
-                }
-            },
-            "goals": [
-                {
-                    "minute": "28",
-                    "player": "M. Whittaker",
-                    "team": "home"
-                },
-                {
-                    "minute": "49",
-                    "player": "D. Joveljic",
-                    "team": "away"
-                },
-                {
-                    "minute": "56",
-                    "player": "D. Phillip",
-                    "team": "home"
-                },
-                {
-                    "minute": "76",
-                    "player": "M. Whittaker",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "69",
-                    "player": "D. Phillip",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-20",
-            "time": "08:30",
             "home": "Real Salt Lake",
             "away": "Vancouver Whitecaps",
             "stadium": "America First Field",
@@ -3018,6 +2928,94 @@ const siteData = {
             "league": "MLS",
             "date": "2026-09-20",
             "time": "08:30",
+            "home": "Colorado Rapids",
+            "away": "Seattle Sounders",
+            "stadium": "Dick's Sporting Goods Park",
+            "round": "Pekan 26",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 3,
+            "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1595.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Seattle Sounders and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 38,
+                    "away": 63
+                },
+                "def": {
+                    "home": 46,
+                    "away": 54
+                },
+                "poisson": {
+                    "home": 71,
+                    "away": 29
+                },
+                "h2h": {
+                    "home": 25,
+                    "away": 75
+                },
+                "goals": {
+                    "home": 38,
+                    "away": 62
+                }
+            },
+            "goals": [
+                {
+                    "minute": "28",
+                    "player": "M. Whittaker",
+                    "team": "home"
+                },
+                {
+                    "minute": "49",
+                    "player": "D. Joveljic",
+                    "team": "away"
+                },
+                {
+                    "minute": "56",
+                    "player": "D. Phillip",
+                    "team": "home"
+                },
+                {
+                    "minute": "76",
+                    "player": "M. Whittaker",
+                    "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "D. Joveljic",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "C. Clark",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "69",
+                    "player": "D. Phillip",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-20",
+            "time": "08:30",
             "home": "Nashville SC",
             "away": "Chicago Fire",
             "stadium": "Geodis Park",
@@ -3101,8 +3099,8 @@ const siteData = {
             "away": "Atlanta United FC",
             "stadium": "Providence Park",
             "round": "Pekan 26",
-            "statusCode": "2H",
-            "minuteDisplay": "65'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1617.png",
@@ -3168,7 +3166,7 @@ const siteData = {
                 },
                 {
                     "minute": "65",
-                    "player": "",
+                    "player": "T. Muyumba",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -3182,10 +3180,10 @@ const siteData = {
             "away": "Guadalajara Chivas",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "41'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "80'",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2278.png",
             "prediction": "2 - 2",
@@ -3226,6 +3224,29 @@ const siteData = {
                     "minute": "32",
                     "player": "Bryan Gonzalez",
                     "team": "away"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Miguel Vazquez",
+                    "team": "home"
+                },
+                {
+                    "minute": "71",
+                    "player": "Miguel Borja",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Miguel Borja",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "50",
+                    "player": "Daniel Aguirre",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -5943,7 +5964,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/09/2026 11:05 WIB",
+    "standingsUpdated": "20/09/2026 12:04 WIB",
     "topScorers": {
         "Premier League": [
             {
