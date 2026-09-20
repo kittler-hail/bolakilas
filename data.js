@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T06:06:07.825Z.
+   API-Football v3) pada 2026-09-20T07:04:56.517Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -569,177 +569,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-20",
-            "time": "01:45",
-            "home": "Lommel United",
-            "away": "KV Mechelen",
-            "stadium": "Soeverein stadion",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/259.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Lommel United or draw",
-            "comparison": {
-                "form": {
-                    "home": 75,
-                    "away": 25
-                },
-                "att": {
-                    "home": 50,
-                    "away": 50
-                },
-                "def": {
-                    "home": 63,
-                    "away": 37
-                },
-                "poisson": {
-                    "home": 82,
-                    "away": 18
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 53,
-                    "away": 47
-                }
-            },
-            "cards": [
-                {
-                    "minute": "40",
-                    "player": "Tom Reyners",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45",
-                    "player": "Dennis Praet",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "48",
-                    "player": "Simion Michez",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "70",
-                    "player": "Mike Eerdhuijzen",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "Marco Decherf",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+4",
-                    "player": "Jason Van Duiven",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Jupiler Pro League",
-            "date": "2026-09-20",
-            "time": "01:45",
-            "home": "Anderlecht",
-            "away": "Zulte Waregem",
-            "stadium": "Lotto Park",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 3,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/554.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/600.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Zulte Waregem and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 47,
-                    "away": 53
-                },
-                "att": {
-                    "home": 20,
-                    "away": 80
-                },
-                "def": {
-                    "home": 43,
-                    "away": 57
-                },
-                "poisson": {
-                    "home": 53,
-                    "away": 47
-                },
-                "h2h": {
-                    "home": 40,
-                    "away": 60
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "40",
-                    "player": "Tawfik Bentayeb",
-                    "team": "home"
-                },
-                {
-                    "minute": "48",
-                    "player": "Marten Winkler",
-                    "team": "home"
-                },
-                {
-                    "minute": "54",
-                    "player": "Marten Winkler",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "24",
-                    "player": "Laurent Lemoine",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "34",
-                    "player": "Lukas Ambros",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "80",
-                    "player": "Marco Kana",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-09-20",
             "time": "01:45",
@@ -1138,6 +967,177 @@ const siteData = {
                 {
                     "minute": "78",
                     "player": "Adil Bourabaa",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-20",
+            "time": "01:45",
+            "home": "Lommel United",
+            "away": "KV Mechelen",
+            "stadium": "Soeverein stadion",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/259.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/266.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Lommel United or draw",
+            "comparison": {
+                "form": {
+                    "home": 75,
+                    "away": 25
+                },
+                "att": {
+                    "home": 50,
+                    "away": 50
+                },
+                "def": {
+                    "home": 63,
+                    "away": 37
+                },
+                "poisson": {
+                    "home": 82,
+                    "away": 18
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 53,
+                    "away": 47
+                }
+            },
+            "cards": [
+                {
+                    "minute": "40",
+                    "player": "Tom Reyners",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Dennis Praet",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "Simion Michez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Mike Eerdhuijzen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Marco Decherf",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Jason Van Duiven",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Jupiler Pro League",
+            "date": "2026-09-20",
+            "time": "01:45",
+            "home": "Anderlecht",
+            "away": "Zulte Waregem",
+            "stadium": "Lotto Park",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/554.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/600.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Zulte Waregem and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 47,
+                    "away": 53
+                },
+                "att": {
+                    "home": 20,
+                    "away": 80
+                },
+                "def": {
+                    "home": 43,
+                    "away": 57
+                },
+                "poisson": {
+                    "home": 53,
+                    "away": 47
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "40",
+                    "player": "Tawfik Bentayeb",
+                    "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "Marten Winkler",
+                    "team": "home"
+                },
+                {
+                    "minute": "54",
+                    "player": "Marten Winkler",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "24",
+                    "player": "Laurent Lemoine",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "34",
+                    "player": "Lukas Ambros",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Marco Kana",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -3250,7 +3250,7 @@ const siteData = {
                 },
                 {
                     "minute": "85",
-                    "player": "Jonathan Perez",
+                    "player": "Hugo Camberos",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -5982,7 +5982,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/09/2026 13:06 WIB",
+    "standingsUpdated": "20/09/2026 14:04 WIB",
     "topScorers": {
         "Premier League": [
             {
