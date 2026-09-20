@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T03:05:05.599Z.
+   API-Football v3) pada 2026-09-20T04:05:28.016Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2527,12 +2527,6 @@ const siteData = {
                 },
                 {
                     "minute": "88",
-                    "player": "",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "89",
                     "player": "O. Gonzalez",
                     "team": "away",
                     "type": "red"
@@ -2752,7 +2746,7 @@ const siteData = {
                 },
                 {
                     "minute": "90+7",
-                    "player": "",
+                    "player": "O. Coronel",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2766,8 +2760,8 @@ const siteData = {
             "away": "Cruz Azul",
             "stadium": "Estadio BBVA",
             "round": "Apertura - 9",
-            "statusCode": "2H",
-            "minuteDisplay": "88'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
@@ -2837,14 +2831,92 @@ const siteData = {
             "league": "MLS",
             "date": "2026-09-20",
             "time": "08:30",
+            "home": "Colorado Rapids",
+            "away": "Seattle Sounders",
+            "stadium": "Dick's Sporting Goods Park",
+            "round": "Pekan 26",
+            "statusCode": "2H",
+            "minuteDisplay": "77'",
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1595.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Seattle Sounders and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 64,
+                    "away": 36
+                },
+                "att": {
+                    "home": 38,
+                    "away": 63
+                },
+                "def": {
+                    "home": 46,
+                    "away": 54
+                },
+                "poisson": {
+                    "home": 71,
+                    "away": 29
+                },
+                "h2h": {
+                    "home": 25,
+                    "away": 75
+                },
+                "goals": {
+                    "home": 38,
+                    "away": 62
+                }
+            },
+            "goals": [
+                {
+                    "minute": "28",
+                    "player": "M. Whittaker",
+                    "team": "home"
+                },
+                {
+                    "minute": "49",
+                    "player": "D. Joveljic",
+                    "team": "away"
+                },
+                {
+                    "minute": "56",
+                    "player": "D. Phillip",
+                    "team": "home"
+                },
+                {
+                    "minute": "76",
+                    "player": "M. Whittaker",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "69",
+                    "player": "D. Phillip",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-20",
+            "time": "08:30",
             "home": "Real Salt Lake",
             "away": "Vancouver Whitecaps",
             "stadium": "America First Field",
             "round": "Pekan 26",
-            "statusCode": "2H",
-            "minuteDisplay": "61'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1603.png",
             "prediction": "1 - 2",
@@ -2890,6 +2962,11 @@ const siteData = {
                     "minute": "29",
                     "player": "T. Muller",
                     "team": "away"
+                },
+                {
+                    "minute": "64",
+                    "player": "Y. Diaby",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -2906,9 +2983,33 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "60",
-                    "player": "",
+                    "minute": "59",
+                    "player": "N. Caliskan",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "T. Blackmon",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "M. Guilavogui",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Y. Diaby",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "E. Ocampo",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -2921,9 +3022,9 @@ const siteData = {
             "away": "Chicago Fire",
             "stadium": "Geodis Park",
             "round": "Pekan 26",
-            "statusCode": "2H",
-            "minuteDisplay": "67'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/9569.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1607.png",
@@ -2965,6 +3066,16 @@ const siteData = {
                     "minute": "33",
                     "player": "S. Surridge",
                     "team": "home"
+                },
+                {
+                    "minute": "78",
+                    "player": "C. Espinoza",
+                    "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "H. Mukhtar",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -2985,70 +3096,15 @@ const siteData = {
         {
             "league": "MLS",
             "date": "2026-09-20",
-            "time": "08:30",
-            "home": "Colorado Rapids",
-            "away": "Seattle Sounders",
-            "stadium": "Dick's Sporting Goods Park",
-            "round": "Pekan 26",
-            "statusCode": "1H",
-            "minuteDisplay": "35'",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1595.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Seattle Sounders and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 64,
-                    "away": 36
-                },
-                "att": {
-                    "home": 38,
-                    "away": 63
-                },
-                "def": {
-                    "home": 46,
-                    "away": 54
-                },
-                "poisson": {
-                    "home": 71,
-                    "away": 29
-                },
-                "h2h": {
-                    "home": 25,
-                    "away": 75
-                },
-                "goals": {
-                    "home": 38,
-                    "away": 62
-                }
-            },
-            "goals": [
-                {
-                    "minute": "28",
-                    "player": "M. Whittaker",
-                    "team": "home"
-                }
-            ]
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-20",
             "time": "09:30",
             "home": "Portland Timbers",
             "away": "Atlanta United FC",
             "stadium": "Providence Park",
             "round": "Pekan 26",
-            "statusCode": "1H",
-            "minuteDisplay": "25'",
+            "statusCode": "2H",
+            "minuteDisplay": "65'",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1617.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1608.png",
             "prediction": "2 - 2",
@@ -3084,11 +3140,36 @@ const siteData = {
                     "away": 73
                 }
             },
+            "goals": [
+                {
+                    "minute": "28",
+                    "player": "A. Miranchuk",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "25",
-                    "player": "",
+                    "player": "D. Chara",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "J. Waterman",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Giuliano Galoppo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -3096,12 +3177,15 @@ const siteData = {
         {
             "league": "Liga MX",
             "date": "2026-09-20",
-            "time": "10:15",
+            "time": "10:25",
             "home": "Club America",
             "away": "Guadalajara Chivas",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "41'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2278.png",
             "prediction": "2 - 2",
@@ -3136,7 +3220,14 @@ const siteData = {
                     "home": 60,
                     "away": 40
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "32",
+                    "player": "Bryan Gonzalez",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -5852,7 +5943,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/09/2026 10:05 WIB",
+    "standingsUpdated": "20/09/2026 11:05 WIB",
     "topScorers": {
         "Premier League": [
             {
