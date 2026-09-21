@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-21T00:06:54.222Z.
+   API-Football v3) pada 2026-09-21T01:05:06.324Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -605,8 +605,8 @@ const siteData = {
                     "away": 60
                 },
                 "poisson": {
-                    "home": 49,
-                    "away": 51
+                    "home": 48,
+                    "away": 52
                 },
                 "h2h": {
                     "home": 7,
@@ -1146,10 +1146,10 @@ const siteData = {
             "away": "San Diego",
             "stadium": "Nu Stadium",
             "round": "Pekan 26",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 1,
+            "statusCode": "2H",
+            "minuteDisplay": "86'",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/9568.png",
             "awayLogo": "https://media.api-sports.io/football/teams/25484.png",
             "prediction": "3 - 2",
@@ -1195,6 +1195,16 @@ const siteData = {
                     "minute": "23",
                     "player": "L. Messi",
                     "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "L. Suarez",
+                    "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "A. Dreyer",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1202,6 +1212,18 @@ const siteData = {
                     "minute": "33",
                     "player": "I. Murphy",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Y. Bright",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "A. Shaw",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -1214,9 +1236,9 @@ const siteData = {
             "away": "Tlaxcala",
             "stadium": "Estadio Akron",
             "round": "Apertura - 9",
-            "statusCode": "2H",
-            "minuteDisplay": "46'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
@@ -1258,6 +1280,21 @@ const siteData = {
                     "minute": "13",
                     "player": "G. Garcia",
                     "team": "home"
+                },
+                {
+                    "minute": "54",
+                    "player": "V. Moragrega",
+                    "team": "home"
+                },
+                {
+                    "minute": "60",
+                    "player": "V. Moragrega",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "J. Hernandez",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1272,6 +1309,18 @@ const siteData = {
                     "player": "C. Soldati",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "F. Plascencia",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90",
+                    "player": "S. Esparza",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1283,10 +1332,10 @@ const siteData = {
             "away": "Santos Laguna",
             "stadium": "Estadio Nemesio Diez",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
             "prediction": "2 - 1",
@@ -1321,7 +1370,50 @@ const siteData = {
                     "home": 63,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "25",
+                    "player": "Federico Viñas",
+                    "team": "home"
+                },
+                {
+                    "minute": "43",
+                    "player": "João Paulo Dias Fernandes",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Ezequiel Bullaude",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "Nicolás Castro",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+4",
+                    "player": "Antonio Ricardo Mohamed Matijevich",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+7",
+                    "player": "Everardo Lopez",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "45+8",
+                    "player": "Facundo Cáseres",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1331,10 +1423,10 @@ const siteData = {
             "away": "Club Tijuana",
             "stadium": "Estadio Hidalgo",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2292.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
             "prediction": "2 - 1",
@@ -1369,7 +1461,33 @@ const siteData = {
                     "home": 47,
                     "away": 53
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "17",
+                    "player": "Gilberto Mora",
+                    "team": "away"
+                },
+                {
+                    "minute": "42",
+                    "player": "Jesus Gomez",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "Ivan Tona",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "Oussama Idrissi",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -2735,7 +2853,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/09/2026 07:06 WIB",
+    "standingsUpdated": "21/09/2026 08:05 WIB",
     "topScorers": {
         "Premier League": [
             {
