@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-20T23:04:31.662Z.
+   API-Football v3) pada 2026-09-21T00:06:54.222Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1146,7 +1146,10 @@ const siteData = {
             "away": "San Diego",
             "stadium": "Nu Stadium",
             "round": "Pekan 26",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/9568.png",
             "awayLogo": "https://media.api-sports.io/football/teams/25484.png",
             "prediction": "3 - 2",
@@ -1181,7 +1184,27 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "A. Dreyer",
+                    "team": "away"
+                },
+                {
+                    "minute": "23",
+                    "player": "L. Messi",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "I. Murphy",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1191,9 +1214,9 @@ const siteData = {
             "away": "Tlaxcala",
             "stadium": "Estadio Akron",
             "round": "Apertura - 9",
-            "statusCode": "1H",
-            "minuteDisplay": "4'",
-            "homeScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "46'",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
@@ -1229,7 +1252,28 @@ const siteData = {
                     "home": 77,
                     "away": 23
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "G. Garcia",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "7",
+                    "player": "G. Garcia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "C. Soldati",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1239,7 +1283,10 @@ const siteData = {
             "away": "Santos Laguna",
             "stadium": "Estadio Nemesio Diez",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "6'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
             "prediction": "2 - 1",
@@ -1284,7 +1331,10 @@ const siteData = {
             "away": "Club Tijuana",
             "stadium": "Estadio Hidalgo",
             "round": "Apertura - 9",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "5'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2292.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
             "prediction": "2 - 1",
@@ -2685,7 +2735,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/09/2026 06:04 WIB",
+    "standingsUpdated": "21/09/2026 07:06 WIB",
     "topScorers": {
         "Premier League": [
             {
