@@ -3,7 +3,7 @@
   "home": "Valencia",
   "away": "Real Sociedad",
   "statusCode": "FT",
-  "updatedAt": "21/09/2026 10:21 WIB",
+  "updatedAt": "21/09/2026 10:40 WIB",
   "statistics": {
     "home": {
       "possession": 54,
@@ -16,7 +16,7 @@
       "redCards": 0,
       "shotsInsidebox": 13,
       "shotsOutsidebox": 9,
-      "passesTotal": 424,
+      "passesTotal": 422,
       "passesAccurate": 357,
       "passesPct": null
     },
@@ -31,8 +31,8 @@
       "redCards": 1,
       "shotsInsidebox": 15,
       "shotsOutsidebox": 6,
-      "passesTotal": 370,
-      "passesAccurate": 303,
+      "passesTotal": 372,
+      "passesAccurate": 304,
       "passesPct": null
     }
   },
