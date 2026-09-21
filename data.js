@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-21T03:05:00.951Z.
+   API-Football v3) pada 2026-09-21T04:04:59.984Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -742,79 +742,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Serie A",
-            "date": "2026-09-21",
-            "time": "01:45",
-            "home": "AC Milan",
-            "away": "Lecce",
-            "stadium": "San Siro/Giuseppe Meazza",
-            "round": "Pekan 5",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 3,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/867.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : AC Milan or draw",
-            "comparison": {
-                "form": {
-                    "home": 57,
-                    "away": 43
-                },
-                "att": {
-                    "home": 58,
-                    "away": 42
-                },
-                "def": {
-                    "home": 64,
-                    "away": 36
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 86,
-                    "away": 14
-                }
-            },
-            "goals": [
-                {
-                    "minute": "14",
-                    "player": "C. Pulisic",
-                    "team": "home"
-                },
-                {
-                    "minute": "61",
-                    "player": "A. Rabiot",
-                    "team": "home"
-                },
-                {
-                    "minute": "73",
-                    "player": "D. Moreira",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "58",
-                    "player": "D. Veiga",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-09-21",
             "time": "01:45",
@@ -907,6 +834,79 @@ const siteData = {
                     "minute": "90",
                     "player": "Angel Gomes",
                     "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-09-21",
+            "time": "01:45",
+            "home": "AC Milan",
+            "away": "Lecce",
+            "stadium": "San Siro/Giuseppe Meazza",
+            "round": "Pekan 5",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/489.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/867.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : AC Milan or draw",
+            "comparison": {
+                "form": {
+                    "home": 57,
+                    "away": 43
+                },
+                "att": {
+                    "home": 58,
+                    "away": 42
+                },
+                "def": {
+                    "home": 64,
+                    "away": 36
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 86,
+                    "away": 14
+                }
+            },
+            "goals": [
+                {
+                    "minute": "14",
+                    "player": "C. Pulisic",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "A. Rabiot",
+                    "team": "home"
+                },
+                {
+                    "minute": "73",
+                    "player": "D. Moreira",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "58",
+                    "player": "D. Veiga",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1535,10 +1535,10 @@ const siteData = {
             "away": "Leon",
             "stadium": "Estadio La Corregidora",
             "round": "Apertura - 9",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "2H",
+            "minuteDisplay": "90+3'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
             "prediction": "1 - 2",
@@ -1574,11 +1574,59 @@ const siteData = {
                     "away": 62
                 }
             },
+            "goals": [
+                {
+                    "minute": "54",
+                    "player": "Daniel Arcila",
+                    "team": "away"
+                },
+                {
+                    "minute": "60",
+                    "player": "Iker Benito Sánchez",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "44",
                     "player": "Bayron Duarte",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Lucas Abascia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Daniel Parra",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Ali Ávila",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Ivan Moreno",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Santiago Londono",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Daniel Arcila",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -2902,7 +2950,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/09/2026 10:04 WIB",
+    "standingsUpdated": "21/09/2026 11:04 WIB",
     "topScorers": {
         "Premier League": [
             {
