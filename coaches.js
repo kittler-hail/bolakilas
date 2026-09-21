@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — PELATIH & PRESTASI
    File ini di-generate OTOMATIS oleh fetch-coaches.js (sumber data:
-   API-Football v3) pada 2026-09-14T05:10:08.677Z.
+   API-Football v3) pada 2026-09-21T05:10:42.258Z.
    Jangan diedit manual — akan tertimpa tiap run mingguan.
 
    Kunci objek = slug nama tim (lihat slugifyTeamName di
@@ -12,6 +12,37 @@
    ========================================================= */
 
 const teamCoaches = {
+  "manchester-united": {
+    "name": "Michael Carrick",
+    "photo": "https://media.api-sports.io/football/coachs/25762.png",
+    "nationality": "",
+    "age": null,
+    "trophies": []
+  },
+  "liverpool": {
+    "name": "A. Slot",
+    "photo": "https://media.api-sports.io/football/coachs/2006.png",
+    "nationality": "Netherlands",
+    "age": 47,
+    "trophies": [
+      {
+        "league": "KNVB Beker",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Eredivisie",
+        "season": "2022/2023"
+      },
+      {
+        "league": "Eerste Divisie",
+        "season": "2011/2012"
+      },
+      {
+        "league": "Eerste Divisie",
+        "season": "2001/2002"
+      }
+    ]
+  },
   "manchester-city": {
     "name": "Guardiola",
     "photo": "https://media.api-sports.io/football/coachs/4.png",
@@ -40,18 +71,11 @@ const teamCoaches = {
       }
     ]
   },
-  "manchester-united": {
-    "name": "Michael Carrick",
-    "photo": "https://media.api-sports.io/football/coachs/25762.png",
-    "nationality": "",
-    "age": null,
-    "trophies": []
-  },
   "arsenal": {
     "name": "Mikel Arteta",
     "photo": "https://media.api-sports.io/football/coachs/7248.png",
-    "nationality": "Spain",
-    "age": 43,
+    "nationality": "",
+    "age": null,
     "trophies": [
       {
         "league": "Emirates Cup",
@@ -72,30 +96,6 @@ const teamCoaches = {
       {
         "league": "Florida Cup",
         "season": "2022"
-      }
-    ]
-  },
-  "liverpool": {
-    "name": "A. Slot",
-    "photo": "https://media.api-sports.io/football/coachs/2006.png",
-    "nationality": "Netherlands",
-    "age": 47,
-    "trophies": [
-      {
-        "league": "KNVB Beker",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Eredivisie",
-        "season": "2022/2023"
-      },
-      {
-        "league": "Eerste Divisie",
-        "season": "2011/2012"
-      },
-      {
-        "league": "Eerste Divisie",
-        "season": "2001/2002"
       }
     ]
   },
@@ -127,6 +127,34 @@ const teamCoaches = {
       }
     ]
   },
+  "paris-saint-germain": {
+    "name": "Luis Enrique",
+    "photo": "https://media.api-sports.io/football/coachs/193.png",
+    "nationality": "Spain",
+    "age": 55,
+    "trophies": [
+      {
+        "league": "Trophée des Champions",
+        "season": "2024/2025"
+      },
+      {
+        "league": "Ligue 1",
+        "season": "2024/2025"
+      },
+      {
+        "league": "Coupe de France",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Trophée des Champions",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Ligue 1",
+        "season": "2023/2024"
+      }
+    ]
+  },
   "lens": {
     "name": "D. Toppmöller",
     "photo": "https://media.api-sports.io/football/coachs/1549.png",
@@ -155,31 +183,31 @@ const teamCoaches = {
       }
     ]
   },
-  "bayern-munchen": {
-    "name": "V. Kompany",
-    "photo": "https://media.api-sports.io/football/coachs/12590.png",
-    "nationality": "Belgium",
-    "age": 39,
+  "borussia-dortmund": {
+    "name": "N. Kovač",
+    "photo": "https://media.api-sports.io/football/coachs/1528.png",
+    "nationality": "Croatia",
+    "age": 54,
     "trophies": [
       {
         "league": "Bundesliga",
-        "season": "2024/2025"
-      },
-      {
-        "league": "Championship",
-        "season": "2022/2023"
-      },
-      {
-        "league": "Premier League",
         "season": "2018/2019"
       },
       {
-        "league": "FA Cup",
+        "league": "DFB Pokal",
         "season": "2018/2019"
       },
       {
-        "league": "League Cup",
+        "league": "Super Cup",
         "season": "2018/2019"
+      },
+      {
+        "league": "DFB Pokal",
+        "season": "2017/2018"
+      },
+      {
+        "league": "Bundesliga",
+        "season": "2008/2009"
       }
     ]
   },
@@ -239,31 +267,15 @@ const teamCoaches = {
       }
     ]
   },
-  "paris-saint-germain": {
-    "name": "Luis Enrique",
-    "photo": "https://media.api-sports.io/football/coachs/193.png",
-    "nationality": "Spain",
-    "age": 55,
+  "vfb-stuttgart": {
+    "name": "S. Hoeneb",
+    "photo": "https://media.api-sports.io/football/coachs/1399.png",
+    "nationality": "Germany",
+    "age": 43,
     "trophies": [
       {
-        "league": "Trophée des Champions",
-        "season": "2024/2025"
-      },
-      {
-        "league": "Ligue 1",
-        "season": "2024/2025"
-      },
-      {
-        "league": "Coupe de France",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Trophée des Champions",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Ligue 1",
-        "season": "2023/2024"
+        "league": "3. Liga",
+        "season": "2019/2020"
       }
     ]
   },
@@ -291,15 +303,55 @@ const teamCoaches = {
       }
     ]
   },
-  "vfb-stuttgart": {
-    "name": "S. Hoeneb",
-    "photo": "https://media.api-sports.io/football/coachs/1399.png",
-    "nationality": "Germany",
-    "age": 43,
+  "psv-eindhoven": {
+    "name": "P. Bosz",
+    "photo": "https://media.api-sports.io/football/coachs/1532.png",
+    "nationality": "Netherlands",
+    "age": 62,
     "trophies": [
       {
-        "league": "3. Liga",
-        "season": "2019/2020"
+        "league": "Eredivisie",
+        "season": "2024/2025"
+      },
+      {
+        "league": "Eredivisie",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Super Cup",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Eerste Divisie",
+        "season": "2004/2005"
+      }
+    ]
+  },
+  "bayern-munchen": {
+    "name": "V. Kompany",
+    "photo": "https://media.api-sports.io/football/coachs/12590.png",
+    "nationality": "Belgium",
+    "age": 39,
+    "trophies": [
+      {
+        "league": "Bundesliga",
+        "season": "2024/2025"
+      },
+      {
+        "league": "Championship",
+        "season": "2022/2023"
+      },
+      {
+        "league": "Premier League",
+        "season": "2018/2019"
+      },
+      {
+        "league": "FA Cup",
+        "season": "2018/2019"
+      },
+      {
+        "league": "League Cup",
+        "season": "2018/2019"
       }
     ]
   },
@@ -355,51 +407,11 @@ const teamCoaches = {
       }
     ]
   },
-  "sporting-cp": {
-    "name": "Rui Borges",
-    "photo": "https://media.api-sports.io/football/coachs/2803.png",
-    "nationality": "Portugal",
-    "age": 44,
-    "trophies": [
-      {
-        "league": "Primeira Liga",
-        "season": "2024/2025"
-      }
-    ]
-  },
-  "borussia-dortmund": {
-    "name": "N. Kovač",
-    "photo": "https://media.api-sports.io/football/coachs/1528.png",
-    "nationality": "Croatia",
-    "age": 54,
-    "trophies": [
-      {
-        "league": "Bundesliga",
-        "season": "2018/2019"
-      },
-      {
-        "league": "DFB Pokal",
-        "season": "2018/2019"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2018/2019"
-      },
-      {
-        "league": "DFB Pokal",
-        "season": "2017/2018"
-      },
-      {
-        "league": "Bundesliga",
-        "season": "2008/2009"
-      }
-    ]
-  },
   "celtic": {
-    "name": "J. Kennedy",
-    "photo": "https://media.api-sports.io/football/coachs/14103.png",
-    "nationality": "Scotland",
-    "age": 42,
+    "name": "B. Rodgers",
+    "photo": "https://media.api-sports.io/football/coachs/15.png",
+    "nationality": "Northern Ireland",
+    "age": 52,
     "trophies": [
       {
         "league": "Premiership",
@@ -418,32 +430,8 @@ const teamCoaches = {
         "season": "2023/2024"
       },
       {
-        "league": "Scottish Cup",
-        "season": "2022/2023"
-      }
-    ]
-  },
-  "psv-eindhoven": {
-    "name": "P. Bosz",
-    "photo": "https://media.api-sports.io/football/coachs/1532.png",
-    "nationality": "Netherlands",
-    "age": 62,
-    "trophies": [
-      {
-        "league": "Eredivisie",
-        "season": "2024/2025"
-      },
-      {
-        "league": "Eredivisie",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Eerste Divisie",
-        "season": "2004/2005"
+        "league": "Community Shield",
+        "season": "2021/2022"
       }
     ]
   },
@@ -495,39 +483,42 @@ const teamCoaches = {
       }
     ]
   },
-  "bodoglimt": {
-    "name": "K. Knutsen",
-    "photo": "https://media.api-sports.io/football/coachs/1952.png",
-    "nationality": "Norway",
-    "age": 57,
+  "gornik-zabrze": {
+    "name": "P. Gierczak",
+    "photo": "https://media.api-sports.io/football/coachs/25004.png",
+    "nationality": "Poland",
+    "age": 49,
+    "trophies": []
+  },
+  "lech-poznan": {
+    "name": "N. Frederiksen",
+    "photo": "https://media.api-sports.io/football/coachs/1672.png",
+    "nationality": "Denmark",
+    "age": 55,
     "trophies": [
       {
-        "league": "Eliteserien",
-        "season": "2024"
-      },
+        "league": "Superliga",
+        "season": "2020/2021"
+      }
+    ]
+  },
+  "sporting-cp": {
+    "name": "Rui Borges",
+    "photo": "https://media.api-sports.io/football/coachs/2803.png",
+    "nationality": "Portugal",
+    "age": 44,
+    "trophies": [
       {
-        "league": "Eliteserien",
-        "season": "2023"
-      },
-      {
-        "league": "Eliteserien",
-        "season": "2021"
-      },
-      {
-        "league": "Eliteserien",
-        "season": "2020"
-      },
-      {
-        "league": "1. Division",
-        "season": "2017"
+        "league": "Primeira Liga",
+        "season": "2024/2025"
       }
     ]
   },
   "the-new-saints": {
-    "name": "C. Harrison",
-    "photo": "https://media.api-sports.io/football/coachs/9319.png",
+    "name": "C. Seargeant",
+    "photo": "https://media.api-sports.io/football/coachs/14294.png",
     "nationality": "England",
-    "age": 48,
+    "age": 39,
     "trophies": [
       {
         "league": "Welsh Cup",
@@ -539,15 +530,15 @@ const teamCoaches = {
       },
       {
         "league": "Premier League",
-        "season": "2023/2024"
+        "season": "2017/2018"
       },
       {
         "league": "League Cup",
-        "season": "2023/2024"
+        "season": "2017/2018"
       },
       {
         "league": "Premier League",
-        "season": "2022/2023"
+        "season": "2016/2017"
       }
     ]
   },
@@ -558,12 +549,17 @@ const teamCoaches = {
     "age": 57,
     "trophies": []
   },
-  "gornik-zabrze": {
-    "name": "P. Gierczak",
-    "photo": "https://media.api-sports.io/football/coachs/25004.png",
-    "nationality": "Poland",
-    "age": 49,
-    "trophies": []
+  "nec-nijmegen": {
+    "name": "R. de Groot",
+    "photo": "https://media.api-sports.io/football/coachs/2009.png",
+    "nationality": "Netherlands",
+    "age": 59,
+    "trophies": [
+      {
+        "league": "Eerste Divisie",
+        "season": "2014/2015"
+      }
+    ]
   },
   "napoli": {
     "name": "A. Conte",
@@ -593,15 +589,15 @@ const teamCoaches = {
       }
     ]
   },
-  "lech-poznan": {
-    "name": "N. Frederiksen",
-    "photo": "https://media.api-sports.io/football/coachs/1672.png",
-    "nationality": "Denmark",
-    "age": 55,
+  "as-roma": {
+    "name": "G. Gasperini",
+    "photo": "https://media.api-sports.io/football/coachs/2393.png",
+    "nationality": "Italy",
+    "age": 67,
     "trophies": [
       {
-        "league": "Superliga",
-        "season": "2020/2021"
+        "league": "UEFA Europa League",
+        "season": "2023/2024"
       }
     ]
   },
@@ -630,30 +626,6 @@ const teamCoaches = {
       {
         "league": "Serie A",
         "season": "2009/2010"
-      }
-    ]
-  },
-  "as-roma": {
-    "name": "G. Gasperini",
-    "photo": "https://media.api-sports.io/football/coachs/2393.png",
-    "nationality": "Italy",
-    "age": 67,
-    "trophies": [
-      {
-        "league": "UEFA Europa League",
-        "season": "2023/2024"
-      }
-    ]
-  },
-  "nec-nijmegen": {
-    "name": "R. de Groot",
-    "photo": "https://media.api-sports.io/football/coachs/2009.png",
-    "nationality": "Netherlands",
-    "age": 59,
-    "trophies": [
-      {
-        "league": "Eerste Divisie",
-        "season": "2014/2015"
       }
     ]
   },
@@ -713,23 +685,87 @@ const teamCoaches = {
       }
     ]
   },
-  "villarreal": {
-    "name": "Marcelino",
-    "photo": "https://media.api-sports.io/football/coachs/1585.png",
-    "nationality": "Spain",
-    "age": 60,
+  "real-madrid": {
+    "name": "José Mourinho",
+    "photo": "https://media.api-sports.io/football/coachs/2462.png",
+    "nationality": "Portugal",
+    "age": 62,
     "trophies": [
       {
-        "league": "Super Cup",
-        "season": "2020/2021"
+        "league": "UEFA Conference League",
+        "season": "2021/2022"
       },
+      {
+        "league": "UEFA Europa League",
+        "season": "2016/2017"
+      },
+      {
+        "league": "Community Shield",
+        "season": "2016/2017"
+      },
+      {
+        "league": "League Cup",
+        "season": "2016/2017"
+      },
+      {
+        "league": "Premier League",
+        "season": "2014/2015"
+      }
+    ]
+  },
+  "real-betis": {
+    "name": "M. Pellegrini",
+    "photo": "https://media.api-sports.io/football/coachs/3.png",
+    "nationality": "Chile",
+    "age": 72,
+    "trophies": [
       {
         "league": "Copa del Rey",
-        "season": "2018/2019"
+        "season": "2021/2022"
       },
       {
-        "league": "Segunda División",
-        "season": "2005/2006"
+        "league": "League Cup",
+        "season": "2015/2016"
+      },
+      {
+        "league": "Premier League",
+        "season": "2013/2014"
+      },
+      {
+        "league": "League Cup",
+        "season": "2013/2014"
+      },
+      {
+        "league": "Liga Profesional Argentina",
+        "season": "2002/2003 Clausura"
+      }
+    ]
+  },
+  "bodoglimt": {
+    "name": "K. Knutsen",
+    "photo": "https://media.api-sports.io/football/coachs/1952.png",
+    "nationality": "Norway",
+    "age": 57,
+    "trophies": [
+      {
+        "league": "Eliteserien",
+        "season": "2024"
+      },
+      {
+        "league": "Eliteserien",
+        "season": "2023"
+      },
+      {
+        "league": "Eliteserien",
+        "season": "2021"
+      },
+      {
+        "league": "Eliteserien",
+        "season": "2020"
+      },
+      {
+        "league": "1. Division",
+        "season": "2017"
       }
     ]
   },
@@ -785,39 +821,11 @@ const teamCoaches = {
       }
     ]
   },
-  "slavia-praha": {
-    "name": "J. Trpišovský",
-    "photo": "https://media.api-sports.io/football/coachs/1813.png",
-    "nationality": "Czechia",
-    "age": 49,
-    "trophies": [
-      {
-        "league": "Cup",
-        "season": "2022/2023"
-      },
-      {
-        "league": "Czech Liga",
-        "season": "2020/2021"
-      },
-      {
-        "league": "Cup",
-        "season": "2020/2021"
-      },
-      {
-        "league": "Czech Liga",
-        "season": "2019/2020"
-      },
-      {
-        "league": "Czech Liga",
-        "season": "2018/2019"
-      }
-    ]
-  },
   "hapoel-beer-sheva": {
     "name": "R. Kozuch",
     "photo": "https://media.api-sports.io/football/coachs/15803.png",
-    "nationality": "Israel",
-    "age": 44,
+    "nationality": "",
+    "age": null,
     "trophies": [
       {
         "league": "State Cup",
@@ -837,79 +845,23 @@ const teamCoaches = {
       }
     ]
   },
-  "real-madrid": {
-    "name": "José Mourinho",
-    "photo": "https://media.api-sports.io/football/coachs/2462.png",
-    "nationality": "Portugal",
-    "age": 62,
+  "vardar-skopje": {
+    "name": "G. Sedloski",
+    "photo": "https://media.api-sports.io/football/coachs/4416.png",
+    "nationality": "North Macedonia",
+    "age": 51,
     "trophies": [
       {
-        "league": "UEFA Conference League",
+        "league": "First League",
         "season": "2021/2022"
       },
       {
-        "league": "UEFA Europa League",
+        "league": "First League",
         "season": "2016/2017"
       },
       {
-        "league": "Community Shield",
-        "season": "2016/2017"
-      },
-      {
-        "league": "League Cup",
-        "season": "2016/2017"
-      },
-      {
-        "league": "Premier League",
-        "season": "2014/2015"
-      }
-    ]
-  },
-  "real-betis": {
-    "name": "M. Pellegrini",
-    "photo": "https://media.api-sports.io/football/coachs/3.png",
-    "nationality": "",
-    "age": null,
-    "trophies": [
-      {
-        "league": "Copa del Rey",
-        "season": "2021/2022"
-      },
-      {
-        "league": "League Cup",
+        "league": "First League",
         "season": "2015/2016"
-      },
-      {
-        "league": "Premier League",
-        "season": "2013/2014"
-      },
-      {
-        "league": "League Cup",
-        "season": "2013/2014"
-      },
-      {
-        "league": "Liga Profesional Argentina",
-        "season": "2002/2003 Clausura"
-      }
-    ]
-  },
-  "club-brugge-kv": {
-    "name": "N. Hayen",
-    "photo": "https://media.api-sports.io/football/coachs/6608.png",
-    "nationality": "Belgium",
-    "age": 45,
-    "trophies": [
-      {
-        "league": "Cup",
-        "season": "2024/2025"
-      },
-      {
-        "league": "First Division A",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Challenger Pro League",
-        "season": "2010/2011"
       }
     ]
   },
@@ -941,29 +893,42 @@ const teamCoaches = {
       }
     ]
   },
-  "dinamo-zagreb": {
-    "name": "Mario Kovacevic",
-    "photo": "https://media.api-sports.io/football/coachs/26010.png",
-    "nationality": "",
-    "age": null,
-    "trophies": []
+  "club-brugge-kv": {
+    "name": "N. Hayen",
+    "photo": "https://media.api-sports.io/football/coachs/6608.png",
+    "nationality": "Belgium",
+    "age": 45,
+    "trophies": [
+      {
+        "league": "Cup",
+        "season": "2024/2025"
+      },
+      {
+        "league": "First Division A",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Challenger Pro League",
+        "season": "2010/2011"
+      }
+    ]
   },
-  "sparta-praha": {
-    "name": "L. Loucka",
-    "photo": "https://media.api-sports.io/football/coachs/21740.png",
-    "nationality": "Czechia",
-    "age": 43,
+  "villarreal": {
+    "name": "Marcelino",
+    "photo": "https://media.api-sports.io/football/coachs/1585.png",
+    "nationality": "Spain",
+    "age": 60,
     "trophies": [
       {
         "league": "Super Cup",
-        "season": "2013/2014"
+        "season": "2020/2021"
       },
       {
-        "league": "Cup",
-        "season": "2012/2013"
+        "league": "Copa del Rey",
+        "season": "2018/2019"
       },
       {
-        "league": "Cup",
+        "league": "Segunda División",
         "season": "2005/2006"
       }
     ]
@@ -1003,6 +968,34 @@ const teamCoaches = {
     "age": 46,
     "trophies": []
   },
+  "universitatea-craiova": {
+    "name": "M. Rădoi",
+    "photo": "https://media.api-sports.io/football/coachs/5852.png",
+    "nationality": "Romania",
+    "age": 44,
+    "trophies": [
+      {
+        "league": "Presidents Cup",
+        "season": "2013/2014"
+      },
+      {
+        "league": "Pro League",
+        "season": "2012/2013"
+      },
+      {
+        "league": "Super Cup",
+        "season": "2012/2013"
+      },
+      {
+        "league": "Pro League",
+        "season": "2011/2012"
+      },
+      {
+        "league": "Saudi League",
+        "season": "2010/2011"
+      }
+    ]
+  },
   "sturm-graz": {
     "name": "F. Ingolitsch",
     "photo": "https://media.api-sports.io/football/coachs/17696.png",
@@ -1014,6 +1007,13 @@ const teamCoaches = {
         "season": "2020/2021"
       }
     ]
+  },
+  "sparta-praha": {
+    "name": "T. Požár",
+    "photo": "https://media.api-sports.io/football/coachs/8741.png",
+    "nationality": "Czech Republic",
+    "age": 42,
+    "trophies": []
   },
   "galatasaray": {
     "name": "O. Buruk",
@@ -1053,8 +1053,8 @@ const teamCoaches = {
   "shamrock-rovers": {
     "name": "S. Bradley",
     "photo": "https://media.api-sports.io/football/coachs/1563.png",
-    "nationality": "Republic of Ireland",
-    "age": 41,
+    "nationality": "",
+    "age": null,
     "trophies": [
       {
         "league": "FAI President's Cup",
@@ -1075,34 +1075,6 @@ const teamCoaches = {
       {
         "league": "Premier Division",
         "season": "2021"
-      }
-    ]
-  },
-  "universitatea-craiova": {
-    "name": "M. Rădoi",
-    "photo": "https://media.api-sports.io/football/coachs/5852.png",
-    "nationality": "Romania",
-    "age": 44,
-    "trophies": [
-      {
-        "league": "Presidents Cup",
-        "season": "2013/2014"
-      },
-      {
-        "league": "Pro League",
-        "season": "2012/2013"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2012/2013"
-      },
-      {
-        "league": "Pro League",
-        "season": "2011/2012"
-      },
-      {
-        "league": "Saudi League",
-        "season": "2010/2011"
       }
     ]
   },
@@ -1135,64 +1107,18 @@ const teamCoaches = {
     ]
   },
   "kairat-almaty": {
-    "name": "A. Kerzhakov",
-    "photo": "https://media.api-sports.io/football/coachs/9204.png",
-    "nationality": "",
-    "age": null,
+    "name": "R. Urazbakhtin",
+    "photo": "https://media.api-sports.io/football/coachs/22407.png",
+    "nationality": "Kazakhstan",
+    "age": 47,
     "trophies": [
       {
         "league": "Super Cup",
-        "season": "2016/2017"
-      },
-      {
-        "league": "Schweizer Pokal",
-        "season": "2015/2016"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2015/2016"
+        "season": "2025"
       },
       {
         "league": "Premier League",
-        "season": "2014/2015"
-      },
-      {
-        "league": "Premier League",
-        "season": "2011/2012"
-      }
-    ]
-  },
-  "sutjeska": {
-    "name": "Milorad Pekovic",
-    "photo": "https://media.api-sports.io/football/coachs/28862.png",
-    "nationality": "",
-    "age": null,
-    "trophies": []
-  },
-  "ki-klaksvik": {
-    "name": "M. Powell",
-    "photo": "https://media.api-sports.io/football/coachs/3144.png",
-    "nationality": "Sweden",
-    "age": 51,
-    "trophies": []
-  },
-  "vardar-skopje": {
-    "name": "G. Sedloski",
-    "photo": "https://media.api-sports.io/football/coachs/4416.png",
-    "nationality": "North Macedonia",
-    "age": 51,
-    "trophies": [
-      {
-        "league": "First League",
-        "season": "2021/2022"
-      },
-      {
-        "league": "First League",
-        "season": "2016/2017"
-      },
-      {
-        "league": "First League",
-        "season": "2015/2016"
+        "season": "2024"
       }
     ]
   },
@@ -1208,12 +1134,52 @@ const teamCoaches = {
       }
     ]
   },
-  "viking": {
-    "name": "B. Aarsheim",
-    "photo": "https://media.api-sports.io/football/coachs/14595.png",
-    "nationality": "",
-    "age": null,
+  "sutjeska": {
+    "name": "M. Savović",
+    "photo": "https://media.api-sports.io/football/coachs/12094.png",
+    "nationality": "Montenegro",
+    "age": 46,
+    "trophies": [
+      {
+        "league": "First League",
+        "season": "2021/2022"
+      }
+    ]
+  },
+  "dinamo-zagreb": {
+    "name": "S. Perković",
+    "photo": "https://media.api-sports.io/football/coachs/17469.png",
+    "nationality": "Croatia",
+    "age": 41,
     "trophies": []
+  },
+  "slavia-praha": {
+    "name": "J. Trpišovský",
+    "photo": "https://media.api-sports.io/football/coachs/1813.png",
+    "nationality": "Czechia",
+    "age": 49,
+    "trophies": [
+      {
+        "league": "Cup",
+        "season": "2022/2023"
+      },
+      {
+        "league": "Czech Liga",
+        "season": "2020/2021"
+      },
+      {
+        "league": "Cup",
+        "season": "2020/2021"
+      },
+      {
+        "league": "Czech Liga",
+        "season": "2019/2020"
+      },
+      {
+        "league": "Czech Liga",
+        "season": "2018/2019"
+      }
+    ]
   },
   "flora-tallinn": {
     "name": "A. Pijpers",
@@ -1227,11 +1193,25 @@ const teamCoaches = {
       }
     ]
   },
+  "viking": {
+    "name": "B. Aarsheim",
+    "photo": "https://media.api-sports.io/football/coachs/14595.png",
+    "nationality": "Norway",
+    "age": 50,
+    "trophies": []
+  },
+  "ki-klaksvik": {
+    "name": "M. Powell",
+    "photo": "https://media.api-sports.io/football/coachs/3144.png",
+    "nationality": "Sweden",
+    "age": 51,
+    "trophies": []
+  },
   "como": {
     "name": "Cesc Fàbregas",
     "photo": "https://media.api-sports.io/football/coachs/21528.png",
-    "nationality": "Spain",
-    "age": 38,
+    "nationality": "",
+    "age": null,
     "trophies": [
       {
         "league": "FA Cup",
@@ -1254,55 +1234,6 @@ const teamCoaches = {
         "season": "2013/2014"
       }
     ]
-  },
-  "lask-linz": {
-    "name": "M. Schopp",
-    "photo": "https://media.api-sports.io/football/coachs/1920.png",
-    "nationality": "Austria",
-    "age": 51,
-    "trophies": []
-  },
-  "union-st-gilloise": {
-    "name": "S. Pocognoli",
-    "photo": "https://media.api-sports.io/football/coachs/18414.png",
-    "nationality": "Belgium",
-    "age": 38,
-    "trophies": [
-      {
-        "league": "Super Cup",
-        "season": "2024/2025"
-      },
-      {
-        "league": "Challenger Pro League",
-        "season": "2020/2021"
-      },
-      {
-        "league": "Cup",
-        "season": "2017/2018"
-      },
-      {
-        "league": "Cup",
-        "season": "2010/2011"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2009/2010"
-      }
-    ]
-  },
-  "mjallby-aif": {
-    "name": "A. Torstensson",
-    "photo": "https://media.api-sports.io/football/coachs/9402.png",
-    "nationality": "Sweden",
-    "age": 59,
-    "trophies": []
-  },
-  "tre-fiori": {
-    "name": "D. Girolomoni",
-    "photo": "https://media.api-sports.io/football/coachs/15686.png",
-    "nationality": "Italy",
-    "age": 43,
-    "trophies": []
   },
   "fc-thun": {
     "name": "M. Lustrinelli",
@@ -1336,6 +1267,48 @@ const teamCoaches = {
       }
     ]
   },
+  "lask-linz": {
+    "name": "M. Schopp",
+    "photo": "https://media.api-sports.io/football/coachs/1920.png",
+    "nationality": "Austria",
+    "age": 51,
+    "trophies": []
+  },
+  "mjallby-aif": {
+    "name": "M. Lantz",
+    "photo": "https://media.api-sports.io/football/coachs/7998.png",
+    "nationality": "",
+    "age": null,
+    "trophies": [
+      {
+        "league": "Svenska Cupen Women",
+        "season": "2018/2019"
+      },
+      {
+        "league": "Svenska Cupen",
+        "season": "2010"
+      },
+      {
+        "league": "Scandinavian Royal League",
+        "season": "2006/2007"
+      },
+      {
+        "league": "Superliga",
+        "season": "2004/2005"
+      },
+      {
+        "league": "DBU Pokalen",
+        "season": "2004/2005"
+      }
+    ]
+  },
+  "tre-fiori": {
+    "name": "D. Girolomoni",
+    "photo": "https://media.api-sports.io/football/coachs/15686.png",
+    "nationality": "Italy",
+    "age": 43,
+    "trophies": []
+  },
   "gyori-eto-fc": {
     "name": "J. Király",
     "photo": "https://media.api-sports.io/football/coachs/4020.png",
@@ -1343,39 +1316,39 @@ const teamCoaches = {
     "age": null,
     "trophies": []
   },
-  "egnatia-rrogozhine": {
-    "name": "E. Tetova",
-    "photo": "https://media.api-sports.io/football/coachs/18044.png",
-    "nationality": "Albania",
-    "age": 42,
+  "union-st-gilloise": {
+    "name": "S. Pocognoli",
+    "photo": "https://media.api-sports.io/football/coachs/18414.png",
+    "nationality": "Belgium",
+    "age": 38,
     "trophies": [
-      {
-        "league": "Superliga",
-        "season": "2024/2025"
-      },
       {
         "league": "Super Cup",
         "season": "2024/2025"
       },
       {
-        "league": "Superliga",
-        "season": "2023/2024"
+        "league": "Challenger Pro League",
+        "season": "2020/2021"
       },
       {
         "league": "Cup",
-        "season": "2023/2024"
+        "season": "2017/2018"
       },
       {
         "league": "Cup",
-        "season": "2022/2023"
+        "season": "2010/2011"
+      },
+      {
+        "league": "Super Cup",
+        "season": "2009/2010"
       }
     ]
   },
   "inter-club-descaldes": {
     "name": "Joel Martínez",
     "photo": "https://media.api-sports.io/football/coachs/14048.png",
-    "nationality": "",
-    "age": null,
+    "nationality": "Andorra",
+    "age": 37,
     "trophies": [
       {
         "league": "Super Cup",
@@ -1396,6 +1369,64 @@ const teamCoaches = {
       {
         "league": "Super Cup",
         "season": "2021/2022"
+      }
+    ]
+  },
+  "petrocub": {
+    "name": "S. Makharadze",
+    "photo": "https://media.api-sports.io/football/coachs/5298.png",
+    "nationality": "Georgia",
+    "age": 45,
+    "trophies": []
+  },
+  "borac-banja-luka": {
+    "name": "M. Žižović",
+    "photo": "https://media.api-sports.io/football/coachs/4427.png",
+    "nationality": "Bosnia and Herzegovina",
+    "age": 45,
+    "trophies": [
+      {
+        "league": "Cup",
+        "season": "2015/2016"
+      },
+      {
+        "league": "Cup",
+        "season": "2010/2011"
+      },
+      {
+        "league": "Premijer Liga",
+        "season": "2008/2009"
+      },
+      {
+        "league": "Cup",
+        "season": "2007/2008"
+      }
+    ]
+  },
+  "egnatia-rrogozhine": {
+    "name": "E. Thartori",
+    "photo": "https://media.api-sports.io/football/coachs/11948.png",
+    "nationality": "",
+    "age": null,
+    "trophies": []
+  },
+  "omonia-nicosia": {
+    "name": "Y. Anastasiou",
+    "photo": "https://media.api-sports.io/football/coachs/1097.png",
+    "nationality": "Greece",
+    "age": 52,
+    "trophies": [
+      {
+        "league": "Cup",
+        "season": "2013/2014"
+      },
+      {
+        "league": "KNVB Beker",
+        "season": "2005/2006"
+      },
+      {
+        "league": "Super Cup",
+        "season": "2005/2006"
       }
     ]
   },
@@ -1451,57 +1482,6 @@ const teamCoaches = {
       }
     ]
   },
-  "omonia-nicosia": {
-    "name": "Y. Anastasiou",
-    "photo": "https://media.api-sports.io/football/coachs/1097.png",
-    "nationality": "Greece",
-    "age": 52,
-    "trophies": [
-      {
-        "league": "Cup",
-        "season": "2013/2014"
-      },
-      {
-        "league": "KNVB Beker",
-        "season": "2005/2006"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2005/2006"
-      }
-    ]
-  },
-  "borac-banja-luka": {
-    "name": "M. Žižović",
-    "photo": "https://media.api-sports.io/football/coachs/4427.png",
-    "nationality": "Bosnia and Herzegovina",
-    "age": 45,
-    "trophies": [
-      {
-        "league": "Cup",
-        "season": "2015/2016"
-      },
-      {
-        "league": "Cup",
-        "season": "2010/2011"
-      },
-      {
-        "league": "Premijer Liga",
-        "season": "2008/2009"
-      },
-      {
-        "league": "Cup",
-        "season": "2007/2008"
-      }
-    ]
-  },
-  "kauno-zalgiris": {
-    "name": "E. Černiauskas",
-    "photo": "https://media.api-sports.io/football/coachs/24570.png",
-    "nationality": "Lithuania",
-    "age": 41,
-    "trophies": []
-  },
   "celje": {
     "name": "Riera",
     "photo": "https://media.api-sports.io/football/coachs/17594.png",
@@ -1530,18 +1510,6 @@ const teamCoaches = {
       }
     ]
   },
-  "floriana": {
-    "name": "V. Potenza",
-    "photo": "https://media.api-sports.io/football/coachs/1295.png",
-    "nationality": "Italy",
-    "age": 38,
-    "trophies": [
-      {
-        "league": "Mosta Tournament",
-        "season": "2019"
-      }
-    ]
-  },
   "larne": {
     "name": "G. Haveron",
     "photo": "https://media.api-sports.io/football/coachs/9179.png",
@@ -1551,29 +1519,6 @@ const teamCoaches = {
       {
         "league": "Championship",
         "season": "2014/2015"
-      }
-    ]
-  },
-  "petrocub": {
-    "name": "S. Makharadze",
-    "photo": "https://media.api-sports.io/football/coachs/5298.png",
-    "nationality": "Georgia",
-    "age": 45,
-    "trophies": []
-  },
-  "ml-vitebsk": {
-    "name": "M. Adiev",
-    "photo": "https://media.api-sports.io/football/coachs/3402.png",
-    "nationality": "Russia",
-    "age": 48,
-    "trophies": [
-      {
-        "league": "First League",
-        "season": "2004"
-      },
-      {
-        "league": "Cup",
-        "season": "2003/2004"
       }
     ]
   },
@@ -1593,12 +1538,47 @@ const teamCoaches = {
       }
     ]
   },
-  "sabah-fa": {
-    "name": "Gomez Fernandez",
-    "photo": "https://media.api-sports.io/football/coachs/1268.png",
+  "kauno-zalgiris": {
+    "name": "L. Bičkauskas",
+    "photo": "https://media.api-sports.io/football/coachs/9441.png",
     "nationality": "",
     "age": null,
     "trophies": []
+  },
+  "floriana": {
+    "name": "V. Potenza",
+    "photo": "https://media.api-sports.io/football/coachs/1295.png",
+    "nationality": "Italy",
+    "age": 38,
+    "trophies": [
+      {
+        "league": "Mosta Tournament",
+        "season": "2019"
+      }
+    ]
+  },
+  "sabah-fa": {
+    "name": "Gomez Fernandez",
+    "photo": "https://media.api-sports.io/football/coachs/1268.png",
+    "nationality": "Spain",
+    "age": 54,
+    "trophies": []
+  },
+  "ml-vitebsk": {
+    "name": "M. Adiev",
+    "photo": "https://media.api-sports.io/football/coachs/3402.png",
+    "nationality": "Russia",
+    "age": 48,
+    "trophies": [
+      {
+        "league": "First League",
+        "season": "2004"
+      },
+      {
+        "league": "Cup",
+        "season": "2003/2004"
+      }
+    ]
   },
   "drita": {
     "name": "Z. Ramadani",
@@ -1638,8 +1618,8 @@ const teamCoaches = {
   "bournemouth": {
     "name": "J. Tindall",
     "photo": "https://media.api-sports.io/football/coachs/12777.png",
-    "nationality": "England",
-    "age": 48,
+    "nationality": "",
+    "age": null,
     "trophies": [
       {
         "league": "League Cup",
@@ -1651,12 +1631,39 @@ const teamCoaches = {
       }
     ]
   },
-  "rennes": {
-    "name": "F. Haise",
-    "photo": "https://media.api-sports.io/football/coachs/8665.png",
+  "crystal-palace": {
+    "name": "P. Sage",
+    "photo": "https://media.api-sports.io/football/coachs/21562.png",
     "nationality": "France",
-    "age": 54,
+    "age": 46,
     "trophies": []
+  },
+  "marseille": {
+    "name": "N. Larguet",
+    "photo": "https://media.api-sports.io/football/coachs/13846.png",
+    "nationality": "",
+    "age": null,
+    "trophies": []
+  },
+  "1899-hoffenheim": {
+    "name": "C. Ilzer",
+    "photo": "https://media.api-sports.io/football/coachs/1918.png",
+    "nationality": "Austria",
+    "age": 48,
+    "trophies": [
+      {
+        "league": "Bundesliga",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Cup",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Cup",
+        "season": "2022/2023"
+      }
+    ]
   },
   "bayer-leverkusen": {
     "name": "K. Hjulmand",
@@ -1669,13 +1676,6 @@ const teamCoaches = {
         "season": "2011/2012"
       }
     ]
-  },
-  "crystal-palace": {
-    "name": "P. Sage",
-    "photo": "https://media.api-sports.io/football/coachs/21562.png",
-    "nationality": "France",
-    "age": 46,
-    "trophies": []
   },
   "az-alkmaar": {
     "name": "M. Martens",
@@ -1701,26 +1701,6 @@ const teamCoaches = {
       }
     ]
   },
-  "1899-hoffenheim": {
-    "name": "C. Ilzer",
-    "photo": "https://media.api-sports.io/football/coachs/1918.png",
-    "nationality": "Austria",
-    "age": 48,
-    "trophies": [
-      {
-        "league": "Bundesliga",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Cup",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Cup",
-        "season": "2022/2023"
-      }
-    ]
-  },
   "benfica": {
     "name": "Marco Silva",
     "photo": "https://media.api-sports.io/football/coachs/10.png",
@@ -1740,6 +1720,13 @@ const teamCoaches = {
         "season": "2014/2015"
       }
     ]
+  },
+  "lillestrom": {
+    "name": "H. Ødegaard",
+    "photo": "https://media.api-sports.io/football/coachs/14612.png",
+    "nationality": "Norway",
+    "age": 51,
+    "trophies": []
   },
   "rangers": {
     "name": "B. Ferguson",
@@ -1769,11 +1756,11 @@ const teamCoaches = {
       }
     ]
   },
-  "lillestrom": {
-    "name": "H. Ødegaard",
-    "photo": "https://media.api-sports.io/football/coachs/14612.png",
-    "nationality": "Norway",
-    "age": 51,
+  "rennes": {
+    "name": "F. Haise",
+    "photo": "https://media.api-sports.io/football/coachs/8665.png",
+    "nationality": "France",
+    "age": 54,
     "trophies": []
   },
   "tromso": {
@@ -1828,46 +1815,6 @@ const teamCoaches = {
       }
     ]
   },
-  "marseille": {
-    "name": "André Villas-Boas",
-    "photo": "https://media.api-sports.io/football/coachs/24.png",
-    "nationality": "",
-    "age": null,
-    "trophies": [
-      {
-        "league": "The Atlantic Cup",
-        "season": "2016"
-      },
-      {
-        "league": "Cup",
-        "season": "2015/2016"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2015/2016"
-      },
-      {
-        "league": "Premier League",
-        "season": "2014/2015"
-      },
-      {
-        "league": "Primeira Liga",
-        "season": "2010/2011"
-      }
-    ]
-  },
-  "twente": {
-    "name": "J. Oosting",
-    "photo": "https://media.api-sports.io/football/coachs/6671.png",
-    "nationality": "Netherlands",
-    "age": 53,
-    "trophies": [
-      {
-        "league": "Derde Divisie",
-        "season": "2017/2018 Zondag"
-      }
-    ]
-  },
   "ac-milan": {
     "name": "Ruben Amorim",
     "photo": "https://media.api-sports.io/football/coachs/4720.png",
@@ -1912,12 +1859,31 @@ const teamCoaches = {
       }
     ]
   },
-  "real-sociedad": {
-    "name": "Sergio Francisco",
-    "photo": "https://media.api-sports.io/football/coachs/6904.png",
-    "nationality": "Spain",
-    "age": 46,
+  "hammarby-ff": {
+    "name": "Á. Lorincz",
+    "photo": "https://media.api-sports.io/football/coachs/21391.png",
+    "nationality": "",
+    "age": null,
     "trophies": []
+  },
+  "celta-vigo": {
+    "name": "Claudio Giráldez",
+    "photo": "https://media.api-sports.io/football/coachs/18101.png",
+    "nationality": "Spain",
+    "age": 37,
+    "trophies": []
+  },
+  "twente": {
+    "name": "J. Oosting",
+    "photo": "https://media.api-sports.io/football/coachs/6671.png",
+    "nationality": "Netherlands",
+    "age": 53,
+    "trophies": [
+      {
+        "league": "Derde Divisie",
+        "season": "2017/2018 Zondag"
+      }
+    ]
   },
   "besiktas": {
     "name": "O. Solskjær",
@@ -1989,39 +1955,53 @@ const teamCoaches = {
     "age": null,
     "trophies": []
   },
+  "real-sociedad": {
+    "name": "Sergio Francisco",
+    "photo": "https://media.api-sports.io/football/coachs/6904.png",
+    "nationality": "Spain",
+    "age": 46,
+    "trophies": []
+  },
   "sheriff-tiraspol": {
-    "name": "Victor Mihailov",
-    "photo": "https://media.api-sports.io/football/coachs/25249.png",
-    "nationality": "",
-    "age": null,
-    "trophies": []
-  },
-  "hammarby-ff": {
-    "name": "Á. Lorincz",
-    "photo": "https://media.api-sports.io/football/coachs/21391.png",
-    "nationality": "Hungary",
-    "age": 37,
-    "trophies": []
-  },
-  "red-bull-salzburg": {
-    "name": "Danny Rohl",
-    "photo": "https://media.api-sports.io/football/coachs/25738.png",
+    "name": "Y. Gura",
+    "photo": "https://media.api-sports.io/football/coachs/9746.png",
     "nationality": "",
     "age": null,
     "trophies": []
   },
   "dynamo-kyiv": {
-    "name": "O. Blokhin",
-    "photo": "https://media.api-sports.io/football/coachs/9724.png",
-    "nationality": "",
-    "age": null,
-    "trophies": []
+    "name": "O. Shovkovskyi",
+    "photo": "https://media.api-sports.io/football/coachs/21868.png",
+    "nationality": "Ukraine",
+    "age": 50,
+    "trophies": [
+      {
+        "league": "Super Cup",
+        "season": "2016/2017"
+      },
+      {
+        "league": "Premier League",
+        "season": "2015/2016"
+      },
+      {
+        "league": "Cup",
+        "season": "2014/2015"
+      },
+      {
+        "league": "Premier League",
+        "season": "2014/2015"
+      },
+      {
+        "league": "Cup",
+        "season": "2013/2014"
+      }
+    ]
   },
   "maccabi-tel-aviv": {
     "name": "Ž. Lazetić",
     "photo": "https://media.api-sports.io/football/coachs/12159.png",
-    "nationality": "",
-    "age": null,
+    "nationality": "Serbia",
+    "age": 43,
     "trophies": [
       {
         "league": "Super Cup",
@@ -2030,6 +2010,97 @@ const teamCoaches = {
       {
         "league": "Toto Cup Ligat Al",
         "season": "2024/2025"
+      }
+    ]
+  },
+  "paok": {
+    "name": "A. Lisci",
+    "photo": "https://media.api-sports.io/football/coachs/13592.png",
+    "nationality": "",
+    "age": null,
+    "trophies": []
+  },
+  "ferencvarosi-tc": {
+    "name": "R. Keane",
+    "photo": "https://media.api-sports.io/football/coachs/20259.png",
+    "nationality": "",
+    "age": null,
+    "trophies": [
+      {
+        "league": "Ligat Ha'al",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Toto Cup Ligat Al",
+        "season": "2023/2024"
+      },
+      {
+        "league": "MLS",
+        "season": "2014"
+      },
+      {
+        "league": "MLS",
+        "season": "2012"
+      },
+      {
+        "league": "MLS",
+        "season": "2011"
+      }
+    ]
+  },
+  "red-bull-salzburg": {
+    "name": "P. Lijnders",
+    "photo": "https://media.api-sports.io/football/coachs/10338.png",
+    "nationality": "",
+    "age": null,
+    "trophies": [
+      {
+        "league": "League Cup",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Community Shield",
+        "season": "2022/2023"
+      },
+      {
+        "league": "FA Cup",
+        "season": "2021/2022"
+      },
+      {
+        "league": "League Cup",
+        "season": "2021/2022"
+      },
+      {
+        "league": "Premier League",
+        "season": "2019/2020"
+      }
+    ]
+  },
+  "derry-city": {
+    "name": "T. Lynch",
+    "photo": "https://media.api-sports.io/football/coachs/1576.png",
+    "nationality": "Northern Ireland",
+    "age": 49,
+    "trophies": [
+      {
+        "league": "Charity Shield",
+        "season": "2024/2025"
+      },
+      {
+        "league": "Premiership",
+        "season": "2023/2024"
+      },
+      {
+        "league": "County Antrim Shield",
+        "season": "2023/2024"
+      },
+      {
+        "league": "Premiership",
+        "season": "2022/2023"
+      },
+      {
+        "league": "County Antrim Shield",
+        "season": "2022/2023"
       }
     ]
   },
@@ -2058,48 +2129,6 @@ const teamCoaches = {
       {
         "league": "1. HNL",
         "season": "1994/1995"
-      }
-    ]
-  },
-  "paok": {
-    "name": "A. Lisci",
-    "photo": "https://media.api-sports.io/football/coachs/13592.png",
-    "nationality": "Italy",
-    "age": 40,
-    "trophies": []
-  },
-  "celta-vigo": {
-    "name": "Claudio Giráldez",
-    "photo": "https://media.api-sports.io/football/coachs/18101.png",
-    "nationality": "Spain",
-    "age": 37,
-    "trophies": []
-  },
-  "ferencvarosi-tc": {
-    "name": "R. Keane",
-    "photo": "https://media.api-sports.io/football/coachs/20259.png",
-    "nationality": "Republic of Ireland",
-    "age": 45,
-    "trophies": [
-      {
-        "league": "Ligat Ha'al",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Toto Cup Ligat Al",
-        "season": "2023/2024"
-      },
-      {
-        "league": "MLS",
-        "season": "2014"
-      },
-      {
-        "league": "MLS",
-        "season": "2012"
-      },
-      {
-        "league": "MLS",
-        "season": "2011"
       }
     ]
   },
@@ -2193,101 +2222,6 @@ const teamCoaches = {
       }
     ]
   },
-  "derry-city": {
-    "name": "T. Lynch",
-    "photo": "https://media.api-sports.io/football/coachs/1576.png",
-    "nationality": "Northern Ireland",
-    "age": 49,
-    "trophies": [
-      {
-        "league": "Charity Shield",
-        "season": "2024/2025"
-      },
-      {
-        "league": "Premiership",
-        "season": "2023/2024"
-      },
-      {
-        "league": "County Antrim Shield",
-        "season": "2023/2024"
-      },
-      {
-        "league": "Premiership",
-        "season": "2022/2023"
-      },
-      {
-        "league": "County Antrim Shield",
-        "season": "2022/2023"
-      }
-    ]
-  },
-  "pafos": {
-    "name": "C. Toshack",
-    "photo": "https://media.api-sports.io/football/coachs/6687.png",
-    "nationality": "Wales",
-    "age": 55,
-    "trophies": [
-      {
-        "league": "Premier League 2 Division Two",
-        "season": "2016/2017"
-      },
-      {
-        "league": "Premier League Cup",
-        "season": "2016/2017"
-      }
-    ]
-  },
-  "zilina": {
-    "name": "P. Cernak",
-    "photo": "https://media.api-sports.io/football/coachs/8394.png",
-    "nationality": "",
-    "age": null,
-    "trophies": [
-      {
-        "league": "1. liga",
-        "season": "2008/2009"
-      }
-    ]
-  },
-  "hradec-kralove": {
-    "name": "D. Horejs",
-    "photo": "https://media.api-sports.io/football/coachs/1808.png",
-    "nationality": "Czechia",
-    "age": 48,
-    "trophies": [
-      {
-        "league": "FNL",
-        "season": "2018/2019"
-      },
-      {
-        "league": "FNL",
-        "season": "2001/2002"
-      }
-    ]
-  },
-  "vestri": {
-    "name": "D. Helenarson",
-    "photo": "https://media.api-sports.io/football/coachs/14571.png",
-    "nationality": "",
-    "age": null,
-    "trophies": [
-      {
-        "league": "2. Deild",
-        "season": "2020"
-      },
-      {
-        "league": "3. Deild",
-        "season": "2019"
-      }
-    ]
-  },
-  "ofi": {
-    "name": "M. Rastavac",
-    "photo": "https://media.api-sports.io/football/coachs/2926.png",
-    "nationality": "Serbia",
-    "age": 52,
-    "trophies": []
-  },
   "universitatea-cluj": {
     "name": "B. Lobonț",
     "photo": "https://media.api-sports.io/football/coachs/4119.png",
@@ -2316,247 +2250,27 @@ const teamCoaches = {
       }
     ]
   },
-  "aluminij": {
-    "name": "J. Arsič",
-    "photo": "https://media.api-sports.io/football/coachs/22917.png",
-    "nationality": "Slovenia",
-    "age": 44,
-    "trophies": []
-  },
-  "monaco": {
-    "name": "A. Hütter",
-    "photo": "https://media.api-sports.io/football/coachs/1542.png",
-    "nationality": "Austria",
+  "pafos": {
+    "name": "C. Toshack",
+    "photo": "https://media.api-sports.io/football/coachs/6687.png",
+    "nationality": "Wales",
     "age": 55,
     "trophies": [
       {
-        "league": "Trofeo Joan Gamper",
-        "season": "2024"
+        "league": "Premier League 2 Division Two",
+        "season": "2016/2017"
       },
       {
-        "league": "Super League",
-        "season": "2017/2018"
-      },
-      {
-        "league": "Bundesliga",
-        "season": "2014/2015"
-      },
-      {
-        "league": "Cup",
-        "season": "2014/2015"
-      },
-      {
-        "league": "2. Liga",
-        "season": "2012/2013"
-      }
-    ]
-  },
-  "sc-freiburg": {
-    "name": "J. Schuster",
-    "photo": "https://media.api-sports.io/football/coachs/23027.png",
-    "nationality": "Germany",
-    "age": 40,
-    "trophies": [
-      {
-        "league": "2. Bundesliga",
-        "season": "2015/2016"
-      },
-      {
-        "league": "2. Bundesliga",
-        "season": "2008/2009"
-      }
-    ]
-  },
-  "ajax": {
-    "name": "J. Heitinga",
-    "photo": "https://media.api-sports.io/football/coachs/5322.png",
-    "nationality": "Netherlands",
-    "age": 42,
-    "trophies": [
-      {
-        "league": "U19 Divisie 1",
-        "season": "2018/2019"
-      },
-      {
-        "league": "Jeugdcup U19",
-        "season": "2018/2019"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2007/2008"
-      },
-      {
-        "league": "KNVB Beker",
-        "season": "2006/2007"
-      },
-      {
-        "league": "Super Cup",
-        "season": "2006/2007"
-      }
-    ]
-  },
-  "sc-braga": {
-    "name": "Vicens",
-    "photo": "https://media.api-sports.io/football/coachs/12925.png",
-    "nationality": "Spain",
-    "age": null,
-    "trophies": [
-      {
-        "league": "U18 Premier League",
-        "season": "2020/2021"
-      },
-      {
-        "league": "FA Youth Cup",
-        "season": "2019/2020"
-      }
-    ]
-  },
-  "torreense": {
-    "name": "Tiago Fernandes",
-    "photo": "https://media.api-sports.io/football/coachs/2812.png",
-    "nationality": "Portugal",
-    "age": 44,
-    "trophies": [
-      {
-        "league": "Júniores U19",
+        "league": "Premier League Cup",
         "season": "2016/2017"
       }
     ]
   },
-  "brighton": {
-    "name": "F. Hürzeler",
-    "photo": "https://media.api-sports.io/football/coachs/19253.png",
-    "nationality": "Germany",
-    "age": 32,
-    "trophies": [
-      {
-        "league": "2. Bundesliga",
-        "season": "2023/2024"
-      }
-    ]
-  },
-  "hibernian": {
-    "name": "N. Montgomery",
-    "photo": "https://media.api-sports.io/football/coachs/16174.png",
-    "nationality": "",
-    "age": null,
-    "trophies": [
-      {
-        "league": "A-League Men",
-        "season": "2022/2023"
-      },
-      {
-        "league": "A-League Men",
-        "season": "2012/2013"
-      }
-    ]
-  },
-  "motherwell": {
-    "name": "J. Askou",
-    "photo": "https://media.api-sports.io/football/coachs/2867.png",
-    "nationality": "Denmark",
-    "age": 43,
-    "trophies": [
-      {
-        "league": "1. Division",
-        "season": "2021/2022"
-      },
-      {
-        "league": "Meistaradeildin",
-        "season": "2020"
-      },
-      {
-        "league": "Løgmanssteypid",
-        "season": "2020"
-      },
-      {
-        "league": "League One",
-        "season": "2009/2010"
-      }
-    ]
-  },
-  "valur-reykjavik": {
-    "name": "S. Tufegdzic",
-    "photo": "https://media.api-sports.io/football/coachs/3193.png",
+  "ofi": {
+    "name": "M. Rastavac",
+    "photo": "https://media.api-sports.io/football/coachs/2926.png",
     "nationality": "Serbia",
-    "age": 45,
-    "trophies": [
-      {
-        "league": "League Cup",
-        "season": "2025"
-      },
-      {
-        "league": "Reykjavik Cup",
-        "season": "2021"
-      },
-      {
-        "league": "Besta deild",
-        "season": "2020"
-      },
-      {
-        "league": "1. Deild",
-        "season": "2016"
-      },
-      {
-        "league": "Northern Iceland Cup",
-        "season": "2015"
-      }
-    ]
-  },
-  "stjarnan": {
-    "name": "J. Elísabetarson",
-    "photo": "https://media.api-sports.io/football/coachs/14820.png",
-    "nationality": "Iceland",
-    "age": 41,
-    "trophies": [
-      {
-        "league": "League Cup",
-        "season": "2013"
-      },
-      {
-        "league": "Besta deild",
-        "season": "2010"
-      }
-    ]
-  },
-  "caernarfon-town": {
-    "name": "S. Eardley",
-    "photo": "https://media.api-sports.io/football/coachs/569.png",
-    "nationality": "Wales",
-    "age": null,
-    "trophies": []
-  },
-  "gap-connah-s-quay-fc": {
-    "name": "B. Paynter",
-    "photo": "https://media.api-sports.io/football/coachs/24225.png",
-    "nationality": "England",
-    "age": 41,
-    "trophies": [
-      {
-        "league": "League One",
-        "season": "2012/2013"
-      }
-    ]
-  },
-  "ifk-goteborg": {
-    "name": "S. Billborn",
-    "photo": "https://media.api-sports.io/football/coachs/1388.png",
-    "nationality": "Sweden",
-    "age": 53,
-    "trophies": []
-  },
-  "bate-borisov": {
-    "name": "A. Yermakovich",
-    "photo": "https://media.api-sports.io/football/coachs/8722.png",
-    "nationality": "Belarus",
-    "age": 43,
-    "trophies": []
-  },
-  "brann": {
-    "name": "F. Alexandersson",
-    "photo": "https://media.api-sports.io/football/coachs/10856.png",
-    "nationality": "Iceland",
-    "age": 43,
+    "age": 52,
     "trophies": []
   }
 };
