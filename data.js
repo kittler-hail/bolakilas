@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-24T05:40:56.507Z.
+   API-Football v3) pada 2026-09-24T10:49:18.225Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -89,16 +89,16 @@ const siteData = {
             },
             "away": {
                 "results": [
-                    "L",
                     "D",
+                    "L",
                     "L",
                     "L",
                     "L"
                 ],
                 "cleanSheets": 2,
-                "failedToScore": 5,
+                "failedToScore": 6,
                 "goalsFor": 37,
-                "goalsAgainst": 42,
+                "goalsAgainst": 44,
                 "winStreak": 3,
                 "attack": 30,
                 "defense": 41
@@ -186,7 +186,7 @@ const siteData = {
                 },
                 {
                     "minute": "55",
-                    "player": "D. Musovski",
+                    "player": "S. Brunell",
                     "team": "home",
                     "type": "yellow"
                 },
@@ -1523,7 +1523,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "24/09/2026 12:40 WIB",
+    "standingsUpdated": "24/09/2026 17:49 WIB",
     "topScorers": {
         "Premier League": [
             {
