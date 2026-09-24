@@ -3,7 +3,7 @@
   "home": "Seattle Sounders",
   "away": "Real Salt Lake",
   "statusCode": "FT",
-  "updatedAt": "24/09/2026 10:54 WIB",
+  "updatedAt": "24/09/2026 16:10 WIB",
   "statistics": {
     "home": {
       "possession": 53,
@@ -13,12 +13,12 @@
       "fouls": 10,
       "offsides": 0,
       "yellowCards": 4,
-      "redCards": 0,
+      "redCards": null,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 4,
       "passesTotal": 553,
       "passesAccurate": 466,
-      "passesPct": null
+      "passesPct": 84
     },
     "away": {
       "possession": 47,
@@ -28,15 +28,259 @@
       "fouls": 9,
       "offsides": 2,
       "yellowCards": 2,
-      "redCards": 0,
-      "shotsInsidebox": 6,
+      "redCards": null,
+      "shotsInsidebox": 7,
       "shotsOutsidebox": 5,
       "passesTotal": 485,
       "passesAccurate": 405,
-      "passesPct": null
+      "passesPct": 84
     }
   },
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "Brian Schmetzer",
+      "startXI": [
+        {
+          "number": 26,
+          "name": "Andrew Thomas",
+          "position": "Kiper",
+          "rating": "7.7"
+        },
+        {
+          "number": 85,
+          "name": "Kalani Kossa-Rienzi",
+          "position": "Bek",
+          "rating": "7.2"
+        },
+        {
+          "number": 16,
+          "name": "Alex Roldán",
+          "position": "Bek",
+          "rating": "7.0"
+        },
+        {
+          "number": 25,
+          "name": "Jackson Ragen",
+          "position": "Bek",
+          "rating": "7.6"
+        },
+        {
+          "number": 5,
+          "name": "Nouhou Tolo",
+          "position": "Bek",
+          "rating": "8.0"
+        },
+        {
+          "number": 37,
+          "name": "Snyder Brunell",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 7,
+          "name": "Cristian Roldán",
+          "position": "Gelandang",
+          "rating": "7.5"
+        },
+        {
+          "number": 90,
+          "name": "Sebastian Gomez",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 11,
+          "name": "Albert Rusnák",
+          "position": "Gelandang",
+          "rating": "8.9"
+        },
+        {
+          "number": 17,
+          "name": "Paul Arriola",
+          "position": "Gelandang",
+          "rating": "7.6"
+        },
+        {
+          "number": 19,
+          "name": "Daniel Musovski",
+          "position": "Penyerang",
+          "rating": "7.2"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 39,
+          "name": "Stuart Hawkins",
+          "position": "Bek",
+          "rating": "7.2"
+        },
+        {
+          "number": 45,
+          "name": "Peter Kingston",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 31,
+          "name": "Hassani Dotson",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 13,
+          "name": "Jordan Morris",
+          "position": "Penyerang",
+          "rating": "6.9"
+        },
+        {
+          "number": 8,
+          "name": "Caden Clark",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 24,
+          "name": "Stefan Frei",
+          "position": "Kiper"
+        },
+        {
+          "number": 28,
+          "name": "Yeimar Gómez",
+          "position": "Bek"
+        },
+        {
+          "number": 35,
+          "name": "Antino Lopez",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "Ryan Sailor",
+          "position": "Bek"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "coach": "Pablo Mastroeni",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Rafael Cabral",
+          "position": "Kiper",
+          "rating": "6.2"
+        },
+        {
+          "number": 2,
+          "name": "DeAndre Yedlin",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 26,
+          "name": "Philip Quinton",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 3,
+          "name": "Kobi Henry",
+          "position": "Bek",
+          "rating": "6.6"
+        },
+        {
+          "number": 11,
+          "name": "Dominik Marczuk",
+          "position": "Gelandang",
+          "rating": "6.0"
+        },
+        {
+          "number": 6,
+          "name": "Stijn Spierings",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 92,
+          "name": "Noel Caliskan",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 29,
+          "name": "Sam Junqua",
+          "position": "Gelandang",
+          "rating": "6.2"
+        },
+        {
+          "number": 34,
+          "name": "Luca Moisa",
+          "position": "Penyerang",
+          "rating": "6.6"
+        },
+        {
+          "number": 9,
+          "name": "Morgan Guilavogui",
+          "position": "Penyerang",
+          "rating": "7.3"
+        },
+        {
+          "number": 22,
+          "name": "Sergi Solans",
+          "position": "Penyerang",
+          "rating": "6.6"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 12,
+          "name": "Saba Lobzhanidze",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 25,
+          "name": "Colin Guske",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 18,
+          "name": "Taylor Booth",
+          "position": "Penyerang",
+          "rating": "6.6"
+        },
+        {
+          "number": 70,
+          "name": "Lineker Rodrigues",
+          "position": "Penyerang",
+          "rating": "6.3"
+        },
+        {
+          "number": 76,
+          "name": "Liam O'Gara",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 31,
+          "name": "Mason Stajduhar",
+          "position": "Kiper"
+        },
+        {
+          "number": 39,
+          "name": "Aiden  Hezarkhani",
+          "position": "Penyerang"
+        },
+        {
+          "number": 13,
+          "name": "Jason Shokalook",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Lumen Field",
     "city": "Seattle",
