@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-24T00:08:24.135Z.
+   API-Football v3) pada 2026-09-24T05:40:56.507Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Lumen Field",
         "prediction": "2 - 1",
         "analysis": "Seattle Sounders bertemu Real Salt Lake dalam laga MLS. Analisis API-Football: Double chance : Seattle Sounders or draw.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 2,
+        "awayScore": 0,
         "odds": {
             "home": 45,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
         "awayLogo": "https://media.api-sports.io/football/teams/1606.png",
         "h2h": [
+            {
+                "home": "Seattle Sounders",
+                "away": "Real Salt Lake",
+                "score": "2-0"
+            },
             {
                 "home": "Real Salt Lake",
                 "away": "Seattle Sounders",
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Seattle Sounders",
                 "away": "Real Salt Lake",
                 "score": "1-1"
-            },
-            {
-                "home": "Real Salt Lake",
-                "away": "Seattle Sounders",
-                "score": "2-0"
             }
         ],
         "form": {
@@ -74,11 +77,11 @@ const siteData = {
                     "D",
                     "D",
                     "D",
-                    "D"
+                    "W"
                 ],
-                "cleanSheets": 6,
+                "cleanSheets": 7,
                 "failedToScore": 6,
-                "goalsFor": 28,
+                "goalsFor": 30,
                 "goalsAgainst": 33,
                 "winStreak": 3,
                 "attack": 70,
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Real Salt Lake",
             "stadium": "Lumen Field",
             "round": "Pekan 7",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1606.png",
             "prediction": "2 - 1",
@@ -146,7 +152,57 @@ const siteData = {
                     "home": 30,
                     "away": 70
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "48",
+                    "player": "D. Musovski",
+                    "team": "home"
+                },
+                {
+                    "minute": "73",
+                    "player": "A. Rusnak",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "10",
+                    "player": "K. Kossa-Rienzi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "41",
+                    "player": "P. Arriola",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "P. Kingston",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "D. Musovski",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "K. Henry",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "D. Yedlin",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1467,7 +1523,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "24/09/2026 07:08 WIB",
+    "standingsUpdated": "24/09/2026 12:40 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35976,7 +36032,7 @@ const siteData = {
                 "time": "08:00",
                 "home": "Atlante FC",
                 "away": "Monterrey",
-                "stadium": "Estadio Banorte",
+                "stadium": "Estadio Azul",
                 "round": "Apertura - 10",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
@@ -36066,7 +36122,7 @@ const siteData = {
                 "time": "10:00",
                 "home": "Club Tijuana",
                 "away": "Atlas",
-                "stadium": "Estadio Caliente",
+                "stadium": "Estadio Caliente ",
                 "round": "Apertura - 10",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
