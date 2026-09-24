@@ -2,9 +2,40 @@
   "fixtureId": 1490209,
   "home": "Seattle Sounders",
   "away": "Real Salt Lake",
-  "statusCode": "NS",
-  "updatedAt": "24/09/2026 06:54 WIB",
-  "statistics": null,
+  "statusCode": "FT",
+  "updatedAt": "24/09/2026 10:54 WIB",
+  "statistics": {
+    "home": {
+      "possession": 53,
+      "shotsTotal": 11,
+      "shotsOnTarget": 4,
+      "corners": 7,
+      "fouls": 10,
+      "offsides": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "shotsInsidebox": 7,
+      "shotsOutsidebox": 4,
+      "passesTotal": 553,
+      "passesAccurate": 466,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 47,
+      "shotsTotal": 12,
+      "shotsOnTarget": 2,
+      "corners": 6,
+      "fouls": 9,
+      "offsides": 2,
+      "yellowCards": 2,
+      "redCards": 0,
+      "shotsInsidebox": 6,
+      "shotsOutsidebox": 5,
+      "passesTotal": 485,
+      "passesAccurate": 405,
+      "passesPct": null
+    }
+  },
   "lineups": null,
   "venue": {
     "name": "Lumen Field",
