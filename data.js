@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-25T17:39:47.939Z.
+   API-Football v3) pada 2026-09-25T20:54:48.349Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -84,51 +84,6 @@ const siteData = {
     },
     "matches": [
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-09-26",
-            "time": "08:00",
-            "home": "Correcaminos Uat",
-            "away": "CDS Tampico Madero",
-            "stadium": "",
-            "round": "Apertura - 10",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or CDS Tampico Madero",
-            "comparison": {
-                "form": {
-                    "home": 42,
-                    "away": 58
-                },
-                "att": {
-                    "home": 47,
-                    "away": 53
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 88,
-                    "away": 12
-                },
-                "h2h": {
-                    "home": 36,
-                    "away": 64
-                },
-                "goals": {
-                    "home": 40,
-                    "away": 60
-                }
-            }
-        },
-        {
             "league": "Liga MX",
             "date": "2026-09-26",
             "time": "08:00",
@@ -170,6 +125,51 @@ const siteData = {
                 "goals": {
                     "home": 50,
                     "away": 50
+                }
+            }
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-09-26",
+            "time": "08:00",
+            "home": "Correcaminos Uat",
+            "away": "CDS Tampico Madero",
+            "stadium": "",
+            "round": "Apertura - 10",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or CDS Tampico Madero",
+            "comparison": {
+                "form": {
+                    "home": 42,
+                    "away": 58
+                },
+                "att": {
+                    "home": 47,
+                    "away": 53
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 88,
+                    "away": 12
+                },
+                "h2h": {
+                    "home": 36,
+                    "away": 64
+                },
+                "goals": {
+                    "home": 40,
+                    "away": 60
                 }
             }
         },
@@ -1537,7 +1537,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/09/2026 00:39 WIB",
+    "standingsUpdated": "26/09/2026 03:54 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4643,7 +4643,7 @@ const siteData = {
             {
                 "player": "A. Bernabe",
                 "photo": "https://media.api-sports.io/football/players/628.png",
-                "reason": "Injury",
+                "reason": "Thigh Injury",
                 "since": "2026-09-20"
             },
             {
