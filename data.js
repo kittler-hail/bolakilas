@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-25T20:54:48.349Z.
+   API-Football v3) pada 2026-09-25T23:43:23.473Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -84,51 +84,6 @@ const siteData = {
     },
     "matches": [
         {
-            "league": "Liga MX",
-            "date": "2026-09-26",
-            "time": "08:00",
-            "home": "Atlante FC",
-            "away": "Monterrey",
-            "stadium": "Estadio Azul",
-            "round": "Apertura - 10",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Monterrey",
-            "comparison": {
-                "form": {
-                    "home": 30,
-                    "away": 70
-                },
-                "att": {
-                    "home": 27,
-                    "away": 73
-                },
-                "def": {
-                    "home": 43,
-                    "away": 57
-                },
-                "poisson": {
-                    "home": 32,
-                    "away": 68
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            }
-        },
-        {
             "league": "Liga de Expansion MX",
             "date": "2026-09-26",
             "time": "08:00",
@@ -170,6 +125,51 @@ const siteData = {
                 "goals": {
                     "home": 40,
                     "away": 60
+                }
+            }
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-09-26",
+            "time": "08:00",
+            "home": "Atlante FC",
+            "away": "Monterrey",
+            "stadium": "Estadio Azul",
+            "round": "Apertura - 10",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Monterrey",
+            "comparison": {
+                "form": {
+                    "home": 30,
+                    "away": 70
+                },
+                "att": {
+                    "home": 27,
+                    "away": 73
+                },
+                "def": {
+                    "home": 43,
+                    "away": 57
+                },
+                "poisson": {
+                    "home": 32,
+                    "away": 68
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
                 }
             }
         },
@@ -1537,7 +1537,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/09/2026 03:54 WIB",
+    "standingsUpdated": "26/09/2026 06:43 WIB",
     "topScorers": {
         "Premier League": [
             {
