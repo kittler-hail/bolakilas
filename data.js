@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-24T22:51:59.013Z.
+   API-Football v3) pada 2026-09-25T01:03:27.221Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -19,64 +19,141 @@ const siteData = {
         "league": "Liga de Expansion MX",
         "date": "2026-09-25",
         "time": "08:00",
-        "home": "Mineros de Zacatecas",
-        "away": "Piratas",
-        "stadium": "Estadio Carlos Vega Villalba",
+        "home": "Alebrijes de Oaxaca",
+        "away": "CA La Paz",
+        "stadium": "",
         "prediction": "1 - 2",
-        "analysis": "Mineros de Zacatecas bertemu Piratas dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or Piratas.",
-        "statusCode": "NS",
+        "analysis": "Alebrijes de Oaxaca bertemu CA La Paz dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or CA La Paz.",
+        "statusCode": "1H",
+        "minuteDisplay": "3'",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
-            "home": 10,
-            "draw": 45,
-            "away": 45
+            "home": 34,
+            "draw": 50,
+            "away": 50
         },
         "probability": {
-            "home": 10,
-            "draw": 45,
-            "away": 45
+            "home": 34,
+            "draw": 50,
+            "away": 50
         },
-        "apiFixtureId": 1581479,
-        "homeTeamId": 2299,
-        "awayTeamId": 27935,
-        "homeLogo": "https://media.api-sports.io/football/teams/2299.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
-        "h2h": [],
+        "apiFixtureId": 1581432,
+        "homeTeamId": 2300,
+        "awayTeamId": 19024,
+        "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+        "h2h": [
+            {
+                "home": "CA La Paz",
+                "away": "Alebrijes de Oaxaca",
+                "score": "4-0"
+            },
+            {
+                "home": "Alebrijes de Oaxaca",
+                "away": "CA La Paz",
+                "score": "1-1"
+            },
+            {
+                "home": "Alebrijes de Oaxaca",
+                "away": "CA La Paz",
+                "score": "2-2"
+            },
+            {
+                "home": "CA La Paz",
+                "away": "Alebrijes de Oaxaca",
+                "score": "2-1"
+            },
+            {
+                "home": "CA La Paz",
+                "away": "Alebrijes de Oaxaca",
+                "score": "3-2"
+            }
+        ],
         "form": {
             "home": {
                 "results": [
                     "L",
+                    "D",
+                    "L",
                     "W",
-                    "L",
-                    "L",
-                    "W"
+                    "L"
                 ],
-                "cleanSheets": 2,
-                "failedToScore": 2,
-                "goalsFor": 18,
+                "cleanSheets": 3,
+                "failedToScore": 3,
+                "goalsFor": 7,
                 "goalsAgainst": 15,
-                "winStreak": 1,
-                "attack": 38,
-                "defense": 38
+                "winStreak": 2,
+                "attack": 27,
+                "defense": 33
             },
             "away": {
                 "results": [
-                    "L",
                     "D",
+                    "W",
                     "W",
                     "D",
                     "W"
                 ],
                 "cleanSheets": 3,
-                "failedToScore": 3,
-                "goalsFor": 12,
-                "goalsAgainst": 7,
+                "failedToScore": 1,
+                "goalsFor": 20,
+                "goalsAgainst": 10,
                 "winStreak": 2,
-                "attack": 62,
-                "defense": 62
+                "attack": 73,
+                "defense": 67
             }
         }
     },
     "matches": [
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-09-25",
+            "time": "08:00",
+            "home": "Alebrijes de Oaxaca",
+            "away": "CA La Paz",
+            "stadium": "",
+            "round": "Apertura - 10",
+            "statusCode": "1H",
+            "minuteDisplay": "3'",
+            "homeScore": 0,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Double chance : draw or CA La Paz",
+            "comparison": {
+                "form": {
+                    "home": 27,
+                    "away": 73
+                },
+                "att": {
+                    "home": 27,
+                    "away": 73
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 29,
+                    "away": 71
+                },
+                "h2h": {
+                    "home": 15,
+                    "away": 85
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            }
+        },
         {
             "league": "Liga de Expansion MX",
             "date": "2026-09-25",
@@ -119,51 +196,6 @@ const siteData = {
                 "goals": {
                     "home": 0,
                     "away": 0
-                }
-            }
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-09-25",
-            "time": "08:00",
-            "home": "Alebrijes de Oaxaca",
-            "away": "CA La Paz",
-            "stadium": "",
-            "round": "Apertura - 10",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Double chance : draw or CA La Paz",
-            "comparison": {
-                "form": {
-                    "home": 27,
-                    "away": 73
-                },
-                "att": {
-                    "home": 27,
-                    "away": 73
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 29,
-                    "away": 71
-                },
-                "h2h": {
-                    "home": 15,
-                    "away": 85
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
                 }
             }
         }
@@ -1486,7 +1518,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/09/2026 05:51 WIB",
+    "standingsUpdated": "25/09/2026 08:03 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35309,51 +35341,6 @@ const siteData = {
     "upcoming": {
         "2026-09-26": [
             {
-                "league": "Liga MX",
-                "date": "2026-09-26",
-                "time": "08:00",
-                "home": "Atlante FC",
-                "away": "Monterrey",
-                "stadium": "Estadio Azul",
-                "round": "Apertura - 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Monterrey",
-                "comparison": {
-                    "form": {
-                        "home": 30,
-                        "away": 70
-                    },
-                    "att": {
-                        "home": 27,
-                        "away": 73
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 32,
-                        "away": 68
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-09-26",
                 "time": "08:00",
@@ -35395,6 +35382,51 @@ const siteData = {
                     "goals": {
                         "home": 40,
                         "away": 60
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-09-26",
+                "time": "08:00",
+                "home": "Atlante FC",
+                "away": "Monterrey",
+                "stadium": "Estadio Azul",
+                "round": "Apertura - 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Monterrey",
+                "comparison": {
+                    "form": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "att": {
+                        "home": 27,
+                        "away": 73
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 32,
+                        "away": 68
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
@@ -35946,7 +35978,7 @@ const siteData = {
                 "time": "07:30",
                 "home": "FC Dallas",
                 "away": "Los Angeles FC",
-                "stadium": "Toyota Stadium",
+                "stadium": "Toyota Stadium(Texas)",
                 "round": "Pekan 27",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1597.png",
@@ -35991,7 +36023,7 @@ const siteData = {
                 "time": "07:30",
                 "home": "Houston Dynamo",
                 "away": "Sporting Kansas City",
-                "stadium": "Shell Energy Stadium",
+                "stadium": "BBVA Compass Stadium",
                 "round": "Pekan 27",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1600.png",
@@ -36171,7 +36203,7 @@ const siteData = {
                 "time": "08:30",
                 "home": "Real Salt Lake",
                 "away": "New England Revolution",
-                "stadium": "America First Field",
+                "stadium": "Rio Tinto Stadium",
                 "round": "Pekan 27",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
@@ -36216,7 +36248,7 @@ const siteData = {
                 "time": "09:30",
                 "home": "San Jose Earthquakes",
                 "away": "Portland Timbers",
-                "stadium": "PayPal Park",
+                "stadium": "Avaya Stadium",
                 "round": "Pekan 27",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1596.png",
@@ -36351,7 +36383,7 @@ const siteData = {
                 "time": "10:05",
                 "home": "Santos Laguna",
                 "away": "CF Pachuca",
-                "stadium": "Estadio Corona",
+                "stadium": "Estadio TSM Corona",
                 "round": "Apertura - 10",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
