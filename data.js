@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-25T01:03:27.221Z.
+   API-Football v3) pada 2026-09-25T06:54:04.686Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -19,89 +19,69 @@ const siteData = {
         "league": "Liga de Expansion MX",
         "date": "2026-09-25",
         "time": "08:00",
-        "home": "Alebrijes de Oaxaca",
-        "away": "CA La Paz",
-        "stadium": "",
+        "home": "Mineros de Zacatecas",
+        "away": "Piratas",
+        "stadium": "Estadio Carlos Vega Villalba",
         "prediction": "1 - 2",
-        "analysis": "Alebrijes de Oaxaca bertemu CA La Paz dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or CA La Paz.",
-        "statusCode": "1H",
-        "minuteDisplay": "3'",
-        "homeScore": 0,
+        "analysis": "Mineros de Zacatecas bertemu Piratas dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or Piratas.",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 3,
         "awayScore": 0,
         "odds": {
-            "home": 34,
-            "draw": 50,
-            "away": 50
+            "home": 10,
+            "draw": 45,
+            "away": 45
         },
         "probability": {
-            "home": 34,
-            "draw": 50,
-            "away": 50
+            "home": 10,
+            "draw": 45,
+            "away": 45
         },
-        "apiFixtureId": 1581432,
-        "homeTeamId": 2300,
-        "awayTeamId": 19024,
-        "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+        "apiFixtureId": 1581479,
+        "homeTeamId": 2299,
+        "awayTeamId": 27935,
+        "homeLogo": "https://media.api-sports.io/football/teams/2299.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
         "h2h": [
             {
-                "home": "CA La Paz",
-                "away": "Alebrijes de Oaxaca",
-                "score": "4-0"
-            },
-            {
-                "home": "Alebrijes de Oaxaca",
-                "away": "CA La Paz",
-                "score": "1-1"
-            },
-            {
-                "home": "Alebrijes de Oaxaca",
-                "away": "CA La Paz",
-                "score": "2-2"
-            },
-            {
-                "home": "CA La Paz",
-                "away": "Alebrijes de Oaxaca",
-                "score": "2-1"
-            },
-            {
-                "home": "CA La Paz",
-                "away": "Alebrijes de Oaxaca",
-                "score": "3-2"
+                "home": "Mineros de Zacatecas",
+                "away": "Piratas",
+                "score": "3-0"
             }
         ],
         "form": {
             "home": {
                 "results": [
+                    "W",
                     "L",
-                    "D",
                     "L",
                     "W",
-                    "L"
+                    "W"
                 ],
                 "cleanSheets": 3,
-                "failedToScore": 3,
-                "goalsFor": 7,
+                "failedToScore": 2,
+                "goalsFor": 21,
                 "goalsAgainst": 15,
-                "winStreak": 2,
-                "attack": 27,
-                "defense": 33
+                "winStreak": 1,
+                "attack": 38,
+                "defense": 38
             },
             "away": {
                 "results": [
                     "D",
                     "W",
-                    "W",
                     "D",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 3,
-                "failedToScore": 1,
-                "goalsFor": 20,
+                "failedToScore": 4,
+                "goalsFor": 12,
                 "goalsAgainst": 10,
                 "winStreak": 2,
-                "attack": 73,
-                "defense": 67
+                "attack": 62,
+                "defense": 62
             }
         }
     },
@@ -110,59 +90,14 @@ const siteData = {
             "league": "Liga de Expansion MX",
             "date": "2026-09-25",
             "time": "08:00",
-            "home": "Alebrijes de Oaxaca",
-            "away": "CA La Paz",
-            "stadium": "",
-            "round": "Apertura - 10",
-            "statusCode": "1H",
-            "minuteDisplay": "3'",
-            "homeScore": 0,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 34,
-                "draw": 50,
-                "away": 50
-            },
-            "advice": "Double chance : draw or CA La Paz",
-            "comparison": {
-                "form": {
-                    "home": 27,
-                    "away": 73
-                },
-                "att": {
-                    "home": 27,
-                    "away": 73
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 29,
-                    "away": 71
-                },
-                "h2h": {
-                    "home": 15,
-                    "away": 85
-                },
-                "goals": {
-                    "home": 33,
-                    "away": 67
-                }
-            }
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-09-25",
-            "time": "08:00",
             "home": "Mineros de Zacatecas",
             "away": "Piratas",
             "stadium": "Estadio Carlos Vega Villalba",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2299.png",
             "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
             "prediction": "1 - 2",
@@ -197,7 +132,200 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "23",
+                    "player": "U. Garcia",
+                    "team": "away"
+                },
+                {
+                    "minute": "28",
+                    "player": "L. Sandoval",
+                    "team": "home"
+                },
+                {
+                    "minute": "49",
+                    "player": "L. Sandoval",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "13",
+                    "player": "O. Soto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "44",
+                    "player": "A. Garcia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "E. Carballo",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "45+6",
+                    "player": "J. Avila",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "O. Soto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "O. Soto",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "72",
+                    "player": "D. Cruz",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "U. Garcia",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "D. Cruz",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "D. Cruz",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "J. Machado",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-09-25",
+            "time": "08:00",
+            "home": "Alebrijes de Oaxaca",
+            "away": "CA La Paz",
+            "stadium": "",
+            "round": "Apertura - 10",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
+            "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 34,
+                "draw": 50,
+                "away": 50
+            },
+            "advice": "Double chance : draw or CA La Paz",
+            "comparison": {
+                "form": {
+                    "home": 27,
+                    "away": 73
+                },
+                "att": {
+                    "home": 27,
+                    "away": 73
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 29,
+                    "away": 71
+                },
+                "h2h": {
+                    "home": 15,
+                    "away": 85
+                },
+                "goals": {
+                    "home": 33,
+                    "away": 67
+                }
+            },
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "A. Robles",
+                    "team": "away"
+                },
+                {
+                    "minute": "79",
+                    "player": "U. Zurita Jimenez",
+                    "team": "away"
+                },
+                {
+                    "minute": "83",
+                    "player": "B. Fadika",
+                    "team": "home"
+                },
+                {
+                    "minute": "84",
+                    "player": "J. Ferrer",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "A. Tecpanecatl",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "35",
+                    "player": "U. Zurita Jimenez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "Andrey Marcos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "44",
+                    "player": "E. Torres",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "K. Alvarez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "O. Millan",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1518,7 +1646,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/09/2026 08:03 WIB",
+    "standingsUpdated": "25/09/2026 13:54 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -35341,51 +35469,6 @@ const siteData = {
     "upcoming": {
         "2026-09-26": [
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-09-26",
-                "time": "08:00",
-                "home": "Correcaminos Uat",
-                "away": "CDS Tampico Madero",
-                "stadium": "",
-                "round": "Apertura - 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or CDS Tampico Madero",
-                "comparison": {
-                    "form": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "att": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 88,
-                        "away": 12
-                    },
-                    "h2h": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "goals": {
-                        "home": 40,
-                        "away": 60
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-09-26",
                 "time": "08:00",
@@ -35427,6 +35510,51 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-09-26",
+                "time": "08:00",
+                "home": "Correcaminos Uat",
+                "away": "CDS Tampico Madero",
+                "stadium": "",
+                "round": "Apertura - 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or CDS Tampico Madero",
+                "comparison": {
+                    "form": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 88,
+                        "away": 12
+                    },
+                    "h2h": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "goals": {
+                        "home": 40,
+                        "away": 60
                     }
                 }
             },
