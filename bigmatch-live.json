@@ -1,27 +1,12 @@
 {
-  "fixtureId": 1581479,
-  "home": "Mineros de Zacatecas",
-  "away": "Piratas",
-  "statusCode": "NS",
-  "updatedAt": "25/09/2026 07:04 WIB",
+  "fixtureId": 1581432,
+  "home": "Alebrijes de Oaxaca",
+  "away": "CA La Paz",
+  "statusCode": "FT",
+  "updatedAt": "25/09/2026 11:51 WIB",
   "statistics": null,
   "lineups": null,
-  "venue": {
-    "name": "Estadio Carlos Vega Villalba",
-    "city": "Zacatecas",
-    "capacity": 18000,
-    "image": "https://media.api-sports.io/football/venues/1821.png"
-  },
-  "odds": {
-    "bookmaker": "William Hill",
-    "home": "2.80",
-    "draw": "3.00",
-    "away": "2.30",
-    "overUnder": null,
-    "btts": {
-      "yes": "1.75",
-      "no": "1.95"
-    }
-  },
+  "venue": null,
+  "odds": null,
   "liveOdds": null
 }
