@@ -3,9 +3,236 @@
   "home": "Atlante FC",
   "away": "Monterrey",
   "statusCode": "NS",
-  "updatedAt": "26/09/2026 05:31 WIB",
+  "updatedAt": "26/09/2026 07:50 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "5-3-2",
+      "coach": "Miguel Herrera",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Ó. Jiménez",
+          "position": "Kiper"
+        },
+        {
+          "number": 29,
+          "name": "Walter Portales",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "J. N. Carrera",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "E. Tercero",
+          "position": "Bek"
+        },
+        {
+          "number": 44,
+          "name": "A. Quiroz",
+          "position": "Bek"
+        },
+        {
+          "number": 37,
+          "name": "W. Clar",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "E. Pizzuto",
+          "position": "Gelandang"
+        },
+        {
+          "number": 30,
+          "name": "M. Sarrafiore",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "L. Calzadilla",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "L. Puente",
+          "position": "Penyerang"
+        },
+        {
+          "number": 7,
+          "name": "J. Julio",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 20,
+          "name": "G. Adame",
+          "position": "Gelandang"
+        },
+        {
+          "number": 14,
+          "name": "C. Alfaro",
+          "position": "Bek"
+        },
+        {
+          "number": 22,
+          "name": "R. Barragan",
+          "position": "Kiper"
+        },
+        {
+          "number": 18,
+          "name": "C. Bermúdez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 15,
+          "name": "Jairón Andrés Charcopa Cabezas",
+          "position": "Penyerang"
+        },
+        {
+          "number": 27,
+          "name": "A. Escobar",
+          "position": "Bek"
+        },
+        {
+          "number": 25,
+          "name": "M. Fernández",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Joaquin Alejandro Moxica Chapa",
+          "position": "Penyerang"
+        },
+        {
+          "number": 3,
+          "name": "G. Sánchez",
+          "position": "Bek"
+        },
+        {
+          "number": 10,
+          "name": "O. Vazquez",
+          "position": "Gelandang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "M. Almeyda",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "E. Andrada",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "R. Chávez",
+          "position": "Bek"
+        },
+        {
+          "number": 13,
+          "name": "C. Salcedo",
+          "position": "Bek"
+        },
+        {
+          "number": 19,
+          "name": "A. Aceves",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "G. Arteaga",
+          "position": "Bek"
+        },
+        {
+          "number": 8,
+          "name": "Óliver Torres",
+          "position": "Gelandang"
+        },
+        {
+          "number": 5,
+          "name": "F. Ambríz",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "L. Orellano",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "Cesar Garza Cantu",
+          "position": "Gelandang"
+        },
+        {
+          "number": 17,
+          "name": "J. Corona",
+          "position": "Gelandang"
+        },
+        {
+          "number": 99,
+          "name": "H. Cuypers",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 32,
+          "name": "U. Đurđević",
+          "position": "Penyerang"
+        },
+        {
+          "number": 27,
+          "name": "R. de la Rosa",
+          "position": "Penyerang"
+        },
+        {
+          "number": 9,
+          "name": "D. Rossi",
+          "position": "Gelandang"
+        },
+        {
+          "number": 30,
+          "name": "J. Rodríguez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 21,
+          "name": "L. Reyes",
+          "position": "Bek"
+        },
+        {
+          "number": 33,
+          "name": "S. Medina",
+          "position": "Bek"
+        },
+        {
+          "number": 200,
+          "name": "O. Galvez",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "Iker Jareth Fimbres Ochoa",
+          "position": "Gelandang"
+        },
+        {
+          "number": 22,
+          "name": "L. Cárdenas",
+          "position": "Kiper"
+        },
+        {
+          "number": 14,
+          "name": "É. Aguirre",
+          "position": "Gelandang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Estadio Ciudad de los Deportes",
     "city": "D.F.",
