@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-25T23:43:23.473Z.
+   API-Football v3) pada 2026-09-26T02:45:09.185Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Estadio Azul",
         "prediction": "1 - 2",
         "analysis": "Atlante FC bertemu Monterrey dalam laga Liga MX. Analisis API-Football: Double chance : draw or Monterrey.",
-        "statusCode": "NS",
+        "statusCode": "2H",
+        "minuteDisplay": "83'",
+        "homeScore": 3,
+        "awayScore": 2,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
         "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
         "h2h": [
+            {
+                "home": "Atlante FC",
+                "away": "Monterrey",
+                "score": "3-2"
+            },
             {
                 "home": "Atlante FC",
                 "away": "Monterrey",
@@ -84,51 +92,6 @@ const siteData = {
     },
     "matches": [
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-09-26",
-            "time": "08:00",
-            "home": "Correcaminos Uat",
-            "away": "CDS Tampico Madero",
-            "stadium": "",
-            "round": "Apertura - 10",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or CDS Tampico Madero",
-            "comparison": {
-                "form": {
-                    "home": 42,
-                    "away": 58
-                },
-                "att": {
-                    "home": 47,
-                    "away": 53
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 88,
-                    "away": 12
-                },
-                "h2h": {
-                    "home": 36,
-                    "away": 64
-                },
-                "goals": {
-                    "home": 40,
-                    "away": 60
-                }
-            }
-        },
-        {
             "league": "Liga MX",
             "date": "2026-09-26",
             "time": "08:00",
@@ -136,7 +99,10 @@ const siteData = {
             "away": "Monterrey",
             "stadium": "Estadio Azul",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "83'",
+            "homeScore": 3,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
             "prediction": "1 - 2",
@@ -171,7 +137,130 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Luis Puente",
+                    "team": "home"
+                },
+                {
+                    "minute": "18",
+                    "player": "Hugo Cuypers",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "Luis Calzadilla",
+                    "team": "home"
+                },
+                {
+                    "minute": "64",
+                    "player": "Eduardo Tercero",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "Juan Carrera",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Jesús Corona",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-09-26",
+            "time": "08:00",
+            "home": "Correcaminos Uat",
+            "away": "CDS Tampico Madero",
+            "stadium": "",
+            "round": "Apertura - 10",
+            "statusCode": "2H",
+            "minuteDisplay": "81'",
+            "homeScore": 1,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or CDS Tampico Madero",
+            "comparison": {
+                "form": {
+                    "home": 42,
+                    "away": 58
+                },
+                "att": {
+                    "home": 47,
+                    "away": 53
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 88,
+                    "away": 12
+                },
+                "h2h": {
+                    "home": 36,
+                    "away": 64
+                },
+                "goals": {
+                    "home": 40,
+                    "away": 60
+                }
+            },
+            "goals": [
+                {
+                    "minute": "55",
+                    "player": "O. Islas",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "34",
+                    "player": "O. Manzanarez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "N. Arriaga",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "W. Ortega",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "O. Manzanarez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "O. Manzanarez",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1537,7 +1626,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/09/2026 06:43 WIB",
+    "standingsUpdated": "26/09/2026 09:45 WIB",
     "topScorers": {
         "Premier League": [
             {
