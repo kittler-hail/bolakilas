@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-26T17:30:58.431Z.
+   API-Football v3) pada 2026-09-26T20:25:49.018Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -101,7 +101,10 @@ const siteData = {
             "away": "Leones Negros UDG",
             "stadium": "Estadio 10 de Diciembre",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/15928.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
             "prediction": "2 - 3",
@@ -136,7 +139,56 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "23",
+                    "player": "I. Ramirez",
+                    "team": "home"
+                },
+                {
+                    "minute": "56",
+                    "player": "L. Razo",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "L. Razo",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "34",
+                    "player": "O. Gil",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "R. Rubio",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "I. Ramirez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "S. De Los Rios",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "J. Escalante",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -2402,7 +2454,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/09/2026 00:30 WIB",
+    "standingsUpdated": "27/09/2026 03:25 WIB",
     "topScorers": {
         "Premier League": [
             {
