@@ -2,9 +2,40 @@
   "fixtureId": 1550975,
   "home": "Atlante FC",
   "away": "Monterrey",
-  "statusCode": "NS",
-  "updatedAt": "26/09/2026 07:50 WIB",
-  "statistics": null,
+  "statusCode": "FT",
+  "updatedAt": "26/09/2026 12:45 WIB",
+  "statistics": {
+    "home": {
+      "possession": 40,
+      "shotsTotal": 14,
+      "shotsOnTarget": 7,
+      "corners": 2,
+      "fouls": 8,
+      "offsides": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "shotsInsidebox": 7,
+      "shotsOutsidebox": 7,
+      "passesTotal": 373,
+      "passesAccurate": 283,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 60,
+      "shotsTotal": 17,
+      "shotsOnTarget": 7,
+      "corners": 6,
+      "fouls": 10,
+      "offsides": 4,
+      "yellowCards": 2,
+      "redCards": 0,
+      "shotsInsidebox": 10,
+      "shotsOutsidebox": 7,
+      "passesTotal": 544,
+      "passesAccurate": 446,
+      "passesPct": null
+    }
+  },
   "lineups": {
     "home": {
       "formation": "5-3-2",
@@ -13,109 +44,130 @@
         {
           "number": 1,
           "name": "Ó. Jiménez",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "7.4"
         },
         {
           "number": 29,
           "name": "Walter Portales",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.8"
         },
         {
           "number": 6,
           "name": "J. N. Carrera",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.5"
         },
         {
           "number": 4,
           "name": "E. Tercero",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "7.6"
         },
         {
           "number": 44,
           "name": "A. Quiroz",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "5.7"
         },
         {
           "number": 37,
           "name": "W. Clar",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "5.8"
         },
         {
           "number": 8,
           "name": "E. Pizzuto",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.4"
         },
         {
           "number": 30,
           "name": "M. Sarrafiore",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 19,
           "name": "L. Calzadilla",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "7.3"
         },
         {
           "number": 9,
           "name": "L. Puente",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "8.2"
         },
         {
           "number": 7,
           "name": "J. Julio",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "9.0"
         }
       ],
       "substitutes": [
         {
           "number": 20,
           "name": "G. Adame",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 14,
           "name": "C. Alfaro",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.1"
         },
         {
           "number": 22,
           "name": "R. Barragan",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 18,
           "name": "C. Bermúdez",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.0"
         },
         {
           "number": 15,
           "name": "Jairón Andrés Charcopa Cabezas",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "0.0"
         },
         {
           "number": 27,
           "name": "A. Escobar",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.2"
         },
         {
           "number": 25,
           "name": "M. Fernández",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.0"
         },
         {
           "number": 11,
           "name": "Joaquin Alejandro Moxica Chapa",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.6"
         },
         {
           "number": 3,
           "name": "G. Sánchez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 10,
           "name": "O. Vazquez",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         }
       ]
     },
@@ -126,109 +178,130 @@
         {
           "number": 1,
           "name": "E. Andrada",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "5.7"
         },
         {
           "number": 2,
           "name": "R. Chávez",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.2"
         },
         {
           "number": 13,
           "name": "C. Salcedo",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.2"
         },
         {
           "number": 19,
           "name": "A. Aceves",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "5.6"
         },
         {
           "number": 3,
           "name": "G. Arteaga",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "6.5"
         },
         {
           "number": 8,
           "name": "Óliver Torres",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.5"
         },
         {
           "number": 5,
           "name": "F. Ambríz",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.3"
         },
         {
           "number": 10,
           "name": "L. Orellano",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.1"
         },
         {
           "number": 18,
           "name": "Cesar Garza Cantu",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.4"
         },
         {
           "number": 17,
           "name": "J. Corona",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "5.6"
         },
         {
           "number": 99,
           "name": "H. Cuypers",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "8.1"
         }
       ],
       "substitutes": [
         {
           "number": 32,
           "name": "U. Đurđević",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "6.4"
         },
         {
           "number": 27,
           "name": "R. de la Rosa",
-          "position": "Penyerang"
+          "position": "Penyerang",
+          "rating": "7.4"
         },
         {
           "number": 9,
           "name": "D. Rossi",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "6.0"
         },
         {
           "number": 30,
           "name": "J. Rodríguez",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 21,
           "name": "L. Reyes",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 33,
           "name": "S. Medina",
-          "position": "Bek"
+          "position": "Bek",
+          "rating": "0.0"
         },
         {
           "number": 200,
           "name": "O. Galvez",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "5.8"
         },
         {
           "number": 11,
           "name": "Iker Jareth Fimbres Ochoa",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         },
         {
           "number": 22,
           "name": "L. Cárdenas",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 14,
           "name": "É. Aguirre",
-          "position": "Gelandang"
+          "position": "Gelandang",
+          "rating": "0.0"
         }
       ]
     }
