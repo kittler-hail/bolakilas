@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-26T20:25:49.018Z.
+   API-Football v3) pada 2026-09-26T23:16:34.138Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -198,7 +198,10 @@ const siteData = {
             "away": "Cancún",
             "stadium": "Estadio Tlahuicole",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "51'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
             "prediction": "1 - 2",
@@ -233,7 +236,39 @@ const siteData = {
                     "home": 36,
                     "away": 64
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "23",
+                    "player": "C. Trejo",
+                    "team": "away"
+                },
+                {
+                    "minute": "33",
+                    "player": "D. Alvarez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "L. Ruiz",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "19",
+                    "player": "E. Santos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "C. Trejo",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -243,7 +278,10 @@ const siteData = {
             "away": "Toluca",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
             "prediction": "1 - 2",
@@ -278,7 +316,14 @@ const siteData = {
                     "home": 62,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "7",
+                    "player": "Nicolás Ibañez",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -288,7 +333,10 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Carlos Iturralde Rivero",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "16'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2311.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
             "prediction": "2 - 3",
@@ -333,7 +381,10 @@ const siteData = {
             "away": "Club Queretaro",
             "stadium": "Estadio Akron",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "8'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
             "prediction": "2 - 1",
@@ -2454,7 +2505,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/09/2026 03:25 WIB",
+    "standingsUpdated": "27/09/2026 06:16 WIB",
     "topScorers": {
         "Premier League": [
             {
