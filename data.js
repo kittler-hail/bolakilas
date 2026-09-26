@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-26T02:45:09.185Z.
+   API-Football v3) pada 2026-09-26T08:09:53.518Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,9 +24,9 @@ const siteData = {
         "stadium": "Estadio Azul",
         "prediction": "1 - 2",
         "analysis": "Atlante FC bertemu Monterrey dalam laga Liga MX. Analisis API-Football: Double chance : draw or Monterrey.",
-        "statusCode": "2H",
-        "minuteDisplay": "83'",
-        "homeScore": 3,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 4,
         "awayScore": 2,
         "odds": {
             "home": 10,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Atlante FC",
                 "away": "Monterrey",
-                "score": "3-2"
+                "score": "4-2"
             },
             {
                 "home": "Atlante FC",
@@ -58,16 +58,16 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "L",
                     "D",
                     "D",
                     "L",
-                    "D"
+                    "D",
+                    "W"
                 ],
                 "cleanSheets": 1,
                 "failedToScore": 3,
-                "goalsFor": 8,
-                "goalsAgainst": 13,
+                "goalsFor": 12,
+                "goalsAgainst": 15,
                 "winStreak": 1,
                 "attack": 27,
                 "defense": 43
@@ -99,9 +99,9 @@ const siteData = {
             "away": "Monterrey",
             "stadium": "Estadio Azul",
             "round": "Apertura - 10",
-            "statusCode": "2H",
-            "minuteDisplay": "83'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
@@ -158,6 +158,16 @@ const siteData = {
                     "minute": "64",
                     "player": "Eduardo Tercero",
                     "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "Roberto de la Rosa",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Jhojan Julio",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -172,6 +182,18 @@ const siteData = {
                     "player": "Jesús Corona",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Óliver Torres",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Jhojan Julio",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -183,8 +205,8 @@ const siteData = {
             "away": "CDS Tampico Madero",
             "stadium": "",
             "round": "Apertura - 10",
-            "statusCode": "2H",
-            "minuteDisplay": "81'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
@@ -259,6 +281,24 @@ const siteData = {
                     "player": "O. Manzanarez",
                     "team": "away",
                     "type": "red"
+                },
+                {
+                    "minute": "84",
+                    "player": "I. Ramirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "R. Gonzalez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "E. Escalante",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -270,7 +310,10 @@ const siteData = {
             "away": "Atlas",
             "stadium": "Estadio Caliente ",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
             "prediction": "3 - 2",
@@ -305,7 +348,60 @@ const siteData = {
                     "home": 60,
                     "away": 40
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "15",
+                    "player": "Ryan Mmaee",
+                    "team": "away"
+                },
+                {
+                    "minute": "21",
+                    "player": "Mourad El Ghezouani",
+                    "team": "home"
+                },
+                {
+                    "minute": "37",
+                    "player": "José Rivero",
+                    "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "Luís André Leite Esteves",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Florián Monzón",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "54",
+                    "player": "Juan Sánchez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Ramiro Árciga",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Sergio Hernández",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "Yael Padilla",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1626,7 +1722,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/09/2026 09:45 WIB",
+    "standingsUpdated": "26/09/2026 15:09 WIB",
     "topScorers": {
         "Premier League": [
             {
