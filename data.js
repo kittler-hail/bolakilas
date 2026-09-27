@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-27T18:47:41.118Z.
+   API-Football v3) pada 2026-09-27T21:45:29.081Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -111,10 +111,10 @@ const siteData = {
             "away": "Atletico San Luis",
             "stadium": "Estadio Olímpico Universitario",
             "round": "Apertura - 10",
-            "statusCode": "1H",
-            "minuteDisplay": "45+3'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2286.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2314.png",
             "prediction": "1 - 2",
@@ -155,6 +155,46 @@ const siteData = {
                     "minute": "23",
                     "player": "Sebastien Salles-lamonge",
                     "team": "away"
+                },
+                {
+                    "minute": "52",
+                    "player": "Rodrigo López",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "David Rodriguez",
+                    "team": "away"
+                },
+                {
+                    "minute": "79",
+                    "player": "Sebastien Salles-lamonge",
+                    "team": "away"
+                },
+                {
+                    "minute": "90",
+                    "player": "Olávio Vieira dos Santos Júnio",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+1",
+                    "player": "Oscar Macias",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Cesar Huerta",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Román Torres",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1612,7 +1652,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "28/09/2026 01:47 WIB",
+    "standingsUpdated": "28/09/2026 04:45 WIB",
     "topScorers": {
         "Premier League": [
             {
