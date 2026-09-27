@@ -3,7 +3,7 @@
   "home": "Philadelphia Union",
   "away": "Orlando City SC",
   "statusCode": "FT",
-  "updatedAt": "27/09/2026 14:12 WIB",
+  "updatedAt": "27/09/2026 20:06 WIB",
   "statistics": {
     "home": {
       "possession": 36,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 13,
       "shotsOutsidebox": 7,
-      "passesTotal": 310,
-      "passesAccurate": 229,
+      "passesTotal": 312,
+      "passesAccurate": 228,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 9,
       "shotsOutsidebox": 2,
-      "passesTotal": 573,
-      "passesAccurate": 477,
+      "passesTotal": 572,
+      "passesAccurate": 476,
       "passesPct": null
     }
   },
