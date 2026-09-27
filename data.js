@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-26T23:16:34.138Z.
+   API-Football v3) pada 2026-09-27T02:45:54.736Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -19,76 +19,89 @@ const siteData = {
         "league": "MLS",
         "date": "2026-09-27",
         "time": "06:30",
-        "home": "New York Red Bulls",
-        "away": "St. Louis City",
-        "stadium": "Sports Illustrated Stadium",
-        "prediction": "1 - 2",
-        "analysis": "New York Red Bulls bertemu St. Louis City dalam laga MLS. Analisis API-Football: Winner : St. Louis City.",
-        "statusCode": "POSTP",
+        "home": "Philadelphia Union",
+        "away": "Orlando City SC",
+        "stadium": "Talen Energy Stadium",
+        "prediction": "3 - 2",
+        "analysis": "Philadelphia Union bertemu Orlando City SC dalam laga MLS. Analisis API-Football: Combo Winner : Philadelphia Union and +1.5 goals.",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 4,
+        "awayScore": 2,
         "odds": {
-            "home": 10,
+            "home": 45,
             "draw": 45,
-            "away": 45
+            "away": 10
         },
         "probability": {
-            "home": 10,
+            "home": 45,
             "draw": 45,
-            "away": 45
+            "away": 10
         },
-        "apiFixtureId": 1490500,
-        "homeTeamId": 1602,
-        "awayTeamId": 20787,
-        "homeLogo": "https://media.api-sports.io/football/teams/1602.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/20787.png",
+        "apiFixtureId": 1490496,
+        "homeTeamId": 1599,
+        "awayTeamId": 1598,
+        "homeLogo": "https://media.api-sports.io/football/teams/1599.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/1598.png",
         "h2h": [
             {
-                "home": "New York Red Bulls",
-                "away": "St. Louis City",
-                "score": "3-1"
+                "home": "Philadelphia Union",
+                "away": "Orlando City SC",
+                "score": "4-2"
             },
             {
-                "home": "New York Red Bulls",
-                "away": "St. Louis City",
-                "score": "0-1"
+                "home": "Orlando City SC",
+                "away": "Philadelphia Union",
+                "score": "4-3"
             },
             {
-                "home": "St. Louis City",
-                "away": "New York Red Bulls",
-                "score": "2-2"
+                "home": "Philadelphia Union",
+                "away": "Orlando City SC",
+                "score": "0-0"
+            },
+            {
+                "home": "Orlando City SC",
+                "away": "Philadelphia Union",
+                "score": "2-4"
+            },
+            {
+                "home": "Orlando City SC",
+                "away": "Philadelphia Union",
+                "score": "2-1"
             }
         ],
         "form": {
             "home": {
                 "results": [
-                    "L",
-                    "D",
-                    "L",
+                    "W",
+                    "W",
+                    "W",
                     "W",
                     "W"
                 ],
-                "cleanSheets": 4,
-                "failedToScore": 7,
-                "goalsFor": 34,
-                "goalsAgainst": 48,
-                "winStreak": 2,
-                "attack": 17,
-                "defense": 64
+                "cleanSheets": 6,
+                "failedToScore": 5,
+                "goalsFor": 50,
+                "goalsAgainst": 42,
+                "winStreak": 4,
+                "attack": 61,
+                "defense": 69
             },
             "away": {
                 "results": [
                     "D",
                     "W",
-                    "D",
                     "W",
-                    "W"
+                    "W",
+                    "L"
                 ],
-                "cleanSheets": 3,
-                "failedToScore": 4,
-                "goalsFor": 45,
-                "goalsAgainst": 36,
-                "winStreak": 4,
-                "attack": 83,
-                "defense": 36
+                "cleanSheets": 4,
+                "failedToScore": 5,
+                "goalsFor": 46,
+                "goalsAgainst": 60,
+                "winStreak": 3,
+                "attack": 39,
+                "defense": 31
             }
         }
     },
@@ -198,9 +211,9 @@ const siteData = {
             "away": "Cancún",
             "stadium": "Estadio Tlahuicole",
             "round": "Apertura - 10",
-            "statusCode": "2H",
-            "minuteDisplay": "51'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14276.png",
@@ -247,6 +260,21 @@ const siteData = {
                     "minute": "33",
                     "player": "D. Alvarez",
                     "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "E. Robles",
+                    "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "M. Ramirez",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "E. Robles",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -267,6 +295,24 @@ const siteData = {
                     "player": "C. Trejo",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "E. Robles",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "E. Garcia",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "85",
+                    "player": "R. Reyes",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -278,10 +324,10 @@ const siteData = {
             "away": "Toluca",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 10",
-            "statusCode": "1H",
-            "minuteDisplay": "27'",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2295.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
             "prediction": "1 - 2",
@@ -322,6 +368,69 @@ const siteData = {
                     "minute": "7",
                     "player": "Nicolás Ibañez",
                     "team": "home"
+                },
+                {
+                    "minute": "38",
+                    "player": "Gabriel Fernández",
+                    "team": "home"
+                },
+                {
+                    "minute": "55",
+                    "player": "Hélio Júnio Nunes de Castro",
+                    "team": "away"
+                },
+                {
+                    "minute": "56",
+                    "player": "Alexis Vega",
+                    "team": "away"
+                },
+                {
+                    "minute": "78",
+                    "player": "Alexis Vega",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Gabriel Fernández",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "Diego Barbosa",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Agustín Palavecino",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Antonio Ricardo Mohamed Matijevich",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Willer Ditta",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "Gonzalo Piovi",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+9",
+                    "player": "Andrés Montaño",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -333,10 +442,10 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Carlos Iturralde Rivero",
             "round": "Apertura - 10",
-            "statusCode": "1H",
-            "minuteDisplay": "16'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2311.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
             "prediction": "2 - 3",
@@ -371,7 +480,68 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "45",
+                    "player": "S. Lora",
+                    "team": "home"
+                },
+                {
+                    "minute": "60",
+                    "player": "A. Flores",
+                    "team": "away"
+                },
+                {
+                    "minute": "65",
+                    "player": "S. Lora",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "35",
+                    "player": "I. Dominguez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "J. Martinez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "S. Naveda",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "J. Van Rankin",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "L. Arroyo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Ochoa Brandon",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -381,10 +551,10 @@ const siteData = {
             "away": "Club Queretaro",
             "stadium": "Estadio Akron",
             "round": "Apertura - 10",
-            "statusCode": "1H",
-            "minuteDisplay": "8'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
             "prediction": "2 - 1",
@@ -419,7 +589,448 @@ const siteData = {
                     "home": 70,
                     "away": 30
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Ali Ávila",
+                    "team": "away"
+                },
+                {
+                    "minute": "68",
+                    "player": "Mateo Coronel",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "41",
+                    "player": "Bayron Duarte",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Lucas Abascia",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Omar Govea",
+                    "team": "home",
+                    "type": "red"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-27",
+            "time": "06:30",
+            "home": "Philadelphia Union",
+            "away": "Orlando City SC",
+            "stadium": "Talen Energy Stadium",
+            "round": "Pekan 27",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/1599.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1598.png",
+            "prediction": "3 - 2",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Winner : Philadelphia Union and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 60,
+                    "away": 40
+                },
+                "att": {
+                    "home": 61,
+                    "away": 39
+                },
+                "def": {
+                    "home": 69,
+                    "away": 31
+                },
+                "poisson": {
+                    "home": 71,
+                    "away": 29
+                },
+                "h2h": {
+                    "home": 29,
+                    "away": 71
+                },
+                "goals": {
+                    "home": 48,
+                    "away": 52
+                }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Milan Iloski",
+                    "team": "home"
+                },
+                {
+                    "minute": "19",
+                    "player": "Milan Iloski",
+                    "team": "home"
+                },
+                {
+                    "minute": "47",
+                    "player": "Indiana Vassilev",
+                    "team": "home"
+                },
+                {
+                    "minute": "51",
+                    "player": "Milan Iloski",
+                    "team": "home"
+                },
+                {
+                    "minute": "78",
+                    "player": "Iván Angulo",
+                    "team": "away"
+                },
+                {
+                    "minute": "90",
+                    "player": "Martin Ojeda",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "12",
+                    "player": "Eduard Atuesta",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "Iago Teodoro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "Joran Gerbet",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Quinn Sullivan",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Japhet Sery Larsen",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Iván Angulo",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-27",
+            "time": "06:30",
+            "home": "Atlanta United FC",
+            "away": "New York City FC",
+            "stadium": "Atlanta Stadium",
+            "round": "Pekan 27",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/1608.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1604.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or New York City FC",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 56,
+                    "away": 44
+                },
+                "def": {
+                    "home": 36,
+                    "away": 64
+                },
+                "poisson": {
+                    "home": 38,
+                    "away": 62
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 43,
+                    "away": 57
+                }
+            },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "Matthew Edwards",
+                    "team": "home"
+                },
+                {
+                    "minute": "10",
+                    "player": "Giuliano Galoppo",
+                    "team": "home"
+                },
+                {
+                    "minute": "56",
+                    "player": "Andrés Perea",
+                    "team": "away"
+                },
+                {
+                    "minute": "74",
+                    "player": "Ajani Fortune",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "43",
+                    "player": "Luke Brennan",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Gerardo Daniel Martino",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Raul Bicalho",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-27",
+            "time": "06:30",
+            "home": "CF Montreal",
+            "away": "FC Cincinnati",
+            "stadium": "Saputo Stadium",
+            "round": "Pekan 27",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/1614.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2242.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or FC Cincinnati",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 100
+                },
+                "att": {
+                    "home": 25,
+                    "away": 75
+                },
+                "def": {
+                    "home": 52,
+                    "away": 48
+                },
+                "poisson": {
+                    "home": 57,
+                    "away": 43
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 100
+                },
+                "goals": {
+                    "home": 25,
+                    "away": 75
+                }
+            },
+            "goals": [
+                {
+                    "minute": "25",
+                    "player": "Daniel Rios",
+                    "team": "home"
+                },
+                {
+                    "minute": "64",
+                    "player": "Tom Barlow",
+                    "team": "away"
+                },
+                {
+                    "minute": "72",
+                    "player": "Prince-Osei Owusu",
+                    "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "Prince-Osei Owusu",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "Matthew Longstaff",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "Fabian Herbers",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Roman Celentano",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Teenage Hadebe",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "MLS",
+            "date": "2026-09-27",
+            "time": "06:30",
+            "home": "Charlotte",
+            "away": "Chicago Fire",
+            "stadium": "Bank of America Stadium",
+            "round": "Pekan 27",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/18310.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1607.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Charlotte or draw",
+            "comparison": {
+                "form": {
+                    "home": 79,
+                    "away": 21
+                },
+                "att": {
+                    "home": 53,
+                    "away": 47
+                },
+                "def": {
+                    "home": 71,
+                    "away": 29
+                },
+                "poisson": {
+                    "home": 61,
+                    "away": 39
+                },
+                "h2h": {
+                    "home": 40,
+                    "away": 60
+                },
+                "goals": {
+                    "home": 43,
+                    "away": 57
+                }
+            },
+            "goals": [
+                {
+                    "minute": "58",
+                    "player": "Luca De La Torre",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "23",
+                    "player": "Sergio Oregel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "34",
+                    "player": "Djibril Diani",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "Allan Saint-Maximin",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "Pep Biel",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "David Poreba",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "82",
+                    "player": "Ashley Westwood",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Tim Ream",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Tim Ream",
+                    "team": "home",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -469,192 +1080,15 @@ const siteData = {
         {
             "league": "MLS",
             "date": "2026-09-27",
-            "time": "06:30",
-            "home": "Philadelphia Union",
-            "away": "Orlando City SC",
-            "stadium": "Talen Energy Stadium",
-            "round": "Pekan 27",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/1599.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1598.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Winner : Philadelphia Union and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 60,
-                    "away": 40
-                },
-                "att": {
-                    "home": 61,
-                    "away": 39
-                },
-                "def": {
-                    "home": 69,
-                    "away": 31
-                },
-                "poisson": {
-                    "home": 71,
-                    "away": 29
-                },
-                "h2h": {
-                    "home": 29,
-                    "away": 71
-                },
-                "goals": {
-                    "home": 48,
-                    "away": 52
-                }
-            }
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-27",
-            "time": "06:30",
-            "home": "Atlanta United FC",
-            "away": "New York City FC",
-            "stadium": "Atlanta Stadium",
-            "round": "Pekan 27",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/1608.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1604.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or New York City FC",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 56,
-                    "away": 44
-                },
-                "def": {
-                    "home": 36,
-                    "away": 64
-                },
-                "poisson": {
-                    "home": 38,
-                    "away": 62
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 43,
-                    "away": 57
-                }
-            }
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-27",
-            "time": "06:30",
-            "home": "CF Montreal",
-            "away": "FC Cincinnati",
-            "stadium": "Saputo Stadium",
-            "round": "Pekan 27",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/1614.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2242.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or FC Cincinnati",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 100
-                },
-                "att": {
-                    "home": 25,
-                    "away": 75
-                },
-                "def": {
-                    "home": 52,
-                    "away": 48
-                },
-                "poisson": {
-                    "home": 57,
-                    "away": 43
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 100
-                },
-                "goals": {
-                    "home": 25,
-                    "away": 75
-                }
-            }
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-27",
-            "time": "06:30",
-            "home": "Charlotte",
-            "away": "Chicago Fire",
-            "stadium": "Bank of America Stadium",
-            "round": "Pekan 27",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/18310.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1607.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Charlotte or draw",
-            "comparison": {
-                "form": {
-                    "home": 79,
-                    "away": 21
-                },
-                "att": {
-                    "home": 53,
-                    "away": 47
-                },
-                "def": {
-                    "home": 71,
-                    "away": 29
-                },
-                "poisson": {
-                    "home": 61,
-                    "away": 39
-                },
-                "h2h": {
-                    "home": 40,
-                    "away": 60
-                },
-                "goals": {
-                    "home": 43,
-                    "away": 57
-                }
-            }
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-27",
             "time": "07:30",
             "home": "Seattle Sounders",
             "away": "Minnesota United FC",
             "stadium": "Lumen Field",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1612.png",
             "prediction": "3 - 2",
@@ -689,7 +1123,55 @@ const siteData = {
                     "home": 47,
                     "away": 53
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "16",
+                    "player": "Jordan Morris",
+                    "team": "home"
+                },
+                {
+                    "minute": "35",
+                    "player": "Hassani Dotson",
+                    "team": "home"
+                },
+                {
+                    "minute": "57",
+                    "player": "Anthony Markanich",
+                    "team": "away"
+                },
+                {
+                    "minute": "83",
+                    "player": "Paul Arriola",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "28",
+                    "player": "Jefferson Abel Díaz Beleño",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Owen Gene",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Hassani Dotson",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "stuar hawkins",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -699,7 +1181,10 @@ const siteData = {
             "away": "Los Angeles FC",
             "stadium": "Toyota Stadium(Texas)",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1597.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1616.png",
             "prediction": "2 - 2",
@@ -734,7 +1219,52 @@ const siteData = {
                     "home": 40,
                     "away": 60
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "34",
+                    "player": "Osaze Urhoghide",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "23",
+                    "player": "Armindo Sieb",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "44",
+                    "player": "Ryan Porteous",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Herman Johansson",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Marky Delgado",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "nolan norris",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Ryan Raposo",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -744,7 +1274,10 @@ const siteData = {
             "away": "Sporting Kansas City",
             "stadium": "BBVA Compass Stadium",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1600.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1611.png",
             "prediction": "2 - 1",
@@ -779,7 +1312,57 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "27",
+                    "player": "André Luiz",
+                    "team": "away"
+                },
+                {
+                    "minute": "45",
+                    "player": "Calvin Harris",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "1",
+                    "player": "Justin Reynolds",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "Héctor Herrera",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "45+4",
+                    "player": "Taylor Calheira",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+6",
+                    "player": "André Luiz",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Antônio Carlos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Stephen Afrifa",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -789,7 +1372,10 @@ const siteData = {
             "away": "Toronto FC",
             "stadium": "Geodis Park",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/9569.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1601.png",
             "prediction": "2 - 1",
@@ -824,7 +1410,27 @@ const siteData = {
                     "home": 67,
                     "away": 33
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "16",
+                    "player": "Hany Mukhtar",
+                    "team": "home"
+                },
+                {
+                    "minute": "43",
+                    "player": "Hany Mukhtar",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "81",
+                    "player": "Sam Surridge",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -834,7 +1440,10 @@ const siteData = {
             "away": "San Diego",
             "stadium": "Q2 Stadium",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/16489.png",
             "awayLogo": "https://media.api-sports.io/football/teams/25484.png",
             "prediction": "2 - 1",
@@ -869,7 +1478,47 @@ const siteData = {
                     "home": 20,
                     "away": 80
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "50",
+                    "player": "Aníbal Godoy",
+                    "team": "away"
+                },
+                {
+                    "minute": "57",
+                    "player": "Mikkel Desler",
+                    "team": "home"
+                },
+                {
+                    "minute": "64",
+                    "player": "Marcus  Ingvartsen",
+                    "team": "away"
+                },
+                {
+                    "minute": "73",
+                    "player": "Brandon Vazquez",
+                    "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "Christian Ramirez",
+                    "team": "home"
+                },
+                {
+                    "minute": "86",
+                    "player": "Christian Ramirez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "87",
+                    "player": "Christian Ramirez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -879,7 +1528,10 @@ const siteData = {
             "away": "Durango",
             "stadium": "Estadio El Encanto",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "86'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
             "awayLogo": "https://media.api-sports.io/football/teams/15941.png",
             "prediction": "1 - 1",
@@ -914,7 +1566,64 @@ const siteData = {
                     "home": 27,
                     "away": 73
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "63",
+                    "player": "J. I. Reyes Olguin",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "44",
+                    "player": "O. Coronel",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "D. Guajardo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "L. Gutierrez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "A. Garcia",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "J. I. Reyes Olguin",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "S. Flores",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "C. Castro",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -924,7 +1633,10 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Rio Tinto Stadium",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "49'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1609.png",
             "prediction": "1 - 2",
@@ -959,7 +1671,28 @@ const siteData = {
                     "home": 56,
                     "away": 44
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "2",
+                    "player": "Aiden Hezarkhani",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+2",
+                    "player": "Carles Gil",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "Morgan Guilavogui",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -969,7 +1702,10 @@ const siteData = {
             "away": "Portland Timbers",
             "stadium": "Avaya Stadium",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "2'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1596.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1617.png",
             "prediction": "2 - 1",
@@ -1004,7 +1740,14 @@ const siteData = {
                     "home": 71,
                     "away": 29
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "Preston Judd",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1014,7 +1757,10 @@ const siteData = {
             "away": "DC United",
             "stadium": "BC Place",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "6'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1603.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1615.png",
             "prediction": "2 - 1",
@@ -1059,7 +1805,10 @@ const siteData = {
             "away": "Colorado Rapids",
             "stadium": "Dignity Health Sports Park",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "6'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1605.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1610.png",
             "prediction": "1 - 2",
@@ -1094,7 +1843,14 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -2505,7 +3261,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/09/2026 06:16 WIB",
+    "standingsUpdated": "27/09/2026 09:45 WIB",
     "topScorers": {
         "Premier League": [
             {
