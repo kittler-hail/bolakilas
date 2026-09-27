@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-27T02:45:54.736Z.
+   API-Football v3) pada 2026-09-27T08:46:10.531Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -81,24 +81,24 @@ const siteData = {
                 ],
                 "cleanSheets": 6,
                 "failedToScore": 5,
-                "goalsFor": 50,
-                "goalsAgainst": 42,
+                "goalsFor": 54,
+                "goalsAgainst": 44,
                 "winStreak": 4,
                 "attack": 61,
                 "defense": 69
             },
             "away": {
                 "results": [
-                    "D",
                     "W",
                     "W",
                     "W",
+                    "L",
                     "L"
                 ],
                 "cleanSheets": 4,
                 "failedToScore": 5,
-                "goalsFor": 46,
-                "goalsAgainst": 60,
+                "goalsFor": 48,
+                "goalsAgainst": 64,
                 "winStreak": 3,
                 "attack": 39,
                 "defense": 31
@@ -493,7 +493,7 @@ const siteData = {
                     "team": "away"
                 },
                 {
-                    "minute": "65",
+                    "minute": "64",
                     "player": "S. Lora",
                     "team": "home"
                 }
@@ -507,7 +507,7 @@ const siteData = {
                 },
                 {
                     "minute": "57",
-                    "player": "J. Martinez",
+                    "player": "D. Aguilar",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -977,8 +977,8 @@ const siteData = {
             "goals": [
                 {
                     "minute": "58",
-                    "player": "Luca De La Torre",
-                    "team": "home"
+                    "player": "Johan Arath Gomez",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1528,8 +1528,8 @@ const siteData = {
             "away": "Durango",
             "stadium": "Estadio El Encanto",
             "round": "Apertura - 10",
-            "statusCode": "2H",
-            "minuteDisplay": "86'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
@@ -1612,14 +1612,20 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
+                    "minute": "68",
+                    "player": "H. Real",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
                     "minute": "76",
                     "player": "C. Castro",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
-                    "minute": "83",
-                    "player": "",
+                    "minute": "82",
+                    "player": "B. Ordorica",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1633,9 +1639,9 @@ const siteData = {
             "away": "New England Revolution",
             "stadium": "Rio Tinto Stadium",
             "round": "Pekan 27",
-            "statusCode": "2H",
-            "minuteDisplay": "49'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1609.png",
@@ -1677,6 +1683,16 @@ const siteData = {
                     "minute": "2",
                     "player": "Aiden Hezarkhani",
                     "team": "home"
+                },
+                {
+                    "minute": "62",
+                    "player": "Sergi Solans",
+                    "team": "home"
+                },
+                {
+                    "minute": "80",
+                    "player": "Sergi Solans",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1691,6 +1707,18 @@ const siteData = {
                     "player": "Morgan Guilavogui",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Joshua Wynder",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Rafael",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1702,10 +1730,10 @@ const siteData = {
             "away": "Portland Timbers",
             "stadium": "Avaya Stadium",
             "round": "Pekan 27",
-            "statusCode": "1H",
-            "minuteDisplay": "2'",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1596.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1617.png",
             "prediction": "2 - 1",
@@ -1746,6 +1774,41 @@ const siteData = {
                     "minute": "4",
                     "player": "Preston Judd",
                     "team": "home"
+                },
+                {
+                    "minute": "24",
+                    "player": "Eduard Löwen",
+                    "team": "home"
+                },
+                {
+                    "minute": "29",
+                    "player": "Preston Judd",
+                    "team": "home"
+                },
+                {
+                    "minute": "86",
+                    "player": "David Da Costa",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "30",
+                    "player": "Preston Judd",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "40",
+                    "player": "Reid Roberts",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "Eric Miller",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1757,10 +1820,10 @@ const siteData = {
             "away": "DC United",
             "stadium": "BC Place",
             "round": "Pekan 27",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/1603.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1615.png",
             "prediction": "2 - 1",
@@ -1795,7 +1858,47 @@ const siteData = {
                     "home": 45,
                     "away": 55
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "16",
+                    "player": "Kimito Nono",
+                    "team": "away"
+                },
+                {
+                    "minute": "25",
+                    "player": "Brian White",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "Bruno Caicedo",
+                    "team": "home"
+                },
+                {
+                    "minute": "65",
+                    "player": "Lucas Bartlett",
+                    "team": "away"
+                },
+                {
+                    "minute": "72",
+                    "player": "Thomas Müller",
+                    "team": "home"
+                },
+                {
+                    "minute": "80",
+                    "player": "Kimito Nono",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "23",
+                    "player": "Kye Rowles",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1805,10 +1908,10 @@ const siteData = {
             "away": "Colorado Rapids",
             "stadium": "Dignity Health Sports Park",
             "round": "Pekan 27",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
-            "homeScore": 0,
-            "awayScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1605.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1610.png",
             "prediction": "1 - 2",
@@ -1847,8 +1950,54 @@ const siteData = {
             "goals": [
                 {
                     "minute": "4",
-                    "player": "",
+                    "player": "Donavan Phillip",
                     "team": "away"
+                },
+                {
+                    "minute": "39",
+                    "player": "Paxten Aaronson",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "Reggie Cannon",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "Klauss",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Justin Haak",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "10",
+                    "player": "Keegan Rosenberry",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "31",
+                    "player": "Rob Holding",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "Pablo Ruiz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Joshua Atencio",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1860,7 +2009,10 @@ const siteData = {
             "away": "CF Pachuca",
             "stadium": "Estadio TSM Corona",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
             "prediction": "1 - 2",
@@ -1895,7 +2047,46 @@ const siteData = {
                     "home": 36,
                     "away": 64
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "45+3",
+                    "player": "Francisco Villalba",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45+2",
+                    "player": "Francisco Venegas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "Facundo Cáseres",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "Diego González",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Sergio Barreto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Carlos Sánchez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1905,7 +2096,10 @@ const siteData = {
             "away": "Puebla",
             "stadium": "Estadio Universitario",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2291.png",
             "prediction": "2 - 1",
@@ -1940,7 +2134,22 @@ const siteData = {
                     "home": 73,
                     "away": 27
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "54",
+                    "player": "Juan Brunetta",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "Alejandro Organista",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -3261,7 +3470,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/09/2026 09:45 WIB",
+    "standingsUpdated": "27/09/2026 15:46 WIB",
     "topScorers": {
         "Premier League": [
             {
