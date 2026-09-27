@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-27T08:46:10.531Z.
+   API-Football v3) pada 2026-09-27T14:26:58.076Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -530,14 +530,14 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "90+5",
-                    "player": "Ochoa Brandon",
+                    "minute": "90",
+                    "player": "S. Perez",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
-                    "minute": "90+6",
-                    "player": "",
+                    "minute": "90+5",
+                    "player": "Ochoa Brandon",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1031,51 +1031,6 @@ const siteData = {
                     "type": "red"
                 }
             ]
-        },
-        {
-            "league": "MLS",
-            "date": "2026-09-27",
-            "time": "06:30",
-            "home": "New York Red Bulls",
-            "away": "St. Louis City",
-            "stadium": "Sports Illustrated Stadium",
-            "round": "Pekan 27",
-            "statusCode": "POSTP",
-            "homeLogo": "https://media.api-sports.io/football/teams/1602.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/20787.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Winner : St. Louis City",
-            "comparison": {
-                "form": {
-                    "home": 39,
-                    "away": 61
-                },
-                "att": {
-                    "home": 17,
-                    "away": 83
-                },
-                "def": {
-                    "home": 64,
-                    "away": 36
-                },
-                "poisson": {
-                    "home": 40,
-                    "away": 60
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 56,
-                    "away": 44
-                }
-            }
         },
         {
             "league": "MLS",
@@ -3470,7 +3425,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/09/2026 15:46 WIB",
+    "standingsUpdated": "27/09/2026 21:26 WIB",
     "topScorers": {
         "Premier League": [
             {
