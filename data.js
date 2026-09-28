@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-27T21:45:29.081Z.
+   API-Football v3) pada 2026-09-28T00:09:30.332Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "ScottsMiracle-Gro Field",
         "prediction": "2 - 3",
         "analysis": "Columbus Crew bertemu Inter Miami dalam laga MLS. Analisis API-Football: Double chance : draw or Inter Miami.",
-        "statusCode": "NS",
+        "statusCode": "HT",
+        "minuteDisplay": "HT",
+        "homeScore": 1,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/1613.png",
         "awayLogo": "https://media.api-sports.io/football/teams/9568.png",
         "h2h": [
+            {
+                "home": "Columbus Crew",
+                "away": "Inter Miami",
+                "score": "1-1"
+            },
             {
                 "home": "Inter Miami",
                 "away": "Columbus Crew",
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Columbus Crew",
                 "away": "Inter Miami",
                 "score": "2-3"
-            },
-            {
-                "home": "Columbus Crew",
-                "away": "Inter Miami",
-                "score": "3-2"
             }
         ],
         "form": {
@@ -206,7 +209,10 @@ const siteData = {
             "away": "Inter Miami",
             "stadium": "ScottsMiracle-Gro Field",
             "round": "Pekan 27",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1613.png",
             "awayLogo": "https://media.api-sports.io/football/teams/9568.png",
             "prediction": "2 - 3",
@@ -241,7 +247,33 @@ const siteData = {
                     "home": 38,
                     "away": 62
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "28",
+                    "player": "Josef Martínez",
+                    "team": "home"
+                },
+                {
+                    "minute": "33",
+                    "player": "Lionel Messi",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "27",
+                    "player": "Carlos Henrique Casimiro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "38",
+                    "player": "Dylan Chambost",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1652,7 +1684,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "28/09/2026 04:45 WIB",
+    "standingsUpdated": "28/09/2026 07:09 WIB",
     "topScorers": {
         "Premier League": [
             {
