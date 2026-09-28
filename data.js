@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-28T00:09:30.332Z.
+   API-Football v3) pada 2026-09-28T06:09:11.039Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,9 +24,9 @@ const siteData = {
         "stadium": "ScottsMiracle-Gro Field",
         "prediction": "2 - 3",
         "analysis": "Columbus Crew bertemu Inter Miami dalam laga MLS. Analisis API-Football: Double chance : draw or Inter Miami.",
-        "statusCode": "HT",
-        "minuteDisplay": "HT",
-        "homeScore": 1,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 2,
         "awayScore": 1,
         "odds": {
             "home": 10,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Columbus Crew",
                 "away": "Inter Miami",
-                "score": "1-1"
+                "score": "2-1"
             },
             {
                 "home": "Inter Miami",
@@ -73,16 +73,16 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "L",
                     "W",
                     "L",
                     "L",
+                    "W",
                     "W"
                 ],
                 "cleanSheets": 5,
                 "failedToScore": 4,
-                "goalsFor": 37,
-                "goalsAgainst": 42,
+                "goalsFor": 39,
+                "goalsAgainst": 43,
                 "winStreak": 2,
                 "attack": 33,
                 "defense": 57
@@ -209,9 +209,9 @@ const siteData = {
             "away": "Inter Miami",
             "stadium": "ScottsMiracle-Gro Field",
             "round": "Pekan 27",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1613.png",
             "awayLogo": "https://media.api-sports.io/football/teams/9568.png",
@@ -258,6 +258,11 @@ const siteData = {
                     "minute": "33",
                     "player": "Lionel Messi",
                     "team": "away"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Jamal Thiare",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -272,6 +277,66 @@ const siteData = {
                     "player": "Dylan Chambost",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "Micael dos Santos Silva",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Brais Méndez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Eric Bailly",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Daniel Pinter",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "Sekou Tidiany Bangoura",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Gonzalo Lujan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Santiago Morales",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Santiago Morales",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+9",
+                    "player": "Jamal Thiare",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+10",
+                    "player": "Luis Barraza",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -283,7 +348,10 @@ const siteData = {
             "away": "FC Juarez",
             "stadium": "Estadio León",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
             "prediction": "2 - 1",
@@ -318,7 +386,50 @@ const siteData = {
                     "home": 57,
                     "away": 43
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "76",
+                    "player": "Francisco Nevarez",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Oscar Estupiñan",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+9",
+                    "player": "Jose Alvarado",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "Sebastián Vegas",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Juan Guevara",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Jesus Murillo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "Francisco Nevarez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -328,7 +439,10 @@ const siteData = {
             "away": "Club America",
             "stadium": "Estadio Victoria",
             "round": "Apertura - 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 4,
             "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2287.png",
             "prediction": "1 - 2",
@@ -363,7 +477,71 @@ const siteData = {
                     "home": 45,
                     "away": 55
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "37",
+                    "player": "Owen González",
+                    "team": "home"
+                },
+                {
+                    "minute": "39",
+                    "player": "Henry Martin",
+                    "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "Julián Carranza",
+                    "team": "home"
+                },
+                {
+                    "minute": "45+10",
+                    "player": "Henry Martin",
+                    "team": "away"
+                },
+                {
+                    "minute": "56",
+                    "player": "Miguel Borja",
+                    "team": "away"
+                },
+                {
+                    "minute": "75",
+                    "player": "Henry Martin",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "Erick Sánchez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Raúl Martínez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Diego Ochoa",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Javier Ruiz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Cristian Borja",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1684,7 +1862,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "28/09/2026 07:09 WIB",
+    "standingsUpdated": "28/09/2026 13:09 WIB",
     "topScorers": {
         "Premier League": [
             {
