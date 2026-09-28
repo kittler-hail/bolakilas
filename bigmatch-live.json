@@ -3,7 +3,7 @@
   "home": "Columbus Crew",
   "away": "Inter Miami",
   "statusCode": "FT",
-  "updatedAt": "28/09/2026 08:49 WIB",
+  "updatedAt": "28/09/2026 15:01 WIB",
   "statistics": {
     "home": {
       "possession": 44,
@@ -32,7 +32,7 @@
       "shotsInsidebox": 2,
       "shotsOutsidebox": 3,
       "passesTotal": 524,
-      "passesAccurate": 465,
+      "passesAccurate": 464,
       "passesPct": null
     }
   },
