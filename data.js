@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-09-28T06:09:11.039Z.
+   API-Football v3) pada 2026-09-28T14:46:10.512Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -89,16 +89,16 @@ const siteData = {
             },
             "away": {
                 "results": [
-                    "W",
                     "D",
                     "D",
                     "D",
-                    "D"
+                    "D",
+                    "L"
                 ],
                 "cleanSheets": 4,
                 "failedToScore": 2,
-                "goalsFor": 63,
-                "goalsAgainst": 48,
+                "goalsFor": 64,
+                "goalsAgainst": 50,
                 "winStreak": 6,
                 "attack": 67,
                 "defense": 43
@@ -325,12 +325,6 @@ const siteData = {
                     "player": "Santiago Morales",
                     "team": "away",
                     "type": "red"
-                },
-                {
-                    "minute": "90+9",
-                    "player": "Jamal Thiare",
-                    "team": "home",
-                    "type": "yellow"
                 },
                 {
                     "minute": "90+10",
@@ -1862,7 +1856,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "28/09/2026 13:09 WIB",
+    "standingsUpdated": "28/09/2026 21:46 WIB",
     "topScorers": {
         "Premier League": [
             {
