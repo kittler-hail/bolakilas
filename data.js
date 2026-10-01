@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-01T00:56:09.119Z.
+   API-Football v3) pada 2026-10-01T06:45:09.870Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Sports Illustrated Stadium",
         "prediction": "1 - 2",
         "analysis": "New York Red Bulls bertemu St. Louis City dalam laga MLS. Analisis API-Football: Winner : St. Louis City.",
-        "statusCode": "2H",
-        "minuteDisplay": "59'",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
         "homeScore": 0,
-        "awayScore": 1,
+        "awayScore": 3,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -47,6 +47,11 @@ const siteData = {
             {
                 "home": "New York Red Bulls",
                 "away": "St. Louis City",
+                "score": "0-3"
+            },
+            {
+                "home": "New York Red Bulls",
+                "away": "St. Louis City",
                 "score": "3-1"
             },
             {
@@ -63,31 +68,31 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "L",
                     "D",
                     "L",
                     "W",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 4,
-                "failedToScore": 7,
+                "failedToScore": 8,
                 "goalsFor": 34,
-                "goalsAgainst": 48,
+                "goalsAgainst": 51,
                 "winStreak": 2,
                 "attack": 17,
                 "defense": 64
             },
             "away": {
                 "results": [
-                    "D",
                     "W",
                     "D",
+                    "W",
                     "W",
                     "W"
                 ],
-                "cleanSheets": 3,
+                "cleanSheets": 4,
                 "failedToScore": 4,
-                "goalsFor": 45,
+                "goalsFor": 48,
                 "goalsAgainst": 36,
                 "winStreak": 4,
                 "attack": 83,
@@ -104,10 +109,10 @@ const siteData = {
             "away": "St. Louis City",
             "stadium": "Sports Illustrated Stadium",
             "round": "Pekan 27",
-            "statusCode": "2H",
-            "minuteDisplay": "59'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/1602.png",
             "awayLogo": "https://media.api-sports.io/football/teams/20787.png",
             "prediction": "1 - 2",
@@ -148,6 +153,16 @@ const siteData = {
                     "minute": "5",
                     "player": "Rafael Navarro Leal",
                     "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "Simon Becher",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Tomas Ostrak",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -155,6 +170,12 @@ const siteData = {
                     "minute": "35",
                     "player": "Timo Baumgartl",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Emil Forsberg",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -1478,7 +1499,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "01/10/2026 07:56 WIB",
+    "standingsUpdated": "01/10/2026 13:45 WIB",
     "topScorers": {
         "Premier League": [
             {
