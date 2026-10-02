@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-02T03:20:27.585Z.
+   API-Football v3) pada 2026-10-02T10:11:06.967Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,9 +24,9 @@ const siteData = {
         "stadium": "Lumen Field",
         "prediction": "3 - 2",
         "analysis": "Seattle Sounders bertemu Sporting Kansas City dalam laga MLS. Analisis API-Football: Double chance : Seattle Sounders or draw.",
-        "statusCode": "2H",
-        "minuteDisplay": "84'",
-        "homeScore": 1,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 2,
         "awayScore": 1,
         "odds": {
             "home": 45,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Seattle Sounders",
                 "away": "Sporting Kansas City",
-                "score": "1-1"
+                "score": "2-1"
             },
             {
                 "home": "Sporting Kansas City",
@@ -75,14 +75,14 @@ const siteData = {
                 "results": [
                     "D",
                     "D",
-                    "D",
+                    "W",
                     "W",
                     "W"
                 ],
                 "cleanSheets": 7,
                 "failedToScore": 6,
-                "goalsFor": 33,
-                "goalsAgainst": 34,
+                "goalsFor": 35,
+                "goalsAgainst": 35,
                 "winStreak": 3,
                 "attack": 45,
                 "defense": 71
@@ -90,15 +90,15 @@ const siteData = {
             "away": {
                 "results": [
                     "L",
-                    "L",
                     "W",
                     "L",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 1,
                 "failedToScore": 9,
-                "goalsFor": 31,
-                "goalsAgainst": 63,
+                "goalsFor": 32,
+                "goalsAgainst": 65,
                 "winStreak": 2,
                 "attack": 55,
                 "defense": 29
@@ -114,9 +114,9 @@ const siteData = {
             "away": "Sporting Kansas City",
             "stadium": "Lumen Field",
             "round": "Pekan 24",
-            "statusCode": "2H",
-            "minuteDisplay": "84'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1611.png",
@@ -163,6 +163,11 @@ const siteData = {
                     "minute": "51",
                     "player": "Sebastian Gomez",
                     "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Cristian Roldán",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -170,6 +175,12 @@ const siteData = {
                     "minute": "61",
                     "player": "Nouhou Tolo",
                     "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89+1",
+                    "player": "Jacob Bartlett",
+                    "team": "away",
                     "type": "yellow"
                 }
             ]
@@ -1493,7 +1504,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "02/10/2026 10:20 WIB",
+    "standingsUpdated": "02/10/2026 17:11 WIB",
     "topScorers": {
         "Premier League": [
             {
