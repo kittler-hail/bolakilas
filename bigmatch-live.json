@@ -2,37 +2,37 @@
   "fixtureId": 1490463,
   "home": "Seattle Sounders",
   "away": "Sporting Kansas City",
-  "statusCode": "1H",
-  "updatedAt": "02/10/2026 08:47 WIB",
+  "statusCode": "FT",
+  "updatedAt": "02/10/2026 14:34 WIB",
   "statistics": {
     "home": {
-      "possession": 61,
-      "shotsTotal": 0,
-      "shotsOnTarget": 0,
-      "corners": null,
-      "fouls": 1,
-      "offsides": null,
-      "yellowCards": 0,
+      "possession": 58,
+      "shotsTotal": 21,
+      "shotsOnTarget": 7,
+      "corners": 11,
+      "fouls": 7,
+      "offsides": 1,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": null,
-      "shotsOutsidebox": 0,
-      "passesTotal": 33,
-      "passesAccurate": 31,
+      "shotsInsidebox": 14,
+      "shotsOutsidebox": 7,
+      "passesTotal": 555,
+      "passesAccurate": 488,
       "passesPct": null
     },
     "away": {
-      "possession": 39,
-      "shotsTotal": 2,
-      "shotsOnTarget": 1,
-      "corners": null,
-      "fouls": 1,
-      "offsides": null,
-      "yellowCards": 0,
+      "possession": 42,
+      "shotsTotal": 22,
+      "shotsOnTarget": 11,
+      "corners": 6,
+      "fouls": 4,
+      "offsides": 2,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": null,
-      "shotsOutsidebox": 2,
-      "passesTotal": 21,
-      "passesAccurate": 19,
+      "shotsInsidebox": 11,
+      "shotsOutsidebox": 11,
+      "passesTotal": 388,
+      "passesAccurate": 333,
       "passesPct": null
     }
   },
@@ -45,67 +45,67 @@
           "number": 26,
           "name": "A. Thomas",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "8.8"
         },
         {
           "number": 16,
           "name": "A. Roldan",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 39,
           "name": "S. Hawkins",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 25,
           "name": "J. Ragen",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "7.3"
         },
         {
           "number": 5,
           "name": "N. Tolo",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 45,
           "name": "P. Kingston",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 7,
           "name": "C. Roldan",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "8.2"
         },
         {
           "number": 13,
           "name": "J. Morris",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "7.7"
         },
         {
           "number": 11,
           "name": "A. Rusnák",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "7.2"
         },
         {
           "number": 17,
           "name": "P. Arriola",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 19,
           "name": "D. Musovski",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -113,7 +113,7 @@
           "number": 8,
           "name": "C. Clark",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 24,
@@ -131,13 +131,13 @@
           "number": 90,
           "name": "S. Gomez",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "7.8"
         },
         {
           "number": 85,
           "name": "K. Kossa-Rienzi",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.2"
         },
         {
           "number": 4,
@@ -155,7 +155,7 @@
           "number": 81,
           "name": "M. Bronnik",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         }
       ]
     },
@@ -167,67 +167,67 @@
           "number": 30,
           "name": "S. Cleveland",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 13,
           "name": "J. Reynolds",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 15,
           "name": "Jansen Miller",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 28,
           "name": "Wyatt Meyer",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 18,
           "name": "E. Karić",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 11,
           "name": "André Luiz",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "8.2"
         },
         {
           "number": 4,
           "name": "L. Johnsen",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 20,
           "name": "K. Agyabeng",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "7.2"
         },
         {
           "number": 14,
           "name": "C. Harris",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 19,
           "name": "T. Calheira",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 17,
           "name": "S. Afrifa",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "7.3"
         }
       ],
       "substitutes": [
@@ -247,13 +247,13 @@
           "number": 29,
           "name": "S. Reid",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 93,
           "name": "M. Suleymanov",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 2,
@@ -265,7 +265,7 @@
           "number": 22,
           "name": "Z. Bassong",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.2"
         },
         {
           "number": 23,
@@ -277,7 +277,7 @@
           "number": 16,
           "name": "J. Bartlett",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.2"
         },
         {
           "number": 42,
