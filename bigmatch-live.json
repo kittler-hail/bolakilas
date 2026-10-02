@@ -3,7 +3,7 @@
   "home": "Seattle Sounders",
   "away": "Sporting Kansas City",
   "statusCode": "FT",
-  "updatedAt": "02/10/2026 14:34 WIB",
+  "updatedAt": "02/10/2026 21:07 WIB",
   "statistics": {
     "home": {
       "possession": 58,
@@ -17,7 +17,7 @@
       "shotsInsidebox": 14,
       "shotsOutsidebox": 7,
       "passesTotal": 555,
-      "passesAccurate": 488,
+      "passesAccurate": 487,
       "passesPct": null
     },
     "away": {
