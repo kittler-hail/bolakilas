@@ -2,10 +2,292 @@
   "fixtureId": 1490463,
   "home": "Seattle Sounders",
   "away": "Sporting Kansas City",
-  "statusCode": "NS",
-  "updatedAt": "02/10/2026 05:29 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "1H",
+  "updatedAt": "02/10/2026 08:47 WIB",
+  "statistics": {
+    "home": {
+      "possession": 61,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": null,
+      "fouls": 1,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": 0,
+      "passesTotal": 33,
+      "passesAccurate": 31,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 39,
+      "shotsTotal": 2,
+      "shotsOnTarget": 1,
+      "corners": null,
+      "fouls": 1,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": 2,
+      "passesTotal": 21,
+      "passesAccurate": 19,
+      "passesPct": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "B. Schmetzer",
+      "startXI": [
+        {
+          "number": 26,
+          "name": "A. Thomas",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 16,
+          "name": "A. Roldan",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 39,
+          "name": "S. Hawkins",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 25,
+          "name": "J. Ragen",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 5,
+          "name": "N. Tolo",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 45,
+          "name": "P. Kingston",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 7,
+          "name": "C. Roldan",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 13,
+          "name": "J. Morris",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 11,
+          "name": "A. Rusnák",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 17,
+          "name": "P. Arriola",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 19,
+          "name": "D. Musovski",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 8,
+          "name": "C. Clark",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 24,
+          "name": "S. Frei",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 28,
+          "name": "Y. Gómez",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 90,
+          "name": "S. Gomez",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 85,
+          "name": "K. Kossa-Rienzi",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 4,
+          "name": "R. Sailor",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 35,
+          "name": "Antino Lopez",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 81,
+          "name": "M. Bronnik",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "coach": "R. Wicky",
+      "startXI": [
+        {
+          "number": 30,
+          "name": "S. Cleveland",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 13,
+          "name": "J. Reynolds",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 15,
+          "name": "Jansen Miller",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 28,
+          "name": "Wyatt Meyer",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 18,
+          "name": "E. Karić",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 11,
+          "name": "André Luiz",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 4,
+          "name": "L. Johnsen",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 20,
+          "name": "K. Agyabeng",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 14,
+          "name": "C. Harris",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 19,
+          "name": "T. Calheira",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 17,
+          "name": "S. Afrifa",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 1,
+          "name": "J. Pulskamp",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 99,
+          "name": "J. Reid",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 29,
+          "name": "S. Reid",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 93,
+          "name": "M. Suleymanov",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 2,
+          "name": "I. James",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "Z. Bassong",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 23,
+          "name": "E. Bartlow",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 16,
+          "name": "J. Bartlett",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 42,
+          "name": "Alexander Cunningham",
+          "position": "Bek",
+          "rating": "0.0"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Lumen Field",
     "city": "Seattle, Washington",
@@ -14,13 +296,13 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.50",
-    "draw": "4.40",
-    "away": "5.00",
+    "home": "1.53",
+    "draw": "4.33",
+    "away": "4.80",
     "overUnder": null,
     "btts": {
-      "yes": "1.44",
-      "no": "2.50"
+      "yes": "1.40",
+      "no": "2.80"
     }
   },
   "liveOdds": null
