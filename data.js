@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-01T23:46:26.063Z.
+   API-Football v3) pada 2026-10-02T03:20:27.585Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Lumen Field",
         "prediction": "3 - 2",
         "analysis": "Seattle Sounders bertemu Sporting Kansas City dalam laga MLS. Analisis API-Football: Double chance : Seattle Sounders or draw.",
-        "statusCode": "NS",
+        "statusCode": "2H",
+        "minuteDisplay": "84'",
+        "homeScore": 1,
+        "awayScore": 1,
         "odds": {
             "home": 45,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
         "awayLogo": "https://media.api-sports.io/football/teams/1611.png",
         "h2h": [
+            {
+                "home": "Seattle Sounders",
+                "away": "Sporting Kansas City",
+                "score": "1-1"
+            },
             {
                 "home": "Sporting Kansas City",
                 "away": "Seattle Sounders",
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Seattle Sounders",
                 "away": "Sporting Kansas City",
                 "score": "2-0"
-            },
-            {
-                "home": "Sporting Kansas City",
-                "away": "Seattle Sounders",
-                "score": "2-1"
             }
         ],
         "form": {
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Sporting Kansas City",
             "stadium": "Lumen Field",
             "round": "Pekan 24",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "84'",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1595.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1611.png",
             "prediction": "3 - 2",
@@ -146,7 +152,27 @@ const siteData = {
                     "home": 63,
                     "away": 37
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "44",
+                    "player": "André Luiz",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "Sebastian Gomez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "61",
+                    "player": "Nouhou Tolo",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1467,7 +1493,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "02/10/2026 06:46 WIB",
+    "standingsUpdated": "02/10/2026 10:20 WIB",
     "topScorers": {
         "Premier League": [
             {
