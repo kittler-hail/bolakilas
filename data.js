@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-02T21:06:25.760Z.
+   API-Football v3) pada 2026-10-03T00:50:36.445Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1531,7 +1531,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/10/2026 04:06 WIB",
+    "standingsUpdated": "03/10/2026 07:50 WIB",
     "topScorers": {
         "Premier League": [
             {
