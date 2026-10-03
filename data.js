@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-03T00:50:36.445Z.
+   API-Football v3) pada 2026-10-03T05:56:00.505Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "",
         "prediction": "2 - 2",
         "analysis": "Correcaminos Uat bertemu Cruz Azul Hidalgo dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : Correcaminos Uat or draw.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 0,
+        "awayScore": 0,
         "odds": {
             "home": 35,
             "draw": 35,
@@ -40,18 +43,24 @@ const siteData = {
         "awayTeamId": 15928,
         "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
         "awayLogo": "https://media.api-sports.io/football/teams/15928.png",
-        "h2h": [],
+        "h2h": [
+            {
+                "home": "Correcaminos Uat",
+                "away": "Cruz Azul Hidalgo",
+                "score": "0-0"
+            }
+        ],
         "form": {
             "home": {
                 "results": [
-                    "D",
                     "L",
                     "D",
                     "L",
-                    "W"
+                    "W",
+                    "D"
                 ],
-                "cleanSheets": 2,
-                "failedToScore": 1,
+                "cleanSheets": 3,
+                "failedToScore": 2,
                 "goalsFor": 19,
                 "goalsAgainst": 18,
                 "winStreak": 2,
@@ -60,14 +69,14 @@ const siteData = {
             },
             "away": {
                 "results": [
-                    "W",
                     "L",
                     "D",
                     "L",
-                    "L"
+                    "L",
+                    "D"
                 ],
-                "cleanSheets": 2,
-                "failedToScore": 4,
+                "cleanSheets": 3,
+                "failedToScore": 5,
                 "goalsFor": 11,
                 "goalsAgainst": 18,
                 "winStreak": 1,
@@ -85,7 +94,10 @@ const siteData = {
             "away": "Cruz Azul Hidalgo",
             "stadium": "",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
             "awayLogo": "https://media.api-sports.io/football/teams/15928.png",
             "prediction": "2 - 2",
@@ -120,7 +132,63 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "4",
+                    "player": "E. Torres",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "9",
+                    "player": "K. Gonzalez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "23",
+                    "player": "O. Perez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "29",
+                    "player": "J. Mendoza",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "S. De Los Rios",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "R. Rubio",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "88",
+                    "player": "J. Duran Islas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "J. Duran Islas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "J. Duran Islas",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -130,7 +198,10 @@ const siteData = {
             "away": "CDS Tampico Madero",
             "stadium": "",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14279.png",
             "awayLogo": "https://media.api-sports.io/football/teams/19905.png",
             "prediction": "1 - 2",
@@ -165,7 +236,67 @@ const siteData = {
                     "home": 62,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "47",
+                    "player": "L. Egurrola",
+                    "team": "home"
+                },
+                {
+                    "minute": "57",
+                    "player": "I. Ochoa",
+                    "team": "away"
+                },
+                {
+                    "minute": "59",
+                    "player": "J. Sanchez",
+                    "team": "home"
+                },
+                {
+                    "minute": "77",
+                    "player": "I. Ochoa",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "6",
+                    "player": "J. Sanchez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "8",
+                    "player": "R. Gonzalez",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "41",
+                    "player": "D. Magana",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "I. Ramirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "G. Olvera",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "72",
+                    "player": "G. Baez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -175,7 +306,10 @@ const siteData = {
             "away": "Venados FC",
             "stadium": "Estadio Guaycura",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
             "prediction": "3 - 2",
@@ -210,7 +344,56 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "21",
+                    "player": "S. Lora",
+                    "team": "away"
+                },
+                {
+                    "minute": "34",
+                    "player": "J. Reyes",
+                    "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "M. Barragan",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "17",
+                    "player": "S. Lora",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "29",
+                    "player": "D. Hernandez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "C. Robles",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "S. Saucedo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "R. Renteria",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1531,7 +1714,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/10/2026 07:50 WIB",
+    "standingsUpdated": "03/10/2026 12:55 WIB",
     "topScorers": {
         "Premier League": [
             {
