@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-04T17:19:16.215Z.
+   API-Football v3) pada 2026-10-04T20:42:16.745Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Estadio Jalisco",
         "prediction": "1 - 2",
         "analysis": "Leones Negros UDG bertemu Dorados dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : Leones Negros UDG or draw.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 6,
+        "awayScore": 3,
         "odds": {
             "home": 45,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
         "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
         "h2h": [
+            {
+                "home": "Leones Negros UDG",
+                "away": "Dorados",
+                "score": "6-3"
+            },
             {
                 "home": "Dorados",
                 "away": "Leones Negros UDG",
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Dorados",
                 "away": "Leones Negros UDG",
                 "score": "0-1"
-            },
-            {
-                "home": "Dorados",
-                "away": "Leones Negros UDG",
-                "score": "1-2"
             }
         ],
         "form": {
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Dorados",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 6,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
             "prediction": "1 - 2",
@@ -146,7 +152,68 @@ const siteData = {
                     "home": 83,
                     "away": 17
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "L. Razo",
+                    "team": "home"
+                },
+                {
+                    "minute": "22",
+                    "player": "A. De Jesus Bravo Santiago",
+                    "team": "home"
+                },
+                {
+                    "minute": "37",
+                    "player": "L. Razo",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "D. Osuna",
+                    "team": "away"
+                },
+                {
+                    "minute": "68",
+                    "player": "S. A. Hernandez",
+                    "team": "home"
+                },
+                {
+                    "minute": "77",
+                    "player": "J. Marchand",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "O. Coronel",
+                    "team": "away"
+                },
+                {
+                    "minute": "88",
+                    "player": "O. Coronel",
+                    "team": "away"
+                },
+                {
+                    "minute": "90",
+                    "player": "O. Gil",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "G. Padilla",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "J. Aguayo",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1467,7 +1534,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "05/10/2026 00:19 WIB",
+    "standingsUpdated": "05/10/2026 03:42 WIB",
     "topScorers": {
         "Premier League": [
             {
