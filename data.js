@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-04T00:16:09.733Z.
+   API-Football v3) pada 2026-10-04T06:33:00.358Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Estadio Morelos",
         "prediction": "2 - 1",
         "analysis": "Monarcas bertemu Tlaxcala dalam laga Liga de Expansion MX. Analisis API-Football: Combo Double chance : Monarcas or draw and +1.5 goals.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 1,
+        "awayScore": 1,
         "odds": {
             "home": 45,
             "draw": 45,
@@ -44,6 +47,11 @@ const siteData = {
             {
                 "home": "Monarcas",
                 "away": "Tlaxcala",
+                "score": "1-1"
+            },
+            {
+                "home": "Monarcas",
+                "away": "Tlaxcala",
                 "score": "0-0"
             },
             {
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Monarcas",
                 "away": "Tlaxcala",
                 "score": "2-1"
-            },
-            {
-                "home": "Monarcas",
-                "away": "Tlaxcala",
-                "score": "3-1"
             }
         ],
         "form": {
@@ -73,29 +76,29 @@ const siteData = {
                     "W",
                     "W",
                     "W",
-                    "W",
-                    "L"
+                    "L",
+                    "D"
                 ],
                 "cleanSheets": 3,
                 "failedToScore": 1,
-                "goalsFor": 20,
-                "goalsAgainst": 11,
+                "goalsFor": 21,
+                "goalsAgainst": 12,
                 "winStreak": 4,
                 "attack": 45,
                 "defense": 73
             },
             "away": {
                 "results": [
-                    "W",
                     "D",
                     "W",
                     "L",
-                    "W"
+                    "W",
+                    "D"
                 ],
                 "cleanSheets": 0,
                 "failedToScore": 2,
-                "goalsFor": 18,
-                "goalsAgainst": 22,
+                "goalsFor": 19,
+                "goalsAgainst": 23,
                 "winStreak": 1,
                 "attack": 55,
                 "defense": 27
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Tlaxcala",
             "stadium": "Estadio Morelos",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
             "prediction": "2 - 1",
@@ -146,7 +152,69 @@ const siteData = {
                     "home": 70,
                     "away": 30
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "7",
+                    "player": "D. Zamora",
+                    "team": "home"
+                },
+                {
+                    "minute": "89",
+                    "player": "E. Robles",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "9",
+                    "player": "J. Freyfeld",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "M. Ramirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "B. Flores",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "41",
+                    "player": "P. Gonzalez",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "J. Martinez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "46",
+                    "player": "D. Zamora",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "D. Aguilar",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "M. A. Trejo Castro",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -156,7 +224,10 @@ const siteData = {
             "away": "Tapatío",
             "stadium": "",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/14276.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14278.png",
             "prediction": "3 - 2",
@@ -191,7 +262,52 @@ const siteData = {
                     "home": 60,
                     "away": 40
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "75",
+                    "player": "T. Gigena",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "L. Jimenez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "17",
+                    "player": "M. Cendejas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "25",
+                    "player": "R. Reyes",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "J. Hernandez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "L. Ruiz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "T. Gigena",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -201,7 +317,10 @@ const siteData = {
             "away": "Mineros de Zacatecas",
             "stadium": "Estadio Francisco Zarco",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/15941.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
             "prediction": "2 - 1",
@@ -236,7 +355,77 @@ const siteData = {
                     "home": 75,
                     "away": 25
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "A. Escoboza",
+                    "team": "home"
+                },
+                {
+                    "minute": "17",
+                    "player": "J. I. Reyes Olguin",
+                    "team": "home"
+                },
+                {
+                    "minute": "62",
+                    "player": "A. Escoboza",
+                    "team": "home"
+                },
+                {
+                    "minute": "70",
+                    "player": "M. Lozano",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "W. D. Castro Garcia",
+                    "team": "away"
+                },
+                {
+                    "minute": "83",
+                    "player": "L. Sandoval",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "35",
+                    "player": "J. Angulo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "60",
+                    "player": "L. Duran",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "65",
+                    "player": "O. Mazatan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "M. Lozano",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "W. D. Castro Garcia",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "P. Padilla",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -246,7 +435,10 @@ const siteData = {
             "away": "Alebrijes de Oaxaca",
             "stadium": "",
             "round": "Apertura - 11",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
             "prediction": "2 - 1",
@@ -281,7 +473,55 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "20",
+                    "player": "D. Lajud Martinez",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "D. Lajud Martinez",
+                    "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "G. Lopez",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "U. Garcia",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "19",
+                    "player": "A. Hernandez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "37",
+                    "player": "A. Tecpanecatl",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "45+3",
+                    "player": "K. Alvarez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "J. Alaniz",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1602,7 +1842,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/10/2026 07:16 WIB",
+    "standingsUpdated": "04/10/2026 13:32 WIB",
     "topScorers": {
         "Premier League": [
             {
