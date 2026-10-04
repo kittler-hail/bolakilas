@@ -1,26 +1,26 @@
 {
-  "fixtureId": 1581437,
-  "home": "Monarcas",
-  "away": "Tlaxcala",
-  "statusCode": "FT",
-  "updatedAt": "04/10/2026 21:26 WIB",
+  "fixtureId": 1581435,
+  "home": "Leones Negros UDG",
+  "away": "Dorados",
+  "statusCode": "1H",
+  "updatedAt": "05/10/2026 01:19 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
-    "name": "Estadio Morelos",
-    "city": "Morelia",
-    "capacity": null,
-    "image": ""
+    "name": "Estadio Jalisco",
+    "city": "Guadalajara",
+    "capacity": 56713,
+    "image": "https://media.api-sports.io/football/venues/1071.png"
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.44",
-    "draw": "4.20",
-    "away": "5.00",
+    "home": "1.57",
+    "draw": "3.90",
+    "away": "4.50",
     "overUnder": null,
     "btts": {
-      "yes": "1.70",
-      "no": "2.05"
+      "yes": "1.67",
+      "no": "2.10"
     }
   },
   "liveOdds": null
