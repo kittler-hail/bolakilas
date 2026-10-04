@@ -2,8 +2,8 @@
   "fixtureId": 1581437,
   "home": "Monarcas",
   "away": "Tlaxcala",
-  "statusCode": "NS",
-  "updatedAt": "04/10/2026 06:03 WIB",
+  "statusCode": "2H",
+  "updatedAt": "04/10/2026 09:33 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -16,7 +16,7 @@
     "bookmaker": "William Hill",
     "home": "1.44",
     "draw": "4.20",
-    "away": "5.50",
+    "away": "5.00",
     "overUnder": null,
     "btts": {
       "yes": "1.70",
