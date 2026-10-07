@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-07T00:16:01.662Z.
+   API-Football v3) pada 2026-10-07T06:44:01.212Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Soldier Field",
         "prediction": "2 - 3",
         "analysis": "Chicago Fire bertemu Vancouver Whitecaps dalam laga MLS. Analisis API-Football: Double chance : draw or Vancouver Whitecaps.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 3,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/1607.png",
         "awayLogo": "https://media.api-sports.io/football/teams/1603.png",
         "h2h": [
+            {
+                "home": "Chicago Fire",
+                "away": "Vancouver Whitecaps",
+                "score": "3-1"
+            },
             {
                 "home": "Vancouver Whitecaps",
                 "away": "Chicago Fire",
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Vancouver Whitecaps",
                 "away": "Chicago Fire",
                 "score": "3-2"
-            },
-            {
-                "home": "Chicago Fire",
-                "away": "Vancouver Whitecaps",
-                "score": "0-2"
             }
         ],
         "form": {
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Vancouver Whitecaps",
             "stadium": "Soldier Field",
             "round": "Pekan 16",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1607.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1603.png",
             "prediction": "2 - 3",
@@ -146,7 +152,49 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "9",
+                    "player": "Jonathan Bamba",
+                    "team": "home"
+                },
+                {
+                    "minute": "50",
+                    "player": "Philip Zinckernagel",
+                    "team": "home"
+                },
+                {
+                    "minute": "73",
+                    "player": "Mathías Laborda",
+                    "team": "away"
+                },
+                {
+                    "minute": "88",
+                    "player": "Maren Haile-Selassie",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "19",
+                    "player": "Philip Zinckernagel",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "Jonathan Dean",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Tate Johnson",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1467,7 +1515,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/10/2026 07:16 WIB",
+    "standingsUpdated": "07/10/2026 13:43 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3715,7 +3763,7 @@ const siteData = {
             {
                 "player": "D. Murillo",
                 "photo": "https://media.api-sports.io/football/players/185234.png",
-                "reason": "Injury",
+                "reason": "Knee Injury",
                 "since": "2026-10-09"
             },
             {
@@ -3758,7 +3806,7 @@ const siteData = {
                 "player": "H. Abaida",
                 "photo": "https://media.api-sports.io/football/players/296695.png",
                 "reason": "Inactive",
-                "since": "2026-10-09"
+                "since": "2026-09-20"
             },
             {
                 "player": "J. Cajuste",
