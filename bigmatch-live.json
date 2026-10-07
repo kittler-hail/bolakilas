@@ -3,7 +3,7 @@
   "home": "Chicago Fire",
   "away": "Vancouver Whitecaps",
   "statusCode": "FT",
-  "updatedAt": "07/10/2026 12:45 WIB",
+  "updatedAt": "07/10/2026 19:05 WIB",
   "statistics": {
     "home": {
       "possession": 48,
@@ -16,7 +16,7 @@
       "redCards": 0,
       "shotsInsidebox": 15,
       "shotsOutsidebox": 7,
-      "passesTotal": 446,
+      "passesTotal": 445,
       "passesAccurate": 357,
       "passesPct": null
     },
