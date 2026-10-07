@@ -2,10 +2,298 @@
   "fixtureId": 1490326,
   "home": "Chicago Fire",
   "away": "Vancouver Whitecaps",
-  "statusCode": "NS",
-  "updatedAt": "07/10/2026 06:58 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "FT",
+  "updatedAt": "07/10/2026 12:45 WIB",
+  "statistics": {
+    "home": {
+      "possession": 48,
+      "shotsTotal": 22,
+      "shotsOnTarget": 7,
+      "corners": 2,
+      "fouls": 8,
+      "offsides": 3,
+      "yellowCards": 2,
+      "redCards": 0,
+      "shotsInsidebox": 15,
+      "shotsOutsidebox": 7,
+      "passesTotal": 446,
+      "passesAccurate": 357,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 52,
+      "shotsTotal": 15,
+      "shotsOnTarget": 2,
+      "corners": 8,
+      "fouls": 11,
+      "offsides": 5,
+      "yellowCards": 1,
+      "redCards": 0,
+      "shotsInsidebox": 12,
+      "shotsOutsidebox": 3,
+      "passesTotal": 470,
+      "passesAccurate": 370,
+      "passesPct": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "coach": "G. Berhalter",
+      "startXI": [
+        {
+          "number": 44,
+          "name": "J. Cohen",
+          "position": "Kiper",
+          "rating": "6.3"
+        },
+        {
+          "number": 24,
+          "name": "J. Dean",
+          "position": "Bek",
+          "rating": "6.1"
+        },
+        {
+          "number": 3,
+          "name": "J. Elliott",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 4,
+          "name": "M. Mbokazi",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 2,
+          "name": "Leonardo Barroso",
+          "position": "Bek",
+          "rating": "6.8"
+        },
+        {
+          "number": 11,
+          "name": "P. Zinckernagel",
+          "position": "Gelandang",
+          "rating": "7.7"
+        },
+        {
+          "number": 6,
+          "name": "A. Salétros",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 42,
+          "name": "T. D&apos;Avilla",
+          "position": "Gelandang",
+          "rating": "7.0"
+        },
+        {
+          "number": 19,
+          "name": "J. Bamba",
+          "position": "Gelandang",
+          "rating": "7.5"
+        },
+        {
+          "number": 7,
+          "name": "M. Haile-Selassie",
+          "position": "Penyerang",
+          "rating": "9.0"
+        },
+        {
+          "number": 18,
+          "name": "J. Gómez",
+          "position": "Penyerang",
+          "rating": "6.4"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 5,
+          "name": "S. Rogers",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 15,
+          "name": "A. Gutman",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 25,
+          "name": "J. Gal",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 12,
+          "name": "P. Dithejane",
+          "position": "Penyerang",
+          "rating": "6.8"
+        },
+        {
+          "number": 21,
+          "name": "A. Hanche-Olsen",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 9,
+          "name": "R. Lewandowski",
+          "position": "Penyerang",
+          "rating": "7.0"
+        },
+        {
+          "number": 35,
+          "name": "S. Oregel",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "M. Pineda",
+          "position": "Bek",
+          "rating": "6.5"
+        },
+        {
+          "number": 29,
+          "name": "D. Poręba",
+          "position": "Gelandang",
+          "rating": "0.0"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "J. Sørensen",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Y. Takaoka",
+          "position": "Kiper",
+          "rating": "5.8"
+        },
+        {
+          "number": 70,
+          "name": "Rui Modesto",
+          "position": "Bek",
+          "rating": "5.8"
+        },
+        {
+          "number": 2,
+          "name": "M. Laborda",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 33,
+          "name": "T. Blackmon",
+          "position": "Bek",
+          "rating": "6.6"
+        },
+        {
+          "number": 28,
+          "name": "T. Johnson",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 8,
+          "name": "O. Larraz",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 23,
+          "name": "A. Cvetković",
+          "position": "Gelandang",
+          "rating": "5.9"
+        },
+        {
+          "number": 7,
+          "name": "C. Sabaly",
+          "position": "Gelandang",
+          "rating": "5.7"
+        },
+        {
+          "number": 25,
+          "name": "R. Gauld",
+          "position": "Gelandang",
+          "rating": "6.0"
+        },
+        {
+          "number": 11,
+          "name": "E. Sabbi",
+          "position": "Gelandang",
+          "rating": "6.1"
+        },
+        {
+          "number": 24,
+          "name": "B. White",
+          "position": "Penyerang",
+          "rating": "6.8"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 32,
+          "name": "I. Boehmer",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 14,
+          "name": "Bruno Steven Caicedo Quiñonez",
+          "position": "Penyerang",
+          "rating": "6.7"
+        },
+        {
+          "number": 77,
+          "name": "Y. Diaby",
+          "position": "Penyerang",
+          "rating": "6.4"
+        },
+        {
+          "number": 41,
+          "name": "N. Djordjevic",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 19,
+          "name": "R. Elloumi",
+          "position": "Penyerang",
+          "rating": "6.3"
+        },
+        {
+          "number": 13,
+          "name": "T. Müller",
+          "position": "Penyerang",
+          "rating": "6.4"
+        },
+        {
+          "number": 15,
+          "name": "S. Ramíirez",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 3,
+          "name": "S. Adekugbe",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 4,
+          "name": "R. Veselinović",
+          "position": "Bek",
+          "rating": "0.0"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Soldier Field",
     "city": "Chicago, Illinois",
