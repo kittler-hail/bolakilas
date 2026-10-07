@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-07T06:44:01.212Z.
+   API-Football v3) pada 2026-10-07T14:05:56.172Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -74,31 +74,31 @@ const siteData = {
             "home": {
                 "results": [
                     "D",
-                    "D",
                     "L",
                     "L",
+                    "W",
                     "W"
                 ],
                 "cleanSheets": 7,
                 "failedToScore": 2,
-                "goalsFor": 46,
-                "goalsAgainst": 38,
+                "goalsFor": 49,
+                "goalsAgainst": 39,
                 "winStreak": 3,
                 "attack": 39,
                 "defense": 44
             },
             "away": {
                 "results": [
-                    "L",
                     "W",
                     "L",
                     "W",
-                    "D"
+                    "D",
+                    "L"
                 ],
                 "cleanSheets": 11,
                 "failedToScore": 4,
-                "goalsFor": 59,
-                "goalsAgainst": 26,
+                "goalsFor": 60,
+                "goalsAgainst": 29,
                 "winStreak": 4,
                 "attack": 61,
                 "defense": 56
@@ -1515,7 +1515,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/10/2026 13:43 WIB",
+    "standingsUpdated": "07/10/2026 21:05 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -6200,7 +6200,7 @@ const siteData = {
                 "player": "N. Tagliafico",
                 "photo": "https://media.api-sports.io/football/players/529.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-09"
+                "since": "2026-09-19"
             }
         ],
         "estac-troyes": [
