@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-09T00:52:39.766Z.
+   API-Football v3) pada 2026-10-09T07:01:23.316Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "",
         "prediction": "1 - 2",
         "analysis": "Alebrijes de Oaxaca bertemu Correcaminos Uat dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or Correcaminos Uat.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 2,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
         "awayLogo": "https://media.api-sports.io/football/teams/2313.png",
         "h2h": [
+            {
+                "home": "Alebrijes de Oaxaca",
+                "away": "Correcaminos Uat",
+                "score": "2-1"
+            },
             {
                 "home": "Correcaminos Uat",
                 "away": "Alebrijes de Oaxaca",
@@ -60,26 +68,21 @@ const siteData = {
                 "home": "Correcaminos Uat",
                 "away": "Alebrijes de Oaxaca",
                 "score": "1-3"
-            },
-            {
-                "home": "Alebrijes de Oaxaca",
-                "away": "Correcaminos Uat",
-                "score": "1-0"
             }
         ],
         "form": {
             "home": {
                 "results": [
-                    "L",
                     "W",
                     "L",
                     "L",
-                    "L"
+                    "L",
+                    "W"
                 ],
                 "cleanSheets": 3,
                 "failedToScore": 4,
-                "goalsFor": 8,
-                "goalsAgainst": 22,
+                "goalsFor": 10,
+                "goalsAgainst": 23,
                 "winStreak": 2,
                 "attack": 38,
                 "defense": 39
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Correcaminos Uat",
             "stadium": "",
             "round": "Apertura - 12",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2313.png",
             "prediction": "1 - 2",
@@ -146,7 +152,80 @@ const siteData = {
                     "home": 67,
                     "away": 33
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "64",
+                    "player": "A. Justo",
+                    "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "I. Barreda",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "R. Arce",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "21",
+                    "player": "J. Bustos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "J. Reyes",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "A. Justo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "E. Torres",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "W. Guzman",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "I. Barreda",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "O. Perez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "A. Catalan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "L. Jeffus",
+                    "team": "home",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -1557,7 +1636,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/10/2026 07:52 WIB",
+    "standingsUpdated": "09/10/2026 14:01 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3926,7 +4005,7 @@ const siteData = {
                 "player": "Jofre",
                 "photo": "https://media.api-sports.io/football/players/182674.png",
                 "reason": "Groin Injury",
-                "since": "2026-09-18"
+                "since": "2026-10-09"
             }
         ],
         "levante": [
@@ -4938,7 +5017,7 @@ const siteData = {
                 "player": "S. McTominay",
                 "photo": "https://media.api-sports.io/football/players/903.png",
                 "reason": "Heart Problems",
-                "since": "2026-10-10"
+                "since": "2026-09-20"
             },
             {
                 "player": "Giovane",
@@ -5379,7 +5458,7 @@ const siteData = {
             {
                 "player": "N. Rovella",
                 "photo": "https://media.api-sports.io/football/players/30784.png",
-                "reason": "Injury",
+                "reason": "Calf Injury",
                 "since": "2026-10-11"
             },
             {
@@ -5454,18 +5533,6 @@ const siteData = {
                 "player": "B. Cristante",
                 "photo": "https://media.api-sports.io/football/players/778.png",
                 "reason": "Injury",
-                "since": "2026-10-11"
-            },
-            {
-                "player": "D. Malen",
-                "photo": "https://media.api-sports.io/football/players/249.png",
-                "reason": "Knee Injury",
-                "since": "2026-10-11"
-            },
-            {
-                "player": "Wesley Franca",
-                "photo": "https://media.api-sports.io/football/players/349001.png",
-                "reason": "Thigh Injury",
                 "since": "2026-10-11"
             }
         ],
@@ -6384,7 +6451,7 @@ const siteData = {
                 "player": "J. Chavez",
                 "photo": "https://media.api-sports.io/football/players/237191.png",
                 "reason": "Thigh Injury",
-                "since": "2026-09-18"
+                "since": "2026-10-09"
             },
             {
                 "player": "J. Gradit",
@@ -6423,9 +6490,21 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
+                "player": "T. Hazard",
+                "photo": "https://media.api-sports.io/football/players/2929.png",
+                "reason": "Inactive",
+                "since": "2026-10-09"
+            },
+            {
                 "player": "A. Sima",
                 "photo": "https://media.api-sports.io/football/players/277191.png",
                 "reason": "Muscle Injury",
+                "since": "2026-10-09"
+            },
+            {
+                "player": "J. Todibo",
+                "photo": "https://media.api-sports.io/football/players/138.png",
+                "reason": "Inactive",
                 "since": "2026-10-09"
             }
         ],
@@ -6538,7 +6617,7 @@ const siteData = {
                 "player": "T. Nnadi",
                 "photo": "https://media.api-sports.io/football/players/354298.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-11"
+                "since": "2026-09-20"
             },
             {
                 "player": "D. Cornelius",
@@ -6758,7 +6837,7 @@ const siteData = {
                 "player": "R. Himbert",
                 "photo": "https://media.api-sports.io/football/players/497617.png",
                 "reason": "Inactive",
-                "since": "2026-09-19"
+                "since": "2026-10-09"
             },
             {
                 "player": "N. Kamara",
@@ -23935,51 +24014,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Eredivisie",
-                "date": "2026-10-10",
-                "time": "21:30",
-                "home": "GO Ahead Eagles",
-                "away": "Sparta Rotterdam",
-                "stadium": "De Adelaarshorst",
-                "round": "Pekan 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/410.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/426.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : GO Ahead Eagles or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "att": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "def": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "poisson": {
-                        "home": 82,
-                        "away": 18
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 46,
-                        "away": 54
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-10-10",
                 "time": "21:30",
@@ -24021,6 +24055,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Eredivisie",
+                "date": "2026-10-10",
+                "time": "21:30",
+                "home": "GO Ahead Eagles",
+                "away": "Sparta Rotterdam",
+                "stadium": "De Adelaarshorst",
+                "round": "Pekan 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/410.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/426.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : GO Ahead Eagles or draw and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "att": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "def": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "poisson": {
+                        "home": 82,
+                        "away": 18
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 46,
+                        "away": 54
                     }
                 }
             },
