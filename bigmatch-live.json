@@ -1,21 +1,26 @@
 {
-  "fixtureId": 1581444,
-  "home": "Alebrijes de Oaxaca",
-  "away": "Correcaminos Uat",
-  "statusCode": "FT",
-  "updatedAt": "09/10/2026 23:27 WIB",
+  "fixtureId": 1557417,
+  "home": "Arsenal",
+  "away": "Leeds",
+  "statusCode": "NS",
+  "updatedAt": "10/10/2026 04:10 WIB",
   "statistics": null,
   "lineups": null,
-  "venue": null,
+  "venue": {
+    "name": "Emirates Stadium",
+    "city": "London",
+    "capacity": 60383,
+    "image": "https://media.api-sports.io/football/venues/494.png"
+  },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "4.00",
-    "draw": "3.90",
-    "away": "1.67",
+    "home": "1.40",
+    "draw": "4.60",
+    "away": "7.50",
     "overUnder": null,
     "btts": {
-      "yes": "1.44",
-      "no": "2.45"
+      "yes": "2.00",
+      "no": "1.75"
     }
   },
   "liveOdds": null
