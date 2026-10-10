@@ -3,7 +3,7 @@
   "home": "Arsenal",
   "away": "Leeds",
   "statusCode": "NS",
-  "updatedAt": "10/10/2026 07:56 WIB",
+  "updatedAt": "10/10/2026 13:55 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,9 +14,9 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.44",
-    "draw": "4.50",
-    "away": "6.50",
+    "home": "1.40",
+    "draw": "4.60",
+    "away": "7.00",
     "overUnder": null,
     "btts": {
       "yes": "2.00",
