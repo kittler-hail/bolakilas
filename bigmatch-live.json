@@ -2,10 +2,298 @@
   "fixtureId": 1557421,
   "home": "Crystal Palace",
   "away": "Nottingham Forest",
-  "statusCode": "NS",
-  "updatedAt": "11/10/2026 13:19 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "1H",
+  "updatedAt": "11/10/2026 20:11 WIB",
+  "statistics": {
+    "home": {
+      "possession": 47,
+      "shotsTotal": 2,
+      "shotsOnTarget": 1,
+      "corners": 1,
+      "fouls": 3,
+      "offsides": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": null,
+      "passesTotal": 34,
+      "passesAccurate": 25,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 53,
+      "shotsTotal": 2,
+      "shotsOnTarget": 2,
+      "corners": 0,
+      "fouls": 0,
+      "offsides": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": null,
+      "passesTotal": 40,
+      "passesAccurate": 28,
+      "passesPct": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "coach": "P. Sage",
+      "startXI": [
+        {
+          "number": 44,
+          "name": "W. Benítez",
+          "position": "Kiper",
+          "rating": "6.7"
+        },
+        {
+          "number": 26,
+          "name": "C. Richards",
+          "position": "Bek",
+          "rating": "6.3"
+        },
+        {
+          "number": 8,
+          "name": "J. Lerma",
+          "position": "Bek",
+          "rating": "5.9"
+        },
+        {
+          "number": 6,
+          "name": "J. Canvot",
+          "position": "Bek",
+          "rating": "6.3"
+        },
+        {
+          "number": 25,
+          "name": "A. Khalaili",
+          "position": "Gelandang",
+          "rating": "6.2"
+        },
+        {
+          "number": 23,
+          "name": "Q. Timber",
+          "position": "Gelandang",
+          "rating": "6.2"
+        },
+        {
+          "number": 20,
+          "name": "A. Wharton",
+          "position": "Gelandang",
+          "rating": "6.0"
+        },
+        {
+          "number": 3,
+          "name": "T. Mitchell",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 18,
+          "name": "D. Kamada",
+          "position": "Gelandang",
+          "rating": "6.1"
+        },
+        {
+          "number": 10,
+          "name": "Yeremy Pino",
+          "position": "Gelandang",
+          "rating": "5.8"
+        },
+        {
+          "number": 22,
+          "name": "J. Strand Larsen",
+          "position": "Penyerang",
+          "rating": "6.4"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 7,
+          "name": "I. Sarr",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 19,
+          "name": "W. Hughes",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 28,
+          "name": "C. Doucouré",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 11,
+          "name": "D. McNeil",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 30,
+          "name": "Óscar Mingueza",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 21,
+          "name": "H. Ahanor",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 31,
+          "name": "R. Matthews",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 29,
+          "name": "E. Guessand",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 9,
+          "name": "E. Nketiah",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "coach": "O. Glasner",
+      "startXI": [
+        {
+          "number": 26,
+          "name": "M. Sels",
+          "position": "Kiper",
+          "rating": "6.8"
+        },
+        {
+          "number": 34,
+          "name": "O. Aina",
+          "position": "Bek",
+          "rating": "6.3"
+        },
+        {
+          "number": 2,
+          "name": "O. Diomande",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 5,
+          "name": "Murillo",
+          "position": "Bek",
+          "rating": "6.7"
+        },
+        {
+          "number": 27,
+          "name": "D. Muñoz",
+          "position": "Gelandang",
+          "rating": "6.1"
+        },
+        {
+          "number": 24,
+          "name": "J. McAtee",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 21,
+          "name": "X. Schlager",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 3,
+          "name": "N. Williams",
+          "position": "Gelandang",
+          "rating": "6.4"
+        },
+        {
+          "number": 14,
+          "name": "D. Ndoye",
+          "position": "Gelandang",
+          "rating": "7.8"
+        },
+        {
+          "number": 10,
+          "name": "M. Gibbs-White",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 19,
+          "name": "L. Delap",
+          "position": "Penyerang",
+          "rating": "6.5"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 9,
+          "name": "C. Wood",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 12,
+          "name": "John",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 23,
+          "name": "Jair",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 25,
+          "name": "L. Netz",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 8,
+          "name": "N. Domínguez",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 7,
+          "name": "C. Hudson-Odoi",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 6,
+          "name": "I. Sangaré",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "R. Yates",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 15,
+          "name": "A. Kalimuendo",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Selhurst Park",
     "city": "London",
