@@ -3,7 +3,7 @@
   "home": "Racing Santander",
   "away": "Valencia",
   "statusCode": "FT",
-  "updatedAt": "12/10/2026 14:26 WIB",
+  "updatedAt": "12/10/2026 23:56 WIB",
   "statistics": {
     "home": {
       "possession": 54,
@@ -13,12 +13,12 @@
       "fouls": 15,
       "offsides": 1,
       "yellowCards": 3,
-      "redCards": 0,
+      "redCards": null,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 13,
-      "passesTotal": 524,
-      "passesAccurate": 446,
-      "passesPct": null
+      "passesTotal": 523,
+      "passesAccurate": 444,
+      "passesPct": 85
     },
     "away": {
       "possession": 46,
@@ -28,12 +28,12 @@
       "fouls": 10,
       "offsides": 1,
       "yellowCards": 3,
-      "redCards": 0,
+      "redCards": null,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 3,
-      "passesTotal": 453,
-      "passesAccurate": 351,
-      "passesPct": null
+      "passesTotal": 450,
+      "passesAccurate": 350,
+      "passesPct": 78
     }
   },
   "lineups": {
@@ -45,99 +45,92 @@
           "number": 13,
           "name": "Julen Agirrezabala",
           "position": "Kiper",
-          "rating": "5.9"
+          "rating": "6.0"
         },
         {
           "number": 2,
           "name": "Álvaro Mantilla",
-          "position": "Bek",
-          "rating": "6.0"
+          "position": "Bek"
         },
         {
           "number": 5,
           "name": "Pablo Ramón",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.3"
         },
         {
           "number": 24,
           "name": "J. Belocian",
-          "position": "Bek",
-          "rating": "6.6"
+          "position": "Bek"
         },
         {
           "number": 17,
           "name": "Jorge Salinas",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "6.3"
         },
         {
           "number": 18,
           "name": "M. Prati",
-          "position": "Gelandang",
-          "rating": "6.9"
+          "position": "Gelandang"
         },
         {
           "number": 20,
           "name": "Sergio Canales",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.7"
         },
         {
           "number": 23,
           "name": "Iván Martín",
           "position": "Gelandang",
-          "rating": "8.0"
+          "rating": "7.9"
         },
         {
           "number": 8,
           "name": "André Almeida",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 10,
           "name": "Iñigo Vicente",
           "position": "Gelandang",
-          "rating": "7.7"
+          "rating": "8.3"
         },
         {
           "number": 21,
           "name": "M. Zabiri",
-          "position": "Penyerang",
-          "rating": "8.0"
+          "position": "Penyerang"
         }
       ],
       "substitutes": [
         {
           "number": 19,
           "name": "Iker Luque",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 11,
           "name": "Andrés Martín",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 12,
           "name": "Asier Villalibre",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 6,
           "name": "Íñigo Sainz-Maza",
-          "position": "Gelandang",
-          "rating": "0.0"
+          "position": "Gelandang"
         },
         {
           "number": 4,
           "name": "Manu Hernando",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 3,
@@ -148,38 +141,33 @@
         {
           "number": 9,
           "name": "Juan Carlos Arana",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 15,
           "name": "Pablo García",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 31,
           "name": "Laro Gómez",
-          "position": "Kiper",
-          "rating": "0.0"
+          "position": "Kiper"
         },
         {
           "number": 16,
           "name": "Facundo González",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 14,
           "name": "M. Gueye",
-          "position": "Gelandang",
-          "rating": "5.6"
+          "position": "Gelandang"
         },
         {
           "number": 7,
           "name": "G. Guliashvili",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         }
       ]
     },
@@ -190,68 +178,61 @@
         {
           "number": 1,
           "name": "S. Dimitrievski",
-          "position": "Kiper",
-          "rating": "7.5"
+          "position": "Kiper"
         },
         {
           "number": 24,
           "name": "Pablo Maffeo",
           "position": "Bek",
-          "rating": "5.7"
+          "rating": "6.0"
         },
         {
           "number": 4,
           "name": "M. Diakhaby",
-          "position": "Bek",
-          "rating": "6.3"
+          "position": "Bek"
         },
         {
           "number": 18,
           "name": "Pepelu",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.3"
         },
         {
           "number": 12,
           "name": "J. de Haas",
-          "position": "Bek",
-          "rating": "7.1"
+          "position": "Bek"
         },
         {
           "number": 14,
           "name": "José Gayà",
-          "position": "Bek",
-          "rating": "6.4"
+          "position": "Bek"
         },
         {
           "number": 19,
           "name": "Dani Raba",
           "position": "Gelandang",
-          "rating": "7.4"
+          "rating": "7.2"
         },
         {
           "number": 23,
           "name": "F. Ugrinic",
-          "position": "Gelandang",
-          "rating": "6.4"
+          "position": "Gelandang"
         },
         {
           "number": 2,
           "name": "G. Rodríguez",
-          "position": "Gelandang",
-          "rating": "6.0"
+          "position": "Gelandang"
         },
         {
           "number": 8,
           "name": "Javi Guerra",
-          "position": "Gelandang",
-          "rating": "7.1"
+          "position": "Gelandang"
         },
         {
           "number": 9,
           "name": "Hugo Duro",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.0"
         }
       ],
       "substitutes": [
@@ -259,73 +240,63 @@
           "number": 22,
           "name": "Arnau Martínez",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.6"
         },
         {
           "number": 37,
           "name": "Aimar Blázquez",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 36,
           "name": "Iker Córdoba",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 7,
           "name": "A. Danjuma",
-          "position": "Penyerang",
-          "rating": "6.9"
+          "position": "Penyerang"
         },
         {
           "number": 15,
           "name": "A. Dieng",
-          "position": "Gelandang",
-          "rating": "5.9"
+          "position": "Gelandang"
         },
         {
           "number": 10,
           "name": "H. Elliott",
-          "position": "Gelandang",
-          "rating": "6.1"
+          "position": "Gelandang"
         },
         {
           "number": 33,
           "name": "Aaron Mayol",
-          "position": "Gelandang",
-          "rating": "0.0"
+          "position": "Gelandang"
         },
         {
           "number": 27,
           "name": "David Otorbi",
           "position": "Penyerang",
-          "rating": "8.2"
+          "rating": "8.0"
         },
         {
           "number": 39,
           "name": "R. Sato",
-          "position": "Gelandang",
-          "rating": "0.0"
+          "position": "Gelandang"
         },
         {
           "number": 5,
           "name": "César Tárrega",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 21,
           "name": "Jesús Vázquez",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 25,
           "name": "K. van Oevelen",
-          "position": "Kiper",
-          "rating": "0.0"
+          "position": "Kiper"
         }
       ]
     }
