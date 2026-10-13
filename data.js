@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-13T01:02:31.888Z.
+   API-Football v3) pada 2026-10-13T08:45:15.619Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -140,32 +140,32 @@ const siteData = {
             ],
             "cards": [
                 {
-                    "minute": "10",
-                    "player": "A. Abdullahi",
+                    "minute": "9",
+                    "player": "Ahmed Abdullahi",
                     "team": "home",
                     "type": "red"
                 },
                 {
                     "minute": "41",
-                    "player": "A. Yasar",
+                    "player": "Seyfettin Anıl Yaşar",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "41",
-                    "player": "Juan",
+                    "player": "Juan Santos da Silva",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "45+2",
-                    "player": "K. Michalak",
+                    "player": "Konrad Michalak",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
-                    "minute": "48",
-                    "player": "A. Antunes",
+                    "minute": "47",
+                    "player": "Alexis Antunes",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1985,7 +1985,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "13/10/2026 08:02 WIB",
+    "standingsUpdated": "13/10/2026 15:45 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2062,10 +2062,10 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "name": "D. Calvert-Lewin",
-                "photo": "https://media.api-sports.io/football/players/18766.png",
-                "team": "Leeds",
-                "teamLogo": "https://media.api-sports.io/football/teams/63.png",
+                "name": "B. Mbeumo",
+                "photo": "https://media.api-sports.io/football/players/20589.png",
+                "team": "Manchester United",
+                "teamLogo": "https://media.api-sports.io/football/teams/33.png",
                 "value": 3
             }
         ],
@@ -2218,18 +2218,18 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "name": "G. Kvernadze",
-                "photo": "https://media.api-sports.io/football/players/311251.png",
-                "team": "Frosinone",
-                "teamLogo": "https://media.api-sports.io/football/teams/512.png",
+                "name": "N. Krstović",
+                "photo": "https://media.api-sports.io/football/players/66817.png",
+                "team": "Atalanta",
+                "teamLogo": "https://media.api-sports.io/football/teams/499.png",
                 "value": 3
             },
             {
                 "rank": 10,
-                "name": "M. Osmajić",
-                "photo": "https://media.api-sports.io/football/players/66761.png",
-                "team": "Genoa",
-                "teamLogo": "https://media.api-sports.io/football/teams/495.png",
+                "name": "J. Ekkelenkamp",
+                "photo": "https://media.api-sports.io/football/players/541.png",
+                "team": "Udinese",
+                "teamLogo": "https://media.api-sports.io/football/teams/494.png",
                 "value": 3
             }
         ],
@@ -22489,6 +22489,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Copa Libertadores",
+                "date": "2026-10-15",
+                "time": "07:30",
+                "home": "Fluminense",
+                "away": "Palmeiras",
+                "stadium": "Estádio do Maracanã",
+                "round": "Semi-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 33,
+                    "draw": 33,
+                    "away": 33
+                },
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "MLS",
                 "date": "2026-10-15",
                 "time": "07:30",
@@ -22665,51 +22710,6 @@ const siteData = {
                     "goals": {
                         "home": 43,
                         "away": 57
-                    }
-                }
-            },
-            {
-                "league": "Copa Libertadores",
-                "date": "2026-10-15",
-                "time": "07:30",
-                "home": "Fluminense",
-                "away": "Palmeiras",
-                "stadium": "Estádio do Maracanã",
-                "round": "Semi-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
-                },
-                "advice": "No predictions available",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
                     }
                 }
             },
