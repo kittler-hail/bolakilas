@@ -3,11 +3,11 @@
   "home": "Arsenal",
   "away": "Lille",
   "statusCode": "FT",
-  "updatedAt": "14/10/2026 08:52 WIB",
+  "updatedAt": "14/10/2026 14:06 WIB",
   "statistics": {
     "home": {
       "possession": 58,
-      "shotsTotal": 15,
+      "shotsTotal": 16,
       "shotsOnTarget": 8,
       "corners": 7,
       "fouls": 13,
@@ -16,13 +16,13 @@
       "redCards": 0,
       "shotsInsidebox": 12,
       "shotsOutsidebox": 4,
-      "passesTotal": 486,
-      "passesAccurate": 433,
+      "passesTotal": 491,
+      "passesAccurate": 439,
       "passesPct": null
     },
     "away": {
       "possession": 42,
-      "shotsTotal": 3,
+      "shotsTotal": 4,
       "shotsOnTarget": 0,
       "corners": 0,
       "fouls": 9,
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 3,
-      "passesTotal": 346,
-      "passesAccurate": 291,
+      "passesTotal": 351,
+      "passesAccurate": 295,
       "passesPct": null
     }
   },
