@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-14T10:55:06.233Z.
+   API-Football v3) pada 2026-10-14T15:39:00.951Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -130,17 +130,17 @@ const siteData = {
             "goals": [
                 {
                     "minute": "64",
-                    "player": "Jurriën Timber",
+                    "player": "J. Timber",
                     "team": "home"
                 },
                 {
                     "minute": "67",
-                    "player": "Eberechi Eze",
+                    "player": "E. Eze",
                     "team": "home"
                 },
                 {
                     "minute": "71",
-                    "player": "Bukayo Saka",
+                    "player": "B. Saka",
                     "team": "home"
                 }
             ],
@@ -215,7 +215,7 @@ const siteData = {
             "goals": [
                 {
                     "minute": "75",
-                    "player": "Brajan Gruda",
+                    "player": "B. Gruda",
                     "team": "home"
                 }
             ],
@@ -290,37 +290,37 @@ const siteData = {
             "goals": [
                 {
                     "minute": "30",
-                    "player": "Nicolo Tresoldi",
+                    "player": "N. Tresoldi",
                     "team": "away"
                 },
                 {
                     "minute": "44",
-                    "player": "Lautaro Martínez",
+                    "player": "L. Martinez",
                     "team": "home"
                 },
                 {
                     "minute": "63",
-                    "player": "Nicolo Tresoldi",
+                    "player": "N. Tresoldi",
                     "team": "away"
                 },
                 {
                     "minute": "74",
-                    "player": "Nicolo Tresoldi",
+                    "player": "N. Tresoldi",
                     "team": "away"
                 },
                 {
                     "minute": "81",
-                    "player": "Lautaro Martínez",
+                    "player": "L. Martinez",
                     "team": "home"
                 },
                 {
                     "minute": "87",
-                    "player": "Romeo Vermant",
+                    "player": "R. Vermant",
                     "team": "away"
                 },
                 {
-                    "minute": "90+3",
-                    "player": "Ange-Yoan Bonny",
+                    "minute": "90",
+                    "player": "A. Bonny",
                     "team": "home"
                 }
             ],
@@ -345,19 +345,13 @@ const siteData = {
                 },
                 {
                     "minute": "70",
-                    "player": "Jan Virgili Tenas",
+                    "player": "Jan Virgili",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "72",
-                    "player": "Lee Han-beom",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "81",
-                    "player": "Ivan Leko",
+                    "player": "Han-Beom Lee",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -419,22 +413,16 @@ const siteData = {
             "goals": [
                 {
                     "minute": "1",
-                    "player": "Pablo Barrios Rivas",
+                    "player": "P. Barrios",
                     "team": "home"
                 },
                 {
                     "minute": "79",
-                    "player": "Ademola Lookman",
+                    "player": "A. Lookman",
                     "team": "home"
                 }
             ],
             "cards": [
-                {
-                    "minute": "37",
-                    "player": "Diego Pablo Simeone",
-                    "team": "home",
-                    "type": "yellow"
-                },
                 {
                     "minute": "52",
                     "player": "Marcus Rashford",
@@ -505,22 +493,22 @@ const siteData = {
             "goals": [
                 {
                     "minute": "8",
-                    "player": "Amir Rrahmani",
+                    "player": "A. Rrahmani",
                     "team": "away"
                 },
                 {
                     "minute": "23",
-                    "player": "Georges Mikautadze",
+                    "player": "G. Mikautadze",
                     "team": "home"
                 },
                 {
                     "minute": "26",
-                    "player": "Álvaro Santiago Mouriño González",
+                    "player": "S. Mourino",
                     "team": "home"
                 },
                 {
                     "minute": "86",
-                    "player": "Tani Oluwaseyi",
+                    "player": "T. Oluwaseyi",
                     "team": "home"
                 }
             ],
@@ -533,7 +521,7 @@ const siteData = {
                 },
                 {
                     "minute": "55",
-                    "player": "Giovane Santana Do Nascimento",
+                    "player": "Giovane",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -607,27 +595,27 @@ const siteData = {
             "goals": [
                 {
                     "minute": "28",
-                    "player": "Aleksey Batrakov",
+                    "player": "A. Batrakov",
                     "team": "home"
                 },
                 {
                     "minute": "43",
-                    "player": "João Cancelo",
+                    "player": "J. Cancelo",
                     "team": "away"
                 },
                 {
                     "minute": "50",
-                    "player": "Fermín López",
+                    "player": "Fermin",
                     "team": "away"
                 },
                 {
                     "minute": "53",
-                    "player": "Anthony Gordon",
+                    "player": "A. Gordon",
                     "team": "away"
                 },
                 {
                     "minute": "65",
-                    "player": "Karim Adeyemi",
+                    "player": "K. Adeyemi",
                     "team": "away"
                 }
             ],
@@ -696,32 +684,32 @@ const siteData = {
             "goals": [
                 {
                     "minute": "2",
-                    "player": "Gianni Stensness",
+                    "player": "G. Stensness",
                     "team": "home"
                 },
                 {
                     "minute": "38",
-                    "player": "Peter Christiansen",
+                    "player": "P. Christiansen",
                     "team": "home"
                 },
                 {
                     "minute": "54",
-                    "player": "Harry Kane",
+                    "player": "H. Kane",
                     "team": "away"
                 },
                 {
                     "minute": "60",
-                    "player": "Harry Kane",
+                    "player": "H. Kane",
                     "team": "away"
                 },
                 {
                     "minute": "71",
-                    "player": "Luis Díaz",
+                    "player": "L. Diaz",
                     "team": "away"
                 },
                 {
                     "minute": "90",
-                    "player": "Herman Haugen",
+                    "player": "H. J. Haugen",
                     "team": "home"
                 }
             ],
@@ -747,6 +735,12 @@ const siteData = {
                 {
                     "minute": "68",
                     "player": "Ismael Saibari",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "Michael Olise",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -2385,7 +2379,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/10/2026 17:55 WIB",
+    "standingsUpdated": "14/10/2026 22:38 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -22676,6 +22670,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Copa Libertadores",
+                "date": "2026-10-15",
+                "time": "07:30",
+                "home": "Fluminense",
+                "away": "Palmeiras",
+                "stadium": "Estádio do Maracanã",
+                "round": "Semi-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 33,
+                    "draw": 33,
+                    "away": 33
+                },
+                "advice": "No predictions available",
+                "comparison": {
+                    "form": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "att": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "MLS",
                 "date": "2026-10-15",
                 "time": "07:30",
@@ -22852,51 +22891,6 @@ const siteData = {
                     "goals": {
                         "home": 43,
                         "away": 57
-                    }
-                }
-            },
-            {
-                "league": "Copa Libertadores",
-                "date": "2026-10-15",
-                "time": "07:30",
-                "home": "Fluminense",
-                "away": "Palmeiras",
-                "stadium": "Estádio do Maracanã",
-                "round": "Semi-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/121.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 33,
-                    "draw": 33,
-                    "away": 33
-                },
-                "advice": "No predictions available",
-                "comparison": {
-                    "form": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
                     }
                 }
             },
