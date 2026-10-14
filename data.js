@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-14T00:46:20.570Z.
+   API-Football v3) pada 2026-10-14T05:39:22.070Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -53,13 +53,14 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
+                    "W",
                     "W"
                 ],
-                "cleanSheets": 1,
+                "cleanSheets": 2,
                 "failedToScore": 0,
-                "goalsFor": 1,
+                "goalsFor": 4,
                 "goalsAgainst": 0,
-                "winStreak": 1,
+                "winStreak": 2,
                 "attack": 33,
                 "defense": 100
             },
@@ -771,9 +772,9 @@ const siteData = {
             "away": "Tepatitlán",
             "stadium": "Estadio Akron",
             "round": "Apertura - 10",
-            "statusCode": "2H",
-            "minuteDisplay": "84'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/14279.png",
@@ -830,6 +831,11 @@ const siteData = {
                     "minute": "36",
                     "player": "D. Villaseca",
                     "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "G. Garcia",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -874,6 +880,12 @@ const siteData = {
                     "player": "N. Martinez",
                     "team": "away",
                     "type": "red"
+                },
+                {
+                    "minute": "90",
+                    "player": "F. Sanguinetti",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -885,10 +897,10 @@ const siteData = {
             "away": "Vasco DA Gama",
             "stadium": "Alberto J. Armando",
             "round": "Semi-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "16'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/451.png",
             "awayLogo": "https://media.api-sports.io/football/teams/133.png",
             "prediction": "2 - 1",
@@ -924,12 +936,43 @@ const siteData = {
                     "away": 0
                 }
             },
+            "goals": [
+                {
+                    "minute": "25",
+                    "player": "Adson",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "8",
                     "player": "Milton Delgado",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "44",
+                    "player": "Adson",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "Santiago Sosa",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "63",
+                    "player": "Andrés Gómez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Andrés Gómez",
+                    "team": "away",
+                    "type": "red"
                 }
             ]
         },
@@ -2342,7 +2385,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "14/10/2026 07:46 WIB",
+    "standingsUpdated": "14/10/2026 12:39 WIB",
     "topScorers": {
         "Premier League": [
             {
