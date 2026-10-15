@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-15T20:46:16.560Z.
+   API-Football v3) pada 2026-10-15T23:28:12.055Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,9 +24,9 @@ const siteData = {
         "stadium": "Vitality Stadium",
         "prediction": "2 - 1",
         "analysis": "Bournemouth bertemu Sturm Graz dalam laga UEFA Europa League. Analisis API-Football: Combo Winner : Bournemouth and -3.5 goals.",
-        "statusCode": "2H",
-        "minuteDisplay": "88'",
-        "homeScore": 2,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 3,
         "awayScore": 0,
         "odds": {
             "home": 45,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Bournemouth",
                 "away": "Sturm Graz",
-                "score": "2-0"
+                "score": "3-0"
             }
         ],
         "form": {
@@ -86,9 +86,9 @@ const siteData = {
             "away": "Sturm Graz",
             "stadium": "Vitality Stadium",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "88'",
-            "homeScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/35.png",
             "awayLogo": "https://media.api-sports.io/football/teams/637.png",
@@ -134,6 +134,11 @@ const siteData = {
                 {
                     "minute": "76",
                     "player": "Rayan Vitor Simplício Rocha",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Álvaro Rodríguez",
                     "team": "home"
                 }
             ],
@@ -184,8 +189,8 @@ const siteData = {
             "away": "Olympiakos Piraeus",
             "stadium": "Orange Vélodrome",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/81.png",
@@ -265,9 +270,9 @@ const siteData = {
             "away": "OFI",
             "stadium": "Roazhon Park",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/94.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1124.png",
@@ -314,6 +319,11 @@ const siteData = {
                     "minute": "76",
                     "player": "Mahamadou Nagida",
                     "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Abdelhamid Aït Boudlal",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -351,8 +361,8 @@ const siteData = {
             "away": "Beşiktaş",
             "stadium": "Prezero Arena",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/167.png",
@@ -435,6 +445,18 @@ const siteData = {
                     "player": "Oh Hyeon-gyu",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Tim Lemperle",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Koki Machida",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -446,9 +468,9 @@ const siteData = {
             "away": "Celtic",
             "stadium": "Estádio da Luz",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
-            "homeScore": 3,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/211.png",
             "awayLogo": "https://media.api-sports.io/football/teams/247.png",
@@ -505,6 +527,11 @@ const siteData = {
                     "minute": "63",
                     "player": "Camilo Duran",
                     "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "Vangelis Pavlidis",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -536,8 +563,8 @@ const siteData = {
             "away": "Ararat-Armenia",
             "stadium": "Stadion Miejski w Białymstoku",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "85'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/336.png",
@@ -563,8 +590,8 @@ const siteData = {
                     "away": 50
                 },
                 "poisson": {
-                    "home": 79,
-                    "away": 21
+                    "home": 81,
+                    "away": 19
                 },
                 "h2h": {
                     "home": 0,
@@ -644,8 +671,8 @@ const siteData = {
             "away": "Levski Sofia",
             "stadium": "Stadion de Goffert",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/413.png",
@@ -712,10 +739,10 @@ const siteData = {
             "away": "Juventus",
             "stadium": "Municipal de Balaídos",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "88'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/538.png",
             "awayLogo": "https://media.api-sports.io/football/teams/496.png",
             "prediction": "0 - 3",
@@ -761,6 +788,11 @@ const siteData = {
                     "minute": "58",
                     "player": "Nick Woltemade",
                     "team": "away"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Randal Kolo Muani",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -798,9 +830,9 @@ const siteData = {
             "away": "Anderlecht",
             "stadium": "Stadion Maksimir",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "86'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/620.png",
             "awayLogo": "https://media.api-sports.io/football/teams/554.png",
@@ -837,6 +869,13 @@ const siteData = {
                     "away": 0
                 }
             },
+            "goals": [
+                {
+                    "minute": "90+6",
+                    "player": "Dion Drena Beljo",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "30",
@@ -872,8 +911,8 @@ const siteData = {
             "away": "Plzen",
             "stadium": "Groupama Aréna",
             "round": "League Stage - 2",
-            "statusCode": "2H",
-            "minuteDisplay": "90'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/651.png",
@@ -921,12 +960,41 @@ const siteData = {
                     "minute": "81",
                     "player": "Kristoffer Zachariassen",
                     "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "Denis Višinský",
+                    "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "7",
                     "player": "Attila Osváth",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Radoslav Kovac",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Lukáš Červ",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Toon Raemaekers",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Habib Maïga",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -940,8 +1008,8 @@ const siteData = {
             "away": "Kauno Žalgiris",
             "stadium": "American Express Stadium",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "85'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 4,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/51.png",
@@ -1018,10 +1086,10 @@ const siteData = {
             "away": "FK Jablonec",
             "stadium": "Europa-Park-Stadion",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "88'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
-            "awayScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/160.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1122.png",
             "prediction": "2 - 1",
@@ -1077,6 +1145,11 @@ const siteData = {
                     "minute": "65",
                     "player": "M. Eggestein",
                     "team": "home"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "G. Kuol",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1114,8 +1187,8 @@ const siteData = {
             "away": "FC Nordsjaelland",
             "stadium": "Tynecastle Park",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "90'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/254.png",
@@ -1195,6 +1268,12 @@ const siteData = {
                     "player": "H. Milne",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "J. Lahteenmaki",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1206,8 +1285,8 @@ const siteData = {
             "away": "Lincoln Red Imps FC",
             "stadium": "Brann Stadion",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/319.png",
@@ -1309,8 +1388,8 @@ const siteData = {
             "away": "SC Braga",
             "stadium": "Parken",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "89'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/400.png",
@@ -1388,8 +1467,8 @@ const siteData = {
             "away": "FC Thun",
             "stadium": "De Grolsch Veste",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "88'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/415.png",
@@ -1463,10 +1542,10 @@ const siteData = {
             "away": "Pafos",
             "stadium": "New Balance Arena",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 3,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/499.png",
             "awayLogo": "https://media.api-sports.io/football/teams/3403.png",
             "prediction": "1 - 1",
@@ -1517,6 +1596,11 @@ const siteData = {
                     "minute": "44",
                     "player": "G. Scamacca",
                     "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "Biel",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1536,9 +1620,9 @@ const siteData = {
             "away": "FC Iberia 1999",
             "stadium": "Stayen",
             "round": "League Stage - 1",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/735.png",
             "awayLogo": "https://media.api-sports.io/football/teams/3502.png",
@@ -1579,6 +1663,11 @@ const siteData = {
                 {
                     "minute": "11",
                     "player": "R. Vanwesemael",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "I. Sebaoui",
                     "team": "home"
                 }
             ],
@@ -3135,7 +3224,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/10/2026 03:46 WIB",
+    "standingsUpdated": "16/10/2026 06:28 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -25537,51 +25626,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Bundesliga",
-                "date": "2026-10-17",
-                "time": "23:30",
-                "home": "Bayern München",
-                "away": "RB Leipzig",
-                "stadium": "Allianz Arena",
-                "round": "Pekan 6",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/157.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/173.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Bayern München and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "att": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 97,
-                        "away": 3
-                    },
-                    "h2h": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "goals": {
-                        "home": 79,
-                        "away": 21
-                    }
-                }
-            },
-            {
                 "league": "LaLiga",
                 "date": "2026-10-17",
                 "time": "23:30",
@@ -25623,6 +25667,51 @@ const siteData = {
                     "goals": {
                         "home": 33,
                         "away": 67
+                    }
+                }
+            },
+            {
+                "league": "Bundesliga",
+                "date": "2026-10-17",
+                "time": "23:30",
+                "home": "Bayern München",
+                "away": "RB Leipzig",
+                "stadium": "Allianz Arena",
+                "round": "Pekan 6",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/157.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/173.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Bayern München and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "att": {
+                        "home": 52,
+                        "away": 48
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 97,
+                        "away": 3
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 79,
+                        "away": 21
                     }
                 }
             }
@@ -26282,12 +26371,12 @@ const siteData = {
                         "away": 56
                     },
                     "att": {
-                        "home": 50,
-                        "away": 50
+                        "home": 42,
+                        "away": 58
                     },
                     "def": {
-                        "home": 50,
-                        "away": 50
+                        "home": 53,
+                        "away": 47
                     },
                     "poisson": {
                         "home": 50,
@@ -26323,16 +26412,16 @@ const siteData = {
                 "advice": "Double chance : draw or Inter Miami",
                 "comparison": {
                     "form": {
-                        "home": 45,
-                        "away": 55
+                        "home": 50,
+                        "away": 50
                     },
                     "att": {
-                        "home": 38,
-                        "away": 63
+                        "home": 39,
+                        "away": 61
                     },
                     "def": {
-                        "home": 47,
-                        "away": 53
+                        "home": 55,
+                        "away": 45
                     },
                     "poisson": {
                         "home": 33,
@@ -26413,16 +26502,16 @@ const siteData = {
                 "advice": "Double chance : draw or FC Dallas",
                 "comparison": {
                     "form": {
-                        "home": 33,
-                        "away": 67
+                        "home": 23,
+                        "away": 77
                     },
                     "att": {
-                        "home": 46,
-                        "away": 54
+                        "home": 54,
+                        "away": 46
                     },
                     "def": {
-                        "home": 38,
-                        "away": 62
+                        "home": 29,
+                        "away": 71
                     },
                     "poisson": {
                         "home": 50,
@@ -26856,27 +26945,27 @@ const siteData = {
                 "awayLogo": "https://media.api-sports.io/football/teams/25484.png",
                 "prediction": "3 - 2",
                 "odds": {
-                    "home": 10,
+                    "home": 45,
                     "draw": 45,
-                    "away": 45
+                    "away": 10
                 },
-                "advice": "Combo Double chance : draw or San Diego and +1.5 goals",
+                "advice": "Combo Double chance : Los Angeles Galaxy or draw and +1.5 goals",
                 "comparison": {
                     "form": {
-                        "home": 78,
-                        "away": 22
+                        "home": 77,
+                        "away": 23
                     },
                     "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
                         "home": 55,
                         "away": 45
                     },
+                    "def": {
+                        "home": 61,
+                        "away": 39
+                    },
                     "poisson": {
-                        "home": 56,
-                        "away": 44
+                        "home": 59,
+                        "away": 41
                     },
                     "h2h": {
                         "home": 0,
