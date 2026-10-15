@@ -3,7 +3,7 @@
   "home": "Manchester City",
   "away": "Paris Saint Germain",
   "statusCode": "FT",
-  "updatedAt": "15/10/2026 10:28 WIB",
+  "updatedAt": "15/10/2026 15:33 WIB",
   "statistics": {
     "home": {
       "possession": 54,
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 8,
-      "passesTotal": 444,
-      "passesAccurate": 374,
+      "passesTotal": 445,
+      "passesAccurate": 375,
       "passesPct": null
     }
   },
