@@ -3,21 +3,21 @@
   "home": "Bournemouth",
   "away": "Sturm Graz",
   "statusCode": "FT",
-  "updatedAt": "16/10/2026 04:02 WIB",
+  "updatedAt": "16/10/2026 06:39 WIB",
   "statistics": {
     "home": {
       "possession": 62,
-      "shotsTotal": 24,
-      "shotsOnTarget": 8,
+      "shotsTotal": 23,
+      "shotsOnTarget": 7,
       "corners": 7,
       "fouls": 11,
       "offsides": 1,
       "yellowCards": 3,
       "redCards": 0,
-      "shotsInsidebox": 15,
+      "shotsInsidebox": 14,
       "shotsOutsidebox": 9,
       "passesTotal": 464,
-      "passesAccurate": 382,
+      "passesAccurate": 380,
       "passesPct": null
     },
     "away": {
@@ -32,7 +32,7 @@
       "shotsInsidebox": 4,
       "shotsOutsidebox": 2,
       "passesTotal": 291,
-      "passesAccurate": 204,
+      "passesAccurate": 203,
       "passesPct": null
     }
   },
