@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-16T20:19:07.950Z.
+   API-Football v3) pada 2026-10-16T23:10:07.264Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -280,8 +280,8 @@ const siteData = {
             "away": "1. FC Köln",
             "stadium": "Deutsche Bank Park",
             "round": "Pekan 6",
-            "statusCode": "2H",
-            "minuteDisplay": "88'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/169.png",
@@ -344,6 +344,12 @@ const siteData = {
                     "player": "Ísak Bergmann Jóhannesson",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Borna Sosa",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -355,8 +361,8 @@ const siteData = {
             "away": "Sassuolo",
             "stadium": "PSC Arena",
             "round": "Pekan 7",
-            "statusCode": "2H",
-            "minuteDisplay": "74'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 4,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/512.png",
@@ -425,6 +431,14 @@ const siteData = {
                     "player": "Antonio Raimondo",
                     "team": "home"
                 }
+            ],
+            "cards": [
+                {
+                    "minute": "82",
+                    "player": "Kieron Bowie",
+                    "team": "away",
+                    "type": "yellow"
+                }
             ]
         },
         {
@@ -435,8 +449,8 @@ const siteData = {
             "away": "Toulouse",
             "stadium": "MMArena",
             "round": "Pekan 7",
-            "statusCode": "2H",
-            "minuteDisplay": "77'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/1298.png",
@@ -486,7 +500,7 @@ const siteData = {
                     "team": "away"
                 },
                 {
-                    "minute": "75",
+                    "minute": "87",
                     "player": "Casper Tengstedt",
                     "team": "away"
                 }
@@ -496,6 +510,18 @@ const siteData = {
                     "minute": "49",
                     "player": "Jacen Russell-Rowe",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Samuel Yohou",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Djibril Sidibé",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -508,10 +534,10 @@ const siteData = {
             "away": "Levante",
             "stadium": "Estadio de Riazor",
             "round": "Pekan 9",
-            "statusCode": "2H",
-            "minuteDisplay": "58'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/544.png",
             "awayLogo": "https://media.api-sports.io/football/teams/539.png",
             "prediction": "2 - 2",
@@ -547,6 +573,18 @@ const siteData = {
                     "away": 53
                 }
             },
+            "goals": [
+                {
+                    "minute": "63",
+                    "player": "Bil Nsongo",
+                    "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "Daniel Requena Sánchez",
+                    "team": "away"
+                }
+            ],
             "cards": [
                 {
                     "minute": "33",
@@ -559,53 +597,20 @@ const siteData = {
                     "player": "Luismi Cruz",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "Adrián de la Fuente Barquilla",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Adria Altimira",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
-        },
-        {
-            "league": "Liga MX",
-            "date": "2026-10-17",
-            "time": "08:00",
-            "home": "Necaxa",
-            "away": "Atlas",
-            "stadium": "Estadio Victoria",
-            "round": "Apertura - 12",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Atlas and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 25,
-                    "away": 75
-                },
-                "att": {
-                    "home": 47,
-                    "away": 53
-                },
-                "def": {
-                    "home": 45,
-                    "away": 55
-                },
-                "poisson": {
-                    "home": 33,
-                    "away": 67
-                },
-                "h2h": {
-                    "home": 29,
-                    "away": 71
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            }
         },
         {
             "league": "Liga de Expansion MX",
@@ -655,45 +660,45 @@ const siteData = {
         {
             "league": "Liga MX",
             "date": "2026-10-17",
-            "time": "10:00",
-            "home": "Atlante FC",
-            "away": "U.N.A.M. - Pumas",
-            "stadium": "Estadio Azul",
+            "time": "08:00",
+            "home": "Necaxa",
+            "away": "Atlas",
+            "stadium": "Estadio Victoria",
             "round": "Apertura - 12",
             "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2286.png",
+            "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2283.png",
             "prediction": "2 - 3",
             "odds": {
                 "home": 10,
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or U.N.A.M. - Pumas",
+            "advice": "Combo Double chance : draw or Atlas and +1.5 goals",
             "comparison": {
                 "form": {
-                    "home": 50,
-                    "away": 50
+                    "home": 25,
+                    "away": 75
                 },
                 "att": {
-                    "home": 40,
-                    "away": 60
+                    "home": 47,
+                    "away": 53
                 },
                 "def": {
-                    "home": 55,
-                    "away": 45
+                    "home": 45,
+                    "away": 55
                 },
                 "poisson": {
-                    "home": 43,
-                    "away": 57
+                    "home": 33,
+                    "away": 67
                 },
                 "h2h": {
-                    "home": 0,
-                    "away": 0
+                    "home": 29,
+                    "away": 71
                 },
                 "goals": {
-                    "home": 0,
-                    "away": 0
+                    "home": 50,
+                    "away": 50
                 }
             }
         },
@@ -739,6 +744,51 @@ const siteData = {
                 "goals": {
                     "home": 61,
                     "away": 39
+                }
+            }
+        },
+        {
+            "league": "Liga MX",
+            "date": "2026-10-17",
+            "time": "10:00",
+            "home": "Atlante FC",
+            "away": "U.N.A.M. - Pumas",
+            "stadium": "Estadio Azul",
+            "round": "Apertura - 12",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/2312.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2286.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or U.N.A.M. - Pumas",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 40,
+                    "away": 60
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 43,
+                    "away": 57
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
                 }
             }
         },
@@ -1913,51 +1963,6 @@ const siteData = {
             }
         },
         {
-            "league": "Premier League",
-            "date": "2026-10-17",
-            "time": "23:30",
-            "home": "Newcastle",
-            "away": "Aston Villa",
-            "stadium": "St James' Park",
-            "round": "Pekan 7",
-            "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/34.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/66.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Newcastle or draw",
-            "comparison": {
-                "form": {
-                    "home": 58,
-                    "away": 42
-                },
-                "att": {
-                    "home": 57,
-                    "away": 43
-                },
-                "def": {
-                    "home": 39,
-                    "away": 61
-                },
-                "poisson": {
-                    "home": 66,
-                    "away": 34
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            }
-        },
-        {
             "league": "LaLiga",
             "date": "2026-10-17",
             "time": "23:30",
@@ -2044,6 +2049,51 @@ const siteData = {
                 "goals": {
                     "home": 79,
                     "away": 21
+                }
+            }
+        },
+        {
+            "league": "Premier League",
+            "date": "2026-10-17",
+            "time": "23:30",
+            "home": "Newcastle",
+            "away": "Aston Villa",
+            "stadium": "St James' Park",
+            "round": "Pekan 7",
+            "statusCode": "NS",
+            "homeLogo": "https://media.api-sports.io/football/teams/34.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/66.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Newcastle or draw",
+            "comparison": {
+                "form": {
+                    "home": 58,
+                    "away": 42
+                },
+                "att": {
+                    "home": 57,
+                    "away": 43
+                },
+                "def": {
+                    "home": 39,
+                    "away": 61
+                },
+                "poisson": {
+                    "home": 66,
+                    "away": 34
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
                 }
             }
         }
@@ -2403,12 +2453,12 @@ const siteData = {
                 "rank": 8,
                 "team": "Deportivo La Coruna",
                 "logo": "https://media.api-sports.io/football/teams/544.png",
-                "played": 8,
+                "played": 9,
                 "win": 2,
-                "draw": 4,
+                "draw": 5,
                 "lose": 2,
                 "gd": 1,
-                "points": 10
+                "points": 11
             },
             {
                 "rank": 9,
@@ -2502,12 +2552,12 @@ const siteData = {
                 "rank": 17,
                 "team": "Levante",
                 "logo": "https://media.api-sports.io/football/teams/539.png",
-                "played": 7,
+                "played": 8,
                 "win": 1,
-                "draw": 3,
+                "draw": 4,
                 "lose": 3,
                 "gd": -4,
-                "points": 6
+                "points": 7
             },
             {
                 "rank": 18,
@@ -2579,6 +2629,17 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "team": "Frosinone",
+                "logo": "https://media.api-sports.io/football/teams/512.png",
+                "played": 7,
+                "win": 4,
+                "draw": 1,
+                "lose": 2,
+                "gd": 4,
+                "points": 13
+            },
+            {
+                "rank": 5,
                 "team": "Cagliari",
                 "logo": "https://media.api-sports.io/football/teams/490.png",
                 "played": 6,
@@ -2589,7 +2650,7 @@ const siteData = {
                 "points": 13
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "AC Milan",
                 "logo": "https://media.api-sports.io/football/teams/489.png",
                 "played": 6,
@@ -2600,7 +2661,7 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Juventus",
                 "logo": "https://media.api-sports.io/football/teams/496.png",
                 "played": 6,
@@ -2611,7 +2672,7 @@ const siteData = {
                 "points": 11
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Como",
                 "logo": "https://media.api-sports.io/football/teams/895.png",
                 "played": 6,
@@ -2622,7 +2683,7 @@ const siteData = {
                 "points": 11
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Napoli",
                 "logo": "https://media.api-sports.io/football/teams/492.png",
                 "played": 6,
@@ -2630,17 +2691,6 @@ const siteData = {
                 "draw": 1,
                 "lose": 2,
                 "gd": 4,
-                "points": 10
-            },
-            {
-                "rank": 9,
-                "team": "Frosinone",
-                "logo": "https://media.api-sports.io/football/teams/512.png",
-                "played": 6,
-                "win": 3,
-                "draw": 1,
-                "lose": 2,
-                "gd": 2,
                 "points": 10
             },
             {
@@ -2658,11 +2708,11 @@ const siteData = {
                 "rank": 11,
                 "team": "Sassuolo",
                 "logo": "https://media.api-sports.io/football/teams/488.png",
-                "played": 6,
+                "played": 7,
                 "win": 2,
                 "draw": 2,
-                "lose": 2,
-                "gd": 0,
+                "lose": 3,
+                "gd": -2,
                 "points": 8
             },
             {
@@ -2845,6 +2895,17 @@ const siteData = {
             },
             {
                 "rank": 8,
+                "team": "Eintracht Frankfurt",
+                "logo": "https://media.api-sports.io/football/teams/169.png",
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "gd": -6,
+                "points": 8
+            },
+            {
+                "rank": 9,
                 "team": "FSV Mainz 05",
                 "logo": "https://media.api-sports.io/football/teams/164.png",
                 "played": 5,
@@ -2855,7 +2916,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "SV Elversberg",
                 "logo": "https://media.api-sports.io/football/teams/1660.png",
                 "played": 5,
@@ -2866,18 +2927,18 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "1. FC Köln",
                 "logo": "https://media.api-sports.io/football/teams/192.png",
-                "played": 5,
+                "played": 6,
                 "win": 2,
                 "draw": 1,
-                "lose": 2,
-                "gd": -2,
+                "lose": 3,
+                "gd": -3,
                 "points": 7
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "VfB Stuttgart",
                 "logo": "https://media.api-sports.io/football/teams/172.png",
                 "played": 5,
@@ -2888,7 +2949,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Hamburger SV",
                 "logo": "https://media.api-sports.io/football/teams/175.png",
                 "played": 5,
@@ -2899,7 +2960,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "FC Schalke 04",
                 "logo": "https://media.api-sports.io/football/teams/174.png",
                 "played": 5,
@@ -2907,17 +2968,6 @@ const siteData = {
                 "draw": 2,
                 "lose": 2,
                 "gd": -2,
-                "points": 5
-            },
-            {
-                "rank": 14,
-                "team": "Eintracht Frankfurt",
-                "logo": "https://media.api-sports.io/football/teams/169.png",
-                "played": 5,
-                "win": 1,
-                "draw": 2,
-                "lose": 2,
-                "gd": -7,
                 "points": 5
             },
             {
@@ -3034,6 +3084,17 @@ const siteData = {
             },
             {
                 "rank": 7,
+                "team": "Toulouse",
+                "logo": "https://media.api-sports.io/football/teams/96.png",
+                "played": 7,
+                "win": 2,
+                "draw": 3,
+                "lose": 2,
+                "gd": 1,
+                "points": 9
+            },
+            {
+                "rank": 8,
                 "team": "Stade Brestois 29",
                 "logo": "https://media.api-sports.io/football/teams/106.png",
                 "played": 6,
@@ -3044,7 +3105,7 @@ const siteData = {
                 "points": 8
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Lorient",
                 "logo": "https://media.api-sports.io/football/teams/97.png",
                 "played": 6,
@@ -3055,7 +3116,7 @@ const siteData = {
                 "points": 8
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "Nice",
                 "logo": "https://media.api-sports.io/football/teams/84.png",
                 "played": 6,
@@ -3066,7 +3127,7 @@ const siteData = {
                 "points": 8
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Lens",
                 "logo": "https://media.api-sports.io/football/teams/116.png",
                 "played": 6,
@@ -3077,7 +3138,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Strasbourg",
                 "logo": "https://media.api-sports.io/football/teams/95.png",
                 "played": 6,
@@ -3088,7 +3149,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Angers",
                 "logo": "https://media.api-sports.io/football/teams/77.png",
                 "played": 6,
@@ -3099,7 +3160,7 @@ const siteData = {
                 "points": 7
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Marseille",
                 "logo": "https://media.api-sports.io/football/teams/81.png",
                 "played": 6,
@@ -3110,25 +3171,14 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Le Mans",
                 "logo": "https://media.api-sports.io/football/teams/1298.png",
-                "played": 6,
+                "played": 7,
                 "win": 1,
                 "draw": 3,
-                "lose": 2,
-                "gd": -2,
-                "points": 6
-            },
-            {
-                "rank": 15,
-                "team": "Toulouse",
-                "logo": "https://media.api-sports.io/football/teams/96.png",
-                "played": 6,
-                "win": 1,
-                "draw": 3,
-                "lose": 2,
-                "gd": -2,
+                "lose": 3,
+                "gd": -5,
                 "points": 6
             },
             {
@@ -3366,7 +3416,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "17/10/2026 03:19 WIB",
+    "standingsUpdated": "17/10/2026 06:10 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -26126,8 +26176,8 @@ const siteData = {
                         "away": 54
                     },
                     "poisson": {
-                        "home": 66,
-                        "away": 34
+                        "home": 65,
+                        "away": 35
                     },
                     "h2h": {
                         "home": 80,
@@ -26680,96 +26730,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-10-18",
-                "time": "08:00",
-                "home": "Toluca",
-                "away": "Atletico San Luis",
-                "stadium": "Estadio Nemesio Diez",
-                "round": "Apertura - 12",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2314.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Toluca and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "def": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "poisson": {
-                        "home": 68,
-                        "away": 32
-                    },
-                    "h2h": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "goals": {
-                        "home": 75,
-                        "away": 25
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-10-18",
-                "time": "08:00",
-                "home": "Leon",
-                "away": "Club America",
-                "stadium": "Estadio León",
-                "round": "Apertura - 12",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Leon or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "def": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "poisson": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 42,
-                        "away": 58
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-10-18",
                 "time": "08:00",
@@ -26901,6 +26861,96 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-18",
+                "time": "08:00",
+                "home": "Toluca",
+                "away": "Atletico San Luis",
+                "stadium": "Estadio Nemesio Diez",
+                "round": "Apertura - 12",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2314.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Toluca and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "def": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "poisson": {
+                        "home": 68,
+                        "away": 32
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 75,
+                        "away": 25
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-18",
+                "time": "08:00",
+                "home": "Leon",
+                "away": "Club America",
+                "stadium": "Estadio León",
+                "round": "Apertura - 12",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Leon or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
                     }
                 }
             },
@@ -27490,6 +27540,96 @@ const siteData = {
                 }
             },
             {
+                "league": "Serie A",
+                "date": "2026-10-18",
+                "time": "20:00",
+                "home": "Fiorentina",
+                "away": "Como",
+                "stadium": "Stadio Artemio Franchi",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/502.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/895.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Winner : Como",
+                "comparison": {
+                    "form": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 17,
+                        "away": 83
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-10-18",
+                "time": "20:00",
+                "home": "Angers",
+                "away": "Marseille",
+                "stadium": "Stade Raymond Kopa",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/77.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Marseille",
+                "comparison": {
+                    "form": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 32,
+                        "away": 68
+                    }
+                }
+            },
+            {
                 "league": "Premier League",
                 "date": "2026-10-18",
                 "time": "20:00",
@@ -27621,96 +27761,6 @@ const siteData = {
                     "goals": {
                         "home": 40,
                         "away": 60
-                    }
-                }
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-10-18",
-                "time": "20:00",
-                "home": "Fiorentina",
-                "away": "Como",
-                "stadium": "Stadio Artemio Franchi",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/502.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/895.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Winner : Como",
-                "comparison": {
-                    "form": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "att": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 17,
-                        "away": 83
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 43,
-                        "away": 57
-                    }
-                }
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-10-18",
-                "time": "20:00",
-                "home": "Angers",
-                "away": "Marseille",
-                "stadium": "Stade Raymond Kopa",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/77.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Marseille",
-                "comparison": {
-                    "form": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "att": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 32,
-                        "away": 68
                     }
                 }
             },
@@ -28075,51 +28125,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Premier League",
-                "date": "2026-10-18",
-                "time": "22:30",
-                "home": "Nottingham Forest",
-                "away": "Arsenal",
-                "stadium": "City Ground",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/65.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/42.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Double chance : draw or Arsenal and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "att": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "def": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 11,
-                        "away": 89
-                    }
-                }
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-10-18",
                 "time": "22:30",
@@ -28161,6 +28166,51 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
+                    }
+                }
+            },
+            {
+                "league": "Premier League",
+                "date": "2026-10-18",
+                "time": "22:30",
+                "home": "Nottingham Forest",
+                "away": "Arsenal",
+                "stadium": "City Ground",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/65.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/42.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Double chance : draw or Arsenal and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 11,
+                        "away": 89
                     }
                 }
             },
