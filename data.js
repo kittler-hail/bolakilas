@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-16T02:27:06.602Z.
+   API-Football v3) pada 2026-10-16T07:43:58.072Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -53,24 +53,26 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
+                    "W",
                     "W"
                 ],
-                "cleanSheets": 0,
+                "cleanSheets": 1,
                 "failedToScore": 0,
-                "goalsFor": 2,
+                "goalsFor": 5,
                 "goalsAgainst": 1,
-                "winStreak": 1,
+                "winStreak": 2,
                 "attack": 100,
                 "defense": 0
             },
             "away": {
                 "results": [
-                    "D"
+                    "D",
+                    "L"
                 ],
                 "cleanSheets": 1,
-                "failedToScore": 1,
+                "failedToScore": 2,
                 "goalsFor": 0,
-                "goalsAgainst": 0,
+                "goalsAgainst": 3,
                 "winStreak": 0,
                 "attack": 0,
                 "defense": 100
@@ -1066,7 +1068,7 @@ const siteData = {
                     "team": "home"
                 },
                 {
-                    "minute": "45+2",
+                    "minute": "45",
                     "player": "J. Hinshelwood",
                     "team": "home"
                 },
@@ -1084,7 +1086,7 @@ const siteData = {
             "cards": [
                 {
                     "minute": "12",
-                    "player": "F. Ourega",
+                    "player": "Fabien Ourega",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1159,7 +1161,7 @@ const siteData = {
                     "team": "home"
                 },
                 {
-                    "minute": "90+3",
+                    "minute": "90",
                     "player": "G. Kuol",
                     "team": "away"
                 }
@@ -1167,25 +1169,25 @@ const siteData = {
             "cards": [
                 {
                     "minute": "14",
-                    "player": "N. Tekijaski",
+                    "player": "Nemanja Tekijaški",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "63",
-                    "player": "N. Okeke",
+                    "player": "Nelson Okeke",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "72",
-                    "player": "P. Osterhage",
+                    "player": "Patrick Osterhage",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "77",
-                    "player": "D. Holly",
+                    "player": "Dominik Hollý",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1253,37 +1255,37 @@ const siteData = {
             "cards": [
                 {
                     "minute": "5",
-                    "player": "C. Braga",
+                    "player": "Cláudio Braga",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "43",
-                    "player": "V. Nelsson",
+                    "player": "Victor Nelsson",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "47",
-                    "player": "J. Wilson",
+                    "player": "James Wilson",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "55",
-                    "player": "I. Adel",
+                    "player": "Ibrahim Adel",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "66",
-                    "player": "H. Milne",
+                    "player": "Harry Milne",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "89",
-                    "player": "J. Lahteenmaki",
+                    "player": "Juho Lähteenmäki",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1356,37 +1358,37 @@ const siteData = {
             "cards": [
                 {
                     "minute": "6",
-                    "player": "N. Kasanwirjo",
+                    "player": "Neraysho Kasanwirjo",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "23",
-                    "player": "N. Kasanwirjo",
+                    "player": "Neraysho Kasanwirjo",
                     "team": "home",
                     "type": "red"
                 },
                 {
                     "minute": "56",
-                    "player": "T. Cardozo",
+                    "player": "Gabri Garcia",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "61",
-                    "player": "T. Cardozo",
+                    "player": "Gabri Garcia",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "61",
-                    "player": "T. Cardozo",
+                    "player": "Gabri Garcia",
                     "team": "away",
                     "type": "red"
                 },
                 {
                     "minute": "73",
-                    "player": "N. Castro",
+                    "player": "Niklas Castro",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1459,13 +1461,13 @@ const siteData = {
             "cards": [
                 {
                     "minute": "71",
-                    "player": "A. Markgraf",
+                    "player": "Ákos Markgráf",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "85",
-                    "player": "H. Nemeth",
+                    "player": "Hunor Németh",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -1528,19 +1530,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "31",
-                    "player": "F. Fehr",
+                    "player": "Fabio Fehr",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "43",
-                    "player": "A. Adelgaard",
+                    "player": "Aske Adelgaard",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "60",
-                    "player": "P. Kristal",
+                    "player": "Patrik Kristal",
                     "team": "away",
                     "type": "red"
                 }
@@ -1614,14 +1616,6 @@ const siteData = {
                     "player": "Biel",
                     "team": "away"
                 }
-            ],
-            "cards": [
-                {
-                    "minute": "50",
-                    "player": "R. Sa Pinto",
-                    "team": "away",
-                    "type": "yellow"
-                }
             ]
         },
         {
@@ -1686,7 +1680,7 @@ const siteData = {
             "cards": [
                 {
                     "minute": "36",
-                    "player": "N. Ishiwatari",
+                    "player": "Nelson Ishiwatari",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -3271,7 +3265,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "16/10/2026 09:27 WIB",
+    "standingsUpdated": "16/10/2026 14:43 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -24281,51 +24275,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-10-17",
-                "time": "01:45",
-                "home": "Frosinone",
-                "away": "Sassuolo",
-                "stadium": "PSC Arena",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/512.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Frosinone or draw",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 68,
-                        "away": 32
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-10-17",
                 "time": "01:45",
@@ -24371,6 +24320,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Serie A",
+                "date": "2026-10-17",
+                "time": "01:45",
+                "home": "Frosinone",
+                "away": "Sassuolo",
+                "stadium": "PSC Arena",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/512.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/488.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Frosinone or draw",
+                "comparison": {
+                    "form": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 68,
+                        "away": 32
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
+                    }
+                }
+            },
+            {
                 "league": "LaLiga",
                 "date": "2026-10-17",
                 "time": "02:00",
@@ -24412,6 +24406,51 @@ const siteData = {
                     "goals": {
                         "home": 47,
                         "away": 53
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-10-17",
+                "time": "08:00",
+                "home": "Correcaminos Uat",
+                "away": "Dorados",
+                "stadium": "",
+                "round": "Apertura - 13",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Correcaminos Uat or draw",
+                "comparison": {
+                    "form": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 37
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 40,
+                        "away": 60
                     }
                 }
             },
@@ -24463,45 +24502,45 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-10-17",
-                "time": "08:00",
-                "home": "Correcaminos Uat",
-                "away": "Dorados",
-                "stadium": "",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Tlaxcala",
+                "stadium": "Estadio Guaycura",
                 "round": "Apertura - 13",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "prediction": "2 - 1",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
+                "prediction": "3 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
                 },
-                "advice": "Double chance : Correcaminos Uat or draw",
+                "advice": "Double chance : CA La Paz or draw",
                 "comparison": {
                     "form": {
-                        "home": 71,
-                        "away": 29
+                        "home": 50,
+                        "away": 50
                     },
                     "att": {
-                        "home": 45,
-                        "away": 55
+                        "home": 52,
+                        "away": 48
                     },
                     "def": {
-                        "home": 63,
-                        "away": 37
+                        "home": 53,
+                        "away": 47
                     },
                     "poisson": {
-                        "home": 46,
-                        "away": 54
+                        "home": 72,
+                        "away": 28
                     },
                     "h2h": {
-                        "home": 40,
-                        "away": 60
+                        "home": 85,
+                        "away": 15
                     },
                     "goals": {
-                        "home": 40,
-                        "away": 60
+                        "home": 61,
+                        "away": 39
                     }
                 }
             },
@@ -24592,51 +24631,6 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-17",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Tlaxcala",
-                "stadium": "Estadio Guaycura",
-                "round": "Apertura - 13",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/14280.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : CA La Paz or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 52,
-                        "away": 48
-                    },
-                    "def": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "poisson": {
-                        "home": 72,
-                        "away": 28
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 61,
-                        "away": 39
                     }
                 }
             },
@@ -25811,51 +25805,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-10-17",
-                "time": "23:30",
-                "home": "Real Betis",
-                "away": "Barcelona",
-                "stadium": "Estadio de la Cartuja",
-                "round": "Pekan 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/543.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/529.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Barcelona",
-                "comparison": {
-                    "form": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "att": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 33,
-                        "away": 67
-                    }
-                }
-            },
-            {
                 "league": "Bundesliga",
                 "date": "2026-10-17",
                 "time": "23:30",
@@ -25897,6 +25846,51 @@ const siteData = {
                     "goals": {
                         "home": 79,
                         "away": 21
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-10-17",
+                "time": "23:30",
+                "home": "Real Betis",
+                "away": "Barcelona",
+                "stadium": "Estadio de la Cartuja",
+                "round": "Pekan 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/543.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/529.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Barcelona",
+                "comparison": {
+                    "form": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "att": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 33,
+                        "away": 67
                     }
                 }
             }
@@ -26038,51 +26032,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-10-18",
-                "time": "01:45",
-                "home": "AS Roma",
-                "away": "Genoa",
-                "stadium": "Stadio Olimpico",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/495.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 50,
-                    "draw": 50,
-                    "away": 33
-                },
-                "advice": "Winner : AS Roma",
-                "comparison": {
-                    "form": {
-                        "home": 73,
-                        "away": 27
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "poisson": {
-                        "home": 87,
-                        "away": 13
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 64,
-                        "away": 36
-                    }
-                }
-            },
-            {
                 "league": "Ligue 1",
                 "date": "2026-10-18",
                 "time": "01:45",
@@ -26169,6 +26118,51 @@ const siteData = {
                     "goals": {
                         "home": 24,
                         "away": 76
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-10-18",
+                "time": "01:45",
+                "home": "AS Roma",
+                "away": "Genoa",
+                "stadium": "Stadio Olimpico",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/495.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 50,
+                    "draw": 50,
+                    "away": 33
+                },
+                "advice": "Winner : AS Roma",
+                "comparison": {
+                    "form": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "poisson": {
+                        "home": 87,
+                        "away": 13
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 64,
+                        "away": 36
                     }
                 }
             },
@@ -26803,96 +26797,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-10-18",
-                "time": "08:00",
-                "home": "Toluca",
-                "away": "Atletico San Luis",
-                "stadium": "Estadio Nemesio Diez",
-                "round": "Apertura - 12",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2314.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Toluca and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "def": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "poisson": {
-                        "home": 68,
-                        "away": 32
-                    },
-                    "h2h": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "goals": {
-                        "home": 75,
-                        "away": 25
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-10-18",
-                "time": "08:00",
-                "home": "Leon",
-                "away": "Club America",
-                "stadium": "Estadio León",
-                "round": "Apertura - 12",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2287.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Leon or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "def": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "poisson": {
-                        "home": 59,
-                        "away": 41
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 42,
-                        "away": 58
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-10-18",
                 "time": "08:00",
@@ -27024,6 +26928,96 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-18",
+                "time": "08:00",
+                "home": "Toluca",
+                "away": "Atletico San Luis",
+                "stadium": "Estadio Nemesio Diez",
+                "round": "Apertura - 12",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2314.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Toluca and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "def": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "poisson": {
+                        "home": 68,
+                        "away": 32
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 75,
+                        "away": 25
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-18",
+                "time": "08:00",
+                "home": "Leon",
+                "away": "Club America",
+                "stadium": "Estadio León",
+                "round": "Apertura - 12",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2287.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Leon or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 59,
+                        "away": 41
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
                     }
                 }
             },
@@ -27748,6 +27742,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Ligue 1",
+                "date": "2026-10-18",
+                "time": "20:00",
+                "home": "Angers",
+                "away": "Marseille",
+                "stadium": "Stade Raymond Kopa",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/77.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Marseille",
+                "comparison": {
+                    "form": {
+                        "home": 70,
+                        "away": 30
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 32,
+                        "away": 68
+                    }
+                }
+            },
+            {
                 "league": "Serie A",
                 "date": "2026-10-18",
                 "time": "20:00",
@@ -27834,51 +27873,6 @@ const siteData = {
                     "goals": {
                         "home": 63,
                         "away": 38
-                    }
-                }
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-10-18",
-                "time": "20:00",
-                "home": "Angers",
-                "away": "Marseille",
-                "stadium": "Stade Raymond Kopa",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/77.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Marseille",
-                "comparison": {
-                    "form": {
-                        "home": 70,
-                        "away": 30
-                    },
-                    "att": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 32,
-                        "away": 68
                     }
                 }
             },
