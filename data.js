@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-17T21:54:08.240Z.
+   API-Football v3) pada 2026-10-17T23:40:01.241Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -103,6 +103,91 @@ const siteData = {
         }
     },
     "matches": [
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-10-18",
+            "time": "01:00",
+            "home": "Cruz Azul Hidalgo",
+            "away": "Mineros de Zacatecas",
+            "stadium": "Estadio 10 de Diciembre",
+            "round": "Apertura - 13",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/15928.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Cruz Azul Hidalgo or draw",
+            "comparison": {
+                "form": {
+                    "home": 42,
+                    "away": 58
+                },
+                "att": {
+                    "home": 38,
+                    "away": 62
+                },
+                "def": {
+                    "home": 54,
+                    "away": 46
+                },
+                "poisson": {
+                    "home": 67,
+                    "away": 33
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "7",
+                    "player": "A. A. Saavedra Nevarez",
+                    "team": "home"
+                },
+                {
+                    "minute": "42",
+                    "player": "I. Ramirez",
+                    "team": "home"
+                },
+                {
+                    "minute": "44",
+                    "player": "K. Magana",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "36",
+                    "player": "L. Hernandez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "M. Perez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "A. Garcia",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
         {
             "league": "Eredivisie",
             "date": "2026-10-18",
@@ -215,91 +300,6 @@ const siteData = {
                 {
                     "minute": "90+7",
                     "player": "Javi López",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Liga de Expansion MX",
-            "date": "2026-10-18",
-            "time": "01:00",
-            "home": "Cruz Azul Hidalgo",
-            "away": "Mineros de Zacatecas",
-            "stadium": "Estadio 10 de Diciembre",
-            "round": "Apertura - 13",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/15928.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2299.png",
-            "prediction": "1 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Cruz Azul Hidalgo or draw",
-            "comparison": {
-                "form": {
-                    "home": 42,
-                    "away": 58
-                },
-                "att": {
-                    "home": 38,
-                    "away": 62
-                },
-                "def": {
-                    "home": 54,
-                    "away": 46
-                },
-                "poisson": {
-                    "home": 67,
-                    "away": 33
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "7",
-                    "player": "A. A. Saavedra Nevarez",
-                    "team": "home"
-                },
-                {
-                    "minute": "42",
-                    "player": "I. Ramirez",
-                    "team": "home"
-                },
-                {
-                    "minute": "44",
-                    "player": "K. Magana",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "36",
-                    "player": "L. Hernandez",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "81",
-                    "player": "M. Perez",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+7",
-                    "player": "A. Garcia",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -522,8 +522,8 @@ const siteData = {
                     "away": 36
                 },
                 "poisson": {
-                    "home": 66,
-                    "away": 34
+                    "home": 67,
+                    "away": 33
                 },
                 "h2h": {
                     "home": 50,
@@ -698,8 +698,8 @@ const siteData = {
                     "away": 79
                 },
                 "poisson": {
-                    "home": 14,
-                    "away": 86
+                    "home": 15,
+                    "away": 85
                 },
                 "h2h": {
                     "home": 40,
@@ -984,9 +984,9 @@ const siteData = {
             "away": "St. Louis City",
             "stadium": "Allianz Field",
             "round": "Pekan 30",
-            "statusCode": "2H",
-            "minuteDisplay": "54'",
-            "homeScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1612.png",
             "awayLogo": "https://media.api-sports.io/football/teams/20787.png",
@@ -1038,6 +1038,16 @@ const siteData = {
                     "minute": "49",
                     "player": "Aziel Jackson",
                     "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "Kelvin Yeboah",
+                    "team": "home"
+                },
+                {
+                    "minute": "86",
+                    "player": "Marcus Caldeira",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -1058,6 +1068,12 @@ const siteData = {
                     "player": "Sang-bin Jung",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "Jefferson Abel Díaz Beleño",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1069,7 +1085,10 @@ const siteData = {
             "away": "Club Queretaro",
             "stadium": "Estadio TSM Corona",
             "round": "Apertura - 12",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "38'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
             "prediction": "1 - 2",
@@ -1104,7 +1123,22 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "Tahiel Adrian Jimenez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "Ezequiel Bullaude",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1114,7 +1148,10 @@ const siteData = {
             "away": "Tigres UANL",
             "stadium": "Estadio Akron",
             "round": "Apertura - 12",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "28'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2279.png",
             "prediction": "1 - 1",
@@ -2443,8 +2480,8 @@ const siteData = {
                     "away": 42
                 },
                 "poisson": {
-                    "home": 77,
-                    "away": 23
+                    "home": 78,
+                    "away": 22
                 },
                 "h2h": {
                     "home": 38,
@@ -4450,7 +4487,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "18/10/2026 04:54 WIB",
+    "standingsUpdated": "18/10/2026 06:39 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -29375,6 +29412,51 @@ const siteData = {
     "upcoming": {
         "2026-10-19": [
             {
+                "league": "Liga de Expansion MX",
+                "date": "2026-10-19",
+                "time": "01:00",
+                "home": "Leones Negros UDG",
+                "away": "Alebrijes de Oaxaca",
+                "stadium": "Estadio Jalisco",
+                "round": "Apertura - 13",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Winner : Leones Negros UDG and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "def": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "poisson": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
+                    }
+                }
+            },
+            {
                 "league": "Eredivisie",
                 "date": "2026-10-19",
                 "time": "01:00",
@@ -29461,51 +29543,6 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-19",
-                "time": "01:00",
-                "home": "Leones Negros UDG",
-                "away": "Alebrijes de Oaxaca",
-                "stadium": "Estadio Jalisco",
-                "round": "Apertura - 13",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Winner : Leones Negros UDG and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 73,
-                        "away": 27
-                    },
-                    "def": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "poisson": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
                     }
                 }
             },
