@@ -2,37 +2,37 @@
   "fixtureId": 1557430,
   "home": "Everton",
   "away": "Chelsea",
-  "statusCode": "2H",
-  "updatedAt": "17/10/2026 19:57 WIB",
+  "statusCode": "FT",
+  "updatedAt": "17/10/2026 23:18 WIB",
   "statistics": {
     "home": {
-      "possession": 40,
-      "shotsTotal": 4,
-      "shotsOnTarget": 4,
-      "corners": 3,
-      "fouls": 6,
-      "offsides": 3,
-      "yellowCards": 2,
+      "possession": 47,
+      "shotsTotal": 6,
+      "shotsOnTarget": 5,
+      "corners": 5,
+      "fouls": 8,
+      "offsides": 4,
+      "yellowCards": 3,
       "redCards": 0,
-      "shotsInsidebox": 4,
+      "shotsInsidebox": 6,
       "shotsOutsidebox": 0,
-      "passesTotal": 241,
-      "passesAccurate": 191,
+      "passesTotal": 402,
+      "passesAccurate": 323,
       "passesPct": null
     },
     "away": {
-      "possession": 60,
-      "shotsTotal": 11,
-      "shotsOnTarget": 4,
-      "corners": 6,
-      "fouls": 10,
-      "offsides": 0,
+      "possession": 53,
+      "shotsTotal": 18,
+      "shotsOnTarget": 7,
+      "corners": 7,
+      "fouls": 15,
+      "offsides": 1,
       "yellowCards": 4,
       "redCards": 0,
-      "shotsInsidebox": 5,
-      "shotsOutsidebox": 6,
-      "passesTotal": 368,
-      "passesAccurate": 319,
+      "shotsInsidebox": 10,
+      "shotsOutsidebox": 8,
+      "passesTotal": 455,
+      "passesAccurate": 383,
       "passesPct": null
     }
   },
@@ -51,31 +51,31 @@
           "number": 2,
           "name": "A. Maitland-Niles",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 6,
           "name": "J. Tarkowski",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 4,
           "name": "J. Branthwaite",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.6"
         },
         {
           "number": 16,
           "name": "V. Mykolenko",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 45,
           "name": "H. Armstrong",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "5.7"
         },
         {
           "number": 37,
@@ -93,19 +93,19 @@
           "number": 8,
           "name": "K. Dewsbury-Hall",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 10,
           "name": "J. Grealish",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.5"
         },
         {
           "number": 11,
           "name": "T. Barry",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
@@ -137,7 +137,7 @@
           "number": 23,
           "name": "C. Nørgaard",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.8"
         },
         {
           "number": 30,
@@ -155,13 +155,13 @@
           "number": 19,
           "name": "Tyrique George",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.3"
         },
         {
           "number": 22,
           "name": "B. Johnson",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.1"
         }
       ]
     },
@@ -179,25 +179,25 @@
           "number": 34,
           "name": "Joshua Kofi Acheampong",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "7.0"
         },
         {
           "number": 5,
           "name": "M. Lacroix",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.6"
         },
         {
           "number": 6,
           "name": "L. Colwill",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.1"
         },
         {
           "number": 21,
           "name": "J. Hato",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.5"
         },
         {
           "number": 25,
@@ -209,31 +209,31 @@
           "number": 14,
           "name": "J. Henderson",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.1"
         },
         {
           "number": 7,
           "name": "Pedro Neto",
           "position": "Gelandang",
-          "rating": "8.2"
+          "rating": "9.7"
         },
         {
           "number": 10,
           "name": "C. Palmer",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.3"
         },
         {
           "number": 17,
           "name": "M. Rogers",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 9,
           "name": "João Pedro",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
@@ -241,7 +241,7 @@
           "number": 39,
           "name": "M. Penders",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "7.2"
         },
         {
           "number": 18,
