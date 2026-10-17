@@ -2,10 +2,298 @@
   "fixtureId": 1557430,
   "home": "Everton",
   "away": "Chelsea",
-  "statusCode": "NS",
-  "updatedAt": "17/10/2026 16:05 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "2H",
+  "updatedAt": "17/10/2026 19:57 WIB",
+  "statistics": {
+    "home": {
+      "possession": 40,
+      "shotsTotal": 4,
+      "shotsOnTarget": 4,
+      "corners": 3,
+      "fouls": 6,
+      "offsides": 3,
+      "yellowCards": 2,
+      "redCards": 0,
+      "shotsInsidebox": 4,
+      "shotsOutsidebox": 0,
+      "passesTotal": 241,
+      "passesAccurate": 191,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 60,
+      "shotsTotal": 11,
+      "shotsOnTarget": 4,
+      "corners": 6,
+      "fouls": 10,
+      "offsides": 0,
+      "yellowCards": 4,
+      "redCards": 0,
+      "shotsInsidebox": 5,
+      "shotsOutsidebox": 6,
+      "passesTotal": 368,
+      "passesAccurate": 319,
+      "passesPct": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "D. Moyes",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "J. Pickford",
+          "position": "Kiper",
+          "rating": "6.6"
+        },
+        {
+          "number": 2,
+          "name": "A. Maitland-Niles",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 6,
+          "name": "J. Tarkowski",
+          "position": "Bek",
+          "rating": "6.0"
+        },
+        {
+          "number": 4,
+          "name": "J. Branthwaite",
+          "position": "Bek",
+          "rating": "6.8"
+        },
+        {
+          "number": 16,
+          "name": "V. Mykolenko",
+          "position": "Bek",
+          "rating": "7.1"
+        },
+        {
+          "number": 45,
+          "name": "H. Armstrong",
+          "position": "Gelandang",
+          "rating": "6.0"
+        },
+        {
+          "number": 37,
+          "name": "J. Garner",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 34,
+          "name": "M. Röhl",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 8,
+          "name": "K. Dewsbury-Hall",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 10,
+          "name": "J. Grealish",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 11,
+          "name": "T. Barry",
+          "position": "Penyerang",
+          "rating": "6.7"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 12,
+          "name": "M. Travers",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 15,
+          "name": "J. O&apos;Brien",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 20,
+          "name": "T. Dibling",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 24,
+          "name": "C. Alcaraz",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 23,
+          "name": "C. Nørgaard",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 30,
+          "name": "H. Hackney",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 58,
+          "name": "B. Graham",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 19,
+          "name": "Tyrique George",
+          "position": "Penyerang",
+          "rating": "6.4"
+        },
+        {
+          "number": 22,
+          "name": "B. Johnson",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Xabi Alonso",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "E. Martínez",
+          "position": "Kiper",
+          "rating": "7.6"
+        },
+        {
+          "number": 34,
+          "name": "Joshua Kofi Acheampong",
+          "position": "Bek",
+          "rating": "6.7"
+        },
+        {
+          "number": 5,
+          "name": "M. Lacroix",
+          "position": "Bek",
+          "rating": "7.3"
+        },
+        {
+          "number": 6,
+          "name": "L. Colwill",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 21,
+          "name": "J. Hato",
+          "position": "Bek",
+          "rating": "7.3"
+        },
+        {
+          "number": 25,
+          "name": "M. Caicedo",
+          "position": "Gelandang",
+          "rating": "7.2"
+        },
+        {
+          "number": 14,
+          "name": "J. Henderson",
+          "position": "Gelandang",
+          "rating": "6.9"
+        },
+        {
+          "number": 7,
+          "name": "Pedro Neto",
+          "position": "Gelandang",
+          "rating": "8.2"
+        },
+        {
+          "number": 10,
+          "name": "C. Palmer",
+          "position": "Gelandang",
+          "rating": "7.1"
+        },
+        {
+          "number": 17,
+          "name": "M. Rogers",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 9,
+          "name": "João Pedro",
+          "position": "Penyerang",
+          "rating": "6.2"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 39,
+          "name": "M. Penders",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 18,
+          "name": "D. Welbeck",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 4,
+          "name": "V. Barco",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 45,
+          "name": "R. Lavia",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 32,
+          "name": "M. Nicoll-Jazuli",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 23,
+          "name": "Geovany Tcherno Quenda",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 41,
+          "name": "Estêvão",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 2,
+          "name": "M. Palestra",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 3,
+          "name": "W. Fofana",
+          "position": "Bek",
+          "rating": "0.0"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Hill Dickinson Stadium",
     "city": "Liverpool, Merseyside",
@@ -14,9 +302,9 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "2.90",
+    "home": "2.80",
     "draw": "3.50",
-    "away": "2.20",
+    "away": "2.30",
     "overUnder": null,
     "btts": {
       "yes": "1.55",
