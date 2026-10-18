@@ -3,7 +3,7 @@
   "home": "Bournemouth",
   "away": "Sunderland",
   "statusCode": "NS",
-  "updatedAt": "18/10/2026 12:43 WIB",
+  "updatedAt": "18/10/2026 16:56 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,13 +14,13 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "2.05",
+    "home": "2.10",
     "draw": "3.30",
-    "away": "3.40",
+    "away": "3.30",
     "overUnder": null,
     "btts": {
-      "yes": "1.67",
-      "no": "2.15"
+      "yes": "1.73",
+      "no": "2.05"
     }
   },
   "liveOdds": null
