@@ -2,37 +2,37 @@
   "fixtureId": 1557427,
   "home": "Bournemouth",
   "away": "Sunderland",
-  "statusCode": "HT",
-  "updatedAt": "18/10/2026 20:54 WIB",
+  "statusCode": "FT",
+  "updatedAt": "19/10/2026 00:11 WIB",
   "statistics": {
     "home": {
-      "possession": 64,
-      "shotsTotal": 13,
-      "shotsOnTarget": 4,
-      "corners": 4,
-      "fouls": 8,
-      "offsides": 0,
-      "yellowCards": 2,
+      "possession": 65,
+      "shotsTotal": 29,
+      "shotsOnTarget": 6,
+      "corners": 5,
+      "fouls": 16,
+      "offsides": 1,
+      "yellowCards": 3,
       "redCards": 0,
-      "shotsInsidebox": 7,
-      "shotsOutsidebox": 6,
-      "passesTotal": 276,
-      "passesAccurate": 232,
+      "shotsInsidebox": 20,
+      "shotsOutsidebox": 9,
+      "passesTotal": 569,
+      "passesAccurate": 475,
       "passesPct": null
     },
     "away": {
-      "possession": 36,
-      "shotsTotal": 1,
+      "possession": 35,
+      "shotsTotal": 3,
       "shotsOnTarget": 0,
-      "corners": 1,
-      "fouls": 3,
+      "corners": 3,
+      "fouls": 7,
       "offsides": 2,
-      "yellowCards": 1,
+      "yellowCards": 2,
       "redCards": 1,
-      "shotsInsidebox": 1,
-      "shotsOutsidebox": 0,
-      "passesTotal": 155,
-      "passesAccurate": 104,
+      "shotsInsidebox": 2,
+      "shotsOutsidebox": 1,
+      "passesTotal": 304,
+      "passesAccurate": 190,
       "passesPct": null
     }
   },
@@ -45,43 +45,43 @@
           "number": 1,
           "name": "Đ. Petrović",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 15,
           "name": "A. Smith",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "7.3"
         },
         {
           "number": 5,
           "name": "J. Hill",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.9"
         },
         {
           "number": 14,
           "name": "António Silva",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "7.4"
         },
         {
           "number": 3,
           "name": "A. Truffert",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.3"
         },
         {
           "number": 12,
           "name": "T. Adams",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         {
           "number": 10,
           "name": "R. Christie",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.8"
         },
         {
           "number": 37,
@@ -99,13 +99,13 @@
           "number": 16,
           "name": "M. Tavernier",
           "position": "Gelandang",
-          "rating": "7.9"
+          "rating": "8.0"
         },
         {
           "number": 9,
           "name": "Evanilson",
           "position": "Penyerang",
-          "rating": "7.3"
+          "rating": "9.0"
         }
       ],
       "substitutes": [
@@ -119,13 +119,13 @@
           "number": 11,
           "name": "B. Doak",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 21,
           "name": "A. Adli",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 24,
@@ -137,13 +137,13 @@
           "number": 19,
           "name": "J. Kluivert",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 18,
           "name": "B. Diakité",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "7.0"
         },
         {
           "number": 6,
@@ -161,7 +161,7 @@
           "number": 30,
           "name": "Á. Rodríguez",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.4"
         }
       ]
     },
@@ -173,67 +173,67 @@
           "number": 22,
           "name": "R. Roefs",
           "position": "Kiper",
-          "rating": "6.5"
+          "rating": "5.8"
         },
         {
           "number": 20,
           "name": "N. Mukiele",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "5.5"
         },
         {
           "number": 4,
           "name": "K. Danso",
           "position": "Bek",
-          "rating": "5.3"
+          "rating": "5.1"
         },
         {
           "number": 15,
           "name": "O. Alderete",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "5.1"
         },
         {
           "number": 17,
           "name": "Reinildo",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.1"
         },
         {
           "number": 34,
           "name": "G. Xhaka",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.3"
         },
         {
           "number": 27,
           "name": "N. Sadiki",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 32,
           "name": "T. Hume",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "5.6"
         },
         {
           "number": 11,
           "name": "C. Rigg",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.0"
         },
         {
           "number": 28,
           "name": "E. Le Fée",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.2"
         },
         {
           "number": 57,
           "name": "Timur Tuterov",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
@@ -241,13 +241,13 @@
           "number": 19,
           "name": "H. Diarra",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.9"
         },
         {
           "number": 29,
           "name": "Jules Ahoka",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 39,
@@ -277,7 +277,7 @@
           "number": 13,
           "name": "L. O&apos;Nien",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
           "number": 31,
