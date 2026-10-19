@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-19T00:38:24.910Z.
+   API-Football v3) pada 2026-10-19T05:31:42.196Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -73,16 +73,16 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "L",
                     "W",
                     "W",
                     "L",
+                    "W",
                     "W"
                 ],
                 "cleanSheets": 2,
                 "failedToScore": 1,
-                "goalsFor": 19,
-                "goalsAgainst": 8,
+                "goalsFor": 23,
+                "goalsAgainst": 9,
                 "winStreak": 3,
                 "attack": 56,
                 "defense": 54
@@ -106,6 +106,127 @@ const siteData = {
         }
     },
     "matches": [
+        {
+            "league": "Liga de Expansion MX",
+            "date": "2026-10-19",
+            "time": "01:00",
+            "home": "Leones Negros UDG",
+            "away": "Alebrijes de Oaxaca",
+            "stadium": "Estadio Jalisco",
+            "round": "Apertura - 13",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
+            "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Combo Winner : Leones Negros UDG and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 57,
+                    "away": 43
+                },
+                "att": {
+                    "home": 73,
+                    "away": 27
+                },
+                "def": {
+                    "home": 55,
+                    "away": 45
+                },
+                "poisson": {
+                    "home": 80,
+                    "away": 20
+                },
+                "h2h": {
+                    "home": 62,
+                    "away": 38
+                },
+                "goals": {
+                    "home": 60,
+                    "away": 40
+                }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "J. Brigido",
+                    "team": "home"
+                },
+                {
+                    "minute": "42",
+                    "player": "J. Bustos",
+                    "team": "away"
+                },
+                {
+                    "minute": "71",
+                    "player": "Andrey Marcos",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "8",
+                    "player": "K. Alvarez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "10",
+                    "player": "Andrey Marcos",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "J. Marchand",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "O. Gonzalez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "U. Meza",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "J. Escalante",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "P. Villa",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "A. De Jesus Bravo Santiago",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "E. Sanchez",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
+        },
         {
             "league": "Eredivisie",
             "date": "2026-10-19",
@@ -270,206 +391,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Liga de Expansion MX",
-            "date": "2026-10-19",
-            "time": "01:00",
-            "home": "Leones Negros UDG",
-            "away": "Alebrijes de Oaxaca",
-            "stadium": "Estadio Jalisco",
-            "round": "Apertura - 13",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 2,
-            "homeLogo": "https://media.api-sports.io/football/teams/2307.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/2300.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Combo Winner : Leones Negros UDG and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 57,
-                    "away": 43
-                },
-                "att": {
-                    "home": 73,
-                    "away": 27
-                },
-                "def": {
-                    "home": 55,
-                    "away": 45
-                },
-                "poisson": {
-                    "home": 80,
-                    "away": 20
-                },
-                "h2h": {
-                    "home": 62,
-                    "away": 38
-                },
-                "goals": {
-                    "home": 60,
-                    "away": 40
-                }
-            },
-            "goals": [
-                {
-                    "minute": "13",
-                    "player": "J. Brigido",
-                    "team": "home"
-                },
-                {
-                    "minute": "42",
-                    "player": "J. Bustos",
-                    "team": "away"
-                },
-                {
-                    "minute": "71",
-                    "player": "Andrey Marcos",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "8",
-                    "player": "K. Alvarez",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "10",
-                    "player": "Andrey Marcos",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "48",
-                    "player": "J. Marchand",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "54",
-                    "player": "O. Gonzalez",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "58",
-                    "player": "U. Meza",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "66",
-                    "player": "J. Escalante",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "75",
-                    "player": "P. Villa",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "76",
-                    "player": "A. De Jesus Bravo Santiago",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "83",
-                    "player": "E. Sanchez",
-                    "team": "away",
-                    "type": "red"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-10-19",
-            "time": "01:45",
-            "home": "Juventus",
-            "away": "Lazio",
-            "stadium": "Allianz Stadium",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 3,
-            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/487.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Lazio",
-            "comparison": {
-                "form": {
-                    "home": 38,
-                    "away": 62
-                },
-                "att": {
-                    "home": 44,
-                    "away": 56
-                },
-                "def": {
-                    "home": 44,
-                    "away": 56
-                },
-                "poisson": {
-                    "home": 47,
-                    "away": 53
-                },
-                "h2h": {
-                    "home": 38,
-                    "away": 62
-                },
-                "goals": {
-                    "home": 45,
-                    "away": 55
-                }
-            },
-            "goals": [
-                {
-                    "minute": "37",
-                    "player": "Oliver Provstgaard",
-                    "team": "away"
-                },
-                {
-                    "minute": "66",
-                    "player": "Gustav Isaksen",
-                    "team": "away"
-                },
-                {
-                    "minute": "89",
-                    "player": "Fisayo Dele-Bashiru",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "41",
-                    "player": "Kenneth Taylor",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "48",
-                    "player": "Mattia Zaccagni",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Ligue 1",
             "date": "2026-10-19",
             "time": "01:45",
@@ -561,6 +482,85 @@ const siteData = {
                 {
                     "minute": "90+4",
                     "player": "Sepe Elye Wahi",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-10-19",
+            "time": "01:45",
+            "home": "Juventus",
+            "away": "Lazio",
+            "stadium": "Allianz Stadium",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 3,
+            "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/487.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Lazio",
+            "comparison": {
+                "form": {
+                    "home": 38,
+                    "away": 62
+                },
+                "att": {
+                    "home": 44,
+                    "away": 56
+                },
+                "def": {
+                    "home": 44,
+                    "away": 56
+                },
+                "poisson": {
+                    "home": 47,
+                    "away": 53
+                },
+                "h2h": {
+                    "home": 38,
+                    "away": 62
+                },
+                "goals": {
+                    "home": 45,
+                    "away": 55
+                }
+            },
+            "goals": [
+                {
+                    "minute": "37",
+                    "player": "Oliver Provstgaard",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "Gustav Isaksen",
+                    "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "Fisayo Dele-Bashiru",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "41",
+                    "player": "Kenneth Taylor",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "48",
+                    "player": "Mattia Zaccagni",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -761,7 +761,10 @@ const siteData = {
             "away": "CF Pachuca",
             "stadium": "Estadio BBVA",
             "round": "Apertura - 12",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
             "prediction": "1 - 2",
@@ -796,7 +799,62 @@ const siteData = {
                     "home": 31,
                     "away": 69
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "Diego Rossi",
+                    "team": "home"
+                },
+                {
+                    "minute": "16",
+                    "player": "Jesús Corona",
+                    "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "Salomón Rondón",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "Lucas Ocampos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "56",
+                    "player": "Rodolfo Pizarro",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Sergio Barreto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Gerardo Arteaga",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Carlos Moreno",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Óliver Torres",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -2162,7 +2220,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "19/10/2026 07:38 WIB",
+    "standingsUpdated": "19/10/2026 12:31 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4278,7 +4336,7 @@ const siteData = {
             {
                 "player": "Z. Romero",
                 "photo": "https://media.api-sports.io/football/players/180927.png",
-                "reason": "Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-10-19"
             },
             {
@@ -4290,8 +4348,8 @@ const siteData = {
             {
                 "player": "R. Terrats",
                 "photo": "https://media.api-sports.io/football/players/187987.png",
-                "reason": "Shoulder Injury",
-                "since": "2026-10-19"
+                "reason": "Inactive",
+                "since": "2026-09-17"
             },
             {
                 "player": "O. Mangala",
@@ -4300,9 +4358,9 @@ const siteData = {
                 "since": "2026-10-19"
             },
             {
-                "player": "E. Unal",
-                "photo": "https://media.api-sports.io/football/players/47499.png",
-                "reason": "Muscle Injury",
+                "player": "I. Azon",
+                "photo": "https://media.api-sports.io/football/players/161590.png",
+                "reason": "Injury",
                 "since": "2026-10-19"
             }
         ],
@@ -5504,7 +5562,7 @@ const siteData = {
             {
                 "player": "I. Toure",
                 "photo": "https://media.api-sports.io/football/players/56293.png",
-                "reason": "Contusion",
+                "reason": "Knee Injury",
                 "since": "2026-10-19"
             },
             {
@@ -5538,15 +5596,21 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "O. Forson",
-                "photo": "https://media.api-sports.io/football/players/284242.png",
-                "reason": "Injury",
-                "since": "2026-10-19"
-            },
-            {
                 "player": "L. Lucchesi",
                 "photo": "https://media.api-sports.io/football/players/342018.png",
                 "reason": "Red Card",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "Y. Maye",
+                "photo": "https://media.api-sports.io/football/players/436239.png",
+                "reason": "Muscle Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "E. Zeballos",
+                "photo": "https://media.api-sports.io/football/players/237090.png",
+                "reason": "Knee Injury",
                 "since": "2026-10-19"
             }
         ],
@@ -5833,12 +5897,12 @@ const siteData = {
                 "player": "L. Valenti",
                 "photo": "https://media.api-sports.io/football/players/6221.png",
                 "reason": "Coach's decision",
-                "since": "2026-10-10"
+                "since": "2026-10-19"
             },
             {
                 "player": "H. Nicolussi Caviglia",
                 "photo": "https://media.api-sports.io/football/players/881.png",
-                "reason": "Groin Injury",
+                "reason": "Thigh Injury",
                 "since": "2026-10-19"
             },
             {
@@ -5851,6 +5915,12 @@ const siteData = {
                 "player": "A. Ndiaye",
                 "photo": "https://media.api-sports.io/football/players/203483.png",
                 "reason": "Knock",
+                "since": "2026-10-10"
+            },
+            {
+                "player": "N. Elphege",
+                "photo": "https://media.api-sports.io/football/players/301924.png",
+                "reason": "Illness",
                 "since": "2026-10-19"
             }
         ],
@@ -5956,13 +6026,13 @@ const siteData = {
             {
                 "player": "N. Fortini",
                 "photo": "https://media.api-sports.io/football/players/437093.png",
-                "reason": "Hernia",
+                "reason": "Thigh Injury",
                 "since": "2026-10-19"
             },
             {
                 "player": "E. Ilkhan",
                 "photo": "https://media.api-sports.io/football/players/336573.png",
-                "reason": "Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-10-19"
             }
         ],
@@ -31975,6 +32045,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Premier League",
+                "date": "2026-10-20",
+                "time": "02:00",
+                "home": "Tottenham",
+                "away": "Coventry",
+                "stadium": "Tottenham Hotspur Stadium",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1346.png",
+                "prediction": "1 - 1",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Combo Double chance : Tottenham or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "h2h": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 83,
+                        "away": 17
+                    }
+                }
+            },
+            {
                 "league": "LaLiga",
                 "date": "2026-10-20",
                 "time": "02:00",
@@ -32016,51 +32131,6 @@ const siteData = {
                     "goals": {
                         "home": 20,
                         "away": 80
-                    }
-                }
-            },
-            {
-                "league": "Premier League",
-                "date": "2026-10-20",
-                "time": "02:00",
-                "home": "Tottenham",
-                "away": "Coventry",
-                "stadium": "Tottenham Hotspur Stadium",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/47.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1346.png",
-                "prediction": "1 - 1",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Combo Double chance : Tottenham or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "att": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "h2h": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 83,
-                        "away": 17
                     }
                 }
             },
