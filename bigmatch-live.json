@@ -1,26 +1,26 @@
 {
-  "fixtureId": 1635661,
-  "home": "Fenerbahçe",
-  "away": "Slavia Praha",
+  "fixtureId": 1635688,
+  "home": "Liverpool",
+  "away": "Villarreal",
   "statusCode": "NS",
-  "updatedAt": "20/10/2026 20:02 WIB",
+  "updatedAt": "21/10/2026 00:56 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
-    "name": "Chobani Stadyumu Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
-    "city": "İstanbul",
-    "capacity": 47834,
-    "image": "https://media.api-sports.io/football/venues/22760.png"
+    "name": "Anfield",
+    "city": "Liverpool",
+    "capacity": 61276,
+    "image": "https://media.api-sports.io/football/venues/550.png"
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.57",
-    "draw": "4.20",
-    "away": "4.80",
+    "home": "1.44",
+    "draw": "4.50",
+    "away": "5.80",
     "overUnder": null,
     "btts": {
       "yes": "1.55",
-      "no": "2.40"
+      "no": "2.45"
     }
   },
   "liveOdds": null
