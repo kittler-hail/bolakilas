@@ -3,7 +3,7 @@
   "home": "Fenerbahçe",
   "away": "Slavia Praha",
   "statusCode": "NS",
-  "updatedAt": "20/10/2026 06:47 WIB",
+  "updatedAt": "20/10/2026 09:13 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -16,7 +16,7 @@
     "bookmaker": "William Hill",
     "home": "1.65",
     "draw": "4.00",
-    "away": "4.50",
+    "away": "4.60",
     "overUnder": null,
     "btts": {
       "yes": "1.62",
