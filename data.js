@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-20T06:55:07.400Z.
+   API-Football v3) pada 2026-10-20T12:26:37.069Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -280,6 +280,102 @@ const siteData = {
             ]
         },
         {
+            "league": "Premier League",
+            "date": "2026-10-20",
+            "time": "02:00",
+            "home": "Tottenham",
+            "away": "Coventry",
+            "stadium": "Tottenham Hotspur Stadium",
+            "round": "Pekan 7",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1346.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Double chance : Tottenham or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 33,
+                    "away": 67
+                },
+                "att": {
+                    "home": 38,
+                    "away": 63
+                },
+                "def": {
+                    "home": 57,
+                    "away": 43
+                },
+                "poisson": {
+                    "home": 56,
+                    "away": 44
+                },
+                "h2h": {
+                    "home": 100,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 83,
+                    "away": 17
+                }
+            },
+            "goals": [
+                {
+                    "minute": "14",
+                    "player": "James Maddison",
+                    "team": "home"
+                },
+                {
+                    "minute": "49",
+                    "player": "Jack Rudoni",
+                    "team": "away"
+                },
+                {
+                    "minute": "58",
+                    "player": "Omar Marmoush",
+                    "team": "home"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Ben Davies",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Caleb Yirenkyi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "22",
+                    "player": "Dominic Solanke",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Jay Dasilva",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Jack Rudoni",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "LaLiga",
             "date": "2026-10-20",
             "time": "02:00",
@@ -402,102 +498,6 @@ const siteData = {
             ]
         },
         {
-            "league": "Premier League",
-            "date": "2026-10-20",
-            "time": "02:00",
-            "home": "Tottenham",
-            "away": "Coventry",
-            "stadium": "Tottenham Hotspur Stadium",
-            "round": "Pekan 7",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 3,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/47.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1346.png",
-            "prediction": "1 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Combo Double chance : Tottenham or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 33,
-                    "away": 67
-                },
-                "att": {
-                    "home": 38,
-                    "away": 63
-                },
-                "def": {
-                    "home": 57,
-                    "away": 43
-                },
-                "poisson": {
-                    "home": 56,
-                    "away": 44
-                },
-                "h2h": {
-                    "home": 100,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 83,
-                    "away": 17
-                }
-            },
-            "goals": [
-                {
-                    "minute": "14",
-                    "player": "James Maddison",
-                    "team": "home"
-                },
-                {
-                    "minute": "49",
-                    "player": "Jack Rudoni",
-                    "team": "away"
-                },
-                {
-                    "minute": "58",
-                    "player": "Omar Marmoush",
-                    "team": "home"
-                },
-                {
-                    "minute": "90+6",
-                    "player": "Ben Davies",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "20",
-                    "player": "Caleb Yirenkyi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "22",
-                    "player": "Dominic Solanke",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "45",
-                    "player": "Jay Dasilva",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "64",
-                    "player": "Jack Rudoni",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
             "league": "Primeira Liga",
             "date": "2026-10-20",
             "time": "02:15",
@@ -614,7 +614,10 @@ const siteData = {
             "away": "Java United",
             "stadium": "Stadion Sriwedari",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/24993.png",
             "awayLogo": "https://media.api-sports.io/football/teams/22409.png",
             "prediction": "1 - 2",
@@ -649,7 +652,27 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "59",
+                    "player": "K. Nishioka",
+                    "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "Gustavo",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "70",
+                    "player": "B. Pondaag",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -659,7 +682,10 @@ const siteData = {
             "away": "PSIM Yogyakarta",
             "stadium": "Sumpah Pemuda",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2443.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4235.png",
             "prediction": "2 - 1",
@@ -694,7 +720,21 @@ const siteData = {
                     "home": 45,
                     "away": 55
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "9",
+                    "player": "Y. Yamadera",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "24",
+                    "player": "",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -704,7 +744,10 @@ const siteData = {
             "away": "Persijap",
             "stadium": "Indomilk Arena",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "27'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/17902.png",
             "awayLogo": "https://media.api-sports.io/football/teams/11132.png",
             "prediction": "2 - 1",
@@ -739,7 +782,14 @@ const siteData = {
                     "home": 100,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "10",
+                    "player": "",
+                    "team": "home"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -2062,6 +2112,17 @@ const siteData = {
             },
             {
                 "rank": 11,
+                "team": "Java United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "gd": 0,
+                "points": 6
+            },
+            {
+                "rank": 12,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
                 "played": 5,
@@ -2070,17 +2131,6 @@ const siteData = {
                 "lose": 3,
                 "gd": -2,
                 "points": 6
-            },
-            {
-                "rank": 12,
-                "team": "Java United",
-                "logo": "https://media.api-sports.io/football/teams/22409.png",
-                "played": 5,
-                "win": 2,
-                "draw": 1,
-                "lose": 2,
-                "gd": 0,
-                "points": 5
             },
             {
                 "rank": 13,
@@ -2117,6 +2167,17 @@ const siteData = {
             },
             {
                 "rank": 16,
+                "team": "Isenmulang Kalteng",
+                "logo": "https://media.api-sports.io/football/teams/24993.png",
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "gd": -9,
+                "points": 2
+            },
+            {
+                "rank": 17,
                 "team": "PSIM Yogyakarta",
                 "logo": "https://media.api-sports.io/football/teams/4235.png",
                 "played": 5,
@@ -2124,17 +2185,6 @@ const siteData = {
                 "draw": 1,
                 "lose": 4,
                 "gd": -7,
-                "points": 1
-            },
-            {
-                "rank": 17,
-                "team": "Isenmulang Kalteng",
-                "logo": "https://media.api-sports.io/football/teams/24993.png",
-                "played": 5,
-                "win": 1,
-                "draw": 0,
-                "lose": 4,
-                "gd": -9,
                 "points": 1
             },
             {
@@ -2150,7 +2200,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/10/2026 13:55 WIB",
+    "standingsUpdated": "20/10/2026 19:26 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2335,6 +2385,14 @@ const siteData = {
             },
             {
                 "rank": 3,
+                "name": "Gustavo Varela",
+                "photo": "https://media.api-sports.io/football/players/340547.png",
+                "team": "Monza",
+                "teamLogo": "https://media.api-sports.io/football/teams/1579.png",
+                "value": 6
+            },
+            {
+                "rank": 4,
                 "name": "A. Rabiot",
                 "photo": "https://media.api-sports.io/football/players/272.png",
                 "team": "AC Milan",
@@ -2342,7 +2400,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "name": "M. Thuram",
                 "photo": "https://media.api-sports.io/football/players/21509.png",
                 "team": "Inter",
@@ -2350,7 +2408,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "name": "N. Krstović",
                 "photo": "https://media.api-sports.io/football/players/66817.png",
                 "team": "Atalanta",
@@ -2358,7 +2416,7 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "name": "Lautaro Martínez",
                 "photo": "https://media.api-sports.io/football/players/217.png",
                 "team": "Inter",
@@ -2366,19 +2424,11 @@ const siteData = {
                 "value": 4
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "name": "D. Maldini",
                 "photo": "https://media.api-sports.io/football/players/134926.png",
                 "team": "Cagliari",
                 "teamLogo": "https://media.api-sports.io/football/teams/490.png",
-                "value": 4
-            },
-            {
-                "rank": 8,
-                "name": "Gustavo Varela",
-                "photo": "https://media.api-sports.io/football/players/340547.png",
-                "team": "Monza",
-                "teamLogo": "https://media.api-sports.io/football/teams/1579.png",
                 "value": 4
             },
             {
@@ -2779,6 +2829,14 @@ const siteData = {
             },
             {
                 "rank": 7,
+                "name": "R. Belghali",
+                "photo": "https://media.api-sports.io/football/players/303362.png",
+                "team": "Torino",
+                "teamLogo": "https://media.api-sports.io/football/teams/503.png",
+                "value": 3
+            },
+            {
+                "rank": 8,
                 "name": "M. Thuram",
                 "photo": "https://media.api-sports.io/football/players/21509.png",
                 "team": "Inter",
@@ -2786,7 +2844,7 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "name": "N. Paz",
                 "photo": "https://media.api-sports.io/football/players/350037.png",
                 "team": "Como",
@@ -2794,19 +2852,11 @@ const siteData = {
                 "value": 2
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "name": "T. Noslin",
                 "photo": "https://media.api-sports.io/football/players/133729.png",
                 "team": "Lazio",
                 "teamLogo": "https://media.api-sports.io/football/teams/487.png",
-                "value": 2
-            },
-            {
-                "rank": 10,
-                "name": "Carlos Augusto",
-                "photo": "https://media.api-sports.io/football/players/10238.png",
-                "team": "Inter",
-                "teamLogo": "https://media.api-sports.io/football/teams/505.png",
                 "value": 2
             }
         ],
