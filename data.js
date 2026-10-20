@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-19T22:42:19.221Z.
+   API-Football v3) pada 2026-10-20T01:23:34.436Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -2150,7 +2150,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/10/2026 05:42 WIB",
+    "standingsUpdated": "20/10/2026 08:23 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3020,15 +3020,15 @@ const siteData = {
                 "since": "2026-09-19"
             },
             {
-                "player": "P. Hincapie",
-                "photo": "https://media.api-sports.io/football/players/127817.png",
-                "reason": "Ankle Injury",
-                "since": "2026-10-18"
-            },
-            {
                 "player": "C. Tzolis",
                 "photo": "https://media.api-sports.io/football/players/161800.png",
                 "reason": "Hamstring Injury",
+                "since": "2026-10-18"
+            },
+            {
+                "player": "P. Hincapie",
+                "photo": "https://media.api-sports.io/football/players/127817.png",
+                "reason": "Ankle Injury",
                 "since": "2026-10-18"
             }
         ],
@@ -3227,6 +3227,12 @@ const siteData = {
                 "player": "P. Dorgu",
                 "photo": "https://media.api-sports.io/football/players/382452.png",
                 "reason": "Hamstring Injury",
+                "since": "2026-10-18"
+            },
+            {
+                "player": "A. Heaven",
+                "photo": "https://media.api-sports.io/football/players/402329.png",
+                "reason": "Illness",
                 "since": "2026-10-18"
             },
             {
@@ -3640,12 +3646,6 @@ const siteData = {
                 "since": "2026-09-13"
             },
             {
-                "player": "Savinho",
-                "photo": "https://media.api-sports.io/football/players/266657.png",
-                "reason": "Transfer negotiations",
-                "since": "2026-08-23"
-            },
-            {
                 "player": "M. Nunes",
                 "photo": "https://media.api-sports.io/football/players/41621.png",
                 "reason": "Injury",
@@ -3656,6 +3656,80 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/631.png",
                 "reason": "Red Card",
                 "since": "2026-10-11"
+            }
+        ],
+        "tottenham": [
+            {
+                "player": "Pemain",
+                "photo": "https://media.api-sports.io/football/players/266657.png",
+                "reason": "Muscle Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "M. Kudus",
+                "photo": "https://media.api-sports.io/football/players/15911.png",
+                "reason": "Muscle Injury",
+                "since": "2026-08-22"
+            },
+            {
+                "player": "D. Kulusevski",
+                "photo": "https://media.api-sports.io/football/players/30435.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-10"
+            },
+            {
+                "player": "W. Odobert",
+                "photo": "https://media.api-sports.io/football/players/336564.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "P. Porro",
+                "photo": "https://media.api-sports.io/football/players/47519.png",
+                "reason": "Muscle Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "X. Simons",
+                "photo": "https://media.api-sports.io/football/players/162016.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "M. van de Ven",
+                "photo": "https://media.api-sports.io/football/players/152849.png",
+                "reason": "Injury",
+                "since": "2026-08-22"
+            },
+            {
+                "player": "J. Maddison",
+                "photo": "https://media.api-sports.io/football/players/18784.png",
+                "reason": "Knock",
+                "since": "2026-09-05"
+            },
+            {
+                "player": "M. Mudryk",
+                "photo": "https://media.api-sports.io/football/players/63577.png",
+                "reason": "Ankle Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "Richarlison",
+                "photo": "https://media.api-sports.io/football/players/2413.png",
+                "reason": "Inactive",
+                "since": "2026-09-19"
+            },
+            {
+                "player": "R. Bentancur",
+                "photo": "https://media.api-sports.io/football/players/863.png",
+                "reason": "Red Card",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "L. Bergvall",
+                "photo": "https://media.api-sports.io/football/players/347316.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-19"
             }
         ],
         "bournemouth": [
@@ -3756,68 +3830,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/15908.png",
                 "reason": "Ankle Injury",
                 "since": "2026-10-10"
-            }
-        ],
-        "tottenham": [
-            {
-                "player": "M. Kudus",
-                "photo": "https://media.api-sports.io/football/players/15911.png",
-                "reason": "Muscle Injury",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "D. Kulusevski",
-                "photo": "https://media.api-sports.io/football/players/30435.png",
-                "reason": "Knee Injury",
-                "since": "2026-10-19"
-            },
-            {
-                "player": "W. Odobert",
-                "photo": "https://media.api-sports.io/football/players/336564.png",
-                "reason": "Knee Injury",
-                "since": "2026-10-19"
-            },
-            {
-                "player": "P. Porro",
-                "photo": "https://media.api-sports.io/football/players/47519.png",
-                "reason": "Muscle Injury",
-                "since": "2026-10-19"
-            },
-            {
-                "player": "X. Simons",
-                "photo": "https://media.api-sports.io/football/players/162016.png",
-                "reason": "Knee Injury",
-                "since": "2026-10-19"
-            },
-            {
-                "player": "M. van de Ven",
-                "photo": "https://media.api-sports.io/football/players/152849.png",
-                "reason": "Injury",
-                "since": "2026-08-22"
-            },
-            {
-                "player": "J. Maddison",
-                "photo": "https://media.api-sports.io/football/players/18784.png",
-                "reason": "Knock",
-                "since": "2026-09-05"
-            },
-            {
-                "player": "M. Mudryk",
-                "photo": "https://media.api-sports.io/football/players/63577.png",
-                "reason": "Ankle Injury",
-                "since": "2026-10-19"
-            },
-            {
-                "player": "Richarlison",
-                "photo": "https://media.api-sports.io/football/players/2413.png",
-                "reason": "Inactive",
-                "since": "2026-09-19"
-            },
-            {
-                "player": "R. Bentancur",
-                "photo": "https://media.api-sports.io/football/players/863.png",
-                "reason": "Red Card",
-                "since": "2026-10-19"
             }
         ],
         "juventus": [
@@ -4261,7 +4273,7 @@ const siteData = {
                 "player": "A. Garcia",
                 "photo": "https://media.api-sports.io/football/players/388013.png",
                 "reason": "Injury",
-                "since": "2026-10-19"
+                "since": "2026-09-13"
             },
             {
                 "player": "Z. Romero",
@@ -4282,15 +4294,15 @@ const siteData = {
                 "since": "2026-09-17"
             },
             {
-                "player": "O. Mangala",
-                "photo": "https://media.api-sports.io/football/players/24882.png",
-                "reason": "Muscle Injury",
-                "since": "2026-10-19"
-            },
-            {
                 "player": "I. Azon",
                 "photo": "https://media.api-sports.io/football/players/161590.png",
                 "reason": "Injury",
+                "since": "2026-10-19"
+            },
+            {
+                "player": "O. Mangala",
+                "photo": "https://media.api-sports.io/football/players/24882.png",
+                "reason": "Muscle Injury",
                 "since": "2026-10-19"
             }
         ],
@@ -4699,7 +4711,7 @@ const siteData = {
                 "player": "M. Diarra",
                 "photo": "https://media.api-sports.io/football/players/328192.png",
                 "reason": "Calf Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-09"
             },
             {
                 "player": "Juanpe",
@@ -4815,25 +4827,25 @@ const siteData = {
                 "player": "A. Djalo",
                 "photo": "https://media.api-sports.io/football/players/190489.png",
                 "reason": "Illness",
-                "since": "2026-10-17"
+                "since": "2026-10-21"
             },
             {
                 "player": "G. Guruzeta",
                 "photo": "https://media.api-sports.io/football/players/47291.png",
-                "reason": "Muscle Injury",
-                "since": "2026-09-19"
+                "reason": "Injury",
+                "since": "2026-10-21"
             },
             {
                 "player": "O. Sancet",
                 "photo": "https://media.api-sports.io/football/players/128398.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-21"
             },
             {
                 "player": "N. Williams",
                 "photo": "https://media.api-sports.io/football/players/183799.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-21"
             }
         ],
         "real-betis": [
@@ -5644,6 +5656,12 @@ const siteData = {
                 "since": "2026-09-20"
             },
             {
+                "player": "Tiago Gabriel",
+                "photo": "https://media.api-sports.io/football/players/455316.png",
+                "reason": "Injury",
+                "since": "2026-09-20"
+            },
+            {
                 "player": "I. Ilic",
                 "photo": "https://media.api-sports.io/football/players/46170.png",
                 "reason": "Thigh Injury",
@@ -5654,12 +5672,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/264122.png",
                 "reason": "Muscle Injury",
                 "since": "2026-10-11"
-            },
-            {
-                "player": "Tiago Gabriel",
-                "photo": "https://media.api-sports.io/football/players/455316.png",
-                "reason": "Injury",
-                "since": "2026-09-20"
             }
         ],
         "genoa": [
@@ -5694,6 +5706,12 @@ const siteData = {
                 "since": "2026-09-20"
             },
             {
+                "player": "Amorim",
+                "photo": "https://media.api-sports.io/football/players/405239.png",
+                "reason": "Ankle Injury",
+                "since": "2026-10-10"
+            },
+            {
                 "player": "L. Colombo",
                 "photo": "https://media.api-sports.io/football/players/263481.png",
                 "reason": "Ankle Injury",
@@ -5710,12 +5728,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/957.png",
                 "reason": "Injury",
                 "since": "2026-10-17"
-            },
-            {
-                "player": "Amorim",
-                "photo": "https://media.api-sports.io/football/players/405239.png",
-                "reason": "Ankle Injury",
-                "since": "2026-10-10"
             }
         ],
         "napoli": [
@@ -5842,16 +5854,16 @@ const siteData = {
                 "since": "2026-10-19"
             },
             {
-                "player": "A. Ndiaye",
-                "photo": "https://media.api-sports.io/football/players/203483.png",
-                "reason": "Knock",
-                "since": "2026-10-10"
-            },
-            {
                 "player": "N. Elphege",
                 "photo": "https://media.api-sports.io/football/players/301924.png",
                 "reason": "Illness",
                 "since": "2026-10-19"
+            },
+            {
+                "player": "A. Ndiaye",
+                "photo": "https://media.api-sports.io/football/players/203483.png",
+                "reason": "Knock",
+                "since": "2026-10-10"
             }
         ],
         "cagliari": [
@@ -6298,7 +6310,7 @@ const siteData = {
             {
                 "player": "P. Dybala",
                 "photo": "https://media.api-sports.io/football/players/875.png",
-                "reason": "Muscle Injury",
+                "reason": "Calf Injury",
                 "since": "2026-10-17"
             },
             {
@@ -33683,7 +33695,7 @@ const siteData = {
                 "time": "10:00",
                 "home": "CF Pachuca",
                 "away": "Cruz Azul",
-                "stadium": "Estadio Miguel Hidalgo",
+                "stadium": "Estadio Hidalgo",
                 "round": "Apertura - 13",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/2292.png",
@@ -33728,7 +33740,7 @@ const siteData = {
                 "time": "10:10",
                 "home": "Santos Laguna",
                 "away": "U.N.A.M. - Pumas",
-                "stadium": "Estadio Corona",
+                "stadium": "Estadio TSM Corona",
                 "round": "Apertura - 13",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/2285.png",
@@ -33935,6 +33947,366 @@ const siteData = {
                     },
                     "poisson": {
                         "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Lech Poznan",
+                "away": "Sunderland",
+                "stadium": "Stadion Miejski",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/347.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/746.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Sunderland",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 82,
+                        "away": 18
+                    },
+                    "def": {
+                        "home": 9,
+                        "away": 91
+                    },
+                    "poisson": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Juventus",
+                "away": "Rennes",
+                "stadium": "Allianz Stadium",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/94.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Juventus",
+                "comparison": {
+                    "form": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "att": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Dinamo Zagreb",
+                "away": "NEC Nijmegen",
+                "stadium": "Stadion Maksimir",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/620.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/413.png",
+                "prediction": "2 - 0",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Dinamo Zagreb or draw",
+                "comparison": {
+                    "form": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "poisson": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Sturm Graz",
+                "away": "Marseille",
+                "stadium": "Stadion Graz-Liebenau",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/637.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Sturm Graz or draw",
+                "comparison": {
+                    "form": {
+                        "home": 100,
+                        "away": 0
+                    },
+                    "att": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "def": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Ferencvarosi TC",
+                "away": "Torreense",
+                "stadium": "Groupama Aréna",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/651.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/4799.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Ferencvarosi TC or draw",
+                "comparison": {
+                    "form": {
+                        "home": 81,
+                        "away": 19
+                    },
+                    "att": {
+                        "home": 79,
+                        "away": 21
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "OFI",
+                "away": "Bayer Leverkusen",
+                "stadium": "Pankritio Stadium",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1124.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/168.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : OFI or draw",
+                "comparison": {
+                    "form": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "att": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "def": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "poisson": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Union St. Gilloise",
+                "away": "Hapoel Beer Sheva",
+                "stadium": "Merkur Spielarena",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1393.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/563.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Union St. Gilloise or draw",
+                "comparison": {
+                    "form": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "att": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "def": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "poisson": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "UEFA Europa League",
+                "date": "2026-10-22",
+                "time": "23:45",
+                "home": "Ararat-Armenia",
+                "away": "AZ Alkmaar",
+                "stadium": "Vazgen Sargsyan Republican Stadium",
+                "round": "League Stage - 3",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/201.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Combo Double chance : Ararat-Armenia or draw and -3.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "poisson": {
+                        "home": 100,
                         "away": 0
                     },
                     "h2h": {
@@ -34340,366 +34712,6 @@ const siteData = {
                     },
                     "poisson": {
                         "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Lech Poznan",
-                "away": "Sunderland",
-                "stadium": "Stadion Poznan",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/347.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/746.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Sunderland",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 82,
-                        "away": 18
-                    },
-                    "def": {
-                        "home": 9,
-                        "away": 91
-                    },
-                    "poisson": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Juventus",
-                "away": "Rennes",
-                "stadium": "Allianz Stadium",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/496.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/94.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Juventus",
-                "comparison": {
-                    "form": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "att": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Dinamo Zagreb",
-                "away": "NEC Nijmegen",
-                "stadium": "Stadion Maksimir",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/620.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/413.png",
-                "prediction": "2 - 0",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Dinamo Zagreb or draw",
-                "comparison": {
-                    "form": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "poisson": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Sturm Graz",
-                "away": "Marseille",
-                "stadium": "Merkur-Arena",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/637.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/81.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Sturm Graz or draw",
-                "comparison": {
-                    "form": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "def": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Ferencvarosi TC",
-                "away": "Torreense",
-                "stadium": "Groupama Arena",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/651.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/4799.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Ferencvarosi TC or draw",
-                "comparison": {
-                    "form": {
-                        "home": 81,
-                        "away": 19
-                    },
-                    "att": {
-                        "home": 79,
-                        "away": 21
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "OFI",
-                "away": "Bayer Leverkusen",
-                "stadium": "Pankritio Stadium",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1124.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/168.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : OFI or draw",
-                "comparison": {
-                    "form": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "att": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "def": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "poisson": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Union St. Gilloise",
-                "away": "Hapoel Beer Sheva",
-                "stadium": "Den Dreef",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1393.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/563.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Union St. Gilloise or draw",
-                "comparison": {
-                    "form": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "att": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "def": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "poisson": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "UEFA Europa League",
-                "date": "2026-10-22",
-                "time": "23:45",
-                "home": "Ararat-Armenia",
-                "away": "AZ Alkmaar",
-                "stadium": "Vazgen Sargsyan Republican Stadium",
-                "round": "League Stage - 3",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/3683.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/201.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : Ararat-Armenia or draw and -3.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "poisson": {
-                        "home": 100,
                         "away": 0
                     },
                     "h2h": {
