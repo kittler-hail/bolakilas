@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-21T19:49:02.860Z.
+   API-Football v3) pada 2026-10-21T22:55:32.955Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Villa Park",
         "prediction": "3 - 2",
         "analysis": "Aston Villa bertemu Viking dalam laga UEFA Champions League. Analisis API-Football: Combo Winner : Aston Villa and +2.5 goals.",
-        "statusCode": "1H",
-        "minuteDisplay": "45+3'",
-        "homeScore": 2,
-        "awayScore": 0,
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 3,
+        "awayScore": 1,
         "odds": {
             "home": 45,
             "draw": 45,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Aston Villa",
                 "away": "Viking",
-                "score": "2-0"
+                "score": "3-1"
             }
         ],
         "form": {
@@ -90,9 +90,9 @@ const siteData = {
             "away": "Athletic Club",
             "stadium": "Estadio Ciudad de Valencia",
             "round": "Pekan 6",
-            "statusCode": "2H",
-            "minuteDisplay": "87'",
-            "homeScore": 2,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/539.png",
             "awayLogo": "https://media.api-sports.io/football/teams/531.png",
@@ -144,6 +144,11 @@ const siteData = {
                     "minute": "67",
                     "player": "Alex Berenguer",
                     "team": "away"
+                },
+                {
+                    "minute": "90+8",
+                    "player": "Karl Etta Eyong",
+                    "team": "home"
                 }
             ],
             "cards": [
@@ -164,6 +169,12 @@ const siteData = {
                     "player": "Jeremy Toljan",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "90+6",
+                    "player": "Yuri Berchiche",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -175,10 +186,10 @@ const siteData = {
             "away": "Viking",
             "stadium": "Villa Park",
             "round": "League Stage - 3",
-            "statusCode": "1H",
-            "minuteDisplay": "45+3'",
-            "homeScore": 2,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/66.png",
             "awayLogo": "https://media.api-sports.io/football/teams/759.png",
             "prediction": "3 - 2",
@@ -224,143 +235,16 @@ const siteData = {
                     "minute": "37",
                     "player": "Emiliano Buendía",
                     "team": "home"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Champions League",
-            "date": "2026-10-22",
-            "time": "02:00",
-            "home": "Sporting CP",
-            "away": "Lask Linz",
-            "stadium": "Estádio José Alvalade",
-            "round": "League Stage - 3",
-            "statusCode": "1H",
-            "minuteDisplay": "45+2'",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/228.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1026.png",
-            "prediction": "3 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Double chance : Sporting CP or draw",
-            "comparison": {
-                "form": {
-                    "home": 67,
-                    "away": 33
-                },
-                "att": {
-                    "home": 38,
-                    "away": 62
-                },
-                "def": {
-                    "home": 92,
-                    "away": 8
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 33,
-                    "away": 67
-                },
-                "goals": {
-                    "home": 27,
-                    "away": 73
-                }
-            },
-            "goals": [
-                {
-                    "minute": "5",
-                    "player": "Luis Suárez",
-                    "team": "home"
                 },
                 {
-                    "minute": "15",
-                    "player": "Christoph Lang",
+                    "minute": "62",
+                    "player": "Henrik Heggheim",
                     "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "33",
-                    "player": "Christoph Lang",
-                    "team": "away",
-                    "type": "yellow"
                 },
                 {
-                    "minute": "45",
-                    "player": "Sascha Horvath",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Champions League",
-            "date": "2026-10-22",
-            "time": "02:00",
-            "home": "Club Brugge KV",
-            "away": "Lens",
-            "stadium": "Jan Breydel Stadium",
-            "round": "League Stage - 3",
-            "statusCode": "1H",
-            "minuteDisplay": "45+4'",
-            "homeScore": 1,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/569.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/116.png",
-            "prediction": "3 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Winner : Lens and +2.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 67,
-                    "away": 33
-                },
-                "def": {
-                    "home": 40,
-                    "away": 60
-                },
-                "poisson": {
-                    "home": 22,
-                    "away": 78
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "45+3",
-                    "player": "Hans Vanaken",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45",
-                    "player": "Matthieu Udol",
-                    "team": "away",
-                    "type": "yellow"
+                    "minute": "84",
+                    "player": "Peter Christiansen",
+                    "team": "away"
                 }
             ]
         },
@@ -372,10 +256,10 @@ const siteData = {
             "away": "Arsenal",
             "stadium": "Allianz Arena",
             "round": "League Stage - 3",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 1,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/157.png",
             "awayLogo": "https://media.api-sports.io/football/teams/42.png",
             "prediction": "2 - 3",
@@ -421,6 +305,16 @@ const siteData = {
                     "minute": "35",
                     "player": "Alphonso Davies",
                     "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "Harry Kane",
+                    "team": "home"
+                },
+                {
+                    "minute": "82",
+                    "player": "Declan Rice",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -442,13 +336,132 @@ const siteData = {
             "league": "UEFA Champions League",
             "date": "2026-10-22",
             "time": "02:00",
+            "home": "Sporting CP",
+            "away": "Lask Linz",
+            "stadium": "Estádio José Alvalade",
+            "round": "League Stage - 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 3,
+            "homeLogo": "https://media.api-sports.io/football/teams/228.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1026.png",
+            "prediction": "3 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Double chance : Sporting CP or draw",
+            "comparison": {
+                "form": {
+                    "home": 67,
+                    "away": 33
+                },
+                "att": {
+                    "home": 38,
+                    "away": 62
+                },
+                "def": {
+                    "home": 92,
+                    "away": 8
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 33,
+                    "away": 67
+                },
+                "goals": {
+                    "home": 27,
+                    "away": 73
+                }
+            },
+            "goals": [
+                {
+                    "minute": "5",
+                    "player": "Luis Suárez",
+                    "team": "home"
+                },
+                {
+                    "minute": "15",
+                    "player": "Christoph Lang",
+                    "team": "away"
+                },
+                {
+                    "minute": "63",
+                    "player": "Sasa Kalajdzic",
+                    "team": "away"
+                },
+                {
+                    "minute": "68",
+                    "player": "Krystof Danek",
+                    "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "Luis Suárez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "33",
+                    "player": "Christoph Lang",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Sascha Horvath",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Issa Doumbia",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "João Simões",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "Sasa Kalajdzic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "Tobias Schützenauer",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Krystof Danek",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Champions League",
+            "date": "2026-10-22",
+            "time": "02:00",
             "home": "Inter",
             "away": "Shakhtar Donetsk",
             "stadium": "San Siro/Giuseppe Meazza",
             "round": "League Stage - 3",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/505.png",
             "awayLogo": "https://media.api-sports.io/football/teams/550.png",
@@ -485,11 +498,48 @@ const siteData = {
                     "away": 0
                 }
             },
+            "goals": [
+                {
+                    "minute": "77",
+                    "player": "Carlos Augusto",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "36",
                     "player": "Oleg Ocheretko",
                     "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "Marcus Thuram",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Alessandro Bastoni",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Marlon Gomes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Alessandro Bastoni",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "72",
+                    "player": "Petar Sučić",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -502,10 +552,10 @@ const siteData = {
             "away": "RB Leipzig",
             "stadium": "Santiago Bernabéu Stadium",
             "round": "League Stage - 3",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 1,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/541.png",
             "awayLogo": "https://media.api-sports.io/football/teams/173.png",
             "prediction": "3 - 2",
@@ -546,6 +596,40 @@ const siteData = {
                     "minute": "43",
                     "player": "Bernardo Silva",
                     "team": "home"
+                },
+                {
+                    "minute": "52",
+                    "player": "Arda Güler",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "Kylian Mbappé",
+                    "team": "home"
+                },
+                {
+                    "minute": "85",
+                    "player": "Tidiam Gomis",
+                    "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "Yan Diomande",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "68",
+                    "player": "Álvaro Fernández Carreras",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Rocco Reitz",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -557,9 +641,9 @@ const siteData = {
             "away": "Feyenoord",
             "stadium": "Estadio de la Cartuja",
             "round": "League Stage - 3",
-            "statusCode": "HT",
-            "minuteDisplay": "HT",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/543.png",
             "awayLogo": "https://media.api-sports.io/football/teams/209.png",
@@ -596,10 +680,120 @@ const siteData = {
                     "away": 33
                 }
             },
+            "goals": [
+                {
+                    "minute": "59",
+                    "player": "Isco",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "14",
                     "player": "Mika Mármol",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Charles Vanhoutte",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Rodrigo Riquelme",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Champions League",
+            "date": "2026-10-22",
+            "time": "02:00",
+            "home": "Club Brugge KV",
+            "away": "Lens",
+            "stadium": "Jan Breydel Stadium",
+            "round": "League Stage - 3",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/569.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/116.png",
+            "prediction": "3 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Winner : Lens and +2.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 67,
+                    "away": 33
+                },
+                "def": {
+                    "home": 40,
+                    "away": 60
+                },
+                "poisson": {
+                    "home": 22,
+                    "away": 78
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "45+3",
+                    "player": "Hans Vanaken",
+                    "team": "home"
+                },
+                {
+                    "minute": "50",
+                    "player": "Joaquin Seys",
+                    "team": "home"
+                },
+                {
+                    "minute": "72",
+                    "player": "Carlos Forbs",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45",
+                    "player": "Matthieu Udol",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Félix Lemaréchal",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Hugo Vetlesen",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Michał Skóraś",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -613,7 +807,10 @@ const siteData = {
             "away": "Atletico-MG",
             "stadium": "Estadio Centenario",
             "round": "Semi-finals",
-            "statusCode": "NS",
+            "statusCode": "HT",
+            "minuteDisplay": "HT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2365.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1062.png",
             "prediction": "1 - 2",
@@ -648,7 +845,15 @@ const siteData = {
                     "home": 0,
                     "away": 100
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "40",
+                    "player": "Vitor Fernandes Chaves Teixeira",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1087,8 +1292,8 @@ const siteData = {
                     "away": 54
                 },
                 "poisson": {
-                    "home": 55,
-                    "away": 45
+                    "home": 53,
+                    "away": 47
                 },
                 "h2h": {
                     "home": 15,
@@ -2297,14 +2502,14 @@ const siteData = {
             },
             {
                 "rank": 11,
-                "team": "Athletic Club",
-                "logo": "https://media.api-sports.io/football/teams/531.png",
-                "played": 7,
+                "team": "Levante",
+                "logo": "https://media.api-sports.io/football/teams/539.png",
+                "played": 9,
                 "win": 2,
-                "draw": 3,
-                "lose": 2,
-                "gd": 1,
-                "points": 9
+                "draw": 4,
+                "lose": 3,
+                "gd": -2,
+                "points": 10
             },
             {
                 "rank": 12,
@@ -2319,6 +2524,17 @@ const siteData = {
             },
             {
                 "rank": 13,
+                "team": "Athletic Club",
+                "logo": "https://media.api-sports.io/football/teams/531.png",
+                "played": 8,
+                "win": 2,
+                "draw": 3,
+                "lose": 3,
+                "gd": -1,
+                "points": 9
+            },
+            {
+                "rank": 14,
                 "team": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png",
                 "played": 8,
@@ -2329,7 +2545,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "Getafe",
                 "logo": "https://media.api-sports.io/football/teams/546.png",
                 "played": 9,
@@ -2340,7 +2556,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 15,
+                "rank": 16,
                 "team": "Espanyol",
                 "logo": "https://media.api-sports.io/football/teams/540.png",
                 "played": 9,
@@ -2351,7 +2567,7 @@ const siteData = {
                 "points": 8
             },
             {
-                "rank": 16,
+                "rank": 17,
                 "team": "Racing Santander",
                 "logo": "https://media.api-sports.io/football/teams/4665.png",
                 "played": 9,
@@ -2360,17 +2576,6 @@ const siteData = {
                 "lose": 5,
                 "gd": -12,
                 "points": 8
-            },
-            {
-                "rank": 17,
-                "team": "Levante",
-                "logo": "https://media.api-sports.io/football/teams/539.png",
-                "played": 8,
-                "win": 1,
-                "draw": 4,
-                "lose": 3,
-                "gd": -4,
-                "points": 7
             },
             {
                 "rank": 18,
@@ -3229,7 +3434,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "22/10/2026 02:49 WIB",
+    "standingsUpdated": "22/10/2026 05:55 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36968,6 +37173,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Jupiler Pro League",
+                "date": "2026-10-24",
+                "time": "21:00",
+                "home": "Antwerp",
+                "away": "Charleroi",
+                "stadium": "Bosuilstadion",
+                "round": "Pekan 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/736.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Charleroi",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 23,
+                        "away": 77
+                    },
+                    "def": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "poisson": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 27,
+                        "away": 73
+                    }
+                }
+            },
+            {
                 "league": "Scottish Premiership",
                 "date": "2026-10-24",
                 "time": "21:00",
@@ -37144,51 +37394,6 @@ const siteData = {
                     "goals": {
                         "home": 55,
                         "away": 45
-                    }
-                }
-            },
-            {
-                "league": "Jupiler Pro League",
-                "date": "2026-10-24",
-                "time": "21:00",
-                "home": "Antwerp",
-                "away": "Charleroi",
-                "stadium": "Bosuilstadion",
-                "round": "Pekan 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/740.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/736.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Charleroi",
-                "comparison": {
-                    "form": {
-                        "home": 0,
-                        "away": 100
-                    },
-                    "att": {
-                        "home": 23,
-                        "away": 77
-                    },
-                    "def": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "poisson": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "h2h": {
-                        "home": 7,
-                        "away": 93
-                    },
-                    "goals": {
-                        "home": 27,
-                        "away": 73
                     }
                 }
             },
