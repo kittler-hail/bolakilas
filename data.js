@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-21T05:35:00.152Z.
+   API-Football v3) pada 2026-10-21T10:54:02.169Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -236,8 +236,8 @@ const siteData = {
                     "away": 57
                 },
                 "poisson": {
-                    "home": 49,
-                    "away": 51
+                    "home": 50,
+                    "away": 50
                 },
                 "h2h": {
                     "home": 0,
@@ -1093,6 +1093,18 @@ const siteData = {
             ],
             "cards": [
                 {
+                    "minute": "45+1",
+                    "player": "Javier Gandolfi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "Víctor Manuel Vucetich Rojas",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
                     "minute": "46",
                     "player": "Sebastián Vegas",
                     "team": "away",
@@ -1108,7 +1120,10 @@ const siteData = {
             "away": "Garudayaksa",
             "stadium": "Kapten I Wayan Dipta Stadium",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 5,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2448.png",
             "awayLogo": "https://media.api-sports.io/football/teams/26645.png",
             "prediction": "2 - 1",
@@ -1143,7 +1158,60 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "45+2",
+                    "player": "I. Jaya",
+                    "team": "home"
+                },
+                {
+                    "minute": "51",
+                    "player": "R. Balk",
+                    "team": "home"
+                },
+                {
+                    "minute": "63",
+                    "player": "Queven",
+                    "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "Queven",
+                    "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "T. Yachida",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "38",
+                    "player": "A. Busnic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "47",
+                    "player": "P. Ricardo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "A. Setiawan",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "W. Prasetyo",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -2599,7 +2667,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/10/2026 12:34 WIB",
+    "standingsUpdated": "21/10/2026 17:53 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -33727,51 +33795,6 @@ const siteData = {
             {
                 "league": "Liga MX",
                 "date": "2026-10-22",
-                "time": "10:00",
-                "home": "CF Pachuca",
-                "away": "Cruz Azul",
-                "stadium": "Estadio Hidalgo",
-                "round": "Apertura - 13",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2292.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2295.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Combo Winner : Cruz Azul and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "att": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "def": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "poisson": {
-                        "home": 39,
-                        "away": 61
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 43,
-                        "away": 57
-                    }
-                }
-            },
-            {
-                "league": "Liga MX",
-                "date": "2026-10-22",
                 "time": "10:10",
                 "home": "Santos Laguna",
                 "away": "U.N.A.M. - Pumas",
@@ -33811,6 +33834,51 @@ const siteData = {
                     "goals": {
                         "home": 29,
                         "away": 71
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-22",
+                "time": "10:10",
+                "home": "CF Pachuca",
+                "away": "Cruz Azul",
+                "stadium": "Estadio Hidalgo",
+                "round": "Apertura - 13",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2292.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2295.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Combo Winner : Cruz Azul and +1.5 goals",
+                "comparison": {
+                    "form": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 56,
+                        "away": 44
+                    },
+                    "poisson": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 43,
+                        "away": 57
                     }
                 }
             },
