@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-21T00:16:05.887Z.
+   API-Football v3) pada 2026-10-21T05:35:00.152Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -74,13 +74,14 @@ const siteData = {
             "home": {
                 "results": [
                     "W",
+                    "W",
                     "W"
                 ],
                 "cleanSheets": 0,
                 "failedToScore": 0,
-                "goalsFor": 8,
-                "goalsAgainst": 4,
-                "winStreak": 2,
+                "goalsFor": 12,
+                "goalsAgainst": 7,
+                "winStreak": 3,
                 "attack": 62,
                 "defense": 50
             },
@@ -728,9 +729,9 @@ const siteData = {
             "away": "Necaxa",
             "stadium": "Estadio Akron",
             "round": "Apertura - 13",
-            "statusCode": "1H",
-            "minuteDisplay": "5'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2288.png",
@@ -766,7 +767,22 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "77",
+                    "player": "Agustin Oliveros",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "14",
+                    "player": "Miguel Rodriguez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Copa Sudamericana",
@@ -776,7 +792,10 @@ const siteData = {
             "away": "Boca Juniors",
             "stadium": "Estádio do Maracanã",
             "round": "Semi-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/133.png",
             "awayLogo": "https://media.api-sports.io/football/teams/451.png",
             "prediction": "2 - 1",
@@ -811,7 +830,49 @@ const siteData = {
                     "home": 100,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "4",
+                    "player": "Lautaro Di Lollo",
+                    "team": "away"
+                },
+                {
+                    "minute": "34",
+                    "player": "Miguel Merentiel",
+                    "team": "away"
+                },
+                {
+                    "minute": "66",
+                    "player": "Jose Luis Rodriguez",
+                    "team": "home"
+                },
+                {
+                    "minute": "88",
+                    "player": "Leandro Paredes",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "Leandro Paredes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "40",
+                    "player": "Thiago Mendes",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Alan Velasco",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -821,7 +882,10 @@ const siteData = {
             "away": "Atlante FC",
             "stadium": "Estadio Olímpico Benito Juárez",
             "round": "Apertura - 13",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2298.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2312.png",
             "prediction": "3 - 2",
@@ -856,7 +920,52 @@ const siteData = {
                     "home": 62,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "76",
+                    "player": "Juan Carrera",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "Rodrigo Dourado",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Jhojan Julio",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "Edgar Jiménez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Daniel Piña",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Leonardo Rodríguez Silva",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "José Luis Rodríguez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -866,7 +975,10 @@ const siteData = {
             "away": "Club Queretaro",
             "stadium": "Estadio Libertad Financiera",
             "round": "Apertura - 13",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2314.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2290.png",
             "prediction": "1 - 2",
@@ -901,7 +1013,24 @@ const siteData = {
                     "home": 65,
                     "away": 35
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "52",
+                    "player": "Felipe Mora",
+                    "team": "home"
+                },
+                {
+                    "minute": "67",
+                    "player": "Daniel Parra",
+                    "team": "away"
+                },
+                {
+                    "minute": "74",
+                    "player": "Ali Ávila",
+                    "team": "away"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -911,7 +1040,10 @@ const siteData = {
             "away": "Leon",
             "stadium": "Estadio Universitario",
             "round": "Apertura - 13",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2279.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2289.png",
             "prediction": "2 - 1",
@@ -946,7 +1078,27 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "Ismael Díaz",
+                    "team": "away"
+                },
+                {
+                    "minute": "89",
+                    "player": "Diber Cambindo",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "46",
+                    "player": "Sebastián Vegas",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -2447,7 +2599,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "21/10/2026 07:16 WIB",
+    "standingsUpdated": "21/10/2026 12:34 WIB",
     "topScorers": {
         "Premier League": [
             {
