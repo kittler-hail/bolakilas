@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-22T06:52:55.240Z.
+   API-Football v3) pada 2026-10-22T12:40:03.803Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1443,6 +1443,12 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
+                    "minute": "65",
+                    "player": "Carlos Antuna",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
                     "minute": "66",
                     "player": "Mauricio Cuevas",
                     "team": "home",
@@ -1585,7 +1591,10 @@ const siteData = {
             "away": "Persebaya Surabaya",
             "stadium": "Gelora BJ Habibie",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2441.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2446.png",
             "prediction": "1 - 2",
@@ -1620,7 +1629,40 @@ const siteData = {
                     "home": 33,
                     "away": 67
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "74",
+                    "player": "Y. Fernandes",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "16",
+                    "player": "R. Irianto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "T. Firmansyah",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "A. Mannan",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "Ardiansyah",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -1630,7 +1672,10 @@ const siteData = {
             "away": "PSS Sleman",
             "stadium": "Brawijaya Stadium",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/4241.png",
             "awayLogo": "https://media.api-sports.io/football/teams/3882.png",
             "prediction": "2 - 1",
@@ -1665,7 +1710,32 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "E. Gomez",
+                    "team": "home"
+                },
+                {
+                    "minute": "31",
+                    "player": "M. Lorenzen",
+                    "team": "away"
+                },
+                {
+                    "minute": "42",
+                    "player": "E. Gomez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "5",
+                    "player": "C. Nduwarugira",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -1675,7 +1745,10 @@ const siteData = {
             "away": "Persib Bandung",
             "stadium": "Gelora Ratu Pamelingan Stadium",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "1H",
+            "minuteDisplay": "40'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2444.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2445.png",
             "prediction": "2 - 3",
@@ -3720,28 +3793,39 @@ const siteData = {
             },
             {
                 "rank": 8,
-                "team": "Persebaya Surabaya",
-                "logo": "https://media.api-sports.io/football/teams/2446.png",
-                "played": 5,
-                "win": 2,
-                "draw": 3,
-                "lose": 0,
-                "gd": 2,
-                "points": 9
+                "team": "Persik Kediri",
+                "logo": "https://media.api-sports.io/football/teams/4241.png",
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "gd": 3,
+                "points": 10
             },
             {
                 "rank": 9,
-                "team": "Persik Kediri",
-                "logo": "https://media.api-sports.io/football/teams/4241.png",
-                "played": 5,
+                "team": "Persebaya Surabaya",
+                "logo": "https://media.api-sports.io/football/teams/2446.png",
+                "played": 6,
                 "win": 2,
-                "draw": 1,
-                "lose": 2,
-                "gd": 2,
-                "points": 7
+                "draw": 3,
+                "lose": 1,
+                "gd": 1,
+                "points": 9
             },
             {
                 "rank": 10,
+                "team": "PSM Makassar",
+                "logo": "https://media.api-sports.io/football/teams/2441.png",
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "gd": -3,
+                "points": 8
+            },
+            {
+                "rank": 11,
                 "team": "Java United",
                 "logo": "https://media.api-sports.io/football/teams/22409.png",
                 "played": 6,
@@ -3752,7 +3836,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Arema FC",
                 "logo": "https://media.api-sports.io/football/teams/2438.png",
                 "played": 6,
@@ -3763,7 +3847,7 @@ const siteData = {
                 "points": 6
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
                 "played": 5,
@@ -3772,17 +3856,6 @@ const siteData = {
                 "lose": 3,
                 "gd": -2,
                 "points": 6
-            },
-            {
-                "rank": 13,
-                "team": "PSM Makassar",
-                "logo": "https://media.api-sports.io/football/teams/2441.png",
-                "played": 5,
-                "win": 1,
-                "draw": 2,
-                "lose": 2,
-                "gd": -4,
-                "points": 5
             },
             {
                 "rank": 14,
@@ -3799,11 +3872,11 @@ const siteData = {
                 "rank": 15,
                 "team": "PSS Sleman",
                 "logo": "https://media.api-sports.io/football/teams/3882.png",
-                "played": 5,
+                "played": 6,
                 "win": 1,
                 "draw": 1,
-                "lose": 3,
-                "gd": -1,
+                "lose": 4,
+                "gd": -2,
                 "points": 4
             },
             {
@@ -3841,7 +3914,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "22/10/2026 13:52 WIB",
+    "standingsUpdated": "22/10/2026 19:40 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4000,10 +4073,10 @@ const siteData = {
             },
             {
                 "rank": 10,
-                "name": "Fer Niño",
-                "photo": "https://media.api-sports.io/football/players/184277.png",
-                "team": "Elche",
-                "teamLogo": "https://media.api-sports.io/football/teams/797.png",
+                "name": "Brugui",
+                "photo": "https://media.api-sports.io/football/players/47225.png",
+                "team": "Levante",
+                "teamLogo": "https://media.api-sports.io/football/teams/539.png",
                 "value": 5
             }
         ],
@@ -4725,7 +4798,7 @@ const siteData = {
             {
                 "player": "B. Saka",
                 "photo": "https://media.api-sports.io/football/players/1460.png",
-                "reason": "Injury",
+                "reason": "Thigh Injury",
                 "since": "2026-10-24"
             }
         ],
@@ -5037,7 +5110,7 @@ const siteData = {
             {
                 "player": "V. Livramento",
                 "photo": "https://media.api-sports.io/football/players/158694.png",
-                "reason": "Injury",
+                "reason": "Knee Injury",
                 "since": "2026-10-17"
             },
             {
@@ -36779,51 +36852,6 @@ const siteData = {
                 }
             },
             {
-                "league": "LaLiga",
-                "date": "2026-10-24",
-                "time": "02:00",
-                "home": "Alaves",
-                "away": "Malaga",
-                "stadium": "Estadio de Mendizorroza",
-                "round": "Pekan 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/542.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/535.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Alaves or draw",
-                "comparison": {
-                    "form": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "att": {
-                        "home": 38,
-                        "away": 63
-                    },
-                    "def": {
-                        "home": 61,
-                        "away": 39
-                    },
-                    "poisson": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 73,
-                        "away": 27
-                    }
-                }
-            },
-            {
                 "league": "Premier League",
                 "date": "2026-10-24",
                 "time": "02:00",
@@ -36865,6 +36893,51 @@ const siteData = {
                     "goals": {
                         "home": 31,
                         "away": 69
+                    }
+                }
+            },
+            {
+                "league": "LaLiga",
+                "date": "2026-10-24",
+                "time": "02:00",
+                "home": "Alaves",
+                "away": "Malaga",
+                "stadium": "Estadio de Mendizorroza",
+                "round": "Pekan 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/542.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/535.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Alaves or draw",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 38,
+                        "away": 63
+                    },
+                    "def": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "poisson": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 73,
+                        "away": 27
                     }
                 }
             },
@@ -37260,8 +37333,8 @@ const siteData = {
                         "away": 60
                     },
                     "poisson": {
-                        "home": 22,
-                        "away": 78
+                        "home": 21,
+                        "away": 79
                     },
                     "h2h": {
                         "home": 0,
@@ -38084,51 +38157,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-10-24",
-                "time": "22:15",
-                "home": "Toulouse",
-                "away": "Estac Troyes",
-                "stadium": "Stadium Municipal",
-                "round": "Pekan 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/96.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/110.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Toulouse or draw",
-                "comparison": {
-                    "form": {
-                        "home": 100,
-                        "away": 0
-                    },
-                    "att": {
-                        "home": 77,
-                        "away": 23
-                    },
-                    "def": {
-                        "home": 68,
-                        "away": 32
-                    },
-                    "poisson": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 82,
-                        "away": 18
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-10-24",
                 "time": "23:00",
@@ -38264,6 +38292,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Premier League",
+                "date": "2026-10-24",
+                "time": "23:30",
+                "home": "Chelsea",
+                "away": "Tottenham",
+                "stadium": "Stamford Bridge",
+                "round": "Pekan 8",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/49.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/47.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Chelsea",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "def": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "poisson": {
+                        "home": 85,
+                        "away": 15
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 60,
+                        "away": 40
+                    }
+                }
+            },
+            {
                 "league": "LaLiga",
                 "date": "2026-10-24",
                 "time": "23:30",
@@ -38350,51 +38423,6 @@ const siteData = {
                     "goals": {
                         "home": 56,
                         "away": 44
-                    }
-                }
-            },
-            {
-                "league": "Premier League",
-                "date": "2026-10-24",
-                "time": "23:30",
-                "home": "Chelsea",
-                "away": "Tottenham",
-                "stadium": "Stamford Bridge",
-                "round": "Pekan 8",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/49.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/47.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Chelsea",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "poisson": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "h2h": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "goals": {
-                        "home": 60,
-                        "away": 40
                     }
                 }
             },
