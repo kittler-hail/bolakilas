@@ -3,7 +3,7 @@
   "home": "Aston Villa",
   "away": "Viking",
   "statusCode": "FT",
-  "updatedAt": "22/10/2026 12:28 WIB",
+  "updatedAt": "22/10/2026 17:34 WIB",
   "statistics": {
     "home": {
       "possession": 54,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 17,
       "shotsOutsidebox": 4,
-      "passesTotal": 527,
-      "passesAccurate": 469,
+      "passesTotal": 529,
+      "passesAccurate": 471,
       "passesPct": null
     },
     "away": {
@@ -32,7 +32,7 @@
       "shotsInsidebox": 4,
       "shotsOutsidebox": 6,
       "passesTotal": 433,
-      "passesAccurate": 376,
+      "passesAccurate": 377,
       "passesPct": null
     }
   },
