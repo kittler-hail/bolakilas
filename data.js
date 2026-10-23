@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-23T05:36:15.374Z.
+   API-Football v3) pada 2026-10-23T10:45:51.935Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -728,8 +728,8 @@ const siteData = {
             "goals": [
                 {
                     "minute": "78",
-                    "player": "Armando González",
-                    "team": "home"
+                    "player": "Sivert Heggheim Mannsverk",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1040,7 +1040,7 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "43",
+                    "minute": "42",
                     "player": "Pijus Sirvys",
                     "team": "home",
                     "type": "yellow"
@@ -3262,7 +3262,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "23/10/2026 12:36 WIB",
+    "standingsUpdated": "23/10/2026 17:45 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4590,12 +4590,6 @@ const siteData = {
                 "since": "2026-10-25"
             },
             {
-                "player": "B. Barcola",
-                "photo": "https://media.api-sports.io/football/players/161904.png",
-                "reason": "Muscle Injury",
-                "since": "2026-10-25"
-            },
-            {
                 "player": "J. Frimpong",
                 "photo": "https://media.api-sports.io/football/players/152654.png",
                 "reason": "Muscle Injury",
@@ -4945,7 +4939,7 @@ const siteData = {
                 "player": "P. Porro",
                 "photo": "https://media.api-sports.io/football/players/47519.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-24"
+                "since": "2026-10-19"
             },
             {
                 "player": "X. Simons",
@@ -5093,7 +5087,7 @@ const siteData = {
                 "player": "J. Schuster",
                 "photo": "https://media.api-sports.io/football/players/441271.png",
                 "reason": "Ankle Injury",
-                "since": "2026-10-25"
+                "since": "2026-10-17"
             },
             {
                 "player": "V. Janelt",
@@ -5328,8 +5322,8 @@ const siteData = {
             {
                 "player": "B. Brobbey",
                 "photo": "https://media.api-sports.io/football/players/38750.png",
-                "reason": "Inactive",
-                "since": "2026-10-25"
+                "reason": "Muscle Injury",
+                "since": "2026-10-10"
             }
         ],
         "fulham": [
@@ -7856,12 +7850,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/8641.png",
                 "reason": "Muscle Injury",
                 "since": "2026-10-11"
-            },
-            {
-                "player": "J. Schmied",
-                "photo": "https://media.api-sports.io/football/players/48765.png",
-                "reason": "Ankle Injury",
-                "since": "2026-10-24"
             }
         ],
         "1899-hoffenheim": [
@@ -8069,7 +8057,7 @@ const siteData = {
                 "player": "J. Castrop",
                 "photo": "https://media.api-sports.io/football/players/280358.png",
                 "reason": "Shoulder Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-23"
             },
             {
                 "player": "F. C. Chiarodia",
@@ -8154,8 +8142,8 @@ const siteData = {
             {
                 "player": "O. Burke",
                 "photo": "https://media.api-sports.io/football/players/1124.png",
-                "reason": "Illness",
-                "since": "2026-10-24"
+                "reason": "Achilles Tendon Injury",
+                "since": "2026-09-18"
             },
             {
                 "player": "M. Friedrich",
@@ -8190,19 +8178,13 @@ const siteData = {
             {
                 "player": "K. Imeri",
                 "photo": "https://media.api-sports.io/football/players/48612.png",
-                "reason": "Thigh Injury",
-                "since": "2026-09-11"
+                "reason": "Injury",
+                "since": "2026-10-24"
             },
             {
                 "player": "J. Juranovic",
                 "photo": "https://media.api-sports.io/football/players/14330.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-10-24"
-            },
-            {
-                "player": "L. Burcu",
-                "photo": "https://media.api-sports.io/football/players/430354.png",
-                "reason": "Illness",
                 "since": "2026-10-24"
             }
         ],
@@ -8547,7 +8529,7 @@ const siteData = {
                 "player": "S. Lynen",
                 "photo": "https://media.api-sports.io/football/players/38798.png",
                 "reason": "Hip Injury",
-                "since": "2026-10-24"
+                "since": "2026-10-17"
             },
             {
                 "player": "M. N'Diaye",
@@ -9859,6 +9841,12 @@ const siteData = {
             }
         ],
         "paris-saint-germain": [
+            {
+                "player": "B. Barcola",
+                "photo": "https://media.api-sports.io/football/players/161904.png",
+                "reason": "Inactive",
+                "since": "2026-08-28"
+            },
             {
                 "player": "I. Mbaye",
                 "photo": "https://media.api-sports.io/football/players/446249.png",
@@ -39305,51 +39293,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-25",
-                "time": "06:00",
-                "home": "Tapatío",
-                "away": "Monarcas",
-                "stadium": "Estadio Akron",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Tapatío or draw",
-                "comparison": {
-                    "form": {
-                        "home": 55,
-                        "away": 45
-                    },
-                    "att": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "def": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 85,
-                        "away": 15
-                    },
-                    "goals": {
-                        "home": 78,
-                        "away": 22
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-10-25",
                 "time": "06:00",
@@ -39575,51 +39518,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-10-25",
-                "time": "07:00",
-                "home": "Monterrey",
-                "away": "Guadalajara Chivas",
-                "stadium": "Estadio BBVA",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2278.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Monterrey or draw",
-                "comparison": {
-                    "form": {
-                        "home": 63,
-                        "away": 38
-                    },
-                    "att": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "def": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "poisson": {
-                        "home": 48,
-                        "away": 52
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 42,
-                        "away": 58
-                    }
-                }
-            },
-            {
                 "league": "MLS",
                 "date": "2026-10-25",
                 "time": "07:30",
@@ -39706,96 +39604,6 @@ const siteData = {
                     "goals": {
                         "home": 53,
                         "away": 47
-                    }
-                }
-            },
-            {
-                "league": "MLS",
-                "date": "2026-10-25",
-                "time": "07:30",
-                "home": "Real Salt Lake",
-                "away": "St. Louis City",
-                "stadium": "Rio Tinto Stadium",
-                "round": "Pekan 31",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/20787.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Real Salt Lake or draw",
-                "comparison": {
-                    "form": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "att": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "def": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "poisson": {
-                        "home": 51,
-                        "away": 49
-                    },
-                    "h2h": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "goals": {
-                        "home": 59,
-                        "away": 41
-                    }
-                }
-            },
-            {
-                "league": "MLS",
-                "date": "2026-10-25",
-                "time": "07:30",
-                "home": "Colorado Rapids",
-                "away": "Vancouver Whitecaps",
-                "stadium": "Dick's Sporting Goods Park",
-                "round": "Pekan 31",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/1603.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Vancouver Whitecaps",
-                "comparison": {
-                    "form": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "poisson": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 46,
-                        "away": 54
                     }
                 }
             },
@@ -39976,6 +39784,141 @@ const siteData = {
                     "goals": {
                         "home": 71,
                         "away": 29
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-25",
+                "time": "09:00",
+                "home": "Monterrey",
+                "away": "Guadalajara Chivas",
+                "stadium": "Estadio BBVA",
+                "round": "Apertura - 14",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2278.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Monterrey or draw",
+                "comparison": {
+                    "form": {
+                        "home": 63,
+                        "away": 38
+                    },
+                    "att": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "def": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 42,
+                        "away": 58
+                    }
+                }
+            },
+            {
+                "league": "MLS",
+                "date": "2026-10-25",
+                "time": "09:30",
+                "home": "Real Salt Lake",
+                "away": "St. Louis City",
+                "stadium": "Rio Tinto Stadium",
+                "round": "Pekan 31",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/20787.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Real Salt Lake or draw",
+                "comparison": {
+                    "form": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "att": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 51,
+                        "away": 49
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 59,
+                        "away": 41
+                    }
+                }
+            },
+            {
+                "league": "MLS",
+                "date": "2026-10-25",
+                "time": "09:30",
+                "home": "Colorado Rapids",
+                "away": "Vancouver Whitecaps",
+                "stadium": "Dick's Sporting Goods Park",
+                "round": "Pekan 31",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1610.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/1603.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Vancouver Whitecaps",
+                "comparison": {
+                    "form": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "poisson": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "h2h": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "goals": {
+                        "home": 46,
+                        "away": 54
                     }
                 }
             },
@@ -40295,51 +40238,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Scottish Premiership",
-                "date": "2026-10-25",
-                "time": "19:00",
-                "home": "Hibernian",
-                "away": "Celtic",
-                "stadium": "Easter Road",
-                "round": "Pekan 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/249.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/247.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Celtic",
-                "comparison": {
-                    "form": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "att": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "def": {
-                        "home": 30,
-                        "away": 70
-                    },
-                    "poisson": {
-                        "home": 8,
-                        "away": 92
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 38,
-                        "away": 62
-                    }
-                }
-            },
-            {
                 "league": "Liga 1 (Indonesia)",
                 "date": "2026-10-25",
                 "time": "19:00",
@@ -40381,6 +40279,51 @@ const siteData = {
                     "goals": {
                         "home": 0,
                         "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Scottish Premiership",
+                "date": "2026-10-25",
+                "time": "19:00",
+                "home": "Hibernian",
+                "away": "Celtic",
+                "stadium": "Easter Road",
+                "round": "Pekan 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/249.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/247.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Celtic",
+                "comparison": {
+                    "form": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "att": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "def": {
+                        "home": 30,
+                        "away": 70
+                    },
+                    "poisson": {
+                        "home": 8,
+                        "away": 92
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 62
                     }
                 }
             },
