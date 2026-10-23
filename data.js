@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-23T10:45:51.935Z.
+   API-Football v3) pada 2026-10-23T15:33:27.867Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -514,8 +514,8 @@ const siteData = {
                     "away": 50
                 },
                 "poisson": {
-                    "home": 55,
-                    "away": 45
+                    "home": 56,
+                    "away": 44
                 },
                 "h2h": {
                     "home": 0,
@@ -617,8 +617,8 @@ const siteData = {
                     "away": 57
                 },
                 "poisson": {
-                    "home": 90,
-                    "away": 10
+                    "home": 91,
+                    "away": 9
                 },
                 "h2h": {
                     "home": 0,
@@ -806,8 +806,8 @@ const siteData = {
                     "away": 82
                 },
                 "poisson": {
-                    "home": 46,
-                    "away": 54
+                    "home": 47,
+                    "away": 53
                 },
                 "h2h": {
                     "home": 0,
@@ -885,8 +885,8 @@ const siteData = {
                     "away": 43
                 },
                 "poisson": {
-                    "home": 54,
-                    "away": 46
+                    "home": 55,
+                    "away": 45
                 },
                 "h2h": {
                     "home": 0,
@@ -1088,8 +1088,8 @@ const siteData = {
                     "away": 50
                 },
                 "poisson": {
-                    "home": 50,
-                    "away": 50
+                    "home": 51,
+                    "away": 49
                 },
                 "h2h": {
                     "home": 0,
@@ -3262,7 +3262,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "23/10/2026 17:45 WIB",
+    "standingsUpdated": "23/10/2026 22:33 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -6070,6 +6070,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/184407.png",
                 "reason": "Loan agreement",
                 "since": "2026-10-09"
+            },
+            {
+                "player": "P. Martinez",
+                "photo": "https://media.api-sports.io/football/players/104949.png",
+                "reason": "Foot Injury",
+                "since": "2026-10-23"
             },
             {
                 "player": "J. Munoz",
@@ -37093,7 +37099,7 @@ const siteData = {
                 "away": "KV Mechelen",
                 "stadium": "Guldensporen Stadion",
                 "round": "Pekan 9",
-                "statusCode": "NS",
+                "statusCode": "POSTP",
                 "homeLogo": "https://media.api-sports.io/football/teams/734.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/266.png",
                 "prediction": "1 - 2",
@@ -40238,51 +40244,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga 1 (Indonesia)",
-                "date": "2026-10-25",
-                "time": "19:00",
-                "home": "Garudayaksa",
-                "away": "Persib Bandung",
-                "stadium": "Pakansari Stadium",
-                "round": "Pekan 7",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/26645.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2445.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Persib Bandung",
-                "comparison": {
-                    "form": {
-                        "home": 36,
-                        "away": 64
-                    },
-                    "att": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "def": {
-                        "home": 35,
-                        "away": 65
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-10-25",
                 "time": "19:00",
@@ -40324,6 +40285,51 @@ const siteData = {
                     "goals": {
                         "home": 38,
                         "away": 62
+                    }
+                }
+            },
+            {
+                "league": "Liga 1 (Indonesia)",
+                "date": "2026-10-25",
+                "time": "19:00",
+                "home": "Garudayaksa",
+                "away": "Persib Bandung",
+                "stadium": "Pakansari Stadium",
+                "round": "Pekan 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/26645.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2445.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Persib Bandung",
+                "comparison": {
+                    "form": {
+                        "home": 36,
+                        "away": 64
+                    },
+                    "att": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "def": {
+                        "home": 35,
+                        "away": 65
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
                     }
                 }
             },
