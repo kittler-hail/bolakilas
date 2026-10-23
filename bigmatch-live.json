@@ -3,7 +3,7 @@
   "home": "Bournemouth",
   "away": "AC Milan",
   "statusCode": "FT",
-  "updatedAt": "23/10/2026 05:43 WIB",
+  "updatedAt": "23/10/2026 08:01 WIB",
   "statistics": {
     "home": {
       "possession": 64,
@@ -17,7 +17,7 @@
       "shotsInsidebox": 11,
       "shotsOutsidebox": 9,
       "passesTotal": 512,
-      "passesAccurate": 454,
+      "passesAccurate": 452,
       "passesPct": null
     },
     "away": {
@@ -31,7 +31,7 @@
       "redCards": 1,
       "shotsInsidebox": 2,
       "shotsOutsidebox": 1,
-      "passesTotal": 287,
+      "passesTotal": 286,
       "passesAccurate": 226,
       "passesPct": null
     }
