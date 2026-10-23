@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-23T00:16:46.469Z.
+   API-Football v3) pada 2026-10-23T05:36:15.374Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -54,13 +54,14 @@ const siteData = {
             "home": {
                 "results": [
                     "W",
+                    "W",
                     "W"
                 ],
-                "cleanSheets": 1,
+                "cleanSheets": 2,
                 "failedToScore": 0,
-                "goalsFor": 5,
+                "goalsFor": 8,
                 "goalsAgainst": 1,
-                "winStreak": 2,
+                "winStreak": 3,
                 "attack": 56,
                 "defense": 67
             },
@@ -81,686 +82,6 @@ const siteData = {
         }
     },
     "matches": [
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "Monaco",
-            "away": "SC Freiburg",
-            "stadium": "Stade Louis II",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 3,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/91.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/160.png",
-            "prediction": "2 - 2",
-            "odds": {
-                "home": 33,
-                "draw": 33,
-                "away": 33
-            },
-            "advice": "No predictions available",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 47,
-                    "away": 53
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 50,
-                    "away": 50
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "45+2",
-                    "player": "P. Brunner",
-                    "team": "home"
-                },
-                {
-                    "minute": "83",
-                    "player": "L. Camara",
-                    "team": "home"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "A. Fati",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "37",
-                    "player": "P. Osterhage",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "49",
-                    "player": "A. Golovin",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "70",
-                    "player": "A. Soubeir",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "A. Fati",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "Ajax",
-            "away": "Atalanta",
-            "stadium": "Johan Cruijff Arena",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/194.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/499.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Atalanta",
-            "comparison": {
-                "form": {
-                    "home": 59,
-                    "away": 41
-                },
-                "att": {
-                    "home": 79,
-                    "away": 21
-                },
-                "def": {
-                    "home": 9,
-                    "away": 91
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 20,
-                    "away": 80
-                },
-                "goals": {
-                    "home": 40,
-                    "away": 60
-                }
-            },
-            "goals": [
-                {
-                    "minute": "87",
-                    "player": "T. Arokodare",
-                    "team": "home"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "A. Ouazane",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "45",
-                    "player": "S. Amrabat",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "68",
-                    "player": "L. Samardzic",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "86",
-                    "player": "N. Zalewski",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+2",
-                    "player": "M. ter Stegen",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "SC Braga",
-            "away": "Gent",
-            "stadium": "Estádio Municipal de Braga",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/217.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/631.png",
-            "prediction": "1 - 1",
-            "odds": {
-                "home": 35,
-                "draw": 35,
-                "away": 30
-            },
-            "advice": "Combo Double chance : SC Braga or draw and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 42,
-                    "away": 58
-                },
-                "att": {
-                    "home": 33,
-                    "away": 67
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 100,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 50,
-                    "away": 50
-                },
-                "goals": {
-                    "home": 50,
-                    "away": 50
-                }
-            },
-            "goals": [
-                {
-                    "minute": "3",
-                    "player": "V. Gomez",
-                    "team": "home"
-                },
-                {
-                    "minute": "76",
-                    "player": "G. Martinez",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "27",
-                    "player": "A. Barisic",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "32",
-                    "player": "M. Paskotsi",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "40",
-                    "player": "T. Sa",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "FC Midtjylland",
-            "away": "St. Truiden",
-            "stadium": "MCH Arena",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/397.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : FC Midtjylland or draw",
-            "comparison": {
-                "form": {
-                    "home": 81,
-                    "away": 19
-                },
-                "att": {
-                    "home": 86,
-                    "away": 14
-                },
-                "def": {
-                    "home": 0,
-                    "away": 100
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "42",
-                    "player": "F. Soelle",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "11",
-                    "player": "R. Vanwesemael",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "22",
-                    "player": "P. Bravo",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "59",
-                    "player": "I. Sebaoui",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "Aarhus",
-            "away": "Egnatia Rrogozhinë",
-            "stadium": "Vejlby Stadion",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/406.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/3327.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Double chance : draw or Egnatia Rrogozhinë and -3.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 100
-                },
-                "att": {
-                    "home": 0,
-                    "away": 100
-                },
-                "def": {
-                    "home": 50,
-                    "away": 50
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "13",
-                    "player": "I. Gruda",
-                    "team": "away"
-                },
-                {
-                    "minute": "49",
-                    "player": "J. Bogere",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "3",
-                    "player": "E. Kahl",
-                    "team": "home",
-                    "type": "red"
-                },
-                {
-                    "minute": "11",
-                    "player": "A. Yago",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "16",
-                    "player": "A. Kryeziu",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "39",
-                    "player": "K. Arnstad",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "72",
-                    "player": "E. Bitri",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "I. Diabate",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "Lincoln Red Imps FC",
-            "away": "Twente",
-            "stadium": "Victoria Stadium",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 4,
-            "homeLogo": "https://media.api-sports.io/football/teams/667.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/415.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Combo Winner : Twente and +1.5 goals",
-            "comparison": {
-                "form": {
-                    "home": 23,
-                    "away": 77
-                },
-                "att": {
-                    "home": 22,
-                    "away": 78
-                },
-                "def": {
-                    "home": 56,
-                    "away": 44
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 100
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "19",
-                    "player": "T. van den Belt",
-                    "team": "away"
-                },
-                {
-                    "minute": "24",
-                    "player": "W. Weghorst",
-                    "team": "away"
-                },
-                {
-                    "minute": "38",
-                    "player": "Nano",
-                    "team": "home"
-                },
-                {
-                    "minute": "57",
-                    "player": "T. van den Belt",
-                    "team": "away"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "D. Weidmann",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "37",
-                    "player": "R. Nijstad",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "43",
-                    "player": "Y. Taha",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "FC Thun",
-            "away": "HNK Hajduk Split",
-            "stadium": "Stockhorn Arena",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 0,
-            "awayScore": 1,
-            "homeLogo": "https://media.api-sports.io/football/teams/1012.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/608.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Winner : HNK Hajduk Split",
-            "comparison": {
-                "form": {
-                    "home": 0,
-                    "away": 100
-                },
-                "att": {
-                    "home": 0,
-                    "away": 100
-                },
-                "def": {
-                    "home": 88,
-                    "away": 13
-                },
-                "poisson": {
-                    "home": 0,
-                    "away": 0
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "17",
-                    "player": "D. de Almeida",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "47",
-                    "player": "A. del Moral",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "57",
-                    "player": "J. Roth",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "65",
-                    "player": "D. Maresic",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "73",
-                    "player": "N. Reichmuth",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "UEFA Europa Conference League",
-            "date": "2026-10-23",
-            "time": "02:00",
-            "home": "Borac Banja Luka",
-            "away": "KuPS",
-            "stadium": "Gradski Stadion",
-            "round": "League Stage - 2",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/3364.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/1165.png",
-            "prediction": "2 - 1",
-            "odds": {
-                "home": 45,
-                "draw": 45,
-                "away": 10
-            },
-            "advice": "Double chance : Borac Banja Luka or draw",
-            "comparison": {
-                "form": {
-                    "home": 71,
-                    "away": 29
-                },
-                "att": {
-                    "home": 71,
-                    "away": 29
-                },
-                "def": {
-                    "home": 45,
-                    "away": 55
-                },
-                "poisson": {
-                    "home": 84,
-                    "away": 16
-                },
-                "h2h": {
-                    "home": 0,
-                    "away": 0
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 0
-                }
-            },
-            "goals": [
-                {
-                    "minute": "29",
-                    "player": "S. Savic",
-                    "team": "home"
-                },
-                {
-                    "minute": "50",
-                    "player": "M. Deket",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "18",
-                    "player": "L. Juricic",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "78",
-                    "player": "S. Herrera",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "A. Lotjonen",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
         {
             "league": "UEFA Europa League",
             "date": "2026-10-23",
@@ -1093,8 +414,8 @@ const siteData = {
                     "away": 57
                 },
                 "poisson": {
-                    "home": 41,
-                    "away": 59
+                    "home": 42,
+                    "away": 58
                 },
                 "h2h": {
                     "home": 0,
@@ -1733,6 +1054,686 @@ const siteData = {
             ]
         },
         {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "Monaco",
+            "away": "SC Freiburg",
+            "stadium": "Stade Louis II",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/91.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/160.png",
+            "prediction": "2 - 2",
+            "odds": {
+                "home": 33,
+                "draw": 33,
+                "away": 33
+            },
+            "advice": "No predictions available",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 47,
+                    "away": 53
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 50,
+                    "away": 50
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "45",
+                    "player": "P. Brunner",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "L. Camara",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "A. Fati",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "Patrick Osterhage",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "49",
+                    "player": "Aleksandr Golovin",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Anis Soubeir",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Ansu Fati",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "Ajax",
+            "away": "Atalanta",
+            "stadium": "Johan Cruijff Arena",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/194.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/499.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Atalanta",
+            "comparison": {
+                "form": {
+                    "home": 59,
+                    "away": 41
+                },
+                "att": {
+                    "home": 79,
+                    "away": 21
+                },
+                "def": {
+                    "home": 9,
+                    "away": 91
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 20,
+                    "away": 80
+                },
+                "goals": {
+                    "home": 40,
+                    "away": 60
+                }
+            },
+            "goals": [
+                {
+                    "minute": "87",
+                    "player": "T. Arokodare",
+                    "team": "home"
+                },
+                {
+                    "minute": "90",
+                    "player": "A. Ouazane",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45",
+                    "player": "Sofyan Amrabat",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Lazar Samardžić",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Nicola Zalewski",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Marc-André Ter Stegen",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "SC Braga",
+            "away": "Gent",
+            "stadium": "Estádio Municipal de Braga",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/217.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/631.png",
+            "prediction": "1 - 1",
+            "odds": {
+                "home": 35,
+                "draw": 35,
+                "away": 30
+            },
+            "advice": "Combo Double chance : SC Braga or draw and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 42,
+                    "away": 58
+                },
+                "att": {
+                    "home": 33,
+                    "away": 67
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 100,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 50,
+                    "away": 50
+                },
+                "goals": {
+                    "home": 50,
+                    "away": 50
+                }
+            },
+            "goals": [
+                {
+                    "minute": "3",
+                    "player": "V. Gomez",
+                    "team": "home"
+                },
+                {
+                    "minute": "76",
+                    "player": "G. Martinez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "-5",
+                    "player": "Tiago Sá",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "27",
+                    "player": "Adrian Leon Barišić",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "32",
+                    "player": "Maksim Paskotsi",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "FC Midtjylland",
+            "away": "St. Truiden",
+            "stadium": "MCH Arena",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/397.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/735.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : FC Midtjylland or draw",
+            "comparison": {
+                "form": {
+                    "home": 81,
+                    "away": 19
+                },
+                "att": {
+                    "home": 86,
+                    "away": 14
+                },
+                "def": {
+                    "home": 0,
+                    "away": 100
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "42",
+                    "player": "F. Soelle",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "9",
+                    "player": "Robert-Jan Vanwesemael",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "22",
+                    "player": "Pedro Bravo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "Ilias Sebaoui",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "Aarhus",
+            "away": "Egnatia Rrogozhinë",
+            "stadium": "Vejlby Stadion",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/406.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/3327.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Double chance : draw or Egnatia Rrogozhinë and -3.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 100
+                },
+                "att": {
+                    "home": 0,
+                    "away": 100
+                },
+                "def": {
+                    "home": 50,
+                    "away": 50
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "I. Gruda",
+                    "team": "away"
+                },
+                {
+                    "minute": "49",
+                    "player": "J. Bogere",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "Eric Kahl",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "11",
+                    "player": "Andrey Yago",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "16",
+                    "player": "Altin Kryeziu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "Kristian Arnstad",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "Eneo Bitri",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Ibrahim Diabaté",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "Lincoln Red Imps FC",
+            "away": "Twente",
+            "stadium": "Victoria Stadium",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 4,
+            "homeLogo": "https://media.api-sports.io/football/teams/667.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/415.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Combo Winner : Twente and +1.5 goals",
+            "comparison": {
+                "form": {
+                    "home": 23,
+                    "away": 77
+                },
+                "att": {
+                    "home": 22,
+                    "away": 78
+                },
+                "def": {
+                    "home": 56,
+                    "away": 44
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 100
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "T. van den Belt",
+                    "team": "away"
+                },
+                {
+                    "minute": "24",
+                    "player": "W. Weghorst",
+                    "team": "away"
+                },
+                {
+                    "minute": "38",
+                    "player": "Nano",
+                    "team": "home"
+                },
+                {
+                    "minute": "57",
+                    "player": "T. van den Belt",
+                    "team": "away"
+                },
+                {
+                    "minute": "90",
+                    "player": "D. Weidmann",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "37",
+                    "player": "Ruud Nijstad",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "Younes Taha",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "FC Thun",
+            "away": "HNK Hajduk Split",
+            "stadium": "Stockhorn Arena",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
+            "homeLogo": "https://media.api-sports.io/football/teams/1012.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/608.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Winner : HNK Hajduk Split",
+            "comparison": {
+                "form": {
+                    "home": 0,
+                    "away": 100
+                },
+                "att": {
+                    "home": 0,
+                    "away": 100
+                },
+                "def": {
+                    "home": 88,
+                    "away": 13
+                },
+                "poisson": {
+                    "home": 0,
+                    "away": 0
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "17",
+                    "player": "D. de Almeida",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "47",
+                    "player": "Alberto del Moral",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "57",
+                    "player": "Justin Roth",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Dario Marešić",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "Nils Reichmuth",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "UEFA Europa Conference League",
+            "date": "2026-10-23",
+            "time": "02:00",
+            "home": "Borac Banja Luka",
+            "away": "KuPS",
+            "stadium": "Gradski Stadion",
+            "round": "League Stage - 2",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/3364.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/1165.png",
+            "prediction": "2 - 1",
+            "odds": {
+                "home": 45,
+                "draw": 45,
+                "away": 10
+            },
+            "advice": "Double chance : Borac Banja Luka or draw",
+            "comparison": {
+                "form": {
+                    "home": 71,
+                    "away": 29
+                },
+                "att": {
+                    "home": 71,
+                    "away": 29
+                },
+                "def": {
+                    "home": 45,
+                    "away": 55
+                },
+                "poisson": {
+                    "home": 84,
+                    "away": 16
+                },
+                "h2h": {
+                    "home": 0,
+                    "away": 0
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": "29",
+                    "player": "S. Savic",
+                    "team": "home"
+                },
+                {
+                    "minute": "50",
+                    "player": "M. Deket",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "Luka Juričić",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Sebastian Herrera",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Arttu Lötjönen",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
             "league": "Copa Libertadores",
             "date": "2026-10-23",
             "time": "07:30",
@@ -1740,7 +1741,10 @@ const siteData = {
             "away": "Estudiantes L.P.",
             "stadium": "Estádio do Maracanã",
             "round": "Semi-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/127.png",
             "awayLogo": "https://media.api-sports.io/football/teams/450.png",
             "prediction": "2 - 1",
@@ -1775,7 +1779,72 @@ const siteData = {
                     "home": 63,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "91",
+                    "player": "Giorgian de Arrascaeta",
+                    "team": "home"
+                },
+                {
+                    "minute": "92",
+                    "player": "José Sosa",
+                    "team": "away"
+                },
+                {
+                    "minute": "97",
+                    "player": "Eros Nazareno Mancuso",
+                    "team": "away"
+                },
+                {
+                    "minute": "97",
+                    "player": "Léo Pereira",
+                    "team": "home"
+                },
+                {
+                    "minute": "98",
+                    "player": "Tiago Palacios",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "35",
+                    "player": "Baltasar Gallego Rodriguez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "49",
+                    "player": "Leandro Gonzalez Pirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "Baltasar Gallego Rodriguez",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "54",
+                    "player": "Santiago Núñez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Lucas Piovi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Alexander Medina",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1785,7 +1854,10 @@ const siteData = {
             "away": "Cruz Azul Hidalgo",
             "stadium": "",
             "round": "Apertura - 14",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2300.png",
             "awayLogo": "https://media.api-sports.io/football/teams/15928.png",
             "prediction": "1 - 2",
@@ -1820,7 +1892,56 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "J. Bustos",
+                    "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "S. De Los Rios",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+7",
+                    "player": "D. Martinez",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "28",
+                    "player": "R. Rubio",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "32",
+                    "player": "J. Bustos",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "B. Gamboa",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "J. Suarez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "89",
+                    "player": "K. Alvarez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -3141,7 +3262,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "23/10/2026 07:16 WIB",
+    "standingsUpdated": "23/10/2026 12:36 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4923,6 +5044,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/304853.png",
                 "reason": "Thigh Injury",
                 "since": "2026-10-25"
+            },
+            {
+                "player": "A. Toth",
+                "photo": "https://media.api-sports.io/football/players/361485.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
             }
         ],
         "brentford": [
@@ -5004,7 +5131,7 @@ const siteData = {
                 "player": "J. Ekhator",
                 "photo": "https://media.api-sports.io/football/players/451504.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "F. Gatti",
@@ -5034,13 +5161,13 @@ const siteData = {
                 "player": "A. Milik",
                 "photo": "https://media.api-sports.io/football/players/333.png",
                 "reason": "Inactive",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "K. Yildiz",
                 "photo": "https://media.api-sports.io/football/players/339883.png",
                 "reason": "Foot Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "J. Cabal",
@@ -5052,13 +5179,13 @@ const siteData = {
                 "player": "K. Thuram",
                 "photo": "https://media.api-sports.io/football/players/116.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "M. Locatelli",
                 "photo": "https://media.api-sports.io/football/players/30533.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "J. Boga",
@@ -5070,7 +5197,13 @@ const siteData = {
                 "player": "K. Grabara",
                 "photo": "https://media.api-sports.io/football/players/15573.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
+            },
+            {
+                "player": "F. Conceicao",
+                "photo": "https://media.api-sports.io/football/players/161585.png",
+                "reason": "Shoulder Injury",
+                "since": "2026-10-25"
             }
         ],
         "everton": [
@@ -5295,6 +5428,12 @@ const siteData = {
             {
                 "player": "Q. Timber",
                 "photo": "https://media.api-sports.io/football/players/38747.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
+            },
+            {
+                "player": "J. Larsen",
+                "photo": "https://media.api-sports.io/football/players/2032.png",
                 "reason": "Injury",
                 "since": "2026-10-25"
             }
@@ -6568,7 +6707,7 @@ const siteData = {
                 "player": "N. Zaniolo",
                 "photo": "https://media.api-sports.io/football/players/786.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "J. Piotrowski",
@@ -6598,13 +6737,19 @@ const siteData = {
                 "player": "V. Bayo",
                 "photo": "https://media.api-sports.io/football/players/1134.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "I. Gueye",
                 "photo": "https://media.api-sports.io/football/players/434410.png",
                 "reason": "Ankle Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
+            },
+            {
+                "player": "D. Alaba",
+                "photo": "https://media.api-sports.io/football/players/505.png",
+                "reason": "Calf Injury",
+                "since": "2026-10-25"
             }
         ],
         "como": [
@@ -6635,6 +6780,12 @@ const siteData = {
             {
                 "player": "J. Rodriguez",
                 "photo": "https://media.api-sports.io/football/players/443162.png",
+                "reason": "Injury",
+                "since": "2026-10-24"
+            },
+            {
+                "player": "M. Papaccioli",
+                "photo": "https://media.api-sports.io/football/players/592736.png",
                 "reason": "Injury",
                 "since": "2026-10-24"
             }
@@ -6687,6 +6838,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/2725.png",
                 "reason": "Thigh Injury",
                 "since": "2026-10-25"
+            },
+            {
+                "player": "M. Grisoni Fasana",
+                "photo": "https://media.api-sports.io/football/players/642454.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
             }
         ],
         "monza": [
@@ -6718,7 +6875,7 @@ const siteData = {
                 "player": "I. Toure",
                 "photo": "https://media.api-sports.io/football/players/56293.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-23"
+                "since": "2026-10-19"
             },
             {
                 "player": "G. Varela",
@@ -6766,7 +6923,7 @@ const siteData = {
                 "player": "E. Zeballos",
                 "photo": "https://media.api-sports.io/football/players/237090.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-23"
+                "since": "2026-10-19"
             }
         ],
         "venezia": [
@@ -6854,7 +7011,7 @@ const siteData = {
                 "player": "M. Berisha",
                 "photo": "https://media.api-sports.io/football/players/335071.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "W. Geubbels",
@@ -6878,13 +7035,19 @@ const siteData = {
                 "player": "I. Ilic",
                 "photo": "https://media.api-sports.io/football/players/46170.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "N. Stulic",
                 "photo": "https://media.api-sports.io/football/players/264122.png",
                 "reason": "Muscle Injury",
                 "since": "2026-10-11"
+            },
+            {
+                "player": "L. Coulibaly",
+                "photo": "https://media.api-sports.io/football/players/1748.png",
+                "reason": "Thigh Injury",
+                "since": "2026-10-25"
             }
         ],
         "genoa": [
@@ -7232,13 +7395,25 @@ const siteData = {
                 "player": "M. Gabbia",
                 "photo": "https://media.api-sports.io/football/players/56473.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "A. Saelemaekers",
                 "photo": "https://media.api-sports.io/football/players/1417.png",
                 "reason": "Ankle Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
+            },
+            {
+                "player": "S. Chukwueze",
+                "photo": "https://media.api-sports.io/football/players/1696.png",
+                "reason": "Hip Injury",
+                "since": "2026-10-25"
+            },
+            {
+                "player": "G. Ramos",
+                "photo": "https://media.api-sports.io/football/players/41585.png",
+                "reason": "Calf Injury",
+                "since": "2026-10-25"
             }
         ],
         "atalanta": [
@@ -7731,6 +7906,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/453903.png",
                 "reason": "Knee Injury",
                 "since": "2026-10-25"
+            },
+            {
+                "player": "A. Daghim",
+                "photo": "https://media.api-sports.io/football/players/362564.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
             }
         ],
         "fsv-mainz-05": [
@@ -8080,7 +8261,7 @@ const siteData = {
                 "player": "T. Buchmann",
                 "photo": "https://media.api-sports.io/football/players/330612.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             },
             {
                 "player": "S. Gnabry",
@@ -8092,13 +8273,31 @@ const siteData = {
                 "player": "J. Musiala",
                 "photo": "https://media.api-sports.io/football/players/181812.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             },
             {
                 "player": "M. Neuer",
                 "photo": "https://media.api-sports.io/football/players/497.png",
                 "reason": "Foot Injury",
                 "since": "2026-10-17"
+            },
+            {
+                "player": "L. Diaz",
+                "photo": "https://media.api-sports.io/football/players/2489.png",
+                "reason": "Muscle Injury",
+                "since": "2026-10-25"
+            },
+            {
+                "player": "Kim Min-Jae",
+                "photo": "https://media.api-sports.io/football/players/2897.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-25"
+            },
+            {
+                "player": "J. Kimmich",
+                "photo": "https://media.api-sports.io/football/players/502.png",
+                "reason": "Personal Reasons",
+                "since": "2026-10-25"
             }
         ],
         "vfb-stuttgart": [
@@ -8135,8 +8334,8 @@ const siteData = {
             {
                 "player": "N. Nartey",
                 "photo": "https://media.api-sports.io/football/players/24806.png",
-                "reason": "Muscle Injury",
-                "since": "2026-10-17"
+                "reason": "Thigh Injury",
+                "since": "2026-10-23"
             },
             {
                 "player": "L. Sauer",
@@ -8183,7 +8382,7 @@ const siteData = {
             {
                 "player": "J. Vagnoman",
                 "photo": "https://media.api-sports.io/football/players/24868.png",
-                "reason": "Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-10-23"
             }
         ],
@@ -8216,12 +8415,6 @@ const siteData = {
                 "player": "N. Darvich",
                 "photo": "https://media.api-sports.io/football/players/412704.png",
                 "reason": "Injury",
-                "since": "2026-10-24"
-            },
-            {
-                "player": "F. Keidel",
-                "photo": "https://media.api-sports.io/football/players/280070.png",
-                "reason": "Calf Injury",
                 "since": "2026-10-24"
             }
         ],
@@ -8305,6 +8498,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/361393.png",
                 "reason": "Injury",
                 "since": "2026-10-11"
+            },
+            {
+                "player": "Y. Engelhardt",
+                "photo": "https://media.api-sports.io/football/players/178709.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
             }
         ],
         "werder-bremen": [
@@ -8484,13 +8683,13 @@ const siteData = {
                 "player": "P. Daka",
                 "photo": "https://media.api-sports.io/football/players/1098.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-24"
+                "since": "2026-10-17"
             },
             {
                 "player": "B. Jatta",
                 "photo": "https://media.api-sports.io/football/players/24880.png",
                 "reason": "Groin Injury",
-                "since": "2026-10-24"
+                "since": "2026-10-17"
             },
             {
                 "player": "A. S. Lokonga",
@@ -8522,7 +8721,7 @@ const siteData = {
                 "player": "T. Breithaupt",
                 "photo": "https://media.api-sports.io/football/players/202755.png",
                 "reason": "Toe Injury",
-                "since": "2026-10-24"
+                "since": "2026-10-10"
             },
             {
                 "player": "S. Mounie",
@@ -8552,7 +8751,7 @@ const siteData = {
                 "player": "S. Suso",
                 "photo": "https://media.api-sports.io/football/players/343159.png",
                 "reason": "Inactive",
-                "since": "2026-10-24"
+                "since": "2026-10-17"
             },
             {
                 "player": "T. Schnitzer",
@@ -8570,12 +8769,6 @@ const siteData = {
                 "player": "A. Claude-Maurice",
                 "photo": "https://media.api-sports.io/football/players/20634.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-24"
-            },
-            {
-                "player": "M. Komur",
-                "photo": "https://media.api-sports.io/football/players/348888.png",
-                "reason": "Ankle Injury",
                 "since": "2026-10-24"
             }
         ],
@@ -8595,8 +8788,8 @@ const siteData = {
             {
                 "player": "K. Karaman",
                 "photo": "https://media.api-sports.io/football/players/25466.png",
-                "reason": "Hip Injury",
-                "since": "2026-08-30"
+                "reason": "Muscle Injury",
+                "since": "2026-10-24"
             },
             {
                 "player": "A. Gantenbein",
@@ -8613,8 +8806,8 @@ const siteData = {
             {
                 "player": "R. Schallenberg",
                 "photo": "https://media.api-sports.io/football/players/88140.png",
-                "reason": "Red Card",
-                "since": "2026-09-11"
+                "reason": "Leg Injury",
+                "since": "2026-10-24"
             },
             {
                 "player": "D. Ljubicic",
@@ -8629,9 +8822,9 @@ const siteData = {
                 "since": "2026-10-24"
             },
             {
-                "player": "A. Aouchiche",
-                "photo": "https://media.api-sports.io/football/players/137129.png",
-                "reason": "Knock",
+                "player": "M. Wober",
+                "photo": "https://media.api-sports.io/football/players/2048.png",
+                "reason": "Muscle Injury",
                 "since": "2026-10-24"
             }
         ],
@@ -8738,25 +8931,25 @@ const siteData = {
                 "player": "A. Diousse",
                 "photo": "https://media.api-sports.io/football/players/30748.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "S. Fofana",
                 "photo": "https://media.api-sports.io/football/players/193505.png",
                 "reason": "Groin Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "R. Labeau Lascary",
                 "photo": "https://media.api-sports.io/football/players/326073.png",
                 "reason": "Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "B. Okoh",
                 "photo": "https://media.api-sports.io/football/players/115588.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "M. Senaya",
@@ -8817,8 +9010,8 @@ const siteData = {
             {
                 "player": "F. Moumbagna",
                 "photo": "https://media.api-sports.io/football/players/102447.png",
-                "reason": "Injury",
-                "since": "2026-08-21"
+                "reason": "Inactive",
+                "since": "2026-10-25"
             },
             {
                 "player": "I. Paixao",
@@ -8842,13 +9035,13 @@ const siteData = {
                 "player": "A. Koum Mbondo",
                 "photo": "https://media.api-sports.io/football/players/392683.png",
                 "reason": "Inactive",
-                "since": "2026-09-11"
+                "since": "2026-10-25"
             },
             {
                 "player": "D. Cornelius",
                 "photo": "https://media.api-sports.io/football/players/51295.png",
                 "reason": "Hip Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "P. Hojbjerg",
@@ -8880,7 +9073,7 @@ const siteData = {
                 "player": "J. Panichelli",
                 "photo": "https://media.api-sports.io/football/players/390742.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             },
             {
                 "player": "S. El Mourabet",
@@ -8898,7 +9091,13 @@ const siteData = {
                 "player": "S. Nanasi",
                 "photo": "https://media.api-sports.io/football/players/226803.png",
                 "reason": "Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
+            },
+            {
+                "player": "F. Balde",
+                "photo": "https://media.api-sports.io/football/players/380939.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
             }
         ],
         "nice": [
@@ -8955,14 +9154,14 @@ const siteData = {
             {
                 "player": "B. Fadiga",
                 "photo": "https://media.api-sports.io/football/players/162018.png",
-                "reason": "Ankle Injury",
-                "since": "2026-10-10"
+                "reason": "Inactive",
+                "since": "2026-10-25"
             },
             {
                 "player": "N. Mbamba",
                 "photo": "https://media.api-sports.io/football/players/298006.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "P. Katseris",
@@ -9007,6 +9206,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/457025.png",
                 "reason": "Inactive",
                 "since": "2026-10-10"
+            },
+            {
+                "player": "M. Niflore",
+                "photo": "https://media.api-sports.io/football/players/551204.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
+            },
+            {
+                "player": "S. Oppong",
+                "photo": "https://media.api-sports.io/football/players/508069.png",
+                "reason": "Calf Injury",
+                "since": "2026-10-25"
             }
         ],
         "lyon": [
@@ -9068,25 +9279,25 @@ const siteData = {
                 "player": "A. Hamdani",
                 "photo": "https://media.api-sports.io/football/players/623922.png",
                 "reason": "Inactive",
-                "since": "2026-09-12"
+                "since": "2026-10-25"
             },
             {
                 "player": "S. Kango",
                 "photo": "https://media.api-sports.io/football/players/645969.png",
-                "reason": "Inactive",
-                "since": "2026-09-04"
+                "reason": "Injury",
+                "since": "2026-10-25"
             },
             {
                 "player": "K. Nakamura",
                 "photo": "https://media.api-sports.io/football/players/33321.png",
-                "reason": "Coach's decision",
-                "since": "2026-09-04"
+                "reason": "Red Card",
+                "since": "2026-10-25"
             },
             {
                 "player": "M. Ouedraogo",
                 "photo": "https://media.api-sports.io/football/players/412049.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "M. de Carvalho",
@@ -9098,13 +9309,19 @@ const siteData = {
                 "player": "N. Tagliafico",
                 "photo": "https://media.api-sports.io/football/players/529.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "L. Openda",
                 "photo": "https://media.api-sports.io/football/players/86.png",
                 "reason": "Leg Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
+            },
+            {
+                "player": "P. Sulc",
+                "photo": "https://media.api-sports.io/football/players/66387.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-25"
             }
         ],
         "estac-troyes": [
@@ -9112,7 +9329,7 @@ const siteData = {
                 "player": "I. Boura",
                 "photo": "https://media.api-sports.io/football/players/174596.png",
                 "reason": "Hip Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             },
             {
                 "player": "A. Fatah",
@@ -9124,7 +9341,7 @@ const siteData = {
                 "player": "Y. Titi",
                 "photo": "https://media.api-sports.io/football/players/395810.png",
                 "reason": "Leg Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             },
             {
                 "player": "P. Gozzi",
@@ -9148,13 +9365,13 @@ const siteData = {
                 "player": "Y. Kone",
                 "photo": "https://media.api-sports.io/football/players/670620.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             },
             {
                 "player": "A. Ouzenadji",
                 "photo": "https://media.api-sports.io/football/players/442933.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
             }
         ],
         "paris-fc": [
@@ -9205,8 +9422,8 @@ const siteData = {
             {
                 "player": "H. Voyer",
                 "photo": "https://media.api-sports.io/football/players/174605.png",
-                "reason": "Yellow Cards",
-                "since": "2026-08-22"
+                "reason": "Thigh Injury",
+                "since": "2026-10-25"
             },
             {
                 "player": "R. Bamba",
@@ -9218,7 +9435,7 @@ const siteData = {
                 "player": "E. Colas",
                 "photo": "https://media.api-sports.io/football/players/174939.png",
                 "reason": "Injury",
-                "since": "2026-10-16"
+                "since": "2026-10-25"
             },
             {
                 "player": "Y. Larouci",
@@ -9278,7 +9495,7 @@ const siteData = {
                 "player": "A. Bourabaa",
                 "photo": "https://media.api-sports.io/football/players/608142.png",
                 "reason": "Ankle Injury",
-                "since": "2026-10-16"
+                "since": "2026-10-25"
             }
         ],
         "stade-brestois-29": [
@@ -9341,8 +9558,8 @@ const siteData = {
             {
                 "player": "H. Belkebla",
                 "photo": "https://media.api-sports.io/football/players/20554.png",
-                "reason": "Thigh Injury",
-                "since": "2026-09-12"
+                "reason": "Injury",
+                "since": "2026-10-25"
             },
             {
                 "player": "L. Mouton",
@@ -9367,6 +9584,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/275385.png",
                 "reason": "Muscle Injury",
                 "since": "2026-10-10"
+            },
+            {
+                "player": "E. Biumla",
+                "photo": "https://media.api-sports.io/football/players/385569.png",
+                "reason": "Injury",
+                "since": "2026-10-25"
             }
         ],
         "lille": [
@@ -9436,19 +9659,19 @@ const siteData = {
                 "player": "F. Mambimbi",
                 "photo": "https://media.api-sports.io/football/players/961.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "A. Toure",
                 "photo": "https://media.api-sports.io/football/players/21103.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "S. Zagadou",
                 "photo": "https://media.api-sports.io/football/players/513415.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "P. Argney",
@@ -9460,7 +9683,7 @@ const siteData = {
                 "player": "L. Mpasi-Nzau",
                 "photo": "https://media.api-sports.io/football/players/24012.png",
                 "reason": "Achilles Tendon Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "J. Mwanga",
@@ -9478,13 +9701,13 @@ const siteData = {
                 "player": "T. Pembele",
                 "photo": "https://media.api-sports.io/football/players/162067.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "E. Jelert",
                 "photo": "https://media.api-sports.io/football/players/341234.png",
                 "reason": "Thigh Injury",
-                "since": "2026-10-18"
+                "since": "2026-10-25"
             },
             {
                 "player": "A. Seko",
@@ -9627,6 +9850,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/272460.png",
                 "reason": "Inactive",
                 "since": "2026-10-11"
+            },
+            {
+                "player": "E. Lepaul",
+                "photo": "https://media.api-sports.io/football/players/163004.png",
+                "reason": "Ankle Injury",
+                "since": "2026-10-25"
             }
         ],
         "paris-saint-germain": [
@@ -9639,14 +9868,14 @@ const siteData = {
             {
                 "player": "N. Mendes",
                 "photo": "https://media.api-sports.io/football/players/263482.png",
-                "reason": "Rest",
-                "since": "2026-10-10"
+                "reason": "Muscle Injury",
+                "since": "2026-10-25"
             },
             {
                 "player": "O. Dembele",
                 "photo": "https://media.api-sports.io/football/players/153.png",
-                "reason": "Rest",
-                "since": "2026-10-10"
+                "reason": "Thigh Injury",
+                "since": "2026-10-25"
             },
             {
                 "player": "J. Neves",
@@ -9676,7 +9905,19 @@ const siteData = {
                 "player": "A. Longoni",
                 "photo": "https://media.api-sports.io/football/players/606062.png",
                 "reason": "Injury",
-                "since": "2026-10-17"
+                "since": "2026-10-25"
+            },
+            {
+                "player": "K. Kvaratskhelia",
+                "photo": "https://media.api-sports.io/football/players/483.png",
+                "reason": "Knee Injury",
+                "since": "2026-10-25"
+            },
+            {
+                "player": "Marquinhos",
+                "photo": "https://media.api-sports.io/football/players/257.png",
+                "reason": "Thigh Injury",
+                "since": "2026-10-25"
             },
             {
                 "player": "A. Hakimi",
@@ -37037,51 +37278,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-10-24",
-                "time": "08:00",
-                "home": "Necaxa",
-                "away": "FC Juarez",
-                "stadium": "Estadio Victoria",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Necaxa or draw",
-                "comparison": {
-                    "form": {
-                        "home": 20,
-                        "away": 80
-                    },
-                    "att": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "def": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "poisson": {
-                        "home": 78,
-                        "away": 22
-                    },
-                    "h2h": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "goals": {
-                        "home": 63,
-                        "away": 38
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-10-24",
                 "time": "08:00",
@@ -37123,6 +37319,51 @@ const siteData = {
                     "goals": {
                         "home": 31,
                         "away": 69
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-24",
+                "time": "08:00",
+                "home": "Necaxa",
+                "away": "FC Juarez",
+                "stadium": "Estadio Victoria",
+                "round": "Apertura - 14",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Necaxa or draw",
+                "comparison": {
+                    "form": {
+                        "home": 20,
+                        "away": 80
+                    },
+                    "att": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "def": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "poisson": {
+                        "home": 78,
+                        "away": 22
+                    },
+                    "h2h": {
+                        "home": 75,
+                        "away": 25
+                    },
+                    "goals": {
+                        "home": 63,
+                        "away": 38
                     }
                 }
             },
@@ -39019,51 +39260,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga MX",
-                "date": "2026-10-25",
-                "time": "06:00",
-                "home": "Leon",
-                "away": "Toluca",
-                "stadium": "Estadio León",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
-                "prediction": "2 - 2",
-                "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
-                },
-                "advice": "Double chance : Leon or draw",
-                "comparison": {
-                    "form": {
-                        "home": 73,
-                        "away": 27
-                    },
-                    "att": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "def": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "poisson": {
-                        "home": 46,
-                        "away": 54
-                    },
-                    "h2h": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "goals": {
-                        "home": 35,
-                        "away": 65
-                    }
-                }
-            },
-            {
                 "league": "Liga de Expansion MX",
                 "date": "2026-10-25",
                 "time": "06:00",
@@ -39150,6 +39346,51 @@ const siteData = {
                     "goals": {
                         "home": 78,
                         "away": 22
+                    }
+                }
+            },
+            {
+                "league": "Liga MX",
+                "date": "2026-10-25",
+                "time": "06:00",
+                "home": "Leon",
+                "away": "Toluca",
+                "stadium": "Estadio León",
+                "round": "Apertura - 14",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2281.png",
+                "prediction": "2 - 2",
+                "odds": {
+                    "home": 35,
+                    "draw": 35,
+                    "away": 30
+                },
+                "advice": "Double chance : Leon or draw",
+                "comparison": {
+                    "form": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "poisson": {
+                        "home": 46,
+                        "away": 54
+                    },
+                    "h2h": {
+                        "home": 15,
+                        "away": 85
+                    },
+                    "goals": {
+                        "home": 35,
+                        "away": 65
                     }
                 }
             },
@@ -39365,8 +39606,8 @@ const siteData = {
                         "away": 54
                     },
                     "poisson": {
-                        "home": 49,
-                        "away": 51
+                        "home": 48,
+                        "away": 52
                     },
                     "h2h": {
                         "home": 29,
@@ -39379,147 +39620,12 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-25",
-                "time": "07:00",
-                "home": "Dorados",
-                "away": "Piratas",
-                "stadium": "Estadio El Encanto",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Piratas",
-                "comparison": {
-                    "form": {
-                        "home": 31,
-                        "away": 69
-                    },
-                    "att": {
-                        "home": 39,
-                        "away": 61
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "h2h": {
-                        "home": 0,
-                        "away": 0
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 0
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-25",
-                "time": "07:00",
-                "home": "Mineros de Zacatecas",
-                "away": "Leones Negros UDG",
-                "stadium": "Estadio Carlos Vega Villalba",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2299.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Mineros de Zacatecas or draw",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 47,
-                        "away": 53
-                    },
-                    "def": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "poisson": {
-                        "home": 45,
-                        "away": 55
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-25",
-                "time": "07:00",
-                "home": "CDS Tampico Madero",
-                "away": "CA La Paz",
-                "stadium": "Estadio Tamaulipas",
-                "round": "Apertura - 14",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19905.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or CA La Paz",
-                "comparison": {
-                    "form": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "att": {
-                        "home": 24,
-                        "away": 76
-                    },
-                    "def": {
-                        "home": 57,
-                        "away": 43
-                    },
-                    "poisson": {
-                        "home": 41,
-                        "away": 59
-                    },
-                    "h2h": {
-                        "home": 93,
-                        "away": 7
-                    },
-                    "goals": {
-                        "home": 71,
-                        "away": 29
-                    }
-                }
-            },
-            {
                 "league": "MLS",
                 "date": "2026-10-25",
                 "time": "07:30",
                 "home": "FC Dallas",
                 "away": "San Jose Earthquakes",
-                "stadium": "Toyota Stadium",
+                "stadium": "Toyota Stadium(Texas)",
                 "round": "Pekan 31",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1597.png",
@@ -39564,7 +39670,7 @@ const siteData = {
                 "time": "07:30",
                 "home": "Houston Dynamo",
                 "away": "Minnesota United FC",
-                "stadium": "Shell Energy Stadium",
+                "stadium": "BBVA Compass Stadium",
                 "round": "Pekan 31",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1600.png",
@@ -39609,7 +39715,7 @@ const siteData = {
                 "time": "07:30",
                 "home": "Real Salt Lake",
                 "away": "St. Louis City",
-                "stadium": "America First Field",
+                "stadium": "Rio Tinto Stadium",
                 "round": "Pekan 31",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1606.png",
@@ -39739,6 +39845,141 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga de Expansion MX",
+                "date": "2026-10-25",
+                "time": "09:00",
+                "home": "Dorados",
+                "away": "Piratas",
+                "stadium": "Estadio El Encanto",
+                "round": "Apertura - 14",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Piratas",
+                "comparison": {
+                    "form": {
+                        "home": 31,
+                        "away": 69
+                    },
+                    "att": {
+                        "home": 39,
+                        "away": 61
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "h2h": {
+                        "home": 0,
+                        "away": 0
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 0
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-10-25",
+                "time": "09:00",
+                "home": "Mineros de Zacatecas",
+                "away": "Leones Negros UDG",
+                "stadium": "Estadio Carlos Vega Villalba",
+                "round": "Apertura - 14",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2299.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Mineros de Zacatecas or draw",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 47,
+                        "away": 53
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 45,
+                        "away": 55
+                    },
+                    "h2h": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-10-25",
+                "time": "09:00",
+                "home": "CDS Tampico Madero",
+                "away": "CA La Paz",
+                "stadium": "Estadio Tamaulipas",
+                "round": "Apertura - 14",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19905.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or CA La Paz",
+                "comparison": {
+                    "form": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "att": {
+                        "home": 24,
+                        "away": 76
+                    },
+                    "def": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "poisson": {
+                        "home": 41,
+                        "away": 59
+                    },
+                    "h2h": {
+                        "home": 93,
+                        "away": 7
+                    },
+                    "goals": {
+                        "home": 71,
+                        "away": 29
+                    }
+                }
+            },
+            {
                 "league": "MLS",
                 "date": "2026-10-25",
                 "time": "09:30",
@@ -39856,8 +40097,8 @@ const siteData = {
                         "away": 38
                     },
                     "def": {
-                        "home": 39,
-                        "away": 61
+                        "home": 41,
+                        "away": 59
                     },
                     "poisson": {
                         "home": 62,
@@ -39905,8 +40146,8 @@ const siteData = {
                         "away": 70
                     },
                     "poisson": {
-                        "home": 43,
-                        "away": 57
+                        "home": 42,
+                        "away": 58
                     },
                     "h2h": {
                         "home": 29,
@@ -40014,7 +40255,7 @@ const siteData = {
                 "time": "18:30",
                 "home": "Inter",
                 "away": "Fiorentina",
-                "stadium": "",
+                "stadium": "San Siro/Giuseppe Meazza",
                 "round": "Pekan 8",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/505.png",
@@ -40329,7 +40570,7 @@ const siteData = {
                 "time": "20:30",
                 "home": "NEC Nijmegen",
                 "away": "Groningen",
-                "stadium": "Goffertstadion",
+                "stadium": "Stadion de Goffert",
                 "round": "Pekan 10",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/413.png",
@@ -40554,7 +40795,7 @@ const siteData = {
                 "time": "21:00",
                 "home": "Genoa",
                 "away": "Venezia",
-                "stadium": "Stadio Luigi Ferraris",
+                "stadium": "Luigi Ferraris",
                 "round": "Pekan 8",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/495.png",
@@ -40734,7 +40975,7 @@ const siteData = {
                 "time": "21:30",
                 "home": "1899 Hoffenheim",
                 "away": "Bayer Leverkusen",
-                "stadium": "SNP Arena",
+                "stadium": "Prezero Arena",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/167.png",
@@ -40824,7 +41065,7 @@ const siteData = {
                 "time": "22:15",
                 "home": "Celta Vigo",
                 "away": "Real Betis",
-                "stadium": "",
+                "stadium": "Municipal de Balaídos",
                 "round": "Pekan 10",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/538.png",
@@ -40869,7 +41110,7 @@ const siteData = {
                 "time": "22:30",
                 "home": "Estoril",
                 "away": "Moreirense",
-                "stadium": "Estadio Antonio Coimbra da Mota",
+                "stadium": "Estádio António Coimbra da Mota",
                 "round": "Pekan 9",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/230.png",
@@ -40914,7 +41155,7 @@ const siteData = {
                 "time": "22:45",
                 "home": "Sparta Rotterdam",
                 "away": "Ajax",
-                "stadium": "Sparta Stadion Het Kasteel",
+                "stadium": "Sparta Stadium Het Kasteel",
                 "round": "Pekan 10",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/426.png",
@@ -41274,7 +41515,7 @@ const siteData = {
                 "time": "23:30",
                 "home": "SC Freiburg",
                 "away": "Bayern München",
-                "stadium": "Europa-Park Stadion",
+                "stadium": "Europa-Park-Stadion",
                 "round": "Pekan 7",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/160.png",
