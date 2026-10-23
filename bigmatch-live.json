@@ -2,37 +2,37 @@
   "fixtureId": 1557443,
   "home": "Ipswich",
   "away": "Nottingham Forest",
-  "statusCode": "HT",
-  "updatedAt": "24/10/2026 02:49 WIB",
+  "statusCode": "FT",
+  "updatedAt": "24/10/2026 05:46 WIB",
   "statistics": {
     "home": {
-      "possession": 57,
-      "shotsTotal": 6,
+      "possession": 49,
+      "shotsTotal": 7,
       "shotsOnTarget": 3,
       "corners": 0,
-      "fouls": 3,
-      "offsides": null,
-      "yellowCards": 0,
+      "fouls": 9,
+      "offsides": 2,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 2,
+      "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
-      "passesTotal": 282,
-      "passesAccurate": 241,
+      "passesTotal": 474,
+      "passesAccurate": 377,
       "passesPct": null
     },
     "away": {
-      "possession": 43,
-      "shotsTotal": 6,
-      "shotsOnTarget": 3,
-      "corners": 2,
-      "fouls": 6,
-      "offsides": null,
-      "yellowCards": 0,
+      "possession": 51,
+      "shotsTotal": 17,
+      "shotsOnTarget": 5,
+      "corners": 5,
+      "fouls": 11,
+      "offsides": 1,
+      "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 6,
-      "shotsOutsidebox": 0,
-      "passesTotal": 202,
-      "passesAccurate": 162,
+      "shotsInsidebox": 15,
+      "shotsOutsidebox": 2,
+      "passesTotal": 468,
+      "passesAccurate": 374,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 28,
           "name": "C. Walton",
           "position": "Kiper",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 42,
@@ -57,7 +57,7 @@
           "number": 6,
           "name": "I. Diop",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 26,
@@ -69,43 +69,43 @@
           "number": 3,
           "name": "L. Davis",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.2"
         },
         {
           "number": 25,
           "name": "E. Palacios",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.7"
         },
         {
           "number": 12,
           "name": "Florentino",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 7,
           "name": "A. Fatawu",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 10,
           "name": "J. Enciso",
           "position": "Gelandang",
-          "rating": "7.8"
+          "rating": "7.7"
         },
         {
           "number": 11,
           "name": "J. Philogene",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.1"
         },
         {
           "number": 19,
           "name": "Emersonn",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.8"
         }
       ],
       "substitutes": [
@@ -113,25 +113,25 @@
           "number": 9,
           "name": "Z. Flemming",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 29,
           "name": "C. Akpom",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 38,
           "name": "D. Maeda",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 47,
           "name": "J. Clarke",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 32,
@@ -143,7 +143,7 @@
           "number": 5,
           "name": "A. Matusiwa",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "5.9"
         },
         {
           "number": 24,
@@ -179,55 +179,55 @@
           "number": 23,
           "name": "Jair",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.7"
         },
         {
           "number": 31,
           "name": "N. Milenković",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.9"
         },
         {
           "number": 5,
           "name": "Murillo",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 27,
           "name": "D. Muñoz",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.7"
         },
         {
           "number": 24,
           "name": "J. McAtee",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.1"
         },
         {
           "number": 21,
           "name": "X. Schlager",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 3,
           "name": "N. Williams",
           "position": "Gelandang",
-          "rating": "7.5"
+          "rating": "7.8"
         },
         {
           "number": 10,
           "name": "M. Gibbs-White",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 14,
           "name": "D. Ndoye",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 19,
@@ -259,7 +259,7 @@
           "number": 7,
           "name": "C. Hudson-Odoi",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
           "number": 6,
@@ -277,7 +277,7 @@
           "number": 25,
           "name": "L. Netz",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "5.9"
         },
         {
           "number": 2,
