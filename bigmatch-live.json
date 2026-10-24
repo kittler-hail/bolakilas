@@ -3,7 +3,7 @@
   "home": "Ipswich",
   "away": "Nottingham Forest",
   "statusCode": "FT",
-  "updatedAt": "24/10/2026 05:46 WIB",
+  "updatedAt": "24/10/2026 08:11 WIB",
   "statistics": {
     "home": {
       "possession": 49,
@@ -17,7 +17,7 @@
       "shotsInsidebox": 3,
       "shotsOutsidebox": 4,
       "passesTotal": 474,
-      "passesAccurate": 377,
+      "passesAccurate": 378,
       "passesPct": null
     },
     "away": {
@@ -31,7 +31,7 @@
       "redCards": 0,
       "shotsInsidebox": 15,
       "shotsOutsidebox": 2,
-      "passesTotal": 468,
+      "passesTotal": 469,
       "passesAccurate": 374,
       "passesPct": null
     }
