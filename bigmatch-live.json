@@ -3,9 +3,226 @@
   "home": "Manchester United",
   "away": "Bournemouth",
   "statusCode": "NS",
-  "updatedAt": "25/10/2026 16:42 WIB",
+  "updatedAt": "25/10/2026 20:57 WIB",
   "statistics": null,
-  "lineups": null,
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "M. Carrick",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "S. Lammens",
+          "position": "Kiper"
+        },
+        {
+          "number": 2,
+          "name": "Diogo Dalot",
+          "position": "Bek"
+        },
+        {
+          "number": 15,
+          "name": "L. Yoro",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "H. Maguire",
+          "position": "Bek"
+        },
+        {
+          "number": 26,
+          "name": "A. Heaven",
+          "position": "Bek"
+        },
+        {
+          "number": 17,
+          "name": "Andrey Santos",
+          "position": "Gelandang"
+        },
+        {
+          "number": 20,
+          "name": "C. Baleba",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "A. Diallo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 18,
+          "name": "Y. Tielemans",
+          "position": "Gelandang"
+        },
+        {
+          "number": 7,
+          "name": "M. Mount",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "B. Mbeumo",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 31,
+          "name": "S. Lacey",
+          "position": "Penyerang"
+        },
+        {
+          "number": 8,
+          "name": "Bruno Fernandes",
+          "position": "Gelandang"
+        },
+        {
+          "number": 3,
+          "name": "N. Mazraoui",
+          "position": "Bek"
+        },
+        {
+          "number": 6,
+          "name": "Lisandro Martínez",
+          "position": "Bek"
+        },
+        {
+          "number": 4,
+          "name": "M. de Ligt",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "K. Darlow",
+          "position": "Kiper"
+        },
+        {
+          "number": 10,
+          "name": "Matheus Cunha",
+          "position": "Penyerang"
+        },
+        {
+          "number": 11,
+          "name": "J. Zirkzee",
+          "position": "Penyerang"
+        },
+        {
+          "number": 39,
+          "name": "T. Fletcher",
+          "position": "Gelandang"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "M. Rose",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "Đ. Petrović",
+          "position": "Kiper"
+        },
+        {
+          "number": 15,
+          "name": "A. Smith",
+          "position": "Bek"
+        },
+        {
+          "number": 5,
+          "name": "J. Hill",
+          "position": "Bek"
+        },
+        {
+          "number": 14,
+          "name": "António Silva",
+          "position": "Bek"
+        },
+        {
+          "number": 3,
+          "name": "A. Truffert",
+          "position": "Bek"
+        },
+        {
+          "number": 12,
+          "name": "T. Adams",
+          "position": "Gelandang"
+        },
+        {
+          "number": 4,
+          "name": "L. Cook",
+          "position": "Gelandang"
+        },
+        {
+          "number": 37,
+          "name": "Rayan",
+          "position": "Gelandang"
+        },
+        {
+          "number": 19,
+          "name": "J. Kluivert",
+          "position": "Gelandang"
+        },
+        {
+          "number": 16,
+          "name": "M. Tavernier",
+          "position": "Gelandang"
+        },
+        {
+          "number": 9,
+          "name": "Evanilson",
+          "position": "Penyerang"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 30,
+          "name": "Á. Rodríguez",
+          "position": "Penyerang"
+        },
+        {
+          "number": 20,
+          "name": "M. Di Gregorio",
+          "position": "Kiper"
+        },
+        {
+          "number": 6,
+          "name": "J. Soler",
+          "position": "Bek"
+        },
+        {
+          "number": 18,
+          "name": "B. Diakité",
+          "position": "Bek"
+        },
+        {
+          "number": 7,
+          "name": "D. Brooks",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "R. Christie",
+          "position": "Gelandang"
+        },
+        {
+          "number": 11,
+          "name": "B. Doak",
+          "position": "Penyerang"
+        },
+        {
+          "number": 21,
+          "name": "A. Adli",
+          "position": "Penyerang"
+        },
+        {
+          "number": 22,
+          "name": "E. Kroupi",
+          "position": "Penyerang"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Old Trafford",
     "city": "Manchester",
@@ -14,13 +231,13 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "2.25",
-    "draw": "3.40",
-    "away": "3.00",
+    "home": "2.30",
+    "draw": "3.30",
+    "away": "2.90",
     "overUnder": null,
     "btts": {
-      "yes": "1.55",
-      "no": "2.38"
+      "yes": "1.62",
+      "no": "2.20"
     }
   },
   "liveOdds": null
