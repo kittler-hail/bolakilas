@@ -3,7 +3,7 @@
   "home": "Manchester United",
   "away": "Bournemouth",
   "statusCode": "NS",
-  "updatedAt": "25/10/2026 11:55 WIB",
+  "updatedAt": "25/10/2026 16:42 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,8 +14,8 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "2.20",
-    "draw": "3.50",
+    "home": "2.25",
+    "draw": "3.40",
     "away": "3.00",
     "overUnder": null,
     "btts": {
