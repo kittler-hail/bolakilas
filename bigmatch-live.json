@@ -3,7 +3,7 @@
   "home": "Real Sociedad",
   "away": "Levante",
   "statusCode": "FT",
-  "updatedAt": "26/10/2026 02:57 WIB",
+  "updatedAt": "26/10/2026 05:26 WIB",
   "statistics": {
     "home": {
       "possession": 62,
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 2,
-      "passesTotal": 364,
-      "passesAccurate": 304,
+      "passesTotal": 365,
+      "passesAccurate": 305,
       "passesPct": null
     }
   },
