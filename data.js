@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-26T00:53:40.674Z.
+   API-Football v3) pada 2026-10-26T05:38:20.700Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -343,37 +343,37 @@ const siteData = {
             "cards": [
                 {
                     "minute": "19",
-                    "player": "M. Paskotsi",
+                    "player": "Maksim Paskotsi",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "22",
-                    "player": "L. Petrot",
+                    "player": "Léo Pétrot",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "34",
-                    "player": "G. Biancone",
+                    "player": "Giulian Biancone",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "57",
-                    "player": "H. Goore",
+                    "player": "Hyllarion Goore",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "64",
-                    "player": "J. Onia Seke",
+                    "player": "Jayden Onia Seke",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "70",
-                    "player": "M. Cvetkovic",
+                    "player": "Mihajlo Cvetković",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -741,31 +741,31 @@ const siteData = {
             "cards": [
                 {
                     "minute": "40",
-                    "player": "N. Chibani",
+                    "player": "Nohim Chibani",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "57",
-                    "player": "V. Konate",
+                    "player": "Valy Konaté",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "64",
-                    "player": "D. Vanzeir",
+                    "player": "Dante Vanzeir",
                     "team": "away",
                     "type": "red"
                 },
                 {
                     "minute": "76",
-                    "player": "H. van der Bruggen",
+                    "player": "Hannes Van Der Bruggen",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+2",
-                    "player": "S. Ngoura",
+                    "player": "Steve Ngoura",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1163,8 +1163,8 @@ const siteData = {
             "away": "Puebla",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 14",
-            "statusCode": "2H",
-            "minuteDisplay": "90+2'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 4,
             "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2283.png",
@@ -1268,8 +1268,8 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Akron",
             "round": "Apertura - 14",
-            "statusCode": "2H",
-            "minuteDisplay": "90+2'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
             "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
@@ -1395,7 +1395,10 @@ const siteData = {
             "away": "Los Angeles Galaxy",
             "stadium": "Banc of California Stadium",
             "round": "Pekan 31",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/1616.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1605.png",
             "prediction": "3 - 2",
@@ -1430,7 +1433,43 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "34",
+                    "player": "Joseph Paintsil",
+                    "team": "away"
+                },
+                {
+                    "minute": "51",
+                    "player": "Joseph Paintsil",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "Denis Bouanga",
+                    "team": "home"
+                },
+                {
+                    "minute": "62",
+                    "player": "Leo Walta",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "55",
+                    "player": "Ryan Porteous",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Pablo Ruiz",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1440,7 +1479,10 @@ const siteData = {
             "away": "Cruz Azul",
             "stadium": "Estadio La Corregidora",
             "round": "Apertura - 14",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2295.png",
             "prediction": "1 - 2",
@@ -1475,7 +1517,43 @@ const siteData = {
                     "home": 31,
                     "away": 69
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "Andrés Montaño",
+                    "team": "away"
+                },
+                {
+                    "minute": "33",
+                    "player": "Mateo Coronel",
+                    "team": "home"
+                },
+                {
+                    "minute": "44",
+                    "player": "Nicolás Ibañez",
+                    "team": "away"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Osinachi Ebere",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "4",
+                    "player": "Amaury García",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "27",
+                    "player": "Mateo Coronel",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1485,7 +1563,10 @@ const siteData = {
             "away": "CF Pachuca",
             "stadium": "Estadio Banorte",
             "round": "Apertura - 14",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2287.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2292.png",
             "prediction": "3 - 2",
@@ -1520,7 +1601,56 @@ const siteData = {
                     "home": 80,
                     "away": 20
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Alan Bautista",
+                    "team": "away"
+                },
+                {
+                    "minute": "46",
+                    "player": "Henry Martin",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Oussama Idrissi",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "19",
+                    "player": "Sergio Barreto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "56",
+                    "player": "Dagoberto Espinoza",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "64",
+                    "player": "Javier Vallejo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Jorge Guillermo Almada Álves",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Erick Sánchez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1530,7 +1660,10 @@ const siteData = {
             "away": "Santos Laguna",
             "stadium": "Estadio Caliente ",
             "round": "Apertura - 14",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2285.png",
             "prediction": "1 - 2",
@@ -1565,7 +1698,72 @@ const siteData = {
                     "home": 63,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "13",
+                    "player": "Francisco González",
+                    "team": "home"
+                },
+                {
+                    "minute": "18",
+                    "player": "José Rivero",
+                    "team": "home"
+                },
+                {
+                    "minute": "66",
+                    "player": "Esteban Lozano",
+                    "team": "away"
+                },
+                {
+                    "minute": "69",
+                    "player": "José Rivero",
+                    "team": "home"
+                },
+                {
+                    "minute": "72",
+                    "player": "Adonis Preciado",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "27",
+                    "player": "Francisco González",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "29",
+                    "player": "Ezequiel Bullaude",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+2",
+                    "player": "Felipe Sánchez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "Esteban Lozano",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Aldo Lopez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Ivan Tona",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -3111,7 +3309,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/10/2026 07:53 WIB",
+    "standingsUpdated": "26/10/2026 12:38 WIB",
     "topScorers": {
         "Premier League": [
             {
