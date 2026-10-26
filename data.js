@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-25T22:11:31.115Z.
+   API-Football v3) pada 2026-10-26T00:53:40.674Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -73,16 +73,16 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "W",
                     "L",
+                    "W",
                     "W",
                     "W",
                     "W"
                 ],
                 "cleanSheets": 1,
                 "failedToScore": 3,
-                "goalsFor": 17,
-                "goalsAgainst": 17,
+                "goalsFor": 19,
+                "goalsAgainst": 18,
                 "winStreak": 1,
                 "attack": 58,
                 "defense": 52
@@ -90,15 +90,15 @@ const siteData = {
             "away": {
                 "results": [
                     "L",
-                    "L",
                     "D",
                     "D",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 2,
                 "failedToScore": 3,
-                "goalsFor": 15,
-                "goalsAgainst": 17,
+                "goalsFor": 16,
+                "goalsAgainst": 19,
                 "winStreak": 1,
                 "attack": 42,
                 "defense": 48
@@ -1028,7 +1028,7 @@ const siteData = {
                 },
                 {
                     "minute": "90+2",
-                    "player": "Marc Cucurella",
+                    "player": "Dean Huijsen",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -1060,10 +1060,10 @@ const siteData = {
             "away": "Academico Viseu",
             "stadium": "Estádio José Alvalade",
             "round": "Pekan 9",
-            "statusCode": "2H",
-            "minuteDisplay": "72'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 1,
-            "awayScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/228.png",
             "awayLogo": "https://media.api-sports.io/football/teams/238.png",
             "prediction": "2 - 1",
@@ -1109,6 +1109,11 @@ const siteData = {
                     "minute": "62",
                     "player": "Luis Suárez",
                     "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "João Guilherme",
+                    "team": "away"
                 }
             ],
             "cards": [
@@ -1135,6 +1140,18 @@ const siteData = {
                     "player": "Nils Mortimer",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Maximiliano Araujo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "Alejandro Mestanza",
+                    "team": "away",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1146,7 +1163,10 @@ const siteData = {
             "away": "Puebla",
             "stadium": "Estadio Jalisco",
             "round": "Apertura - 14",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "90+2'",
+            "homeScore": 4,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2283.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2291.png",
             "prediction": "2 - 1",
@@ -1181,7 +1201,64 @@ const siteData = {
                     "home": 57,
                     "away": 43
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "1",
+                    "player": "Florián Monzón",
+                    "team": "home"
+                },
+                {
+                    "minute": "20",
+                    "player": "L. Hernández",
+                    "team": "away"
+                },
+                {
+                    "minute": "60",
+                    "player": "Jorge Sánchez",
+                    "team": "home"
+                },
+                {
+                    "minute": "63",
+                    "player": "Kevin Zenon",
+                    "team": "home"
+                },
+                {
+                    "minute": "68",
+                    "player": "José Martín",
+                    "team": "home"
+                },
+                {
+                    "minute": "79",
+                    "player": "José Martín",
+                    "team": "home"
+                },
+                {
+                    "minute": "84",
+                    "player": "Omar Moreno",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "22",
+                    "player": "Alejandro Organista",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "Alonso Ramirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Alonso Ramirez",
+                    "team": "away",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1191,7 +1268,10 @@ const siteData = {
             "away": "Monarcas",
             "stadium": "Estadio Akron",
             "round": "Apertura - 14",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "90+2'",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/14278.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
             "prediction": "3 - 2",
@@ -1226,7 +1306,86 @@ const siteData = {
                     "home": 78,
                     "away": 22
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "28",
+                    "player": "D. De Buen",
+                    "team": "away"
+                },
+                {
+                    "minute": "64",
+                    "player": "M. Nambo",
+                    "team": "away"
+                },
+                {
+                    "minute": "86",
+                    "player": "V. Moragrega",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "D. De Buen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "31",
+                    "player": "D. Covarrubias",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "C. Soldati",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+1",
+                    "player": "R. del Campo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "55",
+                    "player": "J. Martinez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "D. Villaseca",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "L. Ledesma",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "77",
+                    "player": "D. Delgadillo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "A. Andrade",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "88",
+                    "player": "V. Moragrega",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "MLS",
@@ -1912,11 +2071,11 @@ const siteData = {
                 "rank": 1,
                 "team": "Barcelona",
                 "logo": "https://media.api-sports.io/football/teams/529.png",
-                "played": 9,
+                "played": 10,
                 "win": 9,
                 "draw": 0,
-                "lose": 0,
-                "gd": 30,
+                "lose": 1,
+                "gd": 29,
                 "points": 27
             },
             {
@@ -1934,12 +2093,12 @@ const siteData = {
                 "rank": 3,
                 "team": "Real Madrid",
                 "logo": "https://media.api-sports.io/football/teams/541.png",
-                "played": 9,
-                "win": 7,
+                "played": 10,
+                "win": 8,
                 "draw": 0,
                 "lose": 2,
-                "gd": 14,
-                "points": 21
+                "gd": 15,
+                "points": 24
             },
             {
                 "rank": 4,
@@ -2165,6 +2324,17 @@ const siteData = {
             },
             {
                 "rank": 4,
+                "team": "AC Milan",
+                "logo": "https://media.api-sports.io/football/teams/489.png",
+                "played": 8,
+                "win": 5,
+                "draw": 3,
+                "lose": 0,
+                "gd": 9,
+                "points": 18
+            },
+            {
+                "rank": 5,
                 "team": "Como",
                 "logo": "https://media.api-sports.io/football/teams/895.png",
                 "played": 8,
@@ -2173,17 +2343,6 @@ const siteData = {
                 "lose": 1,
                 "gd": 7,
                 "points": 17
-            },
-            {
-                "rank": 5,
-                "team": "AC Milan",
-                "logo": "https://media.api-sports.io/football/teams/489.png",
-                "played": 7,
-                "win": 4,
-                "draw": 3,
-                "lose": 0,
-                "gd": 7,
-                "points": 15
             },
             {
                 "rank": 6,
@@ -2310,11 +2469,11 @@ const siteData = {
                 "rank": 17,
                 "team": "Udinese",
                 "logo": "https://media.api-sports.io/football/teams/494.png",
-                "played": 7,
+                "played": 8,
                 "win": 1,
                 "draw": 1,
-                "lose": 5,
-                "gd": -7,
+                "lose": 6,
+                "gd": -9,
                 "points": 4
             },
             {
@@ -2952,7 +3111,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/10/2026 05:11 WIB",
+    "standingsUpdated": "26/10/2026 07:53 WIB",
     "topScorers": {
         "Premier League": [
             {
