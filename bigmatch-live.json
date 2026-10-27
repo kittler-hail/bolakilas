@@ -2,11 +2,11 @@
   "fixtureId": 1570431,
   "home": "Sevilla",
   "away": "Osasuna",
-  "statusCode": "2H",
-  "updatedAt": "27/10/2026 04:49 WIB",
+  "statusCode": "FT",
+  "updatedAt": "27/10/2026 08:00 WIB",
   "statistics": {
     "home": {
-      "possession": 43,
+      "possession": 44,
       "shotsTotal": 17,
       "shotsOnTarget": 7,
       "corners": 7,
@@ -16,23 +16,23 @@
       "redCards": 0,
       "shotsInsidebox": 9,
       "shotsOutsidebox": 8,
-      "passesTotal": 360,
-      "passesAccurate": 279,
+      "passesTotal": 405,
+      "passesAccurate": 317,
       "passesPct": null
     },
     "away": {
-      "possession": 57,
-      "shotsTotal": 6,
-      "shotsOnTarget": 0,
-      "corners": 3,
-      "fouls": 7,
+      "possession": 56,
+      "shotsTotal": 10,
+      "shotsOnTarget": 2,
+      "corners": 4,
+      "fouls": 8,
       "offsides": 1,
       "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 3,
-      "shotsOutsidebox": 3,
-      "passesTotal": 479,
-      "passesAccurate": 405,
+      "shotsInsidebox": 6,
+      "shotsOutsidebox": 4,
+      "passesTotal": 503,
+      "passesAccurate": 425,
       "passesPct": null
     }
   },
@@ -51,25 +51,25 @@
           "number": 2,
           "name": "Juan Iglesias",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.4"
         },
         {
           "number": 5,
           "name": "Andrés Castrín",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.1"
         },
         {
           "number": 4,
           "name": "Kike Salas",
           "position": "Bek",
-          "rating": "7.5"
+          "rating": "7.0"
         },
         {
           "number": 17,
           "name": "G. Suazo",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.1"
         },
         {
           "number": 21,
@@ -81,19 +81,19 @@
           "number": 6,
           "name": "L. Agoumé",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.6"
         },
         {
           "number": 24,
           "name": "Y. Fofana",
           "position": "Gelandang",
-          "rating": "8.1"
+          "rating": "7.6"
         },
         {
           "number": 20,
           "name": "Félix Correia",
           "position": "Gelandang",
-          "rating": "8.2"
+          "rating": "8.1"
         },
         {
           "number": 16,
@@ -113,7 +113,7 @@
           "number": 22,
           "name": "José Ángel Carmona",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.5"
         },
         {
           "number": 3,
@@ -179,7 +179,7 @@
           "number": 14,
           "name": "Manu Bueno",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "6.8"
         }
       ]
     },
@@ -203,7 +203,7 @@
           "number": 24,
           "name": "Catena",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "6.0"
         },
         {
           "number": 22,
@@ -215,13 +215,13 @@
           "number": 23,
           "name": "Abel Bretones",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.1"
         },
         {
           "number": 7,
           "name": "Moncayola",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 6,
@@ -239,7 +239,7 @@
           "number": 14,
           "name": "Rubén García",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 17,
@@ -251,7 +251,7 @@
           "number": 21,
           "name": "Jonathan Dubasin",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
@@ -283,7 +283,7 @@
           "number": 29,
           "name": "Asier Osambela",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "5.8"
         },
         {
           "number": 48,
@@ -307,7 +307,7 @@
           "number": 18,
           "name": "Raul Moro",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 8,
@@ -319,13 +319,13 @@
           "number": 9,
           "name": "Raúl García",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.3"
         },
         {
           "number": 11,
           "name": "Kike Barja",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "5.9"
         }
       ]
     }
