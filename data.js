@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-27T19:07:35.583Z.
+   API-Football v3) pada 2026-10-27T23:23:24.004Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,8 +24,8 @@ const siteData = {
         "stadium": "Mapei Stadium – Città del Tricolore",
         "prediction": "1 - 2",
         "analysis": "Sassuolo bertemu Lazio dalam laga Serie A. Analisis API-Football: Winner : Lazio.",
-        "statusCode": "2H",
-        "minuteDisplay": "74'",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
         "homeScore": 2,
         "awayScore": 6,
         "odds": {
@@ -114,8 +114,8 @@ const siteData = {
             "away": "Lazio",
             "stadium": "Mapei Stadium – Città del Tricolore",
             "round": "Pekan 9",
-            "statusCode": "2H",
-            "minuteDisplay": "74'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 6,
             "homeLogo": "https://media.api-sports.io/football/teams/488.png",
@@ -161,8 +161,8 @@ const siteData = {
                 },
                 {
                     "minute": "7",
-                    "player": "Kristian Thorstvedt",
-                    "team": "home"
+                    "player": "Josip Šutalo",
+                    "team": "away"
                 },
                 {
                     "minute": "13",
@@ -224,7 +224,10 @@ const siteData = {
             "away": "Cagliari",
             "stadium": "Stadio Olimpico",
             "round": "Pekan 9",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/497.png",
             "awayLogo": "https://media.api-sports.io/football/teams/490.png",
             "prediction": "2 - 1",
@@ -259,7 +262,47 @@ const siteData = {
                     "home": 88,
                     "away": 13
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "10",
+                    "player": "M'Bala Nzola",
+                    "team": "away"
+                },
+                {
+                    "minute": "15",
+                    "player": "Emanuele Lulli",
+                    "team": "home"
+                },
+                {
+                    "minute": "21",
+                    "player": "Niccolò Pisilli",
+                    "team": "home"
+                },
+                {
+                    "minute": "81",
+                    "player": "Daniel Maldini",
+                    "team": "away"
+                },
+                {
+                    "minute": "85",
+                    "player": "Rodrigo Mora",
+                    "team": "home"
+                },
+                {
+                    "minute": "87",
+                    "player": "Donyell Malen",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "90+4",
+                    "player": "Juan Rodriguez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Serie A",
@@ -269,7 +312,10 @@ const siteData = {
             "away": "Como",
             "stadium": "Stadio Olimpico Grande Torino",
             "round": "Pekan 9",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/503.png",
             "awayLogo": "https://media.api-sports.io/football/teams/895.png",
             "prediction": "1 - 2",
@@ -304,7 +350,37 @@ const siteData = {
                     "home": 14,
                     "away": 86
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "24",
+                    "player": "Che Adams",
+                    "team": "home"
+                },
+                {
+                    "minute": "81",
+                    "player": "Jacobo Ramón",
+                    "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "Nico Paz",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "Martin Baturina",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "72",
+                    "player": "Rafik Belghali",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -805,6 +881,17 @@ const siteData = {
         "Serie A": [
             {
                 "rank": 1,
+                "team": "Lazio",
+                "logo": "https://media.api-sports.io/football/teams/487.png",
+                "played": 9,
+                "win": 8,
+                "draw": 1,
+                "lose": 0,
+                "gd": 15,
+                "points": 25
+            },
+            {
+                "rank": 2,
                 "team": "Inter",
                 "logo": "https://media.api-sports.io/football/teams/505.png",
                 "played": 8,
@@ -815,29 +902,29 @@ const siteData = {
                 "points": 22
             },
             {
-                "rank": 2,
-                "team": "Lazio",
-                "logo": "https://media.api-sports.io/football/teams/487.png",
-                "played": 8,
-                "win": 7,
-                "draw": 1,
-                "lose": 0,
-                "gd": 11,
-                "points": 22
-            },
-            {
                 "rank": 3,
                 "team": "AS Roma",
                 "logo": "https://media.api-sports.io/football/teams/497.png",
-                "played": 8,
-                "win": 5,
+                "played": 9,
+                "win": 6,
                 "draw": 3,
                 "lose": 0,
-                "gd": 13,
-                "points": 18
+                "gd": 15,
+                "points": 21
             },
             {
                 "rank": 4,
+                "team": "Como",
+                "logo": "https://media.api-sports.io/football/teams/895.png",
+                "played": 9,
+                "win": 6,
+                "draw": 2,
+                "lose": 1,
+                "gd": 9,
+                "points": 20
+            },
+            {
+                "rank": 5,
                 "team": "AC Milan",
                 "logo": "https://media.api-sports.io/football/teams/489.png",
                 "played": 8,
@@ -846,17 +933,6 @@ const siteData = {
                 "lose": 0,
                 "gd": 9,
                 "points": 18
-            },
-            {
-                "rank": 5,
-                "team": "Como",
-                "logo": "https://media.api-sports.io/football/teams/895.png",
-                "played": 8,
-                "win": 5,
-                "draw": 2,
-                "lose": 1,
-                "gd": 7,
-                "points": 17
             },
             {
                 "rank": 6,
@@ -884,22 +960,22 @@ const siteData = {
                 "rank": 8,
                 "team": "Torino",
                 "logo": "https://media.api-sports.io/football/teams/503.png",
-                "played": 8,
+                "played": 9,
                 "win": 4,
                 "draw": 1,
-                "lose": 3,
-                "gd": 2,
+                "lose": 4,
+                "gd": 0,
                 "points": 13
             },
             {
                 "rank": 9,
                 "team": "Cagliari",
                 "logo": "https://media.api-sports.io/football/teams/490.png",
-                "played": 8,
+                "played": 9,
                 "win": 4,
                 "draw": 1,
-                "lose": 3,
-                "gd": -3,
+                "lose": 4,
+                "gd": -5,
                 "points": 13
             },
             {
@@ -950,11 +1026,11 @@ const siteData = {
                 "rank": 14,
                 "team": "Sassuolo",
                 "logo": "https://media.api-sports.io/football/teams/488.png",
-                "played": 8,
+                "played": 9,
                 "win": 2,
                 "draw": 2,
-                "lose": 4,
-                "gd": -4,
+                "lose": 5,
+                "gd": -8,
                 "points": 8
             },
             {
@@ -1625,7 +1701,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "28/10/2026 02:07 WIB",
+    "standingsUpdated": "28/10/2026 06:23 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -38645,8 +38721,8 @@ const siteData = {
                         "away": 53
                     },
                     "poisson": {
-                        "home": 57,
-                        "away": 43
+                        "home": 58,
+                        "away": 42
                     },
                     "h2h": {
                         "home": 15,
@@ -38825,8 +38901,8 @@ const siteData = {
                         "away": 29
                     },
                     "poisson": {
-                        "home": 91,
-                        "away": 9
+                        "home": 92,
+                        "away": 8
                     },
                     "h2h": {
                         "home": 50,
