@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-27T07:06:12.615Z.
+   API-Football v3) pada 2026-10-27T13:48:47.675Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -495,12 +495,6 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "55",
-                    "player": "Isaac Romero",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
                     "minute": "68",
                     "player": "Valentin Rosier",
                     "team": "away",
@@ -516,7 +510,10 @@ const siteData = {
             "away": "Pusamania Borneo",
             "stadium": "Maguwoharjo Stadium",
             "round": "Pekan 7",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/3882.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2442.png",
             "prediction": "1 - 2",
@@ -551,7 +548,62 @@ const siteData = {
                     "home": 17,
                     "away": 83
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "38",
+                    "player": "D. Sonriza",
+                    "team": "away"
+                },
+                {
+                    "minute": "75",
+                    "player": "H. Samir",
+                    "team": "away"
+                },
+                {
+                    "minute": "86",
+                    "player": "Matheus Fornazari",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "25",
+                    "player": "A. Habib",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "S. Ashkovski",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "44",
+                    "player": "Cleberson",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45+9",
+                    "player": "A. Brkic",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "D. Dion",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Sousa",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1784,6 +1836,17 @@ const siteData = {
             },
             {
                 "rank": 11,
+                "team": "Pusamania Borneo",
+                "logo": "https://media.api-sports.io/football/teams/2442.png",
+                "played": 6,
+                "win": 3,
+                "draw": 0,
+                "lose": 3,
+                "gd": -1,
+                "points": 9
+            },
+            {
+                "rank": 12,
                 "team": "PSM Makassar",
                 "logo": "https://media.api-sports.io/football/teams/2441.png",
                 "played": 7,
@@ -1794,7 +1857,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "Java United",
                 "logo": "https://media.api-sports.io/football/teams/22409.png",
                 "played": 7,
@@ -1803,17 +1866,6 @@ const siteData = {
                 "lose": 2,
                 "gd": 0,
                 "points": 7
-            },
-            {
-                "rank": 13,
-                "team": "Pusamania Borneo",
-                "logo": "https://media.api-sports.io/football/teams/2442.png",
-                "played": 5,
-                "win": 2,
-                "draw": 0,
-                "lose": 3,
-                "gd": -2,
-                "points": 6
             },
             {
                 "rank": 14,
@@ -1830,11 +1882,11 @@ const siteData = {
                 "rank": 15,
                 "team": "PSS Sleman",
                 "logo": "https://media.api-sports.io/football/teams/3882.png",
-                "played": 6,
+                "played": 7,
                 "win": 1,
                 "draw": 1,
-                "lose": 4,
-                "gd": -2,
+                "lose": 5,
+                "gd": -3,
                 "points": 4
             },
             {
@@ -1872,7 +1924,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/10/2026 14:06 WIB",
+    "standingsUpdated": "27/10/2026 20:48 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -6816,7 +6868,7 @@ const siteData = {
             {
                 "player": "K. Itakura",
                 "photo": "https://media.api-sports.io/football/players/38114.png",
-                "reason": "Ankle Injury",
+                "reason": "Muscle Injury",
                 "since": "2026-10-23"
             },
             {
@@ -37969,96 +38021,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-10-29",
-                "time": "02:45",
-                "home": "Genoa",
-                "away": "Juventus",
-                "stadium": "Luigi Ferraris",
-                "round": "Pekan 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/495.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Juventus",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "def": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "poisson": {
-                        "home": 28,
-                        "away": 72
-                    },
-                    "h2h": {
-                        "home": 7,
-                        "away": 93
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-10-29",
-                "time": "02:45",
-                "home": "Monza",
-                "away": "Napoli",
-                "stadium": "Stadio Brianteo",
-                "round": "Pekan 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/492.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Napoli",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 36,
-                        "away": 64
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-10-29",
                 "time": "02:45",
@@ -38280,6 +38242,96 @@ const siteData = {
                     "goals": {
                         "home": 46,
                         "away": 54
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-10-29",
+                "time": "02:45",
+                "home": "Genoa",
+                "away": "Juventus",
+                "stadium": "Luigi Ferraris",
+                "round": "Pekan 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/495.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Juventus",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "poisson": {
+                        "home": 28,
+                        "away": 72
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-10-29",
+                "time": "02:45",
+                "home": "Monza",
+                "away": "Napoli",
+                "stadium": "Stadio Brianteo",
+                "round": "Pekan 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/492.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Napoli",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 36,
+                        "away": 64
                     }
                 }
             },
