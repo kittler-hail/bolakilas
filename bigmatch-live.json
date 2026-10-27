@@ -3,7 +3,7 @@
   "home": "Sevilla",
   "away": "Osasuna",
   "statusCode": "FT",
-  "updatedAt": "27/10/2026 13:12 WIB",
+  "updatedAt": "27/10/2026 19:23 WIB",
   "statistics": {
     "home": {
       "possession": 44,
@@ -12,11 +12,11 @@
       "corners": 7,
       "fouls": 11,
       "offsides": 0,
-      "yellowCards": 1,
+      "yellowCards": 0,
       "redCards": 0,
       "shotsInsidebox": 9,
       "shotsOutsidebox": 8,
-      "passesTotal": 405,
+      "passesTotal": 406,
       "passesAccurate": 317,
       "passesPct": null
     },
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 6,
       "shotsOutsidebox": 4,
-      "passesTotal": 503,
-      "passesAccurate": 425,
+      "passesTotal": 504,
+      "passesAccurate": 427,
       "passesPct": null
     }
   },
