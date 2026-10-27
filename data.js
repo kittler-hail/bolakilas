@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-27T01:48:31.071Z.
+   API-Football v3) pada 2026-10-27T07:06:12.615Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -90,15 +90,15 @@ const siteData = {
             "away": {
                 "results": [
                     "L",
-                    "L",
                     "D",
                     "L",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 3,
-                "failedToScore": 3,
+                "failedToScore": 4,
                 "goalsFor": 10,
-                "goalsAgainst": 18,
+                "goalsAgainst": 20,
                 "winStreak": 2,
                 "attack": 42,
                 "defense": 45
@@ -112,7 +112,7 @@ const siteData = {
             "time": "01:30",
             "home": "Galatasaray",
             "away": "Fenerbahçe",
-            "stadium": "Rams Park",
+            "stadium": "Rams Park Stadyumu",
             "round": "Pekan 9",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -173,49 +173,43 @@ const siteData = {
             "cards": [
                 {
                     "minute": "10",
-                    "player": "I. Kahveci",
+                    "player": "İrfan Can Kahveci",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "11",
-                    "player": "M. Skriniar",
+                    "player": "Milan Škriniar",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "19",
-                    "player": "D. Sanchez",
+                    "player": "Davinson Sánchez",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "31",
-                    "player": "N. Kante",
+                    "player": "N'Golo Kanté",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
-                    "minute": "45+1",
-                    "player": "O. Buruk",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
                     "minute": "54",
-                    "player": "N. Semedo",
+                    "player": "Nélson Semedo",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "89",
-                    "player": "R. Leao",
+                    "player": "Rafael Leão",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+1",
-                    "player": "A. Brown",
+                    "player": "Archie Brown",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1878,7 +1872,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "27/10/2026 08:48 WIB",
+    "standingsUpdated": "27/10/2026 14:06 WIB",
     "topScorers": {
         "Premier League": [
             {
