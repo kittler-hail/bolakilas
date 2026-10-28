@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-28T10:12:37.359Z.
+   API-Football v3) pada 2026-10-28T16:54:59.930Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -251,8 +251,8 @@ const siteData = {
                     "away": 38
                 },
                 "poisson": {
-                    "home": 79,
-                    "away": 21
+                    "home": 80,
+                    "away": 20
                 },
                 "h2h": {
                     "home": 71,
@@ -1701,7 +1701,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "28/10/2026 17:12 WIB",
+    "standingsUpdated": "28/10/2026 23:54 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -7658,13 +7658,13 @@ const siteData = {
                 "player": "L. Abergel",
                 "photo": "https://media.api-sports.io/football/players/20917.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             },
             {
                 "player": "M. Bombito",
                 "photo": "https://media.api-sports.io/football/players/407017.png",
                 "reason": "Leg Injury",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             },
             {
                 "player": "T. Moffi",
@@ -7682,7 +7682,7 @@ const siteData = {
                 "player": "A. Abdi",
                 "photo": "https://media.api-sports.io/football/players/49583.png",
                 "reason": "Muscle Injury",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             },
             {
                 "player": "M. Sanson",
@@ -7694,19 +7694,19 @@ const siteData = {
                 "player": "A. Mendy",
                 "photo": "https://media.api-sports.io/football/players/313937.png",
                 "reason": "Knee Injury",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             },
             {
                 "player": "A. Seidu",
                 "photo": "https://media.api-sports.io/football/players/196187.png",
                 "reason": "Loan agreement",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             },
             {
                 "player": "J. Clauss",
                 "photo": "https://media.api-sports.io/football/players/25008.png",
                 "reason": "Injury",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             }
         ],
         "lorient": [
@@ -8408,7 +8408,7 @@ const siteData = {
                 "player": "E. Lepaul",
                 "photo": "https://media.api-sports.io/football/players/163004.png",
                 "reason": "Ankle Injury",
-                "since": "2026-10-31"
+                "since": "2026-10-30"
             }
         ],
         "paris-saint-germain": [
@@ -37689,96 +37689,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Serie A",
-                "date": "2026-10-29",
-                "time": "02:45",
-                "home": "Genoa",
-                "away": "Juventus",
-                "stadium": "Luigi Ferraris",
-                "round": "Pekan 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/495.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Juventus",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "def": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "poisson": {
-                        "home": 28,
-                        "away": 72
-                    },
-                    "h2h": {
-                        "home": 7,
-                        "away": 93
-                    },
-                    "goals": {
-                        "home": 0,
-                        "away": 100
-                    }
-                }
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-10-29",
-                "time": "02:45",
-                "home": "Monza",
-                "away": "Napoli",
-                "stadium": "Stadio Brianteo",
-                "round": "Pekan 9",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/492.png",
-                "prediction": "2 - 3",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Napoli",
-                "comparison": {
-                    "form": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "att": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "def": {
-                        "home": 33,
-                        "away": 67
-                    },
-                    "poisson": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 36,
-                        "away": 64
-                    }
-                }
-            },
-            {
                 "league": "Scottish Premiership",
                 "date": "2026-10-29",
                 "time": "02:45",
@@ -38000,6 +37910,96 @@ const siteData = {
                     "goals": {
                         "home": 46,
                         "away": 54
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-10-29",
+                "time": "02:45",
+                "home": "Genoa",
+                "away": "Juventus",
+                "stadium": "Luigi Ferraris",
+                "round": "Pekan 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/495.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/496.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Juventus",
+                "comparison": {
+                    "form": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "att": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "def": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "poisson": {
+                        "home": 28,
+                        "away": 72
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 0,
+                        "away": 100
+                    }
+                }
+            },
+            {
+                "league": "Serie A",
+                "date": "2026-10-29",
+                "time": "02:45",
+                "home": "Monza",
+                "away": "Napoli",
+                "stadium": "Stadio Brianteo",
+                "round": "Pekan 9",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/492.png",
+                "prediction": "2 - 3",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Napoli",
+                "comparison": {
+                    "form": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 33,
+                        "away": 67
+                    },
+                    "poisson": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "h2h": {
+                        "home": 29,
+                        "away": 71
+                    },
+                    "goals": {
+                        "home": 36,
+                        "away": 64
                     }
                 }
             },
