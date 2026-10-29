@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-29T19:59:06.451Z.
+   API-Football v3) pada 2026-10-29T23:49:29.292Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -89,16 +89,16 @@ const siteData = {
             },
             "away": {
                 "results": [
-                    "W",
                     "L",
                     "L",
                     "W",
+                    "L",
                     "L"
                 ],
                 "cleanSheets": 2,
                 "failedToScore": 4,
-                "goalsFor": 9,
-                "goalsAgainst": 14,
+                "goalsFor": 10,
+                "goalsAgainst": 19,
                 "winStreak": 1,
                 "attack": 39,
                 "defense": 53
@@ -214,10 +214,10 @@ const siteData = {
             "away": "Atalanta",
             "stadium": "Stadio Artemio Franchi",
             "round": "Pekan 9",
-            "statusCode": "1H",
-            "minuteDisplay": "11'",
-            "homeScore": 0,
-            "awayScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/502.png",
             "awayLogo": "https://media.api-sports.io/football/teams/499.png",
             "prediction": "2 - 2",
@@ -252,7 +252,61 @@ const siteData = {
                     "home": 47,
                     "away": 53
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "41",
+                    "player": "Charles De Ketelaere",
+                    "team": "away"
+                },
+                {
+                    "minute": "53",
+                    "player": "Alieu Njie",
+                    "team": "home"
+                },
+                {
+                    "minute": "61",
+                    "player": "João Mário",
+                    "team": "home"
+                },
+                {
+                    "minute": "74",
+                    "player": "Nicola Zalewski",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "12",
+                    "player": "Elif  Elmas",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "Viery",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "Mateo Pellegrino",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "75",
+                    "player": "Wilfried Gnonto",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "Relja Obric",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -943,6 +997,17 @@ const siteData = {
             },
             {
                 "rank": 6,
+                "team": "Frosinone",
+                "logo": "https://media.api-sports.io/football/teams/512.png",
+                "played": 9,
+                "win": 5,
+                "draw": 2,
+                "lose": 2,
+                "gd": 8,
+                "points": 17
+            },
+            {
+                "rank": 7,
                 "team": "Napoli",
                 "logo": "https://media.api-sports.io/football/teams/492.png",
                 "played": 9,
@@ -950,17 +1015,6 @@ const siteData = {
                 "draw": 2,
                 "lose": 3,
                 "gd": 6,
-                "points": 14
-            },
-            {
-                "rank": 7,
-                "team": "Frosinone",
-                "logo": "https://media.api-sports.io/football/teams/512.png",
-                "played": 8,
-                "win": 4,
-                "draw": 2,
-                "lose": 2,
-                "gd": 4,
                 "points": 14
             },
             {
@@ -1011,12 +1065,12 @@ const siteData = {
                 "rank": 12,
                 "team": "Atalanta",
                 "logo": "https://media.api-sports.io/football/teams/499.png",
-                "played": 8,
+                "played": 9,
                 "win": 3,
-                "draw": 1,
+                "draw": 2,
                 "lose": 4,
                 "gd": -1,
-                "points": 10
+                "points": 11
             },
             {
                 "rank": 13,
@@ -1033,11 +1087,11 @@ const siteData = {
                 "rank": 14,
                 "team": "Lecce",
                 "logo": "https://media.api-sports.io/football/teams/867.png",
-                "played": 8,
+                "played": 9,
                 "win": 3,
                 "draw": 0,
-                "lose": 5,
-                "gd": -5,
+                "lose": 6,
+                "gd": -9,
                 "points": 9
             },
             {
@@ -1075,8 +1129,8 @@ const siteData = {
             },
             {
                 "rank": 18,
-                "team": "Parma",
-                "logo": "https://media.api-sports.io/football/teams/523.png",
+                "team": "Fiorentina",
+                "logo": "https://media.api-sports.io/football/teams/502.png",
                 "played": 9,
                 "win": 1,
                 "draw": 2,
@@ -1086,14 +1140,14 @@ const siteData = {
             },
             {
                 "rank": 19,
-                "team": "Fiorentina",
-                "logo": "https://media.api-sports.io/football/teams/502.png",
-                "played": 8,
+                "team": "Parma",
+                "logo": "https://media.api-sports.io/football/teams/523.png",
+                "played": 9,
                 "win": 1,
-                "draw": 1,
+                "draw": 2,
                 "lose": 6,
                 "gd": -10,
-                "points": 4
+                "points": 5
             },
             {
                 "rank": 20,
@@ -1708,7 +1762,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "30/10/2026 02:59 WIB",
+    "standingsUpdated": "30/10/2026 06:49 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -40256,20 +40310,20 @@ const siteData = {
                 "advice": "Double chance : draw or Real Salt Lake",
                 "comparison": {
                     "form": {
-                        "home": 38,
-                        "away": 63
+                        "home": 29,
+                        "away": 71
                     },
                     "att": {
-                        "home": 35,
-                        "away": 65
+                        "home": 33,
+                        "away": 67
                     },
                     "def": {
-                        "home": 36,
-                        "away": 64
+                        "home": 38,
+                        "away": 62
                     },
                     "poisson": {
-                        "home": 58,
-                        "away": 42
+                        "home": 56,
+                        "away": 44
                     },
                     "h2h": {
                         "home": 50,
@@ -40703,23 +40757,23 @@ const siteData = {
                     "draw": 45,
                     "away": 10
                 },
-                "advice": "Combo Double chance : Club America or draw and +1.5 goals",
+                "advice": "Double chance : Club America or draw",
                 "comparison": {
                     "form": {
-                        "home": 71,
-                        "away": 29
+                        "home": 67,
+                        "away": 33
                     },
                     "att": {
-                        "home": 64,
-                        "away": 36
+                        "home": 59,
+                        "away": 41
                     },
                     "def": {
-                        "home": 50,
-                        "away": 50
+                        "home": 53,
+                        "away": 47
                     },
                     "poisson": {
-                        "home": 62,
-                        "away": 38
+                        "home": 59,
+                        "away": 41
                     },
                     "h2h": {
                         "home": 29,
