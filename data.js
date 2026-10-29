@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-29T07:51:45.203Z.
+   API-Football v3) pada 2026-10-29T14:50:02.050Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -343,175 +343,6 @@ const siteData = {
                 {
                     "minute": "81",
                     "player": "Simone Lontani",
-                    "team": "home",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-10-29",
-            "time": "02:45",
-            "home": "Genoa",
-            "away": "Juventus",
-            "stadium": "Luigi Ferraris",
-            "round": "Pekan 9",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 2,
-            "awayScore": 0,
-            "homeLogo": "https://media.api-sports.io/football/teams/495.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/496.png",
-            "prediction": "1 - 2",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Juventus",
-            "comparison": {
-                "form": {
-                    "home": 50,
-                    "away": 50
-                },
-                "att": {
-                    "home": 42,
-                    "away": 58
-                },
-                "def": {
-                    "home": 54,
-                    "away": 46
-                },
-                "poisson": {
-                    "home": 29,
-                    "away": 71
-                },
-                "h2h": {
-                    "home": 7,
-                    "away": 93
-                },
-                "goals": {
-                    "home": 0,
-                    "away": 100
-                }
-            },
-            "goals": [
-                {
-                    "minute": "12",
-                    "player": "Kingsley Ehizibue",
-                    "team": "home"
-                },
-                {
-                    "minute": "28",
-                    "player": "Tommaso Baldanzi",
-                    "team": "home"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "70",
-                    "player": "Edon Zhegrova",
-                    "team": "away",
-                    "type": "yellow"
-                }
-            ]
-        },
-        {
-            "league": "Serie A",
-            "date": "2026-10-29",
-            "time": "02:45",
-            "home": "Monza",
-            "away": "Napoli",
-            "stadium": "Stadio Brianteo",
-            "round": "Pekan 9",
-            "statusCode": "FT",
-            "minuteDisplay": "FT",
-            "homeScore": 1,
-            "awayScore": 4,
-            "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/492.png",
-            "prediction": "2 - 3",
-            "odds": {
-                "home": 10,
-                "draw": 45,
-                "away": 45
-            },
-            "advice": "Double chance : draw or Napoli",
-            "comparison": {
-                "form": {
-                    "home": 43,
-                    "away": 57
-                },
-                "att": {
-                    "home": 58,
-                    "away": 42
-                },
-                "def": {
-                    "home": 33,
-                    "away": 67
-                },
-                "poisson": {
-                    "home": 66,
-                    "away": 34
-                },
-                "h2h": {
-                    "home": 29,
-                    "away": 71
-                },
-                "goals": {
-                    "home": 36,
-                    "away": 64
-                }
-            },
-            "goals": [
-                {
-                    "minute": "10",
-                    "player": "Rasmus Hojlund",
-                    "team": "away"
-                },
-                {
-                    "minute": "43",
-                    "player": "Gustavo Varela",
-                    "team": "home"
-                },
-                {
-                    "minute": "48",
-                    "player": "Matteo Politano",
-                    "team": "away"
-                },
-                {
-                    "minute": "62",
-                    "player": "Rafael Marin Zamora",
-                    "team": "away"
-                },
-                {
-                    "minute": "67",
-                    "player": "Kevin De Bruyne",
-                    "team": "away"
-                }
-            ],
-            "cards": [
-                {
-                    "minute": "8",
-                    "player": "Saba Goglichidze",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "25",
-                    "player": "Ivan Juric",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "52",
-                    "player": "Foe Ondoa",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "88",
-                    "player": "Leonardo Colombo",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -986,6 +817,175 @@ const siteData = {
                     "minute": "71",
                     "player": "Tom Sparrow",
                     "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-10-29",
+            "time": "02:45",
+            "home": "Genoa",
+            "away": "Juventus",
+            "stadium": "Luigi Ferraris",
+            "round": "Pekan 9",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 0,
+            "homeLogo": "https://media.api-sports.io/football/teams/495.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/496.png",
+            "prediction": "1 - 2",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Juventus",
+            "comparison": {
+                "form": {
+                    "home": 50,
+                    "away": 50
+                },
+                "att": {
+                    "home": 42,
+                    "away": 58
+                },
+                "def": {
+                    "home": 54,
+                    "away": 46
+                },
+                "poisson": {
+                    "home": 29,
+                    "away": 71
+                },
+                "h2h": {
+                    "home": 7,
+                    "away": 93
+                },
+                "goals": {
+                    "home": 0,
+                    "away": 100
+                }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Kingsley Ehizibue",
+                    "team": "home"
+                },
+                {
+                    "minute": "28",
+                    "player": "Tommaso Baldanzi",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "70",
+                    "player": "Edon Zhegrova",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
+        },
+        {
+            "league": "Serie A",
+            "date": "2026-10-29",
+            "time": "02:45",
+            "home": "Monza",
+            "away": "Napoli",
+            "stadium": "Stadio Brianteo",
+            "round": "Pekan 9",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 4,
+            "homeLogo": "https://media.api-sports.io/football/teams/1579.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/492.png",
+            "prediction": "2 - 3",
+            "odds": {
+                "home": 10,
+                "draw": 45,
+                "away": 45
+            },
+            "advice": "Double chance : draw or Napoli",
+            "comparison": {
+                "form": {
+                    "home": 43,
+                    "away": 57
+                },
+                "att": {
+                    "home": 58,
+                    "away": 42
+                },
+                "def": {
+                    "home": 33,
+                    "away": 67
+                },
+                "poisson": {
+                    "home": 66,
+                    "away": 34
+                },
+                "h2h": {
+                    "home": 29,
+                    "away": 71
+                },
+                "goals": {
+                    "home": 36,
+                    "away": 64
+                }
+            },
+            "goals": [
+                {
+                    "minute": "10",
+                    "player": "Rasmus Hojlund",
+                    "team": "away"
+                },
+                {
+                    "minute": "43",
+                    "player": "Gustavo Varela",
+                    "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "Matteo Politano",
+                    "team": "away"
+                },
+                {
+                    "minute": "62",
+                    "player": "Rafael Marin Zamora",
+                    "team": "away"
+                },
+                {
+                    "minute": "67",
+                    "player": "Kevin De Bruyne",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "8",
+                    "player": "Saba Goglichidze",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "25",
+                    "player": "Ivan Juric",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "52",
+                    "player": "Foe Ondoa",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Leonardo Colombo",
+                    "team": "home",
                     "type": "yellow"
                 }
             ]
@@ -3866,7 +3866,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "29/10/2026 14:51 WIB",
+    "standingsUpdated": "29/10/2026 21:50 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -40965,25 +40965,25 @@ const siteData = {
                 "statusCode": "POSTP",
                 "homeLogo": "https://media.api-sports.io/football/teams/1386.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/254.png",
-                "prediction": "2 - 1",
+                "prediction": "2 - 3",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
                 },
-                "advice": "Double chance : Dundee Utd or draw",
+                "advice": "Double chance : draw or Heart Of Midlothian",
                 "comparison": {
                     "form": {
-                        "home": 61,
-                        "away": 39
+                        "home": 58,
+                        "away": 42
                     },
                     "att": {
-                        "home": 47,
-                        "away": 53
+                        "home": 48,
+                        "away": 52
                     },
                     "def": {
-                        "home": 71,
-                        "away": 29
+                        "home": 67,
+                        "away": 33
                     },
                     "poisson": {
                         "home": 56,
@@ -41010,25 +41010,25 @@ const siteData = {
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/250.png",
                 "awayLogo": "https://media.api-sports.io/football/teams/258.png",
-                "prediction": "1 - 1",
+                "prediction": "1 - 2",
                 "odds": {
-                    "home": 35,
-                    "draw": 35,
-                    "away": 30
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
                 },
-                "advice": "Double chance : Kilmarnock or draw",
+                "advice": "Double chance : draw or ST Johnstone",
                 "comparison": {
                     "form": {
-                        "home": 58,
-                        "away": 42
+                        "home": 40,
+                        "away": 60
                     },
                     "att": {
-                        "home": 67,
-                        "away": 33
+                        "home": 55,
+                        "away": 45
                     },
                     "def": {
-                        "home": 44,
-                        "away": 56
+                        "home": 40,
+                        "away": 60
                     },
                     "poisson": {
                         "home": 47,
@@ -41135,51 +41135,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Primeira Liga",
-                "date": "2026-10-31",
-                "time": "22:30",
-                "home": "Moreirense",
-                "away": "Estrela",
-                "stadium": "Parque Joaquim Almeida Freitas",
-                "round": "Pekan 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/215.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/15130.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Moreirense or draw",
-                "comparison": {
-                    "form": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "att": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "def": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "poisson": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-10-31",
                 "time": "22:30",
@@ -41221,6 +41176,51 @@ const siteData = {
                     "goals": {
                         "home": 80,
                         "away": 20
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-10-31",
+                "time": "22:30",
+                "home": "Moreirense",
+                "away": "Estrela",
+                "stadium": "Parque Joaquim de Almeida Freitas",
+                "round": "Pekan 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/215.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/15130.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Moreirense or draw",
+                "comparison": {
+                    "form": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
