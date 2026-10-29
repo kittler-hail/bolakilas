@@ -3,7 +3,7 @@
   "home": "AC Milan",
   "away": "Bologna",
   "statusCode": "FT",
-  "updatedAt": "29/10/2026 06:33 WIB",
+  "updatedAt": "29/10/2026 09:50 WIB",
   "statistics": {
     "home": {
       "possession": 66,
@@ -45,7 +45,7 @@
           "number": 16,
           "name": "M. Maignan",
           "position": "Kiper",
-          "rating": "5.6"
+          "rating": "6.0"
         },
         {
           "number": 23,
@@ -75,7 +75,7 @@
           "number": 80,
           "name": "Y. Musah",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.4"
         },
         {
           "number": 30,
@@ -137,7 +137,7 @@
           "number": 13,
           "name": "S. Bocoum",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "5.9"
         },
         {
           "number": 14,
