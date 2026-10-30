@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-10-30T10:38:15.788Z.
+   API-Football v3) pada 2026-10-30T16:54:19.280Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -501,7 +501,10 @@ const siteData = {
             "away": "Persijap",
             "stadium": "Gelora Bung Tomo Stadium",
             "round": "Pekan 8",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2446.png",
             "awayLogo": "https://media.api-sports.io/football/teams/11132.png",
             "prediction": "2 - 1",
@@ -536,7 +539,45 @@ const siteData = {
                     "home": 63,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "55",
+                    "player": "V. Kalezic",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+2",
+                    "player": "R. Mitrevski",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "12",
+                    "player": "Pirulo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "31",
+                    "player": "R. Pratama",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "59",
+                    "player": "A. Umanailo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "S. Chica",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1703,6 +1744,17 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "team": "Persebaya Surabaya",
+                "logo": "https://media.api-sports.io/football/teams/2446.png",
+                "played": 8,
+                "win": 3,
+                "draw": 4,
+                "lose": 1,
+                "gd": 3,
+                "points": 13
+            },
+            {
+                "rank": 6,
                 "team": "Persepam Madura Utd",
                 "logo": "https://media.api-sports.io/football/teams/2444.png",
                 "played": 7,
@@ -1713,7 +1765,7 @@ const siteData = {
                 "points": 13
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Persita",
                 "logo": "https://media.api-sports.io/football/teams/4244.png",
                 "played": 6,
@@ -1724,29 +1776,29 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 7,
-                "team": "Persebaya Surabaya",
-                "logo": "https://media.api-sports.io/football/teams/2446.png",
-                "played": 7,
-                "win": 3,
-                "draw": 3,
-                "lose": 1,
-                "gd": 3,
-                "points": 12
-            },
-            {
                 "rank": 8,
                 "team": "Bhayangkara FC",
                 "logo": "https://media.api-sports.io/football/teams/2443.png",
-                "played": 7,
+                "played": 8,
                 "win": 2,
                 "draw": 5,
-                "lose": 0,
-                "gd": 3,
+                "lose": 1,
+                "gd": 1,
                 "points": 11
             },
             {
                 "rank": 9,
+                "team": "Java United",
+                "logo": "https://media.api-sports.io/football/teams/22409.png",
+                "played": 8,
+                "win": 3,
+                "draw": 3,
+                "lose": 2,
+                "gd": 2,
+                "points": 10
+            },
+            {
+                "rank": 10,
                 "team": "Persik Kediri",
                 "logo": "https://media.api-sports.io/football/teams/4241.png",
                 "played": 7,
@@ -1757,7 +1809,7 @@ const siteData = {
                 "points": 10
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Arema FC",
                 "logo": "https://media.api-sports.io/football/teams/2438.png",
                 "played": 7,
@@ -1768,7 +1820,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
                 "played": 6,
@@ -1779,7 +1831,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "PSM Makassar",
                 "logo": "https://media.api-sports.io/football/teams/2441.png",
                 "played": 7,
@@ -1788,17 +1840,6 @@ const siteData = {
                 "lose": 2,
                 "gd": -3,
                 "points": 9
-            },
-            {
-                "rank": 13,
-                "team": "Java United",
-                "logo": "https://media.api-sports.io/football/teams/22409.png",
-                "played": 7,
-                "win": 2,
-                "draw": 3,
-                "lose": 2,
-                "gd": 0,
-                "points": 7
             },
             {
                 "rank": 14,
@@ -1848,16 +1889,16 @@ const siteData = {
                 "rank": 18,
                 "team": "Persijap",
                 "logo": "https://media.api-sports.io/football/teams/11132.png",
-                "played": 7,
+                "played": 8,
                 "win": 0,
-                "draw": 1,
+                "draw": 2,
                 "lose": 6,
                 "gd": -12,
-                "points": 1
+                "points": 2
             }
         ]
     },
-    "standingsUpdated": "30/10/2026 17:38 WIB",
+    "standingsUpdated": "30/10/2026 23:54 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -4647,8 +4688,8 @@ const siteData = {
             {
                 "player": "A. Gorosabel",
                 "photo": "https://media.api-sports.io/football/players/47299.png",
-                "reason": "Injury",
-                "since": "2026-09-15"
+                "reason": "Coach's decision",
+                "since": "2026-10-30"
             },
             {
                 "player": "L. Cabrera",
@@ -4673,6 +4714,18 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/286601.png",
                 "reason": "Red Card",
                 "since": "2026-09-18"
+            },
+            {
+                "player": "U. Gonzalez",
+                "photo": "https://media.api-sports.io/football/players/183699.png",
+                "reason": "Coach's decision",
+                "since": "2026-10-30"
+            },
+            {
+                "player": "C. Riedel",
+                "photo": "https://media.api-sports.io/football/players/282054.png",
+                "reason": "Coach's decision",
+                "since": "2026-10-30"
             }
         ],
         "levante": [
@@ -8076,7 +8129,7 @@ const siteData = {
                 "player": "I. Doukoure",
                 "photo": "https://media.api-sports.io/football/players/271542.png",
                 "reason": "Injury",
-                "since": "2026-11-01"
+                "since": "2026-10-25"
             },
             {
                 "player": "M. Godo",
@@ -8118,7 +8171,7 @@ const siteData = {
                 "player": "S. Nanasi",
                 "photo": "https://media.api-sports.io/football/players/226803.png",
                 "reason": "Injury",
-                "since": "2026-11-01"
+                "since": "2026-10-25"
             }
         ],
         "nice": [
@@ -38047,6 +38100,51 @@ const siteData = {
                 }
             },
             {
+                "league": "Liga de Expansion MX",
+                "date": "2026-10-31",
+                "time": "08:00",
+                "home": "Correcaminos Uat",
+                "away": "Venados FC",
+                "stadium": "",
+                "round": "Apertura - 15",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Venados FC",
+                "comparison": {
+                    "form": {
+                        "home": 27,
+                        "away": 73
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "poisson": {
+                        "home": 57,
+                        "away": 43
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 38,
+                        "away": 62
+                    }
+                }
+            },
+            {
                 "league": "Liga MX",
                 "date": "2026-10-31",
                 "time": "08:00",
@@ -38139,45 +38237,45 @@ const siteData = {
             {
                 "league": "Liga de Expansion MX",
                 "date": "2026-10-31",
-                "time": "08:00",
-                "home": "Correcaminos Uat",
-                "away": "Venados FC",
-                "stadium": "",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Dorados",
+                "stadium": "Estadio Guaycura",
                 "round": "Apertura - 15",
                 "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2313.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
-                "prediction": "1 - 2",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
+                "prediction": "3 - 1",
                 "odds": {
-                    "home": 10,
+                    "home": 45,
                     "draw": 45,
-                    "away": 45
+                    "away": 10
                 },
-                "advice": "Double chance : draw or Venados FC",
+                "advice": "Combo Double chance : CA La Paz or draw and +1.5 goals",
                 "comparison": {
                     "form": {
-                        "home": 27,
-                        "away": 73
+                        "home": 77,
+                        "away": 23
                     },
                     "att": {
-                        "home": 25,
-                        "away": 75
+                        "home": 68,
+                        "away": 32
                     },
                     "def": {
-                        "home": 50,
-                        "away": 50
+                        "home": 67,
+                        "away": 33
                     },
                     "poisson": {
-                        "home": 57,
-                        "away": 43
+                        "home": 53,
+                        "away": 47
                     },
                     "h2h": {
-                        "home": 50,
-                        "away": 50
+                        "home": 62,
+                        "away": 38
                     },
                     "goals": {
-                        "home": 38,
-                        "away": 62
+                        "home": 46,
+                        "away": 54
                     }
                 }
             },
@@ -38223,51 +38321,6 @@ const siteData = {
                     "goals": {
                         "home": 23,
                         "away": 77
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-10-31",
-                "time": "10:00",
-                "home": "CA La Paz",
-                "away": "Dorados",
-                "stadium": "Estadio Guaycura",
-                "round": "Apertura - 15",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2297.png",
-                "prediction": "3 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Combo Double chance : CA La Paz or draw and +1.5 goals",
-                "comparison": {
-                    "form": {
-                        "home": 77,
-                        "away": 23
-                    },
-                    "att": {
-                        "home": 68,
-                        "away": 32
-                    },
-                    "def": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "poisson": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "h2h": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "goals": {
-                        "home": 46,
-                        "away": 54
                     }
                 }
             },
@@ -39352,51 +39405,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Primeira Liga",
-                "date": "2026-10-31",
-                "time": "22:30",
-                "home": "Moreirense",
-                "away": "Estrela",
-                "stadium": "Parque Joaquim Almeida Freitas",
-                "round": "Pekan 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/215.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/15130.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Moreirense or draw",
-                "comparison": {
-                    "form": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "att": {
-                        "home": 58,
-                        "away": 42
-                    },
-                    "def": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "poisson": {
-                        "home": 42,
-                        "away": 58
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Eredivisie",
                 "date": "2026-10-31",
                 "time": "22:30",
@@ -39438,6 +39446,51 @@ const siteData = {
                     "goals": {
                         "home": 80,
                         "away": 20
+                    }
+                }
+            },
+            {
+                "league": "Primeira Liga",
+                "date": "2026-10-31",
+                "time": "22:30",
+                "home": "Moreirense",
+                "away": "Estrela",
+                "stadium": "Parque Joaquim Almeida Freitas",
+                "round": "Pekan 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/215.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/15130.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Moreirense or draw",
+                "comparison": {
+                    "form": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "att": {
+                        "home": 58,
+                        "away": 42
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 42,
+                        "away": 58
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
@@ -41230,8 +41283,8 @@ const siteData = {
                         "away": 58
                     },
                     "poisson": {
-                        "home": 45,
-                        "away": 55
+                        "home": 44,
+                        "away": 56
                     },
                     "h2h": {
                         "home": 100,
