@@ -3,7 +3,7 @@
   "home": "Frosinone",
   "away": "Lecce",
   "statusCode": "FT",
-  "updatedAt": "30/10/2026 04:13 WIB",
+  "updatedAt": "30/10/2026 08:07 WIB",
   "statistics": {
     "home": {
       "possession": 60,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 17,
       "shotsOutsidebox": 9,
-      "passesTotal": 365,
-      "passesAccurate": 260,
+      "passesTotal": 364,
+      "passesAccurate": 257,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 9,
       "shotsOutsidebox": 6,
-      "passesTotal": 247,
-      "passesAccurate": 145,
+      "passesTotal": 248,
+      "passesAccurate": 146,
       "passesPct": null
     }
   },
@@ -45,19 +45,19 @@
           "number": 22,
           "name": "L. Palmisani",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 20,
           "name": "A. Oyono",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 3,
           "name": "G. Calvani",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 30,
@@ -87,7 +87,7 @@
           "number": 7,
           "name": "F. Ghedjemis",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 10,
@@ -173,7 +173,7 @@
           "number": 74,
           "name": "Omar Fayed",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.3"
         },
         {
           "number": 40,
@@ -185,7 +185,7 @@
           "number": 70,
           "name": "L. Hasa",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 73,
@@ -245,7 +245,7 @@
           "number": 79,
           "name": "O. Ngom",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "5.8"
         },
         {
           "number": 25,
@@ -269,7 +269,7 @@
           "number": 22,
           "name": "Paco Esteban",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.6"
         }
       ],
       "substitutes": [
@@ -313,7 +313,7 @@
           "number": 7,
           "name": "A. Ahmed Fatah",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 2,
@@ -337,7 +337,7 @@
           "number": 9,
           "name": "N. Štulić",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.4"
         }
       ]
     }
