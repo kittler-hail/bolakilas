@@ -3,21 +3,21 @@
   "home": "Chelsea",
   "away": "Manchester United",
   "statusCode": "FT",
-  "updatedAt": "31/10/2026 21:43 WIB",
+  "updatedAt": "01/11/2026 01:50 WIB",
   "statistics": {
     "home": {
       "possession": 59,
-      "shotsTotal": 18,
-      "shotsOnTarget": 9,
+      "shotsTotal": 19,
+      "shotsOnTarget": 10,
       "corners": 8,
       "fouls": 8,
       "offsides": 3,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 13,
-      "shotsOutsidebox": 5,
-      "passesTotal": 542,
-      "passesAccurate": 479,
+      "shotsOutsidebox": 6,
+      "passesTotal": 561,
+      "passesAccurate": 496,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 1,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 5,
-      "passesTotal": 379,
-      "passesAccurate": 293,
+      "passesTotal": 396,
+      "passesAccurate": 308,
       "passesPct": null
     }
   },
@@ -45,25 +45,25 @@
           "number": 39,
           "name": "M. Penders",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "7.6"
         },
         {
           "number": 34,
           "name": "Joshua Kofi Acheampong",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 3,
           "name": "W. Fofana",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 6,
           "name": "L. Colwill",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 2,
@@ -81,19 +81,19 @@
           "number": 25,
           "name": "M. Caicedo",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "7.1"
         },
         {
           "number": 41,
           "name": "Estêvão",
           "position": "Gelandang",
-          "rating": "7.0"
+          "rating": "7.3"
         },
         {
           "number": 10,
           "name": "C. Palmer",
           "position": "Gelandang",
-          "rating": "7.3"
+          "rating": "7.5"
         },
         {
           "number": 17,
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "S. Lammens",
           "position": "Kiper",
-          "rating": "7.3"
+          "rating": "7.6"
         },
         {
           "number": 15,
@@ -185,19 +185,19 @@
           "number": 5,
           "name": "H. Maguire",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "5.9"
         },
         {
           "number": 6,
           "name": "Lisandro Martínez",
           "position": "Bek",
-          "rating": "5.2"
+          "rating": "5.1"
         },
         {
           "number": 2,
           "name": "Diogo Dalot",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.0"
         },
         {
           "number": 17,
@@ -227,13 +227,13 @@
           "number": 10,
           "name": "Matheus Cunha",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "5.8"
         },
         {
           "number": 19,
           "name": "B. Mbeumo",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.5"
         }
       ],
       "substitutes": [
