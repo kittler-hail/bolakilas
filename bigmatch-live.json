@@ -3,7 +3,7 @@
   "home": "Chelsea",
   "away": "Manchester United",
   "statusCode": "NS",
-  "updatedAt": "31/10/2026 09:18 WIB",
+  "updatedAt": "31/10/2026 15:34 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,9 +14,9 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.95",
+    "home": "2.00",
     "draw": "3.60",
-    "away": "3.60",
+    "away": "3.40",
     "overUnder": null,
     "btts": {
       "yes": "1.55",
