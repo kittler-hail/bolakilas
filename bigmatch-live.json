@@ -3,7 +3,7 @@
   "home": "Tottenham",
   "away": "Crystal Palace",
   "statusCode": "FT",
-  "updatedAt": "01/11/2026 05:07 WIB",
+  "updatedAt": "01/11/2026 08:08 WIB",
   "statistics": {
     "home": {
       "possession": 79,
@@ -14,10 +14,10 @@
       "offsides": 2,
       "yellowCards": 1,
       "redCards": 0,
-      "shotsInsidebox": 23,
-      "shotsOutsidebox": 11,
-      "passesTotal": 814,
-      "passesAccurate": 758,
+      "shotsInsidebox": 24,
+      "shotsOutsidebox": 10,
+      "passesTotal": 815,
+      "passesAccurate": 759,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 1,
       "shotsInsidebox": 1,
       "shotsOutsidebox": 1,
-      "passesTotal": 220,
-      "passesAccurate": 150,
+      "passesTotal": 223,
+      "passesAccurate": 151,
       "passesPct": null
     }
   },
@@ -63,7 +63,7 @@
           "number": 37,
           "name": "M. van de Ven",
           "position": "Bek",
-          "rating": "7.3"
+          "rating": "7.4"
         },
         {
           "number": 3,
@@ -131,7 +131,7 @@
           "number": 8,
           "name": "C. Gallagher",
           "position": "Gelandang",
-          "rating": "7.6"
+          "rating": "7.0"
         },
         {
           "number": 33,
@@ -191,7 +191,7 @@
           "number": 6,
           "name": "J. Canvot",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 30,
@@ -209,19 +209,19 @@
           "number": 18,
           "name": "D. Kamada",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.0"
         },
         {
           "number": 3,
           "name": "T. Mitchell",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 11,
           "name": "D. McNeil",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.0"
         },
         {
           "number": 10,
@@ -253,7 +253,7 @@
           "number": 24,
           "name": "D. Osorio",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.1"
         },
         {
           "number": 28,
@@ -265,13 +265,13 @@
           "number": 19,
           "name": "W. Hughes",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 25,
           "name": "A. Khalaili",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.6"
         },
         {
           "number": 8,
