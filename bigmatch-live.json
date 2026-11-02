@@ -3,7 +3,7 @@
   "home": "Elche",
   "away": "Valencia",
   "statusCode": "FT",
-  "updatedAt": "02/11/2026 09:01 WIB",
+  "updatedAt": "02/11/2026 16:22 WIB",
   "statistics": {
     "home": {
       "possession": 69,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 11,
       "shotsOutsidebox": 5,
-      "passesTotal": 617,
-      "passesAccurate": 557,
+      "passesTotal": 616,
+      "passesAccurate": 558,
       "passesPct": null
     },
     "away": {
@@ -75,7 +75,7 @@
           "number": 11,
           "name": "Germán Valera",
           "position": "Bek",
-          "rating": "5.9"
+          "rating": "6.7"
         },
         {
           "number": 12,
@@ -105,7 +105,7 @@
           "number": 14,
           "name": "Fer Niño",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.0"
         }
       ],
       "substitutes": [
