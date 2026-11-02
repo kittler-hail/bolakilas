@@ -3,7 +3,7 @@
   "home": "Elche",
   "away": "Valencia",
   "statusCode": "FT",
-  "updatedAt": "02/11/2026 05:50 WIB",
+  "updatedAt": "02/11/2026 09:01 WIB",
   "statistics": {
     "home": {
       "possession": 69,
@@ -105,7 +105,7 @@
           "number": 14,
           "name": "Fer Niño",
           "position": "Penyerang",
-          "rating": "6.0"
+          "rating": "6.7"
         }
       ],
       "substitutes": [
@@ -265,7 +265,7 @@
           "number": 4,
           "name": "M. Diakhaby",
           "position": "Bek",
-          "rating": "6.1"
+          "rating": "6.8"
         },
         {
           "number": 15,
@@ -289,7 +289,7 @@
           "number": 19,
           "name": "Dani Raba",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 13,
@@ -313,7 +313,7 @@
           "number": 23,
           "name": "F. Ugrinic",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.1"
         },
         {
           "number": 21,
