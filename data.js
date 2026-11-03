@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-03T18:52:49.486Z.
+   API-Football v3) pada 2026-11-03T23:49:03.310Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,10 +24,10 @@ const siteData = {
         "stadium": "Stamford Bridge",
         "prediction": "1 - 2",
         "analysis": "Shakhtar Donetsk bertemu Sporting CP dalam laga UEFA Champions League. Analisis API-Football: Double chance : draw or Sporting CP.",
-        "statusCode": "2H",
-        "minuteDisplay": "50'",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
         "homeScore": 0,
-        "awayScore": 0,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -47,7 +47,7 @@ const siteData = {
             {
                 "home": "Shakhtar Donetsk",
                 "away": "Sporting CP",
-                "score": "0-0"
+                "score": "0-1"
             }
         ],
         "form": {
@@ -90,10 +90,10 @@ const siteData = {
             "away": "Sporting CP",
             "stadium": "Stamford Bridge",
             "round": "League Stage - 4",
-            "statusCode": "2H",
-            "minuteDisplay": "50'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/550.png",
             "awayLogo": "https://media.api-sports.io/football/teams/228.png",
             "prediction": "1 - 2",
@@ -128,7 +128,28 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "59",
+                    "player": "Issa Doumbia",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "66",
+                    "player": "Maximiliano Araujo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "Isaque",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -138,8 +159,8 @@ const siteData = {
             "away": "VfB Stuttgart",
             "stadium": "Rams Park",
             "round": "League Stage - 4",
-            "statusCode": "2H",
-            "minuteDisplay": "47'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 2,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/645.png",
@@ -213,6 +234,30 @@ const siteData = {
                     "player": "Yanik Spalt",
                     "team": "away",
                     "type": "yellow"
+                },
+                {
+                    "minute": "61",
+                    "player": "Grischa Prömel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "62",
+                    "player": "Roland Sallai",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Ramon Hendriks",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Lucas Torreira",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -224,7 +269,10 @@ const siteData = {
             "away": "AS Roma",
             "stadium": "Old Trafford",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/33.png",
             "awayLogo": "https://media.api-sports.io/football/teams/497.png",
             "prediction": "3 - 2",
@@ -259,7 +307,84 @@ const siteData = {
                     "home": 62,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Matias Soule",
+                    "team": "away"
+                },
+                {
+                    "minute": "17",
+                    "player": "Donyell Malen",
+                    "team": "away"
+                },
+                {
+                    "minute": "58",
+                    "player": "Bruno Fernandes",
+                    "team": "home"
+                },
+                {
+                    "minute": "83",
+                    "player": "Matheus Cunha",
+                    "team": "home"
+                },
+                {
+                    "minute": "86",
+                    "player": "Matheus Cunha",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "Matias Soule",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "20",
+                    "player": "Bruno Fernandes",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "35",
+                    "player": "Emanuele Lulli",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "42",
+                    "player": "Donyell Malen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Ayden Heaven",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Harry Maguire",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Matheus Cunha",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Matheus Cunha",
+                    "team": "home",
+                    "type": "red"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -269,7 +394,10 @@ const siteData = {
             "away": "Inter",
             "stadium": "Stadion Feijenoord",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/209.png",
             "awayLogo": "https://media.api-sports.io/football/teams/505.png",
             "prediction": "2 - 3",
@@ -304,7 +432,44 @@ const siteData = {
                     "home": 20,
                     "away": 80
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "8",
+                    "player": "Yann Bisseck",
+                    "team": "away"
+                },
+                {
+                    "minute": "34",
+                    "player": "Pio Esposito",
+                    "team": "away"
+                },
+                {
+                    "minute": "54",
+                    "player": "Piotr Zieliński",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "3",
+                    "player": "Hakan Çalhanoğlu",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "Manuel Akanji",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "39",
+                    "player": "Gjivai Zechiel",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -314,7 +479,10 @@ const siteData = {
             "away": "Lille",
             "stadium": "Aspmyra Stadion",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/327.png",
             "awayLogo": "https://media.api-sports.io/football/teams/79.png",
             "prediction": "3 - 2",
@@ -349,7 +517,21 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "76",
+                    "player": "Kjetil Knutsen",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "83",
+                    "player": "Nathan Ngoy",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -359,7 +541,10 @@ const siteData = {
             "away": "Aston Villa",
             "stadium": "Spotify Camp Nou",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/529.png",
             "awayLogo": "https://media.api-sports.io/football/teams/66.png",
             "prediction": "2 - 3",
@@ -394,7 +579,50 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "7",
+                    "player": "Lamine Yamal",
+                    "team": "home"
+                },
+                {
+                    "minute": "52",
+                    "player": "Raphael Dias Belloli",
+                    "team": "home"
+                },
+                {
+                    "minute": "64",
+                    "player": "Raphael Dias Belloli",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "11",
+                    "player": "Ian Maatsen",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "31",
+                    "player": "Emiliano Buendía",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Nicolas Jackson",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "45",
+                    "player": "Raphael Dias Belloli",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -404,7 +632,10 @@ const siteData = {
             "away": "Bayern München",
             "stadium": "Riyadh Air Metropolitano",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/530.png",
             "awayLogo": "https://media.api-sports.io/football/teams/157.png",
             "prediction": "2 - 3",
@@ -439,7 +670,39 @@ const siteData = {
                     "home": 27,
                     "away": 73
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "54",
+                    "player": "Lennart Karl",
+                    "team": "away"
+                },
+                {
+                    "minute": "74",
+                    "player": "Konrad Laimer",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "56",
+                    "player": "Joshua Kimmich",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "79",
+                    "player": "Giuliano Simeone Baldini",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Josip Stanišić",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -449,7 +712,10 @@ const siteData = {
             "away": "Paris Saint Germain",
             "stadium": "Estadio de la Cerámica",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 6,
             "homeLogo": "https://media.api-sports.io/football/teams/533.png",
             "awayLogo": "https://media.api-sports.io/football/teams/85.png",
             "prediction": "2 - 4",
@@ -484,7 +750,71 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "9",
+                    "player": "João Neves",
+                    "team": "away"
+                },
+                {
+                    "minute": "12",
+                    "player": "Désiré Doue",
+                    "team": "away"
+                },
+                {
+                    "minute": "13",
+                    "player": "Senny Mayulu",
+                    "team": "away"
+                },
+                {
+                    "minute": "17",
+                    "player": "Fabián Ruiz",
+                    "team": "away"
+                },
+                {
+                    "minute": "50",
+                    "player": "Fabián Ruiz",
+                    "team": "away"
+                },
+                {
+                    "minute": "78",
+                    "player": "David Boly",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45",
+                    "player": "Santi Comesaña",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "Álvaro Santiago Mouriño González",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "66",
+                    "player": "Sergi Cardona Bermúdez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "Quentin Ndjantou",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "78",
+                    "player": "Alberto Moleiro",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Champions League",
@@ -494,7 +824,10 @@ const siteData = {
             "away": "Slovan Bratislava",
             "stadium": "Raiffeisen Arena",
             "round": "League Stage - 4",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 4,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/1026.png",
             "awayLogo": "https://media.api-sports.io/football/teams/656.png",
             "prediction": "3 - 2",
@@ -529,7 +862,43 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "19",
+                    "player": "Kasper Jorgensen",
+                    "team": "home"
+                },
+                {
+                    "minute": "37",
+                    "player": "Kasper Jorgensen",
+                    "team": "home"
+                },
+                {
+                    "minute": "44",
+                    "player": "Robert Ljubicic",
+                    "team": "home"
+                },
+                {
+                    "minute": "48",
+                    "player": "Samuel Adeniran",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "25",
+                    "player": "Cristian Martínez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "36",
+                    "player": "Kevin Wimmer",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Europa League",
@@ -1895,7 +2264,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/11/2026 01:52 WIB",
+    "standingsUpdated": "04/11/2026 06:49 WIB",
     "topScorers": {
         "Premier League": [
             {
