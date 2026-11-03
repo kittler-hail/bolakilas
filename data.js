@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-03T03:12:29.499Z.
+   API-Football v3) pada 2026-11-03T11:30:17.684Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -73,31 +73,31 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "L",
                     "W",
                     "L",
                     "L",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 2,
-                "failedToScore": 1,
+                "failedToScore": 2,
                 "goalsFor": 12,
-                "goalsAgainst": 14,
+                "goalsAgainst": 15,
                 "winStreak": 1,
                 "attack": 67,
                 "defense": 38
             },
             "away": {
                 "results": [
-                    "D",
                     "W",
                     "D",
                     "L",
-                    "L"
+                    "L",
+                    "W"
                 ],
-                "cleanSheets": 3,
+                "cleanSheets": 4,
                 "failedToScore": 3,
-                "goalsFor": 8,
+                "goalsFor": 9,
                 "goalsAgainst": 9,
                 "winStreak": 1,
                 "attack": 33,
@@ -182,14 +182,14 @@ const siteData = {
             ],
             "cards": [
                 {
-                    "minute": "39",
-                    "player": "P. Mendes",
+                    "minute": "40",
+                    "player": "Pedro Mendes",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "47",
-                    "player": "B. Ozyurt",
+                    "player": "Bedirhan Özyurt",
                     "team": "away",
                     "type": "yellow"
                 },
@@ -201,7 +201,7 @@ const siteData = {
                 },
                 {
                     "minute": "88",
-                    "player": "O. Ben Ali",
+                    "player": "Omar Ben Ali",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -2116,7 +2116,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "03/11/2026 10:12 WIB",
+    "standingsUpdated": "03/11/2026 18:30 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -2185,19 +2185,19 @@ const siteData = {
             },
             {
                 "rank": 9,
+                "name": "T. Barry",
+                "photo": "https://media.api-sports.io/football/players/343684.png",
+                "team": "Everton",
+                "teamLogo": "https://media.api-sports.io/football/teams/45.png",
+                "value": 4
+            },
+            {
+                "rank": 10,
                 "name": "B. Mbeumo",
                 "photo": "https://media.api-sports.io/football/players/20589.png",
                 "team": "Manchester United",
                 "teamLogo": "https://media.api-sports.io/football/teams/33.png",
                 "value": 4
-            },
-            {
-                "rank": 10,
-                "name": "C. Kostoulas",
-                "photo": "https://media.api-sports.io/football/players/392482.png",
-                "team": "Brighton",
-                "teamLogo": "https://media.api-sports.io/football/teams/51.png",
-                "value": 3
             }
         ],
         "LaLiga": [
@@ -2235,18 +2235,18 @@ const siteData = {
             },
             {
                 "rank": 5,
-                "name": "Sergio Camello",
-                "photo": "https://media.api-sports.io/football/players/52.png",
-                "team": "Rayo Vallecano",
-                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
-                "value": 7
-            },
-            {
-                "rank": 6,
                 "name": "A. Budimir",
                 "photo": "https://media.api-sports.io/football/players/46746.png",
                 "team": "Osasuna",
                 "teamLogo": "https://media.api-sports.io/football/teams/727.png",
+                "value": 8
+            },
+            {
+                "rank": 6,
+                "name": "Sergio Camello",
+                "photo": "https://media.api-sports.io/football/players/52.png",
+                "team": "Rayo Vallecano",
+                "teamLogo": "https://media.api-sports.io/football/teams/728.png",
                 "value": 7
             },
             {
@@ -2431,18 +2431,18 @@ const siteData = {
             },
             {
                 "rank": 9,
-                "name": "S. Szymański",
-                "photo": "https://media.api-sports.io/football/players/40403.png",
-                "team": "Rennes",
-                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
+                "name": "L. Ajorque",
+                "photo": "https://media.api-sports.io/football/players/22264.png",
+                "team": "Stade Brestois 29",
+                "teamLogo": "https://media.api-sports.io/football/teams/106.png",
                 "value": 4
             },
             {
                 "rank": 10,
-                "name": "E. Nuamah",
-                "photo": "https://media.api-sports.io/football/players/350856.png",
-                "team": "Lyon",
-                "teamLogo": "https://media.api-sports.io/football/teams/80.png",
+                "name": "S. Szymański",
+                "photo": "https://media.api-sports.io/football/players/40403.png",
+                "team": "Rennes",
+                "teamLogo": "https://media.api-sports.io/football/teams/94.png",
                 "value": 4
             }
         ],
@@ -3354,8 +3354,8 @@ const siteData = {
             {
                 "player": "W. Osula",
                 "photo": "https://media.api-sports.io/football/players/315237.png",
-                "reason": "Ankle Injury",
-                "since": "2026-11-02"
+                "reason": "Foot Injury",
+                "since": "2026-09-19"
             },
             {
                 "player": "A. Elanga",
@@ -4801,7 +4801,7 @@ const siteData = {
                 "player": "P. Aubameyang",
                 "photo": "https://media.api-sports.io/football/players/1465.png",
                 "reason": "Knee Injury",
-                "since": "2026-11-02"
+                "since": "2026-10-24"
             },
             {
                 "player": "Z. Eddahchouri",
@@ -6388,12 +6388,6 @@ const siteData = {
                 "since": "2026-10-31"
             },
             {
-                "player": "R. Loftus-Cheek",
-                "photo": "https://media.api-sports.io/football/players/2292.png",
-                "reason": "Thigh Injury",
-                "since": "2026-10-31"
-            },
-            {
                 "player": "M. Gila",
                 "photo": "https://media.api-sports.io/football/players/162952.png",
                 "reason": "Ankle Injury",
@@ -6410,6 +6404,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/272.png",
                 "reason": "Calf Injury",
                 "since": "2026-10-28"
+            },
+            {
+                "player": "R. Loftus-Cheek",
+                "photo": "https://media.api-sports.io/football/players/2292.png",
+                "reason": "Thigh Injury",
+                "since": "2026-10-31"
             }
         ],
         "rb-leipzig": [
@@ -8849,7 +8849,7 @@ const siteData = {
                 "player": "G. Versini",
                 "photo": "https://media.api-sports.io/football/players/327697.png",
                 "reason": "Leg Injury",
-                "since": "2026-11-02"
+                "since": "2026-10-23"
             }
         ],
         "angers": [
@@ -9002,16 +9002,16 @@ const siteData = {
                 "since": "2026-10-30"
             },
             {
-                "player": "I. Bouneb",
-                "photo": "https://media.api-sports.io/football/players/395765.png",
-                "reason": "Inactive",
-                "since": "2026-10-30"
-            },
-            {
                 "player": "A. Seko",
                 "photo": "https://media.api-sports.io/football/players/33165.png",
                 "reason": "Red Card",
                 "since": "2026-10-18"
+            },
+            {
+                "player": "I. Bouneb",
+                "photo": "https://media.api-sports.io/football/players/395765.png",
+                "reason": "Inactive",
+                "since": "2026-10-30"
             }
         ],
         "monaco": [
@@ -36763,51 +36763,6 @@ const siteData = {
                 "league": "Liga de Expansion MX",
                 "date": "2026-11-05",
                 "time": "04:00",
-                "home": "Venados FC",
-                "away": "Monarcas",
-                "stadium": "Estadio Carlos Iturralde Rivero",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2311.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Venados FC or draw",
-                "comparison": {
-                    "form": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "att": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "def": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "poisson": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-11-05",
-                "time": "04:00",
                 "home": "Cancún",
                 "away": "Piratas",
                 "stadium": "",
@@ -36936,6 +36891,51 @@ const siteData = {
                     "goals": {
                         "home": 40,
                         "away": 60
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-11-05",
+                "time": "06:00",
+                "home": "Venados FC",
+                "away": "Monarcas",
+                "stadium": "Estadio Carlos Iturralde Rivero",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2311.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2284.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Venados FC or draw",
+                "comparison": {
+                    "form": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 62,
+                        "away": 38
+                    },
+                    "poisson": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             }
