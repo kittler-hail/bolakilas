@@ -3,7 +3,7 @@
   "home": "Shakhtar Donetsk",
   "away": "Sporting CP",
   "statusCode": "FT",
-  "updatedAt": "04/11/2026 05:09 WIB",
+  "updatedAt": "04/11/2026 09:21 WIB",
   "statistics": {
     "home": {
       "possession": 54,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 6,
-      "passesTotal": 438,
-      "passesAccurate": 380,
+      "passesTotal": 441,
+      "passesAccurate": 381,
       "passesPct": null
     },
     "away": {
@@ -32,7 +32,7 @@
       "shotsInsidebox": 8,
       "shotsOutsidebox": 3,
       "passesTotal": 372,
-      "passesAccurate": 319,
+      "passesAccurate": 318,
       "passesPct": null
     }
   },
@@ -69,7 +69,7 @@
           "number": 13,
           "name": "Pedrinho",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.3"
         },
         {
           "number": 29,
@@ -81,7 +81,7 @@
           "number": 30,
           "name": "Alisson Santana",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "6.3"
         },
         {
           "number": 27,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "Kauã Elias",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "5.9"
         }
       ],
       "substitutes": [
@@ -179,7 +179,7 @@
           "number": 2,
           "name": "L. Traoré",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.4"
         }
       ]
     },
@@ -191,13 +191,13 @@
           "number": 1,
           "name": "Rui Silva",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 72,
           "name": "Eduardo Quaresma",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.5"
         },
         {
           "number": 73,
@@ -209,13 +209,13 @@
           "number": 25,
           "name": "Gonçalo Inácio",
           "position": "Bek",
-          "rating": "7.2"
+          "rating": "6.8"
         },
         {
           "number": 10,
           "name": "Geny Catamo",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 4,
@@ -233,7 +233,7 @@
           "number": 20,
           "name": "M. Araújo",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.2"
         },
         {
           "number": 77,
@@ -251,7 +251,7 @@
           "number": 7,
           "name": "F. Ioannidis",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -259,13 +259,13 @@
           "number": 17,
           "name": "R. Zalazar",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.9"
         },
         {
           "number": 8,
           "name": "João Simões",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.0"
         },
         {
           "number": 21,
@@ -307,7 +307,7 @@
           "number": 22,
           "name": "Iván Fresneda",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "6.1"
         },
         {
           "number": 28,
