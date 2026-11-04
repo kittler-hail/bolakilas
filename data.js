@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-04T04:06:29.919Z.
+   API-Football v3) pada 2026-11-04T12:42:20.254Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -613,13 +613,13 @@ const siteData = {
                     "type": "yellow"
                 },
                 {
-                    "minute": "45",
+                    "minute": "44",
                     "player": "Nicolas Jackson",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
-                    "minute": "45",
+                    "minute": "44",
                     "player": "Raphael Dias Belloli",
                     "team": "home",
                     "type": "yellow"
@@ -802,12 +802,6 @@ const siteData = {
                     "minute": "66",
                     "player": "Sergi Cardona Bermúdez",
                     "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "74",
-                    "player": "Quentin Ndjantou",
-                    "team": "away",
                     "type": "yellow"
                 },
                 {
@@ -2266,7 +2260,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "04/11/2026 11:06 WIB",
+    "standingsUpdated": "04/11/2026 19:42 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -36098,8 +36092,8 @@ const siteData = {
                         "away": 61
                     },
                     "poisson": {
-                        "home": 36,
-                        "away": 64
+                        "home": 37,
+                        "away": 63
                     },
                     "h2h": {
                         "home": 0,
@@ -36233,8 +36227,8 @@ const siteData = {
                         "away": 50
                     },
                     "poisson": {
-                        "home": 39,
-                        "away": 61
+                        "home": 40,
+                        "away": 60
                     },
                     "h2h": {
                         "home": 0,
@@ -36308,7 +36302,7 @@ const siteData = {
                     "draw": 45,
                     "away": 45
                 },
-                "advice": "Winner : Club Brugge KV",
+                "advice": "Double chance : draw or Club Brugge KV",
                 "comparison": {
                     "form": {
                         "home": 40,
@@ -36323,8 +36317,8 @@ const siteData = {
                         "away": 25
                     },
                     "poisson": {
-                        "home": 32,
-                        "away": 68
+                        "home": 33,
+                        "away": 67
                     },
                     "h2h": {
                         "home": 20,
@@ -36413,8 +36407,8 @@ const siteData = {
                         "away": 78
                     },
                     "poisson": {
-                        "home": 22,
-                        "away": 78
+                        "home": 23,
+                        "away": 77
                     },
                     "h2h": {
                         "home": 13,
@@ -36458,8 +36452,8 @@ const siteData = {
                         "away": 55
                     },
                     "poisson": {
-                        "home": 59,
-                        "away": 41
+                        "home": 60,
+                        "away": 40
                     },
                     "h2h": {
                         "home": 0,
