@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-05T01:11:35.713Z.
+   API-Football v3) pada 2026-11-05T08:47:35.341Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -53,16 +53,16 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "D",
                     "W",
                     "W",
+                    "L",
                     "L",
                     "L"
                 ],
                 "cleanSheets": 3,
                 "failedToScore": 1,
-                "goalsFor": 7,
-                "goalsAgainst": 8,
+                "goalsFor": 9,
+                "goalsAgainst": 11,
                 "winStreak": 2,
                 "attack": 41,
                 "defense": 38
@@ -71,13 +71,14 @@ const siteData = {
                 "results": [
                     "W",
                     "W",
+                    "W",
                     "W"
                 ],
                 "cleanSheets": 0,
                 "failedToScore": 0,
-                "goalsFor": 10,
-                "goalsAgainst": 5,
-                "winStreak": 3,
+                "goalsFor": 13,
+                "goalsAgainst": 7,
+                "winStreak": 4,
                 "attack": 59,
                 "defense": 62
             }
@@ -280,7 +281,7 @@ const siteData = {
             "time": "02:30",
             "home": "Kortrijk",
             "away": "KV Mechelen",
-            "stadium": "Guldensporenstadion",
+            "stadium": "Guldensporen Stadion",
             "round": "Pekan 9",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -2593,7 +2594,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "05/11/2026 08:11 WIB",
+    "standingsUpdated": "05/11/2026 15:47 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -37854,51 +37855,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Ligue 1",
-                "date": "2026-11-07",
-                "time": "02:45",
-                "home": "Toulouse",
-                "away": "Strasbourg",
-                "stadium": "Stadium Municipal",
-                "round": "Pekan 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/96.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Toulouse or draw",
-                "comparison": {
-                    "form": {
-                        "home": 73,
-                        "away": 27
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 65,
-                        "away": 35
-                    },
-                    "poisson": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "h2h": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "goals": {
-                        "home": 50,
-                        "away": 50
-                    }
-                }
-            },
-            {
                 "league": "Serie A",
                 "date": "2026-11-07",
                 "time": "02:45",
@@ -37940,6 +37896,51 @@ const siteData = {
                     "goals": {
                         "home": 37,
                         "away": 63
+                    }
+                }
+            },
+            {
+                "league": "Ligue 1",
+                "date": "2026-11-07",
+                "time": "02:45",
+                "home": "Toulouse",
+                "away": "Strasbourg",
+                "stadium": "Stadium Municipal",
+                "round": "Pekan 10",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/96.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/95.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Toulouse or draw",
+                "comparison": {
+                    "form": {
+                        "home": 73,
+                        "away": 27
+                    },
+                    "att": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "def": {
+                        "home": 65,
+                        "away": 35
+                    },
+                    "poisson": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "h2h": {
+                        "home": 50,
+                        "away": 50
+                    },
+                    "goals": {
+                        "home": 50,
+                        "away": 50
                     }
                 }
             },
