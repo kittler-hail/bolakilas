@@ -3,7 +3,7 @@
   "home": "AEK Athens FC",
   "away": "Real Madrid",
   "statusCode": "FT",
-  "updatedAt": "05/11/2026 05:51 WIB",
+  "updatedAt": "05/11/2026 10:05 WIB",
   "statistics": {
     "home": {
       "possession": 30,
@@ -16,8 +16,8 @@
       "redCards": 1,
       "shotsInsidebox": 6,
       "shotsOutsidebox": 3,
-      "passesTotal": 274,
-      "passesAccurate": 233,
+      "passesTotal": 277,
+      "passesAccurate": 235,
       "passesPct": null
     },
     "away": {
@@ -185,7 +185,7 @@
           "number": 24,
           "name": "D. Dumfries",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.8"
         },
         {
           "number": 3,
@@ -203,7 +203,7 @@
           "number": 17,
           "name": "Marc Cucurella",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.6"
         },
         {
           "number": 20,
