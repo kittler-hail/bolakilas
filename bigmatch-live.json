@@ -3,7 +3,7 @@
   "home": "AEK Athens FC",
   "away": "Real Madrid",
   "statusCode": "FT",
-  "updatedAt": "05/11/2026 17:47 WIB",
+  "updatedAt": "06/11/2026 01:21 WIB",
   "statistics": {
     "home": {
       "possession": 30,
@@ -143,7 +143,7 @@
           "number": 19,
           "name": "B. Varga",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 21,
@@ -203,7 +203,7 @@
           "number": 17,
           "name": "Marc Cucurella",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 20,
