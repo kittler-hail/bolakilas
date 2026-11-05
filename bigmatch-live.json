@@ -3,7 +3,7 @@
   "home": "AEK Athens FC",
   "away": "Real Madrid",
   "statusCode": "FT",
-  "updatedAt": "05/11/2026 10:05 WIB",
+  "updatedAt": "05/11/2026 17:47 WIB",
   "statistics": {
     "home": {
       "possession": 30,
@@ -16,8 +16,8 @@
       "redCards": 1,
       "shotsInsidebox": 6,
       "shotsOutsidebox": 3,
-      "passesTotal": 277,
-      "passesAccurate": 235,
+      "passesTotal": 275,
+      "passesAccurate": 233,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 17,
       "shotsOutsidebox": 7,
-      "passesTotal": 629,
-      "passesAccurate": 580,
+      "passesTotal": 630,
+      "passesAccurate": 582,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 91,
           "name": "A. Brignoli",
           "position": "Kiper",
-          "rating": "6.9"
+          "rating": "6.5"
         },
         {
           "number": 12,
@@ -81,7 +81,7 @@
           "number": 16,
           "name": "K. Arriaga",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.3"
         },
         {
           "number": 6,
@@ -143,7 +143,7 @@
           "number": 19,
           "name": "B. Varga",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 21,
@@ -197,19 +197,19 @@
           "number": 22,
           "name": "A. Rüdiger",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 17,
           "name": "Marc Cucurella",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 20,
           "name": "Bernardo Silva",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 6,
@@ -221,7 +221,7 @@
           "number": 25,
           "name": "Y. Diomande",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.6"
         },
         {
           "number": 5,
