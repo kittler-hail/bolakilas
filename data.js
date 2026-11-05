@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-05T08:47:35.341Z.
+   API-Football v3) pada 2026-11-05T16:58:48.809Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -1238,7 +1238,10 @@ const siteData = {
             "away": "CA La Paz",
             "stadium": "Estadio Tlahuicole",
             "round": "Quarter-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/14280.png",
             "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
             "prediction": "2 - 3",
@@ -1273,7 +1276,52 @@ const siteData = {
                     "home": 41,
                     "away": 59
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "45+1",
+                    "player": "Ulises Jaimes",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "20",
+                    "player": "",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "73",
+                    "player": "",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "74",
+                    "player": "",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -2594,7 +2642,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "05/11/2026 15:47 WIB",
+    "standingsUpdated": "05/11/2026 23:58 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -37543,7 +37591,7 @@ const siteData = {
                 "time": "08:00",
                 "home": "Cancún",
                 "away": "Piratas",
-                "stadium": "",
+                "stadium": "Estadio Olimpico Andres Quintana Roo",
                 "round": "Quarter-finals",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/14276.png",
@@ -39336,51 +39384,6 @@ const siteData = {
                     "goals": {
                         "home": 50,
                         "away": 50
-                    }
-                }
-            },
-            {
-                "league": "Ligue 1",
-                "date": "2026-11-07",
-                "time": "23:15",
-                "home": "Auxerre",
-                "away": "Paris FC",
-                "stadium": "Stade de l'Abbé-Deschamps",
-                "round": "Pekan 10",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/108.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/114.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Auxerre or draw",
-                "comparison": {
-                    "form": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "att": {
-                        "home": 44,
-                        "away": 56
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 49,
-                        "away": 51
-                    },
-                    "h2h": {
-                        "home": 75,
-                        "away": 25
-                    },
-                    "goals": {
-                        "home": 83,
-                        "away": 17
                     }
                 }
             }
