@@ -2,10 +2,298 @@
   "fixtureId": 1557460,
   "home": "Everton",
   "away": "Coventry",
-  "statusCode": "NS",
-  "updatedAt": "07/11/2026 01:28 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "FT",
+  "updatedAt": "07/11/2026 06:28 WIB",
+  "statistics": {
+    "home": {
+      "possession": 47,
+      "shotsTotal": 16,
+      "shotsOnTarget": 7,
+      "corners": 2,
+      "fouls": 9,
+      "offsides": 1,
+      "yellowCards": 1,
+      "redCards": 0,
+      "shotsInsidebox": 13,
+      "shotsOutsidebox": 3,
+      "passesTotal": 424,
+      "passesAccurate": 344,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 53,
+      "shotsTotal": 15,
+      "shotsOnTarget": 4,
+      "corners": 2,
+      "fouls": 6,
+      "offsides": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "shotsInsidebox": 8,
+      "shotsOutsidebox": 7,
+      "passesTotal": 438,
+      "passesAccurate": 353,
+      "passesPct": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "D. Moyes",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "J. Pickford",
+          "position": "Kiper",
+          "rating": "6.8"
+        },
+        {
+          "number": 34,
+          "name": "M. Röhl",
+          "position": "Bek",
+          "rating": "7.1"
+        },
+        {
+          "number": 6,
+          "name": "J. Tarkowski",
+          "position": "Bek",
+          "rating": "6.4"
+        },
+        {
+          "number": 4,
+          "name": "J. Branthwaite",
+          "position": "Bek",
+          "rating": "6.9"
+        },
+        {
+          "number": 16,
+          "name": "V. Mykolenko",
+          "position": "Bek",
+          "rating": "7.6"
+        },
+        {
+          "number": 45,
+          "name": "H. Armstrong",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 37,
+          "name": "J. Garner",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 20,
+          "name": "T. Dibling",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 8,
+          "name": "K. Dewsbury-Hall",
+          "position": "Gelandang",
+          "rating": "8.0"
+        },
+        {
+          "number": 19,
+          "name": "Tyrique George",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 11,
+          "name": "T. Barry",
+          "position": "Penyerang",
+          "rating": "9.2"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 58,
+          "name": "B. Graham",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "B. Johnson",
+          "position": "Penyerang",
+          "rating": "6.7"
+        },
+        {
+          "number": 30,
+          "name": "H. Hackney",
+          "position": "Gelandang",
+          "rating": "6.1"
+        },
+        {
+          "number": 24,
+          "name": "C. Alcaraz",
+          "position": "Gelandang",
+          "rating": "6.2"
+        },
+        {
+          "number": 23,
+          "name": "C. Nørgaard",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 15,
+          "name": "J. O&apos;Brien",
+          "position": "Bek",
+          "rating": "6.6"
+        },
+        {
+          "number": 5,
+          "name": "M. Keane",
+          "position": "Bek",
+          "rating": "6.3"
+        },
+        {
+          "number": 2,
+          "name": "A. Maitland-Niles",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 12,
+          "name": "M. Travers",
+          "position": "Kiper",
+          "rating": "0.0"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "F. Lampard",
+      "startXI": [
+        {
+          "number": 19,
+          "name": "C. Rushworth",
+          "position": "Kiper",
+          "rating": "6.0"
+        },
+        {
+          "number": 27,
+          "name": "M. van Ewijk",
+          "position": "Bek",
+          "rating": "6.4"
+        },
+        {
+          "number": 12,
+          "name": "S. Mfuni",
+          "position": "Bek",
+          "rating": "6.2"
+        },
+        {
+          "number": 2,
+          "name": "E. Pinnock",
+          "position": "Bek",
+          "rating": "5.6"
+        },
+        {
+          "number": 3,
+          "name": "J. Dasilva",
+          "position": "Bek",
+          "rating": "6.6"
+        },
+        {
+          "number": 29,
+          "name": "V. Torp",
+          "position": "Gelandang",
+          "rating": "6.6"
+        },
+        {
+          "number": 8,
+          "name": "Caleb Marfo Yirenkyi",
+          "position": "Gelandang",
+          "rating": "5.8"
+        },
+        {
+          "number": 7,
+          "name": "T. Sakamoto",
+          "position": "Gelandang",
+          "rating": "6.1"
+        },
+        {
+          "number": 5,
+          "name": "J. Rudoni",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 34,
+          "name": "Y. Gboho",
+          "position": "Gelandang",
+          "rating": "7.4"
+        },
+        {
+          "number": 14,
+          "name": "T. Awoniyi",
+          "position": "Penyerang",
+          "rating": "6.2"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 23,
+          "name": "B. Thomas-Asante",
+          "position": "Penyerang",
+          "rating": "6.3"
+        },
+        {
+          "number": 49,
+          "name": "S. Cherif",
+          "position": "Penyerang",
+          "rating": "6.3"
+        },
+        {
+          "number": 25,
+          "name": "D. Bentley",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 20,
+          "name": "K. Kesler-Hayden",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "J. Latibeaudiere",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 6,
+          "name": "M. Grimes",
+          "position": "Gelandang",
+          "rating": "5.9"
+        },
+        {
+          "number": 17,
+          "name": "L. Tchaouna",
+          "position": "Penyerang",
+          "rating": "6.5"
+        },
+        {
+          "number": 38,
+          "name": "G. Hamer",
+          "position": "Gelandang",
+          "rating": "5.9"
+        },
+        {
+          "number": 9,
+          "name": "E. Simms",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Hill Dickinson Stadium",
     "city": "Liverpool, Merseyside",
