@@ -3,7 +3,7 @@
   "home": "Nottingham Forest",
   "away": "Manchester City",
   "statusCode": "FT",
-  "updatedAt": "08/11/2026 03:27 WIB",
+  "updatedAt": "08/11/2026 06:53 WIB",
   "statistics": {
     "home": {
       "possession": 22,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 4,
-      "passesTotal": 206,
-      "passesAccurate": 138,
+      "passesTotal": 208,
+      "passesAccurate": 137,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 10,
       "shotsOutsidebox": 2,
-      "passesTotal": 753,
-      "passesAccurate": 665,
+      "passesTotal": 771,
+      "passesAccurate": 679,
       "passesPct": null
     }
   },
@@ -45,7 +45,7 @@
           "number": 26,
           "name": "M. Sels",
           "position": "Kiper",
-          "rating": "6.0"
+          "rating": "5.9"
         },
         {
           "number": 23,
@@ -63,19 +63,19 @@
           "number": 5,
           "name": "Murillo",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.9"
         },
         {
           "number": 27,
           "name": "D. Muñoz",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "6.2"
         },
         {
           "number": 22,
           "name": "R. Yates",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.1"
         },
         {
           "number": 21,
@@ -87,13 +87,13 @@
           "number": 3,
           "name": "N. Williams",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 24,
           "name": "J. McAtee",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.5"
         },
         {
           "number": 10,
