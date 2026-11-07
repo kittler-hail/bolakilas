@@ -3,21 +3,21 @@
   "home": "Everton",
   "away": "Coventry",
   "statusCode": "FT",
-  "updatedAt": "07/11/2026 06:28 WIB",
+  "updatedAt": "07/11/2026 10:08 WIB",
   "statistics": {
     "home": {
       "possession": 47,
-      "shotsTotal": 16,
+      "shotsTotal": 15,
       "shotsOnTarget": 7,
       "corners": 2,
-      "fouls": 9,
+      "fouls": 10,
       "offsides": 1,
       "yellowCards": 1,
       "redCards": 0,
       "shotsInsidebox": 13,
-      "shotsOutsidebox": 3,
-      "passesTotal": 424,
-      "passesAccurate": 344,
+      "shotsOutsidebox": 2,
+      "passesTotal": 438,
+      "passesAccurate": 356,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 7,
-      "passesTotal": 438,
-      "passesAccurate": 353,
+      "passesTotal": 451,
+      "passesAccurate": 360,
       "passesPct": null
     }
   },
@@ -51,7 +51,7 @@
           "number": 34,
           "name": "M. Röhl",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 6,
@@ -69,13 +69,13 @@
           "number": 16,
           "name": "V. Mykolenko",
           "position": "Bek",
-          "rating": "7.6"
+          "rating": "7.3"
         },
         {
           "number": 45,
           "name": "H. Armstrong",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 37,
@@ -87,7 +87,7 @@
           "number": 20,
           "name": "T. Dibling",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 8,
@@ -99,13 +99,13 @@
           "number": 19,
           "name": "Tyrique George",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 11,
           "name": "T. Barry",
           "position": "Penyerang",
-          "rating": "9.2"
+          "rating": "8.7"
         }
       ],
       "substitutes": [
@@ -131,7 +131,7 @@
           "number": 24,
           "name": "C. Alcaraz",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 23,
@@ -143,7 +143,7 @@
           "number": 15,
           "name": "J. O&apos;Brien",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 5,
@@ -179,7 +179,7 @@
           "number": 27,
           "name": "M. van Ewijk",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.1"
         },
         {
           "number": 12,
@@ -191,13 +191,13 @@
           "number": 2,
           "name": "E. Pinnock",
           "position": "Bek",
-          "rating": "5.6"
+          "rating": "5.5"
         },
         {
           "number": 3,
           "name": "J. Dasilva",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.4"
         },
         {
           "number": 29,
@@ -221,13 +221,13 @@
           "number": 5,
           "name": "J. Rudoni",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.5"
         },
         {
           "number": 34,
           "name": "Y. Gboho",
           "position": "Gelandang",
-          "rating": "7.4"
+          "rating": "7.2"
         },
         {
           "number": 14,
@@ -277,7 +277,7 @@
           "number": 17,
           "name": "L. Tchaouna",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.7"
         },
         {
           "number": 38,
