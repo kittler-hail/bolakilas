@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-06T22:34:49.440Z.
+   API-Football v3) pada 2026-11-07T02:28:47.562Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -75,15 +75,15 @@ const siteData = {
             "away": {
                 "results": [
                     "W",
+                    "L",
+                    "L",
                     "W",
-                    "L",
-                    "L",
-                    "W"
+                    "L"
                 ],
                 "cleanSheets": 1,
                 "failedToScore": 5,
-                "goalsFor": 9,
-                "goalsAgainst": 16,
+                "goalsFor": 10,
+                "goalsAgainst": 19,
                 "winStreak": 2,
                 "attack": 69,
                 "defense": 50
@@ -773,9 +773,9 @@ const siteData = {
             "away": "Arouca",
             "stadium": "Estadio Municipal 22 de Junho",
             "round": "Pekan 11",
-            "statusCode": "2H",
-            "minuteDisplay": "90+3'",
-            "homeScore": 0,
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/242.png",
             "awayLogo": "https://media.api-sports.io/football/teams/240.png",
@@ -812,6 +812,13 @@ const siteData = {
                     "away": 33
                 }
             },
+            "goals": [
+                {
+                    "minute": "90+6",
+                    "player": "Paulo Moreira",
+                    "team": "home"
+                }
+            ],
             "cards": [
                 {
                     "minute": "45",
@@ -853,7 +860,10 @@ const siteData = {
             "away": "Club Tijuana",
             "stadium": "Estadio Victoria",
             "round": "Apertura - 16",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "67'",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2288.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2280.png",
             "prediction": "1 - 2",
@@ -888,7 +898,28 @@ const siteData = {
                     "home": 53,
                     "away": 47
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "12",
+                    "player": "Danny Leyva",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "34",
+                    "player": "Rafael Fernández",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Raúl Martínez",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -898,7 +929,10 @@ const siteData = {
             "away": "FC Juarez",
             "stadium": "Estadio Libertad Financiera",
             "round": "Apertura - 16",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "53'",
+            "homeScore": 0,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2314.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2298.png",
             "prediction": "2 - 1",
@@ -933,7 +967,15 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "41",
+                    "player": "Leonardo Rodríguez Silva",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga MX",
@@ -1642,8 +1684,8 @@ const siteData = {
                     "away": 36
                 },
                 "poisson": {
-                    "home": 48,
-                    "away": 52
+                    "home": 47,
+                    "away": 53
                 },
                 "h2h": {
                     "home": 60,
@@ -2159,6 +2201,17 @@ const siteData = {
             },
             {
                 "rank": 5,
+                "team": "Everton",
+                "logo": "https://media.api-sports.io/football/teams/45.png",
+                "played": 10,
+                "win": 4,
+                "draw": 4,
+                "lose": 2,
+                "gd": 2,
+                "points": 16
+            },
+            {
+                "rank": 6,
                 "team": "Liverpool",
                 "logo": "https://media.api-sports.io/football/teams/40.png",
                 "played": 9,
@@ -2169,7 +2222,7 @@ const siteData = {
                 "points": 15
             },
             {
-                "rank": 6,
+                "rank": 7,
                 "team": "Brentford",
                 "logo": "https://media.api-sports.io/football/teams/55.png",
                 "played": 9,
@@ -2178,17 +2231,6 @@ const siteData = {
                 "lose": 1,
                 "gd": 7,
                 "points": 14
-            },
-            {
-                "rank": 7,
-                "team": "Everton",
-                "logo": "https://media.api-sports.io/football/teams/45.png",
-                "played": 9,
-                "win": 3,
-                "draw": 4,
-                "lose": 2,
-                "gd": 0,
-                "points": 13
             },
             {
                 "rank": 8,
@@ -2282,11 +2324,11 @@ const siteData = {
                 "rank": 16,
                 "team": "Coventry",
                 "logo": "https://media.api-sports.io/football/teams/1346.png",
-                "played": 9,
+                "played": 10,
                 "win": 3,
                 "draw": 0,
-                "lose": 6,
-                "gd": -7,
+                "lose": 7,
+                "gd": -9,
                 "points": 9
             },
             {
@@ -2394,12 +2436,12 @@ const siteData = {
                 "rank": 6,
                 "team": "Sevilla",
                 "logo": "https://media.api-sports.io/football/teams/536.png",
-                "played": 11,
+                "played": 12,
                 "win": 5,
-                "draw": 2,
+                "draw": 3,
                 "lose": 4,
                 "gd": -2,
-                "points": 17
+                "points": 18
             },
             {
                 "rank": 7,
@@ -2425,6 +2467,17 @@ const siteData = {
             },
             {
                 "rank": 9,
+                "team": "Alaves",
+                "logo": "https://media.api-sports.io/football/teams/542.png",
+                "played": 12,
+                "win": 3,
+                "draw": 4,
+                "lose": 5,
+                "gd": -2,
+                "points": 13
+            },
+            {
+                "rank": 10,
                 "team": "Villarreal",
                 "logo": "https://media.api-sports.io/football/teams/533.png",
                 "played": 11,
@@ -2435,7 +2488,7 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "Celta Vigo",
                 "logo": "https://media.api-sports.io/football/teams/538.png",
                 "played": 11,
@@ -2443,17 +2496,6 @@ const siteData = {
                 "draw": 6,
                 "lose": 3,
                 "gd": 0,
-                "points": 12
-            },
-            {
-                "rank": 11,
-                "team": "Alaves",
-                "logo": "https://media.api-sports.io/football/teams/542.png",
-                "played": 11,
-                "win": 3,
-                "draw": 3,
-                "lose": 5,
-                "gd": -2,
                 "points": 12
             },
             {
@@ -2757,25 +2799,25 @@ const siteData = {
             },
             {
                 "rank": 19,
-                "team": "Udinese",
-                "logo": "https://media.api-sports.io/football/teams/494.png",
-                "played": 10,
-                "win": 1,
-                "draw": 2,
-                "lose": 7,
-                "gd": -12,
-                "points": 5
+                "team": "Venezia",
+                "logo": "https://media.api-sports.io/football/teams/517.png",
+                "played": 11,
+                "win": 2,
+                "draw": 0,
+                "lose": 9,
+                "gd": -13,
+                "points": 6
             },
             {
                 "rank": 20,
-                "team": "Venezia",
-                "logo": "https://media.api-sports.io/football/teams/517.png",
-                "played": 10,
+                "team": "Udinese",
+                "logo": "https://media.api-sports.io/football/teams/494.png",
+                "played": 11,
                 "win": 1,
-                "draw": 0,
-                "lose": 9,
-                "gd": -14,
-                "points": 3
+                "draw": 2,
+                "lose": 8,
+                "gd": -13,
+                "points": 5
             }
         ],
         "Bundesliga": [
@@ -2858,6 +2900,17 @@ const siteData = {
             },
             {
                 "rank": 8,
+                "team": "Hamburger SV",
+                "logo": "https://media.api-sports.io/football/teams/175.png",
+                "played": 9,
+                "win": 4,
+                "draw": 0,
+                "lose": 5,
+                "gd": -10,
+                "points": 12
+            },
+            {
+                "rank": 9,
                 "team": "Eintracht Frankfurt",
                 "logo": "https://media.api-sports.io/football/teams/169.png",
                 "played": 8,
@@ -2868,7 +2921,7 @@ const siteData = {
                 "points": 11
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "FSV Mainz 05",
                 "logo": "https://media.api-sports.io/football/teams/164.png",
                 "played": 8,
@@ -2879,7 +2932,7 @@ const siteData = {
                 "points": 10
             },
             {
-                "rank": 10,
+                "rank": 11,
                 "team": "FC Augsburg",
                 "logo": "https://media.api-sports.io/football/teams/170.png",
                 "played": 8,
@@ -2890,7 +2943,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "VfB Stuttgart",
                 "logo": "https://media.api-sports.io/football/teams/172.png",
                 "played": 8,
@@ -2901,7 +2954,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "1899 Hoffenheim",
                 "logo": "https://media.api-sports.io/football/teams/167.png",
                 "played": 8,
@@ -2912,7 +2965,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "1. FC Köln",
                 "logo": "https://media.api-sports.io/football/teams/192.png",
                 "played": 8,
@@ -2923,7 +2976,7 @@ const siteData = {
                 "points": 9
             },
             {
-                "rank": 14,
+                "rank": 15,
                 "team": "SC Paderborn 07",
                 "logo": "https://media.api-sports.io/football/teams/185.png",
                 "played": 8,
@@ -2931,17 +2984,6 @@ const siteData = {
                 "draw": 3,
                 "lose": 3,
                 "gd": -3,
-                "points": 9
-            },
-            {
-                "rank": 15,
-                "team": "Hamburger SV",
-                "logo": "https://media.api-sports.io/football/teams/175.png",
-                "played": 8,
-                "win": 3,
-                "draw": 0,
-                "lose": 5,
-                "gd": -12,
                 "points": 9
             },
             {
@@ -2970,11 +3012,11 @@ const siteData = {
                 "rank": 18,
                 "team": "Borussia Mönchengladbach",
                 "logo": "https://media.api-sports.io/football/teams/163.png",
-                "played": 8,
+                "played": 9,
                 "win": 1,
                 "draw": 1,
-                "lose": 6,
-                "gd": -11,
+                "lose": 7,
+                "gd": -13,
                 "points": 4
             }
         ],
@@ -3080,6 +3122,17 @@ const siteData = {
             },
             {
                 "rank": 10,
+                "team": "Toulouse",
+                "logo": "https://media.api-sports.io/football/teams/96.png",
+                "played": 10,
+                "win": 3,
+                "draw": 4,
+                "lose": 3,
+                "gd": 1,
+                "points": 13
+            },
+            {
+                "rank": 11,
                 "team": "Stade Brestois 29",
                 "logo": "https://media.api-sports.io/football/teams/106.png",
                 "played": 9,
@@ -3090,7 +3143,7 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Lorient",
                 "logo": "https://media.api-sports.io/football/teams/97.png",
                 "played": 9,
@@ -3101,25 +3154,14 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 12,
-                "team": "Toulouse",
-                "logo": "https://media.api-sports.io/football/teams/96.png",
-                "played": 9,
-                "win": 2,
-                "draw": 4,
-                "lose": 3,
-                "gd": -1,
-                "points": 10
-            },
-            {
                 "rank": 13,
                 "team": "Strasbourg",
                 "logo": "https://media.api-sports.io/football/teams/95.png",
-                "played": 9,
+                "played": 10,
                 "win": 3,
                 "draw": 1,
-                "lose": 5,
-                "gd": -2,
+                "lose": 6,
+                "gd": -4,
                 "points": 10
             },
             {
@@ -3379,7 +3421,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "07/11/2026 05:34 WIB",
+    "standingsUpdated": "07/11/2026 09:28 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -37733,51 +37775,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Liga de Expansion MX",
-                "date": "2026-11-08",
-                "time": "08:00",
-                "home": "Monarcas",
-                "away": "Venados FC",
-                "stadium": "Estadio Morelos",
-                "round": "Quarter-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : Monarcas or draw",
-                "comparison": {
-                    "form": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "att": {
-                        "home": 54,
-                        "away": 46
-                    },
-                    "def": {
-                        "home": 43,
-                        "away": 57
-                    },
-                    "poisson": {
-                        "home": 67,
-                        "away": 33
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 57,
-                        "away": 43
-                    }
-                }
-            },
-            {
                 "league": "Liga MX",
                 "date": "2026-11-08",
                 "time": "08:00",
@@ -37864,6 +37861,51 @@ const siteData = {
                     "goals": {
                         "home": 58,
                         "away": 42
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-11-08",
+                "time": "08:00",
+                "home": "Monarcas",
+                "away": "Venados FC",
+                "stadium": "Estadio Morelos",
+                "round": "Quarter-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2311.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : Monarcas or draw",
+                "comparison": {
+                    "form": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "att": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "def": {
+                        "home": 43,
+                        "away": 57
+                    },
+                    "poisson": {
+                        "home": 67,
+                        "away": 33
+                    },
+                    "h2h": {
+                        "home": 71,
+                        "away": 29
+                    },
+                    "goals": {
+                        "home": 57,
+                        "away": 43
                     }
                 }
             },
@@ -38903,51 +38945,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-11-08",
-                "time": "22:30",
-                "home": "Alanyaspor",
-                "away": "Trabzonspor",
-                "stadium": "Alanya Oba Stadium",
-                "round": "Pekan 11",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/996.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/998.png",
-                "prediction": "1 - 3",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Trabzonspor",
-                "comparison": {
-                    "form": {
-                        "home": 21,
-                        "away": 79
-                    },
-                    "att": {
-                        "home": 17,
-                        "away": 83
-                    },
-                    "def": {
-                        "home": 21,
-                        "away": 79
-                    },
-                    "poisson": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "h2h": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "goals": {
-                        "home": 40,
-                        "away": 60
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-11-08",
                 "time": "22:30",
@@ -39034,6 +39031,51 @@ const siteData = {
                     "goals": {
                         "home": 67,
                         "away": 33
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-11-08",
+                "time": "22:30",
+                "home": "Alanyaspor",
+                "away": "Trabzonspor",
+                "stadium": "Alanya Oba Stadium",
+                "round": "Pekan 11",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/996.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/998.png",
+                "prediction": "1 - 3",
+                "odds": {
+                    "home": 34,
+                    "draw": 50,
+                    "away": 50
+                },
+                "advice": "Winner : Trabzonspor",
+                "comparison": {
+                    "form": {
+                        "home": 21,
+                        "away": 79
+                    },
+                    "att": {
+                        "home": 17,
+                        "away": 83
+                    },
+                    "def": {
+                        "home": 21,
+                        "away": 79
+                    },
+                    "poisson": {
+                        "home": 37,
+                        "away": 63
+                    },
+                    "h2h": {
+                        "home": 38,
+                        "away": 62
+                    },
+                    "goals": {
+                        "home": 40,
+                        "away": 60
                     }
                 }
             },
@@ -39384,8 +39426,8 @@ const siteData = {
                         "away": 57
                     },
                     "poisson": {
-                        "home": 51,
-                        "away": 49
+                        "home": 50,
+                        "away": 50
                     },
                     "h2h": {
                         "home": 71,
@@ -39670,51 +39712,6 @@ const siteData = {
                 }
             },
             {
-                "league": "Super Lig",
-                "date": "2026-11-09",
-                "time": "01:00",
-                "home": "Beşiktaş",
-                "away": "Gençlerbirliği S.K.",
-                "stadium": "Tupras Stadium",
-                "round": "Pekan 11",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/549.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/997.png",
-                "prediction": "3 - 2",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Winner : Beşiktaş",
-                "comparison": {
-                    "form": {
-                        "home": 64,
-                        "away": 36
-                    },
-                    "att": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "def": {
-                        "home": 53,
-                        "away": 47
-                    },
-                    "poisson": {
-                        "home": 97,
-                        "away": 3
-                    },
-                    "h2h": {
-                        "home": 60,
-                        "away": 40
-                    },
-                    "goals": {
-                        "home": 73,
-                        "away": 27
-                    }
-                }
-            },
-            {
                 "league": "Primeira Liga",
                 "date": "2026-11-09",
                 "time": "01:00",
@@ -39756,6 +39753,51 @@ const siteData = {
                     "goals": {
                         "home": 31,
                         "away": 69
+                    }
+                }
+            },
+            {
+                "league": "Super Lig",
+                "date": "2026-11-09",
+                "time": "01:00",
+                "home": "Beşiktaş",
+                "away": "Gençlerbirliği S.K.",
+                "stadium": "Tupras Stadium",
+                "round": "Pekan 11",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/549.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/997.png",
+                "prediction": "3 - 2",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Winner : Beşiktaş",
+                "comparison": {
+                    "form": {
+                        "home": 64,
+                        "away": 36
+                    },
+                    "att": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "def": {
+                        "home": 53,
+                        "away": 47
+                    },
+                    "poisson": {
+                        "home": 97,
+                        "away": 3
+                    },
+                    "h2h": {
+                        "home": 60,
+                        "away": 40
+                    },
+                    "goals": {
+                        "home": 73,
+                        "away": 27
                     }
                 }
             },
