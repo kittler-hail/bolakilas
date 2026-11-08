@@ -3,7 +3,7 @@
   "home": "Nottingham Forest",
   "away": "Manchester City",
   "statusCode": "FT",
-  "updatedAt": "08/11/2026 06:53 WIB",
+  "updatedAt": "08/11/2026 11:52 WIB",
   "statistics": {
     "home": {
       "possession": 22,
@@ -69,13 +69,13 @@
           "number": 27,
           "name": "D. Muñoz",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 22,
           "name": "R. Yates",
           "position": "Gelandang",
-          "rating": "6.1"
+          "rating": "6.2"
         },
         {
           "number": 21,
@@ -87,13 +87,13 @@
           "number": 3,
           "name": "N. Williams",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.7"
         },
         {
           "number": 24,
           "name": "J. McAtee",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.6"
         },
         {
           "number": 10,
