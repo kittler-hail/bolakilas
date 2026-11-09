@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-09T00:22:59.631Z.
+   API-Football v3) pada 2026-11-09T07:29:34.571Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -73,15 +73,15 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "W",
                     "L",
                     "D",
                     "W",
-                    "L"
+                    "L",
+                    "W"
                 ],
-                "cleanSheets": 1,
+                "cleanSheets": 2,
                 "failedToScore": 4,
-                "goalsFor": 15,
+                "goalsFor": 17,
                 "goalsAgainst": 15,
                 "winStreak": 2,
                 "attack": 50,
@@ -1130,8 +1130,8 @@ const siteData = {
                     "away": 46
                 },
                 "poisson": {
-                    "home": 50,
-                    "away": 50
+                    "home": 51,
+                    "away": 49
                 },
                 "h2h": {
                     "home": 40,
@@ -1461,10 +1461,10 @@ const siteData = {
             "away": "Puebla",
             "stadium": "Estadio La Corregidora",
             "round": "Apertura - 16",
-            "statusCode": "1H",
-            "minuteDisplay": "21'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
-            "awayScore": 1,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2291.png",
             "prediction": "3 - 2",
@@ -1505,6 +1505,49 @@ const siteData = {
                     "minute": "9",
                     "player": "Kevin Velasco",
                     "team": "away"
+                },
+                {
+                    "minute": "36",
+                    "player": "Omar Moreno",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "45",
+                    "player": "Oscar Villa",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "65",
+                    "player": "Iker Moreno",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Ali Ávila",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Eduardo Perez",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "86",
+                    "player": "Alonso Ramirez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "Santiago Homenchenko",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -1561,7 +1604,10 @@ const siteData = {
             "away": "Guadalajara Chivas",
             "stadium": "Estadio León",
             "round": "Apertura - 16",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2289.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2278.png",
             "prediction": "1 - 2",
@@ -1596,7 +1642,45 @@ const siteData = {
                     "home": 36,
                     "away": 64
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "69",
+                    "player": "Ricardo Marín",
+                    "team": "away"
+                },
+                {
+                    "minute": "87",
+                    "player": "Paul Bellón",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "Richard Ledezma",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "23",
+                    "player": "Juan Guevara",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "Diber Cambindo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "53",
+                    "player": "Jose Rodriguez",
+                    "team": "home",
+                    "type": "red"
+                }
+            ]
         }
     ],
     "news": [
@@ -2917,7 +3001,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "09/11/2026 07:22 WIB",
+    "standingsUpdated": "09/11/2026 14:29 WIB",
     "topScorers": {
         "Premier League": [
             {
