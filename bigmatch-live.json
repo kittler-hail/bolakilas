@@ -3,7 +3,7 @@
   "home": "Villarreal",
   "away": "Getafe",
   "statusCode": "FT",
-  "updatedAt": "09/11/2026 08:00 WIB",
+  "updatedAt": "09/11/2026 14:53 WIB",
   "statistics": {
     "home": {
       "possession": 73,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 13,
       "shotsOutsidebox": 9,
-      "passesTotal": 566,
-      "passesAccurate": 488,
+      "passesTotal": 567,
+      "passesAccurate": 489,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 6,
       "shotsOutsidebox": 3,
-      "passesTotal": 219,
-      "passesAccurate": 133,
+      "passesTotal": 220,
+      "passesAccurate": 134,
       "passesPct": null
     }
   },
@@ -197,7 +197,7 @@
           "number": 2,
           "name": "D. Dakonam",
           "position": "Bek",
-          "rating": "5.8"
+          "rating": "6.5"
         },
         {
           "number": 22,
@@ -271,13 +271,13 @@
           "number": 16,
           "name": "Francho Serrano",
           "position": "Gelandang",
-          "rating": "5.7"
+          "rating": "5.5"
         },
         {
           "number": 17,
           "name": "Kiko Femenía",
           "position": "Bek",
-          "rating": "6.5"
+          "rating": "5.7"
         },
         {
           "number": 1,
