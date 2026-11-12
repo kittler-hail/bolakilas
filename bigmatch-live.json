@@ -1,21 +1,26 @@
 {
-  "fixtureId": 1649518,
-  "home": "Piratas",
-  "away": "CA La Paz",
-  "statusCode": "FT",
-  "updatedAt": "12/11/2026 19:26 WIB",
+  "fixtureId": 1649517,
+  "home": "Monarcas",
+  "away": "Leones Negros UDG",
+  "statusCode": "NS",
+  "updatedAt": "13/11/2026 03:19 WIB",
   "statistics": null,
   "lineups": null,
-  "venue": null,
+  "venue": {
+    "name": "Estadio Morelos",
+    "city": "Morelia",
+    "capacity": null,
+    "image": ""
+  },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.73",
-    "draw": "3.60",
+    "home": "1.75",
+    "draw": "3.30",
     "away": "4.00",
     "overUnder": null,
     "btts": {
-      "yes": "1.62",
-      "no": "2.20"
+      "yes": "1.83",
+      "no": "1.85"
     }
   },
   "liveOdds": null
