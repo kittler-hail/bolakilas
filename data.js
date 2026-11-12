@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-12T09:00:57.779Z.
+   API-Football v3) pada 2026-11-12T17:48:55.357Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -14,16 +14,16 @@
    ========================================================= */
 
 const siteData = {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "bigMatch": {
         "league": "Liga de Expansion MX",
-        "date": "2026-11-12",
+        "date": "2026-11-13",
         "time": "09:00",
-        "home": "Piratas",
-        "away": "CA La Paz",
-        "stadium": "",
-        "prediction": "2 - 3",
-        "analysis": "Piratas bertemu CA La Paz dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or CA La Paz.",
+        "home": "Monarcas",
+        "away": "Leones Negros UDG",
+        "stadium": "Estadio Morelos",
+        "prediction": "1 - 2",
+        "analysis": "Monarcas bertemu Leones Negros UDG dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or Leones Negros UDG.",
         "statusCode": "NS",
         "odds": {
             "home": 10,
@@ -35,101 +35,116 @@ const siteData = {
             "draw": 45,
             "away": 45
         },
-        "apiFixtureId": 1649518,
-        "homeTeamId": 27935,
-        "awayTeamId": 19024,
-        "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
-        "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
+        "apiFixtureId": 1649517,
+        "homeTeamId": 2284,
+        "awayTeamId": 2307,
+        "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
+        "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
         "h2h": [
             {
-                "home": "Piratas",
-                "away": "CA La Paz",
-                "score": "0-0"
+                "home": "Monarcas",
+                "away": "Leones Negros UDG",
+                "score": "2-0"
             },
             {
-                "home": "CA La Paz",
-                "away": "Piratas",
+                "home": "Leones Negros UDG",
+                "away": "Monarcas",
+                "score": "2-0"
+            },
+            {
+                "home": "Monarcas",
+                "away": "Leones Negros UDG",
+                "score": "2-3"
+            },
+            {
+                "home": "Leones Negros UDG",
+                "away": "Monarcas",
+                "score": "2-0"
+            },
+            {
+                "home": "Monarcas",
+                "away": "Leones Negros UDG",
                 "score": "2-0"
             }
         ],
         "form": {
             "home": {
                 "results": [
+                    "L",
                     "W",
+                    "L",
                     "W",
-                    "D",
-                    "D",
-                    "D"
+                    "W"
                 ],
-                "cleanSheets": 6,
-                "failedToScore": 4,
-                "goalsFor": 29,
-                "goalsAgainst": 17,
-                "winStreak": 2,
-                "attack": 48,
-                "defense": 67
+                "cleanSheets": 3,
+                "failedToScore": 1,
+                "goalsFor": 30,
+                "goalsAgainst": 21,
+                "winStreak": 4,
+                "attack": 50,
+                "defense": 38
             },
             "away": {
                 "results": [
-                    "D",
+                    "L",
                     "W",
                     "W",
-                    "W",
-                    "D"
+                    "L",
+                    "W"
                 ],
-                "cleanSheets": 5,
-                "failedToScore": 1,
-                "goalsFor": 40,
-                "goalsAgainst": 21,
-                "winStreak": 3,
-                "attack": 52,
-                "defense": 33
+                "cleanSheets": 3,
+                "failedToScore": 2,
+                "goalsFor": 36,
+                "goalsAgainst": 22,
+                "winStreak": 2,
+                "attack": 50,
+                "defense": 62
             }
         }
     },
     "matches": [
         {
             "league": "Liga de Expansion MX",
-            "date": "2026-11-12",
+            "date": "2026-11-13",
             "time": "09:00",
-            "home": "Piratas",
-            "away": "CA La Paz",
-            "stadium": "",
+            "home": "Monarcas",
+            "away": "Leones Negros UDG",
+            "stadium": "Estadio Morelos",
             "round": "Semi-finals",
             "statusCode": "NS",
-            "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
-            "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
-            "prediction": "2 - 3",
+            "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
+            "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
+            "prediction": "1 - 2",
             "odds": {
                 "home": 10,
                 "draw": 45,
                 "away": 45
             },
-            "advice": "Double chance : draw or CA La Paz",
+            "advice": "Double chance : draw or Leones Negros UDG",
             "comparison": {
                 "form": {
-                    "home": 45,
-                    "away": 55
+                    "home": 50,
+                    "away": 50
                 },
                 "att": {
-                    "home": 48,
-                    "away": 52
+                    "home": 50,
+                    "away": 50
                 },
                 "def": {
-                    "home": 67,
-                    "away": 33
+                    "home": 38,
+                    "away": 62
                 },
                 "poisson": {
-                    "home": 53,
-                    "away": 47
+                    "home": 40,
+                    "away": 60
                 },
                 "h2h": {
-                    "home": 0,
-                    "away": 100
+                    "home": 40,
+                    "away": 60
                 },
                 "goals": {
-                    "home": 0,
-                    "away": 100
+                    "home": 46,
+                    "away": 54
                 }
             }
         }
@@ -1452,7 +1467,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/11/2026 16:00 WIB",
+    "standingsUpdated": "13/11/2026 00:48 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -8686,284 +8701,6 @@ const siteData = {
         ]
     },
     "history": {
-        "2026-10-28": [
-            {
-                "league": "Serie A",
-                "date": "2026-10-28",
-                "time": "00:30",
-                "home": "Sassuolo",
-                "away": "Lazio",
-                "stadium": "Mapei Stadium – Città del Tricolore",
-                "round": "Pekan 9",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 2,
-                "awayScore": 6,
-                "homeLogo": "https://media.api-sports.io/football/teams/488.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/487.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 34,
-                    "draw": 50,
-                    "away": 50
-                },
-                "advice": "Winner : Lazio",
-                "comparison": {
-                    "form": {
-                        "home": 24,
-                        "away": 76
-                    },
-                    "att": {
-                        "home": 37,
-                        "away": 63
-                    },
-                    "def": {
-                        "home": 27,
-                        "away": 73
-                    },
-                    "poisson": {
-                        "home": 15,
-                        "away": 85
-                    },
-                    "h2h": {
-                        "home": 29,
-                        "away": 71
-                    },
-                    "goals": {
-                        "home": 30,
-                        "away": 70
-                    }
-                },
-                "goals": [
-                    {
-                        "minute": "2",
-                        "player": "Kenneth Taylor",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "7",
-                        "player": "Josip Šutalo",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "13",
-                        "player": "Gustav Isaksen",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "16",
-                        "player": "Romano Floriani Mussolini",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "43",
-                        "player": "Sebastiano Esposito",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "45+1",
-                        "player": "Mattia Zaccagni",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "55",
-                        "player": "Tijjani Noslin",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "65",
-                        "player": "Tijjani Noslin",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "28",
-                        "player": "Kenneth Taylor",
-                        "team": "away",
-                        "type": "yellow"
-                    },
-                    {
-                        "minute": "31",
-                        "player": "Kristian Thorstvedt",
-                        "team": "home",
-                        "type": "red"
-                    },
-                    {
-                        "minute": "54",
-                        "player": "Domenico Berardi",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-10-28",
-                "time": "02:45",
-                "home": "AS Roma",
-                "away": "Cagliari",
-                "stadium": "Stadio Olimpico",
-                "round": "Pekan 9",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 4,
-                "awayScore": 2,
-                "homeLogo": "https://media.api-sports.io/football/teams/497.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/490.png",
-                "prediction": "2 - 1",
-                "odds": {
-                    "home": 45,
-                    "draw": 45,
-                    "away": 10
-                },
-                "advice": "Double chance : AS Roma or draw",
-                "comparison": {
-                    "form": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "att": {
-                        "home": 69,
-                        "away": 31
-                    },
-                    "def": {
-                        "home": 62,
-                        "away": 38
-                    },
-                    "poisson": {
-                        "home": 80,
-                        "away": 20
-                    },
-                    "h2h": {
-                        "home": 71,
-                        "away": 29
-                    },
-                    "goals": {
-                        "home": 88,
-                        "away": 13
-                    }
-                },
-                "goals": [
-                    {
-                        "minute": "10",
-                        "player": "M'Bala Nzola",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "15",
-                        "player": "Emanuele Lulli",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "21",
-                        "player": "Niccolò Pisilli",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "81",
-                        "player": "Daniel Maldini",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "85",
-                        "player": "Rodrigo Mora",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "87",
-                        "player": "Donyell Malen",
-                        "team": "home"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "90+4",
-                        "player": "Juan Rodriguez",
-                        "team": "away",
-                        "type": "yellow"
-                    }
-                ]
-            },
-            {
-                "league": "Serie A",
-                "date": "2026-10-28",
-                "time": "02:45",
-                "home": "Torino",
-                "away": "Como",
-                "stadium": "Stadio Olimpico Grande Torino",
-                "round": "Pekan 9",
-                "statusCode": "FT",
-                "minuteDisplay": "FT",
-                "homeScore": 1,
-                "awayScore": 3,
-                "homeLogo": "https://media.api-sports.io/football/teams/503.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/895.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Como",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 56,
-                        "away": 44
-                    },
-                    "def": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "poisson": {
-                        "home": 32,
-                        "away": 68
-                    },
-                    "h2h": {
-                        "home": 25,
-                        "away": 75
-                    },
-                    "goals": {
-                        "home": 14,
-                        "away": 86
-                    }
-                },
-                "goals": [
-                    {
-                        "minute": "24",
-                        "player": "Che Adams",
-                        "team": "home"
-                    },
-                    {
-                        "minute": "81",
-                        "player": "Jacobo Ramón",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "87",
-                        "player": "Nico Paz",
-                        "team": "away"
-                    },
-                    {
-                        "minute": "90+2",
-                        "player": "Martin Baturina",
-                        "team": "away"
-                    }
-                ],
-                "cards": [
-                    {
-                        "minute": "72",
-                        "player": "Rafik Belghali",
-                        "team": "home",
-                        "type": "yellow"
-                    }
-                ]
-            }
-        ],
         "2026-10-29": [
             {
                 "league": "Serie A",
@@ -33810,56 +33547,10 @@ const siteData = {
                 ]
             }
         ],
-        "2026-11-11": []
+        "2026-11-11": [],
+        "2026-11-12": []
     },
     "upcoming": {
-        "2026-11-13": [
-            {
-                "league": "Liga de Expansion MX",
-                "date": "2026-11-13",
-                "time": "09:00",
-                "home": "Monarcas",
-                "away": "Leones Negros UDG",
-                "stadium": "Estadio Morelos",
-                "round": "Semi-finals",
-                "statusCode": "NS",
-                "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
-                "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
-                "prediction": "1 - 2",
-                "odds": {
-                    "home": 10,
-                    "draw": 45,
-                    "away": 45
-                },
-                "advice": "Double chance : draw or Leones Negros UDG",
-                "comparison": {
-                    "form": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "att": {
-                        "home": 50,
-                        "away": 50
-                    },
-                    "def": {
-                        "home": 38,
-                        "away": 62
-                    },
-                    "poisson": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "h2h": {
-                        "home": 40,
-                        "away": 60
-                    },
-                    "goals": {
-                        "home": 46,
-                        "away": 54
-                    }
-                }
-            }
-        ],
         "2026-11-14": [
             {
                 "league": "Liga de Expansion MX",
@@ -33948,6 +33639,98 @@ const siteData = {
                     "goals": {
                         "home": 100,
                         "away": 0
+                    }
+                }
+            }
+        ],
+        "2026-11-15": [
+            {
+                "league": "Liga MX",
+                "date": "2026-11-15",
+                "time": "06:00",
+                "home": "Club Queretaro",
+                "away": "Monterrey",
+                "stadium": "Estadio La Corregidora",
+                "round": "Apertura - 7",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
+                "prediction": "1 - 2",
+                "odds": {
+                    "home": 10,
+                    "draw": 45,
+                    "away": 45
+                },
+                "advice": "Double chance : draw or Monterrey",
+                "comparison": {
+                    "form": {
+                        "home": 0,
+                        "away": 100
+                    },
+                    "att": {
+                        "home": 25,
+                        "away": 75
+                    },
+                    "def": {
+                        "home": 40,
+                        "away": 60
+                    },
+                    "poisson": {
+                        "home": 48,
+                        "away": 52
+                    },
+                    "h2h": {
+                        "home": 7,
+                        "away": 93
+                    },
+                    "goals": {
+                        "home": 25,
+                        "away": 75
+                    }
+                }
+            },
+            {
+                "league": "Liga de Expansion MX",
+                "date": "2026-11-15",
+                "time": "10:00",
+                "home": "CA La Paz",
+                "away": "Piratas",
+                "stadium": "Estadio Guaycura",
+                "round": "Semi-finals",
+                "statusCode": "NS",
+                "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
+                "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
+                "prediction": "2 - 1",
+                "odds": {
+                    "home": 45,
+                    "draw": 45,
+                    "away": 10
+                },
+                "advice": "Double chance : CA La Paz or draw",
+                "comparison": {
+                    "form": {
+                        "home": 61,
+                        "away": 39
+                    },
+                    "att": {
+                        "home": 55,
+                        "away": 45
+                    },
+                    "def": {
+                        "home": 44,
+                        "away": 56
+                    },
+                    "poisson": {
+                        "home": 54,
+                        "away": 46
+                    },
+                    "h2h": {
+                        "home": 80,
+                        "away": 20
+                    },
+                    "goals": {
+                        "home": 75,
+                        "away": 25
                     }
                 }
             }
