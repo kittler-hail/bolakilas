@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-12T01:12:12.356Z.
+   API-Football v3) pada 2026-11-12T09:00:57.779Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -41,6 +41,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/27935.png",
         "awayLogo": "https://media.api-sports.io/football/teams/19024.png",
         "h2h": [
+            {
+                "home": "Piratas",
+                "away": "CA La Paz",
+                "score": "0-0"
+            },
             {
                 "home": "CA La Paz",
                 "away": "Piratas",
@@ -1447,7 +1452,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "12/11/2026 08:12 WIB",
+    "standingsUpdated": "12/11/2026 16:00 WIB",
     "topScorers": {
         "Premier League": [
             {
