@@ -3,7 +3,7 @@
   "home": "Monarcas",
   "away": "Leones Negros UDG",
   "statusCode": "NS",
-  "updatedAt": "13/11/2026 03:19 WIB",
+  "updatedAt": "13/11/2026 08:16 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -14,13 +14,13 @@
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.75",
-    "draw": "3.30",
-    "away": "4.00",
+    "home": "1.67",
+    "draw": "3.40",
+    "away": "4.60",
     "overUnder": null,
     "btts": {
-      "yes": "1.83",
-      "no": "1.85"
+      "yes": "1.91",
+      "no": "1.80"
     }
   },
   "liveOdds": null
