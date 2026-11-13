@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-13T04:19:34.509Z.
+   API-Football v3) pada 2026-11-13T12:44:10.303Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Estadio Morelos",
         "prediction": "1 - 2",
         "analysis": "Monarcas bertemu Leones Negros UDG dalam laga Liga de Expansion MX. Analisis API-Football: Double chance : draw or Leones Negros UDG.",
-        "statusCode": "NS",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
+        "homeScore": 1,
+        "awayScore": 0,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -44,7 +47,7 @@ const siteData = {
             {
                 "home": "Monarcas",
                 "away": "Leones Negros UDG",
-                "score": "0-0"
+                "score": "1-0"
             },
             {
                 "home": "Monarcas",
@@ -86,16 +89,16 @@ const siteData = {
             },
             "away": {
                 "results": [
-                    "L",
                     "W",
                     "W",
                     "L",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 3,
-                "failedToScore": 2,
+                "failedToScore": 3,
                 "goalsFor": 36,
-                "goalsAgainst": 22,
+                "goalsAgainst": 23,
                 "winStreak": 2,
                 "attack": 50,
                 "defense": 62
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Leones Negros UDG",
             "stadium": "Estadio Morelos",
             "round": "Semi-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2284.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2307.png",
             "prediction": "1 - 2",
@@ -1467,7 +1473,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "13/11/2026 11:19 WIB",
+    "standingsUpdated": "13/11/2026 19:44 WIB",
     "topScorers": {
         "Premier League": [
             {
