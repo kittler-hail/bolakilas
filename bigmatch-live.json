@@ -1,26 +1,26 @@
 {
-  "fixtureId": 1649517,
-  "home": "Monarcas",
-  "away": "Leones Negros UDG",
-  "statusCode": "FT",
-  "updatedAt": "14/11/2026 22:54 WIB",
+  "fixtureId": 1550951,
+  "home": "Club Queretaro",
+  "away": "Monterrey",
+  "statusCode": "NS",
+  "updatedAt": "15/11/2026 03:30 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
-    "name": "Estadio Morelos",
-    "city": "Morelia",
-    "capacity": null,
-    "image": ""
+    "name": "Estadio Corregidora",
+    "city": "Santiago de Querétaro",
+    "capacity": 34130,
+    "image": "https://media.api-sports.io/football/venues/20476.png"
   },
   "odds": {
     "bookmaker": "William Hill",
-    "home": "1.67",
-    "draw": "3.40",
-    "away": "4.60",
+    "home": "3.30",
+    "draw": "3.20",
+    "away": "1.95",
     "overUnder": null,
     "btts": {
-      "yes": "1.91",
-      "no": "1.80"
+      "yes": "1.67",
+      "no": "2.05"
     }
   },
   "liveOdds": null
