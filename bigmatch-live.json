@@ -1,327 +1,308 @@
 {
-  "fixtureId": 1550951,
-  "home": "Club Queretaro",
-  "away": "Monterrey",
+  "fixtureId": 1649520,
+  "home": "Leones Negros UDG",
+  "away": "Monarcas",
   "statusCode": "FT",
-  "updatedAt": "16/11/2026 02:53 WIB",
+  "updatedAt": "16/11/2026 06:49 WIB",
   "statistics": {
     "home": {
-      "possession": 28,
-      "shotsTotal": 12,
-      "shotsOnTarget": 2,
-      "corners": 4,
-      "fouls": 19,
-      "offsides": 2,
-      "yellowCards": 4,
-      "redCards": 2,
-      "shotsInsidebox": 7,
-      "shotsOutsidebox": 5,
-      "passesTotal": 228,
-      "passesAccurate": 151,
+      "possession": 61,
+      "shotsTotal": 17,
+      "shotsOnTarget": 4,
+      "corners": 11,
+      "fouls": 16,
+      "offsides": 1,
+      "yellowCards": 2,
+      "redCards": 1,
+      "shotsInsidebox": 8,
+      "shotsOutsidebox": 9,
+      "passesTotal": 456,
+      "passesAccurate": 356,
       "passesPct": null
     },
     "away": {
-      "possession": 72,
-      "shotsTotal": 16,
-      "shotsOnTarget": 5,
-      "corners": 6,
-      "fouls": 14,
-      "offsides": 3,
-      "yellowCards": 2,
+      "possession": 39,
+      "shotsTotal": 7,
+      "shotsOnTarget": 2,
+      "corners": 2,
+      "fouls": 16,
+      "offsides": 4,
+      "yellowCards": 4,
       "redCards": 0,
-      "shotsInsidebox": 8,
-      "shotsOutsidebox": 8,
-      "passesTotal": 638,
-      "passesAccurate": 565,
+      "shotsInsidebox": 4,
+      "shotsOutsidebox": 3,
+      "passesTotal": 194,
+      "passesAccurate": 118,
       "passesPct": null
     }
   },
   "lineups": {
     "home": {
-      "formation": "5-3-2",
-      "coach": "E. González",
+      "formation": "4-4-2",
+      "coach": "A. Sosa",
       "startXI": [
         {
-          "number": 25,
-          "name": "G. Allison",
+          "number": 1,
+          "name": "O. Cantú",
           "position": "Kiper",
-          "rating": "5.5"
+          "rating": "6.7"
         },
         {
-          "number": 16,
-          "name": "E. Giménez",
-          "position": "Bek",
-          "rating": "5.6"
-        },
-        {
-          "number": 15,
-          "name": "C. Villanueva",
-          "position": "Bek",
-          "rating": "6.4"
-        },
-        {
-          "number": 13,
-          "name": "D. Reyes",
+          "number": 161,
+          "name": "J. Escalante",
           "position": "Bek",
           "rating": "6.1"
         },
         {
-          "number": 2,
-          "name": "L. Abascia",
+          "number": 21,
+          "name": "O. González",
           "position": "Bek",
-          "rating": "5.0"
+          "rating": "6.6"
         },
         {
-          "number": 27,
-          "name": "D. Parra",
+          "number": 24,
+          "name": "J. Agüayo",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "6.8"
         },
         {
-          "number": 4,
-          "name": "Carlo Adriano",
-          "position": "Gelandang",
-          "rating": "6.5"
+          "number": 33,
+          "name": "L. Sepúlveda",
+          "position": "Bek",
+          "rating": "7.1"
+        },
+        {
+          "number": 10,
+          "name": "J. Brigido",
+          "position": "Penyerang",
+          "rating": "7.0"
         },
         {
           "number": 28,
-          "name": "J. Arellano",
-          "position": "Gelandang",
-          "rating": "6.6"
-        },
-        {
-          "number": 11,
-          "name": "M. Coronel",
-          "position": "Gelandang",
-          "rating": "6.4"
-        },
-        {
-          "number": 7,
-          "name": "Iker Benito",
-          "position": "Penyerang",
-          "rating": "6.6"
-        },
-        {
-          "number": 9,
-          "name": "A. Ávila",
-          "position": "Penyerang",
-          "rating": "6.2"
-        }
-      ],
-      "substitutes": [
-        {
-          "number": 26,
-          "name": "E. Pérez",
-          "position": "Penyerang",
-          "rating": "5.5"
-        },
-        {
-          "number": 12,
-          "name": "Paulo Victor",
-          "position": "Bek",
-          "rating": "6.9"
-        },
-        {
-          "number": 8,
-          "name": "B. Parra",
-          "position": "Gelandang",
-          "rating": "0.0"
-        },
-        {
-          "number": 17,
-          "name": "D. Muñoz",
-          "position": "Gelandang",
-          "rating": "6.1"
-        },
-        {
-          "number": 29,
-          "name": "W. Madrid",
+          "name": "A. Bravo",
           "position": "Gelandang",
           "rating": "6.3"
         },
         {
-          "number": 1,
-          "name": "J. Hernández",
-          "position": "Kiper",
-          "rating": "7.0"
+          "number": 31,
+          "name": "M. Valenzuela",
+          "position": "Gelandang",
+          "rating": "6.2"
         },
         {
-          "number": 241,
-          "name": "Emiliano Guerrero Ramírez",
+          "number": 34,
+          "name": "S. Hernández",
           "position": "Gelandang",
           "rating": "0.0"
         },
         {
-          "number": 24,
-          "name": "B. Duarte",
+          "number": 20,
+          "name": "Óscar Gil",
+          "position": "Penyerang",
+          "rating": "6.2"
+        },
+        {
+          "number": 9,
+          "name": "L. Razo",
+          "position": "Penyerang",
+          "rating": "6.9"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 153,
+          "name": "D. Torres",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 168,
+          "name": "miguel alvarado",
           "position": "Bek",
           "rating": "0.0"
         },
         {
-          "number": 23,
-          "name": "J. Robles",
+          "number": 15,
+          "name": "A. Carreón",
+          "position": "Gelandang",
+          "rating": "6.5"
+        },
+        {
+          "number": 35,
+          "name": "J. Cazares",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 19,
+          "name": "K. Loera",
+          "position": "Penyerang"
+        },
+        {
+          "number": 6,
+          "name": "J. Marchand",
           "position": "Gelandang",
           "rating": "0.0"
         },
         {
-          "number": 250,
-          "name": "Maximiliano Coronado Olascoaga",
+          "number": 12,
+          "name": "S. Venegas",
+          "position": ""
+        },
+        {
+          "number": 27,
+          "name": "U. Meza",
           "position": "Bek",
           "rating": "0.0"
+        },
+        {
+          "number": 167,
+          "name": "M. Lara",
+          "position": "",
+          "rating": "0.0"
+        },
+        {
+          "number": 11,
+          "name": "J. Pérez",
+          "position": "Penyerang",
+          "rating": "6.1"
         }
       ]
     },
     "away": {
       "formation": "4-2-3-1",
-      "coach": "M. Almeyda",
+      "coach": "I. Hernández",
       "startXI": [
         {
-          "number": 1,
-          "name": "E. Andrada",
+          "number": 22,
+          "name": "R. Pasquel",
           "position": "Kiper",
           "rating": "7.1"
         },
         {
-          "number": 2,
-          "name": "R. Chávez",
+          "number": 5,
+          "name": "J. Van Rankin",
           "position": "Bek",
           "rating": "6.3"
-        },
-        {
-          "number": 4,
-          "name": "V. Guzmán",
-          "position": "Bek",
-          "rating": "7.3"
-        },
-        {
-          "number": 19,
-          "name": "A. Aceves",
-          "position": "Bek",
-          "rating": "7.2"
-        },
-        {
-          "number": 3,
-          "name": "G. Arteaga",
-          "position": "Bek",
-          "rating": "7.7"
         },
         {
           "number": 18,
-          "name": "Cesar Garza Cantu",
-          "position": "Gelandang",
-          "rating": "7.2"
-        },
-        {
-          "number": 25,
-          "name": "O. Pineda",
-          "position": "Gelandang",
-          "rating": "7.0"
-        },
-        {
-          "number": 14,
-          "name": "É. Aguirre",
-          "position": "Gelandang",
-          "rating": "7.0"
-        },
-        {
-          "number": 9,
-          "name": "D. Rossi",
-          "position": "Gelandang",
-          "rating": "8.0"
-        },
-        {
-          "number": 7,
-          "name": "L. Ocampos",
-          "position": "Gelandang",
-          "rating": "6.7"
-        },
-        {
-          "number": 27,
-          "name": "R. de la Rosa",
-          "position": "Penyerang",
-          "rating": "6.3"
-        }
-      ],
-      "substitutes": [
-        {
-          "number": 5,
-          "name": "F. Ambríz",
-          "position": "Gelandang",
-          "rating": "7.1"
-        },
-        {
-          "number": 34,
-          "name": "C. Bustos",
+          "name": "G. Martínez",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
-          "number": 22,
-          "name": "L. Cárdenas",
-          "position": "Kiper",
-          "rating": "0.0"
+          "number": 4,
+          "name": "D. Zamora",
+          "position": "Bek"
         },
         {
-          "number": 10,
-          "name": "L. Orellano",
-          "position": "Penyerang",
-          "rating": "6.7"
-        },
-        {
-          "number": 21,
-          "name": "L. Reyes",
-          "position": "Bek",
-          "rating": "0.0"
-        },
-        {
-          "number": 30,
-          "name": "J. Rodríguez",
+          "number": 15,
+          "name": "O. Botello",
           "position": "Gelandang",
           "rating": "6.9"
         },
         {
-          "number": 35,
-          "name": "S. Rodriguez",
+          "number": 8,
+          "name": "J. Martínez",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.6"
         },
         {
-          "number": 191,
-          "name": "L. Rojas",
+          "number": 13,
+          "name": "A. Andrade",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.0"
         },
         {
-          "number": 244,
-          "name": "Paxon Levi Ruffin Tamez",
-          "position": "Gelandang",
-          "rating": "0.0"
+          "number": 19,
+          "name": "M. Rodríguez",
+          "position": "Penyerang",
+          "rating": "6.5"
         },
         {
-          "number": 203,
-          "name": "A. De Nigris",
+          "number": 20,
+          "name": "D. Aguilar",
+          "position": "Penyerang"
+        },
+        {
+          "number": 6,
+          "name": "D. de Buen",
+          "position": "Gelandang",
+          "rating": "6.3"
+        },
+        {
+          "number": 9,
+          "name": "R. del Campo",
           "position": "Penyerang",
           "rating": "6.4"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 14,
+          "name": "R. Castellanos",
+          "position": "Bek",
+          "rating": "6.5"
+        },
+        {
+          "number": 30,
+          "name": "J. Conejo",
+          "position": "Gelandang"
+        },
+        {
+          "number": 10,
+          "name": "M. Domínguez",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 28,
+          "name": "J. Flores",
+          "position": "Penyerang"
+        },
+        {
+          "number": 1,
+          "name": "R. Galan",
+          "position": "Kiper"
+        },
+        {
+          "number": 3,
+          "name": "S. Hernández",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 32,
+          "name": "A. Izarra",
+          "position": "Penyerang"
+        },
+        {
+          "number": 17,
+          "name": "M. Nambo",
+          "position": "Gelandang",
+          "rating": "6.7"
+        },
+        {
+          "number": 35,
+          "name": "E. S. Sanchez Cruz",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 21,
+          "name": "Edson Castellanos",
+          "position": "Gelandang"
         }
       ]
     }
   },
   "venue": {
-    "name": "Estadio Corregidora",
-    "city": "Santiago de Querétaro",
-    "capacity": 34130,
-    "image": "https://media.api-sports.io/football/venues/20476.png"
+    "name": "Estadio Jalisco",
+    "city": "Guadalajara",
+    "capacity": 56713,
+    "image": "https://media.api-sports.io/football/venues/1071.png"
   },
-  "odds": {
-    "bookmaker": "William Hill",
-    "home": "3.40",
-    "draw": "3.25",
-    "away": "1.91",
-    "overUnder": null,
-    "btts": {
-      "yes": "1.67",
-      "no": "2.05"
-    }
-  },
+  "odds": null,
   "liveOdds": null
 }
