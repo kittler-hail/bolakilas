@@ -3,7 +3,7 @@
   "home": "Club Queretaro",
   "away": "Monterrey",
   "statusCode": "FT",
-  "updatedAt": "15/11/2026 13:45 WIB",
+  "updatedAt": "15/11/2026 21:22 WIB",
   "statistics": {
     "home": {
       "possession": 28,
@@ -143,7 +143,7 @@
           "number": 1,
           "name": "J. Hernández",
           "position": "Kiper",
-          "rating": "6.3"
+          "rating": "7.0"
         },
         {
           "number": 241,
@@ -277,7 +277,7 @@
           "number": 30,
           "name": "J. Rodríguez",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 35,
