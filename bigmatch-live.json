@@ -2,37 +2,37 @@
   "fixtureId": 1550951,
   "home": "Club Queretaro",
   "away": "Monterrey",
-  "statusCode": "2H",
-  "updatedAt": "15/11/2026 07:12 WIB",
+  "statusCode": "FT",
+  "updatedAt": "15/11/2026 13:45 WIB",
   "statistics": {
     "home": {
       "possession": 28,
-      "shotsTotal": 6,
+      "shotsTotal": 12,
       "shotsOnTarget": 2,
-      "corners": 1,
-      "fouls": 7,
-      "offsides": 1,
-      "yellowCards": 0,
-      "redCards": 0,
-      "shotsInsidebox": 3,
-      "shotsOutsidebox": 2,
-      "passesTotal": 145,
-      "passesAccurate": 99,
+      "corners": 4,
+      "fouls": 19,
+      "offsides": 2,
+      "yellowCards": 4,
+      "redCards": 2,
+      "shotsInsidebox": 7,
+      "shotsOutsidebox": 5,
+      "passesTotal": 228,
+      "passesAccurate": 151,
       "passesPct": null
     },
     "away": {
       "possession": 72,
-      "shotsTotal": 6,
-      "shotsOnTarget": 3,
-      "corners": 2,
-      "fouls": 7,
-      "offsides": 2,
-      "yellowCards": 1,
+      "shotsTotal": 16,
+      "shotsOnTarget": 5,
+      "corners": 6,
+      "fouls": 14,
+      "offsides": 3,
+      "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 4,
-      "shotsOutsidebox": 2,
-      "passesTotal": 368,
-      "passesAccurate": 325,
+      "shotsInsidebox": 8,
+      "shotsOutsidebox": 8,
+      "passesTotal": 638,
+      "passesAccurate": 565,
       "passesPct": null
     }
   },
@@ -45,37 +45,37 @@
           "number": 25,
           "name": "G. Allison",
           "position": "Kiper",
-          "rating": "6.1"
+          "rating": "5.5"
         },
         {
           "number": 16,
           "name": "E. Giménez",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "5.6"
         },
         {
           "number": 15,
           "name": "C. Villanueva",
           "position": "Bek",
-          "rating": "6.2"
+          "rating": "6.4"
         },
         {
           "number": 13,
           "name": "D. Reyes",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.1"
         },
         {
           "number": 2,
           "name": "L. Abascia",
           "position": "Bek",
-          "rating": "6.0"
+          "rating": "5.0"
         },
         {
           "number": 27,
           "name": "D. Parra",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.0"
         },
         {
           "number": 4,
@@ -87,13 +87,13 @@
           "number": 28,
           "name": "J. Arellano",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.6"
         },
         {
           "number": 11,
           "name": "M. Coronel",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "6.4"
         },
         {
           "number": 7,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "A. Ávila",
           "position": "Penyerang",
-          "rating": "6.3"
+          "rating": "6.2"
         }
       ],
       "substitutes": [
@@ -113,13 +113,13 @@
           "number": 26,
           "name": "E. Pérez",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "5.5"
         },
         {
           "number": 12,
           "name": "Paulo Victor",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.9"
         },
         {
           "number": 8,
@@ -131,19 +131,19 @@
           "number": 17,
           "name": "D. Muñoz",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.1"
         },
         {
           "number": 29,
           "name": "W. Madrid",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 1,
           "name": "J. Hernández",
           "position": "Kiper",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 241,
@@ -179,13 +179,13 @@
           "number": 1,
           "name": "E. Andrada",
           "position": "Kiper",
-          "rating": "7.0"
+          "rating": "7.1"
         },
         {
           "number": 2,
           "name": "R. Chávez",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.3"
         },
         {
           "number": 4,
@@ -197,13 +197,13 @@
           "number": 19,
           "name": "A. Aceves",
           "position": "Bek",
-          "rating": "7.7"
+          "rating": "7.2"
         },
         {
           "number": 3,
           "name": "G. Arteaga",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "7.7"
         },
         {
           "number": 18,
@@ -215,31 +215,31 @@
           "number": 25,
           "name": "O. Pineda",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.0"
         },
         {
           "number": 14,
           "name": "É. Aguirre",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "7.0"
         },
         {
           "number": 9,
           "name": "D. Rossi",
           "position": "Gelandang",
-          "rating": "8.1"
+          "rating": "8.0"
         },
         {
           "number": 7,
           "name": "L. Ocampos",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.7"
         },
         {
           "number": 27,
           "name": "R. de la Rosa",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.3"
         }
       ],
       "substitutes": [
@@ -247,7 +247,7 @@
           "number": 5,
           "name": "F. Ambríz",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "7.1"
         },
         {
           "number": 34,
@@ -265,7 +265,7 @@
           "number": 10,
           "name": "L. Orellano",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 21,
@@ -277,7 +277,7 @@
           "number": 30,
           "name": "J. Rodríguez",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.8"
         },
         {
           "number": 35,
@@ -301,7 +301,7 @@
           "number": 203,
           "name": "A. De Nigris",
           "position": "Penyerang",
-          "rating": "6.5"
+          "rating": "6.4"
         }
       ]
     }
