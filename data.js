@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-14T20:15:25.073Z.
+   API-Football v3) pada 2026-11-15T00:33:54.902Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,7 +24,10 @@ const siteData = {
         "stadium": "Estadio La Corregidora",
         "prediction": "1 - 2",
         "analysis": "Club Queretaro bertemu Monterrey dalam laga Liga MX. Analisis API-Football: Double chance : draw or Monterrey.",
-        "statusCode": "NS",
+        "statusCode": "2H",
+        "minuteDisplay": "72'",
+        "homeScore": 0,
+        "awayScore": 1,
         "odds": {
             "home": 10,
             "draw": 45,
@@ -41,6 +44,11 @@ const siteData = {
         "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
         "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
         "h2h": [
+            {
+                "home": "Club Queretaro",
+                "away": "Monterrey",
+                "score": "0-1"
+            },
             {
                 "home": "Monterrey",
                 "away": "Club Queretaro",
@@ -60,11 +68,6 @@ const siteData = {
                 "home": "Monterrey",
                 "away": "Club Queretaro",
                 "score": "2-1"
-            },
-            {
-                "home": "Monterrey",
-                "away": "Club Queretaro",
-                "score": "1-1"
             }
         ],
         "form": {
@@ -111,7 +114,10 @@ const siteData = {
             "away": "Monterrey",
             "stadium": "Estadio La Corregidora",
             "round": "Apertura - 7",
-            "statusCode": "NS",
+            "statusCode": "2H",
+            "minuteDisplay": "72'",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2282.png",
             "prediction": "1 - 2",
@@ -146,7 +152,52 @@ const siteData = {
                     "home": 25,
                     "away": 75
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "48",
+                    "player": "Diego Rossi",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "40",
+                    "player": "Ricardo Chávez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "Daniel Parra",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "51",
+                    "player": "Guillermo Allison",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "51",
+                    "player": "Roberto de la Rosa",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "68",
+                    "player": "Denilson Muñoz",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "71",
+                    "player": "Lucas Abascia",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga de Expansion MX",
@@ -1512,7 +1563,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/11/2026 03:15 WIB",
+    "standingsUpdated": "15/11/2026 07:33 WIB",
     "topScorers": {
         "Premier League": [
             {
