@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-15T00:33:54.902Z.
+   API-Football v3) pada 2026-11-15T07:23:15.195Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -24,8 +24,8 @@ const siteData = {
         "stadium": "Estadio La Corregidora",
         "prediction": "1 - 2",
         "analysis": "Club Queretaro bertemu Monterrey dalam laga Liga MX. Analisis API-Football: Double chance : draw or Monterrey.",
-        "statusCode": "2H",
-        "minuteDisplay": "72'",
+        "statusCode": "FT",
+        "minuteDisplay": "FT",
         "homeScore": 0,
         "awayScore": 1,
         "odds": {
@@ -90,14 +90,14 @@ const siteData = {
             "away": {
                 "results": [
                     "W",
-                    "W",
                     "L",
                     "D",
-                    "L"
+                    "L",
+                    "W"
                 ],
-                "cleanSheets": 3,
+                "cleanSheets": 4,
                 "failedToScore": 4,
-                "goalsFor": 26,
+                "goalsFor": 27,
                 "goalsAgainst": 25,
                 "winStreak": 2,
                 "attack": 75,
@@ -114,8 +114,8 @@ const siteData = {
             "away": "Monterrey",
             "stadium": "Estadio La Corregidora",
             "round": "Apertura - 7",
-            "statusCode": "2H",
-            "minuteDisplay": "72'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/2290.png",
@@ -196,6 +196,18 @@ const siteData = {
                     "player": "Lucas Abascia",
                     "team": "home",
                     "type": "yellow"
+                },
+                {
+                    "minute": "80",
+                    "player": "Eduardo Perez",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "90+3",
+                    "player": "Diego Reyes",
+                    "team": "home",
+                    "type": "yellow"
                 }
             ]
         },
@@ -207,7 +219,10 @@ const siteData = {
             "away": "Piratas",
             "stadium": "Estadio Guaycura",
             "round": "Semi-finals",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/19024.png",
             "awayLogo": "https://media.api-sports.io/football/teams/27935.png",
             "prediction": "2 - 1",
@@ -242,7 +257,69 @@ const siteData = {
                     "home": 75,
                     "away": 25
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "24",
+                    "player": "Ibe Doumbouya",
+                    "team": "away"
+                },
+                {
+                    "minute": "82",
+                    "player": "Israel Larios",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "1",
+                    "player": "Diego Cruz",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "26",
+                    "player": "Omar Soto",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "33",
+                    "player": "Fernando Illescas",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "Uziel García",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "Eduardo Torres",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "Kenneth Jaime",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Horacio Torres",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Christian Fernandez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1563,7 +1640,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "15/11/2026 07:33 WIB",
+    "standingsUpdated": "15/11/2026 14:23 WIB",
     "topScorers": {
         "Premier League": [
             {
