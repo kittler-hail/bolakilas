@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — BERITA TRANSFER
    File ini di-generate OTOMATIS oleh fetch-transfers.js (sumber data:
-   API-Football v3) pada 2026-11-09T12:16:38.211Z.
+   API-Football v3) pada 2026-11-16T12:10:37.149Z.
    Jangan diedit manual — akan tertimpa tiap run mingguan.
 
    Berisi transfer 45 hari terakhir (dari tim-tim di liga
@@ -13,243 +13,243 @@
 
 const transferNews = [
   {
-    "key": "7315|2026-10-23|Sturm Graz|WSG Wattens",
+    "key": "671921|2026-10-30|Kebe Hamadi|Lille",
     "tag": "Transfer",
-    "title": "A. Stejskal pindah dari WSG Wattens ke Sturm Graz",
+    "title": "Hamadi Kebe pindah dari Lille ke Kebe Hamadi",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "23/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/637.png"
-  },
-  {
-    "key": "457345|2026-10-21|Brighton|Southend",
-    "tag": "Transfer",
-    "title": "S. Keogh pindah dari Southend ke Brighton",
-    "desc": "Transfer resmi tercatat di API-Football (Return from loan).",
-    "time": "21/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/51.png"
-  },
-  {
-    "key": "124|2026-10-20|GO Ahead Eagles|NEC Nijmegen",
-    "tag": "Transfer",
-    "title": "J. Cillessen pindah dari NEC Nijmegen ke GO Ahead Eagles",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "20/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/410.png"
-  },
-  {
-    "key": "689009|2026-10-18|Pyunik Yerevan|Pyunik Yerevan",
-    "tag": "Transfer",
-    "title": "V. Melikyan pindah dari Pyunik Yerevan ke Pyunik Yerevan",
-    "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "18/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/709.png"
-  },
-  {
-    "key": "689501|2026-10-16|Winkeln St. Gallen|FC ST. Gallen",
-    "tag": "Transfer",
-    "title": "Michael Mader pindah dari FC ST. Gallen ke Winkeln St. Gallen",
-    "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "16/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/17424.png"
-  },
-  {
-    "key": "604053|2026-10-15|AS Roma|AS Roma",
-    "tag": "Transfer",
-    "title": "A. Di Nunzio pindah dari AS Roma ke AS Roma",
-    "desc": "Transfer resmi tercatat di API-Football (Raise).",
-    "time": "15/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/497.png"
-  },
-  {
-    "key": "613790|2026-10-15|Brighton|Horsham",
-    "tag": "Transfer",
-    "title": "M. Dike pindah dari Horsham ke Brighton",
-    "desc": "Transfer resmi tercatat di API-Football (Return from loan).",
-    "time": "15/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/51.png"
-  },
-  {
-    "key": "689071|2026-10-12|Paris Saint Germain|Paris Saint Germain",
-    "tag": "Transfer",
-    "title": "Adam Mouak pindah dari Paris Saint Germain ke Paris Saint Germain",
-    "desc": "Transfer resmi tercatat di API-Football (Raise).",
-    "time": "12/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/85.png"
-  },
-  {
-    "key": "733|2026-10-12|Getafe|Real Madrid",
-    "tag": "Transfer",
-    "title": "Dani Carvajal pindah dari Real Madrid ke Getafe",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "12/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/546.png"
-  },
-  {
-    "key": "56003|2026-10-11|Maccabi Haifa|NEC Nijmegen",
-    "tag": "Transfer",
-    "title": "E. Dasa pindah dari NEC Nijmegen ke Maccabi Haifa",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "11/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/4195.png"
-  },
-  {
-    "key": "606608|2026-10-09|Gareji|FC Iberia 1999",
-    "tag": "Transfer",
-    "title": "D. Beria pindah dari FC Iberia 1999 ke Gareji",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "09/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/14860.png"
-  },
-  {
-    "key": "118308|2026-10-09|Spartak Trnava|Komárno",
-    "tag": "Transfer",
-    "title": "B. Száraz pindah dari Komárno ke Spartak Trnava",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "09/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/1120.png"
-  },
-  {
-    "key": "686105|2026-10-08|Feyenoord|NAC Breda U18",
-    "tag": "Transfer",
-    "title": "D. Slory pindah dari NAC Breda U18 ke Feyenoord",
-    "desc": "Transfer resmi tercatat di API-Football (Raise).",
-    "time": "08/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/209.png"
-  },
-  {
-    "key": "606608|2026-10-08|Gareji|FC Iberia 1999",
-    "tag": "Transfer",
-    "title": "D. Beria pindah dari FC Iberia 1999 ke Gareji",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "08/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/14860.png"
-  },
-  {
-    "key": "9446|2026-10-08|Qabala|Zira",
-    "tag": "Transfer",
-    "title": "Raphael Alemão pindah dari Zira ke Qabala",
-    "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "08/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/627.png"
-  },
-  {
-    "key": "530|2026-10-07|NEC Nijmegen|Atalanta",
-    "tag": "Transfer",
-    "title": "M. Bakker pindah dari Atalanta ke NEC Nijmegen",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "07/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/413.png"
-  },
-  {
-    "key": "887|2026-10-07|Bologna|Inter",
-    "tag": "Transfer",
-    "title": "M. Darmian pindah dari Inter ke Bologna",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "07/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/500.png"
-  },
-  {
-    "key": "9446|2026-10-07|Qabala|Zira",
-    "tag": "Transfer",
-    "title": "Raphael Alemão pindah dari Zira ke Qabala",
-    "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "07/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/627.png"
-  },
-  {
-    "key": "7852|2026-10-07|Kerala Blasters|Pyunik Yerevan",
-    "tag": "Transfer",
-    "title": "M. Yansane pindah dari Pyunik Yerevan ke Kerala Blasters",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "07/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/3477.png"
-  },
-  {
-    "key": "162524|2026-10-06|Velež|Celje",
-    "tag": "Transfer",
-    "title": "N. Vukasović pindah dari Celje ke Velež",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "06/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/3381.png"
-  },
-  {
-    "key": "634|2026-10-06|Shatin|Real Sociedad",
-    "tag": "Transfer",
-    "title": "David Silva pindah dari Real Sociedad ke Shatin",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "06/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/4471.png"
-  },
-  {
-    "key": "423|2026-10-06|Hibernian|Brann",
-    "tag": "Transfer",
-    "title": "R. Matondo pindah dari Brann ke Hibernian",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "06/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/249.png"
-  },
-  {
-    "key": "407032|2026-10-04|Liverpool|HJK Helsinki",
-    "tag": "Transfer",
-    "title": "A. Nallo pindah dari HJK Helsinki ke Liverpool",
-    "desc": "Transfer resmi tercatat di API-Football (Return from loan).",
-    "time": "04/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/40.png"
-  },
-  {
-    "key": "138848|2026-10-02|Caernarfon Town|Truro City",
-    "tag": "Transfer",
-    "title": "H. Charsley pindah dari Truro City ke Caernarfon Town",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "02/10/2026",
-    "logo": "https://media.api-sports.io/football/teams/356.png"
-  },
-  {
-    "key": "80566|2026-10-01|Rodrigo|FK Crvena Zvezda",
-    "tag": "Transfer",
-    "title": "Rodrigão pindah dari FK Crvena Zvezda ke Rodrigo",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "01/10/2026",
+    "time": "30/10/2026",
     "logo": ""
   },
   {
-    "key": "681598|2026-09-30|Campobasso FC|Como",
+    "key": "669877|2026-10-30|Gounfissi Mouad|Lille",
     "tag": "Transfer",
-    "title": "L. Blasi pindah dari Como ke Campobasso FC",
+    "title": "Mouad Gounfissi pindah dari Lille ke Gounfissi Mouad",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/09/2026",
-    "logo": "https://media.api-sports.io/football/teams/9510.png"
+    "time": "30/10/2026",
+    "logo": ""
   },
   {
-    "key": "90762|2026-09-30|Feirense|Ararat-Armenia",
+    "key": "668708|2026-10-30|Hamidi Kamel|Lille",
     "tag": "Transfer",
-    "title": "João Queirós pindah dari Ararat-Armenia ke Feirense",
-    "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "30/09/2026",
-    "logo": "https://media.api-sports.io/football/teams/213.png"
-  },
-  {
-    "key": "686137|2026-09-30|Floriana|Floriana",
-    "tag": "Transfer",
-    "title": "G. Cassar pindah dari Floriana ke Floriana",
-    "desc": "Transfer resmi tercatat di API-Football (-).",
-    "time": "30/09/2026",
-    "logo": "https://media.api-sports.io/football/teams/4625.png"
-  },
-  {
-    "key": "630018|2026-09-30|Sliema Wanderers|Floriana",
-    "tag": "Transfer",
-    "title": "D. Zammit pindah dari Floriana ke Sliema Wanderers",
+    "title": "K. Hamidi pindah dari Lille ke Hamidi Kamel",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/09/2026",
-    "logo": "https://media.api-sports.io/football/teams/4628.png"
+    "time": "30/10/2026",
+    "logo": ""
   },
   {
-    "key": "81|2026-09-30|Watford|Monaco",
+    "key": "362156|2026-10-30|Darboe Bajung|Bayern München",
     "tag": "Transfer",
-    "title": "K. Diatta pindah dari Monaco ke Watford",
+    "title": "Bajung Darboe pindah dari Bayern München ke Darboe Bajung",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/09/2026",
-    "logo": "https://media.api-sports.io/football/teams/38.png"
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "24794|2026-10-30|Schmitz Benno|Bayern München",
+    "tag": "Transfer",
+    "title": "B. Schmitz pindah dari Bayern München ke Schmitz Benno",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "366062|2026-10-30|Wimmer Benedikt|Bayern München",
+    "tag": "Transfer",
+    "title": "Benedikt Wimmer pindah dari Bayern München ke Wimmer Benedikt",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "330612|2026-10-30|Buchmann Tarek|Bayern München",
+    "tag": "Transfer",
+    "title": "T. Buchmann pindah dari Bayern München ke Buchmann Tarek",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "431920|2026-10-30|Sadat Mudaser|Bayern München",
+    "tag": "Transfer",
+    "title": "Mudaser Sadat pindah dari Bayern München ke Sadat Mudaser",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "618038|2026-10-30|Scott Michael|Bayern München",
+    "tag": "Transfer",
+    "title": "M. Scott pindah dari Bayern München ke Scott Michael",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "671021|2026-10-30|Diarra Moussa|Lens",
+    "tag": "Transfer",
+    "title": "M. Diarra pindah dari Lens ke Diarra Moussa",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "668702|2026-10-30|Gane Bernardino Nathanael|Lens",
+    "tag": "Transfer",
+    "title": "N. Gane Bernardino pindah dari Lens ke Gane Bernardino Nathanael",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "668701|2026-10-30|Kemtchoum-Stasiowski Noe|Lens",
+    "tag": "Transfer",
+    "title": "N. Kemtchoum-Stasiowski pindah dari Lens ke Kemtchoum-Stasiowski Noe",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "358103|2026-10-30|Pejazic Mario|Borussia Dortmund",
+    "tag": "Transfer",
+    "title": "M. Pejazic pindah dari Borussia Dortmund ke Pejazic Mario",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "688905|2026-10-30|Kaymak Semih|Borussia Dortmund",
+    "tag": "Transfer",
+    "title": "S. Kaymak pindah dari Borussia Dortmund ke Kaymak Semih",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "158053|2026-10-30|Azhil Ayman|Borussia Dortmund",
+    "tag": "Transfer",
+    "title": "A. Azhil pindah dari Borussia Dortmund ke Azhil Ayman",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "601134|2026-10-30|Ngana Warren|RB Leipzig",
+    "tag": "Transfer",
+    "title": "W. Ngana pindah dari RB Leipzig ke Ngana Warren",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "610910|2026-10-30|Napoli|Napoli",
+    "tag": "Transfer",
+    "title": "A. Chiummariello pindah dari Napoli ke Napoli",
+    "desc": "Transfer resmi tercatat di API-Football (Raise).",
+    "time": "30/10/2026",
+    "logo": "https://media.api-sports.io/football/teams/492.png"
+  },
+  {
+    "key": "568247|2026-10-30|Ouro Bang Na Rayan|Marseille",
+    "tag": "Transfer",
+    "title": "R. Ouro Bang Na pindah dari Marseille ke Ouro Bang Na Rayan",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "535446|2026-10-30|Traore Soumaila|Marseille",
+    "tag": "Transfer",
+    "title": "S. Traore pindah dari Marseille ke Traore Soumaila",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "340089|2026-10-30|Micheler Florian|1899 Hoffenheim",
+    "tag": "Transfer",
+    "title": "Florian Micheler pindah dari 1899 Hoffenheim ke Micheler Florian",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "460151|2026-10-30|Aleksa Konstantin|1899 Hoffenheim",
+    "tag": "Transfer",
+    "title": "Konstantin Aleksa pindah dari 1899 Hoffenheim ke Aleksa Konstantin",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "650520|2026-10-30|Skender Alexandros|1899 Hoffenheim",
+    "tag": "Transfer",
+    "title": "A. Skender pindah dari 1899 Hoffenheim ke Skender Alexandros",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "380522|2026-10-30|Strobl Lars|1899 Hoffenheim",
+    "tag": "Transfer",
+    "title": "Lars Strobl pindah dari 1899 Hoffenheim ke Strobl Lars",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "380604|2026-10-30|Philipp Tim|1899 Hoffenheim",
+    "tag": "Transfer",
+    "title": "Tim Philipp pindah dari 1899 Hoffenheim ke Philipp Tim",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "462209|2026-10-30|Damjanovic Aleksa|Bayer Leverkusen",
+    "tag": "Transfer",
+    "title": "A. Damjanović pindah dari Bayer Leverkusen ke Damjanovic Aleksa",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "610921|2026-10-30|Vallana Edoardo|Juventus",
+    "tag": "Transfer",
+    "title": "E. Vallana pindah dari Juventus ke Vallana Edoardo",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "552905|2026-10-30|Samb Demba|Juventus",
+    "tag": "Transfer",
+    "title": "D. S. Samb pindah dari Juventus ke Samb Demba",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "563925|2026-10-30|Okolo Daniel|Juventus",
+    "tag": "Transfer",
+    "title": "D. Okolo pindah dari Juventus ke Okolo Daniel",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "625345|2026-10-30|Ceppi Paolo|Juventus",
+    "tag": "Transfer",
+    "title": "P. Ceppi pindah dari Juventus ke Ceppi Paolo",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "580818|2026-10-30|Reynaud Louis|Juventus",
+    "tag": "Transfer",
+    "title": "Louis Reynaud pindah dari Juventus ke Reynaud Louis",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
   }
 ];
