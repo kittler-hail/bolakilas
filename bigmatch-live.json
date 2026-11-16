@@ -3,7 +3,7 @@
   "home": "Leones Negros UDG",
   "away": "Monarcas",
   "statusCode": "FT",
-  "updatedAt": "16/11/2026 10:51 WIB",
+  "updatedAt": "16/11/2026 19:22 WIB",
   "statistics": {
     "home": {
       "possession": 61,
@@ -13,7 +13,7 @@
       "fouls": 16,
       "offsides": 1,
       "yellowCards": 2,
-      "redCards": 1,
+      "redCards": 2,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 9,
       "passesTotal": 456,
@@ -63,25 +63,25 @@
           "number": 24,
           "name": "J. Agüayo",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.3"
         },
         {
           "number": 33,
           "name": "L. Sepúlveda",
           "position": "Bek",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 10,
           "name": "J. Brigido",
           "position": "Penyerang",
-          "rating": "7.0"
+          "rating": "6.2"
         },
         {
           "number": 28,
           "name": "A. Bravo",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "5.9"
         },
         {
           "number": 31,
@@ -99,7 +99,7 @@
           "number": 20,
           "name": "Óscar Gil",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.8"
         },
         {
           "number": 9,
@@ -189,7 +189,7 @@
           "number": 18,
           "name": "G. Martínez",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.7"
         },
         {
           "number": 4,
@@ -229,7 +229,7 @@
           "number": 6,
           "name": "D. de Buen",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 9,
