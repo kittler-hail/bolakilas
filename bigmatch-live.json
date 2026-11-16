@@ -3,7 +3,7 @@
   "home": "Leones Negros UDG",
   "away": "Monarcas",
   "statusCode": "FT",
-  "updatedAt": "16/11/2026 19:22 WIB",
+  "updatedAt": "17/11/2026 05:25 WIB",
   "statistics": {
     "home": {
       "possession": 61,
@@ -75,13 +75,13 @@
           "number": 10,
           "name": "J. Brigido",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.8"
         },
         {
           "number": 28,
           "name": "A. Bravo",
           "position": "Gelandang",
-          "rating": "5.9"
+          "rating": "5.7"
         },
         {
           "number": 31,
@@ -99,13 +99,13 @@
           "number": 20,
           "name": "Óscar Gil",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.9"
         },
         {
           "number": 9,
           "name": "L. Razo",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "6.8"
         }
       ],
       "substitutes": [
@@ -189,7 +189,7 @@
           "number": 18,
           "name": "G. Martínez",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 4,
@@ -200,7 +200,7 @@
           "number": 15,
           "name": "O. Botello",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "6.8"
         },
         {
           "number": 8,
@@ -229,7 +229,7 @@
           "number": 6,
           "name": "D. de Buen",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 9,
