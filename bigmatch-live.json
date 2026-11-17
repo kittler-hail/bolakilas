@@ -3,7 +3,7 @@
   "home": "Leones Negros UDG",
   "away": "Monarcas",
   "statusCode": "FT",
-  "updatedAt": "17/11/2026 20:54 WIB",
+  "updatedAt": "18/11/2026 05:05 WIB",
   "statistics": {
     "home": {
       "possession": 61,
@@ -16,8 +16,8 @@
       "redCards": 2,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 9,
-      "passesTotal": 456,
-      "passesAccurate": 356,
+      "passesTotal": 458,
+      "passesAccurate": 358,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 3,
-      "passesTotal": 194,
-      "passesAccurate": 118,
+      "passesTotal": 196,
+      "passesAccurate": 119,
       "passesPct": null
     }
   },
@@ -63,31 +63,31 @@
           "number": 24,
           "name": "J. Agüayo",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.0"
         },
         {
           "number": 33,
           "name": "L. Sepúlveda",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.8"
         },
         {
           "number": 10,
           "name": "J. Brigido",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "7.0"
         },
         {
           "number": 28,
           "name": "A. Bravo",
           "position": "Gelandang",
-          "rating": "5.7"
+          "rating": "6.0"
         },
         {
           "number": 31,
           "name": "M. Valenzuela",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.3"
         },
         {
           "number": 34,
@@ -105,7 +105,7 @@
           "number": 9,
           "name": "L. Razo",
           "position": "Penyerang",
-          "rating": "6.8"
+          "rating": "6.4"
         }
       ],
       "substitutes": [
@@ -165,7 +165,7 @@
           "number": 11,
           "name": "J. Pérez",
           "position": "Penyerang",
-          "rating": "6.1"
+          "rating": "6.2"
         }
       ]
     },
@@ -177,7 +177,7 @@
           "number": 22,
           "name": "R. Pasquel",
           "position": "Kiper",
-          "rating": "7.1"
+          "rating": "7.0"
         },
         {
           "number": 5,
@@ -200,7 +200,7 @@
           "number": 15,
           "name": "O. Botello",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.2"
         },
         {
           "number": 8,
@@ -229,7 +229,7 @@
           "number": 6,
           "name": "D. de Buen",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.8"
         },
         {
           "number": 9,
@@ -281,7 +281,7 @@
           "number": 17,
           "name": "M. Nambo",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.4"
         },
         {
           "number": 35,
