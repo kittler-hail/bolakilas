@@ -2,37 +2,37 @@
   "fixtureId": 1649491,
   "home": "Orlando City SC",
   "away": "FC Cincinnati",
-  "statusCode": "1H",
-  "updatedAt": "20/11/2026 08:13 WIB",
+  "statusCode": "FT",
+  "updatedAt": "20/11/2026 15:39 WIB",
   "statistics": {
     "home": {
-      "possession": 52,
-      "shotsTotal": 5,
-      "shotsOnTarget": 2,
-      "corners": 1,
-      "fouls": 2,
-      "offsides": 1,
-      "yellowCards": 0,
+      "possession": 58,
+      "shotsTotal": 27,
+      "shotsOnTarget": 8,
+      "corners": 3,
+      "fouls": 12,
+      "offsides": 3,
+      "yellowCards": 2,
       "redCards": 0,
-      "shotsInsidebox": 3,
-      "shotsOutsidebox": 2,
-      "passesTotal": 197,
-      "passesAccurate": 167,
+      "shotsInsidebox": 21,
+      "shotsOutsidebox": 6,
+      "passesTotal": 580,
+      "passesAccurate": 505,
       "passesPct": null
     },
     "away": {
-      "possession": 48,
-      "shotsTotal": 1,
-      "shotsOnTarget": 1,
-      "corners": 4,
-      "fouls": 3,
-      "offsides": 0,
-      "yellowCards": 0,
+      "possession": 42,
+      "shotsTotal": 10,
+      "shotsOnTarget": 8,
+      "corners": 5,
+      "fouls": 14,
+      "offsides": 2,
+      "yellowCards": 4,
       "redCards": 0,
-      "shotsInsidebox": 0,
-      "shotsOutsidebox": 1,
-      "passesTotal": 183,
-      "passesAccurate": 162,
+      "shotsInsidebox": 7,
+      "shotsOutsidebox": 3,
+      "passesTotal": 431,
+      "passesAccurate": 363,
       "passesPct": null
     }
   },
@@ -45,61 +45,61 @@
           "number": 71,
           "name": "M. Crépeau",
           "position": "Kiper",
-          "rating": "6.8"
+          "rating": "6.6"
         },
         {
           "number": 24,
           "name": "G. Dorsey",
           "position": "Bek",
-          "rating": "6.8"
+          "rating": "6.0"
         },
         {
           "number": 4,
           "name": "D. Brekalo",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.3"
         },
         {
           "number": 57,
           "name": "Iago",
           "position": "Bek",
-          "rating": "7.0"
+          "rating": "6.3"
         },
         {
           "number": 27,
           "name": "Vinícius Nogueira",
           "position": "Bek",
-          "rating": "7.4"
+          "rating": "7.8"
         },
         {
           "number": 87,
           "name": "Marco Pasalic",
           "position": "Gelandang",
-          "rating": "6.5"
+          "rating": "5.7"
         },
         {
           "number": 5,
           "name": "Luis Otávio",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "5.9"
         },
         {
           "number": 20,
           "name": "E. Atuesta",
           "position": "Gelandang",
-          "rating": "6.9"
+          "rating": "7.0"
         },
         {
           "number": 77,
           "name": "I. Angulo",
           "position": "Gelandang",
-          "rating": "7.5"
+          "rating": "7.4"
         },
         {
           "number": 7,
           "name": "A. Griezmann",
           "position": "Penyerang",
-          "rating": "6.7"
+          "rating": "6.6"
         },
         {
           "number": 10,
@@ -113,13 +113,13 @@
           "number": 22,
           "name": "Justin Ellis",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "7.2"
         },
         {
           "number": 35,
           "name": "Joran Gerbet",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 12,
@@ -155,13 +155,13 @@
           "number": 3,
           "name": "Adrián Marín",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.5"
         },
         {
           "number": 9,
           "name": "D. Dike",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.1"
         }
       ]
     },
@@ -173,49 +173,49 @@
           "number": 18,
           "name": "R. Celentano",
           "position": "Kiper",
-          "rating": "5.9"
+          "rating": "7.5"
         },
         {
           "number": 12,
           "name": "M. Robinson",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.4"
         },
         {
           "number": 4,
           "name": "N. Hagglund",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.7"
         },
         {
           "number": 24,
           "name": "K. Smith",
           "position": "Bek",
-          "rating": "6.4"
+          "rating": "6.8"
         },
         {
           "number": 23,
           "name": "D. Douděra",
           "position": "Gelandang",
-          "rating": "6.0"
+          "rating": "6.5"
         },
         {
           "number": 20,
           "name": "P. Bucha",
           "position": "Gelandang",
-          "rating": "6.7"
+          "rating": "6.2"
         },
         {
           "number": 5,
           "name": "O. Nwobodo",
           "position": "Gelandang",
-          "rating": "6.2"
+          "rating": "6.5"
         },
         {
           "number": 11,
           "name": "S. Gidi",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "8.2"
         },
         {
           "number": 3,
@@ -227,13 +227,13 @@
           "number": 16,
           "name": "T. Barlow",
           "position": "Penyerang",
-          "rating": "6.1"
+          "rating": "6.6"
         },
         {
           "number": 10,
           "name": "Evander",
           "position": "Penyerang",
-          "rating": "6.6"
+          "rating": "9.0"
         }
       ],
       "substitutes": [
@@ -247,7 +247,7 @@
           "number": 66,
           "name": "E. Echenique",
           "position": "Penyerang",
-          "rating": "0.0"
+          "rating": "6.7"
         },
         {
           "number": 9,
@@ -271,25 +271,25 @@
           "number": 2,
           "name": "A. Powell",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.3"
         },
         {
           "number": 29,
           "name": "Bryan Josías Ramírez León",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "6.4"
         },
         {
           "number": 6,
           "name": "J. Malatini",
           "position": "Bek",
-          "rating": "0.0"
+          "rating": "5.9"
         },
         {
           "number": 70,
           "name": "J. Martínez",
           "position": "Gelandang",
-          "rating": "0.0"
+          "rating": "6.1"
         }
       ]
     }
