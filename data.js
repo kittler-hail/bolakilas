@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-20T07:54:56.525Z.
+   API-Football v3) pada 2026-11-20T16:31:38.755Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -338,7 +338,10 @@ const siteData = {
             "away": "Arema FC",
             "stadium": "Maguwoharjo Stadium",
             "round": "Pekan 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/3882.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2438.png",
             "prediction": "3 - 2",
@@ -373,7 +376,38 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "1",
+                    "player": "A. Farisi",
+                    "team": "away"
+                },
+                {
+                    "minute": "44",
+                    "player": "Careca",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+4",
+                    "player": "M. Zijlstra",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "19",
+                    "player": "M. Bagayoko",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "Samuel Otusanya",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -383,7 +417,10 @@ const siteData = {
             "away": "Persepam Madura Utd",
             "stadium": "Pakansari Stadium",
             "round": "Pekan 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 1,
+            "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/26645.png",
             "awayLogo": "https://media.api-sports.io/football/teams/2444.png",
             "prediction": "2 - 3",
@@ -418,7 +455,40 @@ const siteData = {
                     "home": 0,
                     "away": 0
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "71",
+                    "player": "J. Jean",
+                    "team": "home"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "18",
+                    "player": "G. Numberi",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "43",
+                    "player": "P. Ricardo",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "77",
+                    "player": "D. Sapari",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90",
+                    "player": "D. Holec",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -428,7 +498,10 @@ const siteData = {
             "away": "Persita",
             "stadium": "Indomilk Arena",
             "round": "Pekan 10",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 0,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/17902.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4244.png",
             "prediction": "1 - 2",
@@ -463,7 +536,34 @@ const siteData = {
                     "home": 92,
                     "away": 8
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "54",
+                    "player": "R. Rodriguez",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "47",
+                    "player": "N. Kuipers",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "72",
+                    "player": "N. Sadaoui",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "89",
+                    "player": "E. Bessa",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -1599,11 +1699,11 @@ const siteData = {
                 "rank": 2,
                 "team": "Dewa United",
                 "logo": "https://media.api-sports.io/football/teams/17902.png",
-                "played": 9,
+                "played": 10,
                 "win": 6,
                 "draw": 2,
-                "lose": 1,
-                "gd": 4,
+                "lose": 2,
+                "gd": 3,
                 "points": 20
             },
             {
@@ -1621,15 +1721,26 @@ const siteData = {
                 "rank": 4,
                 "team": "Persepam Madura Utd",
                 "logo": "https://media.api-sports.io/football/teams/2444.png",
-                "played": 9,
+                "played": 10,
                 "win": 6,
                 "draw": 1,
-                "lose": 2,
-                "gd": 6,
+                "lose": 3,
+                "gd": 5,
                 "points": 19
             },
             {
                 "rank": 5,
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "played": 9,
+                "win": 5,
+                "draw": 3,
+                "lose": 1,
+                "gd": 7,
+                "points": 18
+            },
+            {
+                "rank": 6,
                 "team": "Persib Bandung",
                 "logo": "https://media.api-sports.io/football/teams/2445.png",
                 "played": 9,
@@ -1640,18 +1751,18 @@ const siteData = {
                 "points": 16
             },
             {
-                "rank": 6,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 8,
+                "rank": 7,
+                "team": "Garudayaksa",
+                "logo": "https://media.api-sports.io/football/teams/26645.png",
+                "played": 10,
                 "win": 4,
-                "draw": 3,
-                "lose": 1,
-                "gd": 6,
-                "points": 15
+                "draw": 2,
+                "lose": 4,
+                "gd": -3,
+                "points": 14
             },
             {
-                "rank": 7,
+                "rank": 8,
                 "team": "Java United",
                 "logo": "https://media.api-sports.io/football/teams/22409.png",
                 "played": 9,
@@ -1662,7 +1773,7 @@ const siteData = {
                 "points": 13
             },
             {
-                "rank": 8,
+                "rank": 9,
                 "team": "Persebaya Surabaya",
                 "logo": "https://media.api-sports.io/football/teams/2446.png",
                 "played": 9,
@@ -1673,7 +1784,7 @@ const siteData = {
                 "points": 13
             },
             {
-                "rank": 9,
+                "rank": 10,
                 "team": "Bhayangkara FC",
                 "logo": "https://media.api-sports.io/football/teams/2443.png",
                 "played": 9,
@@ -1684,18 +1795,18 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 10,
-                "team": "Garudayaksa",
-                "logo": "https://media.api-sports.io/football/teams/26645.png",
-                "played": 9,
+                "rank": 11,
+                "team": "Arema FC",
+                "logo": "https://media.api-sports.io/football/teams/2438.png",
+                "played": 10,
                 "win": 3,
-                "draw": 2,
+                "draw": 3,
                 "lose": 4,
-                "gd": -4,
-                "points": 11
+                "gd": 0,
+                "points": 12
             },
             {
-                "rank": 11,
+                "rank": 12,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
                 "played": 8,
@@ -1706,7 +1817,7 @@ const siteData = {
                 "points": 10
             },
             {
-                "rank": 12,
+                "rank": 13,
                 "team": "PSM Makassar",
                 "logo": "https://media.api-sports.io/football/teams/2441.png",
                 "played": 9,
@@ -1717,7 +1828,7 @@ const siteData = {
                 "points": 10
             },
             {
-                "rank": 13,
+                "rank": 14,
                 "team": "Persik Kediri",
                 "logo": "https://media.api-sports.io/football/teams/4241.png",
                 "played": 9,
@@ -1726,17 +1837,6 @@ const siteData = {
                 "lose": 5,
                 "gd": -5,
                 "points": 10
-            },
-            {
-                "rank": 14,
-                "team": "Arema FC",
-                "logo": "https://media.api-sports.io/football/teams/2438.png",
-                "played": 9,
-                "win": 2,
-                "draw": 3,
-                "lose": 4,
-                "gd": -3,
-                "points": 9
             },
             {
                 "rank": 15,
@@ -1753,11 +1853,11 @@ const siteData = {
                 "rank": 16,
                 "team": "PSS Sleman",
                 "logo": "https://media.api-sports.io/football/teams/3882.png",
-                "played": 9,
+                "played": 10,
                 "win": 1,
                 "draw": 2,
-                "lose": 6,
-                "gd": -5,
+                "lose": 7,
+                "gd": -8,
                 "points": 5
             },
             {
@@ -1784,7 +1884,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "20/11/2026 14:54 WIB",
+    "standingsUpdated": "20/11/2026 23:31 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -31955,7 +32055,7 @@ const siteData = {
                 "time": "02:00",
                 "home": "New England Revolution",
                 "away": "Philadelphia Union",
-                "stadium": "Gillette Stadium",
+                "stadium": "Boston Stadium",
                 "round": "Round of 16",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1609.png",
@@ -31981,8 +32081,8 @@ const siteData = {
                         "away": 50
                     },
                     "poisson": {
-                        "home": 53,
-                        "away": 47
+                        "home": 54,
+                        "away": 46
                     },
                     "h2h": {
                         "home": 40,
@@ -32495,7 +32595,7 @@ const siteData = {
                 "time": "04:00",
                 "home": "FC Dallas",
                 "away": "Portland Timbers",
-                "stadium": "Toyota Stadium",
+                "stadium": "Toyota Stadium(Texas)",
                 "round": "Round of 16",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1597.png",
@@ -32540,7 +32640,7 @@ const siteData = {
                 "time": "05:30",
                 "home": "Atletico-MG",
                 "away": "Boca Juniors",
-                "stadium": "",
+                "stadium": "Estadio Metropolitano Roberto Meléndez",
                 "round": "Final",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/1062.png",
@@ -32656,8 +32756,8 @@ const siteData = {
                         "away": 64
                     },
                     "poisson": {
-                        "home": 55,
-                        "away": 45
+                        "home": 56,
+                        "away": 44
                     },
                     "h2h": {
                         "home": 71,
