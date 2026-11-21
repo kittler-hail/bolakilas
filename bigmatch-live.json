@@ -3,7 +3,7 @@
   "home": "Manchester City",
   "away": "Fulham",
   "statusCode": "NS",
-  "updatedAt": "21/11/2026 06:13 WIB",
+  "updatedAt": "21/11/2026 11:01 WIB",
   "statistics": null,
   "lineups": null,
   "venue": {
@@ -16,11 +16,11 @@
     "bookmaker": "William Hill",
     "home": "1.36",
     "draw": "5.00",
-    "away": "7.00",
+    "away": "6.50",
     "overUnder": null,
     "btts": {
-      "yes": "1.67",
-      "no": "2.15"
+      "yes": "1.62",
+      "no": "2.25"
     }
   },
   "liveOdds": null
