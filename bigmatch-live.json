@@ -2,10 +2,298 @@
   "fixtureId": 1557474,
   "home": "Manchester City",
   "away": "Fulham",
-  "statusCode": "NS",
-  "updatedAt": "21/11/2026 11:01 WIB",
-  "statistics": null,
-  "lineups": null,
+  "statusCode": "1H",
+  "updatedAt": "21/11/2026 19:32 WIB",
+  "statistics": {
+    "home": {
+      "possession": 0,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": 0,
+      "fouls": null,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": null,
+      "passesTotal": null,
+      "passesAccurate": null,
+      "passesPct": null
+    },
+    "away": {
+      "possession": 100,
+      "shotsTotal": 0,
+      "shotsOnTarget": 0,
+      "corners": 0,
+      "fouls": null,
+      "offsides": null,
+      "yellowCards": 0,
+      "redCards": 0,
+      "shotsInsidebox": null,
+      "shotsOutsidebox": null,
+      "passesTotal": null,
+      "passesAccurate": null,
+      "passesPct": null
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "coach": "E. Maresca",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "G. Donnarumma",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 45,
+          "name": "A. Khusanov",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 3,
+          "name": "Rúben Dias",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 6,
+          "name": "M. Guéhi",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 33,
+          "name": "N. O&apos;Reilly",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 32,
+          "name": "A. Bouaddi",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 5,
+          "name": "E. Anderson",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 7,
+          "name": "I. Ndiaye",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 47,
+          "name": "P. Foden",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 11,
+          "name": "J. Doku",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 9,
+          "name": "E. Haaland",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 8,
+          "name": "M. Kovačić",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 82,
+          "name": "R. Lewis",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 24,
+          "name": "J. Gvardiol",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "Vitor Nunes",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 28,
+          "name": "G. Rulli",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 10,
+          "name": "R. Cherki",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 17,
+          "name": "E. Fernández",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 37,
+          "name": "Allan",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 75,
+          "name": "F. Samba",
+          "position": "Gelandang",
+          "rating": "0.0"
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "coach": "Álvaro Arbeloa",
+      "startXI": [
+        {
+          "number": 1,
+          "name": "B. Leno",
+          "position": "Kiper",
+          "rating": "0.0"
+        },
+        {
+          "number": 2,
+          "name": "K. Tete",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 22,
+          "name": "D. Affengruber",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 3,
+          "name": "C. Bassey",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 30,
+          "name": "R. Sessegnon",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 16,
+          "name": "S. Berge",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 19,
+          "name": "S. Charles",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 14,
+          "name": "Oscar Bobb",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 24,
+          "name": "Joshua King",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 17,
+          "name": "A. Iwobi",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 9,
+          "name": "Rodrigo Muniz",
+          "position": "Penyerang",
+          "rating": "0.0"
+        }
+      ],
+      "substitutes": [
+        {
+          "number": 7,
+          "name": "Gonzalo García",
+          "position": "Penyerang",
+          "rating": "0.0"
+        },
+        {
+          "number": 21,
+          "name": "T. Castagne",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 4,
+          "name": "Jorge Cuenca",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 33,
+          "name": "A. Robinson",
+          "position": "Bek",
+          "rating": "0.0"
+        },
+        {
+          "number": 15,
+          "name": "H. Larsson",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 10,
+          "name": "T. Cairney",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 20,
+          "name": "Manuel Ángel",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 8,
+          "name": "César Palacios",
+          "position": "Gelandang",
+          "rating": "0.0"
+        },
+        {
+          "number": 37,
+          "name": "Dino Kaiser",
+          "position": "Kiper",
+          "rating": "0.0"
+        }
+      ]
+    }
+  },
   "venue": {
     "name": "Etihad Stadium",
     "city": "Manchester",
@@ -16,11 +304,11 @@
     "bookmaker": "William Hill",
     "home": "1.36",
     "draw": "5.00",
-    "away": "6.50",
+    "away": "7.00",
     "overUnder": null,
     "btts": {
-      "yes": "1.62",
-      "no": "2.25"
+      "yes": "1.55",
+      "no": "2.30"
     }
   },
   "liveOdds": null
