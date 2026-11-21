@@ -3,7 +3,7 @@
   "home": "Newcastle",
   "away": "Arsenal",
   "statusCode": "FT",
-  "updatedAt": "22/11/2026 02:45 WIB",
+  "updatedAt": "22/11/2026 06:58 WIB",
   "statistics": {
     "home": {
       "possession": 34,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 7,
-      "passesTotal": 256,
-      "passesAccurate": 188,
+      "passesTotal": 261,
+      "passesAccurate": 191,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 10,
       "shotsOutsidebox": 3,
-      "passesTotal": 519,
-      "passesAccurate": 446,
+      "passesTotal": 524,
+      "passesAccurate": 450,
       "passesPct": null
     }
   },
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "5.8"
+          "rating": "6.2"
         },
         {
           "number": 12,
@@ -209,7 +209,7 @@
           "number": 41,
           "name": "D. Rice",
           "position": "Gelandang",
-          "rating": "6.4"
+          "rating": "6.5"
         },
         {
           "number": 20,
