@@ -3,21 +3,21 @@
   "home": "Newcastle",
   "away": "Arsenal",
   "statusCode": "FT",
-  "updatedAt": "22/11/2026 06:58 WIB",
+  "updatedAt": "22/11/2026 13:31 WIB",
   "statistics": {
     "home": {
       "possession": 34,
       "shotsTotal": 12,
       "shotsOnTarget": 3,
       "corners": 6,
-      "fouls": 19,
+      "fouls": 20,
       "offsides": 3,
       "yellowCards": 3,
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 7,
-      "passesTotal": 261,
-      "passesAccurate": 191,
+      "passesTotal": 262,
+      "passesAccurate": 192,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 10,
       "shotsOutsidebox": 3,
-      "passesTotal": 524,
-      "passesAccurate": 450,
+      "passesTotal": 529,
+      "passesAccurate": 456,
       "passesPct": null
     }
   },
@@ -69,7 +69,7 @@
           "number": 3,
           "name": "L. Hall",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 14,
@@ -105,7 +105,7 @@
           "number": 10,
           "name": "W. Osula",
           "position": "Penyerang",
-          "rating": "6.9"
+          "rating": "7.1"
         }
       ],
       "substitutes": [
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "David Raya",
           "position": "Kiper",
-          "rating": "6.2"
+          "rating": "5.9"
         },
         {
           "number": 12,
@@ -185,7 +185,7 @@
           "number": 15,
           "name": "E. Konsa",
           "position": "Bek",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 6,
@@ -215,19 +215,19 @@
           "number": 20,
           "name": "N. Madueke",
           "position": "Gelandang",
-          "rating": "7.2"
+          "rating": "7.3"
         },
         {
           "number": 8,
           "name": "M. Ødegaard",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.2"
         },
         {
           "number": 10,
           "name": "E. Eze",
           "position": "Gelandang",
-          "rating": "7.8"
+          "rating": "8.2"
         },
         {
           "number": 29,
