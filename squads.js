@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — SKUAD PEMAIN
    File ini di-generate OTOMATIS oleh fetch-squads.js (sumber data:
-   API-Football v3) pada 2026-11-16T10:20:04.614Z.
+   API-Football v3) pada 2026-11-23T11:28:25.050Z.
    Jangan diedit manual — akan tertimpa tiap run mingguan.
 
    Kunci objek = slug nama tim (lihat slugifyTeamName di
@@ -12,6 +12,232 @@
    ========================================================= */
 
 const teamSquads = {
+  "liverpool": [
+    {
+      "name": "Alisson Becker",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/280.png"
+    },
+    {
+      "name": "H. Davies",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/180316.png"
+    },
+    {
+      "name": "G. Mamardashvili",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/24760.png"
+    },
+    {
+      "name": "F. Woodman",
+      "position": "Goalkeeper",
+      "number": 28,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/18889.png"
+    },
+    {
+      "name": "R. Araújo",
+      "position": "Defender",
+      "number": 33,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/101814.png"
+    },
+    {
+      "name": "L. Chambers",
+      "position": "Defender",
+      "number": 44,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/284366.png"
+    },
+    {
+      "name": "J. Gomez",
+      "position": "Defender",
+      "number": 2,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/284.png"
+    },
+    {
+      "name": "J. Jacquet",
+      "position": "Defender",
+      "number": 5,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/367636.png"
+    },
+    {
+      "name": "M. Kerkez",
+      "position": "Defender",
+      "number": 6,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/206254.png"
+    },
+    {
+      "name": "W. Omoruyi",
+      "position": "Defender",
+      "number": 4,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/328081.png"
+    },
+    {
+      "name": "T. Ndiaye",
+      "position": "Defender",
+      "number": 5,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/606814.png"
+    },
+    {
+      "name": "K. Tsimikas",
+      "position": "Defender",
+      "number": 21,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/1600.png"
+    },
+    {
+      "name": "V. van Dijk",
+      "position": "Defender",
+      "number": 4,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/290.png"
+    },
+    {
+      "name": "W. Endo",
+      "position": "Midfielder",
+      "number": 3,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/8500.png"
+    },
+    {
+      "name": "J. Frimpong",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/152654.png"
+    },
+    {
+      "name": "R. Gravenberch",
+      "position": "Midfielder",
+      "number": 38,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/542.png"
+    },
+    {
+      "name": "M. Laffey",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/339205.png"
+    },
+    {
+      "name": "A. Mac Allister",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/6716.png"
+    },
+    {
+      "name": "J. McConnell",
+      "position": "Midfielder",
+      "number": 53,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/287109.png"
+    },
+    {
+      "name": "T. Nyoni",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/397997.png"
+    },
+    {
+      "name": "D. Szoboszlai",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/1096.png"
+    },
+    {
+      "name": "F. Wirtz",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/203224.png"
+    },
+    {
+      "name": "Joshua Abe",
+      "position": "Attacker",
+      "number": 40,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/588501.png"
+    },
+    {
+      "name": "B. Barcola",
+      "position": "Attacker",
+      "number": 29,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/161904.png"
+    },
+    {
+      "name": "F. Chiesa",
+      "position": "Attacker",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/30410.png"
+    },
+    {
+      "name": "J. Danns",
+      "position": "Attacker",
+      "number": 76,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/314661.png"
+    },
+    {
+      "name": "C. Gakpo",
+      "position": "Attacker",
+      "number": 18,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/247.png"
+    },
+    {
+      "name": "A. Isak",
+      "position": "Attacker",
+      "number": 9,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/2864.png"
+    },
+    {
+      "name": "L. Koumas",
+      "position": "Attacker",
+      "number": 67,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/328107.png"
+    },
+    {
+      "name": "Víctor Muñoz",
+      "position": "Attacker",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/338751.png"
+    },
+    {
+      "name": "R. Ngumoha",
+      "position": "Attacker",
+      "number": 73,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/452685.png"
+    },
+    {
+      "name": "J. Lambie",
+      "position": "Attacker",
+      "number": 7,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/437561.png"
+    }
+  ],
   "manchester-city": [
     {
       "name": "M. Bettinelli",
@@ -92,7 +318,7 @@ const teamSquads = {
     },
     {
       "name": "Allan",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 37,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/425714.png"
@@ -155,7 +381,7 @@ const teamSquads = {
     },
     {
       "name": "N. O&apos;Reilly",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 33,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/307123.png"
@@ -176,7 +402,7 @@ const teamSquads = {
     },
     {
       "name": "J. Doku",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/1422.png"
@@ -190,7 +416,7 @@ const teamSquads = {
     },
     {
       "name": "I. Ndiaye",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/18592.png"
@@ -235,7 +461,7 @@ const teamSquads = {
     {
       "name": "H. Amass",
       "position": "Defender",
-      "number": 41,
+      "number": 5,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/403064.png"
     },
@@ -347,7 +573,7 @@ const teamSquads = {
     {
       "name": "T. Fletcher",
       "position": "Midfielder",
-      "number": 39,
+      "number": 6,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/557460.png"
     },
@@ -381,14 +607,14 @@ const teamSquads = {
     },
     {
       "name": "Matheus Cunha",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/1165.png"
     },
     {
       "name": "A. Diallo",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 16,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/157997.png"
@@ -572,7 +798,7 @@ const teamSquads = {
     },
     {
       "name": "M. Dowman",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 10,
       "age": 16,
       "photo": "https://media.api-sports.io/football/players/442044.png"
@@ -656,7 +882,7 @@ const teamSquads = {
     },
     {
       "name": "N. Madueke",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 20,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/136723.png"
@@ -677,7 +903,7 @@ const teamSquads = {
     },
     {
       "name": "C. Tzolis",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 17,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/161800.png"
@@ -868,7 +1094,7 @@ const teamSquads = {
     },
     {
       "name": "Alysson Edward",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 47,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/464004.png"
@@ -914,211 +1140,6 @@ const teamSquads = {
       "number": 7,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/408124.png"
-    }
-  ],
-  "lille": [
-    {
-      "name": "O. Gill",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/70852.png"
-    },
-    {
-      "name": "Zadig Lanssade",
-      "position": "Goalkeeper",
-      "number": 40,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/628379.png"
-    },
-    {
-      "name": "B. Özer",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1337.png"
-    },
-    {
-      "name": "T. Sajous",
-      "position": "Goalkeeper",
-      "number": 50,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/551417.png"
-    },
-    {
-      "name": "Alexsandro Ribeiro",
-      "position": "Defender",
-      "number": 4,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/142691.png"
-    },
-    {
-      "name": "I. Cossier",
-      "position": "Defender",
-      "number": 26,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/486136.png"
-    },
-    {
-      "name": "M. Goffi",
-      "position": "Defender",
-      "number": 38,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/490745.png"
-    },
-    {
-      "name": "N. Ngoy",
-      "position": "Defender",
-      "number": 3,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/312964.png"
-    },
-    {
-      "name": "T. Nianzou",
-      "position": "Defender",
-      "number": 23,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/133110.png"
-    },
-    {
-      "name": "R. Perraud",
-      "position": "Defender",
-      "number": 15,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/20600.png"
-    },
-    {
-      "name": "Tiago Santos",
-      "position": "Defender",
-      "number": 22,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/379329.png"
-    },
-    {
-      "name": "T. Sibiya",
-      "position": "Defender",
-      "number": 33,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/562615.png"
-    },
-    {
-      "name": "L. Srdanovic",
-      "position": "Defender",
-      "number": 2,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394211.png"
-    },
-    {
-      "name": "C. Verdonk",
-      "position": "Defender",
-      "number": 24,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/37151.png"
-    },
-    {
-      "name": "B. André",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/2204.png"
-    },
-    {
-      "name": "N. Bentaleb",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/409.png"
-    },
-    {
-      "name": "Saad Boussadia",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/630699.png"
-    },
-    {
-      "name": "M. Kjærgaard",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/115587.png"
-    },
-    {
-      "name": "N. Mukau",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/375598.png"
-    },
-    {
-      "name": "D. Bakwa",
-      "position": "Attacker",
-      "number": 7,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/129695.png"
-    },
-    {
-      "name": "S. Diaoune",
-      "position": "Attacker",
-      "number": 35,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/487381.png"
-    },
-    {
-      "name": "O. Giroud",
-      "position": "Attacker",
-      "number": 9,
-      "age": 39,
-      "photo": "https://media.api-sports.io/football/players/2295.png"
-    },
-    {
-      "name": "H. Haraldsson",
-      "position": "Attacker",
-      "number": 10,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/67889.png"
-    },
-    {
-      "name": "E. Mbappé",
-      "position": "Attacker",
-      "number": 8,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/386287.png"
-    },
-    {
-      "name": "B. Önal",
-      "position": "Attacker",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/360032.png"
-    },
-    {
-      "name": "G. Perrin",
-      "position": "Attacker",
-      "number": 28,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/20732.png"
-    },
-    {
-      "name": "O. Sahraoui",
-      "position": "Attacker",
-      "number": 11,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/99576.png"
-    },
-    {
-      "name": "A. Ueda",
-      "position": "Attacker",
-      "number": 18,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/72155.png"
-    },
-    {
-      "name": "Matah Yondjio",
-      "position": "Attacker",
-      "number": 33,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/630702.png"
     }
   ],
   "lyon": [
@@ -1243,7 +1264,7 @@ const teamSquads = {
     },
     {
       "name": "K. Merah",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 18,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/519664.png"
@@ -1490,7 +1511,7 @@ const teamSquads = {
     },
     {
       "name": "W. Zaïre-Emery",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 33,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/336657.png"
@@ -1545,6 +1566,211 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/931.png"
     }
   ],
+  "lille": [
+    {
+      "name": "O. Gill",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/70852.png"
+    },
+    {
+      "name": "Zadig Lanssade",
+      "position": "Goalkeeper",
+      "number": 40,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/628379.png"
+    },
+    {
+      "name": "B. Özer",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1337.png"
+    },
+    {
+      "name": "T. Sajous",
+      "position": "Goalkeeper",
+      "number": 50,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/551417.png"
+    },
+    {
+      "name": "Alexsandro Ribeiro",
+      "position": "Defender",
+      "number": 4,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/142691.png"
+    },
+    {
+      "name": "I. Cossier",
+      "position": "Defender",
+      "number": 26,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/486136.png"
+    },
+    {
+      "name": "M. Goffi",
+      "position": "Defender",
+      "number": 38,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/490745.png"
+    },
+    {
+      "name": "N. Ngoy",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/312964.png"
+    },
+    {
+      "name": "T. Nianzou",
+      "position": "Defender",
+      "number": 23,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/133110.png"
+    },
+    {
+      "name": "R. Perraud",
+      "position": "Defender",
+      "number": 15,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/20600.png"
+    },
+    {
+      "name": "Tiago Santos",
+      "position": "Defender",
+      "number": 22,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/379329.png"
+    },
+    {
+      "name": "T. Sibiya",
+      "position": "Defender",
+      "number": 33,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/562615.png"
+    },
+    {
+      "name": "L. Srdanovic",
+      "position": "Defender",
+      "number": 2,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394211.png"
+    },
+    {
+      "name": "C. Verdonk",
+      "position": "Defender",
+      "number": 24,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/37151.png"
+    },
+    {
+      "name": "B. André",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/2204.png"
+    },
+    {
+      "name": "N. Bentaleb",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/409.png"
+    },
+    {
+      "name": "Saad Boussadia",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/630699.png"
+    },
+    {
+      "name": "M. Kjærgaard",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/115587.png"
+    },
+    {
+      "name": "N. Mukau",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/375598.png"
+    },
+    {
+      "name": "D. Bakwa",
+      "position": "Attacker",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/129695.png"
+    },
+    {
+      "name": "S. Diaoune",
+      "position": "Attacker",
+      "number": 35,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/487381.png"
+    },
+    {
+      "name": "O. Giroud",
+      "position": "Attacker",
+      "number": 9,
+      "age": 39,
+      "photo": "https://media.api-sports.io/football/players/2295.png"
+    },
+    {
+      "name": "H. Haraldsson",
+      "position": "Attacker",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/67889.png"
+    },
+    {
+      "name": "E. Mbappé",
+      "position": "Attacker",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/386287.png"
+    },
+    {
+      "name": "B. Önal",
+      "position": "Attacker",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/360032.png"
+    },
+    {
+      "name": "G. Perrin",
+      "position": "Attacker",
+      "number": 28,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/20732.png"
+    },
+    {
+      "name": "O. Sahraoui",
+      "position": "Attacker",
+      "number": 11,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/99576.png"
+    },
+    {
+      "name": "A. Ueda",
+      "position": "Attacker",
+      "number": 18,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/72155.png"
+    },
+    {
+      "name": "Matah Yondjio",
+      "position": "Attacker",
+      "number": 33,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/630702.png"
+    }
+  ],
   "lens": [
     {
       "name": "M. Gorgelin",
@@ -1576,14 +1802,14 @@ const teamSquads = {
     },
     {
       "name": "Saud Abdulhamid",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 23,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/44594.png"
     },
     {
       "name": "R. Aguilar",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 2,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/21568.png"
@@ -1674,7 +1900,7 @@ const teamSquads = {
     },
     {
       "name": "T. Hazard",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 9,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/2929.png"
@@ -1744,10 +1970,215 @@ const teamSquads = {
     },
     {
       "name": "F. Thauvin",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/1922.png"
+    }
+  ],
+  "borussia-dortmund": [
+    {
+      "name": "P. Drewes",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/26395.png"
+    },
+    {
+      "name": "G. Kobel",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/25282.png"
+    },
+    {
+      "name": "A. Meyer",
+      "position": "Goalkeeper",
+      "number": 33,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/26292.png"
+    },
+    {
+      "name": "S. Ostrzinski",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/280463.png"
+    },
+    {
+      "name": "W. Anton",
+      "position": "Defender",
+      "number": 3,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/25368.png"
+    },
+    {
+      "name": "R. Bensebaïni",
+      "position": "Defender",
+      "number": 5,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/2194.png"
+    },
+    {
+      "name": "Kouakou Joane Gadou",
+      "position": "Defender",
+      "number": 22,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/409215.png"
+    },
+    {
+      "name": "F. Mané",
+      "position": "Defender",
+      "number": 39,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/341839.png"
+    },
+    {
+      "name": "Kauã Prates",
+      "position": "Defender",
+      "number": 36,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/507692.png"
+    },
+    {
+      "name": "L. Reggiani",
+      "position": "Defender",
+      "number": 49,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568225.png"
+    },
+    {
+      "name": "J. Ryerson",
+      "position": "Defender",
+      "number": 26,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/24845.png"
+    },
+    {
+      "name": "N. Schlotterbeck",
+      "position": "Defender",
+      "number": 4,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/26243.png"
+    },
+    {
+      "name": "D. Svensson",
+      "position": "Defender",
+      "number": 24,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/198654.png"
+    },
+    {
+      "name": "J. Bellingham",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/326757.png"
+    },
+    {
+      "name": "C. Chukwuemeka",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/138935.png"
+    },
+    {
+      "name": "K. Karetsas",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/404891.png"
+    },
+    {
+      "name": "G. Konstantelias",
+      "position": "Midfielder",
+      "number": 45,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/162410.png"
+    },
+    {
+      "name": "Justin Lerma",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/465666.png"
+    },
+    {
+      "name": "F. Nmecha",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/637.png"
+    },
+    {
+      "name": "E. Nwaneri",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/313236.png"
+    },
+    {
+      "name": "M. Sabitzer",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1159.png"
+    },
+    {
+      "name": "J. Veerman",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/37749.png"
+    },
+    {
+      "name": "T. Yamamoto",
+      "position": "Midfielder",
+      "number": 36,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/568612.png"
+    },
+    {
+      "name": "E. de Pina Duarte dos Santos",
+      "position": "Midfielder",
+      "number": 44,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/568155.png"
+    },
+    {
+      "name": "M. Albert",
+      "position": "Attacker",
+      "number": 41,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/486522.png"
+    },
+    {
+      "name": "M. Beier",
+      "position": "Attacker",
+      "number": 14,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/158644.png"
+    },
+    {
+      "name": "S. Guirassy",
+      "position": "Attacker",
+      "number": 9,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/21393.png"
+    },
+    {
+      "name": "S. Inacio",
+      "position": "Attacker",
+      "number": 40,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/478991.png"
+    },
+    {
+      "name": "Fábio Silva",
+      "position": "Attacker",
+      "number": 21,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/129791.png"
     }
   ],
   "bayern-munchen": [
@@ -1969,209 +2400,414 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/19617.png"
     }
   ],
-  "borussia-dortmund": [
+  "vfb-stuttgart": [
     {
-      "name": "P. Drewes",
-      "position": "Goalkeeper",
-      "number": 30,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/26395.png"
-    },
-    {
-      "name": "G. Kobel",
+      "name": "F. Bredlow",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/25282.png"
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/25597.png"
     },
     {
-      "name": "A. Meyer",
+      "name": "S. Drljača",
+      "position": "Goalkeeper",
+      "number": 46,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/178217.png"
+    },
+    {
+      "name": "M. Funk",
       "position": "Goalkeeper",
       "number": 33,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/26292.png"
-    },
-    {
-      "name": "S. Ostrzinski",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/280463.png"
-    },
-    {
-      "name": "W. Anton",
-      "position": "Defender",
-      "number": 3,
       "age": 29,
-      "photo": "https://media.api-sports.io/football/players/25368.png"
+      "photo": "https://media.api-sports.io/football/players/25142.png"
     },
     {
-      "name": "R. Bensebaïni",
+      "name": "D. Seimen",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/327993.png"
+    },
+    {
+      "name": "A. Al Dakhil",
       "position": "Defender",
-      "number": 5,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/2194.png"
+      "number": 2,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/323449.png"
     },
     {
-      "name": "Kouakou Joane Gadou",
+      "name": "L. Assignon",
       "position": "Defender",
       "number": 22,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/409215.png"
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/180731.png"
     },
     {
-      "name": "F. Mané",
-      "position": "Defender",
-      "number": 39,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/341839.png"
-    },
-    {
-      "name": "Kauã Prates",
-      "position": "Defender",
-      "number": 36,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/507692.png"
-    },
-    {
-      "name": "L. Reggiani",
-      "position": "Defender",
-      "number": 49,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568225.png"
-    },
-    {
-      "name": "J. Ryerson",
-      "position": "Defender",
-      "number": 26,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/24845.png"
-    },
-    {
-      "name": "N. Schlotterbeck",
-      "position": "Defender",
-      "number": 4,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/26243.png"
-    },
-    {
-      "name": "D. Svensson",
+      "name": "J. Chabot",
       "position": "Defender",
       "number": 24,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/198654.png"
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/38112.png"
     },
     {
-      "name": "J. Bellingham",
+      "name": "R. Hendriks",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/135883.png"
+    },
+    {
+      "name": "L. Jaquez",
+      "position": "Defender",
+      "number": 14,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/349344.png"
+    },
+    {
+      "name": "Finn Jeltsch",
+      "position": "Defender",
+      "number": 29,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394734.png"
+    },
+    {
+      "name": "M. Mittelstädt",
       "position": "Midfielder",
       "number": 7,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/326757.png"
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/25342.png"
     },
     {
-      "name": "C. Chukwuemeka",
-      "position": "Attacker",
-      "number": 17,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/138935.png"
+      "name": "L. Stergiou",
+      "position": "Defender",
+      "number": 20,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/48481.png"
     },
     {
-      "name": "K. Karetsas",
-      "position": "Attacker",
-      "number": 19,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/404891.png"
+      "name": "J. Vagnoman",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/24868.png"
     },
     {
-      "name": "G. Konstantelias",
+      "name": "D. Zagadou",
+      "position": "Defender",
+      "number": 46,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/13.png"
+    },
+    {
+      "name": "B. El Khannouss",
       "position": "Midfielder",
-      "number": 45,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/162410.png"
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/340573.png"
     },
     {
-      "name": "Justin Lerma",
+      "name": "A. Karazor",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/24963.png"
+    },
+    {
+      "name": "N. Nartey",
       "position": "Midfielder",
       "number": 28,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/465666.png"
-    },
-    {
-      "name": "F. Nmecha",
-      "position": "Midfielder",
-      "number": 8,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/637.png"
+      "photo": "https://media.api-sports.io/football/players/24806.png"
     },
     {
-      "name": "E. Nwaneri",
+      "name": "G. Prömel",
       "position": "Midfielder",
-      "number": 18,
+      "number": 21,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/24854.png"
+    },
+    {
+      "name": "Y. Spalt",
+      "position": "Midfielder",
+      "number": 47,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/313236.png"
+      "photo": "https://media.api-sports.io/football/players/535120.png"
     },
     {
-      "name": "M. Sabitzer",
+      "name": "A. Stiller",
       "position": "Midfielder",
-      "number": 20,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/1159.png"
+      "number": 6,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/137210.png"
     },
     {
-      "name": "J. Veerman",
+      "name": "E. Yigit",
       "position": "Midfielder",
-      "number": 25,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/37749.png"
+      "number": 19,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/570641.png"
     },
     {
-      "name": "T. Yamamoto",
-      "position": "Midfielder",
-      "number": 36,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/568612.png"
-    },
-    {
-      "name": "E. de Pina Duarte dos Santos",
-      "position": "Midfielder",
-      "number": 44,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/568155.png"
-    },
-    {
-      "name": "M. Albert",
-      "position": "Attacker",
-      "number": 41,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/486522.png"
-    },
-    {
-      "name": "M. Beier",
-      "position": "Attacker",
-      "number": 14,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/158644.png"
-    },
-    {
-      "name": "S. Guirassy",
+      "name": "E. Demirović",
       "position": "Attacker",
       "number": 9,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/46930.png"
+    },
+    {
+      "name": "C. Führich",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/24798.png"
+    },
+    {
+      "name": "J. Leweling",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/128533.png"
+    },
+    {
+      "name": "Jarzinho Ataide Adriano de Nascimento Malanga",
+      "position": "Attacker",
+      "number": 27,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394665.png"
+    },
+    {
+      "name": "D. Pejčinović",
+      "position": "Attacker",
+      "number": 17,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/342188.png"
+    },
+    {
+      "name": "L. Sauer",
+      "position": "Attacker",
+      "number": 44,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/342163.png"
+    },
+    {
+      "name": "Tiago Tomás",
+      "position": "Attacker",
+      "number": 8,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/265363.png"
+    },
+    {
+      "name": "D. Undav",
+      "position": "Midfielder",
+      "number": 26,
       "age": 29,
-      "photo": "https://media.api-sports.io/football/players/21393.png"
+      "photo": "https://media.api-sports.io/football/players/26475.png"
     },
     {
-      "name": "S. Inacio",
+      "name": "T. van der Leij",
       "position": "Attacker",
-      "number": 40,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/478991.png"
+      "number": 9,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/546701.png"
+    }
+  ],
+  "rb-leipzig": [
+    {
+      "name": "Ø. Nyland",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/19172.png"
     },
     {
-      "name": "Fábio Silva",
-      "position": "Attacker",
+      "name": "M. Vandevoordt",
+      "position": "Goalkeeper",
+      "number": 26,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/1924.png"
+    },
+    {
+      "name": "L. Zingerle",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/24814.png"
+    },
+    {
+      "name": "R. Baku",
+      "position": "Defender",
+      "number": 17,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/25917.png"
+    },
+    {
+      "name": "M. Estève",
+      "position": "Defender",
+      "number": 3,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/179400.png"
+    },
+    {
+      "name": "Max Finkgräfe",
+      "position": "Defender",
+      "number": 35,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/355167.png"
+    },
+    {
+      "name": "B. Henrichs",
+      "position": "Defender",
+      "number": 39,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/98.png"
+    },
+    {
+      "name": "L. Klostermann",
+      "position": "Defender",
+      "number": 16,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/1144.png"
+    },
+    {
+      "name": "A. Koné",
+      "position": "Defender",
+      "number": 2,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/442929.png"
+    },
+    {
+      "name": "C. Lukeba",
+      "position": "Defender",
+      "number": 23,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/162761.png"
+    },
+    {
+      "name": "W. Orbán",
+      "position": "Defender",
+      "number": 4,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/1148.png"
+    },
+    {
+      "name": "D. Raum",
+      "position": "Defender",
+      "number": 22,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/25158.png"
+    },
+    {
+      "name": "E. Banzuzi",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/343286.png"
+    },
+    {
+      "name": "C. Baumgartner",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/715.png"
+    },
+    {
+      "name": "N. El Aynaoui",
+      "position": "Midfielder",
       "number": 21,
       "age": 24,
-      "photo": "https://media.api-sports.io/football/players/129791.png"
+      "photo": "https://media.api-sports.io/football/players/277003.png"
+    },
+    {
+      "name": "B. Gruda",
+      "position": "Attacker",
+      "number": 10,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/328225.png"
+    },
+    {
+      "name": "B. Kaltefleiter",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/606949.png"
+    },
+    {
+      "name": "A. MaksimoviÄ",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/398192.png"
+    },
+    {
+      "name": "A. Ouédraogo",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/380978.png"
+    },
+    {
+      "name": "R. Reitz",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/203007.png"
+    },
+    {
+      "name": "N. Seiwald",
+      "position": "Midfielder",
+      "number": 13,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/7328.png"
+    },
+    {
+      "name": "J. Bakayoko",
+      "position": "Attacker",
+      "number": 11,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/290549.png"
+    },
+    {
+      "name": "T. Gomis",
+      "position": "Attacker",
+      "number": 27,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/383665.png"
+    },
+    {
+      "name": "Marc Guiu",
+      "position": "Attacker",
+      "number": 9,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/392270.png"
+    },
+    {
+      "name": "S. Konate",
+      "position": "Attacker",
+      "number": 13,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/570742.png"
+    },
+    {
+      "name": "C. Nkunku",
+      "position": "Attacker",
+      "number": 28,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/269.png"
+    },
+    {
+      "name": "A. Nusa",
+      "position": "Attacker",
+      "number": 7,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/314511.png"
+    },
+    {
+      "name": "Rômulo",
+      "position": "Attacker",
+      "number": 40,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/326102.png"
     }
   ],
   "psv-eindhoven": [
@@ -2331,7 +2967,7 @@ const teamSquads = {
     },
     {
       "name": "E. Bajraktarevic",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 19,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/329409.png"
@@ -2452,7 +3088,7 @@ const teamSquads = {
     },
     {
       "name": "T. Kraaijeveld",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 24,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/371228.png"
@@ -2557,7 +3193,7 @@ const teamSquads = {
     },
     {
       "name": "L. Valente",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 10,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/314266.png"
@@ -2638,232 +3274,6 @@ const teamSquads = {
       "number": 49,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/624605.png"
-    }
-  ],
-  "liverpool": [
-    {
-      "name": "Alisson Becker",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/280.png"
-    },
-    {
-      "name": "H. Davies",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/180316.png"
-    },
-    {
-      "name": "G. Mamardashvili",
-      "position": "Goalkeeper",
-      "number": 25,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/24760.png"
-    },
-    {
-      "name": "F. Woodman",
-      "position": "Goalkeeper",
-      "number": 28,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/18889.png"
-    },
-    {
-      "name": "R. Araújo",
-      "position": "Defender",
-      "number": 33,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/101814.png"
-    },
-    {
-      "name": "L. Chambers",
-      "position": "Defender",
-      "number": 44,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/284366.png"
-    },
-    {
-      "name": "J. Gomez",
-      "position": "Defender",
-      "number": 2,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/284.png"
-    },
-    {
-      "name": "J. Jacquet",
-      "position": "Defender",
-      "number": 5,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/367636.png"
-    },
-    {
-      "name": "M. Kerkez",
-      "position": "Defender",
-      "number": 6,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/206254.png"
-    },
-    {
-      "name": "W. Omoruyi",
-      "position": "Defender",
-      "number": 4,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/328081.png"
-    },
-    {
-      "name": "T. Ndiaye",
-      "position": "Defender",
-      "number": 5,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/606814.png"
-    },
-    {
-      "name": "K. Tsimikas",
-      "position": "Defender",
-      "number": 21,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/1600.png"
-    },
-    {
-      "name": "V. van Dijk",
-      "position": "Defender",
-      "number": 4,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/290.png"
-    },
-    {
-      "name": "W. Endo",
-      "position": "Midfielder",
-      "number": 3,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/8500.png"
-    },
-    {
-      "name": "J. Frimpong",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/152654.png"
-    },
-    {
-      "name": "R. Gravenberch",
-      "position": "Midfielder",
-      "number": 38,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/542.png"
-    },
-    {
-      "name": "M. Laffey",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/339205.png"
-    },
-    {
-      "name": "A. Mac Allister",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/6716.png"
-    },
-    {
-      "name": "J. McConnell",
-      "position": "Midfielder",
-      "number": 53,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/287109.png"
-    },
-    {
-      "name": "T. Nyoni",
-      "position": "Midfielder",
-      "number": 42,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/397997.png"
-    },
-    {
-      "name": "D. Szoboszlai",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/1096.png"
-    },
-    {
-      "name": "F. Wirtz",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/203224.png"
-    },
-    {
-      "name": "Joshua Abe",
-      "position": "Attacker",
-      "number": 40,
-      "age": 15,
-      "photo": "https://media.api-sports.io/football/players/588501.png"
-    },
-    {
-      "name": "B. Barcola",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/161904.png"
-    },
-    {
-      "name": "F. Chiesa",
-      "position": "Attacker",
-      "number": 14,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/30410.png"
-    },
-    {
-      "name": "J. Danns",
-      "position": "Attacker",
-      "number": 76,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/314661.png"
-    },
-    {
-      "name": "C. Gakpo",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/247.png"
-    },
-    {
-      "name": "A. Isak",
-      "position": "Attacker",
-      "number": 9,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/2864.png"
-    },
-    {
-      "name": "L. Koumas",
-      "position": "Attacker",
-      "number": 67,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/328107.png"
-    },
-    {
-      "name": "Víctor Muñoz",
-      "position": "Attacker",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/338751.png"
-    },
-    {
-      "name": "R. Ngumoha",
-      "position": "Attacker",
-      "number": 73,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/452685.png"
-    },
-    {
-      "name": "J. Lambie",
-      "position": "Attacker",
-      "number": 7,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/437561.png"
     }
   ],
   "fc-porto": [
@@ -3270,7 +3680,7 @@ const teamSquads = {
     },
     {
       "name": "Flávio Gonçalves",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 58,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/490759.png"
@@ -3319,7 +3729,7 @@ const teamSquads = {
     },
     {
       "name": "Geny Catamo",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/154839.png"
@@ -3510,7 +3920,7 @@ const teamSquads = {
     },
     {
       "name": "C. Osmand",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 19,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/339172.png"
@@ -3531,7 +3941,7 @@ const teamSquads = {
     },
     {
       "name": "Yang Hyun-Jun",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 13,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/304958.png"
@@ -3545,21 +3955,21 @@ const teamSquads = {
     },
     {
       "name": "M. Baur",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 22,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/328035.png"
     },
     {
       "name": "C. Durán",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/454968.png"
     },
     {
       "name": "J. Forrest",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 49,
       "age": 34,
       "photo": "https://media.api-sports.io/football/players/1127.png"
@@ -3580,14 +3990,14 @@ const teamSquads = {
     },
     {
       "name": "Jota",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/581.png"
     },
     {
       "name": "L. McCowan",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/45169.png"
@@ -3601,7 +4011,7 @@ const teamSquads = {
     },
     {
       "name": "B. Nygren",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 8,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/48002.png"
@@ -3715,14 +4125,14 @@ const teamSquads = {
     },
     {
       "name": "Y. Dhanda",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 31,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/19336.png"
     },
     {
       "name": "L. Kabashi",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 20,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/444464.png"
@@ -3779,7 +4189,7 @@ const teamSquads = {
     {
       "name": "G. Stevenson",
       "position": "Midfielder",
-      "number": 38,
+      "number": 20,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/553692.png"
     },
@@ -3792,7 +4202,7 @@ const teamSquads = {
     },
     {
       "name": "Cláudio Braga",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/141994.png"
@@ -3852,204 +4262,6 @@ const teamSquads = {
       "number": 21,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/418942.png"
-    }
-  ],
-  "vikingur-reykjavik": [
-    {
-      "name": "Pálmi Rafn Arinbjörnsson",
-      "position": "Goalkeeper",
-      "number": 80,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/61649.png"
-    },
-    {
-      "name": "U. Auðunsson",
-      "position": "Goalkeeper",
-      "number": 99,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/313121.png"
-    },
-    {
-      "name": "A. Friðriksson",
-      "position": "Goalkeeper",
-      "number": 29,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/28635.png"
-    },
-    {
-      "name": "Ö. Kristinsson",
-      "position": "Goalkeeper",
-      "number": 47,
-      "age": 36,
-      "photo": "https://media.api-sports.io/football/players/2783.png"
-    },
-    {
-      "name": "D. Atlason",
-      "position": "Defender",
-      "number": 24,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/28799.png"
-    },
-    {
-      "name": "O. Ekroth",
-      "position": "Defender",
-      "number": 4,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/47662.png"
-    },
-    {
-      "name": "H. Guðjónsson",
-      "position": "Defender",
-      "number": 9,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/61588.png"
-    },
-    {
-      "name": "K. Gunnarsson",
-      "position": "Defender",
-      "number": 22,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/28737.png"
-    },
-    {
-      "name": "Solvi Stefansson",
-      "position": "Defender",
-      "number": 5,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/670233.png"
-    },
-    {
-      "name": "R. Þorkelsson",
-      "position": "Defender",
-      "number": 15,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/61643.png"
-    },
-    {
-      "name": "S. Þorkelsson",
-      "position": "Defender",
-      "number": 2,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/361430.png"
-    },
-    {
-      "name": "E. Agnarsson",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/28797.png"
-    },
-    {
-      "name": "V. Andrason",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/28792.png"
-    },
-    {
-      "name": "D. Bjarnason",
-      "position": "Midfielder",
-      "number": 53,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/643672.png"
-    },
-    {
-      "name": "D. Hafsteinsson",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/28769.png"
-    },
-    {
-      "name": "S. Hauksson",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/72711.png"
-    },
-    {
-      "name": "T. Ibrahimagic",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/199311.png"
-    },
-    {
-      "name": "G. Sigurðsson",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 36,
-      "photo": "https://media.api-sports.io/football/players/2795.png"
-    },
-    {
-      "name": "A. Þrándarson",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/57157.png"
-    },
-    {
-      "name": "Ó. Borgþórsson",
-      "position": "Attacker",
-      "number": 66,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/283261.png"
-    },
-    {
-      "name": "Á. Finnbogason",
-      "position": "Attacker",
-      "number": 69,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/318611.png"
-    },
-    {
-      "name": "S. Guðjohnsen",
-      "position": "Attacker",
-      "number": 27,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/56567.png"
-    },
-    {
-      "name": "N. Hansen",
-      "position": "Attacker",
-      "number": 23,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/28810.png"
-    },
-    {
-      "name": "V. Ingimundarson",
-      "position": "Attacker",
-      "number": 25,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/28650.png"
-    },
-    {
-      "name": "Daði Berg Jónsson",
-      "position": "Attacker",
-      "number": 18,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/426857.png"
-    },
-    {
-      "name": "H. Magnússon",
-      "position": "Attacker",
-      "number": 70,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/318320.png"
-    },
-    {
-      "name": "E. Ómarsson",
-      "position": "Attacker",
-      "number": 28,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/37896.png"
-    },
-    {
-      "name": "Stígur Diljan Þórðarson",
-      "position": "Attacker",
-      "number": 77,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/324645.png"
     }
   ],
   "bodoglimt": [
@@ -4237,7 +4449,7 @@ const teamSquads = {
     },
     {
       "name": "J. Hauge",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 10,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/39073.png"
@@ -4248,416 +4460,6 @@ const teamSquads = {
       "number": 21,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/39099.png"
-    }
-  ],
-  "vfb-stuttgart": [
-    {
-      "name": "F. Bredlow",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/25597.png"
-    },
-    {
-      "name": "S. Drljača",
-      "position": "Goalkeeper",
-      "number": 46,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/178217.png"
-    },
-    {
-      "name": "M. Funk",
-      "position": "Goalkeeper",
-      "number": 33,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/25142.png"
-    },
-    {
-      "name": "D. Seimen",
-      "position": "Goalkeeper",
-      "number": 41,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/327993.png"
-    },
-    {
-      "name": "A. Al Dakhil",
-      "position": "Defender",
-      "number": 2,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/323449.png"
-    },
-    {
-      "name": "L. Assignon",
-      "position": "Defender",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/180731.png"
-    },
-    {
-      "name": "J. Chabot",
-      "position": "Defender",
-      "number": 24,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/38112.png"
-    },
-    {
-      "name": "R. Hendriks",
-      "position": "Defender",
-      "number": 3,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/135883.png"
-    },
-    {
-      "name": "L. Jaquez",
-      "position": "Defender",
-      "number": 14,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/349344.png"
-    },
-    {
-      "name": "Finn Jeltsch",
-      "position": "Defender",
-      "number": 29,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394734.png"
-    },
-    {
-      "name": "M. Mittelstädt",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/25342.png"
-    },
-    {
-      "name": "L. Stergiou",
-      "position": "Defender",
-      "number": 20,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/48481.png"
-    },
-    {
-      "name": "J. Vagnoman",
-      "position": "Defender",
-      "number": 4,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/24868.png"
-    },
-    {
-      "name": "D. Zagadou",
-      "position": "Defender",
-      "number": 46,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/13.png"
-    },
-    {
-      "name": "B. El Khannouss",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/340573.png"
-    },
-    {
-      "name": "A. Karazor",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/24963.png"
-    },
-    {
-      "name": "N. Nartey",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/24806.png"
-    },
-    {
-      "name": "G. Prömel",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/24854.png"
-    },
-    {
-      "name": "Y. Spalt",
-      "position": "Midfielder",
-      "number": 47,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/535120.png"
-    },
-    {
-      "name": "A. Stiller",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/137210.png"
-    },
-    {
-      "name": "E. Yigit",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/570641.png"
-    },
-    {
-      "name": "E. Demirović",
-      "position": "Attacker",
-      "number": 9,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/46930.png"
-    },
-    {
-      "name": "C. Führich",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/24798.png"
-    },
-    {
-      "name": "J. Leweling",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/128533.png"
-    },
-    {
-      "name": "Jarzinho Ataide Adriano de Nascimento Malanga",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394665.png"
-    },
-    {
-      "name": "D. Pejčinović",
-      "position": "Attacker",
-      "number": 17,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/342188.png"
-    },
-    {
-      "name": "L. Sauer",
-      "position": "Attacker",
-      "number": 44,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/342163.png"
-    },
-    {
-      "name": "Tiago Tomás",
-      "position": "Attacker",
-      "number": 8,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/265363.png"
-    },
-    {
-      "name": "D. Undav",
-      "position": "Attacker",
-      "number": 26,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/26475.png"
-    },
-    {
-      "name": "T. van der Leij",
-      "position": "Attacker",
-      "number": 9,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/546701.png"
-    }
-  ],
-  "rb-leipzig": [
-    {
-      "name": "Ø. Nyland",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/19172.png"
-    },
-    {
-      "name": "M. Vandevoordt",
-      "position": "Goalkeeper",
-      "number": 26,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/1924.png"
-    },
-    {
-      "name": "L. Zingerle",
-      "position": "Goalkeeper",
-      "number": 25,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/24814.png"
-    },
-    {
-      "name": "R. Baku",
-      "position": "Defender",
-      "number": 17,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/25917.png"
-    },
-    {
-      "name": "M. Estève",
-      "position": "Defender",
-      "number": 3,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/179400.png"
-    },
-    {
-      "name": "Max Finkgräfe",
-      "position": "Defender",
-      "number": 35,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/355167.png"
-    },
-    {
-      "name": "B. Henrichs",
-      "position": "Defender",
-      "number": 39,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/98.png"
-    },
-    {
-      "name": "L. Klostermann",
-      "position": "Defender",
-      "number": 16,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/1144.png"
-    },
-    {
-      "name": "A. Koné",
-      "position": "Defender",
-      "number": 2,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/442929.png"
-    },
-    {
-      "name": "C. Lukeba",
-      "position": "Defender",
-      "number": 23,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/162761.png"
-    },
-    {
-      "name": "W. Orbán",
-      "position": "Defender",
-      "number": 4,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/1148.png"
-    },
-    {
-      "name": "D. Raum",
-      "position": "Defender",
-      "number": 22,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/25158.png"
-    },
-    {
-      "name": "E. Banzuzi",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/343286.png"
-    },
-    {
-      "name": "C. Baumgartner",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/715.png"
-    },
-    {
-      "name": "N. El Aynaoui",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/277003.png"
-    },
-    {
-      "name": "B. Gruda",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/328225.png"
-    },
-    {
-      "name": "B. Kaltefleiter",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/606949.png"
-    },
-    {
-      "name": "A. MaksimoviÄ",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/398192.png"
-    },
-    {
-      "name": "A. Ouédraogo",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/380978.png"
-    },
-    {
-      "name": "R. Reitz",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/203007.png"
-    },
-    {
-      "name": "N. Seiwald",
-      "position": "Midfielder",
-      "number": 13,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/7328.png"
-    },
-    {
-      "name": "J. Bakayoko",
-      "position": "Attacker",
-      "number": 11,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/290549.png"
-    },
-    {
-      "name": "T. Gomis",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/383665.png"
-    },
-    {
-      "name": "Marc Guiu",
-      "position": "Attacker",
-      "number": 9,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/392270.png"
-    },
-    {
-      "name": "S. Konate",
-      "position": "Attacker",
-      "number": 13,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/570742.png"
-    },
-    {
-      "name": "C. Nkunku",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/269.png"
-    },
-    {
-      "name": "A. Nusa",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/314511.png"
-    },
-    {
-      "name": "Rômulo",
-      "position": "Attacker",
-      "number": 40,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/326102.png"
     }
   ],
   "gornik-zabrze": [
@@ -4817,7 +4619,7 @@ const teamSquads = {
     },
     {
       "name": "Y. Ikia Dimi",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/349167.png"
@@ -4831,7 +4633,7 @@ const teamSquads = {
     },
     {
       "name": "M. Khlan",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 33,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/264699.png"
@@ -4845,7 +4647,7 @@ const teamSquads = {
     },
     {
       "name": "Peter",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 19,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/270516.png"
@@ -4856,6 +4658,204 @@ const teamSquads = {
       "number": 11,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/105726.png"
+    }
+  ],
+  "lech-poznan": [
+    {
+      "name": "M. Lis",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/40165.png"
+    },
+    {
+      "name": "Wiktor Obremski",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/667933.png"
+    },
+    {
+      "name": "M. Pruchniewski",
+      "position": "Goalkeeper",
+      "number": 33,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/410640.png"
+    },
+    {
+      "name": "P. Bartczak",
+      "position": "Defender",
+      "number": 55,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/574726.png"
+    },
+    {
+      "name": "A. Douglas",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/105170.png"
+    },
+    {
+      "name": "R. Gumny",
+      "position": "Defender",
+      "number": 20,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/3001.png"
+    },
+    {
+      "name": "M. Gurgul",
+      "position": "Defender",
+      "number": 15,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394956.png"
+    },
+    {
+      "name": "H. Janyszka",
+      "position": "Defender",
+      "number": 90,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/574725.png"
+    },
+    {
+      "name": "W. Mońka",
+      "position": "Defender",
+      "number": 27,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/429408.png"
+    },
+    {
+      "name": "João Moutinho",
+      "position": "Defender",
+      "number": 4,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/50922.png"
+    },
+    {
+      "name": "Joel Pereira",
+      "position": "Defender",
+      "number": 2,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/15491.png"
+    },
+    {
+      "name": "M. Skrzypczak",
+      "position": "Defender",
+      "number": 72,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/40565.png"
+    },
+    {
+      "name": "T. Yegbe",
+      "position": "Defender",
+      "number": 59,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/363792.png"
+    },
+    {
+      "name": "G. Berggren",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/48010.png"
+    },
+    {
+      "name": "K. Delikat",
+      "position": "Midfielder",
+      "number": 53,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/494348.png"
+    },
+    {
+      "name": "F. Jagiełło",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/40529.png"
+    },
+    {
+      "name": "A. Kozubal",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/269892.png"
+    },
+    {
+      "name": "R. Murawski",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/31556.png"
+    },
+    {
+      "name": "L. Palma",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/27760.png"
+    },
+    {
+      "name": "Y. Agnero",
+      "position": "Attacker",
+      "number": 7,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/386756.png"
+    },
+    {
+      "name": "L. Bengtsson",
+      "position": "Attacker",
+      "number": 14,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/47910.png"
+    },
+    {
+      "name": "D. Håkans",
+      "position": "Attacker",
+      "number": 11,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/55342.png"
+    },
+    {
+      "name": "M. Ishak",
+      "position": "Attacker",
+      "number": 9,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/25619.png"
+    },
+    {
+      "name": "K. Jakóbczyk",
+      "position": "Attacker",
+      "number": 54,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/443672.png"
+    },
+    {
+      "name": "Pablo Rodríguez",
+      "position": "Attacker",
+      "number": 21,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/162029.png"
+    },
+    {
+      "name": "A. Sayyadmanesh",
+      "position": "Attacker",
+      "number": 17,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/29784.png"
+    },
+    {
+      "name": "Goncalves",
+      "position": "Attacker",
+      "number": 56,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/536484.png"
+    },
+    {
+      "name": "P. Wålemark",
+      "position": "Attacker",
+      "number": 10,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/161176.png"
     }
   ],
   "aarhus": [
@@ -5091,435 +5091,223 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/514279.png"
     }
   ],
-  "napoli": [
+  "nec-nijmegen": [
     {
-      "name": "N. Contini",
-      "position": "Goalkeeper",
-      "number": 14,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/32172.png"
-    },
-    {
-      "name": "A. Meret",
+      "name": "G. Crettaz",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/312.png"
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/129054.png"
     },
     {
-      "name": "V. Milinković-Savić",
+      "name": "Freek Entius",
       "position": "Goalkeeper",
-      "number": 32,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/31156.png"
+      "number": 36,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/492120.png"
     },
     {
-      "name": "C. Pugliese",
+      "name": "Joep Geneste",
       "position": "Goalkeeper",
-      "number": 1,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568114.png"
+      "number": 38,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/491801.png"
     },
     {
-      "name": "D. Spinelli",
+      "name": "N. Polster",
       "position": "Goalkeeper",
-      "number": 41,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568115.png"
+      "number": 12,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/169349.png"
     },
     {
-      "name": "B. Badiashile",
+      "name": "M. Bakker",
       "position": "Defender",
       "number": 5,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/95.png"
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/530.png"
     },
     {
-      "name": "S. Beukema",
+      "name": "Gabriel Brás",
       "position": "Defender",
-      "number": 31,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/37604.png"
+      "number": 73,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/336683.png"
     },
     {
-      "name": "A. Buongiorno",
+      "name": "Deveron Fonville",
       "position": "Defender",
-      "number": 4,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/31226.png"
+      "number": 24,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/353808.png"
     },
     {
-      "name": "G. Di Lorenzo",
+      "name": "Almugera Raouf Mohammed Kabar",
+      "position": "Defender",
+      "number": 66,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394667.png"
+    },
+    {
+      "name": "A. Kaplan",
       "position": "Defender",
       "number": 22,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/31042.png"
-    },
-    {
-      "name": "C. Favasuli",
-      "position": "Defender",
-      "number": 2,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/348532.png"
-    },
-    {
-      "name": "C. Lieto",
-      "position": "Defender",
-      "number": 40,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/680579.png"
-    },
-    {
-      "name": "Luca Marianucci",
-      "position": "Defender",
-      "number": 35,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/388547.png"
-    },
-    {
-      "name": "Rafa Marín",
-      "position": "Defender",
-      "number": 16,
       "age": 23,
-      "photo": "https://media.api-sports.io/football/players/237066.png"
+      "photo": "https://media.api-sports.io/football/players/278159.png"
     },
     {
-      "name": "Nikita Melnyk",
+      "name": "Y. Moslih",
       "position": "Defender",
-      "number": 39,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/595794.png"
+      "number": 42,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/528298.png"
     },
     {
-      "name": "M. Olivera",
-      "position": "Midfielder",
+      "name": "B. Nuytinck",
+      "position": "Defender",
       "number": 17,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/47254.png"
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/30797.png"
     },
     {
-      "name": "Amir Rrahmani",
+      "name": "Mees Rensen",
       "position": "Defender",
-      "number": 13,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/1314.png"
+      "number": 44,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/647139.png"
     },
     {
-      "name": "L. Spinazzola",
-      "position": "Defender",
-      "number": 37,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/862.png"
-    },
-    {
-      "name": "A. Zambo Anguissa",
-      "position": "Midfielder",
-      "number": 99,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/3406.png"
-    },
-    {
-      "name": "A. Chiummariello",
-      "position": "Midfielder",
-      "number": 38,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/610910.png"
-    },
-    {
-      "name": "K. De Bruyne",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/629.png"
-    },
-    {
-      "name": "B. Gilmour",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/130423.png"
-    },
-    {
-      "name": "S. Lobotka",
-      "position": "Midfielder",
-      "number": 68,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/47439.png"
-    },
-    {
-      "name": "S. McTominay",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/903.png"
-    },
-    {
-      "name": "A. Vergara",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/347395.png"
-    },
-    {
-      "name": "Alisson Santos",
-      "position": "Attacker",
-      "number": 27,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/310943.png"
-    },
-    {
-      "name": "F. Barido",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/579077.png"
-    },
-    {
-      "name": "David Neres",
-      "position": "Attacker",
-      "number": 7,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/552.png"
-    },
-    {
-      "name": "Giovane",
-      "position": "Attacker",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/312615.png"
-    },
-    {
-      "name": "R. Højlund",
-      "position": "Attacker",
-      "number": 19,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/288006.png"
-    },
-    {
-      "name": "N. Lang",
-      "position": "Attacker",
-      "number": 70,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/544.png"
-    },
-    {
-      "name": "L. Lucca",
-      "position": "Attacker",
-      "number": 20,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/199089.png"
-    },
-    {
-      "name": "M. Pereyra",
-      "position": "Attacker",
-      "number": 36,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/643876.png"
-    },
-    {
-      "name": "M. Politano",
-      "position": "Attacker",
-      "number": 21,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/219.png"
-    }
-  ],
-  "lech-poznan": [
-    {
-      "name": "M. Lis",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/40165.png"
-    },
-    {
-      "name": "Wiktor Obremski",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/667933.png"
-    },
-    {
-      "name": "M. Pruchniewski",
-      "position": "Goalkeeper",
-      "number": 33,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/410640.png"
-    },
-    {
-      "name": "P. Bartczak",
-      "position": "Defender",
-      "number": 55,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/574726.png"
-    },
-    {
-      "name": "A. Douglas",
+      "name": "P. Sandler",
       "position": "Defender",
       "number": 3,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/105170.png"
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/625.png"
     },
     {
-      "name": "R. Gumny",
-      "position": "Defender",
-      "number": 20,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/3001.png"
-    },
-    {
-      "name": "M. Gurgul",
-      "position": "Defender",
-      "number": 15,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394956.png"
-    },
-    {
-      "name": "H. Janyszka",
-      "position": "Defender",
-      "number": 90,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/574725.png"
-    },
-    {
-      "name": "W. Mońka",
-      "position": "Defender",
-      "number": 27,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/429408.png"
-    },
-    {
-      "name": "João Moutinho",
+      "name": "P. Schuurs",
       "position": "Defender",
       "number": 4,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/50922.png"
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/535.png"
     },
     {
-      "name": "Joel Pereira",
+      "name": "T. Storm",
       "position": "Defender",
-      "number": 2,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/15491.png"
-    },
-    {
-      "name": "M. Skrzypczak",
-      "position": "Defender",
-      "number": 72,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/40565.png"
-    },
-    {
-      "name": "T. Yegbe",
-      "position": "Defender",
-      "number": 59,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/363792.png"
-    },
-    {
-      "name": "G. Berggren",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/48010.png"
-    },
-    {
-      "name": "K. Delikat",
-      "position": "Midfielder",
-      "number": 53,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/494348.png"
-    },
-    {
-      "name": "F. Jagiełło",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/40529.png"
-    },
-    {
-      "name": "A. Kozubal",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/269892.png"
-    },
-    {
-      "name": "R. Murawski",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/31556.png"
-    },
-    {
-      "name": "L. Palma",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/27760.png"
-    },
-    {
-      "name": "Y. Agnero",
-      "position": "Attacker",
-      "number": 7,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/386756.png"
-    },
-    {
-      "name": "L. Bengtsson",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/47910.png"
-    },
-    {
-      "name": "D. Håkans",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/55342.png"
-    },
-    {
-      "name": "M. Ishak",
-      "position": "Attacker",
-      "number": 9,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/25619.png"
-    },
-    {
-      "name": "K. Jakóbczyk",
-      "position": "Attacker",
-      "number": 54,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/443672.png"
-    },
-    {
-      "name": "Pablo Rodríguez",
-      "position": "Midfielder",
       "number": 21,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/162029.png"
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/332759.png"
     },
     {
-      "name": "A. Sayyadmanesh",
-      "position": "Attacker",
-      "number": 17,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/29784.png"
+      "name": "M. van de Wiel",
+      "position": "Defender",
+      "number": 37,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/551117.png"
     },
     {
-      "name": "Goncalves",
-      "position": "Attacker",
-      "number": 56,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/536484.png"
+      "name": "T. Chery",
+      "position": "Midfielder",
+      "number": 9,
+      "age": 37,
+      "photo": "https://media.api-sports.io/football/players/50120.png"
     },
     {
-      "name": "P. Wålemark",
+      "name": "D. Geiger",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/718.png"
+    },
+    {
+      "name": "I. Hansen-Aarøen",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/216770.png"
+    },
+    {
+      "name": "N. Lebreton",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/330315.png"
+    },
+    {
+      "name": "Jamiro Monteiro",
+      "position": "Midfielder",
+      "number": 35,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/50745.png"
+    },
+    {
+      "name": "D. Nejašmić",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/14343.png"
+    },
+    {
+      "name": "D. Tadić",
       "position": "Midfielder",
       "number": 10,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/161176.png"
+      "age": 37,
+      "photo": "https://media.api-sports.io/football/players/554.png"
+    },
+    {
+      "name": "Adam Tahaui",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/480306.png"
+    },
+    {
+      "name": "W. Willumsson",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/2320.png"
+    },
+    {
+      "name": "Clement Bischoff",
+      "position": "Attacker",
+      "number": 99,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/441958.png"
+    },
+    {
+      "name": "Kevin Kers",
+      "position": "Attacker",
+      "number": 34,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/635838.png"
+    },
+    {
+      "name": "B. Linssen",
+      "position": "Attacker",
+      "number": 30,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/37134.png"
+    },
+    {
+      "name": "E. Mor",
+      "position": "Attacker",
+      "number": 7,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47446.png"
+    },
+    {
+      "name": "K. Sierhuis",
+      "position": "Attacker",
+      "number": 14,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/38132.png"
+    },
+    {
+      "name": "A. Thomas",
+      "position": "Attacker",
+      "number": 77,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/453722.png"
     }
   ],
   "the-new-saints": [
@@ -5699,223 +5487,442 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/283288.png"
     }
   ],
-  "nec-nijmegen": [
+  "napoli": [
     {
-      "name": "G. Crettaz",
+      "name": "N. Contini",
+      "position": "Goalkeeper",
+      "number": 14,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/32172.png"
+    },
+    {
+      "name": "A. Meret",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/129054.png"
-    },
-    {
-      "name": "Freek Entius",
-      "position": "Goalkeeper",
-      "number": 36,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/492120.png"
-    },
-    {
-      "name": "Joep Geneste",
-      "position": "Goalkeeper",
-      "number": 38,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/491801.png"
-    },
-    {
-      "name": "N. Polster",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/169349.png"
-    },
-    {
-      "name": "M. Bakker",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/530.png"
-    },
-    {
-      "name": "Gabriel Brás",
-      "position": "Defender",
-      "number": 73,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/336683.png"
-    },
-    {
-      "name": "Deveron Fonville",
-      "position": "Defender",
-      "number": 24,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/353808.png"
-    },
-    {
-      "name": "Almugera Raouf Mohammed Kabar",
-      "position": "Defender",
-      "number": 66,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394667.png"
-    },
-    {
-      "name": "A. Kaplan",
-      "position": "Defender",
-      "number": 22,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/278159.png"
-    },
-    {
-      "name": "Y. Moslih",
-      "position": "Defender",
-      "number": 42,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/528298.png"
-    },
-    {
-      "name": "B. Nuytinck",
-      "position": "Defender",
-      "number": 17,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/30797.png"
-    },
-    {
-      "name": "Mees Rensen",
-      "position": "Defender",
-      "number": 44,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/647139.png"
-    },
-    {
-      "name": "P. Sandler",
-      "position": "Defender",
-      "number": 3,
       "age": 28,
-      "photo": "https://media.api-sports.io/football/players/625.png"
+      "photo": "https://media.api-sports.io/football/players/312.png"
     },
     {
-      "name": "P. Schuurs",
+      "name": "V. Milinković-Savić",
+      "position": "Goalkeeper",
+      "number": 32,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/31156.png"
+    },
+    {
+      "name": "C. Pugliese",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568114.png"
+    },
+    {
+      "name": "D. Spinelli",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568115.png"
+    },
+    {
+      "name": "B. Badiashile",
+      "position": "Defender",
+      "number": 5,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/95.png"
+    },
+    {
+      "name": "S. Beukema",
+      "position": "Defender",
+      "number": 31,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/37604.png"
+    },
+    {
+      "name": "A. Buongiorno",
       "position": "Defender",
       "number": 4,
       "age": 26,
-      "photo": "https://media.api-sports.io/football/players/535.png"
+      "photo": "https://media.api-sports.io/football/players/31226.png"
     },
     {
-      "name": "T. Storm",
+      "name": "G. Di Lorenzo",
       "position": "Defender",
-      "number": 21,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/332759.png"
+      "number": 22,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/31042.png"
     },
     {
-      "name": "M. van de Wiel",
+      "name": "C. Favasuli",
+      "position": "Defender",
+      "number": 2,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/348532.png"
+    },
+    {
+      "name": "C. Lieto",
+      "position": "Defender",
+      "number": 40,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/680579.png"
+    },
+    {
+      "name": "Luca Marianucci",
+      "position": "Defender",
+      "number": 35,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/388547.png"
+    },
+    {
+      "name": "Rafa Marín",
+      "position": "Defender",
+      "number": 16,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/237066.png"
+    },
+    {
+      "name": "Nikita Melnyk",
+      "position": "Defender",
+      "number": 39,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/595794.png"
+    },
+    {
+      "name": "M. Olivera",
+      "position": "Defender",
+      "number": 17,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47254.png"
+    },
+    {
+      "name": "Amir Rrahmani",
+      "position": "Defender",
+      "number": 13,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1314.png"
+    },
+    {
+      "name": "L. Spinazzola",
       "position": "Defender",
       "number": 37,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/551117.png"
-    },
-    {
-      "name": "T. Chery",
-      "position": "Midfielder",
-      "number": 9,
-      "age": 37,
-      "photo": "https://media.api-sports.io/football/players/50120.png"
-    },
-    {
-      "name": "D. Geiger",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/718.png"
-    },
-    {
-      "name": "I. Hansen-Aarøen",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/216770.png"
-    },
-    {
-      "name": "N. Lebreton",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/330315.png"
-    },
-    {
-      "name": "Jamiro Monteiro",
-      "position": "Midfielder",
-      "number": 35,
       "age": 32,
-      "photo": "https://media.api-sports.io/football/players/50745.png"
+      "photo": "https://media.api-sports.io/football/players/862.png"
     },
     {
-      "name": "D. Nejašmić",
+      "name": "A. Zambo Anguissa",
       "position": "Midfielder",
-      "number": 6,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/14343.png"
+      "number": 99,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/3406.png"
     },
     {
-      "name": "D. Tadić",
+      "name": "A. Chiummariello",
       "position": "Midfielder",
-      "number": 10,
-      "age": 37,
-      "photo": "https://media.api-sports.io/football/players/554.png"
+      "number": 38,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/610910.png"
     },
     {
-      "name": "Adam Tahaui",
-      "position": "Attacker",
-      "number": 19,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/480306.png"
-    },
-    {
-      "name": "W. Willumsson",
+      "name": "K. De Bruyne",
       "position": "Midfielder",
       "number": 11,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/2320.png"
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/629.png"
     },
     {
-      "name": "Clement Bischoff",
-      "position": "Attacker",
-      "number": 99,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/441958.png"
-    },
-    {
-      "name": "Kevin Kers",
+      "name": "B. Gilmour",
       "position": "Midfielder",
-      "number": 34,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/635838.png"
+      "number": 6,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/130423.png"
     },
     {
-      "name": "B. Linssen",
+      "name": "S. Lobotka",
+      "position": "Midfielder",
+      "number": 68,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/47439.png"
+    },
+    {
+      "name": "S. McTominay",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/903.png"
+    },
+    {
+      "name": "A. Vergara",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/347395.png"
+    },
+    {
+      "name": "Alisson Santos",
       "position": "Attacker",
-      "number": 30,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/37134.png"
+      "number": 27,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/310943.png"
     },
     {
-      "name": "E. Mor",
+      "name": "F. Barido",
+      "position": "Attacker",
+      "number": 18,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/579077.png"
+    },
+    {
+      "name": "David Neres",
       "position": "Attacker",
       "number": 7,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/47446.png"
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/552.png"
     },
     {
-      "name": "K. Sierhuis",
+      "name": "Giovane",
       "position": "Attacker",
-      "number": 14,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/38132.png"
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/312615.png"
     },
     {
-      "name": "A. Thomas",
+      "name": "R. Højlund",
       "position": "Attacker",
+      "number": 19,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/288006.png"
+    },
+    {
+      "name": "N. Lang",
+      "position": "Attacker",
+      "number": 70,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/544.png"
+    },
+    {
+      "name": "L. Lucca",
+      "position": "Attacker",
+      "number": 20,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/199089.png"
+    },
+    {
+      "name": "M. Pereyra",
+      "position": "Attacker",
+      "number": 36,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/643876.png"
+    },
+    {
+      "name": "M. Politano",
+      "position": "Attacker",
+      "number": 21,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/219.png"
+    }
+  ],
+  "as-roma": [
+    {
+      "name": "G. De Marzi",
+      "position": "Goalkeeper",
+      "number": 70,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/483676.png"
+    },
+    {
+      "name": "P. Gollini",
+      "position": "Goalkeeper",
+      "number": 95,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/30418.png"
+    },
+    {
+      "name": "M. Svilar",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/556.png"
+    },
+    {
+      "name": "L. Balerdi",
+      "position": "Defender",
+      "number": 26,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/6.png"
+    },
+    {
+      "name": "D. Ghilardi",
+      "position": "Defender",
+      "number": 87,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/342019.png"
+    },
+    {
+      "name": "Hermoso",
+      "position": "Defender",
+      "number": 22,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/2669.png"
+    },
+    {
+      "name": "K. Koulierakis",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/162409.png"
+    },
+    {
+      "name": "E. Lulli",
+      "position": "Midfielder",
       "number": 77,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/453722.png"
+      "photo": "https://media.api-sports.io/football/players/598615.png"
+    },
+    {
+      "name": "G. Mancini",
+      "position": "Defender",
+      "number": 23,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/30425.png"
+    },
+    {
+      "name": "N. Molina",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/6503.png"
+    },
+    {
+      "name": "E. Ndicka",
+      "position": "Defender",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1807.png"
+    },
+    {
+      "name": "D. Rensch",
+      "position": "Midfielder",
+      "number": 2,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/162452.png"
+    },
+    {
+      "name": "M. Seck",
+      "position": "Defender",
+      "number": 3,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/626713.png"
+    },
+    {
+      "name": "Wesley",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/349001.png"
+    },
+    {
+      "name": "M. Bah",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/626686.png"
+    },
+    {
+      "name": "B. Cristante",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/778.png"
+    },
+    {
+      "name": "G. Giammattei",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/552679.png"
+    },
+    {
+      "name": "M. Koné",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/22147.png"
+    },
+    {
+      "name": "Rodrigo Mora",
+      "position": "Attacker",
+      "number": 86,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/404097.png"
+    },
+    {
+      "name": "L. Pellegrini",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/782.png"
+    },
+    {
+      "name": "N. Pisilli",
+      "position": "Midfielder",
+      "number": 61,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/356888.png"
+    },
+    {
+      "name": "M. de Roon",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/30432.png"
+    },
+    {
+      "name": "A. Arena",
+      "position": "Attacker",
+      "number": 68,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/484027.png"
+    },
+    {
+      "name": "M. Camara",
+      "position": "Attacker",
+      "number": 78,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/675841.png"
+    },
+    {
+      "name": "S. Castro",
+      "position": "Attacker",
+      "number": 9,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/311067.png"
+    },
+    {
+      "name": "P. Dybala",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/875.png"
+    },
+    {
+      "name": "D. Malen",
+      "position": "Attacker",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/249.png"
+    },
+    {
+      "name": "M. Soulé",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/323936.png"
+    },
+    {
+      "name": "Devis Vasquez",
+      "position": "Goalkeeper",
+      "number": 32,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/81012.png"
     }
   ],
   "inter": [
@@ -5984,7 +5991,7 @@ const teamSquads = {
     },
     {
       "name": "F. Dimarco",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 32,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/31010.png"
@@ -6005,7 +6012,7 @@ const teamSquads = {
     },
     {
       "name": "D. Spence",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 99,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/19235.png"
@@ -6111,7 +6118,7 @@ const teamSquads = {
     {
       "name": "M. Mosconi",
       "position": "Attacker",
-      "number": 48,
+      "number": 30,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/437678.png"
     },
@@ -6121,6 +6128,204 @@ const teamSquads = {
       "number": 9,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/21509.png"
+    }
+  ],
+  "vikingur-reykjavik": [
+    {
+      "name": "Pálmi Rafn Arinbjörnsson",
+      "position": "Goalkeeper",
+      "number": 80,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/61649.png"
+    },
+    {
+      "name": "U. Auðunsson",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/313121.png"
+    },
+    {
+      "name": "A. Friðriksson",
+      "position": "Goalkeeper",
+      "number": 29,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/28635.png"
+    },
+    {
+      "name": "Ö. Kristinsson",
+      "position": "Goalkeeper",
+      "number": 47,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/2783.png"
+    },
+    {
+      "name": "D. Atlason",
+      "position": "Defender",
+      "number": 24,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/28799.png"
+    },
+    {
+      "name": "O. Ekroth",
+      "position": "Defender",
+      "number": 4,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/47662.png"
+    },
+    {
+      "name": "H. Guðjónsson",
+      "position": "Defender",
+      "number": 9,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/61588.png"
+    },
+    {
+      "name": "K. Gunnarsson",
+      "position": "Defender",
+      "number": 22,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/28737.png"
+    },
+    {
+      "name": "Solvi Stefansson",
+      "position": "Defender",
+      "number": 5,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/670233.png"
+    },
+    {
+      "name": "R. Þorkelsson",
+      "position": "Defender",
+      "number": 15,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/61643.png"
+    },
+    {
+      "name": "S. Þorkelsson",
+      "position": "Defender",
+      "number": 2,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/361430.png"
+    },
+    {
+      "name": "E. Agnarsson",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/28797.png"
+    },
+    {
+      "name": "V. Andrason",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/28792.png"
+    },
+    {
+      "name": "D. Bjarnason",
+      "position": "Midfielder",
+      "number": 53,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/643672.png"
+    },
+    {
+      "name": "D. Hafsteinsson",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/28769.png"
+    },
+    {
+      "name": "S. Hauksson",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/72711.png"
+    },
+    {
+      "name": "T. Ibrahimagic",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/199311.png"
+    },
+    {
+      "name": "G. Sigurðsson",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/2795.png"
+    },
+    {
+      "name": "A. Þrándarson",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/57157.png"
+    },
+    {
+      "name": "Ó. Borgþórsson",
+      "position": "Attacker",
+      "number": 66,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/283261.png"
+    },
+    {
+      "name": "Á. Finnbogason",
+      "position": "Attacker",
+      "number": 69,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/318611.png"
+    },
+    {
+      "name": "S. Guðjohnsen",
+      "position": "Attacker",
+      "number": 27,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/56567.png"
+    },
+    {
+      "name": "N. Hansen",
+      "position": "Attacker",
+      "number": 23,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/28810.png"
+    },
+    {
+      "name": "V. Ingimundarson",
+      "position": "Attacker",
+      "number": 25,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/28650.png"
+    },
+    {
+      "name": "Daði Berg Jónsson",
+      "position": "Attacker",
+      "number": 18,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/426857.png"
+    },
+    {
+      "name": "H. Magnússon",
+      "position": "Attacker",
+      "number": 70,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/318320.png"
+    },
+    {
+      "name": "E. Ómarsson",
+      "position": "Attacker",
+      "number": 28,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/37896.png"
+    },
+    {
+      "name": "Stígur Diljan Þórðarson",
+      "position": "Attacker",
+      "number": 77,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/324645.png"
     }
   ],
   "barcelona": [
@@ -6252,7 +6457,7 @@ const teamSquads = {
     },
     {
       "name": "B. Farinas",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 4,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/574799.png"
@@ -6350,14 +6555,14 @@ const teamSquads = {
     },
     {
       "name": "A. Gordon",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 17,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/138787.png"
     },
     {
       "name": "Lamine Yamal",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/386828.png"
@@ -6368,6 +6573,204 @@ const teamSquads = {
       "number": 11,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/1496.png"
+    }
+  ],
+  "atletico-madrid": [
+    {
+      "name": "Salvador Esquivel",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/393198.png"
+    },
+    {
+      "name": "J. Musso",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/2465.png"
+    },
+    {
+      "name": "A. Yaakobishvili",
+      "position": "Defender",
+      "number": 4,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/402280.png"
+    },
+    {
+      "name": "J. Castillo",
+      "position": "Midfielder",
+      "number": 46,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/548790.png"
+    },
+    {
+      "name": "O. Vargas",
+      "position": "Midfielder",
+      "number": 3,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/313383.png"
+    },
+    {
+      "name": "M. Llorente",
+      "position": "Attacker",
+      "number": 10,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/548707.png"
+    },
+    {
+      "name": "Sergio Esteban",
+      "position": "Attacker",
+      "number": 9,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/491091.png"
+    },
+    {
+      "name": "Jan Oblak",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/29.png"
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "position": "Defender",
+      "number": 22,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/563.png"
+    },
+    {
+      "name": "Cristian Romero",
+      "position": "Defender",
+      "number": 21,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/30776.png"
+    },
+    {
+      "name": "Daniel Martinez Moreno",
+      "position": "Defender",
+      "number": 30,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/386869.png"
+    },
+    {
+      "name": "Dávid Hancko",
+      "position": "Defender",
+      "number": 17,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/30399.png"
+    },
+    {
+      "name": "Marcos Llorente",
+      "position": "Defender",
+      "number": 14,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/753.png"
+    },
+    {
+      "name": "Marc Pubill",
+      "position": "Defender",
+      "number": 18,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/295793.png"
+    },
+    {
+      "name": "Robin Le Normand",
+      "position": "Defender",
+      "number": 24,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/47301.png"
+    },
+    {
+      "name": "Johnny Cardoso",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/133185.png"
+    },
+    {
+      "name": "Lee Kang-In",
+      "position": "Attacker",
+      "number": 7,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/927.png"
+    },
+    {
+      "name": "Julián Álvarez",
+      "position": "Attacker",
+      "number": 19,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/6009.png"
+    },
+    {
+      "name": "Jonathan David",
+      "position": "Attacker",
+      "number": 15,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/8489.png"
+    },
+    {
+      "name": "Koke",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/50.png"
+    },
+    {
+      "name": "Morten Hjulmand",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/7712.png"
+    },
+    {
+      "name": "Pablo Barrios Rivas",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/336594.png"
+    },
+    {
+      "name": "Rodrigo Mendoza",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/341371.png"
+    },
+    {
+      "name": "Ademola Lookman",
+      "position": "Attacker",
+      "number": 11,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/18767.png"
+    },
+    {
+      "name": "Alejandro Baena Rodríguez",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/182219.png"
+    },
+    {
+      "name": "Alexander Sørloth",
+      "position": "Attacker",
+      "number": 9,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/8492.png"
+    },
+    {
+      "name": "Arnau Ortiz",
+      "position": "Attacker",
+      "number": 16,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/183948.png"
+    },
+    {
+      "name": "Giuliano Simeone Baldini",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/323935.png"
     }
   ],
   "villarreal": [
@@ -6563,7 +6966,7 @@ const teamSquads = {
     {
       "name": "J. A. Gaitan Diaz",
       "position": "Attacker",
-      "number": 28,
+      "number": 7,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/548807.png"
     },
@@ -6601,6 +7004,260 @@ const teamSquads = {
       "number": 22,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/18906.png"
+    }
+  ],
+  "real-madrid": [
+    {
+      "name": "T. Courtois",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/730.png"
+    },
+    {
+      "name": "A. Lunin",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/47400.png"
+    },
+    {
+      "name": "Sergio Mestre",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/386872.png"
+    },
+    {
+      "name": "Javier Navarro",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/494060.png"
+    },
+    {
+      "name": "I. Voloshyn",
+      "position": "Goalkeeper",
+      "number": 39,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/460594.png"
+    },
+    {
+      "name": "T. Alexander-Arnold",
+      "position": "Defender",
+      "number": 12,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/283.png"
+    },
+    {
+      "name": "Raúl Asencio",
+      "position": "Defender",
+      "number": 2,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/341640.png"
+    },
+    {
+      "name": "Álvaro Fernández",
+      "position": "Defender",
+      "number": 18,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/284300.png"
+    },
+    {
+      "name": "Marc Cucurella",
+      "position": "Defender",
+      "number": 17,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/47380.png"
+    },
+    {
+      "name": "D. Dumfries",
+      "position": "Defender",
+      "number": 24,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/226.png"
+    },
+    {
+      "name": "Éder Militão",
+      "position": "Defender",
+      "number": 3,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/372.png"
+    },
+    {
+      "name": "L. Fati",
+      "position": "Defender",
+      "number": 23,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/561032.png"
+    },
+    {
+      "name": "Jesús Fortea",
+      "position": "Defender",
+      "number": 2,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/443595.png"
+    },
+    {
+      "name": "D. Huijsen",
+      "position": "Defender",
+      "number": 4,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/361497.png"
+    },
+    {
+      "name": "I. Konaté",
+      "position": "Defender",
+      "number": 16,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1145.png"
+    },
+    {
+      "name": "J. Martinez",
+      "position": "Defender",
+      "number": 5,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/561033.png"
+    },
+    {
+      "name": "Mario Rivas",
+      "position": "Defender",
+      "number": 4,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/456014.png"
+    },
+    {
+      "name": "A. Rüdiger",
+      "position": "Defender",
+      "number": 22,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/2285.png"
+    },
+    {
+      "name": "J. Bellingham",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/129718.png"
+    },
+    {
+      "name": "E. Camavinga",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/2207.png"
+    },
+    {
+      "name": "J. Cestero Sancho",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/560905.png"
+    },
+    {
+      "name": "Brahim Díaz",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/744.png"
+    },
+    {
+      "name": "A. Güler",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/291964.png"
+    },
+    {
+      "name": "Sergio Martínez",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/518384.png"
+    },
+    {
+      "name": "Thiago Pitarch",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/509470.png"
+    },
+    {
+      "name": "Bernardo Silva",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/636.png"
+    },
+    {
+      "name": "A. Tchouaméni",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/1271.png"
+    },
+    {
+      "name": "F. Valverde",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/756.png"
+    },
+    {
+      "name": "A. Ciria",
+      "position": "Attacker",
+      "number": 17,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/548685.png"
+    },
+    {
+      "name": "Y. Diomande",
+      "position": "Attacker",
+      "number": 25,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/513776.png"
+    },
+    {
+      "name": "Endrick",
+      "position": "Attacker",
+      "number": 9,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/377122.png"
+    },
+    {
+      "name": "Carlos Espí",
+      "position": "Attacker",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/450497.png"
+    },
+    {
+      "name": "Ávaro Leiva",
+      "position": "Attacker",
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/308998.png"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "position": "Attacker",
+      "number": 10,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/278.png"
+    },
+    {
+      "name": "Vinícius Júnior",
+      "position": "Attacker",
+      "number": 7,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/762.png"
+    },
+    {
+      "name": "Daniel Yañez",
+      "position": "Attacker",
+      "number": 7,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/441497.png"
     }
   ],
   "real-betis": [
@@ -6767,7 +7424,7 @@ const teamSquads = {
     },
     {
       "name": "A. Ezzalzouli",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/181421.png"
@@ -6916,7 +7573,7 @@ const teamSquads = {
     },
     {
       "name": "Gabriel Carvalho",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 25,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/415049.png"
@@ -6993,7 +7650,7 @@ const teamSquads = {
     },
     {
       "name": "Alisson Santana",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 30,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/415116.png"
@@ -7021,14 +7678,14 @@ const teamSquads = {
     },
     {
       "name": "G. Mendoza",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 77,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/406224.png"
     },
     {
       "name": "Newertton",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/415151.png"
@@ -7275,14 +7932,14 @@ const teamSquads = {
     },
     {
       "name": "Jota Silva",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 20,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/141901.png"
     },
     {
       "name": "Gelson Martins",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 31,
       "photo": "https://media.api-sports.io/football/players/118.png"
@@ -7302,414 +7959,279 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/8493.png"
     }
   ],
-  "atletico-madrid": [
+  "slavia-praha": [
     {
-      "name": "Salvador Esquivel",
+      "name": "N. Domchak",
       "position": "Goalkeeper",
-      "number": 25,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/393198.png"
+      "number": 29,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/431177.png"
     },
     {
-      "name": "J. Musso",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/2465.png"
-    },
-    {
-      "name": "A. Yaakobishvili",
-      "position": "Defender",
-      "number": 4,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/402280.png"
-    },
-    {
-      "name": "J. Castillo",
-      "position": "Midfielder",
-      "number": 46,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/548790.png"
-    },
-    {
-      "name": "O. Vargas",
-      "position": "Midfielder",
-      "number": 3,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/313383.png"
-    },
-    {
-      "name": "M. Llorente",
-      "position": "Attacker",
-      "number": 10,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/548707.png"
-    },
-    {
-      "name": "Sergio Esteban",
-      "position": "Attacker",
-      "number": 9,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/491091.png"
-    },
-    {
-      "name": "Jan Oblak",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/29.png"
-    },
-    {
-      "name": "Alejandro Grimaldo",
-      "position": "Defender",
-      "number": 22,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/563.png"
-    },
-    {
-      "name": "Cristian Romero",
-      "position": "Defender",
-      "number": 21,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/30776.png"
-    },
-    {
-      "name": "Daniel Martinez Moreno",
-      "position": "Defender",
-      "number": 30,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/386869.png"
-    },
-    {
-      "name": "Dávid Hancko",
-      "position": "Defender",
-      "number": 17,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/30399.png"
-    },
-    {
-      "name": "Marcos Llorente",
-      "position": "Defender",
-      "number": 14,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/753.png"
-    },
-    {
-      "name": "Marc Pubill",
-      "position": "Defender",
-      "number": 18,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/295793.png"
-    },
-    {
-      "name": "Robin Le Normand",
-      "position": "Defender",
-      "number": 24,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/47301.png"
-    },
-    {
-      "name": "Johnny Cardoso",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/133185.png"
-    },
-    {
-      "name": "Lee Kang-In",
-      "position": "Attacker",
-      "number": 7,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/927.png"
-    },
-    {
-      "name": "Julián Álvarez",
-      "position": "Attacker",
-      "number": 19,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/6009.png"
-    },
-    {
-      "name": "Jonathan David",
-      "position": "Attacker",
-      "number": 15,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/8489.png"
-    },
-    {
-      "name": "Koke",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/50.png"
-    },
-    {
-      "name": "Morten Hjulmand",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/7712.png"
-    },
-    {
-      "name": "Pablo Barrios Rivas",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/336594.png"
-    },
-    {
-      "name": "Rodrigo Mendoza",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/341371.png"
-    },
-    {
-      "name": "Ademola Lookman",
-      "position": "Attacker",
-      "number": 11,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/18767.png"
-    },
-    {
-      "name": "Alejandro Baena Rodríguez",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/182219.png"
-    },
-    {
-      "name": "Alexander Sørloth",
-      "position": "Attacker",
-      "number": 9,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/8492.png"
-    },
-    {
-      "name": "Arnau Ortiz",
-      "position": "Attacker",
-      "number": 16,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/183948.png"
-    },
-    {
-      "name": "Giuliano Simeone Baldini",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/323935.png"
-    }
-  ],
-  "hapoel-beer-sheva": [
-    {
-      "name": "I. Hemi",
-      "position": "Goalkeeper",
-      "number": 95,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/395841.png"
-    },
-    {
-      "name": "O. Marciano",
+      "name": "O. Kolář",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 36,
-      "photo": "https://media.api-sports.io/football/players/44829.png"
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1227.png"
     },
     {
-      "name": "Y. Shani",
+      "name": "J. Markovič",
       "position": "Goalkeeper",
-      "number": 36,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/544632.png"
+      "number": 35,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/128768.png"
     },
     {
-      "name": "M. Wolff",
+      "name": "Adam Rezek",
       "position": "Goalkeeper",
-      "number": 34,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/6135.png"
+      "number": 29,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/453726.png"
     },
     {
-      "name": "Pedro Amador",
-      "position": "Defender",
-      "number": 5,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/41967.png"
-    },
-    {
-      "name": "M. Baltaxa",
-      "position": "Defender",
-      "number": 3,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/111309.png"
-    },
-    {
-      "name": "O. Davidzada",
-      "position": "Defender",
-      "number": 13,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/79153.png"
-    },
-    {
-      "name": "D. Diop",
-      "position": "Defender",
-      "number": 44,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/335770.png"
-    },
-    {
-      "name": "M. Vítor",
+      "name": "D. Barcot",
       "position": "Defender",
       "number": 4,
-      "age": 36,
-      "photo": "https://media.api-sports.io/football/players/105605.png"
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/567789.png"
     },
     {
-      "name": "G. Mizrahi",
-      "position": "Defender",
-      "number": 2,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/215821.png"
-    },
-    {
-      "name": "I. Nachmias",
-      "position": "Defender",
-      "number": 15,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/111288.png"
-    },
-    {
-      "name": "I. Rotman",
+      "name": "P. Behenský",
       "position": "Defender",
       "number": 12,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/162269.png"
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/376314.png"
     },
     {
-      "name": "A. Forson",
+      "name": "Š. Chaloupek",
+      "position": "Defender",
+      "number": 2,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/337740.png"
+    },
+    {
+      "name": "T. Holeš",
+      "position": "Defender",
+      "number": 3,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/2252.png"
+    },
+    {
+      "name": "S. Isife",
+      "position": "Defender",
+      "number": 14,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/512859.png"
+    },
+    {
+      "name": "D. Jurásek",
       "position": "Midfielder",
-      "number": 17,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/304026.png"
-    },
-    {
-      "name": "M. Kna&apos;an",
-      "position": "Attacker",
-      "number": 8,
+      "number": 39,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/126564.png"
+      "photo": "https://media.api-sports.io/football/players/128793.png"
     },
     {
-      "name": "Lucas Ventura",
-      "position": "Midfielder",
-      "number": 25,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/80354.png"
+      "name": "J. Kolísek",
+      "position": "Defender",
+      "number": 24,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/462213.png"
     },
     {
-      "name": "E. Peretz",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/105786.png"
-    },
-    {
-      "name": "Lior Shugar",
-      "position": "Midfielder",
-      "number": 15,
+      "name": "M. Konečný",
+      "position": "Defender",
+      "number": 42,
       "age": 19,
-      "photo": "https://media.api-sports.io/football/players/678227.png"
+      "photo": "https://media.api-sports.io/football/players/388774.png"
     },
     {
-      "name": "Y. Stoyanov",
+      "name": "A. N&apos;Guessan",
+      "position": "Defender",
+      "number": 6,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/276551.png"
+    },
+    {
+      "name": "I. Ogbu",
+      "position": "Defender",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/1174.png"
+    },
+    {
+      "name": "Eliáš Piták",
+      "position": "Defender",
+      "number": 43,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/388772.png"
+    },
+    {
+      "name": "M. A. Solarte",
+      "position": "Defender",
+      "number": 6,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/555327.png"
+    },
+    {
+      "name": "T. Vlček",
       "position": "Midfielder",
       "number": 27,
       "age": 24,
-      "photo": "https://media.api-sports.io/football/players/293294.png"
+      "photo": "https://media.api-sports.io/football/players/1236.png"
     },
     {
-      "name": "N. Yehoshua",
+      "name": "D. Zima",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/128772.png"
+    },
+    {
+      "name": "E. Ayaosi",
       "position": "Midfielder",
-      "number": 28,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/371922.png"
-    },
-    {
-      "name": "M. Abu Rumi",
-      "position": "Attacker",
-      "number": 45,
+      "number": 20,
       "age": 21,
-      "photo": "https://media.api-sports.io/football/players/399719.png"
+      "photo": "https://media.api-sports.io/football/players/365840.png"
     },
     {
-      "name": "Z. Ahmed",
+      "name": "K. Belžík",
       "position": "Midfielder",
-      "number": 9,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/137521.png"
+      "number": 14,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/449653.png"
     },
     {
-      "name": "D. Biton",
+      "name": "T. Diakité",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/512806.png"
+    },
+    {
+      "name": "Pavel Kacor",
+      "position": "Midfielder",
+      "number": 32,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/450921.png"
+    },
+    {
+      "name": "H. Kante",
+      "position": "Midfielder",
+      "number": 3,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/512717.png"
+    },
+    {
+      "name": "O. Kubiak",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/524412.png"
+    },
+    {
+      "name": "D. Moses",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/400679.png"
+    },
+    {
+      "name": "W. Nowak",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/368737.png"
+    },
+    {
+      "name": "I. Okonkwo",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/551760.png"
+    },
+    {
+      "name": "L. Provod",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/66353.png"
+    },
+    {
+      "name": "A. Rajnoha",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/497651.png"
+    },
+    {
+      "name": "M. Sadílek",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/241.png"
+    },
+    {
+      "name": "M. E. Suleiman",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/551776.png"
+    },
+    {
+      "name": "T. Chorý",
+      "position": "Attacker",
+      "number": 25,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/818.png"
+    },
+    {
+      "name": "M. Chytil",
+      "position": "Attacker",
+      "number": 13,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/66275.png"
+    },
+    {
+      "name": "Dan Kohout",
+      "position": "Attacker",
+      "number": 15,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/522293.png"
+    },
+    {
+      "name": "M. Kotrba",
+      "position": "Attacker",
+      "number": 17,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/551564.png"
+    },
+    {
+      "name": "A. Ouanda",
+      "position": "Attacker",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/561874.png"
+    },
+    {
+      "name": "P. Potmesil",
+      "position": "Attacker",
+      "number": 13,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/567790.png"
+    },
+    {
+      "name": "I. Schranz",
+      "position": "Attacker",
+      "number": 26,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/15328.png"
+    },
+    {
+      "name": "D. Šturm",
       "position": "Attacker",
       "number": 10,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/70481.png"
-    },
-    {
-      "name": "S. Dahan",
-      "position": "Attacker",
-      "number": 50,
-      "age": null,
-      "photo": "https://media.api-sports.io/football/players/668301.png"
-    },
-    {
-      "name": "J. East",
-      "position": "Attacker",
-      "number": 20,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/32266.png"
-    },
-    {
-      "name": "A. Ganah",
-      "position": "Attacker",
-      "number": 11,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/393937.png"
-    },
-    {
-      "name": "João Victor",
-      "position": "Attacker",
-      "number": 70,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/307834.png"
-    },
-    {
-      "name": "Y. Malede",
-      "position": "Attacker",
-      "number": 14,
       "age": 26,
-      "photo": "https://media.api-sports.io/football/players/111319.png"
-    },
-    {
-      "name": "A. Ohana",
-      "position": "Attacker",
-      "number": 19,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/655592.png"
-    },
-    {
-      "name": "A. Ugarriza",
-      "position": "Attacker",
-      "number": 90,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/39435.png"
-    },
-    {
-      "name": "I. Zlatanović",
-      "position": "Attacker",
-      "number": 66,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/45983.png"
+      "photo": "https://media.api-sports.io/football/players/135273.png"
     }
   ],
   "club-brugge-kv": [
@@ -7820,7 +8342,7 @@ const teamSquads = {
     },
     {
       "name": "J. Pedro da Silva",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 72,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/426447.png"
@@ -7918,14 +8440,14 @@ const teamSquads = {
     },
     {
       "name": "R. Vermant",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 17,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/271276.png"
     },
     {
       "name": "Jan Virgili",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/491248.png"
@@ -8143,6 +8665,218 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/9068.png"
     }
   ],
+  "hapoel-beer-sheva": [
+    {
+      "name": "I. Hemi",
+      "position": "Goalkeeper",
+      "number": 95,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/395841.png"
+    },
+    {
+      "name": "O. Marciano",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/44829.png"
+    },
+    {
+      "name": "Y. Shani",
+      "position": "Goalkeeper",
+      "number": 36,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/544632.png"
+    },
+    {
+      "name": "M. Wolff",
+      "position": "Goalkeeper",
+      "number": 34,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/6135.png"
+    },
+    {
+      "name": "Pedro Amador",
+      "position": "Defender",
+      "number": 5,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/41967.png"
+    },
+    {
+      "name": "M. Baltaxa",
+      "position": "Defender",
+      "number": 3,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/111309.png"
+    },
+    {
+      "name": "O. Davidzada",
+      "position": "Defender",
+      "number": 13,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/79153.png"
+    },
+    {
+      "name": "D. Diop",
+      "position": "Defender",
+      "number": 44,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/335770.png"
+    },
+    {
+      "name": "M. Vítor",
+      "position": "Defender",
+      "number": 4,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/105605.png"
+    },
+    {
+      "name": "G. Mizrahi",
+      "position": "Defender",
+      "number": 2,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/215821.png"
+    },
+    {
+      "name": "I. Nachmias",
+      "position": "Defender",
+      "number": 15,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/111288.png"
+    },
+    {
+      "name": "I. Rotman",
+      "position": "Defender",
+      "number": 12,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/162269.png"
+    },
+    {
+      "name": "A. Forson",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/304026.png"
+    },
+    {
+      "name": "M. Kna&apos;an",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/126564.png"
+    },
+    {
+      "name": "Lucas Ventura",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/80354.png"
+    },
+    {
+      "name": "E. Peretz",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/105786.png"
+    },
+    {
+      "name": "Lior Shugar",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/678227.png"
+    },
+    {
+      "name": "Y. Stoyanov",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/293294.png"
+    },
+    {
+      "name": "N. Yehoshua",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/371922.png"
+    },
+    {
+      "name": "M. Abu Rumi",
+      "position": "Attacker",
+      "number": 45,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/399719.png"
+    },
+    {
+      "name": "Z. Ahmed",
+      "position": "Attacker",
+      "number": 9,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/137521.png"
+    },
+    {
+      "name": "D. Biton",
+      "position": "Attacker",
+      "number": 10,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/70481.png"
+    },
+    {
+      "name": "S. Dahan",
+      "position": "Attacker",
+      "number": 50,
+      "age": null,
+      "photo": "https://media.api-sports.io/football/players/668301.png"
+    },
+    {
+      "name": "J. East",
+      "position": "Attacker",
+      "number": 20,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/32266.png"
+    },
+    {
+      "name": "A. Ganah",
+      "position": "Attacker",
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/393937.png"
+    },
+    {
+      "name": "João Victor",
+      "position": "Attacker",
+      "number": 70,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/307834.png"
+    },
+    {
+      "name": "Y. Malede",
+      "position": "Attacker",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/111319.png"
+    },
+    {
+      "name": "A. Ohana",
+      "position": "Attacker",
+      "number": 19,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/655592.png"
+    },
+    {
+      "name": "A. Ugarriza",
+      "position": "Attacker",
+      "number": 90,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/39435.png"
+    },
+    {
+      "name": "I. Zlatanović",
+      "position": "Attacker",
+      "number": 66,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/45983.png"
+    }
+  ],
   "aek-athens-fc": [
     {
       "name": "Marios Balamotis",
@@ -8321,14 +9055,14 @@ const teamSquads = {
     },
     {
       "name": "A. Koita",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/8543.png"
     },
     {
       "name": "D. Kutesa",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/48488.png"
@@ -8349,285 +9083,10 @@ const teamSquads = {
     },
     {
       "name": "O. Zubkov",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/105320.png"
-    }
-  ],
-  "slavia-praha": [
-    {
-      "name": "N. Domchak",
-      "position": "Goalkeeper",
-      "number": 29,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/431177.png"
-    },
-    {
-      "name": "O. Kolář",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/1227.png"
-    },
-    {
-      "name": "J. Markovič",
-      "position": "Goalkeeper",
-      "number": 35,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/128768.png"
-    },
-    {
-      "name": "Adam Rezek",
-      "position": "Goalkeeper",
-      "number": 40,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/453726.png"
-    },
-    {
-      "name": "D. Barcot",
-      "position": "Defender",
-      "number": 47,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/567789.png"
-    },
-    {
-      "name": "P. Behenský",
-      "position": "Defender",
-      "number": 12,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/376314.png"
-    },
-    {
-      "name": "Š. Chaloupek",
-      "position": "Defender",
-      "number": 2,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/337740.png"
-    },
-    {
-      "name": "T. Holeš",
-      "position": "Defender",
-      "number": 3,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/2252.png"
-    },
-    {
-      "name": "S. Isife",
-      "position": "Defender",
-      "number": 14,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/512859.png"
-    },
-    {
-      "name": "D. Jurásek",
-      "position": "Defender",
-      "number": 39,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/128793.png"
-    },
-    {
-      "name": "J. Kolísek",
-      "position": "Defender",
-      "number": 24,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/462213.png"
-    },
-    {
-      "name": "M. Konečný",
-      "position": "Defender",
-      "number": 42,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/388774.png"
-    },
-    {
-      "name": "A. N&apos;Guessan",
-      "position": "Defender",
-      "number": 6,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/276551.png"
-    },
-    {
-      "name": "I. Ogbu",
-      "position": "Defender",
-      "number": 5,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/1174.png"
-    },
-    {
-      "name": "Eliáš Piták",
-      "position": "Defender",
-      "number": 43,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/388772.png"
-    },
-    {
-      "name": "M. A. Solarte",
-      "position": "Defender",
-      "number": 6,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/555327.png"
-    },
-    {
-      "name": "T. Vlček",
-      "position": "Defender",
-      "number": 27,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/1236.png"
-    },
-    {
-      "name": "D. Zima",
-      "position": "Defender",
-      "number": 4,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/128772.png"
-    },
-    {
-      "name": "E. Ayaosi",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/365840.png"
-    },
-    {
-      "name": "K. Belžík",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/449653.png"
-    },
-    {
-      "name": "T. Diakité",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/512806.png"
-    },
-    {
-      "name": "Pavel Kacor",
-      "position": "Midfielder",
-      "number": 32,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/450921.png"
-    },
-    {
-      "name": "H. Kante",
-      "position": "Midfielder",
-      "number": 3,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/512717.png"
-    },
-    {
-      "name": "O. Kubiak",
-      "position": "Defender",
-      "number": 8,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/524412.png"
-    },
-    {
-      "name": "D. Moses",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/400679.png"
-    },
-    {
-      "name": "W. Nowak",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/368737.png"
-    },
-    {
-      "name": "I. Okonkwo",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/551760.png"
-    },
-    {
-      "name": "L. Provod",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/66353.png"
-    },
-    {
-      "name": "A. Rajnoha",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/497651.png"
-    },
-    {
-      "name": "M. Sadílek",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/241.png"
-    },
-    {
-      "name": "M. E. Suleiman",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/551776.png"
-    },
-    {
-      "name": "T. Chorý",
-      "position": "Attacker",
-      "number": 25,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/818.png"
-    },
-    {
-      "name": "M. Chytil",
-      "position": "Attacker",
-      "number": 13,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/66275.png"
-    },
-    {
-      "name": "Dan Kohout",
-      "position": "Attacker",
-      "number": 15,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/522293.png"
-    },
-    {
-      "name": "M. Kotrba",
-      "position": "Attacker",
-      "number": 53,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/551564.png"
-    },
-    {
-      "name": "A. Ouanda",
-      "position": "Attacker",
-      "number": 18,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/561874.png"
-    },
-    {
-      "name": "P. Potmesil",
-      "position": "Attacker",
-      "number": 13,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/567790.png"
-    },
-    {
-      "name": "I. Schranz",
-      "position": "Attacker",
-      "number": 26,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/15328.png"
-    },
-    {
-      "name": "D. Šturm",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/135273.png"
     }
   ],
   "fk-crvena-zvezda": [
@@ -8766,14 +9225,14 @@ const teamSquads = {
     },
     {
       "name": "M. Ivanić",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 4,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/353.png"
     },
     {
       "name": "A. Katai",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 10,
       "age": 34,
       "photo": "https://media.api-sports.io/football/players/50910.png"
@@ -8787,7 +9246,7 @@ const teamSquads = {
     },
     {
       "name": "V. Kostov",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 22,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/462208.png"
@@ -8829,7 +9288,7 @@ const teamSquads = {
     },
     {
       "name": "L. Loizou",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 75,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/68106.png"
@@ -8847,211 +9306,6 @@ const teamSquads = {
       "number": 60,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/610569.png"
-    }
-  ],
-  "as-roma": [
-    {
-      "name": "G. De Marzi",
-      "position": "Goalkeeper",
-      "number": 70,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/483676.png"
-    },
-    {
-      "name": "P. Gollini",
-      "position": "Goalkeeper",
-      "number": 95,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/30418.png"
-    },
-    {
-      "name": "M. Svilar",
-      "position": "Goalkeeper",
-      "number": 99,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/556.png"
-    },
-    {
-      "name": "L. Balerdi",
-      "position": "Defender",
-      "number": 26,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/6.png"
-    },
-    {
-      "name": "D. Ghilardi",
-      "position": "Defender",
-      "number": 87,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/342019.png"
-    },
-    {
-      "name": "Hermoso",
-      "position": "Defender",
-      "number": 22,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/2669.png"
-    },
-    {
-      "name": "K. Koulierakis",
-      "position": "Defender",
-      "number": 3,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/162409.png"
-    },
-    {
-      "name": "E. Lulli",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/598615.png"
-    },
-    {
-      "name": "G. Mancini",
-      "position": "Defender",
-      "number": 23,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/30425.png"
-    },
-    {
-      "name": "N. Molina",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/6503.png"
-    },
-    {
-      "name": "E. Ndicka",
-      "position": "Defender",
-      "number": 5,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1807.png"
-    },
-    {
-      "name": "D. Rensch",
-      "position": "Midfielder",
-      "number": 2,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/162452.png"
-    },
-    {
-      "name": "M. Seck",
-      "position": "Defender",
-      "number": 3,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/626713.png"
-    },
-    {
-      "name": "Wesley",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/349001.png"
-    },
-    {
-      "name": "M. Bah",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/626686.png"
-    },
-    {
-      "name": "B. Cristante",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/778.png"
-    },
-    {
-      "name": "G. Giammattei",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/552679.png"
-    },
-    {
-      "name": "M. Koné",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/22147.png"
-    },
-    {
-      "name": "Rodrigo Mora",
-      "position": "Attacker",
-      "number": 86,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/404097.png"
-    },
-    {
-      "name": "L. Pellegrini",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/782.png"
-    },
-    {
-      "name": "N. Pisilli",
-      "position": "Midfielder",
-      "number": 61,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/356888.png"
-    },
-    {
-      "name": "M. de Roon",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/30432.png"
-    },
-    {
-      "name": "A. Arena",
-      "position": "Attacker",
-      "number": 68,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/484027.png"
-    },
-    {
-      "name": "M. Camara",
-      "position": "Attacker",
-      "number": 78,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/675841.png"
-    },
-    {
-      "name": "S. Castro",
-      "position": "Attacker",
-      "number": 9,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/311067.png"
-    },
-    {
-      "name": "P. Dybala",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/875.png"
-    },
-    {
-      "name": "D. Malen",
-      "position": "Attacker",
-      "number": 14,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/249.png"
-    },
-    {
-      "name": "M. Soulé",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/323936.png"
-    },
-    {
-      "name": "Devis Vasquez",
-      "position": "Goalkeeper",
-      "number": 32,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/81012.png"
     }
   ],
   "fenerbahce": [
@@ -9218,21 +9472,21 @@ const teamSquads = {
     },
     {
       "name": "O. Aydın",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 70,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/134590.png"
     },
     {
       "name": "M. Greenwood",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/897.png"
     },
     {
       "name": "İ. Kahveci",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 17,
       "age": 30,
       "photo": "https://media.api-sports.io/football/players/49857.png"
@@ -9388,7 +9642,7 @@ const teamSquads = {
     },
     {
       "name": "Iker Almena",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 23,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/389602.png"
@@ -9493,14 +9747,14 @@ const teamSquads = {
     },
     {
       "name": "A. Hoxha",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/105993.png"
     },
     {
       "name": "M. Lisica",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 21,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/265491.png"
@@ -9528,14 +9782,14 @@ const teamSquads = {
     },
     {
       "name": "L. Stojković",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/308814.png"
     },
     {
       "name": "S. Sunta",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 41,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/570214.png"
@@ -9546,239 +9800,6 @@ const teamSquads = {
       "number": 30,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/339162.png"
-    }
-  ],
-  "sparta-praha": [
-    {
-      "name": "Stepan Dyntar",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/679914.png"
-    },
-    {
-      "name": "L. Franc",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/490796.png"
-    },
-    {
-      "name": "K. Hegyi",
-      "position": "Goalkeeper",
-      "number": 47,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/144723.png"
-    },
-    {
-      "name": "J. Surovčík",
-      "position": "Goalkeeper",
-      "number": 44,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/161864.png"
-    },
-    {
-      "name": "S. Zajac",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/551842.png"
-    },
-    {
-      "name": "T. Guddal",
-      "position": "Defender",
-      "number": 6,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/314257.png"
-    },
-    {
-      "name": "K. Hoever",
-      "position": "Defender",
-      "number": 25,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/285.png"
-    },
-    {
-      "name": "P. Kadeřábek",
-      "position": "Defender",
-      "number": 3,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/709.png"
-    },
-    {
-      "name": "M. Kotisek",
-      "position": "Defender",
-      "number": 2,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/606998.png"
-    },
-    {
-      "name": "J. Martinec",
-      "position": "Defender",
-      "number": 4,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/66425.png"
-    },
-    {
-      "name": "L. Mbe Soh",
-      "position": "Defender",
-      "number": 22,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/279.png"
-    },
-    {
-      "name": "A. Ševínský",
-      "position": "Defender",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/340644.png"
-    },
-    {
-      "name": "M. Suchomel",
-      "position": "Defender",
-      "number": 2,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/323899.png"
-    },
-    {
-      "name": "J. Topic",
-      "position": "Defender",
-      "number": 24,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/555431.png"
-    },
-    {
-      "name": "V. Vitályos",
-      "position": "Defender",
-      "number": 15,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/446115.png"
-    },
-    {
-      "name": "J. Zelený",
-      "position": "Defender",
-      "number": 30,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/1237.png"
-    },
-    {
-      "name": "J. Alcócer",
-      "position": "Attacker",
-      "number": 7,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/323942.png"
-    },
-    {
-      "name": "Santiago Eneme",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/153717.png"
-    },
-    {
-      "name": "J. Feit",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394636.png"
-    },
-    {
-      "name": "A. Irving",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/68466.png"
-    },
-    {
-      "name": "M. Jurásek",
-      "position": "Midfielder",
-      "number": 31,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/180305.png"
-    },
-    {
-      "name": "A. Karabec",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/199871.png"
-    },
-    {
-      "name": "R. Macek",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/48408.png"
-    },
-    {
-      "name": "S. Mannsverk",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/57443.png"
-    },
-    {
-      "name": "J. Mercado",
-      "position": "Attacker",
-      "number": 17,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/237122.png"
-    },
-    {
-      "name": "M. Ryneš",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/295027.png"
-    },
-    {
-      "name": "H. Sochurek",
-      "position": "Midfielder",
-      "number": 38,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/555437.png"
-    },
-    {
-      "name": "P. Vydra",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/340646.png"
-    },
-    {
-      "name": "L. Azaka",
-      "position": "Attacker",
-      "number": 20,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/570547.png"
-    },
-    {
-      "name": "J. Braut Brunes",
-      "position": "Attacker",
-      "number": 14,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/95018.png"
-    },
-    {
-      "name": "J. Grimaldo",
-      "position": "Attacker",
-      "number": 21,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/195098.png"
-    },
-    {
-      "name": "E. Singhateh",
-      "position": "Attacker",
-      "number": 27,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/352525.png"
-    },
-    {
-      "name": "M. Vojta",
-      "position": "Attacker",
-      "number": 29,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/291632.png"
     }
   ],
   "universitatea-craiova": [
@@ -9805,7 +9826,7 @@ const teamSquads = {
     },
     {
       "name": "N. Bancu",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 11,
       "age": 33,
       "photo": "https://media.api-sports.io/football/players/43048.png"
@@ -9868,7 +9889,7 @@ const teamSquads = {
     },
     {
       "name": "A. Cicâldău",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 20,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/43050.png"
@@ -9889,7 +9910,7 @@ const teamSquads = {
     },
     {
       "name": "D. Matei",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 30,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/409845.png"
@@ -9938,14 +9959,14 @@ const teamSquads = {
     },
     {
       "name": "Heriberto Tavares",
-      "position": "Defender",
+      "position": "Attacker",
       "number": 19,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/41125.png"
     },
     {
       "name": "C. Mora",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 17,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/196480.png"
@@ -9959,215 +9980,278 @@ const teamSquads = {
     },
     {
       "name": "M. Rădulescu",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 18,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/367688.png"
     }
   ],
-  "levski-sofia": [
+  "sturm-graz": [
     {
-      "name": "M. Lukov",
+      "name": "A. Helac",
       "position": "Goalkeeper",
-      "number": 78,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/11255.png"
-    },
-    {
-      "name": "O. Vladimirov",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/477038.png"
-    },
-    {
-      "name": "S. Vutsov",
-      "position": "Goalkeeper",
-      "number": 92,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/11292.png"
-    },
-    {
-      "name": "Álex Centelles",
-      "position": "Defender",
-      "number": 20,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/914.png"
-    },
-    {
-      "name": "K. Dimitrov",
-      "position": "Defender",
-      "number": 50,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/11074.png"
-    },
-    {
-      "name": "Hevertton Santos",
-      "position": "Defender",
-      "number": 2,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/309155.png"
-    },
-    {
-      "name": "P. Hristov",
-      "position": "Defender",
-      "number": 55,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/31258.png"
-    },
-    {
-      "name": "O. Kamdem",
-      "position": "Defender",
-      "number": 71,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/277056.png"
-    },
-    {
-      "name": "Maicon",
-      "position": "Attacker",
-      "number": 3,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/367528.png"
-    },
-    {
-      "name": "C. Makoun",
-      "position": "Defender",
-      "number": 4,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/56290.png"
-    },
-    {
-      "name": "Aldair",
-      "position": "Defender",
-      "number": 21,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/286910.png"
-    },
-    {
-      "name": "N. Serafimov",
-      "position": "Defender",
-      "number": 31,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/137072.png"
-    },
-    {
-      "name": "A. Bouras",
-      "position": "Midfielder",
-      "number": 47,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/317375.png"
-    },
-    {
-      "name": "M. Grujić",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/25350.png"
-    },
-    {
-      "name": "A. Manov",
-      "position": "Midfielder",
-      "number": null,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/670370.png"
-    },
-    {
-      "name": "A. Mitkov",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/315881.png"
-    },
-    {
-      "name": "E. El Moubarik",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/194736.png"
-    },
-    {
-      "name": "Serginho",
-      "position": "Midfielder",
-      "number": 35,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/279580.png"
-    },
-    {
-      "name": "M. Soula",
-      "position": "Midfielder",
       "number": 22,
       "age": 27,
-      "photo": "https://media.api-sports.io/football/players/21157.png"
+      "photo": "https://media.api-sports.io/football/players/7169.png"
     },
     {
-      "name": "G. Trdin",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/109864.png"
-    },
-    {
-      "name": "Everton Bala",
-      "position": "Attacker",
-      "number": 17,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/160077.png"
-    },
-    {
-      "name": "R. Kirilov",
-      "position": "Attacker",
-      "number": 99,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/11249.png"
-    },
-    {
-      "name": "David Kusso",
-      "position": "Attacker",
-      "number": 27,
+      "name": "D. Khudyakov",
+      "position": "Goalkeeper",
+      "number": 53,
       "age": 21,
-      "photo": "https://media.api-sports.io/football/players/480403.png"
+      "photo": "https://media.api-sports.io/football/players/281989.png"
     },
     {
-      "name": "A. Oko-Flex",
+      "name": "E. Lorenz",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/366341.png"
+    },
+    {
+      "name": "A. Stejskal",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/7315.png"
+    },
+    {
+      "name": "C. Wiener-Pucher",
+      "position": "Goalkeeper",
+      "number": 32,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/409607.png"
+    },
+    {
+      "name": "L. Balbo",
+      "position": "Defender",
+      "number": 27,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/422408.png"
+    },
+    {
+      "name": "N. Geyrhofer",
+      "position": "Defender",
+      "number": 35,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/169498.png"
+    },
+    {
+      "name": "G. Haider",
+      "position": "Defender",
+      "number": 6,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/169525.png"
+    },
+    {
+      "name": "P. Koller",
+      "position": "Defender",
+      "number": 30,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/7701.png"
+    },
+    {
+      "name": "Bastian Tim Maierhofer",
+      "position": "Defender",
+      "number": 5,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/477485.png"
+    },
+    {
+      "name": "A. Malic",
+      "position": "Defender",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/409670.png"
+    },
+    {
+      "name": "Kelechi Nnamdi",
+      "position": "Defender",
+      "number": 19,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/491487.png"
+    },
+    {
+      "name": "P. Petrović",
+      "position": "Defender",
+      "number": 21,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/443800.png"
+    },
+    {
+      "name": "J. Quarshie",
+      "position": "Defender",
+      "number": 2,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/334353.png"
+    },
+    {
+      "name": "E. Roche",
+      "position": "Defender",
+      "number": 15,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/542355.png"
+    },
+    {
+      "name": "E. Soglo",
+      "position": "Defender",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/343211.png"
+    },
+    {
+      "name": "A. Vallci",
+      "position": "Defender",
+      "number": 5,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/1088.png"
+    },
+    {
+      "name": "Jonas Wolf",
+      "position": "Defender",
+      "number": 13,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/432377.png"
+    },
+    {
+      "name": "J. Gorenc Stankovič",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/19041.png"
+    },
+    {
+      "name": "M. Grgic",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/656889.png"
+    },
+    {
+      "name": "J. Halwachs",
+      "position": "Midfielder",
+      "number": 40,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/322987.png"
+    },
+    {
+      "name": "J. Heil",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/7757.png"
+    },
+    {
+      "name": "Jacob Peter Hödl",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/451425.png"
+    },
+    {
+      "name": "O. Kiteishvili",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/7586.png"
+    },
+    {
+      "name": "G. Mamageishvili",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/273295.png"
+    },
+    {
+      "name": "V. Matoshi",
+      "position": "Midfielder",
+      "number": 78,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/395191.png"
+    },
+    {
+      "name": "J. Petritsch",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/627386.png"
+    },
+    {
+      "name": "F. Rózga",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394955.png"
+    },
+    {
+      "name": "S. Seidl",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/176023.png"
+    },
+    {
+      "name": "Luca Weinhandl",
+      "position": "Midfielder",
+      "number": 39,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/461977.png"
+    },
+    {
+      "name": "B. Beganović",
+      "position": "Attacker",
+      "number": 26,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/357424.png"
+    },
+    {
+      "name": "O. Diakité",
+      "position": "Attacker",
+      "number": 14,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/334429.png"
+    },
+    {
+      "name": "L. Grgić",
+      "position": "Attacker",
+      "number": 25,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/372585.png"
+    },
+    {
+      "name": "S. Jatta",
+      "position": "Attacker",
+      "number": 20,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/216761.png"
+    },
+    {
+      "name": "A. Kayombo",
       "position": "Attacker",
       "number": 11,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/1131.png"
-    },
-    {
-      "name": "J. Perea",
-      "position": "Attacker",
-      "number": 9,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/352778.png"
-    },
-    {
-      "name": "A. Raychev",
-      "position": "Attacker",
-      "number": 77,
       "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394170.png"
+      "photo": "https://media.api-sports.io/football/players/427260.png"
     },
     {
-      "name": "Reinaldo",
-      "position": "Attacker",
-      "number": 7,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/9650.png"
-    },
-    {
-      "name": "M. Sangaré",
+      "name": "Jonas Peinhart",
       "position": "Attacker",
       "number": 12,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/194236.png"
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/461976.png"
     },
     {
-      "name": "S. Stoyanchov",
+      "name": "N. Weiper",
       "position": "Attacker",
-      "number": 28,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/503858.png"
+      "number": 44,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/342177.png"
+    },
+    {
+      "name": "S. Włodarczyk",
+      "position": "Attacker",
+      "number": 17,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/158614.png"
     }
   ],
   "galatasaray": [
@@ -10390,7 +10474,7 @@ const teamSquads = {
     },
     {
       "name": "Rafael Leão",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 27,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/22236.png"
@@ -10411,7 +10495,7 @@ const teamSquads = {
     },
     {
       "name": "B. Yılmaz",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 53,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/63274.png"
@@ -10422,6 +10506,211 @@ const teamSquads = {
       "number": 9,
       "age": 16,
       "photo": "https://media.api-sports.io/football/players/602698.png"
+    }
+  ],
+  "levski-sofia": [
+    {
+      "name": "M. Lukov",
+      "position": "Goalkeeper",
+      "number": 78,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/11255.png"
+    },
+    {
+      "name": "O. Vladimirov",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/477038.png"
+    },
+    {
+      "name": "S. Vutsov",
+      "position": "Goalkeeper",
+      "number": 92,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/11292.png"
+    },
+    {
+      "name": "Álex Centelles",
+      "position": "Defender",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/914.png"
+    },
+    {
+      "name": "K. Dimitrov",
+      "position": "Defender",
+      "number": 50,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/11074.png"
+    },
+    {
+      "name": "Hevertton Santos",
+      "position": "Defender",
+      "number": 2,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/309155.png"
+    },
+    {
+      "name": "P. Hristov",
+      "position": "Defender",
+      "number": 55,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/31258.png"
+    },
+    {
+      "name": "O. Kamdem",
+      "position": "Defender",
+      "number": 71,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/277056.png"
+    },
+    {
+      "name": "Maicon",
+      "position": "Defender",
+      "number": 3,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/367528.png"
+    },
+    {
+      "name": "C. Makoun",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/56290.png"
+    },
+    {
+      "name": "Aldair",
+      "position": "Defender",
+      "number": 21,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/286910.png"
+    },
+    {
+      "name": "N. Serafimov",
+      "position": "Defender",
+      "number": 31,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/137072.png"
+    },
+    {
+      "name": "A. Bouras",
+      "position": "Midfielder",
+      "number": 47,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/317375.png"
+    },
+    {
+      "name": "M. Grujić",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/25350.png"
+    },
+    {
+      "name": "A. Manov",
+      "position": "Midfielder",
+      "number": null,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/670370.png"
+    },
+    {
+      "name": "A. Mitkov",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/315881.png"
+    },
+    {
+      "name": "E. El Moubarik",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/194736.png"
+    },
+    {
+      "name": "Serginho",
+      "position": "Midfielder",
+      "number": 35,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/279580.png"
+    },
+    {
+      "name": "M. Soula",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/21157.png"
+    },
+    {
+      "name": "G. Trdin",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/109864.png"
+    },
+    {
+      "name": "Everton Bala",
+      "position": "Attacker",
+      "number": 17,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/160077.png"
+    },
+    {
+      "name": "R. Kirilov",
+      "position": "Attacker",
+      "number": 99,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/11249.png"
+    },
+    {
+      "name": "David Kusso",
+      "position": "Attacker",
+      "number": 27,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/480403.png"
+    },
+    {
+      "name": "A. Oko-Flex",
+      "position": "Attacker",
+      "number": 11,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/1131.png"
+    },
+    {
+      "name": "J. Perea",
+      "position": "Attacker",
+      "number": 9,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/352778.png"
+    },
+    {
+      "name": "A. Raychev",
+      "position": "Attacker",
+      "number": 77,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394170.png"
+    },
+    {
+      "name": "Reinaldo",
+      "position": "Attacker",
+      "number": 7,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/9650.png"
+    },
+    {
+      "name": "M. Sangaré",
+      "position": "Attacker",
+      "number": 12,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/194236.png"
+    },
+    {
+      "name": "S. Stoyanchov",
+      "position": "Attacker",
+      "number": 28,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/503858.png"
     }
   ],
   "shamrock-rovers": [
@@ -10807,7 +11096,7 @@ const teamSquads = {
     },
     {
       "name": "D. Matsuoka",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 88,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/33402.png"
@@ -10870,7 +11159,7 @@ const teamSquads = {
     },
     {
       "name": "N. Marcelli",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/383041.png"
@@ -10963,7 +11252,7 @@ const teamSquads = {
     },
     {
       "name": "A. Sadybekov",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 6,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/319495.png"
@@ -11005,7 +11294,7 @@ const teamSquads = {
     },
     {
       "name": "D. Kasabulat",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 4,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/322050.png"
@@ -11082,7 +11371,7 @@ const teamSquads = {
     },
     {
       "name": "O. Jukkola",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 19,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/264531.png"
@@ -11133,7 +11422,7 @@ const teamSquads = {
     },
     {
       "name": "Yussef Flalhi Idrissi",
-      "position": "Attacker",
+      "position": "Defender",
       "number": 19,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/667088.png"
@@ -11196,7 +11485,7 @@ const teamSquads = {
     },
     {
       "name": "Nano",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 21,
       "age": 41,
       "photo": "https://media.api-sports.io/football/players/46907.png"
@@ -11231,7 +11520,7 @@ const teamSquads = {
     },
     {
       "name": "Toni García",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 18,
       "age": 34,
       "photo": "https://media.api-sports.io/football/players/105684.png"
@@ -11259,7 +11548,7 @@ const teamSquads = {
     },
     {
       "name": "Álvaro Romero",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/47035.png"
@@ -11578,7 +11867,7 @@ const teamSquads = {
     },
     {
       "name": "S. Tovstik",
-      "position": "Attacker",
+      "position": "Defender",
       "number": 26,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/389470.png"
@@ -11599,7 +11888,7 @@ const teamSquads = {
     },
     {
       "name": "Maksim Kalimullin",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 89,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/348080.png"
@@ -11936,738 +12225,237 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/448450.png"
     }
   ],
-  "real-madrid": [
+  "sparta-praha": [
     {
-      "name": "T. Courtois",
+      "name": "Stepan Dyntar",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/730.png"
-    },
-    {
-      "name": "A. Lunin",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/47400.png"
-    },
-    {
-      "name": "Sergio Mestre",
-      "position": "Goalkeeper",
-      "number": 26,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/386872.png"
-    },
-    {
-      "name": "Javier Navarro",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/494060.png"
-    },
-    {
-      "name": "I. Voloshyn",
-      "position": "Goalkeeper",
-      "number": 39,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/460594.png"
-    },
-    {
-      "name": "T. Alexander-Arnold",
-      "position": "Defender",
-      "number": 12,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/283.png"
-    },
-    {
-      "name": "Raúl Asencio",
-      "position": "Defender",
-      "number": 2,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/341640.png"
-    },
-    {
-      "name": "Álvaro Fernández",
-      "position": "Defender",
-      "number": 18,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/284300.png"
-    },
-    {
-      "name": "Marc Cucurella",
-      "position": "Defender",
-      "number": 17,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/47380.png"
-    },
-    {
-      "name": "D. Dumfries",
-      "position": "Defender",
-      "number": 24,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/226.png"
-    },
-    {
-      "name": "Éder Militão",
-      "position": "Defender",
-      "number": 3,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/372.png"
-    },
-    {
-      "name": "L. Fati",
-      "position": "Defender",
-      "number": 23,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/561032.png"
-    },
-    {
-      "name": "Jesús Fortea",
-      "position": "Defender",
-      "number": 2,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/443595.png"
-    },
-    {
-      "name": "D. Huijsen",
-      "position": "Defender",
-      "number": 4,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/361497.png"
-    },
-    {
-      "name": "I. Konaté",
-      "position": "Defender",
-      "number": 16,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1145.png"
-    },
-    {
-      "name": "J. Martinez",
-      "position": "Defender",
-      "number": 5,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/561033.png"
-    },
-    {
-      "name": "Mario Rivas",
-      "position": "Defender",
-      "number": 4,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/456014.png"
-    },
-    {
-      "name": "A. Rüdiger",
-      "position": "Defender",
-      "number": 22,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/2285.png"
-    },
-    {
-      "name": "J. Bellingham",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/129718.png"
-    },
-    {
-      "name": "E. Camavinga",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/2207.png"
-    },
-    {
-      "name": "J. Cestero Sancho",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/560905.png"
-    },
-    {
-      "name": "Brahim Díaz",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/744.png"
-    },
-    {
-      "name": "A. Güler",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/291964.png"
-    },
-    {
-      "name": "Sergio Martínez",
-      "position": "Midfielder",
-      "number": 38,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/518384.png"
-    },
-    {
-      "name": "Thiago Pitarch",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/509470.png"
-    },
-    {
-      "name": "Bernardo Silva",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/636.png"
-    },
-    {
-      "name": "A. Tchouaméni",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/1271.png"
-    },
-    {
-      "name": "F. Valverde",
-      "position": "Defender",
-      "number": 8,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/756.png"
-    },
-    {
-      "name": "A. Ciria",
-      "position": "Attacker",
-      "number": 17,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/548685.png"
-    },
-    {
-      "name": "Y. Diomande",
-      "position": "Midfielder",
-      "number": 25,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/513776.png"
-    },
-    {
-      "name": "Endrick",
-      "position": "Attacker",
-      "number": 9,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/377122.png"
-    },
-    {
-      "name": "Carlos Espí",
-      "position": "Attacker",
-      "number": 19,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/450497.png"
-    },
-    {
-      "name": "Ávaro Leiva",
-      "position": "Attacker",
-      "number": 11,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/308998.png"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "position": "Attacker",
-      "number": 10,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/278.png"
-    },
-    {
-      "name": "Vinícius Júnior",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/762.png"
-    },
-    {
-      "name": "Daniel Yañez",
-      "position": "Attacker",
-      "number": 7,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/441497.png"
-    }
-  ],
-  "viking": [
-    {
-      "name": "Ľ. Belko",
-      "position": "Goalkeeper",
-      "number": 30,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/204996.png"
-    },
-    {
-      "name": "S. Escobar",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/576939.png"
-    },
-    {
-      "name": "E. Jacobsen",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/676708.png"
-    },
-    {
-      "name": "A. Østbø",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/1170.png"
-    },
-    {
-      "name": "Vetle Auklend",
-      "position": "Defender",
-      "number": 24,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/450965.png"
-    },
-    {
-      "name": "A. Bærtelsen",
-      "position": "Defender",
-      "number": 21,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/15712.png"
-    },
-    {
-      "name": "E. Bassey",
-      "position": "Defender",
-      "number": 17,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/427050.png"
-    },
-    {
-      "name": "S. Bjørshol",
-      "position": "Defender",
-      "number": 18,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/39130.png"
-    },
-    {
-      "name": "J. Daland",
-      "position": "Defender",
-      "number": 27,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/57242.png"
-    },
-    {
-      "name": "H. Falchener",
-      "position": "Defender",
-      "number": 25,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/180937.png"
-    },
-    {
-      "name": "H. Haugen",
-      "position": "Defender",
-      "number": 2,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/191732.png"
-    },
-    {
-      "name": "H. Heggheim",
-      "position": "Defender",
-      "number": 5,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/264710.png"
-    },
-    {
-      "name": "G. Stensness",
-      "position": "Defender",
-      "number": 6,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/6937.png"
-    },
-    {
-      "name": "V. Vevatne",
-      "position": "Defender",
-      "number": 3,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/39132.png"
-    },
-    {
-      "name": "K. Askildsen",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/39285.png"
-    },
-    {
-      "name": "J. Bell",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/94541.png"
-    },
-    {
-      "name": "H. Bjørdal",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/8626.png"
-    },
-    {
-      "name": "J. Hansen",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/457199.png"
-    },
-    {
-      "name": "K. Haugen",
-      "position": "Defender",
-      "number": 28,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/39040.png"
-    },
-    {
-      "name": "J. Middelthon",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/584867.png"
-    },
-    {
-      "name": "T. Moi",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/464563.png"
-    },
-    {
-      "name": "V. Berisha",
-      "position": "Attacker",
-      "number": 14,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/39220.png"
-    },
-    {
-      "name": "E. Botheim",
-      "position": "Attacker",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/1188.png"
-    },
-    {
-      "name": "P. Christiansen",
-      "position": "Attacker",
-      "number": 20,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/15622.png"
-    },
-    {
-      "name": "A. Cosic",
-      "position": "Attacker",
-      "number": 19,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/389191.png"
-    },
-    {
-      "name": "K. A. Frimpong",
-      "position": "Attacker",
-      "number": 42,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/637833.png"
-    },
-    {
-      "name": "N. Fuglestad",
-      "position": "Attacker",
-      "number": 23,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/465702.png"
-    },
-    {
-      "name": "S. Kvia-Egeskog",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/318591.png"
-    },
-    {
-      "name": "R. Postema",
-      "position": "Attacker",
-      "number": 11,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/135882.png"
-    },
-    {
-      "name": "Z. Tripić",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/39145.png"
-    }
-  ],
-  "sturm-graz": [
-    {
-      "name": "A. Helac",
-      "position": "Goalkeeper",
-      "number": 22,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/7169.png"
-    },
-    {
-      "name": "D. Khudyakov",
-      "position": "Goalkeeper",
-      "number": 53,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/281989.png"
-    },
-    {
-      "name": "E. Lorenz",
-      "position": "Goalkeeper",
-      "number": 41,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/366341.png"
-    },
-    {
-      "name": "A. Stejskal",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/7315.png"
-    },
-    {
-      "name": "C. Wiener-Pucher",
-      "position": "Goalkeeper",
-      "number": 32,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/409607.png"
-    },
-    {
-      "name": "L. Balbo",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/422408.png"
-    },
-    {
-      "name": "N. Geyrhofer",
-      "position": "Defender",
-      "number": 35,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/169498.png"
-    },
-    {
-      "name": "G. Haider",
-      "position": "Defender",
-      "number": 6,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/169525.png"
-    },
-    {
-      "name": "P. Koller",
-      "position": "Defender",
-      "number": 30,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/7701.png"
-    },
-    {
-      "name": "Bastian Tim Maierhofer",
-      "position": "Defender",
-      "number": 5,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/477485.png"
-    },
-    {
-      "name": "A. Malic",
-      "position": "Defender",
-      "number": 23,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/409670.png"
-    },
-    {
-      "name": "Kelechi Nnamdi",
-      "position": "Defender",
-      "number": 19,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/491487.png"
-    },
-    {
-      "name": "P. Petrović",
-      "position": "Defender",
-      "number": 21,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/443800.png"
-    },
-    {
-      "name": "J. Quarshie",
-      "position": "Defender",
-      "number": 2,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/334353.png"
-    },
-    {
-      "name": "E. Roche",
-      "position": "Defender",
-      "number": 15,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/542355.png"
-    },
-    {
-      "name": "E. Soglo",
-      "position": "Defender",
-      "number": 18,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/343211.png"
-    },
-    {
-      "name": "A. Vallci",
-      "position": "Defender",
-      "number": 5,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/1088.png"
-    },
-    {
-      "name": "Jonas Wolf",
-      "position": "Defender",
-      "number": 13,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/432377.png"
-    },
-    {
-      "name": "J. Gorenc Stankovič",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/19041.png"
-    },
-    {
-      "name": "M. Grgic",
-      "position": "Midfielder",
-      "number": 25,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/656889.png"
-    },
-    {
-      "name": "J. Halwachs",
-      "position": "Midfielder",
-      "number": 40,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/322987.png"
-    },
-    {
-      "name": "J. Heil",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/7757.png"
-    },
-    {
-      "name": "Jacob Peter Hödl",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/451425.png"
-    },
-    {
-      "name": "O. Kiteishvili",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/7586.png"
-    },
-    {
-      "name": "G. Mamageishvili",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/273295.png"
-    },
-    {
-      "name": "V. Matoshi",
-      "position": "Midfielder",
-      "number": 78,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/395191.png"
-    },
-    {
-      "name": "J. Petritsch",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/627386.png"
-    },
-    {
-      "name": "F. Rózga",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394955.png"
-    },
-    {
-      "name": "S. Seidl",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/176023.png"
-    },
-    {
-      "name": "Luca Weinhandl",
-      "position": "Midfielder",
-      "number": 39,
       "age": 16,
-      "photo": "https://media.api-sports.io/football/players/461977.png"
+      "photo": "https://media.api-sports.io/football/players/679914.png"
     },
     {
-      "name": "B. Beganović",
-      "position": "Attacker",
-      "number": 26,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/357424.png"
-    },
-    {
-      "name": "O. Diakité",
-      "position": "Attacker",
-      "number": 14,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/334429.png"
-    },
-    {
-      "name": "L. Grgić",
-      "position": "Attacker",
-      "number": 25,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/372585.png"
-    },
-    {
-      "name": "S. Jatta",
-      "position": "Attacker",
-      "number": 20,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/216761.png"
-    },
-    {
-      "name": "A. Kayombo",
-      "position": "Attacker",
-      "number": 11,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/427260.png"
-    },
-    {
-      "name": "Jonas Peinhart",
-      "position": "Attacker",
-      "number": 38,
+      "name": "L. Franc",
+      "position": "Goalkeeper",
+      "number": 1,
       "age": 16,
-      "photo": "https://media.api-sports.io/football/players/461976.png"
+      "photo": "https://media.api-sports.io/football/players/490796.png"
     },
     {
-      "name": "N. Weiper",
-      "position": "Attacker",
+      "name": "K. Hegyi",
+      "position": "Goalkeeper",
+      "number": 47,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/144723.png"
+    },
+    {
+      "name": "J. Surovčík",
+      "position": "Goalkeeper",
       "number": 44,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/342177.png"
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/161864.png"
     },
     {
-      "name": "S. Włodarczyk",
-      "position": "Attacker",
-      "number": 17,
+      "name": "S. Zajac",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/551842.png"
+    },
+    {
+      "name": "T. Guddal",
+      "position": "Defender",
+      "number": 6,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/314257.png"
+    },
+    {
+      "name": "K. Hoever",
+      "position": "Defender",
+      "number": 25,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/285.png"
+    },
+    {
+      "name": "P. Kadeřábek",
+      "position": "Defender",
+      "number": 3,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/709.png"
+    },
+    {
+      "name": "M. Kotisek",
+      "position": "Defender",
+      "number": 2,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/606998.png"
+    },
+    {
+      "name": "J. Martinec",
+      "position": "Defender",
+      "number": 4,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/66425.png"
+    },
+    {
+      "name": "L. Mbe Soh",
+      "position": "Defender",
+      "number": 22,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/279.png"
+    },
+    {
+      "name": "A. Ševínský",
+      "position": "Defender",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/340644.png"
+    },
+    {
+      "name": "M. Suchomel",
+      "position": "Defender",
+      "number": 2,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/323899.png"
+    },
+    {
+      "name": "J. Topic",
+      "position": "Defender",
+      "number": 24,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/555431.png"
+    },
+    {
+      "name": "V. Vitályos",
+      "position": "Defender",
+      "number": 15,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/446115.png"
+    },
+    {
+      "name": "J. Zelený",
+      "position": "Defender",
+      "number": 30,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/1237.png"
+    },
+    {
+      "name": "J. Alcócer",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/323942.png"
+    },
+    {
+      "name": "Santiago Eneme",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/153717.png"
+    },
+    {
+      "name": "J. Feit",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394636.png"
+    },
+    {
+      "name": "A. Irving",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/68466.png"
+    },
+    {
+      "name": "M. Jurásek",
+      "position": "Midfielder",
+      "number": 31,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/158614.png"
+      "photo": "https://media.api-sports.io/football/players/180305.png"
+    },
+    {
+      "name": "A. Karabec",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/199871.png"
+    },
+    {
+      "name": "R. Macek",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/48408.png"
+    },
+    {
+      "name": "S. Mannsverk",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/57443.png"
+    },
+    {
+      "name": "J. Mercado",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/237122.png"
+    },
+    {
+      "name": "M. Ryneš",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/295027.png"
+    },
+    {
+      "name": "H. Sochurek",
+      "position": "Midfielder",
+      "number": 38,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/555437.png"
+    },
+    {
+      "name": "P. Vydra",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/340646.png"
+    },
+    {
+      "name": "L. Azaka",
+      "position": "Attacker",
+      "number": 20,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/570547.png"
+    },
+    {
+      "name": "J. Braut Brunes",
+      "position": "Attacker",
+      "number": 14,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/95018.png"
+    },
+    {
+      "name": "J. Grimaldo",
+      "position": "Attacker",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/195098.png"
+    },
+    {
+      "name": "E. Singhateh",
+      "position": "Attacker",
+      "number": 27,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/352525.png"
+    },
+    {
+      "name": "M. Vojta",
+      "position": "Attacker",
+      "number": 29,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/291632.png"
     }
   ],
   "como": [
@@ -13011,7 +12799,7 @@ const teamSquads = {
     },
     {
       "name": "S. Lengen",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 80,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/667664.png"
@@ -13160,7 +12948,7 @@ const teamSquads = {
     },
     {
       "name": "Y. Dibango",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 25,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/303684.png"
@@ -13244,14 +13032,14 @@ const teamSquads = {
     },
     {
       "name": "J. Ilk",
-      "position": "Midfielder",
-      "number": 14,
+      "position": "Defender",
+      "number": 47,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/576920.png"
     },
     {
       "name": "C. Lang",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 27,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/271327.png"
@@ -13300,7 +13088,7 @@ const teamSquads = {
     },
     {
       "name": "N. Kane",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 45,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/511959.png"
@@ -13365,7 +13153,7 @@ const teamSquads = {
     },
     {
       "name": "S. Heiskanen",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 3,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/55474.png"
@@ -13400,7 +13188,7 @@ const teamSquads = {
     },
     {
       "name": "S. Savolainen",
-      "position": "Attacker",
+      "position": "Defender",
       "number": 6,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/55388.png"
@@ -13442,7 +13230,7 @@ const teamSquads = {
     },
     {
       "name": "N. Kujasalo",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 13,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/358156.png"
@@ -13484,14 +13272,14 @@ const teamSquads = {
     },
     {
       "name": "A. Aiki",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 15,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/339601.png"
     },
     {
       "name": "B. Armah",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 24,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/434046.png"
@@ -13605,7 +13393,7 @@ const teamSquads = {
     },
     {
       "name": "L. Patris",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 27,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/271875.png"
@@ -13640,7 +13428,7 @@ const teamSquads = {
     },
     {
       "name": "D. Aquino",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 20,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/423866.png"
@@ -13682,7 +13470,7 @@ const teamSquads = {
     },
     {
       "name": "B. Zeneli",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 23,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/350850.png"
@@ -13710,7 +13498,7 @@ const teamSquads = {
     },
     {
       "name": "Guilherme Henriques da Silva Carvalho",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/314145.png"
@@ -13866,7 +13654,7 @@ const teamSquads = {
     },
     {
       "name": "Villiam Granath",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 14,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/161057.png"
@@ -13908,7 +13696,7 @@ const teamSquads = {
     },
     {
       "name": "L. Tidstrand",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 27,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/377040.png"
@@ -14154,6 +13942,169 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/672557.png"
     }
   ],
+  "petrocub": [
+    {
+      "name": "M. Ciocan",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": null,
+      "photo": "https://media.api-sports.io/football/players/687966.png"
+    },
+    {
+      "name": "V. Dodon",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/287948.png"
+    },
+    {
+      "name": "Silviu Șmalenea",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/131465.png"
+    },
+    {
+      "name": "C. Cucoș",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/411741.png"
+    },
+    {
+      "name": "I. Jardan",
+      "position": "Defender",
+      "number": 90,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/56062.png"
+    },
+    {
+      "name": "V. Mudrac",
+      "position": "Defender",
+      "number": 4,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/112862.png"
+    },
+    {
+      "name": "V. Pascari",
+      "position": "Defender",
+      "number": 2,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394745.png"
+    },
+    {
+      "name": "I. Revenco",
+      "position": "Defender",
+      "number": 21,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/92107.png"
+    },
+    {
+      "name": "V. Bogaciuc",
+      "position": "Midfielder",
+      "number": 79,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/112891.png"
+    },
+    {
+      "name": "I. Borș",
+      "position": "Midfielder",
+      "number": 66,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/215799.png"
+    },
+    {
+      "name": "I. Botnari",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/305954.png"
+    },
+    {
+      "name": "S. Cojocari",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/131469.png"
+    },
+    {
+      "name": "O. David",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/554371.png"
+    },
+    {
+      "name": "M. Lupan",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/373449.png"
+    },
+    {
+      "name": "B. Musteata",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/552893.png"
+    },
+    {
+      "name": "P. Nazari",
+      "position": "Midfielder",
+      "number": 92,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/430927.png"
+    },
+    {
+      "name": "M. Cojocaru",
+      "position": "Attacker",
+      "number": 13,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/92073.png"
+    },
+    {
+      "name": "M. Iosipoi",
+      "position": "Attacker",
+      "number": 7,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/216948.png"
+    },
+    {
+      "name": "Petru Popescu",
+      "position": "Attacker",
+      "number": 15,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/276435.png"
+    },
+    {
+      "name": "D. Pușcaș",
+      "position": "Attacker",
+      "number": 37,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/204081.png"
+    },
+    {
+      "name": "M. Sava",
+      "position": "Attacker",
+      "number": 27,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/646387.png"
+    },
+    {
+      "name": "S. Svet",
+      "position": "Attacker",
+      "number": 20,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/670827.png"
+    },
+    {
+      "name": "D. Tugulea",
+      "position": "Attacker",
+      "number": 50,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/646389.png"
+    }
+  ],
   "gyori-eto-fc": [
     {
       "name": "D. Brecska",
@@ -14284,7 +14235,7 @@ const teamSquads = {
     {
       "name": "A. Décsy",
       "position": "Midfielder",
-      "number": 24,
+      "number": 47,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/453694.png"
     },
@@ -14346,7 +14297,7 @@ const teamSquads = {
     },
     {
       "name": "M. Huszár",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 96,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/403899.png"
@@ -14371,6 +14322,649 @@ const teamSquads = {
       "number": 17,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/28565.png"
+    }
+  ],
+  "egnatia-rrogozhine": [
+    {
+      "name": "D. Afful",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/628274.png"
+    },
+    {
+      "name": "M. Dajsinani",
+      "position": "Goalkeeper",
+      "number": 98,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/3588.png"
+    },
+    {
+      "name": "B. Puja",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/3680.png"
+    },
+    {
+      "name": "L. Tandilashvili",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/264663.png"
+    },
+    {
+      "name": "N. Ajetovikj",
+      "position": "Defender",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/395753.png"
+    },
+    {
+      "name": "Z. Əliyev",
+      "position": "Defender",
+      "number": 4,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/204046.png"
+    },
+    {
+      "name": "E. Bitri",
+      "position": "Defender",
+      "number": 33,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/3713.png"
+    },
+    {
+      "name": "Guillem Jaime",
+      "position": "Defender",
+      "number": 22,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/132.png"
+    },
+    {
+      "name": "A. Kacbufi",
+      "position": "Defender",
+      "number": 13,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/624124.png"
+    },
+    {
+      "name": "E. Ndreca",
+      "position": "Defender",
+      "number": 16,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/3687.png"
+    },
+    {
+      "name": "G. Smajli",
+      "position": "Defender",
+      "number": 55,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/321420.png"
+    },
+    {
+      "name": "E. Sota",
+      "position": "Defender",
+      "number": 28,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/4227.png"
+    },
+    {
+      "name": "Andrey Yago",
+      "position": "Defender",
+      "number": 29,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/405801.png"
+    },
+    {
+      "name": "A. Aleksi",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/3661.png"
+    },
+    {
+      "name": "R. Bakalli",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/661156.png"
+    },
+    {
+      "name": "L. Beqja",
+      "position": "Midfielder",
+      "number": 80,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/3545.png"
+    },
+    {
+      "name": "Z. Cullhaj",
+      "position": "Midfielder",
+      "number": null,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/676895.png"
+    },
+    {
+      "name": "I. Diabaté",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/422597.png"
+    },
+    {
+      "name": "B. Duka",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/620063.png"
+    },
+    {
+      "name": "Fernando Medeiros",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/10032.png"
+    },
+    {
+      "name": "A. Kryeziu",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/157998.png"
+    },
+    {
+      "name": "D. Adjessa",
+      "position": "Attacker",
+      "number": 2,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/634358.png"
+    },
+    {
+      "name": "A. Albanese",
+      "position": "Attacker",
+      "number": 10,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/260819.png"
+    },
+    {
+      "name": "S. Bakayoko",
+      "position": "Attacker",
+      "number": 9,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/372077.png"
+    },
+    {
+      "name": "D. Duro",
+      "position": "Attacker",
+      "number": 36,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/624383.png"
+    },
+    {
+      "name": "I. Gruda",
+      "position": "Attacker",
+      "number": 77,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/140971.png"
+    },
+    {
+      "name": "D. Hoxha",
+      "position": "Attacker",
+      "number": 19,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/518663.png"
+    },
+    {
+      "name": "R. Kasa",
+      "position": "Attacker",
+      "number": 82,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/31022.png"
+    },
+    {
+      "name": "K. Loukili",
+      "position": "Attacker",
+      "number": 20,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/93030.png"
+    },
+    {
+      "name": "J. Montenegro",
+      "position": "Attacker",
+      "number": 99,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/14021.png"
+    }
+  ],
+  "viking": [
+    {
+      "name": "Ľ. Belko",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/204996.png"
+    },
+    {
+      "name": "S. Escobar",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/576939.png"
+    },
+    {
+      "name": "E. Jacobsen",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/676708.png"
+    },
+    {
+      "name": "A. Østbø",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/1170.png"
+    },
+    {
+      "name": "Vetle Auklend",
+      "position": "Defender",
+      "number": 24,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/450965.png"
+    },
+    {
+      "name": "A. Bærtelsen",
+      "position": "Defender",
+      "number": 21,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/15712.png"
+    },
+    {
+      "name": "E. Bassey",
+      "position": "Defender",
+      "number": 17,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/427050.png"
+    },
+    {
+      "name": "S. Bjørshol",
+      "position": "Defender",
+      "number": 18,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/39130.png"
+    },
+    {
+      "name": "J. Daland",
+      "position": "Defender",
+      "number": 27,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/57242.png"
+    },
+    {
+      "name": "H. Falchener",
+      "position": "Defender",
+      "number": 25,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/180937.png"
+    },
+    {
+      "name": "H. Haugen",
+      "position": "Defender",
+      "number": 2,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/191732.png"
+    },
+    {
+      "name": "H. Heggheim",
+      "position": "Defender",
+      "number": 5,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/264710.png"
+    },
+    {
+      "name": "G. Stensness",
+      "position": "Defender",
+      "number": 6,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/6937.png"
+    },
+    {
+      "name": "V. Vevatne",
+      "position": "Defender",
+      "number": 3,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/39132.png"
+    },
+    {
+      "name": "K. Askildsen",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/39285.png"
+    },
+    {
+      "name": "J. Bell",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/94541.png"
+    },
+    {
+      "name": "H. Bjørdal",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/8626.png"
+    },
+    {
+      "name": "J. Hansen",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/457199.png"
+    },
+    {
+      "name": "K. Haugen",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/39040.png"
+    },
+    {
+      "name": "J. Middelthon",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/584867.png"
+    },
+    {
+      "name": "T. Moi",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/464563.png"
+    },
+    {
+      "name": "V. Berisha",
+      "position": "Attacker",
+      "number": 14,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/39220.png"
+    },
+    {
+      "name": "E. Botheim",
+      "position": "Attacker",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/1188.png"
+    },
+    {
+      "name": "P. Christiansen",
+      "position": "Attacker",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/15622.png"
+    },
+    {
+      "name": "A. Cosic",
+      "position": "Attacker",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/389191.png"
+    },
+    {
+      "name": "K. A. Frimpong",
+      "position": "Attacker",
+      "number": 42,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/637833.png"
+    },
+    {
+      "name": "N. Fuglestad",
+      "position": "Attacker",
+      "number": 23,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/465702.png"
+    },
+    {
+      "name": "S. Kvia-Egeskog",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/318591.png"
+    },
+    {
+      "name": "R. Postema",
+      "position": "Attacker",
+      "number": 11,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/135882.png"
+    },
+    {
+      "name": "Z. Tripić",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/39145.png"
+    }
+  ],
+  "inter-club-descaldes": [
+    {
+      "name": "Javi Díaz",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/2034.png"
+    },
+    {
+      "name": "Pol Freixanet",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/47239.png"
+    },
+    {
+      "name": "R. Rosaria",
+      "position": "Goalkeeper",
+      "number": 27,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568283.png"
+    },
+    {
+      "name": "Juanda Terrádez",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/490290.png"
+    },
+    {
+      "name": "Dacu",
+      "position": "Defender",
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/576996.png"
+    },
+    {
+      "name": "Habib Hernandez Anwar",
+      "position": "Defender",
+      "number": 2,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/588653.png"
+    },
+    {
+      "name": "J. Erraji",
+      "position": "Defender",
+      "number": 5,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/181515.png"
+    },
+    {
+      "name": "Marc Jurado",
+      "position": "Defender",
+      "number": 20,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/586426.png"
+    },
+    {
+      "name": "R. Lafarge",
+      "position": "Defender",
+      "number": 18,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/15161.png"
+    },
+    {
+      "name": "Marc RodrÃ­guez",
+      "position": "Defender",
+      "number": 21,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/340240.png"
+    },
+    {
+      "name": "Álex Sánchez",
+      "position": "Defender",
+      "number": 4,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/270474.png"
+    },
+    {
+      "name": "J. Torres",
+      "position": "Defender",
+      "number": 3,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/122740.png"
+    },
+    {
+      "name": "MarcVargas",
+      "position": "Defender",
+      "number": 22,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/295906.png"
+    },
+    {
+      "name": "Víctor Alonso",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/122616.png"
+    },
+    {
+      "name": "Juan Cámara",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/40266.png"
+    },
+    {
+      "name": "David López",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/183999.png"
+    },
+    {
+      "name": "Yerai Dávila Fuentes",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/354493.png"
+    },
+    {
+      "name": "H. De Miguel",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568280.png"
+    },
+    {
+      "name": "L. Diaby",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/609969.png"
+    },
+    {
+      "name": "A. Luque",
+      "position": "Midfielder",
+      "number": 46,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568281.png"
+    },
+    {
+      "name": "Pablo Serafín",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/332316.png"
+    },
+    {
+      "name": "Antonio Otegui",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/104858.png"
+    },
+    {
+      "name": "B. Arellano",
+      "position": "Attacker",
+      "number": 70,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/581145.png"
+    },
+    {
+      "name": "Domi Berlanga",
+      "position": "Attacker",
+      "number": 11,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/183974.png"
+    },
+    {
+      "name": "Faysal Chouaib",
+      "position": "Attacker",
+      "number": 9,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/182702.png"
+    },
+    {
+      "name": "Ángel Pérez",
+      "position": "Attacker",
+      "number": 10,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/183920.png"
+    },
+    {
+      "name": "Rafinha",
+      "position": "Attacker",
+      "number": 99,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/187206.png"
+    },
+    {
+      "name": "Kaxe",
+      "position": "Attacker",
+      "number": 9,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/119973.png"
+    },
+    {
+      "name": "M. Pochettino",
+      "position": "Attacker",
+      "number": 24,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/154802.png"
+    },
+    {
+      "name": "A. Prelado",
+      "position": "Attacker",
+      "number": 44,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/568165.png"
+    },
+    {
+      "name": "S. Sidibe",
+      "position": "Attacker",
+      "number": 31,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/188205.png"
     }
   ],
   "borac-banja-luka": [
@@ -14777,14 +15371,14 @@ const teamSquads = {
     },
     {
       "name": "M. Mayambela",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 21,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/41900.png"
     },
     {
       "name": "J. Montnor",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/347681.png"
@@ -14912,7 +15506,7 @@ const teamSquads = {
     },
     {
       "name": "J. Tiboue",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 33,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/163530.png"
@@ -15243,7 +15837,7 @@ const teamSquads = {
     },
     {
       "name": "A. Eloyan",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 9,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/390563.png"
@@ -15271,14 +15865,14 @@ const teamSquads = {
     },
     {
       "name": "A. Serobyan",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 77,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/269533.png"
     },
     {
       "name": "Z. Shaghoyan",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/65374.png"
@@ -15448,28 +16042,28 @@ const teamSquads = {
     },
     {
       "name": "L. Kreković",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 9,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/14603.png"
     },
     {
       "name": "Leonardo",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 15,
       "age": 31,
       "photo": "https://media.api-sports.io/football/players/237770.png"
     },
     {
       "name": "F. Ourega",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 70,
       "age": 33,
       "photo": "https://media.api-sports.io/football/players/20610.png"
     },
     {
       "name": "V. Pocius",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 47,
       "age": 16,
       "photo": "https://media.api-sports.io/football/players/557766.png"
@@ -15480,169 +16074,6 @@ const teamSquads = {
       "number": 19,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/112386.png"
-    }
-  ],
-  "petrocub": [
-    {
-      "name": "M. Ciocan",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": null,
-      "photo": "https://media.api-sports.io/football/players/687966.png"
-    },
-    {
-      "name": "V. Dodon",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/287948.png"
-    },
-    {
-      "name": "Silviu Șmalenea",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/131465.png"
-    },
-    {
-      "name": "C. Cucoș",
-      "position": "Defender",
-      "number": 3,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/411741.png"
-    },
-    {
-      "name": "I. Jardan",
-      "position": "Defender",
-      "number": 90,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/56062.png"
-    },
-    {
-      "name": "V. Mudrac",
-      "position": "Defender",
-      "number": 4,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/112862.png"
-    },
-    {
-      "name": "V. Pascari",
-      "position": "Defender",
-      "number": 2,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394745.png"
-    },
-    {
-      "name": "I. Revenco",
-      "position": "Defender",
-      "number": 21,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/92107.png"
-    },
-    {
-      "name": "V. Bogaciuc",
-      "position": "Midfielder",
-      "number": 79,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/112891.png"
-    },
-    {
-      "name": "I. Borș",
-      "position": "Midfielder",
-      "number": 66,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/215799.png"
-    },
-    {
-      "name": "I. Botnari",
-      "position": "Midfielder",
-      "number": 25,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/305954.png"
-    },
-    {
-      "name": "S. Cojocari",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/131469.png"
-    },
-    {
-      "name": "O. David",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/554371.png"
-    },
-    {
-      "name": "M. Lupan",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/373449.png"
-    },
-    {
-      "name": "B. Musteata",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/552893.png"
-    },
-    {
-      "name": "P. Nazari",
-      "position": "Midfielder",
-      "number": 92,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/430927.png"
-    },
-    {
-      "name": "M. Cojocaru",
-      "position": "Attacker",
-      "number": 13,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/92073.png"
-    },
-    {
-      "name": "M. Iosipoi",
-      "position": "Attacker",
-      "number": 7,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/216948.png"
-    },
-    {
-      "name": "Petru Popescu",
-      "position": "Attacker",
-      "number": 15,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/276435.png"
-    },
-    {
-      "name": "D. Pușcaș",
-      "position": "Attacker",
-      "number": 37,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/204081.png"
-    },
-    {
-      "name": "M. Sava",
-      "position": "Attacker",
-      "number": 27,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/646387.png"
-    },
-    {
-      "name": "S. Svet",
-      "position": "Attacker",
-      "number": 20,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/670827.png"
-    },
-    {
-      "name": "D. Tugulea",
-      "position": "Attacker",
-      "number": 50,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/646389.png"
     }
   ],
   "celje": [
@@ -15718,7 +16149,7 @@ const teamSquads = {
     },
     {
       "name": "M. Zabukovnik",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 19,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/131343.png"
@@ -15795,7 +16226,7 @@ const teamSquads = {
     },
     {
       "name": "M. Avdyli",
-      "position": "Defender",
+      "position": "Attacker",
       "number": 11,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/278810.png"
@@ -15848,437 +16279,6 @@ const teamSquads = {
       "number": 7,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/2183.png"
-    }
-  ],
-  "egnatia-rrogozhine": [
-    {
-      "name": "D. Afful",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/628274.png"
-    },
-    {
-      "name": "M. Dajsinani",
-      "position": "Goalkeeper",
-      "number": 98,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/3588.png"
-    },
-    {
-      "name": "B. Puja",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/3680.png"
-    },
-    {
-      "name": "L. Tandilashvili",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/264663.png"
-    },
-    {
-      "name": "N. Ajetovikj",
-      "position": "Defender",
-      "number": 24,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/395753.png"
-    },
-    {
-      "name": "Z. Əliyev",
-      "position": "Defender",
-      "number": 4,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/204046.png"
-    },
-    {
-      "name": "E. Bitri",
-      "position": "Defender",
-      "number": 33,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/3713.png"
-    },
-    {
-      "name": "Guillem Jaime",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/132.png"
-    },
-    {
-      "name": "A. Kacbufi",
-      "position": "Defender",
-      "number": 13,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/624124.png"
-    },
-    {
-      "name": "E. Ndreca",
-      "position": "Defender",
-      "number": 16,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/3687.png"
-    },
-    {
-      "name": "G. Smajli",
-      "position": "Defender",
-      "number": 55,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/321420.png"
-    },
-    {
-      "name": "E. Sota",
-      "position": "Defender",
-      "number": 28,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/4227.png"
-    },
-    {
-      "name": "Andrey Yago",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/405801.png"
-    },
-    {
-      "name": "A. Aleksi",
-      "position": "Defender",
-      "number": 6,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/3661.png"
-    },
-    {
-      "name": "R. Bakalli",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/661156.png"
-    },
-    {
-      "name": "L. Beqja",
-      "position": "Midfielder",
-      "number": 80,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/3545.png"
-    },
-    {
-      "name": "Z. Cullhaj",
-      "position": "Midfielder",
-      "number": null,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/676895.png"
-    },
-    {
-      "name": "I. Diabaté",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/422597.png"
-    },
-    {
-      "name": "B. Duka",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/620063.png"
-    },
-    {
-      "name": "Fernando Medeiros",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/10032.png"
-    },
-    {
-      "name": "A. Kryeziu",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/157998.png"
-    },
-    {
-      "name": "D. Adjessa",
-      "position": "Attacker",
-      "number": 2,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/634358.png"
-    },
-    {
-      "name": "A. Albanese",
-      "position": "Attacker",
-      "number": 10,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/260819.png"
-    },
-    {
-      "name": "S. Bakayoko",
-      "position": "Attacker",
-      "number": 9,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/372077.png"
-    },
-    {
-      "name": "D. Duro",
-      "position": "Attacker",
-      "number": 36,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/624383.png"
-    },
-    {
-      "name": "I. Gruda",
-      "position": "Attacker",
-      "number": 77,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/140971.png"
-    },
-    {
-      "name": "D. Hoxha",
-      "position": "Attacker",
-      "number": 19,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/518663.png"
-    },
-    {
-      "name": "R. Kasa",
-      "position": "Attacker",
-      "number": 82,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/31022.png"
-    },
-    {
-      "name": "K. Loukili",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/93030.png"
-    },
-    {
-      "name": "J. Montenegro",
-      "position": "Attacker",
-      "number": 99,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/14021.png"
-    }
-  ],
-  "inter-club-descaldes": [
-    {
-      "name": "Javi Díaz",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/2034.png"
-    },
-    {
-      "name": "Pol Freixanet",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/47239.png"
-    },
-    {
-      "name": "R. Rosaria",
-      "position": "Goalkeeper",
-      "number": 27,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568283.png"
-    },
-    {
-      "name": "Juanda Terrádez",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/490290.png"
-    },
-    {
-      "name": "Dacu",
-      "position": "Defender",
-      "number": 17,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/576996.png"
-    },
-    {
-      "name": "Habib Hernandez Anwar",
-      "position": "Defender",
-      "number": 2,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/588653.png"
-    },
-    {
-      "name": "J. Erraji",
-      "position": "Defender",
-      "number": 5,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/181515.png"
-    },
-    {
-      "name": "Marc Jurado",
-      "position": "Defender",
-      "number": 20,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/586426.png"
-    },
-    {
-      "name": "R. Lafarge",
-      "position": "Defender",
-      "number": 18,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/15161.png"
-    },
-    {
-      "name": "Marc RodrÃ­guez",
-      "position": "Defender",
-      "number": 21,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/340240.png"
-    },
-    {
-      "name": "Álex Sánchez",
-      "position": "Defender",
-      "number": 4,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/270474.png"
-    },
-    {
-      "name": "J. Torres",
-      "position": "Defender",
-      "number": 3,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/122740.png"
-    },
-    {
-      "name": "MarcVargas",
-      "position": "Defender",
-      "number": 22,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/295906.png"
-    },
-    {
-      "name": "Víctor Alonso",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/122616.png"
-    },
-    {
-      "name": "Juan Cámara",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/40266.png"
-    },
-    {
-      "name": "David López",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/183999.png"
-    },
-    {
-      "name": "Yerai Dávila Fuentes",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/354493.png"
-    },
-    {
-      "name": "H. De Miguel",
-      "position": "Midfielder",
-      "number": 42,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568280.png"
-    },
-    {
-      "name": "L. Diaby",
-      "position": "Defender",
-      "number": 23,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/609969.png"
-    },
-    {
-      "name": "A. Luque",
-      "position": "Midfielder",
-      "number": 46,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568281.png"
-    },
-    {
-      "name": "Pablo Serafín",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/332316.png"
-    },
-    {
-      "name": "Antonio Otegui",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/104858.png"
-    },
-    {
-      "name": "B. Arellano",
-      "position": "Attacker",
-      "number": 70,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/581145.png"
-    },
-    {
-      "name": "Domi Berlanga",
-      "position": "Attacker",
-      "number": 11,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/183974.png"
-    },
-    {
-      "name": "Faysal Chouaib",
-      "position": "Attacker",
-      "number": 9,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/182702.png"
-    },
-    {
-      "name": "Ángel Pérez",
-      "position": "Attacker",
-      "number": 10,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/183920.png"
-    },
-    {
-      "name": "Rafinha",
-      "position": "Attacker",
-      "number": 99,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/187206.png"
-    },
-    {
-      "name": "Kaxe",
-      "position": "Attacker",
-      "number": 9,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/119973.png"
-    },
-    {
-      "name": "M. Pochettino",
-      "position": "Defender",
-      "number": 24,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/154802.png"
-    },
-    {
-      "name": "A. Prelado",
-      "position": "Attacker",
-      "number": 44,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/568165.png"
-    },
-    {
-      "name": "S. Sidibe",
-      "position": "Attacker",
-      "number": 31,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/188205.png"
     }
   ],
   "floriana": [
@@ -16689,7 +16689,7 @@ const teamSquads = {
       "name": "P. Pavlyuchenko",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 27,
+      "age": 28,
       "photo": "https://media.api-sports.io/football/players/7797.png"
     },
     {
@@ -16841,7 +16841,7 @@ const teamSquads = {
     },
     {
       "name": "A. Kontsevoy",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 80,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/8015.png"
@@ -17032,14 +17032,14 @@ const teamSquads = {
     },
     {
       "name": "K. Wassom",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 5,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/474271.png"
     },
     {
       "name": "R. Aouani",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/367083.png"
@@ -17060,7 +17060,7 @@ const teamSquads = {
     },
     {
       "name": "Caio",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/465459.png"
@@ -17074,7 +17074,7 @@ const teamSquads = {
     },
     {
       "name": "M. Diop",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 22,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/308634.png"
@@ -17113,6 +17113,402 @@ const teamSquads = {
       "number": 21,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/567842.png"
+    }
+  ],
+  "sabah-fa": [
+    {
+      "name": "R. Əyyubov",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/500030.png"
+    },
+    {
+      "name": "R. Mirzəmmədov",
+      "position": "Goalkeeper",
+      "number": 94,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/449613.png"
+    },
+    {
+      "name": "S. Pokatilov",
+      "position": "Goalkeeper",
+      "number": 92,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/56074.png"
+    },
+    {
+      "name": "A. Ramazanov",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/334257.png"
+    },
+    {
+      "name": "J. Bulus",
+      "position": "Defender",
+      "number": 35,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/610845.png"
+    },
+    {
+      "name": "R. Daşdəmirov",
+      "position": "Defender",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/123366.png"
+    },
+    {
+      "name": "Erivaldo Almeida",
+      "position": "Defender",
+      "number": 33,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/266387.png"
+    },
+    {
+      "name": "A. McCarthy",
+      "position": "Defender",
+      "number": 4,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/349345.png"
+    },
+    {
+      "name": "T. Mutallimov",
+      "position": "Defender",
+      "number": 17,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/544624.png"
+    },
+    {
+      "name": "T. Puchacz",
+      "position": "Defender",
+      "number": 27,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/40984.png"
+    },
+    {
+      "name": "S. Solvet",
+      "position": "Defender",
+      "number": 3,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/174827.png"
+    },
+    {
+      "name": "A. Zedadka",
+      "position": "Defender",
+      "number": 80,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/21233.png"
+    },
+    {
+      "name": "Du Queiroz",
+      "position": "Midfielder",
+      "number": 37,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/321432.png"
+    },
+    {
+      "name": "Rodrigo Fernandes",
+      "position": "Midfielder",
+      "number": 88,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/158107.png"
+    },
+    {
+      "name": "S. Ibrahimov",
+      "position": "Midfielder",
+      "number": 95,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/597964.png"
+    },
+    {
+      "name": "A. Isaev",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/55960.png"
+    },
+    {
+      "name": "A. Xaybulayev",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/271724.png"
+    },
+    {
+      "name": "I. Lepinjica",
+      "position": "Midfielder",
+      "number": 13,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/14285.png"
+    },
+    {
+      "name": "Cafar Mukhtarov",
+      "position": "Midfielder",
+      "number": 89,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/587825.png"
+    },
+    {
+      "name": "Z. Ould Khaled",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/174723.png"
+    },
+    {
+      "name": "U. Rahmonaliyev",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/328759.png"
+    },
+    {
+      "name": "R. Rüstəmli",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/328186.png"
+    },
+    {
+      "name": "K. Aliyev",
+      "position": "Attacker",
+      "number": 9,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/348230.png"
+    },
+    {
+      "name": "Carlos Eduardo",
+      "position": "Attacker",
+      "number": 18,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/197382.png"
+    },
+    {
+      "name": "Y. Lachaab",
+      "position": "Attacker",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/368065.png"
+    },
+    {
+      "name": "P. Mbina",
+      "position": "Attacker",
+      "number": 99,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/191322.png"
+    },
+    {
+      "name": "J. Mickels",
+      "position": "Attacker",
+      "number": 20,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/127602.png"
+    },
+    {
+      "name": "C. Nwachukwu",
+      "position": "Attacker",
+      "number": 8,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/461130.png"
+    },
+    {
+      "name": "K. Parris",
+      "position": "Attacker",
+      "number": 11,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/32397.png"
+    },
+    {
+      "name": "X. Severina",
+      "position": "Attacker",
+      "number": 34,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/308839.png"
+    },
+    {
+      "name": "V. Simić",
+      "position": "Attacker",
+      "number": 21,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/360.png"
+    }
+  ],
+  "drita": [
+    {
+      "name": "L. Behluli",
+      "position": "Goalkeeper",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/270697.png"
+    },
+    {
+      "name": "E. Isufi",
+      "position": "Goalkeeper",
+      "number": 74,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/562421.png"
+    },
+    {
+      "name": "F. Maloku",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/3487.png"
+    },
+    {
+      "name": "A. Bytyçi",
+      "position": "Defender",
+      "number": 25,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/74667.png"
+    },
+    {
+      "name": "A. Danté",
+      "position": "Defender",
+      "number": 4,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/1410.png"
+    },
+    {
+      "name": "Besnik Krasniqi",
+      "position": "Defender",
+      "number": 2,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/74563.png"
+    },
+    {
+      "name": "A. Mjaki",
+      "position": "Defender",
+      "number": 28,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/438171.png"
+    },
+    {
+      "name": "R. Ovouka",
+      "position": "Defender",
+      "number": 26,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/317018.png"
+    },
+    {
+      "name": "J. Pëllumbi",
+      "position": "Defender",
+      "number": 32,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/3605.png"
+    },
+    {
+      "name": "H. Salihu",
+      "position": "Defender",
+      "number": 55,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/215959.png"
+    },
+    {
+      "name": "B. Sheji",
+      "position": "Defender",
+      "number": 3,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/154896.png"
+    },
+    {
+      "name": "William Guido Baeten",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/131603.png"
+    },
+    {
+      "name": "L. Balaj",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/127596.png"
+    },
+    {
+      "name": "R. Broja",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/105664.png"
+    },
+    {
+      "name": "A. Dabiqaj",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/113566.png"
+    },
+    {
+      "name": "B. Halimi",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/15882.png"
+    },
+    {
+      "name": "I. Jashari",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/576962.png"
+    },
+    {
+      "name": "V. Limaj",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/3502.png"
+    },
+    {
+      "name": "K. Nguena",
+      "position": "Midfielder",
+      "number": 93,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/191185.png"
+    },
+    {
+      "name": "E. Rroca",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/3505.png"
+    },
+    {
+      "name": "K. Abazaj",
+      "position": "Attacker",
+      "number": 77,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/14317.png"
+    },
+    {
+      "name": "M. Arthur",
+      "position": "Attacker",
+      "number": 99,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/608266.png"
+    },
+    {
+      "name": "O. Grezda",
+      "position": "Attacker",
+      "number": 17,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/577171.png"
+    },
+    {
+      "name": "Blerim Krasniqi",
+      "position": "Attacker",
+      "number": 19,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/3613.png"
+    },
+    {
+      "name": "A. Manaj",
+      "position": "Attacker",
+      "number": 9,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/194539.png"
     }
   ],
   "atert-bissen": [
@@ -17306,633 +17702,265 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/593466.png"
     }
   ],
-  "drita": [
+  "crystal-palace": [
     {
-      "name": "L. Behluli",
-      "position": "Goalkeeper",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/270697.png"
-    },
-    {
-      "name": "E. Isufi",
-      "position": "Goalkeeper",
-      "number": 74,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/562421.png"
-    },
-    {
-      "name": "F. Maloku",
+      "name": "L. Benetton",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/3487.png"
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/646915.png"
     },
     {
-      "name": "A. Bytyçi",
-      "position": "Defender",
-      "number": 25,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/74667.png"
-    },
-    {
-      "name": "A. Danté",
-      "position": "Defender",
-      "number": 4,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/1410.png"
-    },
-    {
-      "name": "Besnik Krasniqi",
-      "position": "Defender",
-      "number": 2,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/74563.png"
-    },
-    {
-      "name": "A. Mjaki",
-      "position": "Defender",
-      "number": 28,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/438171.png"
-    },
-    {
-      "name": "R. Ovouka",
-      "position": "Defender",
-      "number": 26,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/317018.png"
-    },
-    {
-      "name": "J. Pëllumbi",
-      "position": "Defender",
-      "number": 32,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/3605.png"
-    },
-    {
-      "name": "H. Salihu",
-      "position": "Defender",
-      "number": 55,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/215959.png"
-    },
-    {
-      "name": "B. Sheji",
-      "position": "Defender",
-      "number": 3,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/154896.png"
-    },
-    {
-      "name": "William Guido Baeten",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/131603.png"
-    },
-    {
-      "name": "L. Balaj",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/127596.png"
-    },
-    {
-      "name": "R. Broja",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/105664.png"
-    },
-    {
-      "name": "A. Dabiqaj",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/113566.png"
-    },
-    {
-      "name": "B. Halimi",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/15882.png"
-    },
-    {
-      "name": "I. Jashari",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/576962.png"
-    },
-    {
-      "name": "V. Limaj",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/3502.png"
-    },
-    {
-      "name": "K. Nguena",
-      "position": "Midfielder",
-      "number": 93,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/191185.png"
-    },
-    {
-      "name": "E. Rroca",
-      "position": "Midfielder",
-      "number": 23,
+      "name": "W. Benítez",
+      "position": "Goalkeeper",
+      "number": 44,
       "age": 32,
-      "photo": "https://media.api-sports.io/football/players/3505.png"
+      "photo": "https://media.api-sports.io/football/players/22157.png"
     },
     {
-      "name": "K. Abazaj",
-      "position": "Attacker",
-      "number": 77,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/14317.png"
-    },
-    {
-      "name": "M. Arthur",
-      "position": "Attacker",
-      "number": 99,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/608266.png"
-    },
-    {
-      "name": "O. Grezda",
-      "position": "Attacker",
-      "number": 17,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/577171.png"
-    },
-    {
-      "name": "Blerim Krasniqi",
-      "position": "Attacker",
-      "number": 19,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/3613.png"
-    },
-    {
-      "name": "A. Manaj",
-      "position": "Attacker",
-      "number": 9,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/194539.png"
-    }
-  ],
-  "sabah-fa": [
-    {
-      "name": "R. Əyyubov",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/500030.png"
-    },
-    {
-      "name": "R. Mirzəmmədov",
-      "position": "Goalkeeper",
-      "number": 94,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/449613.png"
-    },
-    {
-      "name": "S. Pokatilov",
-      "position": "Goalkeeper",
-      "number": 92,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/56074.png"
-    },
-    {
-      "name": "A. Ramazanov",
+      "name": "D. Henderson",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/334257.png"
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/19088.png"
     },
     {
-      "name": "J. Bulus",
+      "name": "R. Matthews",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/19684.png"
+    },
+    {
+      "name": "H. Ahanor",
       "position": "Defender",
-      "number": 35,
+      "number": 21,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/453906.png"
+    },
+    {
+      "name": "D. Benamar",
+      "position": "Defender",
+      "number": 7,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/557414.png"
+    },
+    {
+      "name": "J. Canvot",
+      "position": "Defender",
+      "number": 6,
       "age": 19,
-      "photo": "https://media.api-sports.io/football/players/610845.png"
+      "photo": "https://media.api-sports.io/football/players/412759.png"
     },
     {
-      "name": "R. Daşdəmirov",
-      "position": "Defender",
-      "number": 5,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/123366.png"
-    },
-    {
-      "name": "Erivaldo Almeida",
+      "name": "B. Chilwell",
       "position": "Defender",
       "number": 33,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/266387.png"
-    },
-    {
-      "name": "A. McCarthy",
-      "position": "Defender",
-      "number": 4,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/349345.png"
-    },
-    {
-      "name": "T. Mutallimov",
-      "position": "Defender",
-      "number": 17,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/544624.png"
-    },
-    {
-      "name": "T. Puchacz",
-      "position": "Defender",
-      "number": 27,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/40984.png"
-    },
-    {
-      "name": "S. Solvet",
-      "position": "Defender",
-      "number": 3,
       "age": 29,
-      "photo": "https://media.api-sports.io/football/players/174827.png"
+      "photo": "https://media.api-sports.io/football/players/2933.png"
     },
     {
-      "name": "A. Zedadka",
-      "position": "Defender",
-      "number": 80,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/21233.png"
-    },
-    {
-      "name": "Du Queiroz",
-      "position": "Midfielder",
-      "number": 37,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/321432.png"
-    },
-    {
-      "name": "Rodrigo Fernandes",
-      "position": "Midfielder",
-      "number": 88,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/158107.png"
-    },
-    {
-      "name": "S. Ibrahimov",
-      "position": "Midfielder",
-      "number": 95,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/597964.png"
-    },
-    {
-      "name": "A. Isaev",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/55960.png"
-    },
-    {
-      "name": "A. Xaybulayev",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/271724.png"
-    },
-    {
-      "name": "I. Lepinjica",
-      "position": "Midfielder",
-      "number": 13,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/14285.png"
-    },
-    {
-      "name": "Cafar Mukhtarov",
-      "position": "Midfielder",
-      "number": 89,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/587825.png"
-    },
-    {
-      "name": "Z. Ould Khaled",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/174723.png"
-    },
-    {
-      "name": "U. Rahmonaliyev",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/328759.png"
-    },
-    {
-      "name": "R. Rüstəmli",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/328186.png"
-    },
-    {
-      "name": "K. Aliyev",
-      "position": "Midfielder",
-      "number": 9,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/348230.png"
-    },
-    {
-      "name": "Carlos Eduardo",
-      "position": "Attacker",
-      "number": 18,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/197382.png"
-    },
-    {
-      "name": "Y. Lachaab",
-      "position": "Attacker",
-      "number": 23,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/368065.png"
-    },
-    {
-      "name": "P. Mbina",
-      "position": "Attacker",
-      "number": 99,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/191322.png"
-    },
-    {
-      "name": "J. Mickels",
-      "position": "Attacker",
-      "number": 20,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/127602.png"
-    },
-    {
-      "name": "C. Nwachukwu",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/461130.png"
-    },
-    {
-      "name": "K. Parris",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/32397.png"
-    },
-    {
-      "name": "X. Severina",
-      "position": "Midfielder",
-      "number": 34,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/308839.png"
-    },
-    {
-      "name": "V. Simić",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/360.png"
-    }
-  ],
-  "bournemouth": [
-    {
-      "name": "M. Allan",
-      "position": "Goalkeeper",
-      "number": 55,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/675604.png"
-    },
-    {
-      "name": "K. Crampton",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/407034.png"
-    },
-    {
-      "name": "M. Di Gregorio",
-      "position": "Goalkeeper",
-      "number": 20,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/30670.png"
-    },
-    {
-      "name": "F. Forster",
-      "position": "Goalkeeper",
-      "number": 17,
-      "age": 37,
-      "photo": "https://media.api-sports.io/football/players/18932.png"
-    },
-    {
-      "name": "Đ. Petrović",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/118307.png"
-    },
-    {
-      "name": "M. Aarons",
-      "position": "Defender",
-      "number": 2,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/19070.png"
-    },
-    {
-      "name": "J. Aibangbee",
-      "position": "Defender",
-      "number": null,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/662436.png"
-    },
-    {
-      "name": "J. Araujo",
-      "position": "Defender",
-      "number": 22,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/51051.png"
-    },
-    {
-      "name": "B. Diakité",
-      "position": "Defender",
-      "number": 18,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/22136.png"
-    },
-    {
-      "name": "J. Hill",
+      "name": "A. Disasi",
       "position": "Defender",
       "number": 5,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/20093.png"
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/21998.png"
     },
     {
-      "name": "Juanlu Sánchez",
+      "name": "G. King",
       "position": "Defender",
-      "number": 24,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/182772.png"
+      "number": 4,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/557584.png"
     },
     {
-      "name": "António Silva",
+      "name": "Óscar Mingueza",
       "position": "Defender",
-      "number": 14,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/331832.png"
+      "number": 30,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/162712.png"
     },
     {
-      "name": "A. Smith",
-      "position": "Defender",
-      "number": 15,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/18869.png"
-    },
-    {
-      "name": "J. Soler",
-      "position": "Defender",
-      "number": 6,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/363333.png"
-    },
-    {
-      "name": "A. Truffert",
+      "name": "T. Mitchell",
       "position": "Defender",
       "number": 3,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/162267.png"
-    },
-    {
-      "name": "T. Adams",
-      "position": "Midfielder",
-      "number": 12,
       "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1150.png"
+      "photo": "https://media.api-sports.io/football/players/182201.png"
     },
     {
-      "name": "A. Adli",
-      "position": "Attacker",
-      "number": 21,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/129682.png"
-    },
-    {
-      "name": "R. Christie",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/1125.png"
-    },
-    {
-      "name": "Z. Christie",
-      "position": "Midfielder",
+      "name": "C. Riad",
+      "position": "Defender",
       "number": 4,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/671665.png"
-    },
-    {
-      "name": "L. Cook",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/18872.png"
-    },
-    {
-      "name": "Malcom Dacosta",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/626383.png"
-    },
-    {
-      "name": "A. Scott",
-      "position": "Midfielder",
-      "number": 8,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/304853.png"
+      "photo": "https://media.api-sports.io/football/players/278898.png"
     },
     {
-      "name": "C. Stevens",
+      "name": "C. Richards",
+      "position": "Defender",
+      "number": 26,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/126949.png"
+    },
+    {
+      "name": "T. Tomiyasu",
+      "position": "Defender",
+      "number": 17,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/2597.png"
+    },
+    {
+      "name": "C. Doucouré",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/3339.png"
+    },
+    {
+      "name": "J. Drakes-Thomas",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/557413.png"
+    },
+    {
+      "name": "W. Hughes",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/18806.png"
+    },
+    {
+      "name": "N. Kalembo",
+      "position": "Midfielder",
+      "number": 3,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/682326.png"
+    },
+    {
+      "name": "D. Kamada",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/2601.png"
+    },
+    {
+      "name": "C. Kporha",
+      "position": "Midfielder",
+      "number": 2,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/380679.png"
+    },
+    {
+      "name": "J. Lerma",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/2490.png"
+    },
+    {
+      "name": "D. McNeil",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/18929.png"
+    },
+    {
+      "name": "C. Okoli",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/683137.png"
+    },
+    {
+      "name": "Q. Timber",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/38747.png"
+    },
+    {
+      "name": "A. Wharton",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/288102.png"
+    },
+    {
+      "name": "S. Williams",
       "position": "Midfielder",
       "number": 10,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/573755.png"
+      "photo": "https://media.api-sports.io/football/players/405534.png"
     },
     {
-      "name": "M. Tavernier",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/19245.png"
+      "name": "Z. Gozo",
+      "position": "Attacker",
+      "number": 12,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/412227.png"
     },
     {
-      "name": "A. Tóth",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/361485.png"
+      "name": "E. Guessand",
+      "position": "Attacker",
+      "number": 29,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/137303.png"
     },
     {
-      "name": "D. Brooks",
-      "position": "Midfielder",
-      "number": 7,
+      "name": "A. Khalaili",
+      "position": "Attacker",
+      "number": 25,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/338735.png"
+    },
+    {
+      "name": "J. Strand Larsen",
+      "position": "Attacker",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/2032.png"
+    },
+    {
+      "name": "J. Mateta",
+      "position": "Attacker",
+      "number": 14,
       "age": 28,
-      "photo": "https://media.api-sports.io/football/players/18870.png"
+      "photo": "https://media.api-sports.io/football/players/25927.png"
     },
     {
-      "name": "Evanilson",
+      "name": "Adler Nascimento",
+      "position": "Attacker",
+      "number": 10,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/313636.png"
+    },
+    {
+      "name": "E. Nketiah",
       "position": "Attacker",
       "number": 9,
       "age": 26,
-      "photo": "https://media.api-sports.io/football/players/152856.png"
+      "photo": "https://media.api-sports.io/football/players/1468.png"
     },
     {
-      "name": "B. Doak",
+      "name": "D. Osorio",
       "position": "Attacker",
-      "number": 11,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/343576.png"
-    },
-    {
-      "name": "D. Jebbison",
-      "position": "Attacker",
-      "number": 29,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/296458.png"
-    },
-    {
-      "name": "J. Kluivert",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/792.png"
-    },
-    {
-      "name": "E. Kroupi",
-      "position": "Attacker",
-      "number": 22,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/368030.png"
-    },
-    {
-      "name": "Rayan",
-      "position": "Midfielder",
-      "number": 37,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/407806.png"
-    },
-    {
-      "name": "Á. Rodríguez",
-      "position": "Attacker",
-      "number": 30,
+      "number": 24,
       "age": 21,
-      "photo": "https://media.api-sports.io/football/players/343202.png"
+      "photo": "https://media.api-sports.io/football/players/307117.png"
+    },
+    {
+      "name": "Yeremy Pino",
+      "position": "Attacker",
+      "number": 10,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/184226.png"
+    },
+    {
+      "name": "I. Sarr",
+      "position": "Attacker",
+      "number": 7,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/2218.png"
     }
   ],
   "marseille": [
@@ -18092,7 +18120,7 @@ const teamSquads = {
     },
     {
       "name": "A. Harit",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 77,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/412.png"
@@ -18127,7 +18155,7 @@ const teamSquads = {
     },
     {
       "name": "Igor Paixão",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/9363.png"
@@ -18178,7 +18206,7 @@ const teamSquads = {
     },
     {
       "name": "P. Frankowski",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 95,
       "age": 30,
       "photo": "https://media.api-sports.io/football/players/3007.png"
@@ -18192,7 +18220,7 @@ const teamSquads = {
     },
     {
       "name": "M. Nagida",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 18,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/438281.png"
@@ -18206,7 +18234,7 @@ const teamSquads = {
     },
     {
       "name": "B. Reynolds",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 14,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/51144.png"
@@ -18338,267 +18366,6 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/15286.png"
     }
   ],
-  "crystal-palace": [
-    {
-      "name": "L. Benetton",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 15,
-      "photo": "https://media.api-sports.io/football/players/646915.png"
-    },
-    {
-      "name": "W. Benítez",
-      "position": "Goalkeeper",
-      "number": 44,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/22157.png"
-    },
-    {
-      "name": "D. Henderson",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/19088.png"
-    },
-    {
-      "name": "R. Matthews",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/19684.png"
-    },
-    {
-      "name": "H. Ahanor",
-      "position": "Defender",
-      "number": 21,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/453906.png"
-    },
-    {
-      "name": "D. Benamar",
-      "position": "Defender",
-      "number": 7,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/557414.png"
-    },
-    {
-      "name": "J. Canvot",
-      "position": "Defender",
-      "number": 6,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/412759.png"
-    },
-    {
-      "name": "B. Chilwell",
-      "position": "Defender",
-      "number": 33,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/2933.png"
-    },
-    {
-      "name": "A. Disasi",
-      "position": "Defender",
-      "number": 5,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/21998.png"
-    },
-    {
-      "name": "G. King",
-      "position": "Defender",
-      "number": 4,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/557584.png"
-    },
-    {
-      "name": "Óscar Mingueza",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/162712.png"
-    },
-    {
-      "name": "T. Mitchell",
-      "position": "Midfielder",
-      "number": 3,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/182201.png"
-    },
-    {
-      "name": "C. Riad",
-      "position": "Defender",
-      "number": 4,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/278898.png"
-    },
-    {
-      "name": "C. Richards",
-      "position": "Defender",
-      "number": 26,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/126949.png"
-    },
-    {
-      "name": "T. Tomiyasu",
-      "position": "Defender",
-      "number": 17,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/2597.png"
-    },
-    {
-      "name": "C. Doucouré",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/3339.png"
-    },
-    {
-      "name": "J. Drakes-Thomas",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/557413.png"
-    },
-    {
-      "name": "W. Hughes",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/18806.png"
-    },
-    {
-      "name": "N. Kalembo",
-      "position": "Midfielder",
-      "number": 3,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/682326.png"
-    },
-    {
-      "name": "D. Kamada",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/2601.png"
-    },
-    {
-      "name": "C. Kporha",
-      "position": "Midfielder",
-      "number": 2,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/380679.png"
-    },
-    {
-      "name": "J. Lerma",
-      "position": "Defender",
-      "number": 8,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/2490.png"
-    },
-    {
-      "name": "D. McNeil",
-      "position": "Attacker",
-      "number": 11,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/18929.png"
-    },
-    {
-      "name": "C. Okoli",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/683137.png"
-    },
-    {
-      "name": "Q. Timber",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/38747.png"
-    },
-    {
-      "name": "A. Wharton",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/288102.png"
-    },
-    {
-      "name": "S. Williams",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/405534.png"
-    },
-    {
-      "name": "Z. Gozo",
-      "position": "Attacker",
-      "number": 12,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/412227.png"
-    },
-    {
-      "name": "E. Guessand",
-      "position": "Attacker",
-      "number": 29,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/137303.png"
-    },
-    {
-      "name": "A. Khalaili",
-      "position": "Defender",
-      "number": 25,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/338735.png"
-    },
-    {
-      "name": "J. Strand Larsen",
-      "position": "Attacker",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/2032.png"
-    },
-    {
-      "name": "J. Mateta",
-      "position": "Attacker",
-      "number": 14,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/25927.png"
-    },
-    {
-      "name": "Adler Nascimento",
-      "position": "Attacker",
-      "number": 10,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/313636.png"
-    },
-    {
-      "name": "E. Nketiah",
-      "position": "Attacker",
-      "number": 9,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1468.png"
-    },
-    {
-      "name": "D. Osorio",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/307117.png"
-    },
-    {
-      "name": "Yeremy Pino",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/184226.png"
-    },
-    {
-      "name": "I. Sarr",
-      "position": "Attacker",
-      "number": 7,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/2218.png"
-    }
-  ],
   "1899-hoffenheim": [
     {
       "name": "O. Baumann",
@@ -18610,7 +18377,7 @@ const teamSquads = {
     {
       "name": "L. Petersson",
       "position": "Goalkeeper",
-      "number": 36,
+      "number": 1,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/288097.png"
     },
@@ -18645,7 +18412,7 @@ const teamSquads = {
     {
       "name": "Sean Dulic",
       "position": "Defender",
-      "number": 4,
+      "number": 3,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/387306.png"
     },
@@ -18791,7 +18558,7 @@ const teamSquads = {
     },
     {
       "name": "A. Kramarić",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 27,
       "age": 34,
       "photo": "https://media.api-sports.io/football/players/726.png"
@@ -18813,7 +18580,7 @@ const teamSquads = {
     {
       "name": "L. Wagenbach",
       "position": "Attacker",
-      "number": 49,
+      "number": 18,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/621889.png"
     },
@@ -19003,7 +18770,7 @@ const teamSquads = {
     },
     {
       "name": "M. Culbreath",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 42,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/444961.png"
@@ -19024,7 +18791,7 @@ const teamSquads = {
     },
     {
       "name": "Afonso Moreira",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 9,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/345388.png"
@@ -19222,14 +18989,14 @@ const teamSquads = {
     },
     {
       "name": "V. Byskov",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 17,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/371909.png"
     },
     {
       "name": "R. Daal",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/338840.png"
@@ -19257,14 +19024,14 @@ const teamSquads = {
     },
     {
       "name": "A. Oufkir",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 24,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/444790.png"
     },
     {
       "name": "C. Stengs",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/36910.png"
@@ -19275,218 +19042,6 @@ const teamSquads = {
       "number": 7,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/335633.png"
-    }
-  ],
-  "rangers": [
-    {
-      "name": "L. Kelly",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/44937.png"
-    },
-    {
-      "name": "R. McGuire",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/496683.png"
-    },
-    {
-      "name": "I. Pandur",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/14268.png"
-    },
-    {
-      "name": "E. Fernandez",
-      "position": "Defender",
-      "number": 37,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/322882.png"
-    },
-    {
-      "name": "B. Godfrey",
-      "position": "Defender",
-      "number": 4,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/19073.png"
-    },
-    {
-      "name": "O. Makhanya",
-      "position": "Defender",
-      "number": 24,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/392387.png"
-    },
-    {
-      "name": "R. McCrorie",
-      "position": "Defender",
-      "number": 2,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/1743.png"
-    },
-    {
-      "name": "K. Nedeljković",
-      "position": "Defender",
-      "number": 18,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/342320.png"
-    },
-    {
-      "name": "J. Penrice",
-      "position": "Defender",
-      "number": 29,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/45211.png"
-    },
-    {
-      "name": "T. Rommens",
-      "position": "Defender",
-      "number": 25,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/162159.png"
-    },
-    {
-      "name": "A. Scally",
-      "position": "Defender",
-      "number": 3,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/661802.png"
-    },
-    {
-      "name": "J. Souttar",
-      "position": "Defender",
-      "number": 5,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/44865.png"
-    },
-    {
-      "name": "D. Sterling",
-      "position": "Defender",
-      "number": 21,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/19990.png"
-    },
-    {
-      "name": "T. Chukwuani",
-      "position": "Midfielder",
-      "number": 42,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/137384.png"
-    },
-    {
-      "name": "Findlay Curtis",
-      "position": "Attacker",
-      "number": 52,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/433272.png"
-    },
-    {
-      "name": "C. Devlin",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/6832.png"
-    },
-    {
-      "name": "V. Dragojević",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/443802.png"
-    },
-    {
-      "name": "D. Neil",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/19910.png"
-    },
-    {
-      "name": "N. Raskin",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/2120.png"
-    },
-    {
-      "name": "B. Bouanani",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/334879.png"
-    },
-    {
-      "name": "Youssef Chermiti",
-      "position": "Attacker",
-      "number": 9,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/330412.png"
-    },
-    {
-      "name": "D. Gassama",
-      "position": "Attacker",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/336563.png"
-    },
-    {
-      "name": "K. Glasgow",
-      "position": "Attacker",
-      "number": 72,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/648888.png"
-    },
-    {
-      "name": "K. Kelsy",
-      "position": "Attacker",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/311016.png"
-    },
-    {
-      "name": "Minsu Kim",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/397941.png"
-    },
-    {
-      "name": "R. McCausland",
-      "position": "Attacker",
-      "number": 45,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/199595.png"
-    },
-    {
-      "name": "B. Miovski",
-      "position": "Attacker",
-      "number": 28,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/109564.png"
-    },
-    {
-      "name": "R. Naderi",
-      "position": "Attacker",
-      "number": 20,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/280305.png"
-    },
-    {
-      "name": "L. Shankland",
-      "position": "Attacker",
-      "number": 7,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/45175.png"
-    },
-    {
-      "name": "D. Yokota",
-      "position": "Attacker",
-      "number": 17,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/260798.png"
     }
   ],
   "benfica": [
@@ -19702,14 +19257,14 @@ const teamSquads = {
     },
     {
       "name": "G. Prestianni",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 25,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/362755.png"
     },
     {
       "name": "Rafa",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 27,
       "age": 33,
       "photo": "https://media.api-sports.io/football/players/573.png"
@@ -19727,6 +19282,218 @@ const teamSquads = {
       "number": 21,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/301528.png"
+    }
+  ],
+  "rangers": [
+    {
+      "name": "L. Kelly",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/44937.png"
+    },
+    {
+      "name": "R. McGuire",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/496683.png"
+    },
+    {
+      "name": "I. Pandur",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/14268.png"
+    },
+    {
+      "name": "E. Fernandez",
+      "position": "Defender",
+      "number": 37,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/322882.png"
+    },
+    {
+      "name": "B. Godfrey",
+      "position": "Defender",
+      "number": 4,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/19073.png"
+    },
+    {
+      "name": "O. Makhanya",
+      "position": "Defender",
+      "number": 24,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/392387.png"
+    },
+    {
+      "name": "R. McCrorie",
+      "position": "Defender",
+      "number": 2,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/1743.png"
+    },
+    {
+      "name": "K. Nedeljković",
+      "position": "Defender",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/342320.png"
+    },
+    {
+      "name": "J. Penrice",
+      "position": "Defender",
+      "number": 29,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/45211.png"
+    },
+    {
+      "name": "T. Rommens",
+      "position": "Defender",
+      "number": 25,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/162159.png"
+    },
+    {
+      "name": "A. Scally",
+      "position": "Defender",
+      "number": 3,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/661802.png"
+    },
+    {
+      "name": "J. Souttar",
+      "position": "Defender",
+      "number": 5,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/44865.png"
+    },
+    {
+      "name": "D. Sterling",
+      "position": "Defender",
+      "number": 21,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/19990.png"
+    },
+    {
+      "name": "T. Chukwuani",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/137384.png"
+    },
+    {
+      "name": "Findlay Curtis",
+      "position": "Attacker",
+      "number": 52,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/433272.png"
+    },
+    {
+      "name": "C. Devlin",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/6832.png"
+    },
+    {
+      "name": "V. Dragojević",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/443802.png"
+    },
+    {
+      "name": "D. Neil",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/19910.png"
+    },
+    {
+      "name": "N. Raskin",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/2120.png"
+    },
+    {
+      "name": "B. Bouanani",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/334879.png"
+    },
+    {
+      "name": "Youssef Chermiti",
+      "position": "Attacker",
+      "number": 9,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/330412.png"
+    },
+    {
+      "name": "D. Gassama",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/336563.png"
+    },
+    {
+      "name": "K. Glasgow",
+      "position": "Attacker",
+      "number": 72,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/648888.png"
+    },
+    {
+      "name": "K. Kelsy",
+      "position": "Attacker",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/311016.png"
+    },
+    {
+      "name": "Minsu Kim",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/397941.png"
+    },
+    {
+      "name": "R. McCausland",
+      "position": "Attacker",
+      "number": 45,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/199595.png"
+    },
+    {
+      "name": "B. Miovski",
+      "position": "Attacker",
+      "number": 28,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/109564.png"
+    },
+    {
+      "name": "R. Naderi",
+      "position": "Attacker",
+      "number": 20,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/280305.png"
+    },
+    {
+      "name": "L. Shankland",
+      "position": "Attacker",
+      "number": 7,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/45175.png"
+    },
+    {
+      "name": "D. Yokota",
+      "position": "Attacker",
+      "number": 17,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/260798.png"
     }
   ],
   "lillestrom": [
@@ -19802,7 +19569,7 @@ const teamSquads = {
     },
     {
       "name": "Y. Ibrahimaj",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 29,
       "age": 30,
       "photo": "https://media.api-sports.io/football/players/39148.png"
@@ -19844,7 +19611,7 @@ const teamSquads = {
     },
     {
       "name": "L. Ranger",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 2,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/57194.png"
@@ -19865,7 +19632,7 @@ const teamSquads = {
     },
     {
       "name": "L. Alperud",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/458514.png"
@@ -19900,21 +19667,21 @@ const teamSquads = {
     },
     {
       "name": "C. Jebara",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 19,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/331919.png"
     },
     {
       "name": "G. Nordh",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 15,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/226691.png"
     },
     {
       "name": "G. Nyheim",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/531341.png"
@@ -20077,14 +19844,14 @@ const teamSquads = {
     },
     {
       "name": "I. Dahlqvist",
-      "position": "Defender",
+      "position": "Attacker",
       "number": 17,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/264435.png"
     },
     {
       "name": "L. Olden Larsen",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 19,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/57224.png"
@@ -20109,6 +19876,218 @@ const teamSquads = {
       "number": null,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/679211.png"
+    }
+  ],
+  "hammarby-ff": [
+    {
+      "name": "W. Hahn",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/36968.png"
+    },
+    {
+      "name": "F. Jakobsson",
+      "position": "Goalkeeper",
+      "number": 27,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/139694.png"
+    },
+    {
+      "name": "B. Norell",
+      "position": "Goalkeeper",
+      "number": 24,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/601125.png"
+    },
+    {
+      "name": "E. Fischerström",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/442547.png"
+    },
+    {
+      "name": "V. Eriksson",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/100155.png"
+    },
+    {
+      "name": "I. Fofana",
+      "position": "Defender",
+      "number": 6,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/192819.png"
+    },
+    {
+      "name": "E. Lwampindy-Bofua",
+      "position": "Defender",
+      "number": 2,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/562220.png"
+    },
+    {
+      "name": "N. Persson",
+      "position": "Defender",
+      "number": 16,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/304357.png"
+    },
+    {
+      "name": "W. Renecke",
+      "position": "Defender",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/334039.png"
+    },
+    {
+      "name": "E. Skoglund",
+      "position": "Defender",
+      "number": 2,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/432478.png"
+    },
+    {
+      "name": "O. Steinke Branby",
+      "position": "Defender",
+      "number": 31,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/571235.png"
+    },
+    {
+      "name": "H. Thorsson",
+      "position": "Defender",
+      "number": 4,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/650502.png"
+    },
+    {
+      "name": "F. Winther",
+      "position": "Defender",
+      "number": 3,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/16063.png"
+    },
+    {
+      "name": "F. Adjei",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/374498.png"
+    },
+    {
+      "name": "N. Besara",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/44665.png"
+    },
+    {
+      "name": "A. Boudri",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/378971.png"
+    },
+    {
+      "name": "B. Hedlof",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/432830.png"
+    },
+    {
+      "name": "Jakobsson Filip",
+      "position": "Midfielder",
+      "number": 34,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/676187.png"
+    },
+    {
+      "name": "Filip Jakobsson",
+      "position": "Midfielder",
+      "number": 34,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/682874.png"
+    },
+    {
+      "name": "O. Johansson",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/47820.png"
+    },
+    {
+      "name": "M. Karlsson",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/338845.png"
+    },
+    {
+      "name": "Sourou Kone",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/635529.png"
+    },
+    {
+      "name": "T. Tekie",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/48107.png"
+    },
+    {
+      "name": "P. Abraham",
+      "position": "Attacker",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/198655.png"
+    },
+    {
+      "name": "F. Bjernvall",
+      "position": "Attacker",
+      "number": 11,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/585515.png"
+    },
+    {
+      "name": "O. Hagen",
+      "position": "Attacker",
+      "number": 15,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/371502.png"
+    },
+    {
+      "name": "S. Kebbeh",
+      "position": "Attacker",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/562068.png"
+    },
+    {
+      "name": "V. Lind",
+      "position": "Attacker",
+      "number": 9,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/161561.png"
+    },
+    {
+      "name": "M. Madjed",
+      "position": "Attacker",
+      "number": 26,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/310502.png"
+    },
+    {
+      "name": "O. Moczarny",
+      "position": "Attacker",
+      "number": 7,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/571433.png"
     }
   ],
   "jagiellonia": [
@@ -20338,7 +20317,7 @@ const teamSquads = {
     },
     {
       "name": "O. Sow",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 30,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/394784.png"
@@ -20352,7 +20331,7 @@ const teamSquads = {
     },
     {
       "name": "K. Szmyt",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/40858.png"
@@ -20366,222 +20345,462 @@ const teamSquads = {
     },
     {
       "name": "Z. Zalewski",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 80,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/574681.png"
     }
   ],
-  "twente": [
+  "bournemouth": [
     {
-      "name": "J. Drommel",
+      "name": "M. Allan",
       "position": "Goalkeeper",
-      "number": 16,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/36828.png"
+      "number": 55,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/675604.png"
     },
     {
-      "name": "Yannick Gerritsen",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/518664.png"
-    },
-    {
-      "name": "R. Pasveer",
-      "position": "Goalkeeper",
-      "number": 22,
-      "age": 42,
-      "photo": "https://media.api-sports.io/football/players/37113.png"
-    },
-    {
-      "name": "L. Unnerstall",
+      "name": "K. Crampton",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/37765.png"
-    },
-    {
-      "name": "A. Adelgaard",
-      "position": "Defender",
-      "number": 29,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/378966.png"
-    },
-    {
-      "name": "M. Bruns",
-      "position": "Defender",
-      "number": 38,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/291994.png"
-    },
-    {
-      "name": "K. Kurowski",
-      "position": "Defender",
-      "number": 24,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/409360.png"
-    },
-    {
-      "name": "S. Lemkin",
-      "position": "Defender",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/292553.png"
-    },
-    {
-      "name": "J. Meilink",
-      "position": "Defender",
-      "number": 39,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/666828.png"
+      "photo": "https://media.api-sports.io/football/players/407034.png"
     },
     {
-      "name": "R. Nijstad",
-      "position": "Defender",
-      "number": 4,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/494106.png"
+      "name": "M. Di Gregorio",
+      "position": "Goalkeeper",
+      "number": 20,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/30670.png"
     },
     {
-      "name": "R. Pröpper",
-      "position": "Defender",
-      "number": 3,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/37254.png"
+      "name": "F. Forster",
+      "position": "Goalkeeper",
+      "number": 17,
+      "age": 37,
+      "photo": "https://media.api-sports.io/football/players/18932.png"
     },
     {
-      "name": "B. Titulaer",
-      "position": "Defender",
-      "number": 33,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/583653.png"
+      "name": "Đ. Petrović",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/118307.png"
     },
     {
-      "name": "B. van Rooij",
-      "position": "Defender",
-      "number": 28,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/37370.png"
-    },
-    {
-      "name": "Jordy Bawuah",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/439829.png"
-    },
-    {
-      "name": "G. Besselink",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/408854.png"
-    },
-    {
-      "name": "K. Hlynsson",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/191879.png"
-    },
-    {
-      "name": "B. Nagel",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/551116.png"
-    },
-    {
-      "name": "M. Rosiak",
+      "name": "M. Aarons",
       "position": "Defender",
       "number": 2,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/339175.png"
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/19070.png"
     },
     {
-      "name": "D. Weidmann",
+      "name": "J. Aibangbee",
+      "position": "Defender",
+      "number": null,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/662436.png"
+    },
+    {
+      "name": "J. Araujo",
+      "position": "Defender",
+      "number": 22,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/51051.png"
+    },
+    {
+      "name": "B. Diakité",
+      "position": "Defender",
+      "number": 18,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/22136.png"
+    },
+    {
+      "name": "J. Hill",
+      "position": "Defender",
+      "number": 5,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/20093.png"
+    },
+    {
+      "name": "Juanlu Sánchez",
+      "position": "Defender",
+      "number": 24,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/182772.png"
+    },
+    {
+      "name": "António Silva",
+      "position": "Defender",
+      "number": 14,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/331832.png"
+    },
+    {
+      "name": "A. Smith",
+      "position": "Defender",
+      "number": 15,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/18869.png"
+    },
+    {
+      "name": "J. Soler",
+      "position": "Defender",
+      "number": 6,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/363333.png"
+    },
+    {
+      "name": "A. Truffert",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/162267.png"
+    },
+    {
+      "name": "T. Adams",
+      "position": "Midfielder",
+      "number": 12,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1150.png"
+    },
+    {
+      "name": "A. Adli",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/129682.png"
+    },
+    {
+      "name": "R. Christie",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/1125.png"
+    },
+    {
+      "name": "Z. Christie",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/671665.png"
+    },
+    {
+      "name": "L. Cook",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/18872.png"
+    },
+    {
+      "name": "Malcom Dacosta",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/626383.png"
+    },
+    {
+      "name": "A. Scott",
       "position": "Midfielder",
       "number": 8,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/336562.png"
+      "photo": "https://media.api-sports.io/football/players/304853.png"
     },
     {
-      "name": "R. Zerrouki",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/129047.png"
-    },
-    {
-      "name": "T. van den Belt",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/36934.png"
-    },
-    {
-      "name": "Nigel Groenewald",
-      "position": "Attacker",
-      "number": 36,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/639073.png"
-    },
-    {
-      "name": "S. Ørjasæter",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/352730.png"
-    },
-    {
-      "name": "M. Pjaca",
-      "position": "Attacker",
-      "number": 7,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/30413.png"
-    },
-    {
-      "name": "D. Rots",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/272726.png"
-    },
-    {
-      "name": "Y. Taha",
+      "name": "C. Stevens",
       "position": "Midfielder",
       "number": 10,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/328670.png"
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/573755.png"
     },
     {
-      "name": "F. Thorvaldsen",
+      "name": "M. Tavernier",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/19245.png"
+    },
+    {
+      "name": "A. Tóth",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/361485.png"
+    },
+    {
+      "name": "D. Brooks",
       "position": "Attacker",
-      "number": 17,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/388327.png"
+      "number": 7,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/18870.png"
     },
     {
-      "name": "N. Ünüvar",
-      "position": "Attacker",
-      "number": 37,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/161894.png"
-    },
-    {
-      "name": "Lucas Vennegoor of Hesselink",
-      "position": "Attacker",
-      "number": 25,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/455252.png"
-    },
-    {
-      "name": "W. Weghorst",
+      "name": "Evanilson",
       "position": "Attacker",
       "number": 9,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/25416.png"
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/152856.png"
+    },
+    {
+      "name": "B. Doak",
+      "position": "Attacker",
+      "number": 11,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/343576.png"
+    },
+    {
+      "name": "D. Jebbison",
+      "position": "Attacker",
+      "number": 29,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/296458.png"
+    },
+    {
+      "name": "J. Kluivert",
+      "position": "Attacker",
+      "number": 19,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/792.png"
+    },
+    {
+      "name": "E. Kroupi",
+      "position": "Attacker",
+      "number": 22,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/368030.png"
+    },
+    {
+      "name": "Rayan",
+      "position": "Attacker",
+      "number": 37,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/407806.png"
+    },
+    {
+      "name": "Á. Rodríguez",
+      "position": "Attacker",
+      "number": 30,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/343202.png"
+    }
+  ],
+  "fc-midtjylland": [
+    {
+      "name": "N. Bakker",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/37729.png"
+    },
+    {
+      "name": "O. Ejeheri",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/284543.png"
+    },
+    {
+      "name": "E. Ólafsson",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/89754.png"
+    },
+    {
+      "name": "M. Ugboh",
+      "position": "Goalkeeper",
+      "number": 60,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/374525.png"
+    },
+    {
+      "name": "V. Bak Jensen",
+      "position": "Defender",
+      "number": 55,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/162218.png"
+    },
+    {
+      "name": "B. Dje Bi Dje",
+      "position": "Defender",
+      "number": 15,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/435266.png"
+    },
+    {
+      "name": "O. Diao",
+      "position": "Defender",
+      "number": 4,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/404026.png"
+    },
+    {
+      "name": "M. Erlić",
+      "position": "Defender",
+      "number": 6,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/30827.png"
+    },
+    {
+      "name": "M. Jensen",
+      "position": "Defender",
+      "number": 3,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/81132.png"
+    },
+    {
+      "name": "R. Kristensen",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/533.png"
+    },
+    {
+      "name": "A. Maxsø",
+      "position": "Defender",
+      "number": 2,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/997.png"
+    },
+    {
+      "name": "N. A. Aziz",
+      "position": "Defender",
+      "number": 34,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/634852.png"
+    },
+    {
+      "name": "M. Bech",
+      "position": "Defender",
+      "number": 22,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/19345.png"
+    },
+    {
+      "name": "P. Billing",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/2734.png"
+    },
+    {
+      "name": "P. Bravo",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/311432.png"
+    },
+    {
+      "name": "D. Castillo",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/338045.png"
+    },
+    {
+      "name": "A. Djabi",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/544622.png"
+    },
+    {
+      "name": "Hong Hyun-Seok",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/26519.png"
+    },
+    {
+      "name": "S. Johannesen",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/443703.png"
+    },
+    {
+      "name": "Joseph Okuaghare",
+      "position": "Midfielder",
+      "number": 39,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/686982.png"
+    },
+    {
+      "name": "F. Vestergaard",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/570165.png"
+    },
+    {
+      "name": "K. WÃ¤tjen",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/397740.png"
+    },
+    {
+      "name": "Cho Gue-Sung",
+      "position": "Attacker",
+      "number": 10,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/34211.png"
+    },
+    {
+      "name": "J. Emefile",
+      "position": "Attacker",
+      "number": 38,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/496782.png"
+    },
+    {
+      "name": "F. Etim",
+      "position": "Attacker",
+      "number": 90,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/351146.png"
+    },
+    {
+      "name": "Mikel Johan Gogorza Krüger-Johnsen",
+      "position": "Attacker",
+      "number": 41,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/435061.png"
+    },
+    {
+      "name": "S. Iheanacho",
+      "position": "Attacker",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/438628.png"
+    },
+    {
+      "name": "Júnior Brumado",
+      "position": "Attacker",
+      "number": 74,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/15810.png"
+    },
+    {
+      "name": "D. Martínez",
+      "position": "Attacker",
+      "number": 98,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/356814.png"
+    },
+    {
+      "name": "M. Rajović",
+      "position": "Attacker",
+      "number": 9,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/16126.png"
+    },
+    {
+      "name": "M. Uhre",
+      "position": "Attacker",
+      "number": 17,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/15894.png"
     }
   ],
   "ac-milan": [
@@ -20811,7 +21030,7 @@ const teamSquads = {
     },
     {
       "name": "C. Pulišić",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/17.png"
@@ -20822,6 +21041,218 @@ const teamSquads = {
       "number": 9,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/41585.png"
+    }
+  ],
+  "twente": [
+    {
+      "name": "J. Drommel",
+      "position": "Goalkeeper",
+      "number": 16,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/36828.png"
+    },
+    {
+      "name": "Yannick Gerritsen",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/518664.png"
+    },
+    {
+      "name": "R. Pasveer",
+      "position": "Goalkeeper",
+      "number": 22,
+      "age": 42,
+      "photo": "https://media.api-sports.io/football/players/37113.png"
+    },
+    {
+      "name": "L. Unnerstall",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/37765.png"
+    },
+    {
+      "name": "A. Adelgaard",
+      "position": "Defender",
+      "number": 29,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/378966.png"
+    },
+    {
+      "name": "M. Bruns",
+      "position": "Defender",
+      "number": 38,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/291994.png"
+    },
+    {
+      "name": "K. Kurowski",
+      "position": "Defender",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/409360.png"
+    },
+    {
+      "name": "S. Lemkin",
+      "position": "Defender",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/292553.png"
+    },
+    {
+      "name": "J. Meilink",
+      "position": "Defender",
+      "number": 39,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/666828.png"
+    },
+    {
+      "name": "R. Nijstad",
+      "position": "Defender",
+      "number": 4,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/494106.png"
+    },
+    {
+      "name": "R. Pröpper",
+      "position": "Defender",
+      "number": 3,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/37254.png"
+    },
+    {
+      "name": "B. Titulaer",
+      "position": "Defender",
+      "number": 33,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/583653.png"
+    },
+    {
+      "name": "B. van Rooij",
+      "position": "Defender",
+      "number": 28,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/37370.png"
+    },
+    {
+      "name": "Jordy Bawuah",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/439829.png"
+    },
+    {
+      "name": "G. Besselink",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/408854.png"
+    },
+    {
+      "name": "K. Hlynsson",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/191879.png"
+    },
+    {
+      "name": "B. Nagel",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/551116.png"
+    },
+    {
+      "name": "M. Rosiak",
+      "position": "Midfielder",
+      "number": 2,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/339175.png"
+    },
+    {
+      "name": "D. Weidmann",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/336562.png"
+    },
+    {
+      "name": "R. Zerrouki",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/129047.png"
+    },
+    {
+      "name": "T. van den Belt",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/36934.png"
+    },
+    {
+      "name": "Nigel Groenewald",
+      "position": "Attacker",
+      "number": 36,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/639073.png"
+    },
+    {
+      "name": "S. Ørjasæter",
+      "position": "Attacker",
+      "number": 27,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/352730.png"
+    },
+    {
+      "name": "M. Pjaca",
+      "position": "Attacker",
+      "number": 7,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/30413.png"
+    },
+    {
+      "name": "D. Rots",
+      "position": "Attacker",
+      "number": 11,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/272726.png"
+    },
+    {
+      "name": "Y. Taha",
+      "position": "Attacker",
+      "number": 10,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/328670.png"
+    },
+    {
+      "name": "F. Thorvaldsen",
+      "position": "Attacker",
+      "number": 17,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/388327.png"
+    },
+    {
+      "name": "N. Ünüvar",
+      "position": "Attacker",
+      "number": 37,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/161894.png"
+    },
+    {
+      "name": "Lucas Vennegoor of Hesselink",
+      "position": "Attacker",
+      "number": 25,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/455252.png"
+    },
+    {
+      "name": "W. Weghorst",
+      "position": "Attacker",
+      "number": 9,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/25416.png"
     }
   ],
   "juventus": [
@@ -20883,7 +21314,7 @@ const teamSquads = {
     },
     {
       "name": "A. Cambiaso",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 20,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/127011.png"
@@ -20982,14 +21413,14 @@ const teamSquads = {
     {
       "name": "A. Owusu",
       "position": "Midfielder",
-      "number": 41,
+      "number": 8,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/436927.png"
     },
     {
       "name": "F. Pagnucco",
       "position": "Midfielder",
-      "number": 43,
+      "number": 16,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/410399.png"
     },
@@ -21016,7 +21447,7 @@ const teamSquads = {
     },
     {
       "name": "J. Boga",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 13,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/30531.png"
@@ -21045,7 +21476,7 @@ const teamSquads = {
     {
       "name": "D. Elimoghale",
       "position": "Attacker",
-      "number": 48,
+      "number": 14,
       "age": 16,
       "photo": "https://media.api-sports.io/football/players/561568.png"
     },
@@ -21066,7 +21497,7 @@ const teamSquads = {
     {
       "name": "A. Merola",
       "position": "Attacker",
-      "number": 51,
+      "number": 21,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/503461.png"
     },
@@ -21151,7 +21582,7 @@ const teamSquads = {
     },
     {
       "name": "Sergio Carreira",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 5,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/157988.png"
@@ -21207,7 +21638,7 @@ const teamSquads = {
     },
     {
       "name": "Javi Rueda",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 17,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/179955.png"
@@ -21256,7 +21687,7 @@ const teamSquads = {
     },
     {
       "name": "Hugo Álvarez",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 23,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/329720.png"
@@ -21319,7 +21750,7 @@ const teamSquads = {
     },
     {
       "name": "G. Miller",
-      "position": "Defender",
+      "position": "Attacker",
       "number": 35,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/560932.png"
@@ -21332,244 +21763,223 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/269163.png"
     }
   ],
-  "real-sociedad": [
+  "besiktas": [
     {
-      "name": "T. Folgado",
+      "name": "D. Alemdar",
       "position": "Goalkeeper",
-      "number": 13,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/431160.png"
+      "number": 80,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/50104.png"
     },
     {
-      "name": "Aitor Fraga",
-      "position": "Goalkeeper",
-      "number": 32,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/337843.png"
-    },
-    {
-      "name": "Unai Marrero",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/189832.png"
-    },
-    {
-      "name": "Álex Remiro",
+      "name": "A. Nübel",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/47269.png"
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/399.png"
     },
     {
-      "name": "J. Aramburu",
-      "position": "Defender",
-      "number": 2,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/199044.png"
-    },
-    {
-      "name": "Luken Beitia",
-      "position": "Defender",
-      "number": 34,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/349063.png"
-    },
-    {
-      "name": "Héctor Fort",
-      "position": "Defender",
-      "number": 22,
+      "name": "Emir Yaşar",
+      "position": "Goalkeeper",
+      "number": 96,
       "age": 19,
-      "photo": "https://media.api-sports.io/football/players/386859.png"
+      "photo": "https://media.api-sports.io/football/players/394221.png"
     },
     {
-      "name": "Sergio Gómez",
-      "position": "Attacker",
-      "number": 17,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/23.png"
-    },
-    {
-      "name": "K. Kita",
+      "name": "E. Agbadou",
       "position": "Defender",
-      "number": 5,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/410841.png"
-    },
-    {
-      "name": "Jon Martín",
-      "position": "Defender",
-      "number": 6,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/405073.png"
-    },
-    {
-      "name": "Aihen Muñoz",
-      "position": "Defender",
-      "number": 3,
+      "number": 12,
       "age": 28,
-      "photo": "https://media.api-sports.io/football/players/47303.png"
+      "photo": "https://media.api-sports.io/football/players/135068.png"
     },
     {
-      "name": "Jon Pacheco",
+      "name": "Ü. Akdağ",
       "position": "Defender",
-      "number": 16,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/182546.png"
-    },
-    {
-      "name": "Rupérez",
-      "position": "Defender",
-      "number": 22,
+      "number": 50,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/381599.png"
+      "photo": "https://media.api-sports.io/football/players/367637.png"
     },
     {
-      "name": "M. Sarr",
+      "name": "Taylan  Bulut",
       "position": "Defender",
-      "number": 19,
+      "number": 22,
       "age": 20,
-      "photo": "https://media.api-sports.io/football/players/276184.png"
+      "photo": "https://media.api-sports.io/football/players/394663.png"
     },
     {
-      "name": "Zubeldia",
+      "name": "Tiago Djaló",
       "position": "Defender",
-      "number": 5,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/47314.png"
+      "number": 35,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1479.png"
     },
     {
-      "name": "Ibai Aguirre",
+      "name": "A. Murillo",
+      "position": "Defender",
+      "number": 62,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/2973.png"
+    },
+    {
+      "name": "K. Ouattara",
+      "position": "Defender",
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/333137.png"
+    },
+    {
+      "name": "Y. Özcan",
+      "position": "Defender",
+      "number": 58,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/376039.png"
+    },
+    {
+      "name": "E. Topçu",
+      "position": "Defender",
+      "number": 53,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/50046.png"
+    },
+    {
+      "name": "R. Yılmaz",
+      "position": "Defender",
+      "number": 33,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/1987.png"
+    },
+    {
+      "name": "A. Yortac",
+      "position": "Defender",
+      "number": 63,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/618891.png"
+    },
+    {
+      "name": "K. Yılmaz",
       "position": "Midfielder",
       "number": 8,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/469672.png"
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/1998.png"
     },
     {
-      "name": "Jon Gorrotxategi",
+      "name": "O. Kökçü",
       "position": "Midfielder",
-      "number": 4,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/287654.png"
+      "number": 10,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/37155.png"
     },
     {
-      "name": "Y. Herrera",
+      "name": "F. Miretti",
       "position": "Midfielder",
       "number": 21,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/2449.png"
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/181808.png"
     },
     {
-      "name": "A. Lebarbier",
+      "name": "W. Ndidi",
       "position": "Midfielder",
-      "number": 28,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/353634.png"
+      "number": 4,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/18786.png"
     },
     {
-      "name": "Pablo Marín",
+      "name": "J. Olaitan",
       "position": "Midfielder",
       "number": 15,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/290106.png"
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/316904.png"
     },
     {
-      "name": "Carlos Soler",
+      "name": "S. Özcan",
       "position": "Midfielder",
+      "number": 6,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/24807.png"
+    },
+    {
+      "name": "Sami Bircan Ahmet",
+      "position": "Attacker",
+      "number": 70,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/630520.png"
+    },
+    {
+      "name": "V. Černý",
+      "position": "Attacker",
       "number": 18,
       "age": 28,
-      "photo": "https://media.api-sports.io/football/players/930.png"
+      "photo": "https://media.api-sports.io/football/players/549.png"
     },
     {
-      "name": "L. Sučić",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/7332.png"
-    },
-    {
-      "name": "Beñat Turrientes",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/183744.png"
-    },
-    {
-      "name": "A. Zakharyan",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/268960.png"
-    },
-    {
-      "name": "Lander Astiazarán",
-      "position": "Attacker",
-      "number": 17,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/445881.png"
-    },
-    {
-      "name": "Barrenetxea",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/47317.png"
-    },
-    {
-      "name": "Gorka Carrera",
-      "position": "Attacker",
-      "number": 27,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/403561.png"
-    },
-    {
-      "name": "Dani Díaz",
-      "position": "Attacker",
-      "number": 7,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/412738.png"
-    },
-    {
-      "name": "Gonçalo Guedes",
-      "position": "Attacker",
-      "number": 11,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/925.png"
-    },
-    {
-      "name": "T. Kubo",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/32862.png"
-    },
-    {
-      "name": "Alex Garcia",
+      "name": "I. Fakili",
       "position": "Attacker",
       "number": 29,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/449063.png"
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/446824.png"
     },
     {
-      "name": "J. Ochieng",
+      "name": "M. Hekimoğlu",
       "position": "Attacker",
-      "number": 12,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/387139.png"
+      "number": 23,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/436179.png"
     },
     {
-      "name": "O. Óskarsson",
+      "name": "S. Kılıçsoy",
+      "position": "Attacker",
+      "number": 90,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/336567.png"
+    },
+    {
+      "name": "Oh Hyeon-Gyu",
       "position": "Attacker",
       "number": 9,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/61774.png"
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/34710.png"
     },
     {
-      "name": "Mikel Oyarzabal",
+      "name": "A. Pagda",
       "position": "Attacker",
-      "number": 10,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/47323.png"
+      "number": 81,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/633057.png"
+    },
+    {
+      "name": "E. Poku",
+      "position": "Attacker",
+      "number": 17,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/312840.png"
+    },
+    {
+      "name": "M. Rashica",
+      "position": "Attacker",
+      "number": 7,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/25324.png"
+    },
+    {
+      "name": "O. Sevim",
+      "position": "Attacker",
+      "number": 66,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/667583.png"
+    },
+    {
+      "name": "L. Trossard",
+      "position": "Attacker",
+      "number": 19,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1946.png"
+    },
+    {
+      "name": "D. Vlahović",
+      "position": "Attacker",
+      "number": 28,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/30415.png"
     }
   ],
   "anderlecht": [
@@ -21771,7 +22181,7 @@ const teamSquads = {
     },
     {
       "name": "T. Degreef",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 83,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/400844.png"
@@ -21792,7 +22202,7 @@ const teamSquads = {
     },
     {
       "name": "Jayden Onia Seke",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 49,
       "age": 16,
       "photo": "https://media.api-sports.io/football/players/482300.png"
@@ -22052,218 +22462,6 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/161120.png"
     }
   ],
-  "hammarby-ff": [
-    {
-      "name": "W. Hahn",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/36968.png"
-    },
-    {
-      "name": "F. Jakobsson",
-      "position": "Goalkeeper",
-      "number": 27,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/139694.png"
-    },
-    {
-      "name": "B. Norell",
-      "position": "Goalkeeper",
-      "number": 24,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/601125.png"
-    },
-    {
-      "name": "E. Fischerström",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/442547.png"
-    },
-    {
-      "name": "V. Eriksson",
-      "position": "Defender",
-      "number": 4,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/100155.png"
-    },
-    {
-      "name": "I. Fofana",
-      "position": "Defender",
-      "number": 6,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/192819.png"
-    },
-    {
-      "name": "E. Lwampindy-Bofua",
-      "position": "Defender",
-      "number": 2,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/562220.png"
-    },
-    {
-      "name": "N. Persson",
-      "position": "Defender",
-      "number": 16,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/304357.png"
-    },
-    {
-      "name": "W. Renecke",
-      "position": "Defender",
-      "number": 24,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/334039.png"
-    },
-    {
-      "name": "E. Skoglund",
-      "position": "Defender",
-      "number": 2,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/432478.png"
-    },
-    {
-      "name": "O. Steinke Branby",
-      "position": "Defender",
-      "number": 31,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/571235.png"
-    },
-    {
-      "name": "H. Thorsson",
-      "position": "Defender",
-      "number": 4,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/650502.png"
-    },
-    {
-      "name": "F. Winther",
-      "position": "Defender",
-      "number": 3,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/16063.png"
-    },
-    {
-      "name": "F. Adjei",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/374498.png"
-    },
-    {
-      "name": "N. Besara",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/44665.png"
-    },
-    {
-      "name": "A. Boudri",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/378971.png"
-    },
-    {
-      "name": "B. Hedlof",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/432830.png"
-    },
-    {
-      "name": "Jakobsson Filip",
-      "position": "Midfielder",
-      "number": 34,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/676187.png"
-    },
-    {
-      "name": "Filip Jakobsson",
-      "position": "Midfielder",
-      "number": 34,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/682874.png"
-    },
-    {
-      "name": "O. Johansson",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/47820.png"
-    },
-    {
-      "name": "M. Karlsson",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/338845.png"
-    },
-    {
-      "name": "Sourou Kone",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/635529.png"
-    },
-    {
-      "name": "T. Tekie",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/48107.png"
-    },
-    {
-      "name": "P. Abraham",
-      "position": "Attacker",
-      "number": 7,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/198655.png"
-    },
-    {
-      "name": "F. Bjernvall",
-      "position": "Attacker",
-      "number": 11,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/585515.png"
-    },
-    {
-      "name": "O. Hagen",
-      "position": "Attacker",
-      "number": 15,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/371502.png"
-    },
-    {
-      "name": "S. Kebbeh",
-      "position": "Attacker",
-      "number": 30,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/562068.png"
-    },
-    {
-      "name": "V. Lind",
-      "position": "Attacker",
-      "number": 9,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/161561.png"
-    },
-    {
-      "name": "M. Madjed",
-      "position": "Attacker",
-      "number": 26,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/310502.png"
-    },
-    {
-      "name": "O. Moczarny",
-      "position": "Midfielder",
-      "number": 42,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/571433.png"
-    }
-  ],
   "plzen": [
     {
       "name": "V. Baier",
@@ -22372,7 +22570,7 @@ const teamSquads = {
     },
     {
       "name": "T. Ladra",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 18,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/66253.png"
@@ -22442,7 +22640,7 @@ const teamSquads = {
     },
     {
       "name": "C. Kabongo",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 25,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/271869.png"
@@ -22474,225 +22672,6 @@ const teamSquads = {
       "number": 11,
       "age": 33,
       "photo": "https://media.api-sports.io/football/players/18930.png"
-    }
-  ],
-  "fc-midtjylland": [
-    {
-      "name": "N. Bakker",
-      "position": "Goalkeeper",
-      "number": 25,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/37729.png"
-    },
-    {
-      "name": "O. Ejeheri",
-      "position": "Goalkeeper",
-      "number": 30,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/284543.png"
-    },
-    {
-      "name": "E. Ólafsson",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/89754.png"
-    },
-    {
-      "name": "M. Ugboh",
-      "position": "Goalkeeper",
-      "number": 60,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/374525.png"
-    },
-    {
-      "name": "V. Bak Jensen",
-      "position": "Midfielder",
-      "number": 55,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/162218.png"
-    },
-    {
-      "name": "B. Dje Bi Dje",
-      "position": "Defender",
-      "number": 15,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/435266.png"
-    },
-    {
-      "name": "O. Diao",
-      "position": "Defender",
-      "number": 4,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/404026.png"
-    },
-    {
-      "name": "M. Erlić",
-      "position": "Defender",
-      "number": 6,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/30827.png"
-    },
-    {
-      "name": "M. Jensen",
-      "position": "Defender",
-      "number": 3,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/81132.png"
-    },
-    {
-      "name": "R. Kristensen",
-      "position": "Defender",
-      "number": 5,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/533.png"
-    },
-    {
-      "name": "A. Maxsø",
-      "position": "Defender",
-      "number": 2,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/997.png"
-    },
-    {
-      "name": "N. A. Aziz",
-      "position": "Defender",
-      "number": 34,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/634852.png"
-    },
-    {
-      "name": "M. Bech",
-      "position": "Defender",
-      "number": 22,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/19345.png"
-    },
-    {
-      "name": "P. Billing",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/2734.png"
-    },
-    {
-      "name": "P. Bravo",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/311432.png"
-    },
-    {
-      "name": "D. Castillo",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/338045.png"
-    },
-    {
-      "name": "A. Djabi",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/544622.png"
-    },
-    {
-      "name": "Hong Hyun-Seok",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/26519.png"
-    },
-    {
-      "name": "S. Johannesen",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/443703.png"
-    },
-    {
-      "name": "Joseph Okuaghare",
-      "position": "Midfielder",
-      "number": 39,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/686982.png"
-    },
-    {
-      "name": "F. Vestergaard",
-      "position": "Midfielder",
-      "number": 42,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/570165.png"
-    },
-    {
-      "name": "K. WÃ¤tjen",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/397740.png"
-    },
-    {
-      "name": "Cho Gue-Sung",
-      "position": "Attacker",
-      "number": 10,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/34211.png"
-    },
-    {
-      "name": "J. Emefile",
-      "position": "Midfielder",
-      "number": 38,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/496782.png"
-    },
-    {
-      "name": "F. Etim",
-      "position": "Attacker",
-      "number": 90,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/351146.png"
-    },
-    {
-      "name": "Mikel Johan Gogorza Krüger-Johnsen",
-      "position": "Attacker",
-      "number": 41,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/435061.png"
-    },
-    {
-      "name": "S. Iheanacho",
-      "position": "Attacker",
-      "number": 18,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/438628.png"
-    },
-    {
-      "name": "Júnior Brumado",
-      "position": "Attacker",
-      "number": 74,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/15810.png"
-    },
-    {
-      "name": "D. Martínez",
-      "position": "Attacker",
-      "number": 98,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/356814.png"
-    },
-    {
-      "name": "M. Rajović",
-      "position": "Attacker",
-      "number": 9,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/16126.png"
-    },
-    {
-      "name": "M. Uhre",
-      "position": "Attacker",
-      "number": 17,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/15894.png"
     }
   ],
   "sheriff-tiraspol": [
@@ -23169,7 +23148,7 @@ const teamSquads = {
     },
     {
       "name": "S. Ogundana",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 16,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/460435.png"
@@ -23204,7 +23183,7 @@ const teamSquads = {
     },
     {
       "name": "N. Voloshyn",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 9,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/198391.png"
@@ -23215,197 +23194,6 @@ const teamSquads = {
       "number": 7,
       "age": 36,
       "photo": "https://media.api-sports.io/football/players/18834.png"
-    }
-  ],
-  "maccabi-tel-aviv": [
-    {
-      "name": "O. Melika",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/360150.png"
-    },
-    {
-      "name": "R. Mishpati",
-      "position": "Goalkeeper",
-      "number": 90,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/111003.png"
-    },
-    {
-      "name": "S. Saadia",
-      "position": "Goalkeeper",
-      "number": 51,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/442327.png"
-    },
-    {
-      "name": "Idan Trau",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/507526.png"
-    },
-    {
-      "name": "T. Asante",
-      "position": "Defender",
-      "number": 6,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/274199.png"
-    },
-    {
-      "name": "I. Ben Hamo",
-      "position": "Defender",
-      "number": 41,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/271833.png"
-    },
-    {
-      "name": "N. Ben Harush",
-      "position": "Defender",
-      "number": 22,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/371920.png"
-    },
-    {
-      "name": "M. Camara",
-      "position": "Defender",
-      "number": 5,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/942.png"
-    },
-    {
-      "name": "N. Levi",
-      "position": "Defender",
-      "number": 4,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/652671.png"
-    },
-    {
-      "name": "S. Rosen",
-      "position": "Defender",
-      "number": 25,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/329703.png"
-    },
-    {
-      "name": "R. Shlomo",
-      "position": "Defender",
-      "number": 13,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/111016.png"
-    },
-    {
-      "name": "J. Tavernier",
-      "position": "Defender",
-      "number": 2,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/1744.png"
-    },
-    {
-      "name": "K. Belić",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/161956.png"
-    },
-    {
-      "name": "D. Glazer",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/56009.png"
-    },
-    {
-      "name": "G. Kanichowsky",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/111148.png"
-    },
-    {
-      "name": "N. Levy",
-      "position": "Midfielder",
-      "number": 45,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/610584.png"
-    },
-    {
-      "name": "I. Noy",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/161826.png"
-    },
-    {
-      "name": "Dor Peretz",
-      "position": "Midfielder",
-      "number": 42,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/56011.png"
-    },
-    {
-      "name": "I. Shahar",
-      "position": "Midfielder",
-      "number": 36,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/137531.png"
-    },
-    {
-      "name": "I. Sissokho",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/206361.png"
-    },
-    {
-      "name": "I. Ben Simon",
-      "position": "Attacker",
-      "number": 10,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/576889.png"
-    },
-    {
-      "name": "O. Davida",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/126969.png"
-    },
-    {
-      "name": "S. Yehezkel",
-      "position": "Defender",
-      "number": 11,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/111284.png"
-    },
-    {
-      "name": "H. Layous",
-      "position": "Attacker",
-      "number": 33,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/126701.png"
-    },
-    {
-      "name": "E. Madmon",
-      "position": "Attacker",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/400496.png"
-    },
-    {
-      "name": "E. Sokler",
-      "position": "Attacker",
-      "number": 9,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/109712.png"
-    },
-    {
-      "name": "Hélio Varela",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/291024.png"
     }
   ],
   "hnk-hajduk-split": [
@@ -23600,7 +23388,7 @@ const teamSquads = {
     },
     {
       "name": "M. Šotiček",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 23,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/375290.png"
@@ -23608,7 +23396,7 @@ const teamSquads = {
     {
       "name": "P. Ugwuodo",
       "position": "Attacker",
-      "number": 19,
+      "number": 42,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/532455.png"
     },
@@ -23618,6 +23406,910 @@ const teamSquads = {
       "number": 9,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/181394.png"
+    }
+  ],
+  "red-bull-salzburg": [
+    {
+      "name": "C. Früchtl",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/495.png"
+    },
+    {
+      "name": "T. Hupfauf",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/570767.png"
+    },
+    {
+      "name": "Nikola Šarčević",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/428304.png"
+    },
+    {
+      "name": "Christian Zawieschitzky",
+      "position": "Goalkeeper",
+      "number": 52,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/445566.png"
+    },
+    {
+      "name": "K. Boma",
+      "position": "Defender",
+      "number": 44,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/174774.png"
+    },
+    {
+      "name": "A. Chase",
+      "position": "Defender",
+      "number": 91,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/361981.png"
+    },
+    {
+      "name": "T. Drexler",
+      "position": "Defender",
+      "number": 21,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/327861.png"
+    },
+    {
+      "name": "F. Krätzig",
+      "position": "Defender",
+      "number": 13,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/280335.png"
+    },
+    {
+      "name": "S. Lainer",
+      "position": "Defender",
+      "number": 22,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/1082.png"
+    },
+    {
+      "name": "J. Mellberg",
+      "position": "Defender",
+      "number": 4,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394986.png"
+    },
+    {
+      "name": "L. Morgalla",
+      "position": "Defender",
+      "number": 39,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/329265.png"
+    },
+    {
+      "name": "D. Schmid",
+      "position": "Defender",
+      "number": 31,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/48722.png"
+    },
+    {
+      "name": "L. Traoré",
+      "position": "Defender",
+      "number": 48,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/418214.png"
+    },
+    {
+      "name": "N. Veratschnig",
+      "position": "Defender",
+      "number": 18,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/283753.png"
+    },
+    {
+      "name": "Valentin Zabransky",
+      "position": "Defender",
+      "number": 47,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/444437.png"
+    },
+    {
+      "name": "A. Barry",
+      "position": "Midfielder",
+      "number": 32,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/136154.png"
+    },
+    {
+      "name": "S. Diabaté",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/403326.png"
+    },
+    {
+      "name": "S. Kitano",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/288073.png"
+    },
+    {
+      "name": "J. Lindstrøm",
+      "position": "Midfielder",
+      "number": 35,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/15884.png"
+    },
+    {
+      "name": "F. Matijašević",
+      "position": "Midfielder",
+      "number": 40,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/498282.png"
+    },
+    {
+      "name": "B. Mazurek",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/442544.png"
+    },
+    {
+      "name": "U. Tohumcu",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/279907.png"
+    },
+    {
+      "name": "E. Aguilar",
+      "position": "Attacker",
+      "number": 43,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/444468.png"
+    },
+    {
+      "name": "E. Baidoo",
+      "position": "Attacker",
+      "number": 20,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/464055.png"
+    },
+    {
+      "name": "A. Camara",
+      "position": "Attacker",
+      "number": 33,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/418198.png"
+    },
+    {
+      "name": "G. Diakité",
+      "position": "Attacker",
+      "number": 30,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/457023.png"
+    },
+    {
+      "name": "K. Konaté",
+      "position": "Attacker",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/331865.png"
+    },
+    {
+      "name": "D. Redzic",
+      "position": "Attacker",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/286784.png"
+    },
+    {
+      "name": "Y. Sulbarán",
+      "position": "Attacker",
+      "number": 7,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/474991.png"
+    },
+    {
+      "name": "H. Tabaković",
+      "position": "Attacker",
+      "number": 9,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/28382.png"
+    },
+    {
+      "name": "Y. Vertessen",
+      "position": "Attacker",
+      "number": 11,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/129072.png"
+    }
+  ],
+  "maccabi-tel-aviv": [
+    {
+      "name": "O. Melika",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/360150.png"
+    },
+    {
+      "name": "R. Mishpati",
+      "position": "Goalkeeper",
+      "number": 90,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/111003.png"
+    },
+    {
+      "name": "S. Saadia",
+      "position": "Goalkeeper",
+      "number": 51,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/442327.png"
+    },
+    {
+      "name": "Idan Trau",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/507526.png"
+    },
+    {
+      "name": "T. Asante",
+      "position": "Defender",
+      "number": 6,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/274199.png"
+    },
+    {
+      "name": "I. Ben Hamo",
+      "position": "Defender",
+      "number": 41,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/271833.png"
+    },
+    {
+      "name": "N. Ben Harush",
+      "position": "Defender",
+      "number": 22,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/371920.png"
+    },
+    {
+      "name": "M. Camara",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/942.png"
+    },
+    {
+      "name": "N. Levi",
+      "position": "Defender",
+      "number": 4,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/652671.png"
+    },
+    {
+      "name": "S. Rosen",
+      "position": "Defender",
+      "number": 25,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/329703.png"
+    },
+    {
+      "name": "R. Shlomo",
+      "position": "Defender",
+      "number": 13,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/111016.png"
+    },
+    {
+      "name": "J. Tavernier",
+      "position": "Defender",
+      "number": 2,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/1744.png"
+    },
+    {
+      "name": "K. Belić",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/161956.png"
+    },
+    {
+      "name": "D. Glazer",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/56009.png"
+    },
+    {
+      "name": "G. Kanichowsky",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/111148.png"
+    },
+    {
+      "name": "N. Levy",
+      "position": "Midfielder",
+      "number": 45,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/610584.png"
+    },
+    {
+      "name": "I. Noy",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/161826.png"
+    },
+    {
+      "name": "Dor Peretz",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/56011.png"
+    },
+    {
+      "name": "I. Shahar",
+      "position": "Midfielder",
+      "number": 36,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/137531.png"
+    },
+    {
+      "name": "I. Sissokho",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/206361.png"
+    },
+    {
+      "name": "I. Ben Simon",
+      "position": "Attacker",
+      "number": 10,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/576889.png"
+    },
+    {
+      "name": "O. Davida",
+      "position": "Attacker",
+      "number": 77,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/126969.png"
+    },
+    {
+      "name": "S. Yehezkel",
+      "position": "Attacker",
+      "number": 11,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/111284.png"
+    },
+    {
+      "name": "H. Layous",
+      "position": "Attacker",
+      "number": 33,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/126701.png"
+    },
+    {
+      "name": "E. Madmon",
+      "position": "Attacker",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/400496.png"
+    },
+    {
+      "name": "E. Sokler",
+      "position": "Attacker",
+      "number": 9,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/109712.png"
+    },
+    {
+      "name": "Hélio Varela",
+      "position": "Attacker",
+      "number": 29,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/291024.png"
+    }
+  ],
+  "real-sociedad": [
+    {
+      "name": "T. Folgado",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/431160.png"
+    },
+    {
+      "name": "Aitor Fraga",
+      "position": "Goalkeeper",
+      "number": 32,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/337843.png"
+    },
+    {
+      "name": "Unai Marrero",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/189832.png"
+    },
+    {
+      "name": "Álex Remiro",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/47269.png"
+    },
+    {
+      "name": "J. Aramburu",
+      "position": "Defender",
+      "number": 2,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/199044.png"
+    },
+    {
+      "name": "Luken Beitia",
+      "position": "Defender",
+      "number": 4,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/349063.png"
+    },
+    {
+      "name": "Héctor Fort",
+      "position": "Defender",
+      "number": 22,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/386859.png"
+    },
+    {
+      "name": "Sergio Gómez",
+      "position": "Defender",
+      "number": 17,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/23.png"
+    },
+    {
+      "name": "K. Kita",
+      "position": "Defender",
+      "number": 5,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/410841.png"
+    },
+    {
+      "name": "Jon Martín",
+      "position": "Defender",
+      "number": 6,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/405073.png"
+    },
+    {
+      "name": "Aihen Muñoz",
+      "position": "Defender",
+      "number": 3,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47303.png"
+    },
+    {
+      "name": "Jon Pacheco",
+      "position": "Defender",
+      "number": 16,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/182546.png"
+    },
+    {
+      "name": "Rupérez",
+      "position": "Defender",
+      "number": 22,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/381599.png"
+    },
+    {
+      "name": "M. Sarr",
+      "position": "Defender",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/276184.png"
+    },
+    {
+      "name": "Zubeldia",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47314.png"
+    },
+    {
+      "name": "Ibai Aguirre",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/469672.png"
+    },
+    {
+      "name": "Jon Gorrotxategi",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/287654.png"
+    },
+    {
+      "name": "Y. Herrera",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/2449.png"
+    },
+    {
+      "name": "A. Lebarbier",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/353634.png"
+    },
+    {
+      "name": "Pablo Marín",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/290106.png"
+    },
+    {
+      "name": "Carlos Soler",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/930.png"
+    },
+    {
+      "name": "L. Sučić",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/7332.png"
+    },
+    {
+      "name": "Beñat Turrientes",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/183744.png"
+    },
+    {
+      "name": "A. Zakharyan",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/268960.png"
+    },
+    {
+      "name": "Lander Astiazarán",
+      "position": "Attacker",
+      "number": 17,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/445881.png"
+    },
+    {
+      "name": "Barrenetxea",
+      "position": "Attacker",
+      "number": 7,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/47317.png"
+    },
+    {
+      "name": "Gorka Carrera",
+      "position": "Attacker",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/403561.png"
+    },
+    {
+      "name": "Dani Díaz",
+      "position": "Attacker",
+      "number": 7,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/412738.png"
+    },
+    {
+      "name": "Gonçalo Guedes",
+      "position": "Attacker",
+      "number": 11,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/925.png"
+    },
+    {
+      "name": "T. Kubo",
+      "position": "Attacker",
+      "number": 14,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/32862.png"
+    },
+    {
+      "name": "Alex Garcia",
+      "position": "Attacker",
+      "number": 11,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/449063.png"
+    },
+    {
+      "name": "J. Ochieng",
+      "position": "Attacker",
+      "number": 12,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/387139.png"
+    },
+    {
+      "name": "O. Óskarsson",
+      "position": "Attacker",
+      "number": 9,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/61774.png"
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "position": "Attacker",
+      "number": 10,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47323.png"
+    }
+  ],
+  "paok": [
+    {
+      "name": "K. Balomenos",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/324116.png"
+    },
+    {
+      "name": "D. Monastirlis",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/340663.png"
+    },
+    {
+      "name": "Vasileios Nikolakoulis",
+      "position": "Goalkeeper",
+      "number": 81,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/631551.png"
+    },
+    {
+      "name": "J. Pavlenka",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/25310.png"
+    },
+    {
+      "name": "A. Tsiftsis",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/91215.png"
+    },
+    {
+      "name": "A. Baba",
+      "position": "Defender",
+      "number": 21,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/21996.png"
+    },
+    {
+      "name": "D. Bataoulas",
+      "position": "Defender",
+      "number": 97,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/446107.png"
+    },
+    {
+      "name": "Diego Costa",
+      "position": "Defender",
+      "number": 19,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/143363.png"
+    },
+    {
+      "name": "B. Dunga",
+      "position": "Defender",
+      "number": 37,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/610833.png"
+    },
+    {
+      "name": "Elustondo",
+      "position": "Defender",
+      "number": 6,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/47298.png"
+    },
+    {
+      "name": "D. Giannoulis",
+      "position": "Defender",
+      "number": 13,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/2360.png"
+    },
+    {
+      "name": "P. Hatzidiakos",
+      "position": "Defender",
+      "number": 4,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/36885.png"
+    },
+    {
+      "name": "J. Kenny",
+      "position": "Defender",
+      "number": 3,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/18760.png"
+    },
+    {
+      "name": "G. Kosidis",
+      "position": "Defender",
+      "number": 78,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/597940.png"
+    },
+    {
+      "name": "D. Kottas",
+      "position": "Defender",
+      "number": 90,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/340662.png"
+    },
+    {
+      "name": "G. Michailidis",
+      "position": "Defender",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/162229.png"
+    },
+    {
+      "name": "G. Taylor",
+      "position": "Defender",
+      "number": 32,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/44784.png"
+    },
+    {
+      "name": "D. Berdos",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/460580.png"
+    },
+    {
+      "name": "M. Camara",
+      "position": "Midfielder",
+      "number": 2,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/1604.png"
+    },
+    {
+      "name": "K. Jakić",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/14395.png"
+    },
+    {
+      "name": "T. Louchet",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/193617.png"
+    },
+    {
+      "name": "S. Meïté",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/30507.png"
+    },
+    {
+      "name": "D. Pelkas",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/2374.png"
+    },
+    {
+      "name": "B. Santamaría",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/21153.png"
+    },
+    {
+      "name": "Giannis Sarris",
+      "position": "Midfielder",
+      "number": 80,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/678328.png"
+    },
+    {
+      "name": "Taison",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 37,
+      "photo": "https://media.api-sports.io/football/players/684.png"
+    },
+    {
+      "name": "D. Tsopouroglou",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/161576.png"
+    },
+    {
+      "name": "O. Ugresić",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/443803.png"
+    },
+    {
+      "name": "C. Zafeiris",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/216762.png"
+    },
+    {
+      "name": "A. Živković",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/579.png"
+    },
+    {
+      "name": "T. Ali",
+      "position": "Attacker",
+      "number": 22,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/160925.png"
+    },
+    {
+      "name": "S. Banza",
+      "position": "Attacker",
+      "number": 24,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/20674.png"
+    },
+    {
+      "name": "D. Chatsidis",
+      "position": "Attacker",
+      "number": 52,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/471796.png"
+    },
+    {
+      "name": "A. Mythou",
+      "position": "Attacker",
+      "number": 56,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/446029.png"
+    },
+    {
+      "name": "C. Ndiaye",
+      "position": "Attacker",
+      "number": 27,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/14379.png"
+    },
+    {
+      "name": "S. Shoretire",
+      "position": "Attacker",
+      "number": 47,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/163054.png"
     }
   ],
   "ferencvarosi-tc": [
@@ -23714,7 +24406,7 @@ const teamSquads = {
     },
     {
       "name": "Á. Bagi",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 18,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/397433.png"
@@ -23728,7 +24420,7 @@ const teamSquads = {
     },
     {
       "name": "Cadu",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 20,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/216553.png"
@@ -23812,7 +24504,7 @@ const teamSquads = {
     },
     {
       "name": "V. Birmančević",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/45804.png"
@@ -24243,7 +24935,7 @@ const teamSquads = {
     },
     {
       "name": "M. Kolarevic",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 21,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/455476.png"
@@ -24271,7 +24963,7 @@ const teamSquads = {
     },
     {
       "name": "L. Ranđelović",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 77,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/45792.png"
@@ -24285,7 +24977,7 @@ const teamSquads = {
     },
     {
       "name": "P. Sukacev",
-      "position": "Defender",
+      "position": "Attacker",
       "number": 27,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/456997.png"
@@ -24503,223 +25195,859 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/381316.png"
     }
   ],
-  "red-bull-salzburg": [
+  "fc-st-gallen": [
     {
-      "name": "C. Früchtl",
+      "name": "L. Zigi",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/495.png"
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/3412.png"
     },
     {
-      "name": "T. Hupfauf",
+      "name": "Y. Bujard",
       "position": "Goalkeeper",
-      "number": 1,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/570767.png"
-    },
-    {
-      "name": "Nikola Šarčević",
-      "position": "Goalkeeper",
-      "number": 41,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/428304.png"
-    },
-    {
-      "name": "Christian Zawieschitzky",
-      "position": "Goalkeeper",
-      "number": 52,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/445566.png"
-    },
-    {
-      "name": "K. Boma",
-      "position": "Defender",
-      "number": 44,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/174774.png"
-    },
-    {
-      "name": "A. Chase",
-      "position": "Defender",
-      "number": 91,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/361981.png"
-    },
-    {
-      "name": "T. Drexler",
-      "position": "Defender",
-      "number": 21,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/327861.png"
-    },
-    {
-      "name": "F. Krätzig",
-      "position": "Defender",
-      "number": 13,
+      "number": 81,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/280335.png"
+      "photo": "https://media.api-sports.io/football/players/475709.png"
     },
     {
-      "name": "S. Lainer",
+      "name": "B. Dumrath",
+      "position": "Goalkeeper",
+      "number": 35,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/371244.png"
+    },
+    {
+      "name": "L. Watkowiak",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/25520.png"
+    },
+    {
+      "name": "P. Büttiker",
       "position": "Defender",
-      "number": 22,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/1082.png"
+      "number": 71,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/503089.png"
     },
     {
-      "name": "J. Mellberg",
+      "name": "T. Gaal",
+      "position": "Defender",
+      "number": 26,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/203205.png"
+    },
+    {
+      "name": "M. Heydari",
+      "position": "Defender",
+      "number": 68,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/667756.png"
+    },
+    {
+      "name": "C. Kleine-Bekel",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/162476.png"
+    },
+    {
+      "name": "C. Okoroji",
+      "position": "Defender",
+      "number": 36,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/26241.png"
+    },
+    {
+      "name": "J. Ruiz",
+      "position": "Defender",
+      "number": 74,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/580273.png"
+    },
+    {
+      "name": "J. Stanić",
       "position": "Defender",
       "number": 4,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394986.png"
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/25295.png"
     },
     {
-      "name": "L. Morgalla",
+      "name": "H. Vandermersch",
       "position": "Defender",
-      "number": 39,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/329265.png"
+      "number": 28,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/128347.png"
     },
     {
-      "name": "D. Schmid",
-      "position": "Defender",
-      "number": 31,
+      "name": "C. Boukhalfa",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/178146.png"
+    },
+    {
+      "name": "L. Daschner",
+      "position": "Midfielder",
+      "number": 10,
       "age": 27,
-      "photo": "https://media.api-sports.io/football/players/48722.png"
+      "photo": "https://media.api-sports.io/football/players/25268.png"
     },
     {
-      "name": "L. Traoré",
-      "position": "Defender",
-      "number": 48,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/418214.png"
-    },
-    {
-      "name": "N. Veratschnig",
-      "position": "Defender",
-      "number": 18,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/283753.png"
-    },
-    {
-      "name": "Valentin Zabransky",
-      "position": "Defender",
-      "number": 47,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/444437.png"
-    },
-    {
-      "name": "A. Barry",
-      "position": "Midfielder",
-      "number": 32,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/136154.png"
-    },
-    {
-      "name": "S. Diabaté",
-      "position": "Midfielder",
-      "number": 5,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/403326.png"
-    },
-    {
-      "name": "S. Kitano",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/288073.png"
-    },
-    {
-      "name": "J. Lindstrøm",
-      "position": "Midfielder",
-      "number": 35,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/15884.png"
-    },
-    {
-      "name": "F. Matijašević",
-      "position": "Midfielder",
-      "number": 40,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/498282.png"
-    },
-    {
-      "name": "B. Mazurek",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/442544.png"
-    },
-    {
-      "name": "U. Tohumcu",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/279907.png"
-    },
-    {
-      "name": "E. Aguilar",
-      "position": "Attacker",
-      "number": 43,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/444468.png"
-    },
-    {
-      "name": "E. Baidoo",
-      "position": "Attacker",
-      "number": 20,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/464055.png"
-    },
-    {
-      "name": "A. Camara",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/418198.png"
-    },
-    {
-      "name": "G. Diakité",
-      "position": "Attacker",
-      "number": 30,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/457023.png"
-    },
-    {
-      "name": "K. Konaté",
-      "position": "Attacker",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/331865.png"
-    },
-    {
-      "name": "D. Redzic",
+      "name": "B. Fazliji",
       "position": "Midfielder",
       "number": 23,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/135520.png"
+    },
+    {
+      "name": "L. Frokaj",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/340133.png"
+    },
+    {
+      "name": "L. Görtler",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/37187.png"
+    },
+    {
+      "name": "B. Neziri",
+      "position": "Midfielder",
+      "number": 6,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/286784.png"
+      "photo": "https://media.api-sports.io/football/players/287931.png"
     },
     {
-      "name": "Y. Sulbarán",
-      "position": "Attacker",
+      "name": "M. Stevanovic",
+      "position": "Midfielder",
+      "number": 64,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/267988.png"
+    },
+    {
+      "name": "N. Weibel",
+      "position": "Midfielder",
+      "number": 66,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/580789.png"
+    },
+    {
+      "name": "C. Witzig",
+      "position": "Midfielder",
       "number": 7,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/474991.png"
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/319519.png"
     },
     {
-      "name": "H. Tabaković",
+      "name": "A. Balde",
+      "position": "Attacker",
+      "number": 14,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/237068.png"
+    },
+    {
+      "name": "D. Besio",
+      "position": "Attacker",
+      "number": 31,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/580790.png"
+    },
+    {
+      "name": "K. Csoboth",
+      "position": "Attacker",
+      "number": 27,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/41590.png"
+    },
+    {
+      "name": "Malamine Efekele",
+      "position": "Attacker",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/374499.png"
+    },
+    {
+      "name": "A. Hunziker",
       "position": "Attacker",
       "number": 9,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/28382.png"
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/304858.png"
     },
     {
-      "name": "Y. Vertessen",
+      "name": "E. Owusu",
+      "position": "Attacker",
+      "number": 47,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/336631.png"
+    },
+    {
+      "name": "N. Scherrer",
+      "position": "Attacker",
+      "number": 70,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/606698.png"
+    }
+  ],
+  "ofi": [
+    {
+      "name": "N. Christogeorgos",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/122040.png"
+    },
+    {
+      "name": "Manouel Kalafatis",
+      "position": "Goalkeeper",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/594076.png"
+    },
+    {
+      "name": "P. Katsikas",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/26701.png"
+    },
+    {
+      "name": "K. Lilo",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/388962.png"
+    },
+    {
+      "name": "N. Athanasiou",
+      "position": "Defender",
+      "number": 3,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/310442.png"
+    },
+    {
+      "name": "L. Dickmann",
+      "position": "Defender",
+      "number": 24,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/30857.png"
+    },
+    {
+      "name": "Borja González",
+      "position": "Defender",
+      "number": 17,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/92525.png"
+    },
+    {
+      "name": "Pavlos Kenourgiakis",
+      "position": "Defender",
+      "number": 90,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/554036.png"
+    },
+    {
+      "name": "Lefteris Kontekas",
+      "position": "Defender",
+      "number": 44,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/528314.png"
+    },
+    {
+      "name": "K. Kostoulas",
+      "position": "Defender",
+      "number": 5,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/417556.png"
+    },
+    {
+      "name": "K. Krizmanić",
+      "position": "Defender",
+      "number": 2,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/14361.png"
+    },
+    {
+      "name": "K. Lagoudakis",
+      "position": "Defender",
+      "number": 52,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/482621.png"
+    },
+    {
+      "name": "N. Marinakis",
+      "position": "Defender",
+      "number": 4,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/26771.png"
+    },
+    {
+      "name": "D. Nikolaou",
+      "position": "Defender",
+      "number": 43,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/31045.png"
+    },
+    {
+      "name": "A. Poungouras",
+      "position": "Defender",
+      "number": 15,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/26741.png"
+    },
+    {
+      "name": "C. Sielis",
+      "position": "Defender",
+      "number": 16,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/20294.png"
+    },
+    {
+      "name": "T. Androutsos",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/1602.png"
+    },
+    {
+      "name": "G. Apostolakis",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/349497.png"
+    },
+    {
+      "name": "A. Bouchalakis",
+      "position": "Midfielder",
+      "number": 41,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/1603.png"
+    },
+    {
+      "name": "Aitor Cantalapiedra",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/36848.png"
+    },
+    {
+      "name": "M. Chnaris",
+      "position": "Midfielder",
+      "number": 91,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/482616.png"
+    },
+    {
+      "name": "G. Kanellópoulos",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/135853.png"
+    },
+    {
+      "name": "Z. Karachalios",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/26952.png"
+    },
+    {
+      "name": "Thanasis Sitmalidis",
+      "position": "Midfielder",
+      "number": 71,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/614179.png"
+    },
+    {
+      "name": "T. Chatzigiovanis",
+      "position": "Attacker",
+      "number": 7,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/26748.png"
+    },
+    {
+      "name": "T. Fountas",
       "position": "Attacker",
       "number": 11,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/7625.png"
+    },
+    {
+      "name": "K. Kodro",
+      "position": "Attacker",
+      "number": 19,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/47292.png"
+    },
+    {
+      "name": "A. Leya",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/22153.png"
+    },
+    {
+      "name": "T. Nuss",
+      "position": "Attacker",
+      "number": 18,
       "age": 24,
-      "photo": "https://media.api-sports.io/football/players/129072.png"
+      "photo": "https://media.api-sports.io/football/players/170077.png"
+    },
+    {
+      "name": "T. Romano",
+      "position": "Attacker",
+      "number": 30,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/626652.png"
+    },
+    {
+      "name": "G. Theodosoulakis",
+      "position": "Attacker",
+      "number": 46,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/382218.png"
+    }
+  ],
+  "universitatea-cluj": [
+    {
+      "name": "Ştefan Daniel Lefter",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/170161.png"
+    },
+    {
+      "name": "N. Michael",
+      "position": "Goalkeeper",
+      "number": 93,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/26909.png"
+    },
+    {
+      "name": "D. Moldovan",
+      "position": "Goalkeeper",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/335541.png"
+    },
+    {
+      "name": "V. Rafaila",
+      "position": "Goalkeeper",
+      "number": 34,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/548905.png"
+    },
+    {
+      "name": "E. Capradossi",
+      "position": "Defender",
+      "number": 23,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/30824.png"
+    },
+    {
+      "name": "A. ChinteÈ",
+      "position": "Defender",
+      "number": 2,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/396183.png"
+    },
+    {
+      "name": "A. Chipciu",
+      "position": "Defender",
+      "number": 27,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/55967.png"
+    },
+    {
+      "name": "J. Cissé",
+      "position": "Defender",
+      "number": 26,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/126975.png"
+    },
+    {
+      "name": "I. Cristea",
+      "position": "Defender",
+      "number": 6,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/43014.png"
+    },
+    {
+      "name": "A. Friday",
+      "position": "Midfielder",
+      "number": 12,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/376483.png"
+    },
+    {
+      "name": "N. Loosli",
+      "position": "Defender",
+      "number": 20,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/48629.png"
+    },
+    {
+      "name": "D. Mikanović",
+      "position": "Defender",
+      "number": 24,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/81756.png"
+    },
+    {
+      "name": "F. Poulolo",
+      "position": "Defender",
+      "number": 22,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/86511.png"
+    },
+    {
+      "name": "Ionel Alin Techereș",
+      "position": "Defender",
+      "number": 59,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/396184.png"
+    },
+    {
+      "name": "O. Bic",
+      "position": "Midfielder",
+      "number": 94,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/43049.png"
+    },
+    {
+      "name": "D. Codrea",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/42918.png"
+    },
+    {
+      "name": "M. Drammeh",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/86819.png"
+    },
+    {
+      "name": "A. Gheorghiță",
+      "position": "Attacker",
+      "number": 77,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/335520.png"
+    },
+    {
+      "name": "D. Nistor",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 37,
+      "photo": "https://media.api-sports.io/football/players/43192.png"
+    },
+    {
+      "name": "Pedro Pinho",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/323569.png"
+    },
+    {
+      "name": "L. Szimionas",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/576967.png"
+    },
+    {
+      "name": "A. Aliev",
+      "position": "Attacker",
+      "number": 25,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/47704.png"
+    },
+    {
+      "name": "E. Bodnar",
+      "position": "Attacker",
+      "number": 75,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/570629.png"
+    },
+    {
+      "name": "J. Lukić",
+      "position": "Attacker",
+      "number": 17,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/77037.png"
+    },
+    {
+      "name": "I. Macalou",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/179429.png"
+    },
+    {
+      "name": "O. Mendy",
+      "position": "Attacker",
+      "number": 29,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/179402.png"
+    },
+    {
+      "name": "L. Pall",
+      "position": "Attacker",
+      "number": 96,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/631630.png"
+    },
+    {
+      "name": "J. Stanojev",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/133406.png"
+    },
+    {
+      "name": "M. Ștefănescu",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/119278.png"
+    }
+  ],
+  "pafos": [
+    {
+      "name": "J. Gorter",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/37599.png"
+    },
+    {
+      "name": "R. Majecki",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/40384.png"
+    },
+    {
+      "name": "M. Papastylianou",
+      "position": "Goalkeeper",
+      "number": 71,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/1868.png"
+    },
+    {
+      "name": "P. Petrou",
+      "position": "Goalkeeper",
+      "number": 82,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/443765.png"
+    },
+    {
+      "name": "David Luiz",
+      "position": "Defender",
+      "number": 4,
+      "age": 39,
+      "photo": "https://media.api-sports.io/football/players/2283.png"
+    },
+    {
+      "name": "David Goldar",
+      "position": "Defender",
+      "number": 5,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/108561.png"
+    },
+    {
+      "name": "K. Ioannou",
+      "position": "Defender",
+      "number": 72,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/443681.png"
+    },
+    {
+      "name": "N. Ioannou",
+      "position": "Defender",
+      "number": 14,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/15281.png"
+    },
+    {
+      "name": "S. Mmaee",
+      "position": "Defender",
+      "number": 3,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/8503.png"
+    },
+    {
+      "name": "Jonatás Noro",
+      "position": "Defender",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/441512.png"
+    },
+    {
+      "name": "K. Sema",
+      "position": "Midfielder",
+      "number": 12,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/2860.png"
+    },
+    {
+      "name": "L. Vetter Paulino",
+      "position": "Defender",
+      "number": 63,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/610760.png"
+    },
+    {
+      "name": "Yoram\\t Zague",
+      "position": "Defender",
+      "number": 2,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/386285.png"
+    },
+    {
+      "name": "Alexandre Miguel Soares Carvalho Brito",
+      "position": "Midfielder",
+      "number": 50,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/430774.png"
+    },
+    {
+      "name": "V. Dragomir",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/31397.png"
+    },
+    {
+      "name": "C. Efzona",
+      "position": "Midfielder",
+      "number": 60,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/432784.png"
+    },
+    {
+      "name": "Christos Evzonas",
+      "position": "Midfielder",
+      "number": 60,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/686981.png"
+    },
+    {
+      "name": "Guga",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/26779.png"
+    },
+    {
+      "name": "G. Michael",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568255.png"
+    },
+    {
+      "name": "V. Neokleous",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/638354.png"
+    },
+    {
+      "name": "Pêpê Rodrigues",
+      "position": "Midfielder",
+      "number": 88,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/41155.png"
+    },
+    {
+      "name": "Domingos Quina",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/18807.png"
+    },
+    {
+      "name": "I. Šunjić",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/1324.png"
+    },
+    {
+      "name": "Anderson Silva",
+      "position": "Attacker",
+      "number": 33,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/41560.png"
+    },
+    {
+      "name": "Biel",
+      "position": "Attacker",
+      "number": 20,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/305817.png"
+    },
+    {
+      "name": "Bruno Felipe",
+      "position": "Defender",
+      "number": 7,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/26669.png"
+    },
+    {
+      "name": "João Correia",
+      "position": "Attacker",
+      "number": 77,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/41994.png"
+    },
+    {
+      "name": "Jajá",
+      "position": "Attacker",
+      "number": 11,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/196159.png"
+    },
+    {
+      "name": "M. Kais",
+      "position": "Attacker",
+      "number": 61,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/669616.png"
+    },
+    {
+      "name": "Lelê",
+      "position": "Attacker",
+      "number": 18,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/350153.png"
+    },
+    {
+      "name": "M. Mammadov",
+      "position": "Attacker",
+      "number": 47,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/669614.png"
+    },
+    {
+      "name": "N. Moumi Ngamaleu",
+      "position": "Attacker",
+      "number": 13,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/955.png"
+    },
+    {
+      "name": "Afonso Patrão",
+      "position": "Attacker",
+      "number": 17,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/449102.png"
     }
   ],
   "sunderland": [
@@ -24774,7 +26102,7 @@ const teamSquads = {
     },
     {
       "name": "T. Hume",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 32,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/119121.png"
@@ -24782,7 +26110,7 @@ const teamSquads = {
     {
       "name": "Jenson Jones",
       "position": "Defender",
-      "number": 48,
+      "number": 2,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/381014.png"
     },
@@ -24880,7 +26208,7 @@ const teamSquads = {
     {
       "name": "T. Proctor",
       "position": "Midfielder",
-      "number": 77,
+      "number": 10,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/557448.png"
     },
@@ -24908,7 +26236,7 @@ const teamSquads = {
     {
       "name": "J. Whittaker",
       "position": "Midfielder",
-      "number": 40,
+      "number": 7,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/362766.png"
     },
@@ -24984,7 +26312,7 @@ const teamSquads = {
     },
     {
       "name": "C. Talbi",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/336659.png"
@@ -25035,7 +26363,7 @@ const teamSquads = {
     },
     {
       "name": "J. Gbamin",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 5,
       "age": 30,
       "photo": "https://media.api-sports.io/football/players/3240.png"
@@ -25077,7 +26405,7 @@ const teamSquads = {
     },
     {
       "name": "A. Yordanov",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 19,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/11007.png"
@@ -25112,8 +26440,8 @@ const teamSquads = {
     },
     {
       "name": "V. Kaymakanov",
-      "position": "Attacker",
-      "number": 34,
+      "position": "Midfielder",
+      "number": 11,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/546221.png"
     },
@@ -25148,7 +26476,7 @@ const teamSquads = {
     {
       "name": "M. Brahimi",
       "position": "Attacker",
-      "number": 11,
+      "number": 17,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/85416.png"
     },
@@ -25161,7 +26489,7 @@ const teamSquads = {
     },
     {
       "name": "C. Itu",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 67,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/42996.png"
@@ -25428,1115 +26756,6 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/161790.png"
     }
   ],
-  "paok": [
-    {
-      "name": "K. Balomenos",
-      "position": "Goalkeeper",
-      "number": 54,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/324116.png"
-    },
-    {
-      "name": "D. Monastirlis",
-      "position": "Goalkeeper",
-      "number": 41,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/340663.png"
-    },
-    {
-      "name": "Vasileios Nikolakoulis",
-      "position": "Goalkeeper",
-      "number": 81,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/631551.png"
-    },
-    {
-      "name": "J. Pavlenka",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/25310.png"
-    },
-    {
-      "name": "A. Tsiftsis",
-      "position": "Goalkeeper",
-      "number": 99,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/91215.png"
-    },
-    {
-      "name": "A. Baba",
-      "position": "Defender",
-      "number": 21,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/21996.png"
-    },
-    {
-      "name": "D. Bataoulas",
-      "position": "Defender",
-      "number": 97,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/446107.png"
-    },
-    {
-      "name": "Diego Costa",
-      "position": "Defender",
-      "number": 19,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/143363.png"
-    },
-    {
-      "name": "B. Dunga",
-      "position": "Defender",
-      "number": 37,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/610833.png"
-    },
-    {
-      "name": "Elustondo",
-      "position": "Defender",
-      "number": 6,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/47298.png"
-    },
-    {
-      "name": "D. Giannoulis",
-      "position": "Defender",
-      "number": 13,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/2360.png"
-    },
-    {
-      "name": "P. Hatzidiakos",
-      "position": "Defender",
-      "number": 4,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/36885.png"
-    },
-    {
-      "name": "J. Kenny",
-      "position": "Defender",
-      "number": 3,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/18760.png"
-    },
-    {
-      "name": "G. Kosidis",
-      "position": "Defender",
-      "number": 78,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/597940.png"
-    },
-    {
-      "name": "D. Kottas",
-      "position": "Defender",
-      "number": 90,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/340662.png"
-    },
-    {
-      "name": "G. Michailidis",
-      "position": "Defender",
-      "number": 5,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/162229.png"
-    },
-    {
-      "name": "G. Taylor",
-      "position": "Defender",
-      "number": 32,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/44784.png"
-    },
-    {
-      "name": "D. Berdos",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/460580.png"
-    },
-    {
-      "name": "M. Camara",
-      "position": "Midfielder",
-      "number": 2,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/1604.png"
-    },
-    {
-      "name": "K. Jakić",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/14395.png"
-    },
-    {
-      "name": "T. Louchet",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/193617.png"
-    },
-    {
-      "name": "S. Meïté",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/30507.png"
-    },
-    {
-      "name": "D. Pelkas",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/2374.png"
-    },
-    {
-      "name": "B. Santamaría",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/21153.png"
-    },
-    {
-      "name": "Giannis Sarris",
-      "position": "Midfielder",
-      "number": 80,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/678328.png"
-    },
-    {
-      "name": "Taison",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 37,
-      "photo": "https://media.api-sports.io/football/players/684.png"
-    },
-    {
-      "name": "D. Tsopouroglou",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/161576.png"
-    },
-    {
-      "name": "O. Ugresić",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/443803.png"
-    },
-    {
-      "name": "C. Zafeiris",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/216762.png"
-    },
-    {
-      "name": "A. Živković",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/579.png"
-    },
-    {
-      "name": "T. Ali",
-      "position": "Attacker",
-      "number": 22,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/160925.png"
-    },
-    {
-      "name": "S. Banza",
-      "position": "Attacker",
-      "number": 24,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/20674.png"
-    },
-    {
-      "name": "D. Chatsidis",
-      "position": "Attacker",
-      "number": 52,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/471796.png"
-    },
-    {
-      "name": "A. Mythou",
-      "position": "Attacker",
-      "number": 56,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/446029.png"
-    },
-    {
-      "name": "C. Ndiaye",
-      "position": "Attacker",
-      "number": 27,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/14379.png"
-    },
-    {
-      "name": "S. Shoretire",
-      "position": "Attacker",
-      "number": 47,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/163054.png"
-    }
-  ],
-  "fc-st-gallen": [
-    {
-      "name": "L. Zigi",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/3412.png"
-    },
-    {
-      "name": "Y. Bujard",
-      "position": "Goalkeeper",
-      "number": 81,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/475709.png"
-    },
-    {
-      "name": "B. Dumrath",
-      "position": "Goalkeeper",
-      "number": 35,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/371244.png"
-    },
-    {
-      "name": "L. Watkowiak",
-      "position": "Goalkeeper",
-      "number": 25,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/25520.png"
-    },
-    {
-      "name": "P. Büttiker",
-      "position": "Defender",
-      "number": 71,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/503089.png"
-    },
-    {
-      "name": "T. Gaal",
-      "position": "Defender",
-      "number": 26,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/203205.png"
-    },
-    {
-      "name": "M. Heydari",
-      "position": "Defender",
-      "number": 68,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/667756.png"
-    },
-    {
-      "name": "C. Kleine-Bekel",
-      "position": "Defender",
-      "number": 3,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/162476.png"
-    },
-    {
-      "name": "C. Okoroji",
-      "position": "Midfielder",
-      "number": 36,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/26241.png"
-    },
-    {
-      "name": "J. Ruiz",
-      "position": "Defender",
-      "number": 74,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/580273.png"
-    },
-    {
-      "name": "J. Stanić",
-      "position": "Defender",
-      "number": 4,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/25295.png"
-    },
-    {
-      "name": "H. Vandermersch",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/128347.png"
-    },
-    {
-      "name": "C. Boukhalfa",
-      "position": "Attacker",
-      "number": 11,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/178146.png"
-    },
-    {
-      "name": "L. Daschner",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/25268.png"
-    },
-    {
-      "name": "B. Fazliji",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/135520.png"
-    },
-    {
-      "name": "L. Frokaj",
-      "position": "Midfielder",
-      "number": 20,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/340133.png"
-    },
-    {
-      "name": "L. Görtler",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/37187.png"
-    },
-    {
-      "name": "B. Neziri",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/287931.png"
-    },
-    {
-      "name": "M. Stevanovic",
-      "position": "Midfielder",
-      "number": 64,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/267988.png"
-    },
-    {
-      "name": "N. Weibel",
-      "position": "Midfielder",
-      "number": 66,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/580789.png"
-    },
-    {
-      "name": "C. Witzig",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/319519.png"
-    },
-    {
-      "name": "A. Balde",
-      "position": "Attacker",
-      "number": 14,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/237068.png"
-    },
-    {
-      "name": "D. Besio",
-      "position": "Attacker",
-      "number": 31,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/580790.png"
-    },
-    {
-      "name": "K. Csoboth",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/41590.png"
-    },
-    {
-      "name": "Malamine Efekele",
-      "position": "Attacker",
-      "number": 21,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/374499.png"
-    },
-    {
-      "name": "A. Hunziker",
-      "position": "Attacker",
-      "number": 9,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/304858.png"
-    },
-    {
-      "name": "E. Owusu",
-      "position": "Attacker",
-      "number": 47,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/336631.png"
-    },
-    {
-      "name": "N. Scherrer",
-      "position": "Attacker",
-      "number": 70,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/606698.png"
-    }
-  ],
-  "ofi": [
-    {
-      "name": "N. Christogeorgos",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/122040.png"
-    },
-    {
-      "name": "Manouel Kalafatis",
-      "position": "Goalkeeper",
-      "number": 23,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/594076.png"
-    },
-    {
-      "name": "P. Katsikas",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/26701.png"
-    },
-    {
-      "name": "K. Lilo",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/388962.png"
-    },
-    {
-      "name": "N. Athanasiou",
-      "position": "Midfielder",
-      "number": 3,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/310442.png"
-    },
-    {
-      "name": "L. Dickmann",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/30857.png"
-    },
-    {
-      "name": "Borja González",
-      "position": "Defender",
-      "number": 17,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/92525.png"
-    },
-    {
-      "name": "Pavlos Kenourgiakis",
-      "position": "Defender",
-      "number": 90,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/554036.png"
-    },
-    {
-      "name": "Lefteris Kontekas",
-      "position": "Defender",
-      "number": 44,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/528314.png"
-    },
-    {
-      "name": "K. Kostoulas",
-      "position": "Defender",
-      "number": 5,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/417556.png"
-    },
-    {
-      "name": "K. Krizmanić",
-      "position": "Defender",
-      "number": 2,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/14361.png"
-    },
-    {
-      "name": "K. Lagoudakis",
-      "position": "Defender",
-      "number": 52,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/482621.png"
-    },
-    {
-      "name": "N. Marinakis",
-      "position": "Defender",
-      "number": 4,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/26771.png"
-    },
-    {
-      "name": "D. Nikolaou",
-      "position": "Defender",
-      "number": 43,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/31045.png"
-    },
-    {
-      "name": "A. Poungouras",
-      "position": "Defender",
-      "number": 15,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/26741.png"
-    },
-    {
-      "name": "C. Sielis",
-      "position": "Defender",
-      "number": 16,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/20294.png"
-    },
-    {
-      "name": "T. Androutsos",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/1602.png"
-    },
-    {
-      "name": "G. Apostolakis",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/349497.png"
-    },
-    {
-      "name": "A. Bouchalakis",
-      "position": "Midfielder",
-      "number": 41,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/1603.png"
-    },
-    {
-      "name": "Aitor Cantalapiedra",
-      "position": "Attacker",
-      "number": 10,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/36848.png"
-    },
-    {
-      "name": "M. Chnaris",
-      "position": "Midfielder",
-      "number": 91,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/482616.png"
-    },
-    {
-      "name": "G. Kanellópoulos",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/135853.png"
-    },
-    {
-      "name": "Z. Karachalios",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/26952.png"
-    },
-    {
-      "name": "Thanasis Sitmalidis",
-      "position": "Attacker",
-      "number": 71,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/614179.png"
-    },
-    {
-      "name": "T. Chatzigiovanis",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/26748.png"
-    },
-    {
-      "name": "T. Fountas",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/7625.png"
-    },
-    {
-      "name": "K. Kodro",
-      "position": "Attacker",
-      "number": 19,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/47292.png"
-    },
-    {
-      "name": "A. Leya",
-      "position": "Attacker",
-      "number": 9,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/22153.png"
-    },
-    {
-      "name": "T. Nuss",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/170077.png"
-    },
-    {
-      "name": "T. Romano",
-      "position": "Attacker",
-      "number": 30,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/626652.png"
-    },
-    {
-      "name": "G. Theodosoulakis",
-      "position": "Attacker",
-      "number": 46,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/382218.png"
-    }
-  ],
-  "universitatea-cluj": [
-    {
-      "name": "Ştefan Daniel Lefter",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/170161.png"
-    },
-    {
-      "name": "N. Michael",
-      "position": "Goalkeeper",
-      "number": 93,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/26909.png"
-    },
-    {
-      "name": "D. Moldovan",
-      "position": "Goalkeeper",
-      "number": 21,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/335541.png"
-    },
-    {
-      "name": "V. Rafaila",
-      "position": "Goalkeeper",
-      "number": 34,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/548905.png"
-    },
-    {
-      "name": "E. Capradossi",
-      "position": "Defender",
-      "number": 23,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/30824.png"
-    },
-    {
-      "name": "A. ChinteÈ",
-      "position": "Defender",
-      "number": 2,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/396183.png"
-    },
-    {
-      "name": "A. Chipciu",
-      "position": "Defender",
-      "number": 27,
-      "age": 36,
-      "photo": "https://media.api-sports.io/football/players/55967.png"
-    },
-    {
-      "name": "J. Cissé",
-      "position": "Defender",
-      "number": 26,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/126975.png"
-    },
-    {
-      "name": "I. Cristea",
-      "position": "Defender",
-      "number": 6,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/43014.png"
-    },
-    {
-      "name": "A. Friday",
-      "position": "Midfielder",
-      "number": 12,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/376483.png"
-    },
-    {
-      "name": "N. Loosli",
-      "position": "Defender",
-      "number": 20,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/48629.png"
-    },
-    {
-      "name": "D. Mikanović",
-      "position": "Defender",
-      "number": 24,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/81756.png"
-    },
-    {
-      "name": "F. Poulolo",
-      "position": "Defender",
-      "number": 22,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/86511.png"
-    },
-    {
-      "name": "Ionel Alin Techereș",
-      "position": "Defender",
-      "number": 59,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/396184.png"
-    },
-    {
-      "name": "O. Bic",
-      "position": "Midfielder",
-      "number": 94,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/43049.png"
-    },
-    {
-      "name": "D. Codrea",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/42918.png"
-    },
-    {
-      "name": "M. Drammeh",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/86819.png"
-    },
-    {
-      "name": "A. Gheorghiță",
-      "position": "Attacker",
-      "number": 77,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/335520.png"
-    },
-    {
-      "name": "D. Nistor",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 37,
-      "photo": "https://media.api-sports.io/football/players/43192.png"
-    },
-    {
-      "name": "Pedro Pinho",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/323569.png"
-    },
-    {
-      "name": "L. Szimionas",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/576967.png"
-    },
-    {
-      "name": "A. Aliev",
-      "position": "Attacker",
-      "number": 25,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/47704.png"
-    },
-    {
-      "name": "E. Bodnar",
-      "position": "Attacker",
-      "number": 75,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/570629.png"
-    },
-    {
-      "name": "J. Lukić",
-      "position": "Attacker",
-      "number": 17,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/77037.png"
-    },
-    {
-      "name": "I. Macalou",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/179429.png"
-    },
-    {
-      "name": "O. Mendy",
-      "position": "Attacker",
-      "number": 29,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/179402.png"
-    },
-    {
-      "name": "L. Pall",
-      "position": "Attacker",
-      "number": 96,
-      "age": 15,
-      "photo": "https://media.api-sports.io/football/players/631630.png"
-    },
-    {
-      "name": "J. Stanojev",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/133406.png"
-    },
-    {
-      "name": "M. Ștefănescu",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/119278.png"
-    }
-  ],
-  "pafos": [
-    {
-      "name": "J. Gorter",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/37599.png"
-    },
-    {
-      "name": "R. Majecki",
-      "position": "Goalkeeper",
-      "number": 99,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/40384.png"
-    },
-    {
-      "name": "M. Papastylianou",
-      "position": "Goalkeeper",
-      "number": 71,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/1868.png"
-    },
-    {
-      "name": "P. Petrou",
-      "position": "Goalkeeper",
-      "number": 82,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/443765.png"
-    },
-    {
-      "name": "David Luiz",
-      "position": "Defender",
-      "number": 4,
-      "age": 39,
-      "photo": "https://media.api-sports.io/football/players/2283.png"
-    },
-    {
-      "name": "David Goldar",
-      "position": "Defender",
-      "number": 5,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/108561.png"
-    },
-    {
-      "name": "K. Ioannou",
-      "position": "Defender",
-      "number": 72,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/443681.png"
-    },
-    {
-      "name": "N. Ioannou",
-      "position": "Defender",
-      "number": 14,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/15281.png"
-    },
-    {
-      "name": "S. Mmaee",
-      "position": "Defender",
-      "number": 3,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/8503.png"
-    },
-    {
-      "name": "Jonatás Noro",
-      "position": "Defender",
-      "number": 23,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/441512.png"
-    },
-    {
-      "name": "K. Sema",
-      "position": "Midfielder",
-      "number": 12,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/2860.png"
-    },
-    {
-      "name": "L. Vetter Paulino",
-      "position": "Defender",
-      "number": 2,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/610760.png"
-    },
-    {
-      "name": "Yoram\\t Zague",
-      "position": "Defender",
-      "number": 2,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/386285.png"
-    },
-    {
-      "name": "Alexandre Miguel Soares Carvalho Brito",
-      "position": "Midfielder",
-      "number": 50,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/430774.png"
-    },
-    {
-      "name": "V. Dragomir",
-      "position": "Midfielder",
-      "number": 30,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/31397.png"
-    },
-    {
-      "name": "C. Efzona",
-      "position": "Midfielder",
-      "number": 60,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/432784.png"
-    },
-    {
-      "name": "Christos Evzonas",
-      "position": "Midfielder",
-      "number": 60,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/686981.png"
-    },
-    {
-      "name": "Guga",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/26779.png"
-    },
-    {
-      "name": "G. Michael",
-      "position": "Attacker",
-      "number": 42,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/568255.png"
-    },
-    {
-      "name": "V. Neokleous",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/638354.png"
-    },
-    {
-      "name": "Pêpê Rodrigues",
-      "position": "Midfielder",
-      "number": 88,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/41155.png"
-    },
-    {
-      "name": "Domingos Quina",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/18807.png"
-    },
-    {
-      "name": "I. Šunjić",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/1324.png"
-    },
-    {
-      "name": "Anderson Silva",
-      "position": "Attacker",
-      "number": 33,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/41560.png"
-    },
-    {
-      "name": "Biel",
-      "position": "Attacker",
-      "number": 20,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/305817.png"
-    },
-    {
-      "name": "Bruno Felipe",
-      "position": "Defender",
-      "number": 7,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/26669.png"
-    },
-    {
-      "name": "João Correia",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/41994.png"
-    },
-    {
-      "name": "Jajá",
-      "position": "Attacker",
-      "number": 11,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/196159.png"
-    },
-    {
-      "name": "M. Kais",
-      "position": "Defender",
-      "number": 61,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/669616.png"
-    },
-    {
-      "name": "Lelê",
-      "position": "Attacker",
-      "number": 18,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/350153.png"
-    },
-    {
-      "name": "M. Mammadov",
-      "position": "Midfielder",
-      "number": 47,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/669614.png"
-    },
-    {
-      "name": "N. Moumi Ngamaleu",
-      "position": "Attacker",
-      "number": 13,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/955.png"
-    },
-    {
-      "name": "Afonso Patrão",
-      "position": "Attacker",
-      "number": 17,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/449102.png"
-    }
-  ],
   "zilina": [
     {
       "name": "J. Badžgoň",
@@ -26575,7 +26794,7 @@ const teamSquads = {
     },
     {
       "name": "K. Bari",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 20,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/156948.png"
@@ -26589,7 +26808,7 @@ const teamSquads = {
     },
     {
       "name": "T. Hranica",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 21,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/428522.png"
@@ -26652,7 +26871,7 @@ const teamSquads = {
     },
     {
       "name": "K. Bilalovic",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 99,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/395743.png"
@@ -26673,7 +26892,7 @@ const teamSquads = {
     },
     {
       "name": "M. Faško",
-      "position": "Attacker",
+      "position": "Midfielder",
       "number": 23,
       "age": 31,
       "photo": "https://media.api-sports.io/football/players/66197.png"
@@ -26702,7 +26921,7 @@ const teamSquads = {
     {
       "name": "P. Baleja",
       "position": "Attacker",
-      "number": 9,
+      "number": 10,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/481846.png"
     },
@@ -26780,7 +26999,7 @@ const teamSquads = {
     },
     {
       "name": "J. Chvátal",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 30,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/66268.png"
@@ -26794,7 +27013,7 @@ const teamSquads = {
     },
     {
       "name": "D. Horák",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 26,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/265370.png"
@@ -26927,166 +27146,10 @@ const teamSquads = {
     },
     {
       "name": "M. van Buren",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 33,
       "photo": "https://media.api-sports.io/football/players/1252.png"
-    }
-  ],
-  "vestri": [
-    {
-      "name": "B. Snaedal",
-      "position": "Goalkeeper",
-      "number": 33,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/539384.png"
-    },
-    {
-      "name": "M. Steinarsson",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/161777.png"
-    },
-    {
-      "name": "G. Einarsson",
-      "position": "Defender",
-      "number": 45,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/365356.png"
-    },
-    {
-      "name": "Birkir Eydal",
-      "position": "Defender",
-      "number": 14,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/265406.png"
-    },
-    {
-      "name": "E. Garðarsson",
-      "position": "Defender",
-      "number": 22,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/72691.png"
-    },
-    {
-      "name": "M. Hagbardsson",
-      "position": "Defender",
-      "number": 18,
-      "age": 15,
-      "photo": "https://media.api-sports.io/football/players/539359.png"
-    },
-    {
-      "name": "G. Hauksson",
-      "position": "Defender",
-      "number": 17,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/61756.png"
-    },
-    {
-      "name": "Devyn Payne",
-      "position": "Defender",
-      "number": 5,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/467907.png"
-    },
-    {
-      "name": "I. Baldé",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/187279.png"
-    },
-    {
-      "name": "A. Diagne",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/539321.png"
-    },
-    {
-      "name": "S. Fall",
-      "position": "Midfielder",
-      "number": 77,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/89562.png"
-    },
-    {
-      "name": "F. Gbadamosi",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/317357.png"
-    },
-    {
-      "name": "T. G. Hafthorsson",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/539207.png"
-    },
-    {
-      "name": "B. Hermannsson",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/89490.png"
-    },
-    {
-      "name": "A. Jóhannsson",
-      "position": "Midfielder",
-      "number": 13,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/493726.png"
-    },
-    {
-      "name": "Heidberg Kristjansson Gabriel",
-      "position": "Midfielder",
-      "number": 2,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/656789.png"
-    },
-    {
-      "name": "T. Phete",
-      "position": "Midfielder",
-      "number": 12,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/42011.png"
-    },
-    {
-      "name": "G. Svavarsson",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/263041.png"
-    },
-    {
-      "name": "P. Bjarnason",
-      "position": "Attacker",
-      "number": 9,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/539336.png"
-    },
-    {
-      "name": "E. Agyemang Duah",
-      "position": "Attacker",
-      "number": 19,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/304127.png"
-    },
-    {
-      "name": "A. Mörfelt",
-      "position": "Attacker",
-      "number": 27,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/127477.png"
-    },
-    {
-      "name": "J. Selvén",
-      "position": "Attacker",
-      "number": 11,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/404170.png"
     }
   ],
   "aluminij": [
@@ -27294,279 +27357,393 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/14725.png"
     }
   ],
-  "torreense": [
+  "vestri": [
     {
-      "name": "Adriel",
+      "name": "B. Snaedal",
       "position": "Goalkeeper",
-      "number": 31,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/160546.png"
+      "number": 33,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/539384.png"
     },
     {
-      "name": "Silas Bjerre",
-      "position": "Goalkeeper",
-      "number": 44,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/682972.png"
-    },
-    {
-      "name": "Lucas Paes",
+      "name": "M. Steinarsson",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/9943.png"
-    },
-    {
-      "name": "Lisandru Olmeta",
-      "position": "Goalkeeper",
-      "number": 16,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/343349.png"
-    },
-    {
-      "name": "B. Agbor",
-      "position": "Defender",
-      "number": 46,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/279825.png"
-    },
-    {
-      "name": "Juan María Alcedo",
-      "position": "Defender",
-      "number": 3,
       "age": 24,
-      "photo": "https://media.api-sports.io/football/players/285285.png"
+      "photo": "https://media.api-sports.io/football/players/161777.png"
     },
     {
-      "name": "Danilo",
-      "position": "Defender",
-      "number": 57,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/460493.png"
-    },
-    {
-      "name": "David Bruno",
-      "position": "Defender",
-      "number": 22,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/41436.png"
-    },
-    {
-      "name": "R. Guerreiro",
-      "position": "Defender",
-      "number": 53,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/628428.png"
-    },
-    {
-      "name": "J. Mutombo",
+      "name": "G. Einarsson",
       "position": "Defender",
       "number": 45,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/162209.png"
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/365356.png"
     },
     {
-      "name": "Hugo Pérez",
+      "name": "Birkir Eydal",
       "position": "Defender",
-      "number": 28,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/288334.png"
-    },
-    {
-      "name": "Stopira",
-      "position": "Defender",
-      "number": 2,
-      "age": 38,
-      "photo": "https://media.api-sports.io/football/players/2331.png"
-    },
-    {
-      "name": "Javi Vázquez",
-      "position": "Defender",
-      "number": 23,
+      "number": 14,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/2046.png"
+      "photo": "https://media.api-sports.io/football/players/265406.png"
     },
     {
-      "name": "Volnei Feltes",
+      "name": "E. Garðarsson",
       "position": "Defender",
-      "number": 4,
+      "number": 22,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/72691.png"
+    },
+    {
+      "name": "M. Hagbardsson",
+      "position": "Defender",
+      "number": 18,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/539359.png"
+    },
+    {
+      "name": "G. Hauksson",
+      "position": "Defender",
+      "number": 17,
       "age": 26,
-      "photo": "https://media.api-sports.io/football/players/277165.png"
+      "photo": "https://media.api-sports.io/football/players/61756.png"
     },
     {
-      "name": "Alejandro Alfaro",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/332315.png"
-    },
-    {
-      "name": "P. Carraro Injai",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/501200.png"
-    },
-    {
-      "name": "Nuha Jatta",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/413072.png"
-    },
-    {
-      "name": "D. Jean",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/237292.png"
-    },
-    {
-      "name": "M. Diadie",
-      "position": "Midfielder",
+      "name": "Devyn Payne",
+      "position": "Defender",
       "number": 5,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/392656.png"
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/467907.png"
     },
     {
-      "name": "D. Morgado",
-      "position": "Midfielder",
-      "number": 87,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/629459.png"
-    },
-    {
-      "name": "A. Oudrhiri",
+      "name": "I. Baldé",
       "position": "Midfielder",
       "number": 6,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/41760.png"
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/187279.png"
     },
     {
-      "name": "Carlos Reina",
+      "name": "A. Diagne",
       "position": "Midfielder",
-      "number": 20,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/400947.png"
+      "number": 16,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/539321.png"
     },
     {
-      "name": "Gustavo Rijo",
-      "position": "Midfielder",
-      "number": 86,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/682973.png"
-    },
-    {
-      "name": "Joel Romero",
+      "name": "S. Fall",
       "position": "Midfielder",
       "number": 77,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/506562.png"
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/89562.png"
     },
     {
-      "name": "André Simões",
+      "name": "F. Gbadamosi",
       "position": "Midfielder",
-      "number": 26,
+      "number": 4,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/317357.png"
+    },
+    {
+      "name": "T. G. Hafthorsson",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/539207.png"
+    },
+    {
+      "name": "B. Hermannsson",
+      "position": "Midfielder",
+      "number": 23,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/379974.png"
+      "photo": "https://media.api-sports.io/football/players/89490.png"
     },
     {
-      "name": "José Breno",
+      "name": "A. Jóhannsson",
       "position": "Midfielder",
-      "number": 55,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/457041.png"
+      "number": 13,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/493726.png"
     },
     {
-      "name": "M. Abubakari",
+      "name": "Heidberg Kristjansson Gabriel",
+      "position": "Midfielder",
+      "number": 2,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/656789.png"
+    },
+    {
+      "name": "T. Phete",
+      "position": "Midfielder",
+      "number": 12,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/42011.png"
+    },
+    {
+      "name": "G. Svavarsson",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/263041.png"
+    },
+    {
+      "name": "P. Bjarnason",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/539336.png"
+    },
+    {
+      "name": "E. Agyemang Duah",
+      "position": "Attacker",
+      "number": 19,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/304127.png"
+    },
+    {
+      "name": "A. Mörfelt",
       "position": "Attacker",
       "number": 27,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/141620.png"
+      "photo": "https://media.api-sports.io/football/players/127477.png"
     },
     {
-      "name": "J. Aguirre",
+      "name": "J. Selvén",
       "position": "Attacker",
-      "number": 14,
+      "number": 11,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/404170.png"
+    }
+  ],
+  "brighton": [
+    {
+      "name": "S. Hall",
+      "position": "Goalkeeper",
+      "number": 61,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/350353.png"
+    },
+    {
+      "name": "T. McGill",
+      "position": "Goalkeeper",
+      "number": 38,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/561130.png"
+      "photo": "https://media.api-sports.io/football/players/167663.png"
     },
     {
-      "name": "A. Baradji",
-      "position": "Attacker",
-      "number": 47,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/639174.png"
+      "name": "J. Steele",
+      "position": "Goalkeeper",
+      "number": 23,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/18960.png"
+    },
+    {
+      "name": "B. Verbruggen",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/129058.png"
+    },
+    {
+      "name": "O. Boscagli",
+      "position": "Defender",
+      "number": 21,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/22160.png"
     },
     {
       "name": "Costinha",
-      "position": "Attacker",
-      "number": 10,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/41423.png"
+      "position": "Defender",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/204037.png"
     },
     {
-      "name": "M. Drammeh",
-      "position": "Attacker",
-      "number": 17,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/287212.png"
+      "name": "M. De Cuyper",
+      "position": "Defender",
+      "number": 29,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/162007.png"
     },
     {
-      "name": "Vando Félix",
-      "position": "Attacker",
-      "number": 90,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/308315.png"
+      "name": "L. Dunk",
+      "position": "Defender",
+      "number": 5,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/18963.png"
     },
     {
-      "name": "Joao Chagas",
-      "position": "Attacker",
-      "number": 61,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/628419.png"
+      "name": "J. Hadjam",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/271539.png"
     },
     {
-      "name": "João Marques",
-      "position": "Attacker",
-      "number": 33,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/287583.png"
+      "name": "F. Kadıoğlu",
+      "position": "Defender",
+      "number": 24,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1361.png"
     },
     {
-      "name": "D. Noro",
-      "position": "Attacker",
-      "number": 63,
+      "name": "P. Struijk",
+      "position": "Defender",
+      "number": 4,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/64003.png"
+    },
+    {
+      "name": "M. Svoboda",
+      "position": "Defender",
+      "number": 30,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/7090.png"
+    },
+    {
+      "name": "L. Vušković",
+      "position": "Defender",
+      "number": 44,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/629557.png"
+      "photo": "https://media.api-sports.io/football/players/387521.png"
     },
     {
-      "name": "Paulo Sérgio",
-      "position": "Attacker",
-      "number": 39,
+      "name": "José María Andrés Baixauli",
+      "position": "Midfielder",
+      "number": 14,
       "age": 20,
-      "photo": "https://media.api-sports.io/football/players/465195.png"
+      "photo": "https://media.api-sports.io/football/players/388871.png"
     },
     {
-      "name": "Manu Pozo",
-      "position": "Attacker",
+      "name": "Y. Ayari",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/265820.png"
+    },
+    {
+      "name": "O. Azeez",
+      "position": "Midfielder",
       "number": 11,
       "age": 24,
-      "photo": "https://media.api-sports.io/football/players/286961.png"
+      "photo": "https://media.api-sports.io/football/players/282637.png"
     },
     {
-      "name": "L. Quintero",
+      "name": "D. Gómez",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/278370.png"
+    },
+    {
+      "name": "P. Groß",
+      "position": "Midfielder",
+      "number": 13,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/18970.png"
+    },
+    {
+      "name": "J. Hinshelwood",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/305730.png"
+    },
+    {
+      "name": "Y. Ibrahim",
+      "position": "Midfielder",
+      "number": 59,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/579114.png"
+    },
+    {
+      "name": "J. Middleton",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/570150.png"
+    },
+    {
+      "name": "S. Nti",
+      "position": "Midfielder",
+      "number": 50,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/557377.png"
+    },
+    {
+      "name": "M. O&apos;Riley",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/19030.png"
+    },
+    {
+      "name": "M. Wieffer",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/92993.png"
+    },
+    {
+      "name": "M. Yalcouyé",
+      "position": "Midfielder",
+      "number": 35,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/410125.png"
+    },
+    {
+      "name": "P. David",
       "position": "Attacker",
-      "number": 29,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/369481.png"
+      "number": 12,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/313353.png"
     },
     {
-      "name": "K. Zoabi",
+      "name": "C. Kostoulas",
       "position": "Attacker",
       "number": 19,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/371927.png"
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/392482.png"
+    },
+    {
+      "name": "Y. Minteh",
+      "position": "Attacker",
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/383685.png"
+    },
+    {
+      "name": "K. Mitoma",
+      "position": "Attacker",
+      "number": 22,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/106835.png"
+    },
+    {
+      "name": "N. Oriola",
+      "position": "Attacker",
+      "number": 11,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/553958.png"
+    },
+    {
+      "name": "I. Osman",
+      "position": "Attacker",
+      "number": 15,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/293643.png"
+    },
+    {
+      "name": "G. Rutter",
+      "position": "Attacker",
+      "number": 10,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/90590.png"
+    },
+    {
+      "name": "Z. Yohanna",
+      "position": "Attacker",
+      "number": 36,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/524411.png"
     }
   ],
   "monaco": [
@@ -27642,7 +27819,7 @@ const teamSquads = {
     },
     {
       "name": "I. Touré",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 49,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/488264.png"
@@ -27754,7 +27931,7 @@ const teamSquads = {
     },
     {
       "name": "M. Detourbet",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 18,
       "photo": "https://media.api-sports.io/football/players/462278.png"
@@ -27768,7 +27945,7 @@ const teamSquads = {
     },
     {
       "name": "T. Minamino",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 18,
       "age": 30,
       "photo": "https://media.api-sports.io/football/players/1101.png"
@@ -27910,7 +28087,7 @@ const teamSquads = {
     },
     {
       "name": "J. Beste",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 19,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/25313.png"
@@ -27924,7 +28101,7 @@ const teamSquads = {
     },
     {
       "name": "V. Grifo",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 32,
       "age": 32,
       "photo": "https://media.api-sports.io/football/players/26248.png"
@@ -27952,14 +28129,14 @@ const teamSquads = {
     },
     {
       "name": "D. Scherhant",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/286710.png"
     },
     {
       "name": "Y. Suzuki",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/199143.png"
@@ -27970,493 +28147,6 @@ const teamSquads = {
       "number": 40,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/406094.png"
-    }
-  ],
-  "ajax": [
-    {
-      "name": "A. Hani",
-      "position": "Goalkeeper",
-      "number": 30,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/453702.png"
-    },
-    {
-      "name": "J. Heerkens",
-      "position": "Goalkeeper",
-      "number": 22,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394700.png"
-    },
-    {
-      "name": "M. Paes",
-      "position": "Goalkeeper",
-      "number": 26,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/37167.png"
-    },
-    {
-      "name": "C. Setford",
-      "position": "Goalkeeper",
-      "number": 12,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/309766.png"
-    },
-    {
-      "name": "M. ter Stegen",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 33,
-      "photo": "https://media.api-sports.io/football/players/127.png"
-    },
-    {
-      "name": "V. van der Velde",
-      "position": "Goalkeeper",
-      "number": 30,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/586133.png"
-    },
-    {
-      "name": "Y. Baas",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/294684.png"
-    },
-    {
-      "name": "D. Blind",
-      "position": "Defender",
-      "number": 17,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/531.png"
-    },
-    {
-      "name": "A. Bouwman",
-      "position": "Defender",
-      "number": 30,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/453706.png"
-    },
-    {
-      "name": "Caio Henrique",
-      "position": "Defender",
-      "number": 12,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/10316.png"
-    },
-    {
-      "name": "A. Gaaei",
-      "position": "Defender",
-      "number": 3,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/313941.png"
-    },
-    {
-      "name": "D. Janse",
-      "position": "Defender",
-      "number": 36,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/412872.png"
-    },
-    {
-      "name": "Jinairo Johnson",
-      "position": "Defender",
-      "number": 20,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/483958.png"
-    },
-    {
-      "name": "K. Kasanwirjo",
-      "position": "Defender",
-      "number": 64,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/514183.png"
-    },
-    {
-      "name": "T. Kehrer",
-      "position": "Defender",
-      "number": 6,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/261.png"
-    },
-    {
-      "name": "M. Muzungu",
-      "position": "Defender",
-      "number": 4,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/486052.png"
-    },
-    {
-      "name": "Lucas Rosa",
-      "position": "Defender",
-      "number": 2,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/56283.png"
-    },
-    {
-      "name": "Jofre Torrents",
-      "position": "Defender",
-      "number": 21,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/491250.png"
-    },
-    {
-      "name": "O. Wijndal",
-      "position": "Defender",
-      "number": 5,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/36893.png"
-    },
-    {
-      "name": "R. van de Pavert",
-      "position": "Defender",
-      "number": 2,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/492300.png"
-    },
-    {
-      "name": "Mohamed Abdalla",
-      "position": "Midfielder",
-      "number": 67,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/633948.png"
-    },
-    {
-      "name": "S. Amrabat",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/74.png"
-    },
-    {
-      "name": "Y. Bissouma",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/18968.png"
-    },
-    {
-      "name": "Rayane Bounida",
-      "position": "Attacker",
-      "number": 43,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/396202.png"
-    },
-    {
-      "name": "J. Brandt",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/984.png"
-    },
-    {
-      "name": "O. Gloukh",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/329715.png"
-    },
-    {
-      "name": "D. Klaassen",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/25321.png"
-    },
-    {
-      "name": "J. Mokio",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/443829.png"
-    },
-    {
-      "name": "A. Ouazane",
-      "position": "Midfielder",
-      "number": 68,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/515967.png"
-    },
-    {
-      "name": "S. Adingra",
-      "position": "Attacker",
-      "number": 7,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/301771.png"
-    },
-    {
-      "name": "T. Arokodare",
-      "position": "Attacker",
-      "number": 99,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/110153.png"
-    },
-    {
-      "name": "S. Berghuis",
-      "position": "Attacker",
-      "number": 23,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/37160.png"
-    },
-    {
-      "name": "K. Dolberg",
-      "position": "Attacker",
-      "number": 9,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/550.png"
-    },
-    {
-      "name": "O. Edvardsen",
-      "position": "Attacker",
-      "number": 20,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/138753.png"
-    },
-    {
-      "name": "Marcos Leonardo",
-      "position": "Attacker",
-      "number": 38,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/267771.png"
-    },
-    {
-      "name": "P. Nash",
-      "position": "Attacker",
-      "number": 11,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/546756.png"
-    },
-    {
-      "name": "D. Pugno",
-      "position": "Attacker",
-      "number": 49,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/441552.png"
-    },
-    {
-      "name": "V. Tsygankov",
-      "position": "Attacker",
-      "number": 11,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/2182.png"
-    }
-  ],
-  "besiktas": [
-    {
-      "name": "D. Alemdar",
-      "position": "Goalkeeper",
-      "number": 80,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/50104.png"
-    },
-    {
-      "name": "A. Nübel",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/399.png"
-    },
-    {
-      "name": "Emir Yaşar",
-      "position": "Goalkeeper",
-      "number": 96,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/394221.png"
-    },
-    {
-      "name": "E. Agbadou",
-      "position": "Defender",
-      "number": 12,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/135068.png"
-    },
-    {
-      "name": "Ü. Akdağ",
-      "position": "Defender",
-      "number": 50,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/367637.png"
-    },
-    {
-      "name": "Taylan  Bulut",
-      "position": "Defender",
-      "number": 22,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/394663.png"
-    },
-    {
-      "name": "Tiago Djaló",
-      "position": "Defender",
-      "number": 35,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1479.png"
-    },
-    {
-      "name": "A. Murillo",
-      "position": "Defender",
-      "number": 62,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/2973.png"
-    },
-    {
-      "name": "K. Ouattara",
-      "position": "Defender",
-      "number": 11,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/333137.png"
-    },
-    {
-      "name": "Y. Özcan",
-      "position": "Defender",
-      "number": 58,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/376039.png"
-    },
-    {
-      "name": "E. Topçu",
-      "position": "Defender",
-      "number": 53,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/50046.png"
-    },
-    {
-      "name": "R. Yılmaz",
-      "position": "Defender",
-      "number": 33,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/1987.png"
-    },
-    {
-      "name": "A. Yortac",
-      "position": "Defender",
-      "number": 63,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/618891.png"
-    },
-    {
-      "name": "K. Yılmaz",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/1998.png"
-    },
-    {
-      "name": "O. Kökçü",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/37155.png"
-    },
-    {
-      "name": "F. Miretti",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/181808.png"
-    },
-    {
-      "name": "W. Ndidi",
-      "position": "Midfielder",
-      "number": 4,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/18786.png"
-    },
-    {
-      "name": "J. Olaitan",
-      "position": "Midfielder",
-      "number": 15,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/316904.png"
-    },
-    {
-      "name": "S. Özcan",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/24807.png"
-    },
-    {
-      "name": "Sami Bircan Ahmet",
-      "position": "Attacker",
-      "number": 70,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/630520.png"
-    },
-    {
-      "name": "V. Černý",
-      "position": "Attacker",
-      "number": 18,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/549.png"
-    },
-    {
-      "name": "I. Fakili",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/446824.png"
-    },
-    {
-      "name": "M. Hekimoğlu",
-      "position": "Attacker",
-      "number": 23,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/436179.png"
-    },
-    {
-      "name": "S. Kılıçsoy",
-      "position": "Attacker",
-      "number": 90,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/336567.png"
-    },
-    {
-      "name": "Oh Hyeon-Gyu",
-      "position": "Attacker",
-      "number": 9,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/34710.png"
-    },
-    {
-      "name": "A. Pagda",
-      "position": "Attacker",
-      "number": 81,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/633057.png"
-    },
-    {
-      "name": "E. Poku",
-      "position": "Attacker",
-      "number": 17,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/312840.png"
-    },
-    {
-      "name": "M. Rashica",
-      "position": "Attacker",
-      "number": 7,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/25324.png"
-    },
-    {
-      "name": "O. Sevim",
-      "position": "Attacker",
-      "number": 66,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/667583.png"
-    },
-    {
-      "name": "L. Trossard",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/1946.png"
-    },
-    {
-      "name": "D. Vlahović",
-      "position": "Attacker",
-      "number": 28,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/30415.png"
     }
   ],
   "sc-braga": [
@@ -28504,7 +28194,7 @@ const teamSquads = {
     },
     {
       "name": "Víctor Gómez",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 2,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/153290.png"
@@ -28539,7 +28229,7 @@ const teamSquads = {
     },
     {
       "name": "Diogo Travassos",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 7,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/336575.png"
@@ -28553,7 +28243,7 @@ const teamSquads = {
     },
     {
       "name": "Gabriel Silva",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/266630.png"
@@ -28623,7 +28313,7 @@ const teamSquads = {
     },
     {
       "name": "Vitor Carvalho",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 6,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/9355.png"
@@ -28669,6 +28359,204 @@ const teamSquads = {
       "number": 19,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/1302.png"
+    }
+  ],
+  "hibernian": [
+    {
+      "name": "F. Owens",
+      "position": "Goalkeeper",
+      "number": 35,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/388931.png"
+    },
+    {
+      "name": "R. Sallinger",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/7745.png"
+    },
+    {
+      "name": "J. Smith",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/17448.png"
+    },
+    {
+      "name": "R. Bushiri",
+      "position": "Defender",
+      "number": 33,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/8634.png"
+    },
+    {
+      "name": "G. Hanley",
+      "position": "Defender",
+      "number": 4,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/19066.png"
+    },
+    {
+      "name": "J. Iredale",
+      "position": "Defender",
+      "number": 15,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/45180.png"
+    },
+    {
+      "name": "M. Ivezić",
+      "position": "Defender",
+      "number": 5,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/306338.png"
+    },
+    {
+      "name": "J. Kerr",
+      "position": "Defender",
+      "number": 6,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/44893.png"
+    },
+    {
+      "name": "K. Megwa",
+      "position": "Defender",
+      "number": 27,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/379967.png"
+    },
+    {
+      "name": "J. Obita",
+      "position": "Defender",
+      "number": 21,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/82990.png"
+    },
+    {
+      "name": "F. Passlack",
+      "position": "Defender",
+      "number": 25,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/19068.png"
+    },
+    {
+      "name": "Alex Williams",
+      "position": "Defender",
+      "number": 12,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/288132.png"
+    },
+    {
+      "name": "A. Abdulai",
+      "position": "Midfielder",
+      "number": 47,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/325969.png"
+    },
+    {
+      "name": "Z. Bruce",
+      "position": "Midfielder",
+      "number": 34,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/610882.png"
+    },
+    {
+      "name": "N. Cadden",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/45162.png"
+    },
+    {
+      "name": "M. Chaiwa",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/345326.png"
+    },
+    {
+      "name": "J. Devaney",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/408896.png"
+    },
+    {
+      "name": "J. McGrath",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/69243.png"
+    },
+    {
+      "name": "J. Mulligan",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/64315.png"
+    },
+    {
+      "name": "J. Newell",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/19668.png"
+    },
+    {
+      "name": "C. Wright",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/152948.png"
+    },
+    {
+      "name": "M. Boyle",
+      "position": "Attacker",
+      "number": 10,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/44843.png"
+    },
+    {
+      "name": "O. Elding",
+      "position": "Attacker",
+      "number": 7,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/415392.png"
+    },
+    {
+      "name": "T. Klidje",
+      "position": "Attacker",
+      "number": 18,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/123675.png"
+    },
+    {
+      "name": "N. Lowe",
+      "position": "Attacker",
+      "number": 9,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/351338.png"
+    },
+    {
+      "name": "R. Matondo",
+      "position": "Attacker",
+      "number": 39,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/423.png"
+    },
+    {
+      "name": "A. Mayor",
+      "position": "Attacker",
+      "number": 3,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/382928.png"
+    },
+    {
+      "name": "A. Šuto",
+      "position": "Attacker",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/316161.png"
     }
   ],
   "motherwell": [
@@ -28911,6 +28799,360 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/668699.png"
     }
   ],
+  "valur-reykjavik": [
+    {
+      "name": "S. Ágústsson",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/264792.png"
+    },
+    {
+      "name": "T. Petersson",
+      "position": "Goalkeeper",
+      "number": 95,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/619661.png"
+    },
+    {
+      "name": "F. Schram",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/16152.png"
+    },
+    {
+      "name": "H. Eyjólfsson",
+      "position": "Defender",
+      "number": 15,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/11018.png"
+    },
+    {
+      "name": "H. Gunnarsson",
+      "position": "Defender",
+      "number": 3,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/28696.png"
+    },
+    {
+      "name": "M. Nakkim",
+      "position": "Defender",
+      "number": 4,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/39110.png"
+    },
+    {
+      "name": "O. Ómarsson",
+      "position": "Defender",
+      "number": 20,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/28847.png"
+    },
+    {
+      "name": "J. Pálsson",
+      "position": "Defender",
+      "number": 21,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/64184.png"
+    },
+    {
+      "name": "Ó. Stephensen",
+      "position": "Defender",
+      "number": 66,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/373296.png"
+    },
+    {
+      "name": "I. Støle",
+      "position": "Defender",
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/410511.png"
+    },
+    {
+      "name": "M. Veldman",
+      "position": "Defender",
+      "number": 24,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/431979.png"
+    },
+    {
+      "name": "Kristofer Arnarsson",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/588759.png"
+    },
+    {
+      "name": "S. Friðjónsson",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/39138.png"
+    },
+    {
+      "name": "K. Kristjánsson",
+      "position": "Midfielder",
+      "number": 13,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/466352.png"
+    },
+    {
+      "name": "B. Heimisson",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/204166.png"
+    },
+    {
+      "name": "L. Heimisson",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/69216.png"
+    },
+    {
+      "name": "P. Pedersen",
+      "position": "Midfielder",
+      "number": 9,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/89714.png"
+    },
+    {
+      "name": "E. Sigurbjörnsson",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/479634.png"
+    },
+    {
+      "name": "S. Veseli",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/135008.png"
+    },
+    {
+      "name": "Dagur Gardarson",
+      "position": "Attacker",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/623990.png"
+    },
+    {
+      "name": "T. Haraldsson",
+      "position": "Attacker",
+      "number": 12,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/28706.png"
+    },
+    {
+      "name": "J. Jónsson",
+      "position": "Attacker",
+      "number": 10,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/28760.png"
+    },
+    {
+      "name": "A. Skoglund",
+      "position": "Attacker",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/100094.png"
+    }
+  ],
+  "brann": [
+    {
+      "name": "M. Dyngeland",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/57429.png"
+    },
+    {
+      "name": "H. Stakset",
+      "position": "Goalkeeper",
+      "number": 36,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/415940.png"
+    },
+    {
+      "name": "S. Nilsen",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/216759.png"
+    },
+    {
+      "name": "L. Cornic",
+      "position": "Defender",
+      "number": 2,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/99538.png"
+    },
+    {
+      "name": "V. Dragsnes",
+      "position": "Defender",
+      "number": 20,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/39194.png"
+    },
+    {
+      "name": "N. Kasanwirjo",
+      "position": "Defender",
+      "number": 21,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/134756.png"
+    },
+    {
+      "name": "F. Knudsen",
+      "position": "Defender",
+      "number": 3,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/39232.png"
+    },
+    {
+      "name": "T. Pedersen",
+      "position": "Defender",
+      "number": 23,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/39239.png"
+    },
+    {
+      "name": "J. Soltvedt",
+      "position": "Defender",
+      "number": 17,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/57445.png"
+    },
+    {
+      "name": "J. Torsvik",
+      "position": "Defender",
+      "number": 15,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/340393.png"
+    },
+    {
+      "name": "A. Wilhelmsen",
+      "position": "Defender",
+      "number": 41,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/570198.png"
+    },
+    {
+      "name": "J. Eikrem",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/416063.png"
+    },
+    {
+      "name": "K. Eriksen",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/151191.png"
+    },
+    {
+      "name": "E. Guðmundsson",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/197625.png"
+    },
+    {
+      "name": "B. Haugen",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/638541.png"
+    },
+    {
+      "name": "U. Mathisen",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/98842.png"
+    },
+    {
+      "name": "J. Sørensen",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/15832.png"
+    },
+    {
+      "name": "S. Tronstad",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/39243.png"
+    },
+    {
+      "name": "S. Vindenes",
+      "position": "Midfielder",
+      "number": 37,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/465750.png"
+    },
+    {
+      "name": "N. Jensen Wassberg",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/310076.png"
+    },
+    {
+      "name": "N. Castro",
+      "position": "Attacker",
+      "number": 9,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/57160.png"
+    },
+    {
+      "name": "B. Finne",
+      "position": "Attacker",
+      "number": 11,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/39122.png"
+    },
+    {
+      "name": "N. Holm",
+      "position": "Attacker",
+      "number": 29,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/161943.png"
+    },
+    {
+      "name": "K. Ingason",
+      "position": "Attacker",
+      "number": 10,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/89768.png"
+    },
+    {
+      "name": "K. Kjartansson",
+      "position": "Attacker",
+      "number": 7,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/373297.png"
+    },
+    {
+      "name": "J. Lægreid",
+      "position": "Attacker",
+      "number": 39,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/437112.png"
+    },
+    {
+      "name": "S. Magnússon",
+      "position": "Attacker",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/61558.png"
+    }
+  ],
   "stjarnan": [
     {
       "name": "Duro Beic",
@@ -29123,428 +29365,279 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/63615.png"
     }
   ],
-  "brann": [
+  "torreense": [
     {
-      "name": "M. Dyngeland",
+      "name": "Adriel",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/160546.png"
+    },
+    {
+      "name": "Silas Bjerre",
+      "position": "Goalkeeper",
+      "number": 44,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/682972.png"
+    },
+    {
+      "name": "Lucas Paes",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/57429.png"
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/9943.png"
     },
     {
-      "name": "H. Stakset",
+      "name": "Lisandru Olmeta",
       "position": "Goalkeeper",
-      "number": 36,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/415940.png"
+      "number": 16,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/343349.png"
     },
     {
-      "name": "S. Nilsen",
-      "position": "Goalkeeper",
-      "number": 12,
+      "name": "B. Agbor",
+      "position": "Defender",
+      "number": 46,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/216759.png"
+      "photo": "https://media.api-sports.io/football/players/279825.png"
     },
     {
-      "name": "L. Cornic",
+      "name": "Juan María Alcedo",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/285285.png"
+    },
+    {
+      "name": "Danilo",
+      "position": "Defender",
+      "number": 57,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/460493.png"
+    },
+    {
+      "name": "David Bruno",
+      "position": "Defender",
+      "number": 22,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/41436.png"
+    },
+    {
+      "name": "R. Guerreiro",
+      "position": "Defender",
+      "number": 53,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/628428.png"
+    },
+    {
+      "name": "J. Mutombo",
+      "position": "Defender",
+      "number": 45,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/162209.png"
+    },
+    {
+      "name": "Hugo Pérez",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/288334.png"
+    },
+    {
+      "name": "Stopira",
       "position": "Defender",
       "number": 2,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/99538.png"
+      "age": 38,
+      "photo": "https://media.api-sports.io/football/players/2331.png"
     },
     {
-      "name": "V. Dragsnes",
-      "position": "Defender",
-      "number": 20,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/39194.png"
-    },
-    {
-      "name": "N. Kasanwirjo",
-      "position": "Defender",
-      "number": 21,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/134756.png"
-    },
-    {
-      "name": "F. Knudsen",
-      "position": "Defender",
-      "number": 3,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/39232.png"
-    },
-    {
-      "name": "T. Pedersen",
+      "name": "Javi Vázquez",
       "position": "Defender",
       "number": 23,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/39239.png"
-    },
-    {
-      "name": "J. Soltvedt",
-      "position": "Defender",
-      "number": 17,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/57445.png"
-    },
-    {
-      "name": "J. Torsvik",
-      "position": "Defender",
-      "number": 15,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/340393.png"
-    },
-    {
-      "name": "A. Wilhelmsen",
-      "position": "Defender",
-      "number": 41,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/570198.png"
-    },
-    {
-      "name": "J. Eikrem",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/416063.png"
-    },
-    {
-      "name": "K. Eriksen",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/151191.png"
-    },
-    {
-      "name": "E. Guðmundsson",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/197625.png"
-    },
-    {
-      "name": "B. Haugen",
-      "position": "Midfielder",
-      "number": 43,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/638541.png"
-    },
-    {
-      "name": "U. Mathisen",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/98842.png"
-    },
-    {
-      "name": "J. Sørensen",
-      "position": "Midfielder",
-      "number": 18,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/15832.png"
-    },
-    {
-      "name": "S. Tronstad",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/39243.png"
-    },
-    {
-      "name": "S. Vindenes",
-      "position": "Midfielder",
-      "number": 37,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/465750.png"
-    },
-    {
-      "name": "N. Jensen Wassberg",
-      "position": "Midfielder",
-      "number": 25,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/310076.png"
-    },
-    {
-      "name": "N. Castro",
-      "position": "Attacker",
-      "number": 9,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/57160.png"
-    },
-    {
-      "name": "B. Finne",
-      "position": "Attacker",
-      "number": 11,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/39122.png"
-    },
-    {
-      "name": "N. Holm",
-      "position": "Attacker",
-      "number": 29,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/161943.png"
+      "photo": "https://media.api-sports.io/football/players/2046.png"
     },
     {
-      "name": "K. Ingason",
-      "position": "Attacker",
-      "number": 10,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/89768.png"
-    },
-    {
-      "name": "K. Kjartansson",
-      "position": "Attacker",
-      "number": 7,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/373297.png"
-    },
-    {
-      "name": "J. Lægreid",
-      "position": "Attacker",
-      "number": 39,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/437112.png"
-    },
-    {
-      "name": "S. Magnússon",
-      "position": "Midfielder",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/61558.png"
-    }
-  ],
-  "brighton": [
-    {
-      "name": "S. Hall",
-      "position": "Goalkeeper",
-      "number": 61,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/350353.png"
-    },
-    {
-      "name": "T. McGill",
-      "position": "Goalkeeper",
-      "number": 38,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/167663.png"
-    },
-    {
-      "name": "J. Steele",
-      "position": "Goalkeeper",
-      "number": 23,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/18960.png"
-    },
-    {
-      "name": "B. Verbruggen",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/129058.png"
-    },
-    {
-      "name": "O. Boscagli",
-      "position": "Defender",
-      "number": 21,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/22160.png"
-    },
-    {
-      "name": "Costinha",
-      "position": "Defender",
-      "number": 20,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/204037.png"
-    },
-    {
-      "name": "M. De Cuyper",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/162007.png"
-    },
-    {
-      "name": "L. Dunk",
-      "position": "Defender",
-      "number": 5,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/18963.png"
-    },
-    {
-      "name": "J. Hadjam",
-      "position": "Defender",
-      "number": 3,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/271539.png"
-    },
-    {
-      "name": "F. Kadıoğlu",
-      "position": "Defender",
-      "number": 24,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/1361.png"
-    },
-    {
-      "name": "P. Struijk",
+      "name": "Volnei Feltes",
       "position": "Defender",
       "number": 4,
       "age": 26,
-      "photo": "https://media.api-sports.io/football/players/64003.png"
+      "photo": "https://media.api-sports.io/football/players/277165.png"
     },
     {
-      "name": "M. Svoboda",
-      "position": "Defender",
-      "number": 30,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/7090.png"
-    },
-    {
-      "name": "L. Vušković",
-      "position": "Defender",
-      "number": 44,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/387521.png"
-    },
-    {
-      "name": "José María Andrés Baixauli",
+      "name": "Alejandro Alfaro",
       "position": "Midfielder",
-      "number": 14,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/388871.png"
+      "number": 8,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/332315.png"
     },
     {
-      "name": "Y. Ayari",
+      "name": "P. Carraro Injai",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/501200.png"
+    },
+    {
+      "name": "Nuha Jatta",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/413072.png"
+    },
+    {
+      "name": "D. Jean",
+      "position": "Attacker",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/237292.png"
+    },
+    {
+      "name": "M. Diadie",
+      "position": "Defender",
+      "number": 5,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/392656.png"
+    },
+    {
+      "name": "D. Morgado",
+      "position": "Midfielder",
+      "number": 87,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/629459.png"
+    },
+    {
+      "name": "A. Oudrhiri",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/41760.png"
+    },
+    {
+      "name": "Carlos Reina",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/400947.png"
+    },
+    {
+      "name": "Gustavo Rijo",
+      "position": "Midfielder",
+      "number": 86,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/682973.png"
+    },
+    {
+      "name": "Joel Romero",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/506562.png"
+    },
+    {
+      "name": "André Simões",
       "position": "Midfielder",
       "number": 26,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/265820.png"
+      "photo": "https://media.api-sports.io/football/players/379974.png"
     },
     {
-      "name": "O. Azeez",
+      "name": "José Breno",
       "position": "Midfielder",
-      "number": 11,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/282637.png"
+      "number": 55,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/457041.png"
     },
     {
-      "name": "D. Gómez",
-      "position": "Midfielder",
-      "number": 25,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/278370.png"
-    },
-    {
-      "name": "P. Groß",
-      "position": "Midfielder",
-      "number": 13,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/18970.png"
-    },
-    {
-      "name": "J. Hinshelwood",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/305730.png"
-    },
-    {
-      "name": "Y. Ibrahim",
-      "position": "Midfielder",
-      "number": 59,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/579114.png"
-    },
-    {
-      "name": "J. Middleton",
-      "position": "Midfielder",
-      "number": 6,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/570150.png"
-    },
-    {
-      "name": "S. Nti",
-      "position": "Midfielder",
-      "number": 50,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/557377.png"
-    },
-    {
-      "name": "M. O&apos;Riley",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/19030.png"
-    },
-    {
-      "name": "M. Wieffer",
-      "position": "Midfielder",
+      "name": "M. Abubakari",
+      "position": "Attacker",
       "number": 27,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/92993.png"
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/141620.png"
     },
     {
-      "name": "M. Yalcouyé",
-      "position": "Midfielder",
-      "number": 35,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/410125.png"
-    },
-    {
-      "name": "P. David",
+      "name": "J. Aguirre",
       "position": "Attacker",
-      "number": 12,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/313353.png"
+      "number": 14,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/561130.png"
     },
     {
-      "name": "C. Kostoulas",
+      "name": "A. Baradji",
       "position": "Attacker",
-      "number": 19,
+      "number": 47,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/392482.png"
+      "photo": "https://media.api-sports.io/football/players/639174.png"
     },
     {
-      "name": "Y. Minteh",
-      "position": "Attacker",
-      "number": 11,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/383685.png"
-    },
-    {
-      "name": "K. Mitoma",
-      "position": "Attacker",
-      "number": 22,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/106835.png"
-    },
-    {
-      "name": "N. Oriola",
-      "position": "Attacker",
-      "number": 11,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/553958.png"
-    },
-    {
-      "name": "I. Osman",
-      "position": "Attacker",
-      "number": 15,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/293643.png"
-    },
-    {
-      "name": "G. Rutter",
+      "name": "Costinha",
       "position": "Attacker",
       "number": 10,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/90590.png"
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/41423.png"
     },
     {
-      "name": "Z. Yohanna",
+      "name": "M. Drammeh",
       "position": "Attacker",
-      "number": 36,
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/287212.png"
+    },
+    {
+      "name": "Vando Félix",
+      "position": "Midfielder",
+      "number": 90,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/308315.png"
+    },
+    {
+      "name": "Joao Chagas",
+      "position": "Attacker",
+      "number": 61,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/628419.png"
+    },
+    {
+      "name": "João Marques",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/287583.png"
+    },
+    {
+      "name": "D. Noro",
+      "position": "Attacker",
+      "number": 63,
       "age": 18,
-      "photo": "https://media.api-sports.io/football/players/524411.png"
+      "photo": "https://media.api-sports.io/football/players/629557.png"
+    },
+    {
+      "name": "Paulo Sérgio",
+      "position": "Attacker",
+      "number": 39,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/465195.png"
+    },
+    {
+      "name": "Manu Pozo",
+      "position": "Attacker",
+      "number": 11,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/286961.png"
+    },
+    {
+      "name": "L. Quintero",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/369481.png"
+    },
+    {
+      "name": "K. Zoabi",
+      "position": "Attacker",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/371927.png"
     }
   ],
   "caernarfon-town": [
@@ -29988,7 +30081,7 @@ const teamSquads = {
     },
     {
       "name": "E. Fasth",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 26,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/496848.png"
@@ -30065,7 +30158,7 @@ const teamSquads = {
     },
     {
       "name": "T. Heintz",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/50068.png"
@@ -30090,6 +30183,274 @@ const teamSquads = {
       "number": 11,
       "age": 25,
       "photo": "https://media.api-sports.io/football/players/131309.png"
+    }
+  ],
+  "ajax": [
+    {
+      "name": "A. Hani",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/453702.png"
+    },
+    {
+      "name": "J. Heerkens",
+      "position": "Goalkeeper",
+      "number": 22,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394700.png"
+    },
+    {
+      "name": "M. Paes",
+      "position": "Goalkeeper",
+      "number": 26,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/37167.png"
+    },
+    {
+      "name": "C. Setford",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/309766.png"
+    },
+    {
+      "name": "M. ter Stegen",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/127.png"
+    },
+    {
+      "name": "V. van der Velde",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/586133.png"
+    },
+    {
+      "name": "Y. Baas",
+      "position": "Defender",
+      "number": 15,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/294684.png"
+    },
+    {
+      "name": "D. Blind",
+      "position": "Defender",
+      "number": 17,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/531.png"
+    },
+    {
+      "name": "A. Bouwman",
+      "position": "Defender",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/453706.png"
+    },
+    {
+      "name": "Caio Henrique",
+      "position": "Defender",
+      "number": 12,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/10316.png"
+    },
+    {
+      "name": "A. Gaaei",
+      "position": "Defender",
+      "number": 3,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/313941.png"
+    },
+    {
+      "name": "D. Janse",
+      "position": "Defender",
+      "number": 36,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/412872.png"
+    },
+    {
+      "name": "Jinairo Johnson",
+      "position": "Defender",
+      "number": 20,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/483958.png"
+    },
+    {
+      "name": "K. Kasanwirjo",
+      "position": "Defender",
+      "number": 64,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/514183.png"
+    },
+    {
+      "name": "T. Kehrer",
+      "position": "Defender",
+      "number": 6,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/261.png"
+    },
+    {
+      "name": "M. Muzungu",
+      "position": "Defender",
+      "number": 4,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/486052.png"
+    },
+    {
+      "name": "Lucas Rosa",
+      "position": "Defender",
+      "number": 2,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/56283.png"
+    },
+    {
+      "name": "Jofre Torrents",
+      "position": "Defender",
+      "number": 21,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/491250.png"
+    },
+    {
+      "name": "O. Wijndal",
+      "position": "Defender",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/36893.png"
+    },
+    {
+      "name": "R. van de Pavert",
+      "position": "Defender",
+      "number": 2,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/492300.png"
+    },
+    {
+      "name": "Mohamed Abdalla",
+      "position": "Midfielder",
+      "number": 67,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/633948.png"
+    },
+    {
+      "name": "S. Amrabat",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/74.png"
+    },
+    {
+      "name": "Y. Bissouma",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/18968.png"
+    },
+    {
+      "name": "Rayane Bounida",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/396202.png"
+    },
+    {
+      "name": "J. Brandt",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/984.png"
+    },
+    {
+      "name": "O. Gloukh",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/329715.png"
+    },
+    {
+      "name": "D. Klaassen",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/25321.png"
+    },
+    {
+      "name": "J. Mokio",
+      "position": "Midfielder",
+      "number": 24,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/443829.png"
+    },
+    {
+      "name": "A. Ouazane",
+      "position": "Midfielder",
+      "number": 68,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/515967.png"
+    },
+    {
+      "name": "S. Adingra",
+      "position": "Attacker",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/301771.png"
+    },
+    {
+      "name": "T. Arokodare",
+      "position": "Attacker",
+      "number": 99,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/110153.png"
+    },
+    {
+      "name": "S. Berghuis",
+      "position": "Attacker",
+      "number": 23,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/37160.png"
+    },
+    {
+      "name": "K. Dolberg",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/550.png"
+    },
+    {
+      "name": "O. Edvardsen",
+      "position": "Attacker",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/138753.png"
+    },
+    {
+      "name": "Marcos Leonardo",
+      "position": "Attacker",
+      "number": 38,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/267771.png"
+    },
+    {
+      "name": "P. Nash",
+      "position": "Attacker",
+      "number": 11,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/546756.png"
+    },
+    {
+      "name": "D. Pugno",
+      "position": "Attacker",
+      "number": 9,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/441552.png"
+    },
+    {
+      "name": "V. Tsygankov",
+      "position": "Attacker",
+      "number": 11,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/2182.png"
     }
   ],
   "bate-borisov": [
@@ -30130,7 +30491,7 @@ const teamSquads = {
     },
     {
       "name": "E. Kress",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 52,
       "age": 22,
       "photo": "https://media.api-sports.io/football/players/375939.png"
@@ -30228,7 +30589,7 @@ const teamSquads = {
     },
     {
       "name": "I. Kuimov",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 3,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/554190.png"
@@ -30263,7 +30624,7 @@ const teamSquads = {
     },
     {
       "name": "V. Varaksa",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 26,
       "age": 21,
       "photo": "https://media.api-sports.io/football/players/316659.png"
@@ -30286,7 +30647,7 @@ const teamSquads = {
       "name": "L. Đorđević",
       "position": "Attacker",
       "number": 19,
-      "age": 31,
+      "age": 32,
       "photo": "https://media.api-sports.io/football/players/53512.png"
     },
     {
@@ -30305,371 +30666,208 @@ const teamSquads = {
     },
     {
       "name": "V. Yatskevich",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 24,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/363657.png"
     }
   ],
-  "hibernian": [
+  "dinamo-minsk": [
     {
-      "name": "F. Owens",
+      "name": "M. Kozakevich",
       "position": "Goalkeeper",
-      "number": 35,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/388931.png"
+      "number": 16,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/266066.png"
     },
     {
-      "name": "R. Sallinger",
+      "name": "A. Kudravets",
+      "position": "Goalkeeper",
+      "number": 47,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/215758.png"
+    },
+    {
+      "name": "D. Radkevich",
+      "position": "Goalkeeper",
+      "number": 21,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/491182.png"
+    },
+    {
+      "name": "I. Shimakovich",
       "position": "Goalkeeper",
       "number": 1,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/7745.png"
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/375933.png"
     },
     {
-      "name": "J. Smith",
-      "position": "Goalkeeper",
-      "number": 13,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/17448.png"
-    },
-    {
-      "name": "R. Bushiri",
-      "position": "Defender",
-      "number": 33,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/8634.png"
-    },
-    {
-      "name": "G. Hanley",
-      "position": "Defender",
-      "number": 4,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/19066.png"
-    },
-    {
-      "name": "J. Iredale",
-      "position": "Defender",
-      "number": 15,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/45180.png"
-    },
-    {
-      "name": "M. Ivezić",
-      "position": "Defender",
-      "number": 5,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/306338.png"
-    },
-    {
-      "name": "J. Kerr",
-      "position": "Defender",
-      "number": 6,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/44893.png"
-    },
-    {
-      "name": "K. Megwa",
+      "name": "M. Aleksandrov",
       "position": "Defender",
       "number": 27,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/379967.png"
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/412683.png"
     },
     {
-      "name": "J. Obita",
+      "name": "R. Begunov",
       "position": "Defender",
-      "number": 21,
+      "number": 67,
       "age": 32,
-      "photo": "https://media.api-sports.io/football/players/82990.png"
+      "photo": "https://media.api-sports.io/football/players/7857.png"
     },
     {
-      "name": "F. Passlack",
+      "name": "M. Dubatovka",
       "position": "Defender",
-      "number": 25,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/19068.png"
+      "number": 2,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/342254.png"
     },
     {
-      "name": "Alex Williams",
+      "name": "G. Gurban",
+      "position": "Defender",
+      "number": 44,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/8130.png"
+    },
+    {
+      "name": "A. Ivanov",
       "position": "Defender",
       "number": 12,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/288132.png"
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/7805.png"
     },
     {
-      "name": "A. Abdulai",
-      "position": "Midfielder",
-      "number": 47,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/325969.png"
-    },
-    {
-      "name": "Z. Bruce",
-      "position": "Midfielder",
-      "number": 34,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/610882.png"
-    },
-    {
-      "name": "N. Cadden",
-      "position": "Midfielder",
-      "number": 19,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/45162.png"
-    },
-    {
-      "name": "M. Chaiwa",
-      "position": "Midfielder",
-      "number": 14,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/345326.png"
-    },
-    {
-      "name": "J. Devaney",
-      "position": "Midfielder",
-      "number": 24,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/408896.png"
-    },
-    {
-      "name": "J. McGrath",
-      "position": "Midfielder",
-      "number": 17,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/69243.png"
-    },
-    {
-      "name": "J. Mulligan",
-      "position": "Midfielder",
-      "number": 8,
-      "age": 23,
-      "photo": "https://media.api-sports.io/football/players/64315.png"
-    },
-    {
-      "name": "J. Newell",
-      "position": "Midfielder",
-      "number": 11,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/19668.png"
-    },
-    {
-      "name": "C. Wright",
-      "position": "Midfielder",
-      "number": 23,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/152948.png"
-    },
-    {
-      "name": "M. Boyle",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/44843.png"
-    },
-    {
-      "name": "O. Elding",
-      "position": "Attacker",
-      "number": 7,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/415392.png"
-    },
-    {
-      "name": "T. Klidje",
-      "position": "Attacker",
-      "number": 18,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/123675.png"
-    },
-    {
-      "name": "N. Lowe",
-      "position": "Attacker",
-      "number": 9,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/351338.png"
-    },
-    {
-      "name": "R. Matondo",
-      "position": "Midfielder",
-      "number": 39,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/423.png"
-    },
-    {
-      "name": "A. Mayor",
-      "position": "Attacker",
-      "number": 3,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/382928.png"
-    },
-    {
-      "name": "A. Šuto",
-      "position": "Attacker",
-      "number": 22,
-      "age": 25,
-      "photo": "https://media.api-sports.io/football/players/316161.png"
-    }
-  ],
-  "valur-reykjavik": [
-    {
-      "name": "S. Ágústsson",
-      "position": "Goalkeeper",
-      "number": 25,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/264792.png"
-    },
-    {
-      "name": "T. Petersson",
-      "position": "Goalkeeper",
-      "number": 95,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/619661.png"
-    },
-    {
-      "name": "F. Schram",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/16152.png"
-    },
-    {
-      "name": "H. Eyjólfsson",
+      "name": "V. Kalinin",
       "position": "Defender",
-      "number": 15,
-      "age": 35,
-      "photo": "https://media.api-sports.io/football/players/11018.png"
+      "number": 26,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/307417.png"
     },
     {
-      "name": "H. Gunnarsson",
+      "name": "M. Shvetsov",
       "position": "Defender",
       "number": 3,
       "age": 27,
-      "photo": "https://media.api-sports.io/football/players/28696.png"
+      "photo": "https://media.api-sports.io/football/players/7912.png"
     },
     {
-      "name": "M. Nakkim",
+      "name": "A. Touré",
       "position": "Defender",
-      "number": 4,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/39110.png"
+      "number": 25,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/463478.png"
     },
     {
-      "name": "O. Ómarsson",
-      "position": "Defender",
-      "number": 20,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/28847.png"
-    },
-    {
-      "name": "J. Pálsson",
-      "position": "Defender",
-      "number": 21,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/64184.png"
-    },
-    {
-      "name": "Ó. Stephensen",
-      "position": "Defender",
-      "number": 66,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/373296.png"
-    },
-    {
-      "name": "I. Støle",
-      "position": "Defender",
-      "number": 11,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/410511.png"
-    },
-    {
-      "name": "M. Veldman",
+      "name": "A. Vakulich",
       "position": "Defender",
       "number": 24,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/431979.png"
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/76486.png"
     },
     {
-      "name": "Kristofer Arnarsson",
+      "name": "F. Abdullahi",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/385063.png"
+    },
+    {
+      "name": "D. Degtyarenko",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/561700.png"
+    },
+    {
+      "name": "D. Dushevskiy",
       "position": "Midfielder",
       "number": 5,
       "age": 21,
-      "photo": "https://media.api-sports.io/football/players/588759.png"
+      "photo": "https://media.api-sports.io/football/players/338728.png"
     },
     {
-      "name": "S. Friðjónsson",
-      "position": "Midfielder",
-      "number": 7,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/39138.png"
-    },
-    {
-      "name": "K. Kristjánsson",
+      "name": "V. Poloz",
       "position": "Midfielder",
       "number": 13,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/466352.png"
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/272015.png"
     },
     {
-      "name": "B. Heimisson",
+      "name": "A. Selyava",
       "position": "Midfielder",
-      "number": 22,
+      "number": 8,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/7785.png"
+    },
+    {
+      "name": "A. Sokolovskiy",
+      "position": "Midfielder",
+      "number": 78,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/395010.png"
+    },
+    {
+      "name": "A. Zhechko",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/451359.png"
+    },
+    {
+      "name": "G. Alykulov",
+      "position": "Attacker",
+      "number": 11,
       "age": 25,
-      "photo": "https://media.api-sports.io/football/players/204166.png"
+      "photo": "https://media.api-sports.io/football/players/7888.png"
     },
     {
-      "name": "L. Heimisson",
-      "position": "Midfielder",
+      "name": "I. Bakhar",
+      "position": "Attacker",
       "number": 17,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/8138.png"
+    },
+    {
+      "name": "M. Djimet",
+      "position": "Attacker",
+      "number": 30,
       "age": 22,
-      "photo": "https://media.api-sports.io/football/players/69216.png"
+      "photo": "https://media.api-sports.io/football/players/303294.png"
     },
     {
-      "name": "P. Pedersen",
-      "position": "Midfielder",
-      "number": 9,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/89714.png"
-    },
-    {
-      "name": "E. Sigurbjörnsson",
-      "position": "Midfielder",
-      "number": 26,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/479634.png"
-    },
-    {
-      "name": "S. Veseli",
-      "position": "Midfielder",
-      "number": 29,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/135008.png"
-    },
-    {
-      "name": "Dagur Gardarson",
+      "name": "R. Guibero",
       "position": "Attacker",
       "number": 19,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/623990.png"
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/479630.png"
     },
     {
-      "name": "T. Haraldsson",
+      "name": "L. Gweth",
       "position": "Attacker",
-      "number": 12,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/28706.png"
+      "number": 80,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/383071.png"
     },
     {
-      "name": "J. Jónsson",
+      "name": "A. Lutskovich",
+      "position": "Attacker",
+      "number": 9,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/487867.png"
+    },
+    {
+      "name": "E. Malashevich",
+      "position": "Attacker",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/216545.png"
+    },
+    {
+      "name": "K. Vardanyan",
       "position": "Attacker",
       "number": 10,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/28760.png"
-    },
-    {
-      "name": "A. Skoglund",
-      "position": "Attacker",
-      "number": 14,
-      "age": 28,
-      "photo": "https://media.api-sports.io/football/players/100094.png"
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/358615.png"
     }
   ],
   "fc-nordsjaelland": [
@@ -30717,7 +30915,7 @@ const teamSquads = {
     },
     {
       "name": "P. Ankersen",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 2,
       "age": 35,
       "photo": "https://media.api-sports.io/football/players/1283.png"
@@ -30752,7 +30950,7 @@ const teamSquads = {
     },
     {
       "name": "R. Norheim",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 23,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/278551.png"
@@ -30884,204 +31082,6 @@ const teamSquads = {
       "photo": "https://media.api-sports.io/football/players/39271.png"
     }
   ],
-  "fc-copenhagen": [
-    {
-      "name": "T. Breum-Harild",
-      "position": "Goalkeeper",
-      "number": 51,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/568382.png"
-    },
-    {
-      "name": "D. Ramaj",
-      "position": "Goalkeeper",
-      "number": 1,
-      "age": 24,
-      "photo": "https://media.api-sports.io/football/players/24894.png"
-    },
-    {
-      "name": "G. Rasmussen",
-      "position": "Goalkeeper",
-      "number": 61,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/568454.png"
-    },
-    {
-      "name": "R. Rúnarsson",
-      "position": "Goalkeeper",
-      "number": 31,
-      "age": 30,
-      "photo": "https://media.api-sports.io/football/players/2784.png"
-    },
-    {
-      "name": "F. Beijmo",
-      "position": "Defender",
-      "number": 2,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/25312.png"
-    },
-    {
-      "name": "H. Haraldsen",
-      "position": "Defender",
-      "number": 6,
-      "age": 17,
-      "photo": "https://media.api-sports.io/football/players/581943.png"
-    },
-    {
-      "name": "R. Huescas",
-      "position": "Midfielder",
-      "number": 13,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/310199.png"
-    },
-    {
-      "name": "K. Lee",
-      "position": "Defender",
-      "number": 35,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/568097.png"
-    },
-    {
-      "name": "M. López",
-      "position": "Defender",
-      "number": 15,
-      "age": 26,
-      "photo": "https://media.api-sports.io/football/players/2431.png"
-    },
-    {
-      "name": "A. Markgráf",
-      "position": "Defender",
-      "number": 6,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/443849.png"
-    },
-    {
-      "name": "B. Meling",
-      "position": "Defender",
-      "number": 24,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/1173.png"
-    },
-    {
-      "name": "K. Myrie",
-      "position": "Defender",
-      "number": 18,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/504208.png"
-    },
-    {
-      "name": "A. Sørensen",
-      "position": "Defender",
-      "number": 4,
-      "age": 29,
-      "photo": "https://media.api-sports.io/football/players/24985.png"
-    },
-    {
-      "name": "J. Suzuki",
-      "position": "Defender",
-      "number": 20,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/351014.png"
-    },
-    {
-      "name": "W. Clem",
-      "position": "Midfielder",
-      "number": 36,
-      "age": 21,
-      "photo": "https://media.api-sports.io/football/players/349212.png"
-    },
-    {
-      "name": "T. Delaney",
-      "position": "Midfielder",
-      "number": 27,
-      "age": 34,
-      "photo": "https://media.api-sports.io/football/players/15.png"
-    },
-    {
-      "name": "A. Král",
-      "position": "Midfielder",
-      "number": 33,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/1234.png"
-    },
-    {
-      "name": "M. Emil Madsen",
-      "position": "Midfielder",
-      "number": 21,
-      "age": 27,
-      "photo": "https://media.api-sports.io/football/players/15934.png"
-    },
-    {
-      "name": "M. Nasnas",
-      "position": "Midfielder",
-      "number": 34,
-      "age": 16,
-      "photo": "https://media.api-sports.io/football/players/529934.png"
-    },
-    {
-      "name": "Hunor Vajk Németh",
-      "position": "Midfielder",
-      "number": 28,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/419587.png"
-    },
-    {
-      "name": "M. Carrizo",
-      "position": "Attacker",
-      "number": 7,
-      "age": 19,
-      "photo": "https://media.api-sports.io/football/players/449247.png"
-    },
-    {
-      "name": "A. Cornelius",
-      "position": "Attacker",
-      "number": 14,
-      "age": 32,
-      "photo": "https://media.api-sports.io/football/players/1274.png"
-    },
-    {
-      "name": "V. Dadason",
-      "position": "Attacker",
-      "number": 39,
-      "age": 15,
-      "photo": "https://media.api-sports.io/football/players/426288.png"
-    },
-    {
-      "name": "M. Elyounoussi",
-      "position": "Midfielder",
-      "number": 10,
-      "age": 31,
-      "photo": "https://media.api-sports.io/football/players/18946.png"
-    },
-    {
-      "name": "T. Maseko",
-      "position": "Attacker",
-      "number": 12,
-      "age": 22,
-      "photo": "https://media.api-sports.io/football/players/354831.png"
-    },
-    {
-      "name": "G. Olsen",
-      "position": "Midfielder",
-      "number": 45,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/567955.png"
-    },
-    {
-      "name": "Robert",
-      "position": "Midfielder",
-      "number": 16,
-      "age": 20,
-      "photo": "https://media.api-sports.io/football/players/422779.png"
-    },
-    {
-      "name": "G. Vianney",
-      "position": "Attacker",
-      "number": 44,
-      "age": 18,
-      "photo": "https://media.api-sports.io/football/players/633096.png"
-    }
-  ],
   "atalanta": [
     {
       "name": "M. Carnesecchi",
@@ -31142,7 +31142,7 @@ const teamSquads = {
     {
       "name": "I. Isoa",
       "position": "Defender",
-      "number": 55,
+      "number": 23,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/492165.png"
     },
@@ -31240,7 +31240,7 @@ const teamSquads = {
     {
       "name": "S. Levak",
       "position": "Midfielder",
-      "number": 46,
+      "number": 47,
       "age": 19,
       "photo": "https://media.api-sports.io/football/players/412893.png"
     },
@@ -31268,7 +31268,7 @@ const teamSquads = {
     {
       "name": "F. Steffanoni",
       "position": "Midfielder",
-      "number": 44,
+      "number": 21,
       "age": 17,
       "photo": "https://media.api-sports.io/football/players/485609.png"
     },
@@ -31313,6 +31313,274 @@ const teamSquads = {
       "number": 7,
       "age": 23,
       "photo": "https://media.api-sports.io/football/players/199837.png"
+    }
+  ],
+  "getafe": [
+    {
+      "name": "Diego Ferrer",
+      "position": "Goalkeeper",
+      "number": 35,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/482071.png"
+    },
+    {
+      "name": "J. Letáček",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/66491.png"
+    },
+    {
+      "name": "David Soria",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/47247.png"
+    },
+    {
+      "name": "A. Abqar",
+      "position": "Defender",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/46813.png"
+    },
+    {
+      "name": "S. Boselli",
+      "position": "Defender",
+      "number": 15,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/316516.png"
+    },
+    {
+      "name": "Curro Burgos",
+      "position": "Defender",
+      "number": 29,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/427182.png"
+    },
+    {
+      "name": "Dani Carvajal",
+      "position": "Defender",
+      "number": 14,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/733.png"
+    },
+    {
+      "name": "Davinchi",
+      "position": "Defender",
+      "number": 3,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/471478.png"
+    },
+    {
+      "name": "D. Dakonam",
+      "position": "Defender",
+      "number": 2,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/47250.png"
+    },
+    {
+      "name": "Andrés García",
+      "position": "Defender",
+      "number": 21,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/388013.png"
+    },
+    {
+      "name": "M. Hamdoune",
+      "position": "Defender",
+      "number": 31,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/407302.png"
+    },
+    {
+      "name": "Kiko Femenía",
+      "position": "Defender",
+      "number": 17,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/18794.png"
+    },
+    {
+      "name": "V. Kysil",
+      "position": "Defender",
+      "number": 38,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/561092.png"
+    },
+    {
+      "name": "J. Mojica",
+      "position": "Defender",
+      "number": 22,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/64268.png"
+    },
+    {
+      "name": "Jorge Montes",
+      "position": "Defender",
+      "number": 41,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/625636.png"
+    },
+    {
+      "name": "Z. Romero",
+      "position": "Defender",
+      "number": 24,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/180927.png"
+    },
+    {
+      "name": "S. Sazonov",
+      "position": "Defender",
+      "number": 4,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/268728.png"
+    },
+    {
+      "name": "J. Valou",
+      "position": "Defender",
+      "number": 26,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/484474.png"
+    },
+    {
+      "name": "Alberto Risco",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/465838.png"
+    },
+    {
+      "name": "Francho Serrano",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/162249.png"
+    },
+    {
+      "name": "N. Gudelj",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/1489.png"
+    },
+    {
+      "name": "Alvaro Gutierrez",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/671625.png"
+    },
+    {
+      "name": "Óscar López",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/499908.png"
+    },
+    {
+      "name": "Mady Macalou",
+      "position": "Midfielder",
+      "number": null,
+      "age": null,
+      "photo": "https://media.api-sports.io/football/players/669800.png"
+    },
+    {
+      "name": "O. Mangala",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/24882.png"
+    },
+    {
+      "name": "Mario Martín",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/343205.png"
+    },
+    {
+      "name": "Jesús",
+      "position": "Midfielder",
+      "number": 34,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/345967.png"
+    },
+    {
+      "name": "Adrián Riquelme",
+      "position": "Midfielder",
+      "number": 44,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/631889.png"
+    },
+    {
+      "name": "Ramón Terrats",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/187987.png"
+    },
+    {
+      "name": "Christantus Uche",
+      "position": "Midfielder",
+      "number": 12,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/403554.png"
+    },
+    {
+      "name": "Moha Achraf",
+      "position": "Attacker",
+      "number": 33,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/681461.png"
+    },
+    {
+      "name": "Iván Azón",
+      "position": "Attacker",
+      "number": 20,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/161590.png"
+    },
+    {
+      "name": "I. K. Danfakha",
+      "position": "Attacker",
+      "number": 36,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/670698.png"
+    },
+    {
+      "name": "Ebrahima Drammeh",
+      "position": "Attacker",
+      "number": 27,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/671518.png"
+    },
+    {
+      "name": "Joselu",
+      "position": "Attacker",
+      "number": 32,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/333369.png"
+    },
+    {
+      "name": "Borja Mayoral",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47472.png"
+    },
+    {
+      "name": "M. Satriano",
+      "position": "Attacker",
+      "number": 10,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/195512.png"
+    },
+    {
+      "name": "E. Ünal",
+      "position": "Attacker",
+      "number": 19,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/47499.png"
     }
   ],
   "fcsb": [
@@ -31409,14 +31677,14 @@ const teamSquads = {
     },
     {
       "name": "R. Radunović",
-      "position": "Midfielder",
+      "position": "Defender",
       "number": 33,
       "age": 33,
       "photo": "https://media.api-sports.io/football/players/43109.png"
     },
     {
       "name": "O. Arad",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 15,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/110941.png"
@@ -31451,7 +31719,7 @@ const teamSquads = {
     },
     {
       "name": "L. Stancu",
-      "position": "Defender",
+      "position": "Midfielder",
       "number": 77,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/476377.png"
@@ -31472,7 +31740,7 @@ const teamSquads = {
     },
     {
       "name": "A. Boutoutaou",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 28,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/178880.png"
@@ -31507,14 +31775,14 @@ const teamSquads = {
     },
     {
       "name": "M. Korenica",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 7,
       "age": 29,
       "photo": "https://media.api-sports.io/football/players/106104.png"
     },
     {
       "name": "D. Miculescu",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/42687.png"
@@ -31705,7 +31973,7 @@ const teamSquads = {
     },
     {
       "name": "D. Adu-Adjei",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 18,
       "age": 20,
       "photo": "https://media.api-sports.io/football/players/382160.png"
@@ -31733,7 +32001,7 @@ const teamSquads = {
     },
     {
       "name": "M. Mohebi",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 9,
       "age": 27,
       "photo": "https://media.api-sports.io/football/players/134217.png"
@@ -31882,16 +32150,16 @@ const teamSquads = {
     },
     {
       "name": "I. Brnić",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 77,
       "age": 24,
       "photo": "https://media.api-sports.io/football/players/14602.png"
     },
     {
       "name": "A. Fayzullaev",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 11,
-      "age": 22,
+      "age": 23,
       "photo": "https://media.api-sports.io/football/players/263676.png"
     },
     {
@@ -31910,21 +32178,21 @@ const teamSquads = {
     },
     {
       "name": "E. Shomurodov",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 14,
-      "age": 30,
+      "age": 31,
       "photo": "https://media.api-sports.io/football/players/53535.png"
     },
     {
       "name": "A. Skov Olsen",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 70,
       "age": 26,
       "photo": "https://media.api-sports.io/football/players/15916.png"
     },
     {
       "name": "E. Višća",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 10,
       "age": 35,
       "photo": "https://media.api-sports.io/football/players/49860.png"
@@ -32122,7 +32390,7 @@ const teamSquads = {
     },
     {
       "name": "K. Duah",
-      "position": "Midfielder",
+      "position": "Attacker",
       "number": 9,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/48610.png"
@@ -32154,6 +32422,5464 @@ const teamSquads = {
       "number": 37,
       "age": 28,
       "photo": "https://media.api-sports.io/football/players/24835.png"
+    }
+  ],
+  "fk-partizan": [
+    {
+      "name": "T. Banjić",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/500056.png"
+    },
+    {
+      "name": "M. Krunić",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/46156.png"
+    },
+    {
+      "name": "M. Milošević",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/46157.png"
+    },
+    {
+      "name": "V. Đurđević",
+      "position": "Defender",
+      "number": 24,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/330853.png"
+    },
+    {
+      "name": "M. Jurčevič",
+      "position": "Defender",
+      "number": 4,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/105803.png"
+    },
+    {
+      "name": "M. Lazarević",
+      "position": "Defender",
+      "number": 50,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/45935.png"
+    },
+    {
+      "name": "Sidney Lima",
+      "position": "Defender",
+      "number": 21,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/141289.png"
+    },
+    {
+      "name": "S. Milić",
+      "position": "Defender",
+      "number": 44,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/66778.png"
+    },
+    {
+      "name": "M. Milovanović",
+      "position": "Defender",
+      "number": 5,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/336673.png"
+    },
+    {
+      "name": "S. Mitrović",
+      "position": "Defender",
+      "number": 23,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/2819.png"
+    },
+    {
+      "name": "S. Petrović",
+      "position": "Defender",
+      "number": 33,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/498288.png"
+    },
+    {
+      "name": "N. Simić",
+      "position": "Defender",
+      "number": 40,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/398206.png"
+    },
+    {
+      "name": "Z. AliloviÄ",
+      "position": "Midfielder",
+      "number": 90,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/419616.png"
+    },
+    {
+      "name": "I. Baba",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/46739.png"
+    },
+    {
+      "name": "B. Kostić",
+      "position": "Midfielder",
+      "number": 99,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/445439.png"
+    },
+    {
+      "name": "I. Miladinović",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/363053.png"
+    },
+    {
+      "name": "Samson Nwulu",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/592920.png"
+    },
+    {
+      "name": "M. Vukotić",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/133444.png"
+    },
+    {
+      "name": "A. Zekovic",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/666604.png"
+    },
+    {
+      "name": "M. AleksiÄ",
+      "position": "Attacker",
+      "number": 17,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/428076.png"
+    },
+    {
+      "name": "N. Čumić",
+      "position": "Attacker",
+      "number": 27,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/45788.png"
+    },
+    {
+      "name": "Jeh",
+      "position": "Attacker",
+      "number": 89,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/308120.png"
+    },
+    {
+      "name": "E. Kojzek",
+      "position": "Attacker",
+      "number": 9,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/410096.png"
+    },
+    {
+      "name": "D. Seck",
+      "position": "Attacker",
+      "number": 19,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/282706.png"
+    },
+    {
+      "name": "C. Traorè",
+      "position": "Attacker",
+      "number": 7,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/297579.png"
+    },
+    {
+      "name": "N. Trifunović",
+      "position": "Attacker",
+      "number": 32,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/414212.png"
+    },
+    {
+      "name": "Z. Ibrahim",
+      "position": "Attacker",
+      "number": 39,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/369408.png"
+    }
+  ],
+  "vikingur-gota": [
+    {
+      "name": "B. Reynatrod",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/544017.png"
+    },
+    {
+      "name": "N. Thomsen",
+      "position": "Goalkeeper",
+      "number": 23,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/83232.png"
+    },
+    {
+      "name": "I. Arngrímsson",
+      "position": "Defender",
+      "number": 29,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/339903.png"
+    },
+    {
+      "name": "I. Jonhardsson",
+      "position": "Defender",
+      "number": 14,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/73015.png"
+    },
+    {
+      "name": "J. Lervig",
+      "position": "Defender",
+      "number": 13,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/460979.png"
+    },
+    {
+      "name": "J. Ólavsson",
+      "position": "Defender",
+      "number": 24,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/448452.png"
+    },
+    {
+      "name": "A. Svensson",
+      "position": "Defender",
+      "number": 18,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/73012.png"
+    },
+    {
+      "name": "J. Vilhelmsen",
+      "position": "Defender",
+      "number": 5,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/348283.png"
+    },
+    {
+      "name": "A. Brandsson",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/448475.png"
+    },
+    {
+      "name": "F. Đorđević",
+      "position": "Midfielder",
+      "number": 34,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/73014.png"
+    },
+    {
+      "name": "A. Ellingsgaard",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/137470.png"
+    },
+    {
+      "name": "M. Hojgaard",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/550144.png"
+    },
+    {
+      "name": "K. Jacobsen",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/549960.png"
+    },
+    {
+      "name": "F. Jarnskor",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/550053.png"
+    },
+    {
+      "name": "J. Jarnskor",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/520001.png"
+    },
+    {
+      "name": "J. Johansen",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/73054.png"
+    },
+    {
+      "name": "R. Toyt",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/570776.png"
+    },
+    {
+      "name": "S. Vatnhamar",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 39,
+      "photo": "https://media.api-sports.io/football/players/55998.png"
+    },
+    {
+      "name": "K. í Bartalsstovu",
+      "position": "Attacker",
+      "number": 77,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/28852.png"
+    },
+    {
+      "name": "R. Hansen",
+      "position": "Attacker",
+      "number": 27,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/145768.png"
+    },
+    {
+      "name": "M. Hyllegaard",
+      "position": "Attacker",
+      "number": 11,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/198464.png"
+    },
+    {
+      "name": "D. a. Lidarenda",
+      "position": "Attacker",
+      "number": 12,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/620041.png"
+    },
+    {
+      "name": "J. Nielsen",
+      "position": "Attacker",
+      "number": 9,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/280268.png"
+    }
+  ],
+  "fc-copenhagen": [
+    {
+      "name": "T. Breum-Harild",
+      "position": "Goalkeeper",
+      "number": 51,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/568382.png"
+    },
+    {
+      "name": "D. Ramaj",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/24894.png"
+    },
+    {
+      "name": "G. Rasmussen",
+      "position": "Goalkeeper",
+      "number": 61,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/568454.png"
+    },
+    {
+      "name": "R. Rúnarsson",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/2784.png"
+    },
+    {
+      "name": "F. Beijmo",
+      "position": "Defender",
+      "number": 2,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/25312.png"
+    },
+    {
+      "name": "H. Haraldsen",
+      "position": "Defender",
+      "number": 6,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/581943.png"
+    },
+    {
+      "name": "R. Huescas",
+      "position": "Defender",
+      "number": 13,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/310199.png"
+    },
+    {
+      "name": "K. Lee",
+      "position": "Defender",
+      "number": 35,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/568097.png"
+    },
+    {
+      "name": "M. López",
+      "position": "Defender",
+      "number": 15,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/2431.png"
+    },
+    {
+      "name": "A. Markgráf",
+      "position": "Defender",
+      "number": 6,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/443849.png"
+    },
+    {
+      "name": "B. Meling",
+      "position": "Defender",
+      "number": 24,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1173.png"
+    },
+    {
+      "name": "K. Myrie",
+      "position": "Defender",
+      "number": 18,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/504208.png"
+    },
+    {
+      "name": "A. Sørensen",
+      "position": "Defender",
+      "number": 4,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/24985.png"
+    },
+    {
+      "name": "J. Suzuki",
+      "position": "Defender",
+      "number": 20,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/351014.png"
+    },
+    {
+      "name": "W. Clem",
+      "position": "Midfielder",
+      "number": 36,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/349212.png"
+    },
+    {
+      "name": "T. Delaney",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/15.png"
+    },
+    {
+      "name": "A. Král",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/1234.png"
+    },
+    {
+      "name": "M. Emil Madsen",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/15934.png"
+    },
+    {
+      "name": "M. Nasnas",
+      "position": "Midfielder",
+      "number": 34,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/529934.png"
+    },
+    {
+      "name": "Hunor Vajk Németh",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/419587.png"
+    },
+    {
+      "name": "M. Carrizo",
+      "position": "Attacker",
+      "number": 7,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/449247.png"
+    },
+    {
+      "name": "A. Cornelius",
+      "position": "Attacker",
+      "number": 14,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/1274.png"
+    },
+    {
+      "name": "V. Dadason",
+      "position": "Attacker",
+      "number": 39,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/426288.png"
+    },
+    {
+      "name": "M. Elyounoussi",
+      "position": "Attacker",
+      "number": 10,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/18946.png"
+    },
+    {
+      "name": "T. Maseko",
+      "position": "Attacker",
+      "number": 12,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/354831.png"
+    },
+    {
+      "name": "G. Olsen",
+      "position": "Attacker",
+      "number": 45,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/567955.png"
+    },
+    {
+      "name": "Robert",
+      "position": "Attacker",
+      "number": 16,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/422779.png"
+    },
+    {
+      "name": "G. Vianney",
+      "position": "Attacker",
+      "number": 44,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/633096.png"
+    }
+  ],
+  "alashkert": [
+    {
+      "name": "A. Beglaryan",
+      "position": "Goalkeeper",
+      "number": 24,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/8004.png"
+    },
+    {
+      "name": "Vlad Chatunts",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/641064.png"
+    },
+    {
+      "name": "D. Polyanskiy",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/280576.png"
+    },
+    {
+      "name": "Ibrahim Sesay",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/317604.png"
+    },
+    {
+      "name": "Cézar Henrique",
+      "position": "Defender",
+      "number": 3,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/363806.png"
+    },
+    {
+      "name": "S. Gigolyan",
+      "position": "Defender",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/531765.png"
+    },
+    {
+      "name": "J. Granado",
+      "position": "Defender",
+      "number": 21,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/396635.png"
+    },
+    {
+      "name": "H. Hakobyan",
+      "position": "Defender",
+      "number": 55,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/65394.png"
+    },
+    {
+      "name": "R. Hakobyan",
+      "position": "Defender",
+      "number": 22,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/65318.png"
+    },
+    {
+      "name": "I. Matiukhin",
+      "position": "Defender",
+      "number": 4,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/668255.png"
+    },
+    {
+      "name": "A. Sadoyan",
+      "position": "Defender",
+      "number": 15,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/65386.png"
+    },
+    {
+      "name": "D. Terteryan",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/65495.png"
+    },
+    {
+      "name": "H. Muiz Adebayo",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/667149.png"
+    },
+    {
+      "name": "D. Aghbalyan",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/146266.png"
+    },
+    {
+      "name": "K. Nalbandyan",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/210014.png"
+    },
+    {
+      "name": "I. Nduka",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/358557.png"
+    },
+    {
+      "name": "E. Piloyan",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/348179.png"
+    },
+    {
+      "name": "Rafael Jesus",
+      "position": "Midfielder",
+      "number": 88,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/631246.png"
+    },
+    {
+      "name": "D. Togola",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/667134.png"
+    },
+    {
+      "name": "I. Buhari",
+      "position": "Attacker",
+      "number": 16,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/575145.png"
+    },
+    {
+      "name": "P. Ejike",
+      "position": "Attacker",
+      "number": 19,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/400631.png"
+    },
+    {
+      "name": "O. Farayola",
+      "position": "Attacker",
+      "number": 10,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/479701.png"
+    },
+    {
+      "name": "Domi Jaurès Massoumou",
+      "position": "Attacker",
+      "number": 14,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/334421.png"
+    },
+    {
+      "name": "Joseph Sabobo Banda",
+      "position": "Attacker",
+      "number": 17,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/391240.png"
+    },
+    {
+      "name": "M. Touré",
+      "position": "Attacker",
+      "number": 11,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/202007.png"
+    }
+  ],
+  "linfield": [
+    {
+      "name": "A. Glavin",
+      "position": "Goalkeeper",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/383061.png"
+    },
+    {
+      "name": "C. Johns",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/105925.png"
+    },
+    {
+      "name": "S. Brown",
+      "position": "Defender",
+      "number": 24,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/343574.png"
+    },
+    {
+      "name": "B. Hall",
+      "position": "Defender",
+      "number": 15,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/82085.png"
+    },
+    {
+      "name": "D. Jermakovas",
+      "position": "Defender",
+      "number": 74,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/614279.png"
+    },
+    {
+      "name": "D. Leahy",
+      "position": "Defender",
+      "number": 33,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/69287.png"
+    },
+    {
+      "name": "Dane Neil McCullough",
+      "position": "Defender",
+      "number": 34,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/286767.png"
+    },
+    {
+      "name": "E. McGee",
+      "position": "Defender",
+      "number": 27,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/131252.png"
+    },
+    {
+      "name": "R. Nolan",
+      "position": "Defender",
+      "number": 4,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/196.png"
+    },
+    {
+      "name": "H. Allen",
+      "position": "Midfielder",
+      "number": 76,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/656922.png"
+    },
+    {
+      "name": "I. Baird",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/311672.png"
+    },
+    {
+      "name": "Rhys Brennan",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/474047.png"
+    },
+    {
+      "name": "A. Frizzell",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/44794.png"
+    },
+    {
+      "name": "K. McClean",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/70520.png"
+    },
+    {
+      "name": "K. Millar",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/105651.png"
+    },
+    {
+      "name": "J. Mulgrew",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 39,
+      "photo": "https://media.api-sports.io/football/players/105647.png"
+    },
+    {
+      "name": "K. Nelson",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/443628.png"
+    },
+    {
+      "name": "F. Ross",
+      "position": "Midfielder",
+      "number": 73,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/619671.png"
+    },
+    {
+      "name": "C. Shields",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/69246.png"
+    },
+    {
+      "name": "M. Temetan",
+      "position": "Midfielder",
+      "number": null,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/682574.png"
+    },
+    {
+      "name": "R. Annett",
+      "position": "Attacker",
+      "number": 36,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/350702.png"
+    },
+    {
+      "name": "C. Chapman",
+      "position": "Attacker",
+      "number": 66,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/624201.png"
+    },
+    {
+      "name": "M. Fitzpatrick",
+      "position": "Attacker",
+      "number": 29,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/194543.png"
+    },
+    {
+      "name": "Kobei Moore",
+      "position": "Attacker",
+      "number": 30,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/305736.png"
+    },
+    {
+      "name": "K. Offord",
+      "position": "Attacker",
+      "number": 9,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/326924.png"
+    },
+    {
+      "name": "O. Wade",
+      "position": "Attacker",
+      "number": 77,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/585323.png"
+    },
+    {
+      "name": "D. Wells",
+      "position": "Attacker",
+      "number": 16,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/379655.png"
+    }
+  ],
+  "fk-zalgiris-vilnius": [
+    {
+      "name": "D. Cekavicius",
+      "position": "Goalkeeper",
+      "number": 95,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/557860.png"
+    },
+    {
+      "name": "C. Olses",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/5905.png"
+    },
+    {
+      "name": "V. Šarkauskas",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/69947.png"
+    },
+    {
+      "name": "P. Bosančić",
+      "position": "Defender",
+      "number": 15,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/14466.png"
+    },
+    {
+      "name": "Sidoine Fogning",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/510353.png"
+    },
+    {
+      "name": "D. Franke",
+      "position": "Defender",
+      "number": 21,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/25399.png"
+    },
+    {
+      "name": "Y. Kendysh",
+      "position": "Defender",
+      "number": 77,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/55917.png"
+    },
+    {
+      "name": "D. Lupano",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/198485.png"
+    },
+    {
+      "name": "S. Mamatsashvili",
+      "position": "Defender",
+      "number": 23,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/311243.png"
+    },
+    {
+      "name": "V. Pavilonis",
+      "position": "Defender",
+      "number": 25,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/491167.png"
+    },
+    {
+      "name": "M. Šetkus",
+      "position": "Defender",
+      "number": 14,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/315785.png"
+    },
+    {
+      "name": "G. Turda",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/96880.png"
+    },
+    {
+      "name": "K. Upstas",
+      "position": "Defender",
+      "number": 13,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/70016.png"
+    },
+    {
+      "name": "Y. Zahary",
+      "position": "Defender",
+      "number": 26,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/21639.png"
+    },
+    {
+      "name": "K. BiÄka",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/338729.png"
+    },
+    {
+      "name": "M. Capan",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/340671.png"
+    },
+    {
+      "name": "P. Golubickas",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/55902.png"
+    },
+    {
+      "name": "G. Jarusevičius",
+      "position": "Midfielder",
+      "number": 9,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/69921.png"
+    },
+    {
+      "name": "I. Lytvynenko",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/63634.png"
+    },
+    {
+      "name": "D. Šešplaukis",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/69941.png"
+    },
+    {
+      "name": "D. Velička",
+      "position": "Midfielder",
+      "number": 39,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/482881.png"
+    },
+    {
+      "name": "O. Verbickas",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/69900.png"
+    },
+    {
+      "name": "L. Antal",
+      "position": "Attacker",
+      "number": 8,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/69912.png"
+    },
+    {
+      "name": "S. Bilenkyi",
+      "position": "Attacker",
+      "number": 19,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/61182.png"
+    },
+    {
+      "name": "Patrik Matyžonok",
+      "position": "Attacker",
+      "number": 44,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/388945.png"
+    },
+    {
+      "name": "N. Mihajlović",
+      "position": "Attacker",
+      "number": 7,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/36988.png"
+    },
+    {
+      "name": "N. Petković",
+      "position": "Attacker",
+      "number": 11,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/45380.png"
+    },
+    {
+      "name": "O. Seck",
+      "position": "Attacker",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/662411.png"
+    },
+    {
+      "name": "Bryan Teixeira",
+      "position": "Attacker",
+      "number": 70,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/20786.png"
+    },
+    {
+      "name": "J. UsaviÄius",
+      "position": "Attacker",
+      "number": 16,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/395748.png"
+    },
+    {
+      "name": "M. Vareika",
+      "position": "Attacker",
+      "number": 27,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/69918.png"
+    }
+  ],
+  "zrinjski": [
+    {
+      "name": "M. Bogdan",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568342.png"
+    },
+    {
+      "name": "A. Đaković",
+      "position": "Goalkeeper",
+      "number": 44,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/14555.png"
+    },
+    {
+      "name": "G. Karačić",
+      "position": "Goalkeeper",
+      "number": 18,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/62138.png"
+    },
+    {
+      "name": "Z. Šubarić",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/14759.png"
+    },
+    {
+      "name": "H. Barišić",
+      "position": "Defender",
+      "number": 4,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/9035.png"
+    },
+    {
+      "name": "S. Jakovljević",
+      "position": "Defender",
+      "number": 27,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/76924.png"
+    },
+    {
+      "name": "P. Mamić",
+      "position": "Defender",
+      "number": 12,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/14271.png"
+    },
+    {
+      "name": "D. Morris",
+      "position": "Defender",
+      "number": 37,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/80034.png"
+    },
+    {
+      "name": "T. Palic",
+      "position": "Defender",
+      "number": 24,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/558189.png"
+    },
+    {
+      "name": "K. Stapić",
+      "position": "Defender",
+      "number": 15,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/374639.png"
+    },
+    {
+      "name": "M. Vranjković",
+      "position": "Defender",
+      "number": 19,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/14682.png"
+    },
+    {
+      "name": "M. Ćavar",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/14307.png"
+    },
+    {
+      "name": "M. Čuić",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/14596.png"
+    },
+    {
+      "name": "N. Đurasek",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/14398.png"
+    },
+    {
+      "name": "V. Grbic",
+      "position": "Defender",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/534526.png"
+    },
+    {
+      "name": "A. Ilic",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/408851.png"
+    },
+    {
+      "name": "A. Ivančić",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/14480.png"
+    },
+    {
+      "name": "D. Lagumdžija",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/283237.png"
+    },
+    {
+      "name": "H. Ljukovac",
+      "position": "Midfielder",
+      "number": 80,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/443691.png"
+    },
+    {
+      "name": "I. Savić",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/204143.png"
+    },
+    {
+      "name": "I. Vidović",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/328308.png"
+    },
+    {
+      "name": "K. Abramović",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/151797.png"
+    },
+    {
+      "name": "A. Arapovic",
+      "position": "Attacker",
+      "number": 39,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/567902.png"
+    },
+    {
+      "name": "N. Bilbija",
+      "position": "Attacker",
+      "number": 99,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/9020.png"
+    },
+    {
+      "name": "B. Curdo",
+      "position": "Attacker",
+      "number": 40,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/534468.png"
+    },
+    {
+      "name": "M. Ćuže",
+      "position": "Attacker",
+      "number": 25,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1319.png"
+    },
+    {
+      "name": "S. Cvetković",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/98452.png"
+    },
+    {
+      "name": "N. Gajzler",
+      "position": "Attacker",
+      "number": 7,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/392101.png"
+    },
+    {
+      "name": "T. Jurić",
+      "position": "Attacker",
+      "number": 11,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/48469.png"
+    },
+    {
+      "name": "A. Sunjic",
+      "position": "Attacker",
+      "number": 11,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/568175.png"
+    }
+  ],
+  "fc-astana": [
+    {
+      "name": "Miras Amangeldy",
+      "position": "Goalkeeper",
+      "number": 90,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/671908.png"
+    },
+    {
+      "name": "J. Čondrić",
+      "position": "Goalkeeper",
+      "number": 93,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/14463.png"
+    },
+    {
+      "name": "D. Karpikov",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/314147.png"
+    },
+    {
+      "name": "M. Seysen",
+      "position": "Goalkeeper",
+      "number": 74,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/111561.png"
+    },
+    {
+      "name": "S. Anuarov",
+      "position": "Defender",
+      "number": 4,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/392423.png"
+    },
+    {
+      "name": "K. Bartolec",
+      "position": "Defender",
+      "number": 2,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/2760.png"
+    },
+    {
+      "name": "A. Beisebekov",
+      "position": "Defender",
+      "number": 15,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/2226.png"
+    },
+    {
+      "name": "B. Kalaica",
+      "position": "Defender",
+      "number": 3,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/41567.png"
+    },
+    {
+      "name": "A. Kassym",
+      "position": "Defender",
+      "number": 6,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/111789.png"
+    },
+    {
+      "name": "K. Kažukolovas",
+      "position": "Defender",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/169263.png"
+    },
+    {
+      "name": "I. Miladinović",
+      "position": "Defender",
+      "number": 45,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/43348.png"
+    },
+    {
+      "name": "D. Shomko",
+      "position": "Defender",
+      "number": 77,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/2231.png"
+    },
+    {
+      "name": "Aytuar Token",
+      "position": "Defender",
+      "number": 91,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/646469.png"
+    },
+    {
+      "name": "T. Tokenov",
+      "position": "Defender",
+      "number": 52,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/388858.png"
+    },
+    {
+      "name": "Y. Vorogovskiy",
+      "position": "Defender",
+      "number": 11,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/56084.png"
+    },
+    {
+      "name": "I. Bašić",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/162222.png"
+    },
+    {
+      "name": "B. Islamkhan",
+      "position": "Midfielder",
+      "number": 9,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/56082.png"
+    },
+    {
+      "name": "A. Kaltanov",
+      "position": "Midfielder",
+      "number": 57,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/400515.png"
+    },
+    {
+      "name": "A. Merkel",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/37265.png"
+    },
+    {
+      "name": "Ruslan Valikhan",
+      "position": "Midfielder",
+      "number": 82,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/645946.png"
+    },
+    {
+      "name": "N. Ahanonu",
+      "position": "Attacker",
+      "number": 20,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/385740.png"
+    },
+    {
+      "name": "Arsen Akhmetov",
+      "position": "Attacker",
+      "number": 89,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/655596.png"
+    },
+    {
+      "name": "S. Basmanov",
+      "position": "Attacker",
+      "number": 72,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/111728.png"
+    },
+    {
+      "name": "N. Burić",
+      "position": "Attacker",
+      "number": 29,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/14393.png"
+    },
+    {
+      "name": "D. Karaman",
+      "position": "Attacker",
+      "number": 7,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/111503.png"
+    },
+    {
+      "name": "R. Karimov",
+      "position": "Attacker",
+      "number": 81,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/2244.png"
+    },
+    {
+      "name": "D. Marat",
+      "position": "Attacker",
+      "number": 17,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/204351.png"
+    },
+    {
+      "name": "A. Tolendi",
+      "position": "Attacker",
+      "number": 71,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/650477.png"
+    },
+    {
+      "name": "M. Tomasov",
+      "position": "Attacker",
+      "number": 10,
+      "age": 38,
+      "photo": "https://media.api-sports.io/football/players/2239.png"
+    }
+  ],
+  "fc-santa-coloma": [
+    {
+      "name": "J. Lagunas",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/575287.png"
+    },
+    {
+      "name": "Diego Mendes",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/340236.png"
+    },
+    {
+      "name": "Mauro Rabelo",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/192016.png"
+    },
+    {
+      "name": "Gorka San Nicolás",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/181453.png"
+    },
+    {
+      "name": "M. Alvarez",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/609934.png"
+    },
+    {
+      "name": "D. Andrade",
+      "position": "Defender",
+      "number": 16,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/36506.png"
+    },
+    {
+      "name": "Guti",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/615720.png"
+    },
+    {
+      "name": "A. Rasines",
+      "position": "Defender",
+      "number": 2,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/610366.png"
+    },
+    {
+      "name": "Moisés San Nicolás",
+      "position": "Defender",
+      "number": 23,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/5059.png"
+    },
+    {
+      "name": "T. Vallotti",
+      "position": "Defender",
+      "number": 25,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/607147.png"
+    },
+    {
+      "name": "I. Zubiri",
+      "position": "Defender",
+      "number": 18,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/610290.png"
+    },
+    {
+      "name": "Abreu",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/188411.png"
+    },
+    {
+      "name": "Adri Arjona",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/47243.png"
+    },
+    {
+      "name": "J. Armengol",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/609806.png"
+    },
+    {
+      "name": "Iñigo Barrenetxea",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/116832.png"
+    },
+    {
+      "name": "Miguel López",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/286077.png"
+    },
+    {
+      "name": "J. Ares",
+      "position": "Attacker",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/584554.png"
+    },
+    {
+      "name": "Raly",
+      "position": "Attacker",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/179067.png"
+    },
+    {
+      "name": "Ãlex Gómez",
+      "position": "Attacker",
+      "number": 22,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/440415.png"
+    },
+    {
+      "name": "G. López",
+      "position": "Attacker",
+      "number": 10,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/179438.png"
+    },
+    {
+      "name": "Pedja Muñoz",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/136802.png"
+    },
+    {
+      "name": "A. Villar",
+      "position": "Attacker",
+      "number": 21,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/581135.png"
+    }
+  ],
+  "austria-vienna": [
+    {
+      "name": "K. Jusic",
+      "position": "Goalkeeper",
+      "number": 32,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/339982.png"
+    },
+    {
+      "name": "M. Kos",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/7428.png"
+    },
+    {
+      "name": "S. Şahin-Radlinger",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/25364.png"
+    },
+    {
+      "name": "L. Wedl",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/7138.png"
+    },
+    {
+      "name": "I. Buhari",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/293905.png"
+    },
+    {
+      "name": "A. Dragović",
+      "position": "Defender",
+      "number": 15,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/968.png"
+    },
+    {
+      "name": "D. Ewemade",
+      "position": "Attacker",
+      "number": 42,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/408921.png"
+    },
+    {
+      "name": "J. Feddersen",
+      "position": "Defender",
+      "number": 4,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/568153.png"
+    },
+    {
+      "name": "J. Handl",
+      "position": "Defender",
+      "number": 46,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/7139.png"
+    },
+    {
+      "name": "Lee Tae-Seok",
+      "position": "Defender",
+      "number": 17,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/237220.png"
+    },
+    {
+      "name": "Daniel Nnodim",
+      "position": "Defender",
+      "number": 40,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/470557.png"
+    },
+    {
+      "name": "R. Ranftl",
+      "position": "Defender",
+      "number": 26,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/7528.png"
+    },
+    {
+      "name": "Matteo Schablas",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/366061.png"
+    },
+    {
+      "name": "V. Toifl",
+      "position": "Defender",
+      "number": 44,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/479219.png"
+    },
+    {
+      "name": "W. Vorsager",
+      "position": "Defender",
+      "number": 2,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/7718.png"
+    },
+    {
+      "name": "P. Wiesinger",
+      "position": "Defender",
+      "number": 28,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/7531.png"
+    },
+    {
+      "name": "M. Fischer",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/7681.png"
+    },
+    {
+      "name": "Lee Kang-Hee",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/224669.png"
+    },
+    {
+      "name": "V. Markovic",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/585991.png"
+    },
+    {
+      "name": "Philipp Maybach",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/460150.png"
+    },
+    {
+      "name": "Romeo Mörth",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/462938.png"
+    },
+    {
+      "name": "V. Müller",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/7685.png"
+    },
+    {
+      "name": "Dominik Nisandzic",
+      "position": "Midfielder",
+      "number": 70,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394886.png"
+    },
+    {
+      "name": "Marijan Österreicher",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394960.png"
+    },
+    {
+      "name": "S. Saljic",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/339997.png"
+    },
+    {
+      "name": "F. Wustinger",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/277304.png"
+    },
+    {
+      "name": "K. Boateng",
+      "position": "Attacker",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/263813.png"
+    },
+    {
+      "name": "H. Deshihsku",
+      "position": "Attacker",
+      "number": 9,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/606204.png"
+    },
+    {
+      "name": "J. Eggestein",
+      "position": "Attacker",
+      "number": 19,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/25326.png"
+    },
+    {
+      "name": "J. Hettwer",
+      "position": "Attacker",
+      "number": 20,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/203377.png"
+    },
+    {
+      "name": "A. Kanté",
+      "position": "Attacker",
+      "number": 29,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/480397.png"
+    }
+  ],
+  "apollon-limassol": [
+    {
+      "name": "T. Aresti",
+      "position": "Goalkeeper",
+      "number": null,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/619677.png"
+    },
+    {
+      "name": "P. Kühn",
+      "position": "Goalkeeper",
+      "number": 22,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/26318.png"
+    },
+    {
+      "name": "P. Leeuwenburgh",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/46267.png"
+    },
+    {
+      "name": "K. Stylianou",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/442145.png"
+    },
+    {
+      "name": "E. Aiwu",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/7719.png"
+    },
+    {
+      "name": "K. Balogiannis",
+      "position": "Defender",
+      "number": 38,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/2367.png"
+    },
+    {
+      "name": "Bruno Gaspar",
+      "position": "Defender",
+      "number": 76,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/1475.png"
+    },
+    {
+      "name": "C. Goldson",
+      "position": "Defender",
+      "number": 6,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/1740.png"
+    },
+    {
+      "name": "L. Konomis",
+      "position": "Defender",
+      "number": 37,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/454358.png"
+    },
+    {
+      "name": "J. Kvída",
+      "position": "Defender",
+      "number": 44,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/37365.png"
+    },
+    {
+      "name": "I. Ljubic",
+      "position": "Defender",
+      "number": 77,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/7590.png"
+    },
+    {
+      "name": "G. Malekkides",
+      "position": "Defender",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/15008.png"
+    },
+    {
+      "name": "A. Shikkis",
+      "position": "Defender",
+      "number": 26,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/484029.png"
+    },
+    {
+      "name": "N. Zinonos",
+      "position": "Defender",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/400716.png"
+    },
+    {
+      "name": "Gustavo Assunção",
+      "position": "Midfielder",
+      "number": 12,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/42.png"
+    },
+    {
+      "name": "M. Brown",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/328647.png"
+    },
+    {
+      "name": "C. Marneros",
+      "position": "Midfielder",
+      "number": 90,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/585224.png"
+    },
+    {
+      "name": "I. Polyviou",
+      "position": "Midfielder",
+      "number": 91,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/584506.png"
+    },
+    {
+      "name": "D. Spoljaric",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1885.png"
+    },
+    {
+      "name": "G. Weissbeck",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/22944.png"
+    },
+    {
+      "name": "E. Andreou",
+      "position": "Attacker",
+      "number": 11,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/294646.png"
+    },
+    {
+      "name": "J. Asoro",
+      "position": "Attacker",
+      "number": 29,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/19323.png"
+    },
+    {
+      "name": "Dani Escriche",
+      "position": "Attacker",
+      "number": 30,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/47179.png"
+    },
+    {
+      "name": "Chrysostomos Ioakim",
+      "position": "Attacker",
+      "number": 85,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/677474.png"
+    },
+    {
+      "name": "A. Ožbolt",
+      "position": "Attacker",
+      "number": 9,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/11282.png"
+    },
+    {
+      "name": "Garry Rodrigues",
+      "position": "Attacker",
+      "number": 10,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/44612.png"
+    },
+    {
+      "name": "R. Rotis",
+      "position": "Attacker",
+      "number": 89,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/584504.png"
+    },
+    {
+      "name": "Brandon Thomas",
+      "position": "Attacker",
+      "number": 23,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/46670.png"
+    },
+    {
+      "name": "I. Ugbo",
+      "position": "Attacker",
+      "number": 99,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/67973.png"
+    },
+    {
+      "name": "M. Uthman",
+      "position": "Attacker",
+      "number": 40,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/685732.png"
+    }
+  ],
+  "fc-lugano": [
+    {
+      "name": "F. Gebhardt",
+      "position": "Goalkeeper",
+      "number": 28,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/163131.png"
+    },
+    {
+      "name": "D. Mina",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/384129.png"
+    },
+    {
+      "name": "C. Ndiaye",
+      "position": "Goalkeeper",
+      "number": 39,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/437334.png"
+    },
+    {
+      "name": "D. von Ballmoos",
+      "position": "Goalkeeper",
+      "number": 16,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/939.png"
+    },
+    {
+      "name": "E. Alioski",
+      "position": "Defender",
+      "number": 7,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/19133.png"
+    },
+    {
+      "name": "J. Bichsel",
+      "position": "Defender",
+      "number": 18,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/161818.png"
+    },
+    {
+      "name": "João Victor Schlickmann Carbone",
+      "position": "Defender",
+      "number": 44,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/454456.png"
+    },
+    {
+      "name": "H. Delcroix",
+      "position": "Defender",
+      "number": 3,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1411.png"
+    },
+    {
+      "name": "B. Karimov",
+      "position": "Defender",
+      "number": 2,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/416964.png"
+    },
+    {
+      "name": "D. Kelvin",
+      "position": "Defender",
+      "number": 4,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/381495.png"
+    },
+    {
+      "name": "L. Mai",
+      "position": "Defender",
+      "number": 17,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/503.png"
+    },
+    {
+      "name": "Martim Marques",
+      "position": "Defender",
+      "number": 26,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/336574.png"
+    },
+    {
+      "name": "A. Papadopoulos",
+      "position": "Defender",
+      "number": 6,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/26626.png"
+    },
+    {
+      "name": "M. Zanotti",
+      "position": "Midfielder",
+      "number": 46,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/322626.png"
+    },
+    {
+      "name": "G. Ajdin",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/586021.png"
+    },
+    {
+      "name": "U. Bislimi",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/125708.png"
+    },
+    {
+      "name": "Y. Cimignani",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/193645.png"
+    },
+    {
+      "name": "Daniel Dos Santos",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/303004.png"
+    },
+    {
+      "name": "A. Grgić",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/48520.png"
+    },
+    {
+      "name": "A. Kendouci",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/4496.png"
+    },
+    {
+      "name": "J. Parente",
+      "position": "Midfielder",
+      "number": 31,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394182.png"
+    },
+    {
+      "name": "A. Ajeti",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/2812.png"
+    },
+    {
+      "name": "K. Behrens",
+      "position": "Attacker",
+      "number": 91,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/25192.png"
+    },
+    {
+      "name": "B. Castro",
+      "position": "Attacker",
+      "number": 22,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/351925.png"
+    },
+    {
+      "name": "D. Moncada",
+      "position": "Attacker",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/454964.png"
+    },
+    {
+      "name": "E. Pihlström",
+      "position": "Attacker",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/458180.png"
+    },
+    {
+      "name": "Nicolo Puddu",
+      "position": "Attacker",
+      "number": 32,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/595013.png"
+    },
+    {
+      "name": "Christian Raffa",
+      "position": "Attacker",
+      "number": 33,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/595011.png"
+    },
+    {
+      "name": "R. Steffen",
+      "position": "Attacker",
+      "number": 11,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/2809.png"
+    }
+  ],
+  "aek-larnaca": [
+    {
+      "name": "D. Demetriou",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/15394.png"
+    },
+    {
+      "name": "A. Koulentros",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/610798.png"
+    },
+    {
+      "name": "V. Muftić",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/267701.png"
+    },
+    {
+      "name": "A. Paleari",
+      "position": "Goalkeeper",
+      "number": 92,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/30642.png"
+    },
+    {
+      "name": "A. Paraskevas",
+      "position": "Goalkeeper",
+      "number": 51,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/15028.png"
+    },
+    {
+      "name": "Z. Adoni",
+      "position": "Defender",
+      "number": 44,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/15480.png"
+    },
+    {
+      "name": "G. Ekpolo",
+      "position": "Defender",
+      "number": 22,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/48011.png"
+    },
+    {
+      "name": "M. Hadjichambi",
+      "position": "Defender",
+      "number": 23,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/610953.png"
+    },
+    {
+      "name": "P. Ioannou",
+      "position": "Defender",
+      "number": 2,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/14956.png"
+    },
+    {
+      "name": "H. Miličević",
+      "position": "Defender",
+      "number": 15,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/91448.png"
+    },
+    {
+      "name": "Brian Oliván",
+      "position": "Defender",
+      "number": 5,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/46764.png"
+    },
+    {
+      "name": "K. Pileas",
+      "position": "Defender",
+      "number": 17,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/15553.png"
+    },
+    {
+      "name": "Enric Saborit",
+      "position": "Defender",
+      "number": 4,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/104808.png"
+    },
+    {
+      "name": "K. Strouthou",
+      "position": "Defender",
+      "number": 40,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/610799.png"
+    },
+    {
+      "name": "M. van der Hoorn",
+      "position": "Defender",
+      "number": 3,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/19322.png"
+    },
+    {
+      "name": "S. Köhler",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/113584.png"
+    },
+    {
+      "name": "C. Kyriakou",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1870.png"
+    },
+    {
+      "name": "Gus Ledes",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/47138.png"
+    },
+    {
+      "name": "Miramón",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/47568.png"
+    },
+    {
+      "name": "Andreas Misiellis",
+      "position": "Midfielder",
+      "number": null,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/686985.png"
+    },
+    {
+      "name": "K. Mrabti",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/19532.png"
+    },
+    {
+      "name": "G. Naoum",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/146740.png"
+    },
+    {
+      "name": "I. Pankov",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/561380.png"
+    },
+    {
+      "name": "J. Repas",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/21645.png"
+    },
+    {
+      "name": "Youssef Amyn",
+      "position": "Attacker",
+      "number": 8,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/282065.png"
+    },
+    {
+      "name": "S. Anastasiou",
+      "position": "Attacker",
+      "number": 77,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/610954.png"
+    },
+    {
+      "name": "N. Andereggen",
+      "position": "Attacker",
+      "number": 33,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1016.png"
+    },
+    {
+      "name": "R. Bajić",
+      "position": "Attacker",
+      "number": 11,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/9084.png"
+    },
+    {
+      "name": "Y. Chacón",
+      "position": "Attacker",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/52764.png"
+    },
+    {
+      "name": "David Gerasimou",
+      "position": "Attacker",
+      "number": 37,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/524421.png"
+    },
+    {
+      "name": "Đ. Ivanović",
+      "position": "Attacker",
+      "number": 9,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/45840.png"
+    },
+    {
+      "name": "A. Layouni",
+      "position": "Attacker",
+      "number": 14,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/39078.png"
+    },
+    {
+      "name": "A. Trică",
+      "position": "Attacker",
+      "number": 19,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/315738.png"
+    }
+  ],
+  "panathinaikos": [
+    {
+      "name": "L. Chaves",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/6697.png"
+    },
+    {
+      "name": "C. Geitonas",
+      "position": "Goalkeeper",
+      "number": 71,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/619667.png"
+    },
+    {
+      "name": "K. Kotsaris",
+      "position": "Goalkeeper",
+      "number": 70,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/26731.png"
+    },
+    {
+      "name": "Iñaki Peña",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/126.png"
+    },
+    {
+      "name": "D. Calabria",
+      "position": "Defender",
+      "number": 2,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/1627.png"
+    },
+    {
+      "name": "S. Ingason",
+      "position": "Defender",
+      "number": 15,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/2361.png"
+    },
+    {
+      "name": "Georgios Marios Katris",
+      "position": "Defender",
+      "number": 3,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/392556.png"
+    },
+    {
+      "name": "V. Kristiansen",
+      "position": "Defender",
+      "number": 34,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/158710.png"
+    },
+    {
+      "name": "G. Kiriakopoulos",
+      "position": "Defender",
+      "number": 77,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/26828.png"
+    },
+    {
+      "name": "Vasilios Lavdas",
+      "position": "Defender",
+      "number": 56,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/550216.png"
+    },
+    {
+      "name": "E. Palmer-Brown",
+      "position": "Defender",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/38692.png"
+    },
+    {
+      "name": "A. Salah-Eddine",
+      "position": "Defender",
+      "number": 5,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/162451.png"
+    },
+    {
+      "name": "T. Tsapras",
+      "position": "Defender",
+      "number": 19,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/204290.png"
+    },
+    {
+      "name": "R. van Drongelen",
+      "position": "Defender",
+      "number": 55,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/24873.png"
+    },
+    {
+      "name": "S. de Vrij",
+      "position": "Defender",
+      "number": 6,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/194.png"
+    },
+    {
+      "name": "P. Biniaris",
+      "position": "Midfielder",
+      "number": 44,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/650482.png"
+    },
+    {
+      "name": "E. Camara",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/297139.png"
+    },
+    {
+      "name": "Pedro Chirivella",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/93671.png"
+    },
+    {
+      "name": "Adriano Jagušić",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/427373.png"
+    },
+    {
+      "name": "K. Kangwa",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/122428.png"
+    },
+    {
+      "name": "S. Kontouris",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/449603.png"
+    },
+    {
+      "name": "I. Louza",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/21100.png"
+    },
+    {
+      "name": "A. Ounahi",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/129678.png"
+    },
+    {
+      "name": "M. Sissoko",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/179.png"
+    },
+    {
+      "name": "V. Taborda",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/323785.png"
+    },
+    {
+      "name": "Santino Andino",
+      "position": "Attacker",
+      "number": 10,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/490156.png"
+    },
+    {
+      "name": "C. Dessers",
+      "position": "Attacker",
+      "number": 9,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/37186.png"
+    },
+    {
+      "name": "L. García",
+      "position": "Attacker",
+      "number": 99,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/93059.png"
+    },
+    {
+      "name": "I. Nempis",
+      "position": "Attacker",
+      "number": 53,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/599688.png"
+    },
+    {
+      "name": "P. Pantelidis",
+      "position": "Attacker",
+      "number": 17,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/432835.png"
+    },
+    {
+      "name": "F. Pellistri",
+      "position": "Attacker",
+      "number": 28,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/70078.png"
+    },
+    {
+      "name": "E. Rastoder",
+      "position": "Attacker",
+      "number": 74,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/277896.png"
+    },
+    {
+      "name": "A. Tetteh",
+      "position": "Attacker",
+      "number": 7,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/342918.png"
+    }
+  ],
+  "shkendija": [
+    {
+      "name": "Astrit Amzai",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/161691.png"
+    },
+    {
+      "name": "R. Ceka",
+      "position": "Goalkeeper",
+      "number": 40,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/673263.png"
+    },
+    {
+      "name": "B. Gaye",
+      "position": "Goalkeeper",
+      "number": 24,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/25002.png"
+    },
+    {
+      "name": "F. Ramani",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/303749.png"
+    },
+    {
+      "name": "A. Abdurahmani",
+      "position": "Defender",
+      "number": 33,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/673264.png"
+    },
+    {
+      "name": "N. Ceka",
+      "position": "Defender",
+      "number": 18,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/512794.png"
+    },
+    {
+      "name": "B. Dimoski",
+      "position": "Defender",
+      "number": 23,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/109551.png"
+    },
+    {
+      "name": "L. Djeladini",
+      "position": "Defender",
+      "number": 20,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/660731.png"
+    },
+    {
+      "name": "J. Manev",
+      "position": "Defender",
+      "number": 55,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/216247.png"
+    },
+    {
+      "name": "Anes Meljichi",
+      "position": "Defender",
+      "number": 26,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/340208.png"
+    },
+    {
+      "name": "M. Murati",
+      "position": "Defender",
+      "number": 16,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/105480.png"
+    },
+    {
+      "name": "A. Trumçi",
+      "position": "Defender",
+      "number": 2,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/197756.png"
+    },
+    {
+      "name": "F. Iljazi",
+      "position": "Midfielder",
+      "number": 35,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/602706.png"
+    },
+    {
+      "name": "A. Isa",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/664011.png"
+    },
+    {
+      "name": "D. Islami",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/270776.png"
+    },
+    {
+      "name": "E. Krasniqi",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/108568.png"
+    },
+    {
+      "name": "Rafael Freitas",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/266645.png"
+    },
+    {
+      "name": "F. Ramadani",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/163586.png"
+    },
+    {
+      "name": "A. Zejnullai",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/105483.png"
+    },
+    {
+      "name": "M. Gjorgjievski",
+      "position": "Attacker",
+      "number": 99,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/131292.png"
+    },
+    {
+      "name": "B. Ibraimi",
+      "position": "Attacker",
+      "number": 7,
+      "age": 39,
+      "photo": "https://media.api-sports.io/football/players/56023.png"
+    },
+    {
+      "name": "V. Krstevski",
+      "position": "Attacker",
+      "number": 19,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/283523.png"
+    },
+    {
+      "name": "A. Kryeziu",
+      "position": "Attacker",
+      "number": 11,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/291654.png"
+    },
+    {
+      "name": "F. Ndzengue",
+      "position": "Attacker",
+      "number": 9,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/111920.png"
+    },
+    {
+      "name": "F. Tamba",
+      "position": "Attacker",
+      "number": 29,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/365490.png"
+    }
+  ],
+  "fc-sion": [
+    {
+      "name": "S. Caillet",
+      "position": "Goalkeeper",
+      "number": 40,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/580800.png"
+    },
+    {
+      "name": "A. Racioppi",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/648.png"
+    },
+    {
+      "name": "F. Ruberto",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/48420.png"
+    },
+    {
+      "name": "K. Hajrizi",
+      "position": "Defender",
+      "number": 28,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/123474.png"
+    },
+    {
+      "name": "N. Hefti",
+      "position": "Defender",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/48717.png"
+    },
+    {
+      "name": "R. Kessler",
+      "position": "Defender",
+      "number": 38,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/375323.png"
+    },
+    {
+      "name": "J. Kronig",
+      "position": "Defender",
+      "number": 17,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/944.png"
+    },
+    {
+      "name": "N. Lavanchy",
+      "position": "Defender",
+      "number": 14,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/48400.png"
+    },
+    {
+      "name": "Marquinhos Cipriano",
+      "position": "Defender",
+      "number": 6,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/686.png"
+    },
+    {
+      "name": "Damien Moschinger",
+      "position": "Defender",
+      "number": 24,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/668034.png"
+    },
+    {
+      "name": "N. Sow",
+      "position": "Defender",
+      "number": 5,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/134301.png"
+    },
+    {
+      "name": "L. Villa",
+      "position": "Defender",
+      "number": 55,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/353419.png"
+    },
+    {
+      "name": "J. Almeida",
+      "position": "Midfielder",
+      "number": null,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/668102.png"
+    },
+    {
+      "name": "Baltazar Costa",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/48518.png"
+    },
+    {
+      "name": "L. Chipperfield",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/323746.png"
+    },
+    {
+      "name": "A. Kabacalman",
+      "position": "Midfielder",
+      "number": 88,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/48771.png"
+    },
+    {
+      "name": "B. Kololli",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/1005.png"
+    },
+    {
+      "name": "D. Rrudhani",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/136741.png"
+    },
+    {
+      "name": "F. Sylla",
+      "position": "Midfielder",
+      "number": 37,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/395811.png"
+    },
+    {
+      "name": "T. Berdayes",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/300871.png"
+    },
+    {
+      "name": "Winsley Boteli Mokango",
+      "position": "Attacker",
+      "number": 13,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394180.png"
+    },
+    {
+      "name": "I. Chouaref",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/20841.png"
+    },
+    {
+      "name": "A. Llukes",
+      "position": "Attacker",
+      "number": 22,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/496934.png"
+    },
+    {
+      "name": "J. Lukembila",
+      "position": "Attacker",
+      "number": 9,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/135264.png"
+    },
+    {
+      "name": "R. Nivokazi",
+      "position": "Attacker",
+      "number": 33,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/119180.png"
+    },
+    {
+      "name": "Ivano Srdoc",
+      "position": "Attacker",
+      "number": 7,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/587871.png"
+    },
+    {
+      "name": "F. Surdez",
+      "position": "Attacker",
+      "number": 19,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/278018.png"
+    }
+  ],
+  "gent": [
+    {
+      "name": "B. Evers",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/453386.png"
+    },
+    {
+      "name": "K. Peersman",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/313077.png"
+    },
+    {
+      "name": "D. Roef",
+      "position": "Goalkeeper",
+      "number": 33,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/8716.png"
+    },
+    {
+      "name": "Noa Vandenabeele",
+      "position": "Goalkeeper",
+      "number": 50,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/669123.png"
+    },
+    {
+      "name": "Tiago Araújo",
+      "position": "Defender",
+      "number": 20,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/161935.png"
+    },
+    {
+      "name": "A. Ayindé",
+      "position": "Defender",
+      "number": 39,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/436990.png"
+    },
+    {
+      "name": "C. Burgess",
+      "position": "Defender",
+      "number": 16,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/19850.png"
+    },
+    {
+      "name": "L. Cooman",
+      "position": "Defender",
+      "number": 29,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/546235.png"
+    },
+    {
+      "name": "G. De Meyer",
+      "position": "Defender",
+      "number": 35,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/396200.png"
+    },
+    {
+      "name": "M. Diallo",
+      "position": "Defender",
+      "number": 56,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/417857.png"
+    },
+    {
+      "name": "M. Ngom",
+      "position": "Defender",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/338144.png"
+    },
+    {
+      "name": "M. Paskotši",
+      "position": "Defender",
+      "number": 3,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/60353.png"
+    },
+    {
+      "name": "S. Van der Heyden",
+      "position": "Defender",
+      "number": 44,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/37639.png"
+    },
+    {
+      "name": "H. Vernemmen",
+      "position": "Defender",
+      "number": 54,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/396650.png"
+    },
+    {
+      "name": "M. Volckaert",
+      "position": "Defender",
+      "number": 57,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/331087.png"
+    },
+    {
+      "name": "L. Bénes",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/24962.png"
+    },
+    {
+      "name": "Leonardo Lopes",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/20144.png"
+    },
+    {
+      "name": "T. De Vlieger",
+      "position": "Midfielder",
+      "number": 27,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/381830.png"
+    },
+    {
+      "name": "M. Delorge-Knieper",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/299972.png"
+    },
+    {
+      "name": "M. El Âdfaoui",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/446302.png"
+    },
+    {
+      "name": "A. Kadri",
+      "position": "Midfielder",
+      "number": 37,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/129867.png"
+    },
+    {
+      "name": "A. Omgba",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/402955.png"
+    },
+    {
+      "name": "M. Samoise",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/281376.png"
+    },
+    {
+      "name": "Abubakar Abdullahi",
+      "position": "Attacker",
+      "number": 61,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/417801.png"
+    },
+    {
+      "name": "M. Balikwisha",
+      "position": "Attacker",
+      "number": 7,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/267728.png"
+    },
+    {
+      "name": "I. Cisse",
+      "position": "Attacker",
+      "number": 75,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/635056.png"
+    },
+    {
+      "name": "M. Dean",
+      "position": "Attacker",
+      "number": 21,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/278233.png"
+    },
+    {
+      "name": "M. Diop",
+      "position": "Attacker",
+      "number": 19,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/414787.png"
+    },
+    {
+      "name": "B. Goore",
+      "position": "Attacker",
+      "number": 45,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/477549.png"
+    },
+    {
+      "name": "Y. Mohammed",
+      "position": "Attacker",
+      "number": 95,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/651719.png"
+    },
+    {
+      "name": "E. Seck",
+      "position": "Attacker",
+      "number": 59,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/513581.png"
+    },
+    {
+      "name": "M. Sonko",
+      "position": "Attacker",
+      "number": 11,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/328978.png"
+    },
+    {
+      "name": "J. Y. Vergara Ortega",
+      "position": "Attacker",
+      "number": 47,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/535819.png"
+    },
+    {
+      "name": "Kyrell Wilson",
+      "position": "Attacker",
+      "number": 14,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/401875.png"
+    }
+  ],
+  "zira": [
+    {
+      "name": "A. Bayramov",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/123394.png"
+    },
+    {
+      "name": "S. Həşimov",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/355335.png"
+    },
+    {
+      "name": "A. Nəzirov",
+      "position": "Goalkeeper",
+      "number": 41,
+      "age": 40,
+      "photo": "https://media.api-sports.io/football/players/106383.png"
+    },
+    {
+      "name": "H. Quliyev",
+      "position": "Goalkeeper",
+      "number": 72,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/207812.png"
+    },
+    {
+      "name": "E. Əlicanov",
+      "position": "Defender",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/124768.png"
+    },
+    {
+      "name": "Q. Alıyev",
+      "position": "Defender",
+      "number": 32,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/105969.png"
+    },
+    {
+      "name": "I. Djibrilla",
+      "position": "Defender",
+      "number": 20,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/291480.png"
+    },
+    {
+      "name": "D. Legbo",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/293747.png"
+    },
+    {
+      "name": "M. Lamchkhchakh",
+      "position": "Defender",
+      "number": 33,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/424332.png"
+    },
+    {
+      "name": "A. Mutsinzi",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/154744.png"
+    },
+    {
+      "name": "Ruan",
+      "position": "Defender",
+      "number": 4,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/78363.png"
+    },
+    {
+      "name": "A. Seydiyev",
+      "position": "Defender",
+      "number": 2,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/123358.png"
+    },
+    {
+      "name": "C. Digbeu",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/667113.png"
+    },
+    {
+      "name": "Guima",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/41648.png"
+    },
+    {
+      "name": "A. Guseynov",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/125481.png"
+    },
+    {
+      "name": "Y. Haciyev",
+      "position": "Midfielder",
+      "number": 57,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/544873.png"
+    },
+    {
+      "name": "H. Hacılı",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/1544.png"
+    },
+    {
+      "name": "I. Huseynov",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/667109.png"
+    },
+    {
+      "name": "İ. İbrahimli",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/1545.png"
+    },
+    {
+      "name": "Ktatau",
+      "position": "Midfielder",
+      "number": 16,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/545067.png"
+    },
+    {
+      "name": "R. Muradov",
+      "position": "Midfielder",
+      "number": 48,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/380280.png"
+    },
+    {
+      "name": "G. Papunashvili",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/47060.png"
+    },
+    {
+      "name": "A. Suleymanzade",
+      "position": "Midfielder",
+      "number": 43,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/557324.png"
+    },
+    {
+      "name": "Vieirinha",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/125343.png"
+    },
+    {
+      "name": "E. Aydın",
+      "position": "Attacker",
+      "number": 7,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/348213.png"
+    },
+    {
+      "name": "L. Bayéré",
+      "position": "Attacker",
+      "number": 27,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/135808.png"
+    },
+    {
+      "name": "E. Bogomolskiy",
+      "position": "Attacker",
+      "number": 77,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/7927.png"
+    },
+    {
+      "name": "D. Smith",
+      "position": "Attacker",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/670980.png"
+    },
+    {
+      "name": "D. Volkovi",
+      "position": "Attacker",
+      "number": 9,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/106382.png"
+    }
+  ],
+  "hjk-helsinki": [
+    {
+      "name": "M. Haapanen",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/443785.png"
+    },
+    {
+      "name": "M. Marković",
+      "position": "Goalkeeper",
+      "number": 44,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/77028.png"
+    },
+    {
+      "name": "O. Maukonen",
+      "position": "Goalkeeper",
+      "number": 33,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/370345.png"
+    },
+    {
+      "name": "J. Öst",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/55330.png"
+    },
+    {
+      "name": "J. Samooja",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/156619.png"
+    },
+    {
+      "name": "N. Alho",
+      "position": "Defender",
+      "number": 17,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/55392.png"
+    },
+    {
+      "name": "M. Bogićević",
+      "position": "Defender",
+      "number": 31,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/270584.png"
+    },
+    {
+      "name": "T. Cissokho",
+      "position": "Defender",
+      "number": 3,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/1255.png"
+    },
+    {
+      "name": "J. Kari",
+      "position": "Defender",
+      "number": 53,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/443782.png"
+    },
+    {
+      "name": "V. Konttas",
+      "position": "Defender",
+      "number": 61,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/505350.png"
+    },
+    {
+      "name": "E. LeveÃ¤lahti",
+      "position": "Defender",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/392509.png"
+    },
+    {
+      "name": "L. Montano",
+      "position": "Defender",
+      "number": 14,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/202016.png"
+    },
+    {
+      "name": "I. Nyback",
+      "position": "Defender",
+      "number": 46,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/565764.png"
+    },
+    {
+      "name": "K. Simojoki",
+      "position": "Defender",
+      "number": 13,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/392508.png"
+    },
+    {
+      "name": "V. Tikkanen",
+      "position": "Defender",
+      "number": 6,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/55339.png"
+    },
+    {
+      "name": "M. Borchers",
+      "position": "Midfielder",
+      "number": 9,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/163497.png"
+    },
+    {
+      "name": "Alfie Cicale",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/465212.png"
+    },
+    {
+      "name": "Mouhamed Guèye I",
+      "position": "Midfielder",
+      "number": 32,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/339415.png"
+    },
+    {
+      "name": "Mouhamed Guèye II",
+      "position": "Midfielder",
+      "number": 32,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/408199.png"
+    },
+    {
+      "name": "J. Kallinen",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/196062.png"
+    },
+    {
+      "name": "L. Lingman",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/55529.png"
+    },
+    {
+      "name": "P. Mentu",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/425780.png"
+    },
+    {
+      "name": "L. Möller",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/314182.png"
+    },
+    {
+      "name": "L. Palmula",
+      "position": "Midfielder",
+      "number": 62,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/554033.png"
+    },
+    {
+      "name": "A. Ring",
+      "position": "Midfielder",
+      "number": 4,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/50861.png"
+    },
+    {
+      "name": "I. Toivonen",
+      "position": "Midfielder",
+      "number": 96,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/505358.png"
+    },
+    {
+      "name": "J. Veteli",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/83285.png"
+    },
+    {
+      "name": "D. Ezeh",
+      "position": "Attacker",
+      "number": 19,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/361379.png"
+    },
+    {
+      "name": "S. Haarala",
+      "position": "Attacker",
+      "number": 29,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/55313.png"
+    },
+    {
+      "name": "R. Hudd",
+      "position": "Attacker",
+      "number": 91,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/288326.png"
+    },
+    {
+      "name": "M. Kirilov",
+      "position": "Attacker",
+      "number": 11,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/444990.png"
+    },
+    {
+      "name": "N. Kroupkin",
+      "position": "Attacker",
+      "number": 87,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/560691.png"
+    },
+    {
+      "name": "L. Lappalainen",
+      "position": "Attacker",
+      "number": 26,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/55405.png"
+    },
+    {
+      "name": "T. Pukki",
+      "position": "Attacker",
+      "number": 20,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/19085.png"
+    }
+  ],
+  "beitar-jerusalem": [
+    {
+      "name": "A. Korenfine",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/479411.png"
+    },
+    {
+      "name": "Miguel Silva",
+      "position": "Goalkeeper",
+      "number": 55,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/41143.png"
+    },
+    {
+      "name": "Dvir Nir",
+      "position": "Goalkeeper",
+      "number": 33,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/291719.png"
+    },
+    {
+      "name": "Y. Ozer",
+      "position": "Goalkeeper",
+      "number": 22,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/313855.png"
+    },
+    {
+      "name": "N. Antwi",
+      "position": "Defender",
+      "number": 2,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/65437.png"
+    },
+    {
+      "name": "B. Carabalí",
+      "position": "Defender",
+      "number": 4,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/13497.png"
+    },
+    {
+      "name": "G. Cohen",
+      "position": "Defender",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/111408.png"
+    },
+    {
+      "name": "Y. Cohen",
+      "position": "Defender",
+      "number": 16,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/111279.png"
+    },
+    {
+      "name": "L. Deri",
+      "position": "Defender",
+      "number": 25,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/330212.png"
+    },
+    {
+      "name": "R. Elimelech",
+      "position": "Defender",
+      "number": 14,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/345208.png"
+    },
+    {
+      "name": "L. Gadrani",
+      "position": "Defender",
+      "number": 44,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/24769.png"
+    },
+    {
+      "name": "Ilay Haddad",
+      "position": "Defender",
+      "number": 28,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/674260.png"
+    },
+    {
+      "name": "N. Shedo",
+      "position": "Defender",
+      "number": 91,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/338733.png"
+    },
+    {
+      "name": "O. N. Azo",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/554278.png"
+    },
+    {
+      "name": "Z. Shimol",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/386315.png"
+    },
+    {
+      "name": "B. Enow",
+      "position": "Midfielder",
+      "number": 40,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/68442.png"
+    },
+    {
+      "name": "N. Muche",
+      "position": "Midfielder",
+      "number": 15,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/313209.png"
+    },
+    {
+      "name": "A. Serna",
+      "position": "Midfielder",
+      "number": 80,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/13155.png"
+    },
+    {
+      "name": "D. Worko",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/387146.png"
+    },
+    {
+      "name": "A. Yona",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/349781.png"
+    },
+    {
+      "name": "T. Yosefi",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/111267.png"
+    },
+    {
+      "name": "R. Abergil",
+      "position": "Attacker",
+      "number": 18,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/554391.png"
+    },
+    {
+      "name": "E. Ansah",
+      "position": "Attacker",
+      "number": 13,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/79160.png"
+    },
+    {
+      "name": "O. Atzili",
+      "position": "Attacker",
+      "number": 77,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/104849.png"
+    },
+    {
+      "name": "J. Kalu",
+      "position": "Attacker",
+      "number": 9,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/360516.png"
+    },
+    {
+      "name": "T. Muzi",
+      "position": "Attacker",
+      "number": 11,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/131558.png"
+    },
+    {
+      "name": "Yan Shicot",
+      "position": "Attacker",
+      "number": 21,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/678228.png"
+    },
+    {
+      "name": "Y. Shua",
+      "position": "Attacker",
+      "number": 7,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/108018.png"
+    },
+    {
+      "name": "S. Weissman",
+      "position": "Attacker",
+      "number": 19,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/70339.png"
+    }
+  ],
+  "valletta-fc": [
+    {
+      "name": "J. Archibald",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/88910.png"
+    },
+    {
+      "name": "L. Frendo",
+      "position": "Goalkeeper",
+      "number": 13,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/415988.png"
+    },
+    {
+      "name": "Maringa Adilson",
+      "position": "Goalkeeper",
+      "number": 90,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/549744.png"
+    },
+    {
+      "name": "J. Baldacchino",
+      "position": "Defender",
+      "number": 24,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/674373.png"
+    },
+    {
+      "name": "E. Bičakčić",
+      "position": "Defender",
+      "number": 4,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/705.png"
+    },
+    {
+      "name": "M. Ellul",
+      "position": "Defender",
+      "number": 3,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/425076.png"
+    },
+    {
+      "name": "Liam James",
+      "position": "Defender",
+      "number": 8,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/642106.png"
+    },
+    {
+      "name": "E. Mbende",
+      "position": "Defender",
+      "number": 33,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/549724.png"
+    },
+    {
+      "name": "M. Morello",
+      "position": "Defender",
+      "number": 94,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/58253.png"
+    },
+    {
+      "name": "S. Radić",
+      "position": "Defender",
+      "number": 55,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/45660.png"
+    },
+    {
+      "name": "M. Ancilleri",
+      "position": "Midfielder",
+      "number": 18,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/619657.png"
+    },
+    {
+      "name": "J. Azzopardi",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/394646.png"
+    },
+    {
+      "name": "K. Ewurum",
+      "position": "Midfielder",
+      "number": 80,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/394708.png"
+    },
+    {
+      "name": "C. Formosa",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/647045.png"
+    },
+    {
+      "name": "Z. Formosa",
+      "position": "Midfielder",
+      "number": 98,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/640842.png"
+    },
+    {
+      "name": "N. Micallef",
+      "position": "Midfielder",
+      "number": 44,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/144947.png"
+    },
+    {
+      "name": "B. Paiber",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/112475.png"
+    },
+    {
+      "name": "R. Prša",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/80247.png"
+    },
+    {
+      "name": "P. Sekulović",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/67030.png"
+    },
+    {
+      "name": "M. Sylla",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/17753.png"
+    },
+    {
+      "name": "Y. Yankam",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/112463.png"
+    },
+    {
+      "name": "Alex Tanque",
+      "position": "Attacker",
+      "number": 32,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/564385.png"
+    },
+    {
+      "name": "S. Chetcuti",
+      "position": "Attacker",
+      "number": 5,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/619761.png"
+    },
+    {
+      "name": "Bruno Gomes",
+      "position": "Attacker",
+      "number": 9,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/41343.png"
+    },
+    {
+      "name": "M. P. Grech",
+      "position": "Attacker",
+      "number": 28,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/640841.png"
+    },
+    {
+      "name": "K. Saliba",
+      "position": "Attacker",
+      "number": 28,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/683680.png"
+    },
+    {
+      "name": "Diogo Tavares",
+      "position": "Attacker",
+      "number": 19,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/179524.png"
+    },
+    {
+      "name": "Thaylor Lubanzadio",
+      "position": "Attacker",
+      "number": 77,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/178976.png"
+    },
+    {
+      "name": "A. Zammit",
+      "position": "Attacker",
+      "number": 8,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/283562.png"
+    }
+  ],
+  "fc-vaduz": [
+    {
+      "name": "B. Büchel",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/48729.png"
+    },
+    {
+      "name": "N. Follmi",
+      "position": "Goalkeeper",
+      "number": 38,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/585065.png"
+    },
+    {
+      "name": "L. Schaffran",
+      "position": "Goalkeeper",
+      "number": 25,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/25143.png"
+    },
+    {
+      "name": "M. Beeli",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/314853.png"
+    },
+    {
+      "name": "L. Berisha",
+      "position": "Defender",
+      "number": 5,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/48789.png"
+    },
+    {
+      "name": "L. Celentano",
+      "position": "Defender",
+      "number": 37,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/668534.png"
+    },
+    {
+      "name": "N. Lang",
+      "position": "Defender",
+      "number": 27,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/128847.png"
+    },
+    {
+      "name": "M. Sawadogo",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/323370.png"
+    },
+    {
+      "name": "D. Simani",
+      "position": "Defender",
+      "number": 6,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/48766.png"
+    },
+    {
+      "name": "Juan Cabrera",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/280453.png"
+    },
+    {
+      "name": "M. Ćoćić",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/273305.png"
+    },
+    {
+      "name": "L. Dalipi",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/441229.png"
+    },
+    {
+      "name": "M. Eberhard",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/161813.png"
+    },
+    {
+      "name": "M. Hammerich",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/48662.png"
+    },
+    {
+      "name": "N. Hasler",
+      "position": "Defender",
+      "number": 4,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/51261.png"
+    },
+    {
+      "name": "C. Konietzke",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/412715.png"
+    },
+    {
+      "name": "L. Mack",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/128547.png"
+    },
+    {
+      "name": "D. Schwizer",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/48437.png"
+    },
+    {
+      "name": "S. Seiler",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/135962.png"
+    },
+    {
+      "name": "J. Stark",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/202738.png"
+    },
+    {
+      "name": "Mattia Walker",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/497788.png"
+    },
+    {
+      "name": "L. Akhalaia",
+      "position": "Attacker",
+      "number": 24,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/585759.png"
+    },
+    {
+      "name": "D. Djokic",
+      "position": "Attacker",
+      "number": 19,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/151746.png"
+    },
+    {
+      "name": "D. Kasper",
+      "position": "Attacker",
+      "number": 18,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/278917.png"
+    },
+    {
+      "name": "M. Monsberger",
+      "position": "Attacker",
+      "number": 9,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/7223.png"
+    },
+    {
+      "name": "R. Neelakandan",
+      "position": "Attacker",
+      "number": 27,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/382190.png"
+    },
+    {
+      "name": "D. Sorgić",
+      "position": "Attacker",
+      "number": 39,
+      "age": 36,
+      "photo": "https://media.api-sports.io/football/players/48443.png"
+    }
+  ],
+  "fk-liepaja": [
+    {
+      "name": "D. Ošs",
+      "position": "Goalkeeper",
+      "number": 24,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/72540.png"
+    },
+    {
+      "name": "D. Petković",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/20622.png"
+    },
+    {
+      "name": "A. Sorokins",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/210181.png"
+    },
+    {
+      "name": "K. Iļjins",
+      "position": "Defender",
+      "number": 3,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/72494.png"
+    },
+    {
+      "name": "V. Isajevs",
+      "position": "Defender",
+      "number": 26,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/56033.png"
+    },
+    {
+      "name": "M. Martins",
+      "position": "Defender",
+      "number": 4,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/70363.png"
+    },
+    {
+      "name": "C. Mory",
+      "position": "Defender",
+      "number": 15,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/638710.png"
+    },
+    {
+      "name": "E. Rodolphe",
+      "position": "Defender",
+      "number": 6,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/638709.png"
+    },
+    {
+      "name": "V. Sorokins",
+      "position": "Defender",
+      "number": 35,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/72364.png"
+    },
+    {
+      "name": "B. Straalman",
+      "position": "Defender",
+      "number": 2,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/37225.png"
+    },
+    {
+      "name": "João Pedro",
+      "position": "Defender",
+      "number": 34,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/297226.png"
+    },
+    {
+      "name": "A. HaÃ¯dara",
+      "position": "Midfielder",
+      "number": 23,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/303089.png"
+    },
+    {
+      "name": "K. Kirfs",
+      "position": "Midfielder",
+      "number": 41,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/667446.png"
+    },
+    {
+      "name": "A. Korobenko",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/63418.png"
+    },
+    {
+      "name": "I. Korotkovs",
+      "position": "Midfielder",
+      "number": 33,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/72552.png"
+    },
+    {
+      "name": "Lauris Lakutis",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/590739.png"
+    },
+    {
+      "name": "Irad Mushindi",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/646015.png"
+    },
+    {
+      "name": "A. Ogunniyi",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/296700.png"
+    },
+    {
+      "name": "L. Strumia",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/72528.png"
+    },
+    {
+      "name": "R. Untulis",
+      "position": "Midfielder",
+      "number": 40,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/662347.png"
+    },
+    {
+      "name": "B. Almazbekov",
+      "position": "Attacker",
+      "number": 11,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/364380.png"
+    },
+    {
+      "name": "Crysthyan Lucas",
+      "position": "Attacker",
+      "number": 9,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/631748.png"
+    },
+    {
+      "name": "K. Leidsman",
+      "position": "Attacker",
+      "number": 44,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/93291.png"
+    },
+    {
+      "name": "Afonso Leite",
+      "position": "Attacker",
+      "number": 77,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/669461.png"
+    },
+    {
+      "name": "B. Melnis",
+      "position": "Attacker",
+      "number": 17,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/282454.png"
+    },
+    {
+      "name": "J. Ede",
+      "position": "Attacker",
+      "number": 18,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/405737.png"
+    },
+    {
+      "name": "D. Patijčuks",
+      "position": "Attacker",
+      "number": 70,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/326046.png"
+    }
+  ],
+  "kalju-nomme": [
+    {
+      "name": "J. Kindel",
+      "position": "Goalkeeper",
+      "number": 96,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/544827.png"
+    },
+    {
+      "name": "Maksim Pavlov",
+      "position": "Goalkeeper",
+      "number": 69,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/590720.png"
+    },
+    {
+      "name": "H. Perk",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/60655.png"
+    },
+    {
+      "name": "A. Boronilštšikov",
+      "position": "Defender",
+      "number": 4,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/348071.png"
+    },
+    {
+      "name": "F. Jekimov",
+      "position": "Defender",
+      "number": 74,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/427911.png"
+    },
+    {
+      "name": "J. Lillemets",
+      "position": "Defender",
+      "number": 2,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/459067.png"
+    },
+    {
+      "name": "D. Mashchenko",
+      "position": "Defender",
+      "number": 78,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/333241.png"
+    },
+    {
+      "name": "A. Nikolajev",
+      "position": "Defender",
+      "number": 22,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/292492.png"
+    },
+    {
+      "name": "J. Pihkva",
+      "position": "Defender",
+      "number": 99,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/395220.png"
+    },
+    {
+      "name": "M. Podholjuzin",
+      "position": "Defender",
+      "number": 50,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/60622.png"
+    },
+    {
+      "name": "D. Sõtšugov",
+      "position": "Defender",
+      "number": 88,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/60470.png"
+    },
+    {
+      "name": "M. Tambedou",
+      "position": "Defender",
+      "number": 20,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/375311.png"
+    },
+    {
+      "name": "R. Vukušić",
+      "position": "Defender",
+      "number": 46,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/395739.png"
+    },
+    {
+      "name": "N. Ivanov",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/292493.png"
+    },
+    {
+      "name": "K. Kask",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/60765.png"
+    },
+    {
+      "name": "U. Kõrre",
+      "position": "Midfielder",
+      "number": 5,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/67341.png"
+    },
+    {
+      "name": "Enrique Lotar",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/448179.png"
+    },
+    {
+      "name": "O. Musolitin",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/432295.png"
+    },
+    {
+      "name": "R. Siht",
+      "position": "Midfielder",
+      "number": 26,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/372026.png"
+    },
+    {
+      "name": "B. Vaštšuk",
+      "position": "Midfielder",
+      "number": 59,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/11032.png"
+    },
+    {
+      "name": "Tiago Baptista",
+      "position": "Attacker",
+      "number": 21,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/441502.png"
+    },
+    {
+      "name": "Idalecio",
+      "position": "Attacker",
+      "number": 52,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/667153.png"
+    },
+    {
+      "name": "I. Jabir",
+      "position": "Attacker",
+      "number": 30,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/511224.png"
+    },
+    {
+      "name": "M. Männilaan",
+      "position": "Attacker",
+      "number": 27,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/60376.png"
+    },
+    {
+      "name": "M. Orlov",
+      "position": "Attacker",
+      "number": 11,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/318299.png"
+    },
+    {
+      "name": "D. Tarassenkov",
+      "position": "Attacker",
+      "number": 7,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/373653.png"
+    }
+  ],
+  "coleraine-fc": [
+    {
+      "name": "Z. Robinson",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/568351.png"
+    },
+    {
+      "name": "R. Schofield",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/18001.png"
+    },
+    {
+      "name": "L. Webb",
+      "position": "Goalkeeper",
+      "number": 12,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/215896.png"
+    },
+    {
+      "name": "D. Boyle",
+      "position": "Defender",
+      "number": 4,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/20071.png"
+    },
+    {
+      "name": "Wallace Campbell",
+      "position": "Defender",
+      "number": 36,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/667349.png"
+    },
+    {
+      "name": "B. Doherty",
+      "position": "Defender",
+      "number": 23,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/106036.png"
+    },
+    {
+      "name": "C. Dunne",
+      "position": "Defender",
+      "number": 88,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/44915.png"
+    },
+    {
+      "name": "L. Ives",
+      "position": "Defender",
+      "number": 15,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/105959.png"
+    },
+    {
+      "name": "D. Jarvis",
+      "position": "Defender",
+      "number": 3,
+      "age": 33,
+      "photo": "https://media.api-sports.io/football/players/69236.png"
+    },
+    {
+      "name": "L. Kane",
+      "position": "Defender",
+      "number": 2,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/128080.png"
+    },
+    {
+      "name": "Rowan McDonald",
+      "position": "Defender",
+      "number": 21,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/144738.png"
+    },
+    {
+      "name": "R. Slevin",
+      "position": "Defender",
+      "number": 19,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/125464.png"
+    },
+    {
+      "name": "C. Stewart",
+      "position": "Defender",
+      "number": 5,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/348263.png"
+    },
+    {
+      "name": "F. Tonks",
+      "position": "Defender",
+      "number": 32,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/626576.png"
+    },
+    {
+      "name": "A. Wilson",
+      "position": "Defender",
+      "number": 16,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/97960.png"
+    },
+    {
+      "name": "J. Cooper",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/119986.png"
+    },
+    {
+      "name": "M. Coyle",
+      "position": "Midfielder",
+      "number": 14,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/69496.png"
+    },
+    {
+      "name": "O. Devlin",
+      "position": "Midfielder",
+      "number": 28,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/535566.png"
+    },
+    {
+      "name": "J. Henderson",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/138402.png"
+    },
+    {
+      "name": "L. McCourt",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/651539.png"
+    },
+    {
+      "name": "L. McGregor",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/321858.png"
+    },
+    {
+      "name": "W. Patching",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/18023.png"
+    },
+    {
+      "name": "J. Thomson",
+      "position": "Midfielder",
+      "number": 42,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/45251.png"
+    },
+    {
+      "name": "Ben Wylie",
+      "position": "Midfielder",
+      "number": 22,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/301210.png"
+    },
+    {
+      "name": "A. Brooks",
+      "position": "Attacker",
+      "number": 18,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/326845.png"
+    },
+    {
+      "name": "S. Devine",
+      "position": "Attacker",
+      "number": 20,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/391843.png"
+    },
+    {
+      "name": "O. McHugh",
+      "position": "Attacker",
+      "number": 29,
+      "age": 15,
+      "photo": "https://media.api-sports.io/football/players/642510.png"
+    },
+    {
+      "name": "C. Murray",
+      "position": "Attacker",
+      "number": 10,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/45309.png"
+    },
+    {
+      "name": "M. Shevlin",
+      "position": "Attacker",
+      "number": 9,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/128012.png"
+    }
+  ],
+  "fc-differdange-03": [
+    {
+      "name": "R. Da Silva Correia",
+      "position": "Goalkeeper",
+      "number": 30,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/646519.png"
+    },
+    {
+      "name": "Felipe",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 42,
+      "photo": "https://media.api-sports.io/football/players/28520.png"
+    },
+    {
+      "name": "H. Wolf",
+      "position": "Goalkeeper",
+      "number": 99,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/379500.png"
+    },
+    {
+      "name": "J. Bedouret",
+      "position": "Defender",
+      "number": 14,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/325437.png"
+    },
+    {
+      "name": "G. Bei",
+      "position": "Defender",
+      "number": 77,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/203736.png"
+    },
+    {
+      "name": "K. D&apos;Anzico",
+      "position": "Defender",
+      "number": 4,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/122174.png"
+    },
+    {
+      "name": "G. Franzoni",
+      "position": "Defender",
+      "number": 25,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/203712.png"
+    },
+    {
+      "name": "Pedro Gomes Ricciulli Joao",
+      "position": "Defender",
+      "number": 66,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/136114.png"
+    },
+    {
+      "name": "M. Mabuza",
+      "position": "Defender",
+      "number": 42,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/563454.png"
+    },
+    {
+      "name": "Simão Melhôr",
+      "position": "Defender",
+      "number": 88,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/141829.png"
+    },
+    {
+      "name": "F. Mendes",
+      "position": "Defender",
+      "number": 26,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/522395.png"
+    },
+    {
+      "name": "Marco Grilo",
+      "position": "Defender",
+      "number": 16,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/128378.png"
+    },
+    {
+      "name": "M. Tomazi",
+      "position": "Defender",
+      "number": 97,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/629367.png"
+    },
+    {
+      "name": "Bruno Reis",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/41366.png"
+    },
+    {
+      "name": "Leandro Borges",
+      "position": "Midfielder",
+      "number": 77,
+      "age": 34,
+      "photo": "https://media.api-sports.io/football/players/142275.png"
+    },
+    {
+      "name": "P. Mendes Alves",
+      "position": "Midfielder",
+      "number": 88,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/544875.png"
+    },
+    {
+      "name": "Rafael Pinto",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/142683.png"
+    },
+    {
+      "name": "L. Rauch",
+      "position": "Midfielder",
+      "number": 21,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/191164.png"
+    },
+    {
+      "name": "Marceu Soares Delgado",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/525823.png"
+    },
+    {
+      "name": "S. Thill",
+      "position": "Midfielder",
+      "number": 31,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/105829.png"
+    },
+    {
+      "name": "A. Abreu",
+      "position": "Attacker",
+      "number": 10,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/96391.png"
+    },
+    {
+      "name": "A. Benedict",
+      "position": "Attacker",
+      "number": 99,
+      "age": 23,
+      "photo": "https://media.api-sports.io/football/players/382973.png"
+    },
+    {
+      "name": "A. Buch",
+      "position": "Attacker",
+      "number": 9,
+      "age": 32,
+      "photo": "https://media.api-sports.io/football/players/203663.png"
+    },
+    {
+      "name": "Gustavo Vintecinco",
+      "position": "Attacker",
+      "number": 95,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/99190.png"
+    },
+    {
+      "name": "C. Jean",
+      "position": "Attacker",
+      "number": 13,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/22151.png"
+    },
+    {
+      "name": "A. Mfoumou",
+      "position": "Attacker",
+      "number": 7,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/524218.png"
+    },
+    {
+      "name": "J. Sunday",
+      "position": "Attacker",
+      "number": 15,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/408204.png"
+    }
+  ],
+  "torpedo-kutaisi": [
+    {
+      "name": "Demetre Buliskeria",
+      "position": "Goalkeeper",
+      "number": 33,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/24732.png"
+    },
+    {
+      "name": "O. Goshadze",
+      "position": "Goalkeeper",
+      "number": 1,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/24571.png"
+    },
+    {
+      "name": "F. Kljajić",
+      "position": "Goalkeeper",
+      "number": 31,
+      "age": 35,
+      "photo": "https://media.api-sports.io/football/players/45821.png"
+    },
+    {
+      "name": "S. Kopaliani",
+      "position": "Goalkeeper",
+      "number": 38,
+      "age": 19,
+      "photo": "https://media.api-sports.io/football/players/157018.png"
+    },
+    {
+      "name": "D. Bukia",
+      "position": "Defender",
+      "number": 22,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/440016.png"
+    },
+    {
+      "name": "A. Chitanava",
+      "position": "Defender",
+      "number": 23,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/665499.png"
+    },
+    {
+      "name": "G. Katkov",
+      "position": "Defender",
+      "number": 13,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/494358.png"
+    },
+    {
+      "name": "L. Kuprava",
+      "position": "Defender",
+      "number": 15,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/545965.png"
+    },
+    {
+      "name": "L. Latsabidze",
+      "position": "Defender",
+      "number": 24,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/361435.png"
+    },
+    {
+      "name": "T. Nadaraia",
+      "position": "Defender",
+      "number": 5,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/24553.png"
+    },
+    {
+      "name": "M. Šimić",
+      "position": "Defender",
+      "number": 4,
+      "age": 30,
+      "photo": "https://media.api-sports.io/football/players/125575.png"
+    },
+    {
+      "name": "M. Stamatov",
+      "position": "Defender",
+      "number": 33,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/11301.png"
+    },
+    {
+      "name": "T. Antia",
+      "position": "Midfielder",
+      "number": 30,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/644151.png"
+    },
+    {
+      "name": "G. Arabidze",
+      "position": "Midfielder",
+      "number": 11,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/41468.png"
+    },
+    {
+      "name": "M. Cherif",
+      "position": "Midfielder",
+      "number": 6,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/261077.png"
+    },
+    {
+      "name": "M. Chitaishvili",
+      "position": "Midfielder",
+      "number": 29,
+      "age": 22,
+      "photo": "https://media.api-sports.io/football/players/320313.png"
+    },
+    {
+      "name": "D. Deisadze",
+      "position": "Midfielder",
+      "number": 35,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/463871.png"
+    },
+    {
+      "name": "Felipe Pires",
+      "position": "Attacker",
+      "number": 14,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/9940.png"
+    },
+    {
+      "name": "G. Gergedava",
+      "position": "Midfielder",
+      "number": 25,
+      "age": 16,
+      "photo": "https://media.api-sports.io/football/players/655048.png"
+    },
+    {
+      "name": "M. Itrak",
+      "position": "Midfielder",
+      "number": 8,
+      "age": 25,
+      "photo": "https://media.api-sports.io/football/players/128479.png"
+    },
+    {
+      "name": "N. Lominadze",
+      "position": "Midfielder",
+      "number": 17,
+      "age": 24,
+      "photo": "https://media.api-sports.io/football/players/215828.png"
+    },
+    {
+      "name": "V. Mamuchashvili",
+      "position": "Midfielder",
+      "number": 7,
+      "age": 28,
+      "photo": "https://media.api-sports.io/football/players/24585.png"
+    },
+    {
+      "name": "D. Pertaia",
+      "position": "Midfielder",
+      "number": 19,
+      "age": 18,
+      "photo": "https://media.api-sports.io/football/players/560577.png"
+    },
+    {
+      "name": "A. Shulaia",
+      "position": "Midfielder",
+      "number": 40,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/24613.png"
+    },
+    {
+      "name": "D. Skorup",
+      "position": "Midfielder",
+      "number": 20,
+      "age": 26,
+      "photo": "https://media.api-sports.io/football/players/14595.png"
+    },
+    {
+      "name": "T. Tsikoridze",
+      "position": "Midfielder",
+      "number": 37,
+      "age": 21,
+      "photo": "https://media.api-sports.io/football/players/665303.png"
+    },
+    {
+      "name": "K. Andrić",
+      "position": "Attacker",
+      "number": 9,
+      "age": 31,
+      "photo": "https://media.api-sports.io/football/players/1325.png"
+    },
+    {
+      "name": "N. Khatoyan",
+      "position": "Attacker",
+      "number": 28,
+      "age": 17,
+      "photo": "https://media.api-sports.io/football/players/655050.png"
+    },
+    {
+      "name": "G. Kokhreidze",
+      "position": "Midfielder",
+      "number": 10,
+      "age": 27,
+      "photo": "https://media.api-sports.io/football/players/24568.png"
+    },
+    {
+      "name": "V. Pinson",
+      "position": "Attacker",
+      "number": 39,
+      "age": 29,
+      "photo": "https://media.api-sports.io/football/players/22017.png"
+    },
+    {
+      "name": "L. Pridonishvili",
+      "position": "Attacker",
+      "number": 36,
+      "age": 20,
+      "photo": "https://media.api-sports.io/football/players/606548.png"
     }
   ]
 };
