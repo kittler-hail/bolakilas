@@ -3,7 +3,7 @@
   "home": "Osasuna",
   "away": "Malaga",
   "statusCode": "FT",
-  "updatedAt": "23/11/2026 03:55 WIB",
+  "updatedAt": "23/11/2026 08:29 WIB",
   "statistics": {
     "home": {
       "possession": 47,
@@ -119,7 +119,7 @@
           "number": 6,
           "name": "Lucas Torró",
           "position": "Gelandang",
-          "rating": "6.8"
+          "rating": "6.3"
         },
         {
           "number": 35,
@@ -245,7 +245,7 @@
           "number": 8,
           "name": "Carlos Dotor",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.0"
         },
         {
           "number": 21,
@@ -319,7 +319,7 @@
           "number": 9,
           "name": "Chupe",
           "position": "Penyerang",
-          "rating": "6.0"
+          "rating": "6.4"
         },
         {
           "number": 26,
