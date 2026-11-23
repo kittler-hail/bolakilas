@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — BERITA TRANSFER
    File ini di-generate OTOMATIS oleh fetch-transfers.js (sumber data:
-   API-Football v3) pada 2026-11-16T12:10:37.149Z.
+   API-Football v3) pada 2026-11-23T13:46:59.187Z.
    Jangan diedit manual — akan tertimpa tiap run mingguan.
 
    Berisi transfer 45 hari terakhir (dari tim-tim di liga
@@ -12,6 +12,14 @@
    ========================================================= */
 
 const transferNews = [
+  {
+    "key": "38699|2026-11-05|FK Crvena Zvezda|Oviedo",
+    "tag": "Transfer",
+    "title": "L. Ilić pindah dari Oviedo ke FK Crvena Zvezda",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "05/11/2026",
+    "logo": "https://media.api-sports.io/football/teams/598.png"
+  },
   {
     "key": "671921|2026-10-30|Kebe Hamadi|Lille",
     "tag": "Transfer",
@@ -32,6 +40,30 @@ const transferNews = [
     "key": "668708|2026-10-30|Hamidi Kamel|Lille",
     "tag": "Transfer",
     "title": "K. Hamidi pindah dari Lille ke Hamidi Kamel",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "671021|2026-10-30|Diarra Moussa|Lens",
+    "tag": "Transfer",
+    "title": "M. Diarra pindah dari Lens ke Diarra Moussa",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "668702|2026-10-30|Bernardino Nathanael|Lens",
+    "tag": "Transfer",
+    "title": "N. Gane Bernardino pindah dari Lens ke Bernardino Nathanael",
+    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
+    "time": "30/10/2026",
+    "logo": ""
+  },
+  {
+    "key": "668701|2026-10-30|Kemtchoum-Stasiowski Noe|Lens",
+    "tag": "Transfer",
+    "title": "N. Kemtchoum-Stasiowski pindah dari Lens ke Kemtchoum-Stasiowski Noe",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
     "time": "30/10/2026",
     "logo": ""
@@ -85,30 +117,6 @@ const transferNews = [
     "logo": ""
   },
   {
-    "key": "671021|2026-10-30|Diarra Moussa|Lens",
-    "tag": "Transfer",
-    "title": "M. Diarra pindah dari Lens ke Diarra Moussa",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/10/2026",
-    "logo": ""
-  },
-  {
-    "key": "668702|2026-10-30|Gane Bernardino Nathanael|Lens",
-    "tag": "Transfer",
-    "title": "N. Gane Bernardino pindah dari Lens ke Gane Bernardino Nathanael",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/10/2026",
-    "logo": ""
-  },
-  {
-    "key": "668701|2026-10-30|Kemtchoum-Stasiowski Noe|Lens",
-    "tag": "Transfer",
-    "title": "N. Kemtchoum-Stasiowski pindah dari Lens ke Kemtchoum-Stasiowski Noe",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/10/2026",
-    "logo": ""
-  },
-  {
     "key": "358103|2026-10-30|Pejazic Mario|Borussia Dortmund",
     "tag": "Transfer",
     "title": "M. Pejazic pindah dari Borussia Dortmund ke Pejazic Mario",
@@ -147,6 +155,14 @@ const transferNews = [
     "desc": "Transfer resmi tercatat di API-Football (Raise).",
     "time": "30/10/2026",
     "logo": "https://media.api-sports.io/football/teams/492.png"
+  },
+  {
+    "key": "576939|2026-10-30|Viking|Viking U19",
+    "tag": "Transfer",
+    "title": "S. Escobar pindah dari Viking U19 ke Viking",
+    "desc": "Transfer resmi tercatat di API-Football (-).",
+    "time": "30/10/2026",
+    "logo": "https://media.api-sports.io/football/teams/759.png"
   },
   {
     "key": "568247|2026-10-30|Ouro Bang Na Rayan|Marseille",
@@ -224,22 +240,6 @@ const transferNews = [
     "key": "552905|2026-10-30|Samb Demba|Juventus",
     "tag": "Transfer",
     "title": "D. S. Samb pindah dari Juventus ke Samb Demba",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/10/2026",
-    "logo": ""
-  },
-  {
-    "key": "563925|2026-10-30|Okolo Daniel|Juventus",
-    "tag": "Transfer",
-    "title": "D. Okolo pindah dari Juventus ke Okolo Daniel",
-    "desc": "Transfer resmi tercatat di API-Football (Free agent).",
-    "time": "30/10/2026",
-    "logo": ""
-  },
-  {
-    "key": "625345|2026-10-30|Ceppi Paolo|Juventus",
-    "tag": "Transfer",
-    "title": "P. Ceppi pindah dari Juventus ke Ceppi Paolo",
     "desc": "Transfer resmi tercatat di API-Football (Free agent).",
     "time": "30/10/2026",
     "logo": ""
