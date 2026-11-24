@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-23T22:19:55.370Z.
+   API-Football v3) pada 2026-11-24T06:36:51.797Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -73,15 +73,15 @@ const siteData = {
         "form": {
             "home": {
                 "results": [
-                    "D",
                     "L",
                     "D",
                     "W",
-                    "L"
+                    "L",
+                    "W"
                 ],
-                "cleanSheets": 3,
+                "cleanSheets": 4,
                 "failedToScore": 1,
-                "goalsFor": 16,
+                "goalsFor": 20,
                 "goalsAgainst": 11,
                 "winStreak": 1,
                 "attack": 50,
@@ -89,17 +89,17 @@ const siteData = {
             },
             "away": {
                 "results": [
-                    "D",
                     "L",
                     "L",
                     "W",
-                    "W"
+                    "W",
+                    "L"
                 ],
                 "cleanSheets": 4,
-                "failedToScore": 3,
+                "failedToScore": 4,
                 "goalsFor": 12,
-                "goalsAgainst": 10,
-                "winStreak": 1,
+                "goalsAgainst": 14,
+                "winStreak": 2,
                 "attack": 50,
                 "defense": 50
             }
@@ -180,7 +180,7 @@ const siteData = {
                     "team": "home"
                 },
                 {
-                    "minute": "90+1",
+                    "minute": "90",
                     "player": "B. Yildirim",
                     "team": "home"
                 }
@@ -188,19 +188,19 @@ const siteData = {
             "cards": [
                 {
                     "minute": "69",
-                    "player": "E. Mahmic",
+                    "player": "Ermin Mahmić",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "79",
-                    "player": "E. Gurluk",
+                    "player": "Emircan Gürlük",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "82",
-                    "player": "M. Diomande",
+                    "player": "Mohammed Diomande",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -469,7 +469,10 @@ const siteData = {
             "away": "Los Angeles FC",
             "stadium": "Citypark",
             "round": "Round of 16",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 3,
+            "awayScore": 2,
             "homeLogo": "https://media.api-sports.io/football/teams/20787.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1616.png",
             "prediction": "1 - 2",
@@ -504,7 +507,54 @@ const siteData = {
                     "home": 31,
                     "away": 69
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "34",
+                    "player": "Daniel Edelman",
+                    "team": "home"
+                },
+                {
+                    "minute": "51",
+                    "player": "Sang-bin Jung",
+                    "team": "home"
+                },
+                {
+                    "minute": "62",
+                    "player": "Sergi Palencia",
+                    "team": "away"
+                },
+                {
+                    "minute": "78",
+                    "player": "Simon Becher",
+                    "team": "home"
+                },
+                {
+                    "minute": "85",
+                    "player": "Denis Bouanga",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "80",
+                    "player": "Eddie Segura",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "84",
+                    "player": "Yoann Damet",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "85",
+                    "player": "Tomas Ostrak",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -616,6 +666,17 @@ const siteData = {
             },
             {
                 "rank": 6,
+                "team": "Brentford",
+                "logo": "https://media.api-sports.io/football/teams/55.png",
+                "played": 11,
+                "win": 4,
+                "draw": 5,
+                "lose": 2,
+                "gd": 9,
+                "points": 17
+            },
+            {
+                "rank": 7,
                 "team": "Leeds",
                 "logo": "https://media.api-sports.io/football/teams/63.png",
                 "played": 11,
@@ -624,17 +685,6 @@ const siteData = {
                 "lose": 2,
                 "gd": 5,
                 "points": 17
-            },
-            {
-                "rank": 7,
-                "team": "Everton",
-                "logo": "https://media.api-sports.io/football/teams/45.png",
-                "played": 10,
-                "win": 4,
-                "draw": 4,
-                "lose": 2,
-                "gd": 2,
-                "points": 16
             },
             {
                 "rank": 8,
@@ -649,6 +699,17 @@ const siteData = {
             },
             {
                 "rank": 9,
+                "team": "Everton",
+                "logo": "https://media.api-sports.io/football/teams/45.png",
+                "played": 11,
+                "win": 4,
+                "draw": 4,
+                "lose": 3,
+                "gd": -2,
+                "points": 16
+            },
+            {
+                "rank": 10,
                 "team": "Tottenham",
                 "logo": "https://media.api-sports.io/football/teams/47.png",
                 "played": 11,
@@ -657,17 +718,6 @@ const siteData = {
                 "lose": 4,
                 "gd": 1,
                 "points": 15
-            },
-            {
-                "rank": 10,
-                "team": "Brentford",
-                "logo": "https://media.api-sports.io/football/teams/55.png",
-                "played": 10,
-                "win": 3,
-                "draw": 5,
-                "lose": 2,
-                "gd": 5,
-                "points": 14
             },
             {
                 "rank": 11,
@@ -937,6 +987,17 @@ const siteData = {
             },
             {
                 "rank": 15,
+                "team": "Levante",
+                "logo": "https://media.api-sports.io/football/teams/539.png",
+                "played": 13,
+                "win": 2,
+                "draw": 6,
+                "lose": 5,
+                "gd": -5,
+                "points": 12
+            },
+            {
+                "rank": 16,
                 "team": "Rayo Vallecano",
                 "logo": "https://media.api-sports.io/football/teams/728.png",
                 "played": 12,
@@ -947,7 +1008,7 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 16,
+                "rank": 17,
                 "team": "Valencia",
                 "logo": "https://media.api-sports.io/football/teams/532.png",
                 "played": 13,
@@ -958,7 +1019,7 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 17,
+                "rank": 18,
                 "team": "Getafe",
                 "logo": "https://media.api-sports.io/football/teams/546.png",
                 "played": 13,
@@ -969,26 +1030,15 @@ const siteData = {
                 "points": 12
             },
             {
-                "rank": 18,
-                "team": "Levante",
-                "logo": "https://media.api-sports.io/football/teams/539.png",
-                "played": 12,
-                "win": 2,
-                "draw": 5,
-                "lose": 5,
-                "gd": -5,
-                "points": 11
-            },
-            {
                 "rank": 19,
                 "team": "Elche",
                 "logo": "https://media.api-sports.io/football/teams/797.png",
-                "played": 12,
+                "played": 13,
                 "win": 2,
-                "draw": 4,
+                "draw": 5,
                 "lose": 6,
                 "gd": -6,
-                "points": 10
+                "points": 11
             },
             {
                 "rank": 20,
@@ -1825,7 +1875,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "24/11/2026 05:19 WIB",
+    "standingsUpdated": "24/11/2026 13:36 WIB",
     "topScorers": {
         "Premier League": [
             {
