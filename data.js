@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-25T02:52:10.564Z.
+   API-Football v3) pada 2026-11-25T11:54:55.230Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -136,20 +136,20 @@ const siteData = {
             "goals": [
                 {
                     "minute": "90+2",
-                    "player": "M. Bogarde",
+                    "player": "Melayro Bogarde",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "71",
-                    "player": "K. Danek",
+                    "player": "Krystof Daněk",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "89",
-                    "player": "J. Gundersen",
+                    "player": "Jostein Gundersen",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -205,50 +205,44 @@ const siteData = {
             "goals": [
                 {
                     "minute": "77",
-                    "player": "D. Gul",
+                    "player": "Deniz Gül",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "41",
-                    "player": "N. Jackson",
+                    "player": "Nicolas Jackson",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "52",
-                    "player": "J. McGinn",
+                    "player": "John McGinn",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "53",
-                    "player": "A. Batrakov",
+                    "player": "Aleksey Batrakov",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "58",
-                    "player": "Joao Gomes",
+                    "player": "Yunus Akgün",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "João Gomes",
                     "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "58",
-                    "player": "Y. Akgun",
-                    "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90",
-                    "player": "R. Barkley",
-                    "team": "away",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+1",
-                    "player": "U. Emery",
+                    "player": "Ross Barkley",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -395,12 +389,12 @@ const siteData = {
             "goals": [
                 {
                     "minute": "10",
-                    "player": "V. Gyokeres",
+                    "player": "Viktor Gyökeres",
                     "team": "home"
                 },
                 {
                     "minute": "55",
-                    "player": "M. Beier",
+                    "player": "Maximilian Beier",
                     "team": "away"
                 }
             ]
@@ -455,35 +449,29 @@ const siteData = {
             "goals": [
                 {
                     "minute": "55",
-                    "player": "R. Hojlund",
+                    "player": "Rasmus Højlund",
                     "team": "away"
                 },
                 {
                     "minute": "67",
-                    "player": "A. Bouaddi",
+                    "player": "Ayyoub Bouaddi",
                     "team": "home"
                 },
                 {
                     "minute": "76",
-                    "player": "N. Lang",
+                    "player": "Noa Lang",
                     "team": "away"
                 },
                 {
                     "minute": "86",
-                    "player": "R. Cherki",
+                    "player": "Rayan Cherki",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "82",
-                    "player": "M. Guehi",
-                    "team": "home",
-                    "type": "yellow"
-                },
-                {
-                    "minute": "90+3",
-                    "player": "G. Donnarumma",
+                    "player": "Marc Guéhi",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -495,7 +483,7 @@ const siteData = {
             "time": "03:00",
             "home": "RB Leipzig",
             "away": "Lens",
-            "stadium": "Red Bull Arena",
+            "stadium": "Leipzig Red Bull Arena",
             "round": "League Stage - 5",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -539,59 +527,59 @@ const siteData = {
             "goals": [
                 {
                     "minute": "6",
-                    "player": "D. Raum",
+                    "player": "David Raum",
                     "team": "home"
                 },
                 {
                     "minute": "9",
-                    "player": "A. Nusa",
+                    "player": "Antonio Nusa",
                     "team": "home"
                 },
                 {
                     "minute": "58",
-                    "player": "M. Udol",
+                    "player": "Matthieu Udol",
                     "team": "away"
                 },
                 {
                     "minute": "90+4",
-                    "player": "A. Nusa",
+                    "player": "Antonio Nusa",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "35",
-                    "player": "I. Ganiou",
+                    "player": "Ismaelo Ganiou",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "43",
-                    "player": "F. Sotoca",
+                    "player": "Florian Sotoca",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "61",
-                    "player": "M. Udol",
+                    "player": "Matthieu Udol",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "63",
-                    "player": "B. Gruda",
+                    "player": "Brajan Gruda",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "79",
-                    "player": "M. Skoras",
+                    "player": "Michał Skóraś",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+3",
-                    "player": "N. El Aynaoui",
+                    "player": "Neil El Aynaoui",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -603,7 +591,7 @@ const siteData = {
             "time": "03:00",
             "home": "Feyenoord",
             "away": "FC Porto",
-            "stadium": "De Kuip",
+            "stadium": "Stadion Feijenoord",
             "round": "League Stage - 5",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -647,44 +635,44 @@ const siteData = {
             "goals": [
                 {
                     "minute": "2",
-                    "player": "O. Targhalline",
+                    "player": "Oussama Targhalline",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "13",
-                    "player": "V. Froholdt",
+                    "player": "Victor Froholdt",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "22",
-                    "player": "A. Costa",
+                    "player": "Alberto Costa",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "69",
-                    "player": "J. Kiwior",
+                    "player": "Jakub Kiwior",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "71",
-                    "player": "T. Kraaijeveld",
+                    "player": "Thijs Kraaijeveld",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+4",
-                    "player": "G. Borges",
+                    "player": "Gonçalo Borges",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "90+4",
-                    "player": "P. Rosario",
+                    "player": "Pablo Rosario",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -696,7 +684,7 @@ const siteData = {
             "time": "03:00",
             "home": "Real Madrid",
             "away": "PSV Eindhoven",
-            "stadium": "Bernabéu",
+            "stadium": "Santiago Bernabéu Stadium",
             "round": "League Stage - 5",
             "statusCode": "FT",
             "minuteDisplay": "FT",
@@ -740,57 +728,57 @@ const siteData = {
             "goals": [
                 {
                     "minute": "32",
-                    "player": "I. Perisic",
+                    "player": "Ivan Perišić",
                     "team": "away"
                 },
                 {
                     "minute": "50",
-                    "player": "F. Valverde",
+                    "player": "Federico Valverde",
                     "team": "home"
                 },
                 {
                     "minute": "60",
-                    "player": "J. Bellingham",
+                    "player": "Jude Bellingham",
                     "team": "home"
                 },
                 {
                     "minute": "64",
-                    "player": "K. Mbappe",
+                    "player": "Kylian Mbappé",
                     "team": "home"
                 },
                 {
                     "minute": "84",
-                    "player": "K. Mbappe",
+                    "player": "Kylian Mbappé",
                     "team": "home"
                 },
                 {
                     "minute": "87",
-                    "player": "Vinicius Junior",
+                    "player": "Vinícius Júnior",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "30",
-                    "player": "A. Tchouameni",
+                    "player": "Aurélien Tchouaméni",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "42",
-                    "player": "F. Kostic",
+                    "player": "Filip Kostić",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "44",
-                    "player": "A. Rudiger",
+                    "player": "Antonio Rüdiger",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "81",
-                    "player": "E. Camavinga",
+                    "player": "Eduardo Camavinga",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -831,8 +819,8 @@ const siteData = {
                     "away": 75
                 },
                 "poisson": {
-                    "home": 36,
-                    "away": 64
+                    "home": 35,
+                    "away": 65
                 },
                 "h2h": {
                     "home": 0,
@@ -846,25 +834,25 @@ const siteData = {
             "goals": [
                 {
                     "minute": "43",
-                    "player": "C. Hernandez",
+                    "player": "Cucho Hernández",
                     "team": "away"
                 },
                 {
                     "minute": "57",
-                    "player": "C. Hernandez",
+                    "player": "Cucho Hernández",
                     "team": "away"
                 }
             ],
             "cards": [
                 {
                     "minute": "7",
-                    "player": "F. Bernal",
+                    "player": "Facundo Bernal",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "29",
-                    "player": "R. Ibrahim",
+                    "player": "Rahim Ibrahim",
                     "team": "home",
                     "type": "yellow"
                 }
@@ -920,38 +908,38 @@ const siteData = {
             "goals": [
                 {
                     "minute": "57",
-                    "player": "L. Milla",
+                    "player": "Luis Milla",
                     "team": "home"
                 }
             ],
             "cards": [
                 {
                     "minute": "12",
-                    "player": "N. Paz",
+                    "player": "Nico Paz",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "48",
-                    "player": "Y. Couto",
+                    "player": "Yan Couto",
                     "team": "home",
                     "type": "yellow"
                 },
                 {
                     "minute": "65",
-                    "player": "L. Majer",
+                    "player": "Lovro Majer",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "76",
-                    "player": "R. Marin",
+                    "player": "Răzvan Marin",
                     "team": "away",
                     "type": "yellow"
                 },
                 {
                     "minute": "78",
-                    "player": "S. Pilo",
+                    "player": "Stavros Pilios",
                     "team": "away",
                     "type": "yellow"
                 }
@@ -1084,7 +1072,10 @@ const siteData = {
             "away": "Houston Dynamo",
             "stadium": "Avaya Stadium",
             "round": "Round of 16",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 1,
             "homeLogo": "https://media.api-sports.io/football/teams/1596.png",
             "awayLogo": "https://media.api-sports.io/football/teams/1600.png",
             "prediction": "2 - 1",
@@ -1119,7 +1110,68 @@ const siteData = {
                     "home": 55,
                     "away": 45
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "11",
+                    "player": "Ronaldo Vieira",
+                    "team": "home"
+                },
+                {
+                    "minute": "24",
+                    "player": "Eduard Löwen",
+                    "team": "home"
+                },
+                {
+                    "minute": "80",
+                    "player": "Duncan McGuire",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "23",
+                    "player": "Agustin Resch",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "30",
+                    "player": "Artur",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "67",
+                    "player": "Timo Werner",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "70",
+                    "player": "Reid Roberts",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "81",
+                    "player": "Agustin Resch",
+                    "team": "away",
+                    "type": "red"
+                },
+                {
+                    "minute": "82",
+                    "player": "Lucas Halter",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "87",
+                    "player": "Jamar Ricketts",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         }
     ],
     "news": [
@@ -2440,7 +2492,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "25/11/2026 09:52 WIB",
+    "standingsUpdated": "25/11/2026 18:54 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -27965,7 +28017,7 @@ const siteData = {
                 "time": "00:45",
                 "home": "Slavia Praha",
                 "away": "Villarreal",
-                "stadium": "Fortuna Arena",
+                "stadium": "Sinobo Stadium",
                 "round": "League Stage - 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/560.png",
@@ -28145,7 +28197,7 @@ const siteData = {
                 "time": "03:00",
                 "home": "Sporting CP",
                 "away": "Manchester United",
-                "stadium": "",
+                "stadium": "Estádio José Alvalade",
                 "round": "League Stage - 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/228.png",
@@ -28190,7 +28242,7 @@ const siteData = {
                 "time": "03:00",
                 "home": "Inter",
                 "away": "VfB Stuttgart",
-                "stadium": "",
+                "stadium": "San Siro/Giuseppe Meazza",
                 "round": "League Stage - 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/505.png",
@@ -28216,8 +28268,8 @@ const siteData = {
                         "away": 60
                     },
                     "poisson": {
-                        "home": 32,
-                        "away": 68
+                        "home": 31,
+                        "away": 69
                     },
                     "h2h": {
                         "home": 0,
@@ -28235,7 +28287,7 @@ const siteData = {
                 "time": "03:00",
                 "home": "Atletico Madrid",
                 "away": "Viking",
-                "stadium": "Metropolitano Stadium",
+                "stadium": "Riyadh Air Metropolitano",
                 "round": "League Stage - 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/530.png",
@@ -28325,7 +28377,7 @@ const siteData = {
                 "time": "03:00",
                 "home": "Club Brugge KV",
                 "away": "Liverpool",
-                "stadium": "Jan Breydel Stadion",
+                "stadium": "Jan Breydel Stadium",
                 "round": "League Stage - 5",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/569.png",
@@ -28370,7 +28422,7 @@ const siteData = {
                 "time": "08:00",
                 "home": "Toluca",
                 "away": "Atlas",
-                "stadium": "",
+                "stadium": "Estadio Nemesio Diez",
                 "round": "Quarter-finals",
                 "statusCode": "NS",
                 "homeLogo": "https://media.api-sports.io/football/teams/2281.png",
