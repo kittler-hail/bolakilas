@@ -3,7 +3,7 @@
   "home": "Bodo/Glimt",
   "away": "Lask Linz",
   "statusCode": "FT",
-  "updatedAt": "25/11/2026 07:59 WIB",
+  "updatedAt": "25/11/2026 16:45 WIB",
   "statistics": {
     "home": {
       "possession": 66,
@@ -13,12 +13,12 @@
       "fouls": 5,
       "offsides": 1,
       "yellowCards": 1,
-      "redCards": null,
+      "redCards": 0,
       "shotsInsidebox": 7,
       "shotsOutsidebox": 2,
-      "passesTotal": 801,
+      "passesTotal": 800,
       "passesAccurate": 728,
-      "passesPct": 91
+      "passesPct": null
     },
     "away": {
       "possession": 34,
@@ -28,12 +28,12 @@
       "fouls": 14,
       "offsides": 0,
       "yellowCards": 1,
-      "redCards": null,
+      "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 1,
       "passesTotal": 408,
       "passesAccurate": 336,
-      "passesPct": 82
+      "passesPct": null
     }
   },
   "lineups": {
@@ -44,88 +44,74 @@
         {
           "number": 12,
           "name": "Nikita Haikin",
-          "position": "Kiper",
-          "rating": "7.0"
+          "position": "Kiper"
         },
         {
           "number": 20,
           "name": "Fredrik Sjøvold",
-          "position": "Bek",
-          "rating": "7.3"
+          "position": "Bek"
         },
         {
           "number": 4,
           "name": "Odin Luras Bjørtuft",
-          "position": "Bek",
-          "rating": "7.2"
+          "position": "Bek"
         },
         {
           "number": 6,
           "name": "Jostein Gundersen",
-          "position": "Bek",
-          "rating": "7.2"
+          "position": "Bek"
         },
         {
           "number": 15,
           "name": "Fredrik André Bjørkan",
-          "position": "Bek",
-          "rating": "7.9"
+          "position": "Bek"
         },
         {
           "number": 8,
           "name": "Sondre Auklend",
-          "position": "Gelandang",
-          "rating": "7.2"
+          "position": "Gelandang"
         },
         {
           "number": 7,
           "name": "Patrick Berg",
-          "position": "Gelandang",
-          "rating": "7.9"
+          "position": "Gelandang"
         },
         {
           "number": 19,
           "name": "Sondre Fet",
-          "position": "Gelandang",
-          "rating": "6.6"
+          "position": "Gelandang"
         },
         {
           "number": 11,
           "name": "Ole Didrik Blomberg",
-          "position": "Penyerang",
-          "rating": "7.2"
+          "position": "Penyerang"
         },
         {
           "number": 17,
           "name": "Ola Brynhildsen",
-          "position": "Penyerang",
-          "rating": "6.2"
+          "position": "Penyerang"
         },
         {
           "number": 10,
           "name": "Jens Petter Hauge",
-          "position": "Penyerang",
-          "rating": "7.3"
+          "position": "Penyerang"
         }
       ],
       "substitutes": [
         {
           "number": 16,
           "name": "Joshua Kitolano",
-          "position": "Gelandang",
-          "rating": "6.9"
+          "position": "Gelandang"
         },
         {
           "number": 14,
           "name": "Ulrik Saltnes",
-          "position": "Gelandang",
-          "rating": "6.5"
+          "position": "Gelandang"
         },
         {
           "number": 9,
           "name": "Andreas Helmersen",
-          "position": "Penyerang",
-          "rating": "6.5"
+          "position": "Penyerang"
         },
         {
           "number": 25,
@@ -171,105 +157,92 @@
         {
           "number": 1,
           "name": "Lukas Jungwirth",
-          "position": "Kiper",
-          "rating": "7.0"
+          "position": "Kiper"
         },
         {
           "number": 20,
           "name": "Kasper Jørgensen",
-          "position": "Bek",
-          "rating": "6.6"
+          "position": "Bek"
         },
         {
           "number": 4,
           "name": "Xavier Mbuyamba",
-          "position": "Bek",
-          "rating": "8.5"
+          "position": "Bek"
         },
         {
           "number": 43,
           "name": "Alemão",
           "position": "Bek",
-          "rating": "7.7"
+          "rating": "6.9"
         },
         {
           "number": 3,
           "name": "Miguel Freckleton",
-          "position": "Bek",
-          "rating": "7.0"
+          "position": "Bek"
         },
         {
           "number": 25,
           "name": "Yvan Dibango",
-          "position": "Bek",
-          "rating": "6.9"
+          "position": "Bek"
         },
         {
           "number": 9,
           "name": "Krystof Daněk",
-          "position": "Gelandang",
-          "rating": "6.5"
+          "position": "Gelandang"
         },
         {
           "number": 10,
           "name": "Robert Ljubičić",
-          "position": "Gelandang",
-          "rating": "6.5"
+          "position": "Gelandang"
         },
         {
           "number": 18,
           "name": "Alessandro Schöpf",
-          "position": "Gelandang",
-          "rating": "6.3"
+          "position": "Gelandang"
         },
         {
           "number": 7,
           "name": "Samuel Adeniran",
-          "position": "Penyerang",
-          "rating": "6.7"
+          "position": "Penyerang"
         },
         {
           "number": 27,
           "name": "Christoph Lang",
-          "position": "Penyerang",
-          "rating": "6.7"
+          "position": "Penyerang"
         }
       ],
       "substitutes": [
         {
           "number": 30,
           "name": "Sascha Horvath",
-          "position": "Gelandang",
-          "rating": "6.6"
+          "position": "Gelandang"
         },
         {
           "number": 8,
           "name": "Moses Usor",
-          "position": "Penyerang",
-          "rating": "6.2"
+          "position": "Penyerang"
         },
         {
           "number": 23,
           "name": "Daniel Elfadli",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "5.9"
         },
         {
           "number": 6,
           "name": "Melayro Bogarde",
-          "position": "Bek",
-          "rating": "5.3"
+          "position": "Bek"
         },
         {
           "number": 11,
           "name": "Saša Kalajdžić",
-          "position": "Penyerang",
-          "rating": "6.7"
+          "position": "Penyerang"
         },
         {
           "number": 50,
           "name": "Fabian Schillinger",
-          "position": "Kiper"
+          "position": "Kiper",
+          "rating": "0.0"
         },
         {
           "number": 33,
