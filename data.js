@@ -1,7 +1,7 @@
 /* =========================================================
    BOLAKILAS — DATA HARIAN
    File ini di-generate OTOMATIS oleh fetch-schedule.js (sumber data:
-   API-Football v3) pada 2026-11-26T03:18:57.583Z.
+   API-Football v3) pada 2026-11-26T13:23:42.524Z.
 
    Field hasil fetch (matches, standings, history, upcoming) akan
    TERTIMPA tiap kali script dijalankan ulang — jangan diedit manual.
@@ -386,8 +386,8 @@ const siteData = {
                     "away": 38
                 },
                 "poisson": {
-                    "home": 75,
-                    "away": 25
+                    "home": 76,
+                    "away": 24
                 },
                 "h2h": {
                     "home": 50,
@@ -572,8 +572,8 @@ const siteData = {
                     "away": 60
                 },
                 "poisson": {
-                    "home": 31,
-                    "away": 69
+                    "home": 32,
+                    "away": 68
                 },
                 "h2h": {
                     "home": 0,
@@ -801,8 +801,8 @@ const siteData = {
                     "away": 41
                 },
                 "poisson": {
-                    "home": 46,
-                    "away": 54
+                    "home": 47,
+                    "away": 53
                 },
                 "h2h": {
                     "home": 0,
@@ -927,8 +927,8 @@ const siteData = {
             "away": "Club America",
             "stadium": "Estadio BBVA",
             "round": "Quarter-finals",
-            "statusCode": "1H",
-            "minuteDisplay": "6'",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
             "homeScore": 0,
             "awayScore": 0,
             "homeLogo": "https://media.api-sports.io/football/teams/2282.png",
@@ -965,7 +965,51 @@ const siteData = {
                     "home": 50,
                     "away": 50
                 }
-            }
+            },
+            "cards": [
+                {
+                    "minute": "11",
+                    "player": "Ricardo Chávez",
+                    "team": "home",
+                    "type": "red"
+                },
+                {
+                    "minute": "44",
+                    "player": "Erick Sánchez",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "50",
+                    "player": "Oscar Andres Perea Abonce",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "58",
+                    "player": "Edwin Cerrillo",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "76",
+                    "player": "Alan Cervantes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "88",
+                    "player": "Israel Reyes",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "Carlos Álvarez",
+                    "team": "away",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "Liga 1 (Indonesia)",
@@ -973,9 +1017,12 @@ const siteData = {
             "time": "15:30",
             "home": "Pusamania Borneo",
             "away": "Persita",
-            "stadium": "Stadion Batakan",
+            "stadium": "Stadion Segiri",
             "round": "Pekan 6",
-            "statusCode": "NS",
+            "statusCode": "FT",
+            "minuteDisplay": "FT",
+            "homeScore": 2,
+            "awayScore": 3,
             "homeLogo": "https://media.api-sports.io/football/teams/2442.png",
             "awayLogo": "https://media.api-sports.io/football/teams/4244.png",
             "prediction": "1 - 2",
@@ -1010,7 +1057,60 @@ const siteData = {
                     "home": 63,
                     "away": 38
                 }
-            }
+            },
+            "goals": [
+                {
+                    "minute": "35",
+                    "player": "J. Villa",
+                    "team": "home"
+                },
+                {
+                    "minute": "43",
+                    "player": "A. Ramalingom",
+                    "team": "away"
+                },
+                {
+                    "minute": "59",
+                    "player": "I. Mendonca",
+                    "team": "home"
+                },
+                {
+                    "minute": "75",
+                    "player": "A. Ramalingom",
+                    "team": "away"
+                },
+                {
+                    "minute": "90+1",
+                    "player": "R. Rodriguez",
+                    "team": "away"
+                }
+            ],
+            "cards": [
+                {
+                    "minute": "49",
+                    "player": "D. Sonriza",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "54",
+                    "player": "M. Jardel",
+                    "team": "away",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "69",
+                    "player": "K. Teguh",
+                    "team": "home",
+                    "type": "yellow"
+                },
+                {
+                    "minute": "90+5",
+                    "player": "R. Adi",
+                    "team": "home",
+                    "type": "yellow"
+                }
+            ]
         },
         {
             "league": "UEFA Europa Conference League",
@@ -2189,6 +2289,17 @@ const siteData = {
             },
             {
                 "rank": 2,
+                "team": "Persita",
+                "logo": "https://media.api-sports.io/football/teams/4244.png",
+                "played": 10,
+                "win": 6,
+                "draw": 3,
+                "lose": 1,
+                "gd": 8,
+                "points": 21
+            },
+            {
+                "rank": 3,
                 "team": "Dewa United",
                 "logo": "https://media.api-sports.io/football/teams/17902.png",
                 "played": 10,
@@ -2199,7 +2310,7 @@ const siteData = {
                 "points": 20
             },
             {
-                "rank": 3,
+                "rank": 4,
                 "team": "Persepam Madura Utd",
                 "logo": "https://media.api-sports.io/football/teams/2444.png",
                 "played": 10,
@@ -2210,7 +2321,7 @@ const siteData = {
                 "points": 19
             },
             {
-                "rank": 4,
+                "rank": 5,
                 "team": "Persib Bandung",
                 "logo": "https://media.api-sports.io/football/teams/2445.png",
                 "played": 10,
@@ -2221,7 +2332,7 @@ const siteData = {
                 "points": 19
             },
             {
-                "rank": 5,
+                "rank": 6,
                 "team": "Bali United",
                 "logo": "https://media.api-sports.io/football/teams/2448.png",
                 "played": 10,
@@ -2230,17 +2341,6 @@ const siteData = {
                 "lose": 3,
                 "gd": 16,
                 "points": 19
-            },
-            {
-                "rank": 6,
-                "team": "Persita",
-                "logo": "https://media.api-sports.io/football/teams/4244.png",
-                "played": 9,
-                "win": 5,
-                "draw": 3,
-                "lose": 1,
-                "gd": 7,
-                "points": 18
             },
             {
                 "rank": 7,
@@ -2301,11 +2401,11 @@ const siteData = {
                 "rank": 12,
                 "team": "Pusamania Borneo",
                 "logo": "https://media.api-sports.io/football/teams/2442.png",
-                "played": 9,
+                "played": 10,
                 "win": 3,
                 "draw": 2,
-                "lose": 4,
-                "gd": -2,
+                "lose": 5,
+                "gd": -3,
                 "points": 11
             },
             {
@@ -2376,7 +2476,7 @@ const siteData = {
             }
         ]
     },
-    "standingsUpdated": "26/11/2026 10:18 WIB",
+    "standingsUpdated": "26/11/2026 20:23 WIB",
     "topScorers": {
         "Premier League": [
             {
@@ -3407,7 +3507,7 @@ const siteData = {
                 "player": "A. Diallo",
                 "photo": "https://media.api-sports.io/football/players/157997.png",
                 "reason": "Injury",
-                "since": "2026-09-20"
+                "since": "2026-11-28"
             },
             {
                 "player": "L. Shaw",
@@ -3523,7 +3623,7 @@ const siteData = {
                 "player": "C. Hudson-Odoi",
                 "photo": "https://media.api-sports.io/football/players/2298.png",
                 "reason": "Injury",
-                "since": "2026-11-27"
+                "since": "2026-11-21"
             },
             {
                 "player": "X. Schlager",
@@ -5478,7 +5578,7 @@ const siteData = {
             {
                 "player": "J. Toljan",
                 "photo": "https://media.api-sports.io/football/players/1118.png",
-                "reason": "Injury",
+                "reason": "Hamstring Injury",
                 "since": "2026-11-27"
             }
         ],
@@ -7899,7 +7999,7 @@ const siteData = {
                 "player": "N. Awortwie-Grant",
                 "photo": "https://media.api-sports.io/football/players/373443.png",
                 "reason": "Knee Injury",
-                "since": "2026-11-28"
+                "since": "2026-11-21"
             },
             {
                 "player": "L. Eickel",
@@ -8132,6 +8232,12 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/303679.png",
                 "reason": "Yellow Cards",
                 "since": "2026-11-28"
+            },
+            {
+                "player": "R. Khedira",
+                "photo": "https://media.api-sports.io/football/players/25300.png",
+                "reason": "Injury",
+                "since": "2026-11-28"
             }
         ],
         "eintracht-frankfurt": [
@@ -8262,12 +8368,6 @@ const siteData = {
                 "photo": "https://media.api-sports.io/football/players/19617.png",
                 "reason": "Leg Injury",
                 "since": "2026-11-28"
-            },
-            {
-                "player": "B. Sapoko Ndiaye",
-                "photo": "https://media.api-sports.io/football/players/630895.png",
-                "reason": "Abdominal strain",
-                "since": "2026-11-28"
             }
         ],
         "vfb-stuttgart": [
@@ -8311,7 +8411,7 @@ const siteData = {
                 "player": "L. Sauer",
                 "photo": "https://media.api-sports.io/football/players/342163.png",
                 "reason": "Muscle Injury",
-                "since": "2026-11-28"
+                "since": "2026-10-31"
             },
             {
                 "player": "D. Seimen",
@@ -28879,8 +28979,8 @@ const siteData = {
                         "away": 57
                     },
                     "poisson": {
-                        "home": 37,
-                        "away": 63
+                        "home": 36,
+                        "away": 64
                     },
                     "h2h": {
                         "home": 7,
@@ -28924,8 +29024,8 @@ const siteData = {
                         "away": 45
                     },
                     "poisson": {
-                        "home": 48,
-                        "away": 52
+                        "home": 47,
+                        "away": 53
                     },
                     "h2h": {
                         "home": 20,
