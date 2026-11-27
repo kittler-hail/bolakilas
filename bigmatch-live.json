@@ -3,7 +3,7 @@
   "home": "Marseille",
   "away": "Levski Sofia",
   "statusCode": "FT",
-  "updatedAt": "27/11/2026 10:11 WIB",
+  "updatedAt": "27/11/2026 19:38 WIB",
   "statistics": {
     "home": {
       "possession": 52,
@@ -13,12 +13,12 @@
       "fouls": 7,
       "offsides": 0,
       "yellowCards": 1,
-      "redCards": 0,
+      "redCards": null,
       "shotsInsidebox": 8,
       "shotsOutsidebox": 4,
       "passesTotal": 592,
       "passesAccurate": 521,
-      "passesPct": null
+      "passesPct": 88
     },
     "away": {
       "possession": 48,
@@ -28,12 +28,12 @@
       "fouls": 15,
       "offsides": 2,
       "yellowCards": 2,
-      "redCards": 0,
+      "redCards": null,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 3,
       "passesTotal": 550,
       "passesAccurate": 475,
-      "passesPct": null
+      "passesPct": 86
     }
   },
   "lineups": {
@@ -44,142 +44,120 @@
         {
           "number": 12,
           "name": "J. de Lange",
-          "position": "Kiper",
-          "rating": "6.8"
+          "position": "Kiper"
         },
         {
           "number": 74,
           "name": "K. Bezahaf",
-          "position": "Bek",
-          "rating": "6.4"
+          "position": "Bek"
         },
         {
           "number": 4,
           "name": "C. Egan-Riley",
-          "position": "Bek",
-          "rating": "7.0"
+          "position": "Bek"
         },
         {
           "number": 21,
           "name": "N. Aguerd",
-          "position": "Bek",
-          "rating": "7.2"
+          "position": "Bek"
         },
         {
           "number": 25,
           "name": "U. Garcia",
-          "position": "Bek",
-          "rating": "6.5"
+          "position": "Bek"
         },
         {
           "number": 23,
           "name": "P. Højbjerg",
-          "position": "Gelandang",
-          "rating": "7.3"
+          "position": "Gelandang"
         },
         {
           "number": 8,
           "name": "H. Abdelli",
-          "position": "Gelandang",
-          "rating": "7.2"
+          "position": "Gelandang"
         },
         {
           "number": 48,
           "name": "K. Abdallah",
-          "position": "Gelandang",
-          "rating": "6.4"
+          "position": "Gelandang"
         },
         {
           "number": 7,
           "name": "A. Gomes",
-          "position": "Gelandang",
-          "rating": "6.3"
+          "position": "Gelandang"
         },
         {
           "number": 14,
           "name": "Igor Paixão",
           "position": "Gelandang",
-          "rating": "6.6"
+          "rating": "7.2"
         },
         {
           "number": 9,
           "name": "A. Gouiri",
-          "position": "Penyerang",
-          "rating": "7.1"
+          "position": "Penyerang"
         }
       ],
       "substitutes": [
         {
           "number": 45,
           "name": "M. Baradji",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 77,
           "name": "A. Harit",
-          "position": "Gelandang",
-          "rating": "6.6"
+          "position": "Gelandang"
         },
         {
           "number": 42,
           "name": "Nouhoum Kamissoko",
-          "position": "Gelandang",
-          "rating": "0.0"
+          "position": "Gelandang"
         },
         {
           "number": 11,
           "name": "N. Maupay",
-          "position": "Penyerang",
-          "rating": "6.3"
+          "position": "Penyerang"
         },
         {
           "number": 18,
           "name": "B. Meité",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 43,
           "name": "T. Mmadi",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 29,
           "name": "F. Moumbagna",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 6,
           "name": "T. Nnadi",
-          "position": "Gelandang",
-          "rating": "6.5"
+          "position": "Gelandang"
         },
         {
           "number": 92,
           "name": "T. Vermot",
-          "position": "Kiper",
-          "rating": "0.0"
+          "position": "Kiper"
         },
         {
           "number": 40,
           "name": "J. Van Neck",
-          "position": "Kiper",
-          "rating": "0.0"
+          "position": "Kiper"
         },
         {
           "number": 46,
           "name": "E. Mbondo",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 84,
           "name": "U. Lamare El Kadmiri",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         }
       ]
     },
@@ -190,136 +168,119 @@
         {
           "number": 92,
           "name": "S. Vutsov",
-          "position": "Kiper",
-          "rating": "7.0"
+          "position": "Kiper"
         },
         {
           "number": 31,
           "name": "N. Serafimov",
-          "position": "Bek",
-          "rating": "6.2"
+          "position": "Bek"
         },
         {
           "number": 50,
           "name": "K. Dimitrov",
-          "position": "Bek",
-          "rating": "6.7"
+          "position": "Bek"
         },
         {
           "number": 4,
           "name": "C. Makoun",
-          "position": "Bek",
-          "rating": "7.1"
+          "position": "Bek"
         },
         {
           "number": 20,
           "name": "Álex Centelles",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.2"
         },
         {
           "number": 8,
           "name": "M. Grujić",
-          "position": "Gelandang",
-          "rating": "7.1"
+          "position": "Gelandang"
         },
         {
           "number": 19,
           "name": "E. El Moubarik",
-          "position": "Gelandang",
-          "rating": "7.0"
+          "position": "Gelandang"
         },
         {
           "number": 21,
           "name": "Aldair",
           "position": "Gelandang",
-          "rating": "6.3"
+          "rating": "6.2"
         },
         {
           "number": 47,
           "name": "A. Bouras",
-          "position": "Gelandang",
-          "rating": "6.5"
+          "position": "Gelandang"
         },
         {
           "number": 11,
           "name": "A. Oko-Flex",
-          "position": "Gelandang",
-          "rating": "6.7"
+          "position": "Gelandang"
         },
         {
           "number": 7,
           "name": "Reinaldo",
           "position": "Penyerang",
-          "rating": "6.4"
+          "rating": "7.0"
         }
       ],
       "substitutes": [
         {
           "number": 22,
           "name": "M. Soula",
-          "position": "Penyerang",
-          "rating": "6.4"
+          "position": "Penyerang"
         },
         {
           "number": 10,
           "name": "A. Mitkov",
-          "position": "Gelandang",
-          "rating": "6.3"
+          "position": "Gelandang"
         },
         {
           "number": 78,
           "name": "M. Lukov",
-          "position": "Kiper",
-          "rating": "0.0"
+          "position": "Kiper"
         },
         {
           "number": 27,
           "name": "David Kusso",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 2,
           "name": "Hevertton Santos",
-          "position": "Bek",
-          "rating": "0.0"
+          "position": "Bek"
         },
         {
           "number": 28,
           "name": "S. Stoyanchov",
-          "position": "Penyerang",
-          "rating": "0.0"
+          "position": "Penyerang"
         },
         {
           "number": 18,
           "name": "G. Trdin",
-          "position": "Gelandang",
-          "rating": "0.0"
+          "position": "Gelandang"
         },
         {
           "number": 1,
           "name": "O. Vladimirov",
-          "position": "Kiper",
-          "rating": "0.0"
+          "position": "Kiper"
         },
         {
           "number": 3,
           "name": "Maicon",
           "position": "Bek",
-          "rating": "6.3"
+          "rating": "6.6"
         },
         {
           "number": 17,
           "name": "Everton Bala",
           "position": "Penyerang",
-          "rating": "5.9"
+          "rating": "6.7"
         },
         {
           "number": 9,
           "name": "J. Perea",
-          "position": "Penyerang",
-          "rating": "6.0"
+          "position": "Penyerang"
         }
       ]
     }
