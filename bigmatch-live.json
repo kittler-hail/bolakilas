@@ -3,7 +3,7 @@
   "home": "Nottingham Forest",
   "away": "Chelsea",
   "statusCode": "FT",
-  "updatedAt": "28/11/2026 10:33 WIB",
+  "updatedAt": "28/11/2026 19:18 WIB",
   "statistics": {
     "home": {
       "possession": 36,
@@ -16,8 +16,8 @@
       "redCards": 0,
       "shotsInsidebox": 4,
       "shotsOutsidebox": 6,
-      "passesTotal": 319,
-      "passesAccurate": 245,
+      "passesTotal": 324,
+      "passesAccurate": 250,
       "passesPct": null
     },
     "away": {
@@ -31,8 +31,8 @@
       "redCards": 0,
       "shotsInsidebox": 5,
       "shotsOutsidebox": 4,
-      "passesTotal": 584,
-      "passesAccurate": 505,
+      "passesTotal": 598,
+      "passesAccurate": 518,
       "passesPct": null
     }
   },
@@ -57,7 +57,7 @@
           "number": 31,
           "name": "N. Milenković",
           "position": "Bek",
-          "rating": "6.9"
+          "rating": "6.2"
         },
         {
           "number": 5,
@@ -99,13 +99,13 @@
           "number": 10,
           "name": "M. Gibbs-White",
           "position": "Gelandang",
-          "rating": "7.1"
+          "rating": "7.3"
         },
         {
           "number": 19,
           "name": "L. Delap",
           "position": "Penyerang",
-          "rating": "6.2"
+          "rating": "6.1"
         }
       ],
       "substitutes": [
@@ -173,7 +173,7 @@
           "number": 1,
           "name": "E. Martínez",
           "position": "Kiper",
-          "rating": "6.7"
+          "rating": "6.8"
         },
         {
           "number": 34,
@@ -197,7 +197,7 @@
           "number": 29,
           "name": "Pep Chavarría",
           "position": "Bek",
-          "rating": "6.6"
+          "rating": "6.5"
         },
         {
           "number": 14,
